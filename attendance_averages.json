@@ -1,0 +1,97 @@
+{
+  "league": "LKL",
+  "season": "2026-27",
+  "updated": "2026-10-09T15:05:52+00:00",
+  "clubs": [
+    {
+      "league": "LKL",
+      "season": "2026-27",
+      "club": "Rytas",
+      "home_games_counted": 3,
+      "average": 4078,
+      "total": 12234,
+      "max": 8179,
+      "min": 1757
+    },
+    {
+      "league": "LKL",
+      "season": "2026-27",
+      "club": "Šiauliai",
+      "home_games_counted": 3,
+      "average": 2820,
+      "total": 8461,
+      "max": 4228,
+      "min": 1314
+    },
+    {
+      "league": "LKL",
+      "season": "2026-27",
+      "club": "Žalgiris",
+      "home_games_counted": 2,
+      "average": 2226,
+      "total": 4453,
+      "max": 2536,
+      "min": 1917
+    },
+    {
+      "league": "LKL",
+      "season": "2026-27",
+      "club": "Neptūnas",
+      "home_games_counted": 3,
+      "average": 1648,
+      "total": 4945,
+      "max": 1779,
+      "min": 1480
+    },
+    {
+      "league": "LKL",
+      "season": "2026-27",
+      "club": "Lietkabelis",
+      "home_games_counted": 3,
+      "average": 1545,
+      "total": 4635,
+      "max": 1778,
+      "min": 1335
+    },
+    {
+      "league": "LKL",
+      "season": "2026-27",
+      "club": "Nevėžis-Paskolų klubas",
+      "home_games_counted": 2,
+      "average": 1069,
+      "total": 2138,
+      "max": 1129,
+      "min": 1009
+    },
+    {
+      "league": "LKL",
+      "season": "2026-27",
+      "club": "Gargždai",
+      "home_games_counted": 3,
+      "average": 989,
+      "total": 2967,
+      "max": 1190,
+      "min": 823
+    },
+    {
+      "league": "LKL",
+      "season": "2026-27",
+      "club": "Jonavos Hipocredit",
+      "home_games_counted": 3,
+      "average": 965,
+      "total": 2896,
+      "max": 1632,
+      "min": 599
+    },
+    {
+      "league": "LKL",
+      "season": "2026-27",
+      "club": "Juventus",
+      "home_games_counted": 3,
+      "average": 893,
+      "total": 2680,
+      "max": 944,
+      "min": 843
+    }
+  ]
+}
