@@ -1,0 +1,187 @@
+{
+  "league": "ACB",
+  "season": "2026-27",
+  "updated": "2026-10-09T13:07:47+00:00",
+  "clubs": [
+    {
+      "league": "ACB",
+      "season": "2026-27",
+      "club": "Valencia Basket",
+      "home_games_counted": 1,
+      "average": 13111,
+      "total": 13111,
+      "max": 13111,
+      "min": 13111
+    },
+    {
+      "league": "ACB",
+      "season": "2026-27",
+      "club": "Unicaja",
+      "home_games_counted": 1,
+      "average": 9936,
+      "total": 9936,
+      "max": 9936,
+      "min": 9936
+    },
+    {
+      "league": "ACB",
+      "season": "2026-27",
+      "club": "Recoletas Salud San Pablo Burgos",
+      "home_games_counted": 1,
+      "average": 8963,
+      "total": 8963,
+      "max": 8963,
+      "min": 8963
+    },
+    {
+      "league": "ACB",
+      "season": "2026-27",
+      "club": "Real Madrid",
+      "home_games_counted": 1,
+      "average": 8123,
+      "total": 8123,
+      "max": 8123,
+      "min": 8123
+    },
+    {
+      "league": "ACB",
+      "season": "2026-27",
+      "club": "Surne Bilbao",
+      "home_games_counted": 1,
+      "average": 8097,
+      "total": 8097,
+      "max": 8097,
+      "min": 8097
+    },
+    {
+      "league": "ACB",
+      "season": "2026-27",
+      "club": "Kosner Baskonia",
+      "home_games_counted": 1,
+      "average": 8073,
+      "total": 8073,
+      "max": 8073,
+      "min": 8073
+    },
+    {
+      "league": "ACB",
+      "season": "2026-27",
+      "club": "Casademont Zaragoza",
+      "home_games_counted": 1,
+      "average": 7364,
+      "total": 7364,
+      "max": 7364,
+      "min": 7364
+    },
+    {
+      "league": "ACB",
+      "season": "2026-27",
+      "club": "Ucam Murcia",
+      "home_games_counted": 1,
+      "average": 7211,
+      "total": 7211,
+      "max": 7211,
+      "min": 7211
+    },
+    {
+      "league": "ACB",
+      "season": "2026-27",
+      "club": "Leyma Coruna",
+      "home_games_counted": 1,
+      "average": 6472,
+      "total": 6472,
+      "max": 6472,
+      "min": 6472
+    },
+    {
+      "league": "ACB",
+      "season": "2026-27",
+      "club": "Monbus Obradoiro",
+      "home_games_counted": 1,
+      "average": 5976,
+      "total": 5976,
+      "max": 5976,
+      "min": 5976
+    },
+    {
+      "league": "ACB",
+      "season": "2026-27",
+      "club": "Ilerna Lleida",
+      "home_games_counted": 1,
+      "average": 5565,
+      "total": 5565,
+      "max": 5565,
+      "min": 5565
+    },
+    {
+      "league": "ACB",
+      "season": "2026-27",
+      "club": "Rio Breogan",
+      "home_games_counted": 1,
+      "average": 5280,
+      "total": 5280,
+      "max": 5280,
+      "min": 5280
+    },
+    {
+      "league": "ACB",
+      "season": "2026-27",
+      "club": "Fiatc Girona",
+      "home_games_counted": 1,
+      "average": 4367,
+      "total": 4367,
+      "max": 4367,
+      "min": 4367
+    },
+    {
+      "league": "ACB",
+      "season": "2026-27",
+      "club": "Kidsandus Manresa",
+      "home_games_counted": 1,
+      "average": 4210,
+      "total": 4210,
+      "max": 4210,
+      "min": 4210
+    },
+    {
+      "league": "ACB",
+      "season": "2026-27",
+      "club": "La Laguna Tenerife",
+      "home_games_counted": 1,
+      "average": 4103,
+      "total": 4103,
+      "max": 4103,
+      "min": 4103
+    },
+    {
+      "league": "ACB",
+      "season": "2026-27",
+      "club": "Morabanc Andorra",
+      "home_games_counted": 1,
+      "average": 3848,
+      "total": 3848,
+      "max": 3848,
+      "min": 3848
+    },
+    {
+      "league": "ACB",
+      "season": "2026-27",
+      "club": "Barca",
+      "home_games_counted": 1,
+      "average": 3388,
+      "total": 3388,
+      "max": 3388,
+      "min": 3388
+    },
+    {
+      "league": "ACB",
+      "season": "2026-27",
+      "club": "Asisa Joventut",
+      "home_games_counted": 0,
+      "average": null,
+      "total": 0,
+      "max": null,
+      "min": null
+    }
+  ]
+}
