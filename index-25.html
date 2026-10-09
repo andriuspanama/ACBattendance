@@ -1,0 +1,553 @@
+<!DOCTYPE html>
+<html lang="lt">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>ACB lankomumas · Liga Endesa</title>
+  <meta name="description" content="Liga Endesa (ACB) namų rungtynių lankomumo statistika" />
+  <style>
+    :root {
+      --bg: #0b0f14;
+      --surface: #141b24;
+      --surface2: #1c2532;
+      --border: #2a3544;
+      --text: #e8eef5;
+      --muted: #8b9bb0;
+      --accent: #f5a623;
+      --accent2: #3d8bfd;
+      --green: #3dd68c;
+      --red: #f07178;
+      --rank1: #ffd700;
+      --rank2: #c0c0c0;
+      --rank3: #cd7f32;
+      --radius: 12px;
+      --font: "Segoe UI", system-ui, -apple-system, sans-serif;
+    }
+
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+
+    body {
+      font-family: var(--font);
+      background: var(--bg);
+      color: var(--text);
+      line-height: 1.5;
+      min-height: 100vh;
+      background-image:
+        radial-gradient(ellipse 80% 50% at 50% -20%, rgba(61, 139, 253, 0.12), transparent),
+        radial-gradient(ellipse 60% 40% at 100% 100%, rgba(245, 166, 35, 0.06), transparent);
+    }
+
+    .container {
+      max-width: 960px;
+      margin: 0 auto;
+      padding: 1.5rem 1rem 3rem;
+    }
+
+    header {
+      text-align: center;
+      margin-bottom: 2rem;
+      padding-top: 0.5rem;
+    }
+
+    header h1 {
+      font-size: clamp(1.6rem, 4vw, 2.1rem);
+      font-weight: 700;
+      letter-spacing: -0.02em;
+    }
+
+    header h1 span {
+      color: var(--accent);
+    }
+
+    header .subtitle {
+      color: var(--muted);
+      font-size: 0.95rem;
+      margin-top: 0.35rem;
+    }
+
+    .meta {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.75rem 1.25rem;
+      justify-content: center;
+      margin-top: 1rem;
+      font-size: 0.85rem;
+      color: var(--muted);
+    }
+
+    .meta strong {
+      color: var(--text);
+      font-weight: 600;
+    }
+
+    /* Summary cards */
+    .cards {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+      gap: 0.75rem;
+      margin-bottom: 1.75rem;
+    }
+
+    .card {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      padding: 1rem 1.1rem;
+      text-align: center;
+    }
+
+    .card .label {
+      font-size: 0.75rem;
+      text-transform: uppercase;
+      letter-spacing: 0.04em;
+      color: var(--muted);
+      margin-bottom: 0.25rem;
+    }
+
+    .card .value {
+      font-size: 1.45rem;
+      font-weight: 700;
+      font-variant-numeric: tabular-nums;
+    }
+
+    .card .value.accent { color: var(--accent); }
+    .card .value.blue { color: var(--accent2); }
+    .card .value.green { color: var(--green); }
+
+    /* Table */
+    .panel {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      overflow: hidden;
+    }
+
+    .panel-header {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      gap: 0.5rem;
+      padding: 0.9rem 1.1rem;
+      border-bottom: 1px solid var(--border);
+      background: var(--surface2);
+    }
+
+    .panel-header h2 {
+      font-size: 1rem;
+      font-weight: 600;
+    }
+
+    .search {
+      background: var(--bg);
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      color: var(--text);
+      padding: 0.4rem 0.7rem;
+      font-size: 0.85rem;
+      width: 180px;
+      outline: none;
+    }
+
+    .search:focus {
+      border-color: var(--accent2);
+    }
+
+    .table-wrap {
+      overflow-x: auto;
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      font-size: 0.9rem;
+    }
+
+    thead th {
+      text-align: left;
+      padding: 0.7rem 1rem;
+      font-size: 0.75rem;
+      text-transform: uppercase;
+      letter-spacing: 0.04em;
+      color: var(--muted);
+      font-weight: 600;
+      border-bottom: 1px solid var(--border);
+      white-space: nowrap;
+      cursor: pointer;
+      user-select: none;
+    }
+
+    thead th:hover { color: var(--text); }
+    thead th.num, tbody td.num {
+      text-align: right;
+      font-variant-numeric: tabular-nums;
+    }
+
+    tbody tr {
+      border-bottom: 1px solid var(--border);
+      transition: background 0.12s;
+    }
+
+    tbody tr:last-child { border-bottom: none; }
+    tbody tr:hover { background: rgba(61, 139, 253, 0.06); }
+
+    tbody td {
+      padding: 0.75rem 1rem;
+      vertical-align: middle;
+    }
+
+    .rank {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      width: 1.7rem;
+      height: 1.7rem;
+      border-radius: 50%;
+      font-size: 0.8rem;
+      font-weight: 700;
+      background: var(--surface2);
+      color: var(--muted);
+    }
+
+    .rank.r1 { background: var(--rank1); color: #1a1a1a; }
+    .rank.r2 { background: var(--rank2); color: #1a1a1a; }
+    .rank.r3 { background: var(--rank3); color: #1a1a1a; }
+
+    .club-name {
+      font-weight: 600;
+    }
+
+    .bar-cell {
+      min-width: 100px;
+    }
+
+    .bar-track {
+      height: 6px;
+      background: var(--surface2);
+      border-radius: 3px;
+      overflow: hidden;
+      margin-top: 0.3rem;
+    }
+
+    .bar-fill {
+      height: 100%;
+      border-radius: 3px;
+      background: linear-gradient(90deg, var(--accent2), var(--accent));
+      transition: width 0.4s ease;
+    }
+
+    /* Matches section */
+    .section-title {
+      font-size: 1rem;
+      font-weight: 600;
+      margin: 2rem 0 0.75rem;
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+    }
+
+    .section-title .badge {
+      font-size: 0.7rem;
+      background: var(--surface2);
+      color: var(--muted);
+      padding: 0.15rem 0.5rem;
+      border-radius: 999px;
+      font-weight: 500;
+    }
+
+    .match-row td {
+      font-size: 0.85rem;
+    }
+
+    .att-yes { color: var(--green); font-weight: 600; }
+    .att-no { color: var(--muted); }
+
+    footer {
+      text-align: center;
+      margin-top: 2.5rem;
+      font-size: 0.8rem;
+      color: var(--muted);
+    }
+
+    footer a {
+      color: var(--accent2);
+      text-decoration: none;
+    }
+
+    footer a:hover { text-decoration: underline; }
+
+    .error, .loading {
+      text-align: center;
+      padding: 3rem 1rem;
+      color: var(--muted);
+    }
+
+    .error { color: var(--red); }
+
+    .sort-arrow::after {
+      content: "";
+      display: inline-block;
+      margin-left: 0.25rem;
+      opacity: 0.4;
+    }
+
+    th.sorted-asc .sort-arrow::after { content: "▲"; opacity: 1; }
+    th.sorted-desc .sort-arrow::after { content: "▼"; opacity: 1; }
+
+    @media (max-width: 600px) {
+      .hide-sm { display: none; }
+      thead th, tbody td { padding: 0.6rem 0.7rem; }
+      .search { width: 140px; }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>ACB <span>lankomumas</span></h1>
+      <p class="subtitle">Liga Endesa · namų rungtynių vidurkiai</p>
+      <div class="meta" id="meta"></div>
+    </header>
+
+    <div id="app">
+      <div class="loading">Kraunama…</div>
+    </div>
+
+    <footer>
+      Duomenys iš <a href="https://www.acb.com" target="_blank" rel="noopener">acb.com</a>
+      · <a href="https://github.com/andriuspanama/ACBattendance" target="_blank" rel="noopener">GitHub</a>
+    </footer>
+  </div>
+
+  <script>
+    const fmt = (n) => n == null || n === "" ? "—" : Number(n).toLocaleString("lt-LT");
+    const fmtDate = (iso) => {
+      if (!iso) return "—";
+      try {
+        const d = new Date(iso);
+        return d.toLocaleString("lt-LT", {
+          year: "numeric", month: "2-digit", day: "2-digit",
+          hour: "2-digit", minute: "2-digit", timeZone: "UTC"
+        }) + " UTC";
+      } catch { return iso; }
+    };
+
+    let clubs = [];
+    let sortKey = "average";
+    let sortDir = "desc";
+    let filter = "";
+
+    async function load() {
+      try {
+        const [avgRes, matchesRes] = await Promise.all([
+          fetch("./data/attendance_averages.json", { cache: "no-store" }),
+          fetch("./data/matches.csv", { cache: "no-store" }).catch(() => null)
+        ]);
+
+        if (!avgRes.ok) throw new Error("Nepavyko įkelti attendance_averages.json");
+        const data = await avgRes.json();
+        clubs = data.clubs || [];
+
+        let matches = [];
+        if (matchesRes && matchesRes.ok) {
+          const csv = await matchesRes.text();
+          matches = parseCSV(csv);
+        }
+
+        render(data, matches);
+      } catch (e) {
+        document.getElementById("app").innerHTML =
+          `<div class="error">Klaida: ${e.message}<br><small>Įsitikink, kad failas data/attendance_averages.json egzistuoja.</small></div>`;
+      }
+    }
+
+    function parseCSV(text) {
+      const lines = text.trim().split(/\r?\n/);
+      if (lines.length < 2) return [];
+      const headers = lines[0].split(",");
+      return lines.slice(1).map(line => {
+        const cols = line.split(",");
+        const obj = {};
+        headers.forEach((h, i) => obj[h.trim()] = (cols[i] || "").trim());
+        return obj;
+      });
+    }
+
+    function render(data, matches) {
+      const withAtt = clubs.filter(c => c.home_games_counted > 0 && c.average != null);
+      const totalGames = withAtt.reduce((s, c) => s + c.home_games_counted, 0);
+      const totalFans = withAtt.reduce((s, c) => s + (c.total || 0), 0);
+      const leagueAvg = totalGames ? Math.round(totalFans / totalGames) : 0;
+      const maxAvg = withAtt.length ? Math.max(...withAtt.map(c => c.average)) : 1;
+
+      document.getElementById("meta").innerHTML = `
+        <span>Sezonas: <strong>${data.season || "—"}</strong></span>
+        <span>Atnaujinta: <strong>${fmtDate(data.updated)}</strong></span>
+      `;
+
+      const matchesWithAtt = matches
+        .filter(m => m.attendance && Number(m.attendance) > 0)
+        .sort((a, b) => Number(b.attendance) - Number(a.attendance));
+
+      document.getElementById("app").innerHTML = `
+        <div class="cards">
+          <div class="card">
+            <div class="label">Klubai</div>
+            <div class="value blue">${clubs.length}</div>
+          </div>
+          <div class="card">
+            <div class="label">Namų rungt.</div>
+            <div class="value">${fmt(totalGames)}</div>
+          </div>
+          <div class="card">
+            <div class="label">Lyga vidurkis</div>
+            <div class="value accent">${fmt(leagueAvg)}</div>
+          </div>
+          <div class="card">
+            <div class="label">Iš viso žiūr.</div>
+            <div class="value green">${fmt(totalFans)}</div>
+          </div>
+        </div>
+
+        <div class="panel">
+          <div class="panel-header">
+            <h2>Namų lankomumo reitingas</h2>
+            <input class="search" type="search" placeholder="Ieškoti klubo…" id="search" />
+          </div>
+          <div class="table-wrap">
+            <table>
+              <thead>
+                <tr>
+                  <th data-key="rank" style="width:3rem">#</th>
+                  <th data-key="club">Klubas <span class="sort-arrow"></span></th>
+                  <th class="num" data-key="average">Vidurkis <span class="sort-arrow"></span></th>
+                  <th class="num hide-sm" data-key="home_games_counted">Rungt. <span class="sort-arrow"></span></th>
+                  <th class="num hide-sm" data-key="max">Maks. <span class="sort-arrow"></span></th>
+                  <th class="num hide-sm" data-key="min">Min. <span class="sort-arrow"></span></th>
+                  <th class="hide-sm bar-cell">Santykis</th>
+                </tr>
+              </thead>
+              <tbody id="tbody"></tbody>
+            </table>
+          </div>
+        </div>
+
+        ${matchesWithAtt.length ? `
+          <div class="section-title">
+            Rungtynės su lankomumu
+            <span class="badge">${matchesWithAtt.length}</span>
+          </div>
+          <div class="panel">
+            <div class="table-wrap">
+              <table>
+                <thead>
+                  <tr>
+                    <th>Šeimininkai</th>
+                    <th>Svečiai</th>
+                    <th class="num">Lankomumas</th>
+                    <th class="hide-sm">Šaltinis</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  ${matchesWithAtt.map(m => `
+                    <tr class="match-row">
+                      <td class="club-name">${esc(m.home)}</td>
+                      <td>${esc(m.away)}</td>
+                      <td class="num att-yes">${fmt(m.attendance)}</td>
+                      <td class="hide-sm"><a href="${esc(m.source_url)}" target="_blank" rel="noopener" style="color:var(--accent2);font-size:0.8rem">ACB ↗</a></td>
+                    </tr>
+                  `).join("")}
+                </tbody>
+              </table>
+            </div>
+          </div>
+        ` : ""}
+      `;
+
+      document.getElementById("search").addEventListener("input", (e) => {
+        filter = e.target.value.toLowerCase().trim();
+        renderTable(maxAvg);
+      });
+
+      document.querySelectorAll("thead th[data-key]").forEach(th => {
+        th.addEventListener("click", () => {
+          const key = th.dataset.key;
+          if (key === "rank") return;
+          if (sortKey === key) sortDir = sortDir === "desc" ? "asc" : "desc";
+          else { sortKey = key; sortDir = key === "club" ? "asc" : "desc"; }
+          renderTable(maxAvg);
+        });
+      });
+
+      renderTable(maxAvg);
+    }
+
+    function renderTable(maxAvg) {
+      let list = [...clubs];
+      if (filter) {
+        list = list.filter(c => c.club.toLowerCase().includes(filter));
+      }
+
+      list.sort((a, b) => {
+        let va = a[sortKey], vb = b[sortKey];
+        if (sortKey === "club") {
+          va = (va || "").toLowerCase();
+          vb = (vb || "").toLowerCase();
+          return sortDir === "asc" ? va.localeCompare(vb) : vb.localeCompare(va);
+        }
+        // null average → bottom when desc, top when asc
+        const na = va == null, nb = vb == null;
+        if (na && nb) return a.club.localeCompare(b.club);
+        if (na) return 1;
+        if (nb) return -1;
+        va = Number(va) || 0;
+        vb = Number(vb) || 0;
+        return sortDir === "asc" ? va - vb : vb - va;
+      });
+
+      // rank only teams with attendance
+      const byAvg = [...clubs]
+        .filter(c => c.average != null)
+        .sort((a, b) => b.average - a.average);
+      const rankMap = {};
+      byAvg.forEach((c, i) => rankMap[c.club] = i + 1);
+
+      document.querySelectorAll("thead th[data-key]").forEach(th => {
+        th.classList.remove("sorted-asc", "sorted-desc");
+        if (th.dataset.key === sortKey) {
+          th.classList.add(sortDir === "asc" ? "sorted-asc" : "sorted-desc");
+        }
+      });
+
+      const tbody = document.getElementById("tbody");
+      tbody.innerHTML = list.map(c => {
+        const has = c.average != null;
+        const rank = rankMap[c.club];
+        const rankCls = rank === 1 ? "r1" : rank === 2 ? "r2" : rank === 3 ? "r3" : "";
+        const pct = has && maxAvg ? Math.round((c.average / maxAvg) * 100) : 0;
+        return `
+          <tr style="${has ? "" : "opacity:0.55"}">
+            <td><span class="rank ${rankCls}">${rank || "—"}</span></td>
+            <td class="club-name">${esc(c.club)}</td>
+            <td class="num" style="font-weight:700;color:${has ? "var(--accent)" : "var(--muted)"}">${fmt(c.average)}</td>
+            <td class="num hide-sm">${fmt(c.home_games_counted)}</td>
+            <td class="num hide-sm">${fmt(c.max)}</td>
+            <td class="num hide-sm">${fmt(c.min)}</td>
+            <td class="hide-sm bar-cell">
+              <div class="bar-track"><div class="bar-fill" style="width:${pct}%"></div></div>
+            </td>
+          </tr>
+        `;
+      }).join("") || `<tr><td colspan="7" style="text-align:center;color:var(--muted);padding:1.5rem">Nerasta</td></tr>`;
+    }
+
+    function esc(s) {
+      const d = document.createElement("div");
+      d.textContent = s || "";
+      return d.innerHTML;
+    }
+
+    load();
+  </script>
+</body>
+</html>
