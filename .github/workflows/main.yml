@@ -1,0 +1,64 @@
+name: Atnaujinti lankomumą
+
+on:
+  schedule:
+    - cron: "15 */6 * * *"
+  workflow_dispatch:
+    inputs:
+      debug:
+        description: "Išsaugoti gautą HTML derinimui"
+        type: boolean
+        default: false
+
+permissions:
+  contents: write
+
+concurrency:
+  group: attendance
+  cancel-in-progress: false
+
+env:
+  ACB_TEMPORADA: "91"
+  SEASON: "2026-27"
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+
+      - name: Įdiegti priklausomybes
+        run: pip install requests beautifulsoup4
+
+      - name: Surinkti ACB lankomumą
+        run: |
+          python acb_attendance.py \
+            --temporada "$ACB_TEMPORADA" \
+            --season "$SEASON" \
+            ${{ inputs.debug && '--save-html' || '' }}
+
+      - name: Įkelti derinimo HTML
+        if: ${{ inputs.debug }}
+        uses: actions/upload-artifact@v4
+        with:
+          name: raw-html
+          path: data/raw/
+          if-no-files-found: ignore
+
+      - name: Įrašyti pakeitimus
+        run: |
+          git config user.name "attendance-bot"
+          git config user.email "attendance-bot@users.noreply.github.com"
+          git add data/matches.csv data/attendance_averages.json data/attendance_averages.csv data/unresolved_teams.txt 2>/dev/null || true
+          if git diff --cached --quiet; then
+            echo "Pakeitimų nėra"
+          else
+            git commit -m "Lankomumo duomenys: $(date -u +'%Y-%m-%d %H:%M') UTC"
+            git pull --rebase
+            git push
+          fi
