@@ -35,6 +35,7 @@ jobs:
         run: pip install requests beautifulsoup4
 
       - name: Surinkti ACB lankomumą
+        continue-on-error: true
         run: |
           python acb_attendance.py \
             --temporada "$ACB_TEMPORADA" \
