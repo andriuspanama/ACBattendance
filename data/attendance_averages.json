@@ -1,7 +1,7 @@
 {
   "league": "ACB",
   "season": "2026-27",
-  "updated": "2026-10-09T13:07:47+00:00",
+  "updated": "2026-10-10T20:12:44+00:00",
   "clubs": [
     {
       "league": "ACB",
@@ -17,11 +17,11 @@
       "league": "ACB",
       "season": "2026-27",
       "club": "Unicaja",
-      "home_games_counted": 1,
-      "average": 9936,
-      "total": 9936,
+      "home_games_counted": 2,
+      "average": 9606,
+      "total": 19211,
       "max": 9936,
-      "min": 9936
+      "min": 9275
     },
     {
       "league": "ACB",
@@ -87,11 +87,11 @@
       "league": "ACB",
       "season": "2026-27",
       "club": "Leyma Coruna",
-      "home_games_counted": 1,
-      "average": 6472,
-      "total": 6472,
+      "home_games_counted": 2,
+      "average": 6287,
+      "total": 12574,
       "max": 6472,
-      "min": 6472
+      "min": 6102
     },
     {
       "league": "ACB",
@@ -117,11 +117,11 @@
       "league": "ACB",
       "season": "2026-27",
       "club": "Rio Breogan",
-      "home_games_counted": 1,
-      "average": 5280,
-      "total": 5280,
+      "home_games_counted": 2,
+      "average": 5272,
+      "total": 10545,
       "max": 5280,
-      "min": 5280
+      "min": 5265
     },
     {
       "league": "ACB",
