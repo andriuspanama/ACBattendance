@@ -1,0 +1,52 @@
+name: Atnaujinti BBL lankomumą
+
+on:
+  schedule:
+    - cron: "30 */6 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: attendance-bbl
+  cancel-in-progress: false
+
+env:
+  SEASON: "2026-27"
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Įdiegti priklausomybes
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y tesseract-ocr poppler-utils
+          pip install requests
+
+      - name: Surinkti BBL lankomumą
+        continue-on-error: true
+        run: |
+          python bbl_attendance.py \
+            --season "$SEASON" \
+            --data-dir data/bbl
+
+      - name: Įrašyti pakeitimus
+        run: |
+          git config user.name "attendance-bot"
+          git config user.email "attendance-bot@users.noreply.github.com"
+          git add data/bbl/matches.csv data/bbl/attendance_averages.json data/bbl/attendance_averages.csv data/bbl/unresolved_teams.txt 2>/dev/null || true
+          if git diff --cached --quiet; then
+            echo "Pakeitimų nėra"
+          else
+            git commit -m "BBL lankomumas: $(date -u +'%Y-%m-%d %H:%M') UTC"
+            git pull --rebase
+            git push
+          fi
