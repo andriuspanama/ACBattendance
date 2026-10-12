@@ -320,10 +320,11 @@ def main():
         fx = Fetcher(args.delay, data_dir / "raw" if args.save_html else None)
         print("Ieškoma rungtynių per Flashscore...")
         games = discover_flashscore_games(fx)
-        # Užtikriname, kad neištrintume jau išsaugotų rungtynių iš matches.csv
+        # Pridedame tik tas ankstesnes rungtynes, kurios NĖRA iš lkl.lt
         for mid, m in matches.items():
             if mid not in games and m.get("source_url"):
-                games[mid] = {"url": m["source_url"]}
+                if "lkl.lt" not in m["source_url"]:
+                    games[mid] = {"url": m["source_url"]}
         update_matches(fx, games, matches, args.season)
         save_matches(matches_path, matches)
 
