@@ -115,7 +115,8 @@ def extract_teams_from_title(title: str) -> tuple[str, str]:
     return "", ""
 
 
-def compute_averages(matches: dict, aliases: dict, season: str):
+
+... def compute_averages(matches: dict, aliases: dict, season: str):
     unresolved: set[str] = set()
     per_club: dict[str, list[int]] = defaultdict(list)
     all_homes: set[str] = set()
@@ -132,4 +133,25 @@ def compute_averages(matches: dict, aliases: dict, season: str):
         if att not in (None, ""):
             try:
                 per_club[club].append(int(att))
-... 
+            except (TypeError, ValueError):
+                pass
+
+    rows = []
+    for club in sorted(all_homes):
+        vals = per_club.get(club, [])
+        if vals:
+            rows.append({
+                "league": LEAGUE, "season": season, "club": club,
+                "home_games_counted": len(vals),
+                "average": round(sum(vals) / len(vals)),
+                "total": sum(vals), "max": max(vals), "min": min(vals),
+            })
+        else:
+            rows.append({
+                "league": LEAGUE, "season": season, "club": club,
+                "home_games_counted": 0,
+                "average": None, "total": 0, "max": None, "min": None,
+            })
+
+    rows.sort(key=lambda r: (-(r["average"] if r["average"] is not None else -1), r["club"]))
+    return rows, unresolved
