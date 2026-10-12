@@ -107,9 +107,7 @@ def parse_game(html: str) -> dict | None:
         "attendance": attendance,
     }
 
-
-
-      class Fetcher:
+class Fetcher:
     def __init__(self, delay: float = 1.0, raw_dir: Path | None = None):
         self.s = requests.Session()
         self.s.headers.update({
