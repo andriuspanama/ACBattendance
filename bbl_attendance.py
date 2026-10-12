@@ -35,7 +35,7 @@ def ocr_pdf(pdf_path: Path) -> str:
 
 
 def parse_boxscore(text: str) -> dict | None:
-    """Grazina {home, away, home_code, away_code, attendance, date, score} arba None."""
+    """Grazina {home, away, home_code, away_code, attendance, date} arba None."""
     m_att = re.search(r"Attendance\s*[:;]?\s*([\d.,\s]{1,9}\d)", text)
     m_date = re.search(r"\b(\d{1,2})\s+([A-ZÄÖÜ]{3})\s+(20\d{2})", text)
     teams = re.findall(r"^\W*([A-Z]{3})\s*[-–—]\s*([^\n(]+?)\s*\(\s*Coach", text, re.M)
@@ -92,7 +92,8 @@ def write_outputs(data_dir: Path, rows: list, season: str):
     cols = ["league", "season", "club", "home_games_counted", "average", "total", "max", "min"]
     with (data_dir / "attendance_averages.csv").open("w", encoding="utf-8", newline="") as f:
         w = csv.DictWriter(f, fieldnames=cols, extrasaction="ignore")
-        w.writeheader(); w.writerows(rows)
+        w.writeheader()
+        w.writerows(rows)
     payload = {"league": LEAGUE, "season": season,
                "updated": datetime.now(timezone.utc).isoformat(timespec="seconds"),
                "clubs": rows}
@@ -105,9 +106,9 @@ def write_outputs(data_dir: Path, rows: list, season: str):
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--season", default="2026-27")
-    ap.add_argument("--comp", default="485", help="ID URL'e tarp /reports/ ir game_id")
-    ap.add_argument("--start", type=int, default=2006850, help="pirmas tikrinamas Game-ID")
-    ap.add_argument("--ahead", type=int, default=30, help="kiek ID uz didziausio zinomo tikrinti")
+    ap.add_argument("--comp", default="486", help="ID URL'e tarp /reports/ ir game_id")
+    ap.add_argument("--start", type=int, default=2006800, help="pirmas tikrinamas Game-ID")
+    ap.add_argument("--ahead", type=int, default=120, help="kiek ID uz didziausio zinomo tikrinti")
     ap.add_argument("--data-dir", default="data/bbl")
     ap.add_argument("--delay", type=float, default=0.4)
     ap.add_argument("--pdf", help="tik isbandyti vietini PDF (be tinklo)")
@@ -123,12 +124,14 @@ def main():
     rows = load_matches(matches_path)
     known = [int(g) for g in rows]
     last = max(known) if known else args.start
-    end = last + args.ahead
+    end = max(last + args.ahead, args.start + args.ahead)
 
     sess = requests.Session()
     sess.headers["User-Agent"] = "Mozilla/5.0 (attendance-bot)"
     found = errors = 0
-    for gid in range(args.start, end + 1):
+
+    # Skenuojame nuo mažiausio žinomo / start iki end
+    for gid in range(min(args.start, last), end + 1):
         key = str(gid)
         if key in rows and rows[key].get("attendance"):
             continue
@@ -136,23 +139,40 @@ def main():
         try:
             resp = sess.get(url, timeout=30)
         except requests.RequestException as e:
-            print(f"{gid}: tinklo klaida {e}"); errors += 1; continue
+            print(f"{gid}: tinklo klaida {e}")
+            errors += 1
+            continue
         time.sleep(args.delay)
         if resp.status_code != 200 or not resp.content.startswith(b"%PDF"):
             continue  # rungtyniu dar nera / nesuzaistos
         with tempfile.NamedTemporaryFile(suffix=".pdf") as tmp:
-            tmp.write(resp.content); tmp.flush()
+            tmp.write(resp.content)
+            tmp.flush()
             try:
                 info = parse_boxscore(ocr_pdf(Path(tmp.name)))
             except Exception as e:  # OCR/PDF klaida
-                print(f"{gid}: OCR klaida {e}"); errors += 1; continue
+                print(f"{gid}: OCR klaida {e}")
+                errors += 1
+                continue
         if not info:
-            print(f"{gid}: nepavyko perskaityti antrastes"); errors += 1; continue
-        rows[key] = {"league": LEAGUE, "season": args.season, "game_id": key,
-                     "date": info["date"], "home": info["home"], "away": info["away"],
-                     "attendance": info["attendance"], "url": url,
-                     "fetched_at": datetime.now(timezone.utc).isoformat(timespec="seconds"),
-                     "attempts": 1, "home_code": info["home_code"], "away_code": info["away_code"]}
+            print(f"{gid}: nepavyko perskaityti antrastes")
+            errors += 1
+            continue
+        rows[key] = {
+            "league": LEAGUE,
+            "season": args.season,
+            "game_id": key,
+            "date": info["date"],
+            "home": info["home"],
+            "away": info["away"],
+            "attendance": info["attendance"],
+
+            "url": url,
+            "fetched_at": datetime.now(timezone.utc).isoformat(timespec="seconds"),
+            "attempts": 1,
+            "home_code": info["home_code"],
+            "away_code": info["away_code"],
+        }
         found += 1
         print(f"{gid}: {info['home']} - {info['away']}  {info['attendance']}  {info['date']}")
 
