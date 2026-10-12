@@ -69,18 +69,28 @@ def parse_attendance(text: str) -> int | None:
 
 def parse_game(html: str) -> dict | None:
     soup = BeautifulSoup(html, "html.parser")
-    title = (soup.title.string or "").strip() if soup.title else ""
-    
-    home = away = None
-    if " - " in title:
-        parts = title.split(" - ")
-        if len(parts) >= 2:
-            home = parts[0].strip()
-            away = parts[1].split("rezultatai")[0].split("results")[0].strip()
-
     text = soup.get_text(" ", strip=True)
-    attendance = parse_attendance(html) or parse_attendance(text)
-    date = parse_lt_date(html) or parse_lt_date(text)
+    
+    attendance = parse_attendance(text)
+    
+    title = (soup.title.string or "").strip() if soup.title else ""
+    home = away = None
+    
+    clean_title = re.sub(r"(rezultatai.*|results.*|Basketball.*|– Flashscore.*|LIVE.*)", "", title, flags=re.I).strip()
+    if " - " in clean_title:
+        parts = clean_title.split(" - ")
+    elif " v " in clean_title:
+        parts = clean_title.split(" v ")
+    elif " vs " in clean_title:
+        parts = clean_title.split(" vs ")
+    else:
+        parts = []
+
+    if len(parts) >= 2:
+        home = parts[0].strip()
+        away = parts[1].strip()
+
+    date = parse_lt_date(text)
 
     if not (home and away):
         return None
@@ -92,6 +102,8 @@ def parse_game(html: str) -> dict | None:
         "Kėdainių Juventus": "Juventus",
         "Kedainiu Juventus": "Juventus",
         "BC Rytas": "Rytas",
+        "Žalgiris Kaunas": "Žalgiris",
+        "Zalgiris Kaunas": "Žalgiris",
     }
     home = rename.get(home, home)
     away = rename.get(away, away)
@@ -135,7 +147,6 @@ class Fetcher:
 
 
 def discover_flashscore_games(fx: Fetcher) -> dict:
-    """Ieško rungtynių nuorodų Flashscore puslapyje."""
     games = {}
     html = fx.get(FLASHSCORE_FIXTURES, tag="flashscore_fixtures")
     if not html:
@@ -144,7 +155,6 @@ def discover_flashscore_games(fx: Fetcher) -> dict:
     match_paths = re.findall(r'href="(/match/basketball/[^"]+)"', html)
     for path in match_paths:
         full_url = "https://www.flashscore.com" + path
-        # Ištraukiame match ID iš URL (pvz., mid=xxxx arba paskutinę dalį)
         mid_match = re.search(r"mid=([a-zA-Z0-9]+)", path)
         mid = mid_match.group(1) if mid_match else path.strip("/").split("/")[-1]
         games[mid] = {"url": full_url}
@@ -258,7 +268,6 @@ def update_matches(fx: Fetcher, games: dict, matches: dict, season: str):
     done = 0
     for mid, g in games.items():
         prev = matches.get(mid, {})
-        # Jeigu jau turime lankomumą, praleidžiam
         if prev.get("attendance"):
             continue
         
