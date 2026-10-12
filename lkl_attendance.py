@@ -6,7 +6,7 @@ Ką daro:
   1. Surenka sezono rungtynių nuorodas iš Flashscore LKL results puslapio.
   2. Kiekvienoms rungtynėms atidaro puslapį (Playwright) ir ištraukia
      Attendance, datą, komandas.
-  3. Saugo data/lkl/matches.csv
+  3. Saugo data/lkl/matches.csv (su išvalytais komandų pavadinimais)
   4. Perskaičiuoja namų lankomumo vidurkius -> attendance_averages.json/.csv
 
 Naudojimas:
@@ -27,7 +27,6 @@ import unicodedata
 from collections import defaultdict
 from datetime import datetime, timezone
 from pathlib import Path
-from urllib.parse import urljoin
 
 try:
     from playwright.sync_api import sync_playwright, TimeoutError as PlaywrightTimeout
@@ -132,10 +131,14 @@ def clean_team_name(name: str) -> str:
         return name
     name = name.strip()
 
+    # Jei yra | – imame dalį po paskutinio |
     if "|" in name:
         name = name.split("|")[-1].strip()
 
+    # Pašaliname santrumpas + rezultatą pradžioje (pvz. "RYT 86-77 NEP")
     name = re.sub(r"^[A-Z]{2,4}\s+\d{1,3}[-–]\d{1,3}\s+[A-Z]{2,4}\s*", "", name)
+
+    # Pašaliname likusias santrumpas pradžioje
     name = re.sub(r"^[A-Z]{2,4}\s+", "", name)
 
     return name.strip()
@@ -283,6 +286,7 @@ def scrape_match(page, url: str) -> dict | None:
             except Exception:
                 pass
 
+        # Išvalome pavadinimus
         home = clean_team_name(home)
         away = clean_team_name(away)
 
@@ -308,8 +312,8 @@ def main():
     ap = argparse.ArgumentParser(description=__doc__)
     ap.add_argument("--season", default="2026-27")
     ap.add_argument("--data-dir", default="data/lkl")
-    ap.add_argument("--max-fetch", type=int, default=60, help="max naujų rungtynių per paleidimą")
-    ap.add_argument("--max-pages", type=int, default=12, help="kiek 'Show more' paspausti")
+    ap.add_argument("--max-fetch", type=int, default=80, help="max naujų rungtynių per paleidimą")
+    ap.add_argument("--max-pages", type=int, default=15, help="kiek 'Show more' paspausti")
     ap.add_argument("--recompute-only", action="store_true")
     ap.add_argument("--save-html", action="store_true", help="išsaugoti raw HTML derinimui")
     ap.add_argument("--delay", type=float, default=0.8)
@@ -322,6 +326,12 @@ def main():
 
     if args.recompute_only:
         print(f"Įkraunama rungtynių iš CSV: {len(matches)}")
+        # Išvalome esamus pavadinimus
+        for mid, m in matches.items():
+            m["home"] = clean_team_name(m.get("home", ""))
+            m["away"] = clean_team_name(m.get("away", ""))
+        save_matches(matches_path, matches)
+
         rows, unresolved = compute_averages(matches, aliases, args.season)
         write_outputs(data_dir, rows, unresolved, args.season)
         print(f"Klubų vidurkiai atnaujinti. Klubų: {len(rows)}")
@@ -379,7 +389,7 @@ def main():
                 continue
 
             match_date = info["date"] or ""
-            
+
             # Imame tik nuo sezono pradžios
             if match_date and match_date < SEASON_START:
                 print(f"  -> {info['home']} vs {info['away']}: praleista (prieš sezoną – {match_date})")
@@ -388,13 +398,17 @@ def main():
             mid = info["match_id"]
             prev = matches.get(mid, {})
             attempts = int(prev.get("attempts") or 0) + 1
+
+            home_clean = clean_team_name(info["home"] or prev.get("home", ""))
+            away_clean = clean_team_name(info["away"] or prev.get("away", ""))
+
             matches[mid] = {
                 "league": LEAGUE,
                 "season": args.season,
                 "match_id": mid,
                 "date": match_date,
-                "home": info["home"] or prev.get("home", ""),
-                "away": info["away"] or prev.get("away", ""),
+                "home": home_clean,
+                "away": away_clean,
                 "attendance": info["attendance"] if info["attendance"] is not None else prev.get("attendance", ""),
                 "source_url": info["source_url"],
                 "checked_at": datetime.now(timezone.utc).isoformat(timespec="seconds"),
@@ -402,11 +416,16 @@ def main():
             }
             if info["attendance"] is not None:
                 found += 1
-                print(f"  -> {info['home']} vs {info['away']}: {info['attendance']} ({match_date})")
+                print(f"  -> {home_clean} vs {away_clean}: {info['attendance']} ({match_date})")
             else:
-                print(f"  -> {info['home']} vs {info['away']}: (nėra attendance)")
+                print(f"  -> {home_clean} vs {away_clean}: (nėra attendance)")
 
         browser.close()
+
+    # Išvalome ir senus įrašus
+    for mid, m in matches.items():
+        m["home"] = clean_team_name(m.get("home", ""))
+        m["away"] = clean_team_name(m.get("away", ""))
 
     save_matches(matches_path, matches)
     rows, unresolved = compute_averages(matches, aliases, args.season)
