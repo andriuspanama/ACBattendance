@@ -108,13 +108,21 @@ def parse_game(html: str) -> dict | None:
     }
 
 
-class Fetcher:
+
+      class Fetcher:
     def __init__(self, delay: float = 1.0, raw_dir: Path | None = None):
         self.s = requests.Session()
-        self.s.headers["User-Agent"] = UA
+        self.s.headers.update({
+            "User-Agent": UA,
+            "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8",
+            "Accept-Language": "lt-LT,lt;q=0.9,en-US;q=0.8,en;q=0.7",
+            "Referer": "https://lkl.lt/",
+            "Connection": "keep-alive",
+        })
         self.delay = delay
         self.raw_dir = raw_dir
         self._last = 0.0
+      
 
     def get(self, url: str, tag: str | None = None) -> str | None:
         wait = self.delay - (time.time() - self._last)
