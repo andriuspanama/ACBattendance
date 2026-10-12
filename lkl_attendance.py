@@ -1,16 +1,6 @@
 #!/usr/bin/env python3
 """
 LKL lankomumo rinkėjas (Flashscore versija).
-
-Ką daro:
-  1. Renka lankomumą ir rungtynių duomenis iš Flashscore nuorodų.
-  2. Saugo data/lkl/matches.csv (be dublikatų, pagal match_id).
-  3. Perskaičiuoja namų lankomumo vidurkius -> data/lkl/attendance_averages.json/.csv
-
-Naudojimas:
-  pip install requests beautifulsoup4
-  python lkl_attendance.py --season 2026-27
-  python lkl_attendance.py --recompute-only
 """
 from __future__ import annotations
 
@@ -29,6 +19,7 @@ import requests
 from bs4 import BeautifulSoup
 
 LEAGUE = "LKL"
+FLASHSCORE_FIXTURES = "https://www.flashscore.com/basketball/lithuania/lkl/fixtures/"
 UA = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36"
 
 MATCH_FIELDS = [
@@ -36,7 +27,6 @@ MATCH_FIELDS = [
     "attendance", "source_url", "checked_at", "attempts",
 ]
 
-# "3 455" / "1584"
 ATTENDANCE_RE = re.compile(r"Attendance:\s*([\d\s\u00a0]+)", re.I)
 MAX_PLAUSIBLE = 20000
 
@@ -44,12 +34,6 @@ LT_MONTHS = {
     "sausio": 1, "vasario": 2, "kovo": 3, "balandžio": 4,
     "gegužės": 5, "birželio": 6, "liepos": 7, "rugpjūčio": 8,
     "rugsėjo": 9, "spalio": 10, "lapkričio": 11, "gruodžio": 12,
-}
-
-SEASON_STARTS = {
-    "2026-27": "2026-09-01",
-    "2025-26": "2025-09-01",
-    "2024-25": "2024-09-01",
 }
 
 
@@ -61,7 +45,6 @@ def norm(name: str) -> str:
 
 
 def parse_lt_date(text: str) -> str | None:
-    """Ištraukia datą iš teksto"""
     m = re.search(
         r"(\d{4})\s*m\.\s*([A-Za-ząčęėįšųūžĄČĘĖĮŠŲŪŽ]+)\s*(\d{1,2})\s*d",
         text,
@@ -85,7 +68,6 @@ def parse_attendance(text: str) -> int | None:
 
 
 def parse_game(html: str) -> dict | None:
-    """home, away, date, attendance iš Flashscore rungtynių HTML."""
     soup = BeautifulSoup(html, "html.parser")
     title = (soup.title.string or "").strip() if soup.title else ""
     
@@ -103,7 +85,6 @@ def parse_game(html: str) -> dict | None:
     if not (home and away):
         return None
 
-    # Klubų pavadinimų suvodinimas
     rename = {
         "Jonavos Hipocredit": "Hipocredit",
         "Jonava Hipocredit": "Hipocredit",
@@ -151,6 +132,25 @@ class Fetcher:
             self.raw_dir.mkdir(parents=True, exist_ok=True)
             (self.raw_dir / f"{tag}.html").write_text(r.text, encoding="utf-8")
         return r.text
+
+
+def discover_flashscore_games(fx: Fetcher) -> dict:
+    """Ieško rungtynių nuorodų Flashscore puslapyje."""
+    games = {}
+    html = fx.get(FLASHSCORE_FIXTURES, tag="flashscore_fixtures")
+    if not html:
+        return games
+    
+    match_paths = re.findall(r'href="(/match/basketball/[^"]+)"', html)
+    for path in match_paths:
+        full_url = "https://www.flashscore.com" + path
+        # Ištraukiame match ID iš URL (pvz., mid=xxxx arba paskutinę dalį)
+        mid_match = re.search(r"mid=([a-zA-Z0-9]+)", path)
+        mid = mid_match.group(1) if mid_match else path.strip("/").split("/")[-1]
+        games[mid] = {"url": full_url}
+        
+    print(f"Rasta rungtynių iš Flashscore: {len(games)}")
+    return games
 
 
 def load_matches(path: Path) -> dict:
@@ -254,19 +254,15 @@ def write_outputs(data_dir: Path, rows, unresolved, season: str):
         )
 
 
-def update_matches(fx: Fetcher, matches: dict, season: str):
-    """Atnaujina rungtynes, kurios jau yra `matches.csv` arba pridedamos per Flashscore nuorodas."""
+def update_matches(fx: Fetcher, games: dict, matches: dict, season: str):
     done = 0
-    for mid, m in matches.items():
-        if m.get("season") != season:
+    for mid, g in games.items():
+        prev = matches.get(mid, {})
+        # Jeigu jau turime lankomumą, praleidžiam
+        if prev.get("attendance"):
             continue
-        if m.get("attendance") and int(m.get("attempts") or 0) > 0:
-            continue  # Jau turim lankomumą
         
-        url = m.get("source_url")
-        if not url:
-            continue
-
+        url = g["url"]
         html = fx.get(url, tag=f"match_{mid}")
         if not html:
             continue
@@ -279,13 +275,13 @@ def update_matches(fx: Fetcher, matches: dict, season: str):
             "league": LEAGUE,
             "season": season,
             "match_id": mid,
-            "date": info["date"] or m.get("date", ""),
+            "date": info["date"] or prev.get("date", ""),
             "home": info["home"],
             "away": info["away"],
             "attendance": info["attendance"] if info["attendance"] is not None else "",
             "source_url": url,
             "checked_at": datetime.now(timezone.utc).isoformat(timespec="seconds"),
-            "attempts": int(m.get("attempts") or 0) + 1,
+            "attempts": int(prev.get("attempts") or 0) + 1,
         }
         done += 1
         print(f"  {mid}: {info['home']} – {info['away']}  att={info['attendance'] or '—'}")
@@ -312,8 +308,9 @@ def main():
 
     if not args.recompute_only:
         fx = Fetcher(args.delay, data_dir / "raw" if args.save_html else None)
-        print("Atnaujinamos rungtynės iš Flashscore...")
-        update_matches(fx, matches, args.season)
+        print("Ieškoma rungtynių per Flashscore...")
+        games = discover_flashscore_games(fx)
+        update_matches(fx, games, matches, args.season)
         save_matches(matches_path, matches)
 
     rows, unresolved = compute_averages(matches, aliases, args.season)
