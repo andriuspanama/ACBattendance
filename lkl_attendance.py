@@ -107,9 +107,24 @@ def parse_date(text: str) -> str:
 
 
 def extract_teams_from_title(title: str) -> tuple[str, str]:
-    m = re.search(r"^(.+?)\s+v\s+(.+?)(?:\s+\d|/|\|)", title, re.I)
+    """
+    Flashscore title formatai:
+    - "Rytas v Neptunas 10/10/2026 | Basketball - Flashscore"
+    - "RYT 86-77 NEP | Rytas v Neptunas 10/10/2026 | Basketball - Flashscore | Match"
+    """
+    # Pirmiausia bandome rasti "FullName v FullName" dalį po |
+    m = re.search(r"\|\s*([^|]+?)\s+v\s+([^|]+?)(?:\s+\d|/|\||$)", title, re.I)
     if m:
         return m.group(1).strip(), m.group(2).strip()
+
+    # Jei nėra | – bandome nuo pradžios
+    m = re.search(r"^(.+?)\s+v\s+(.+?)(?:\s+\d|/|\||$)", title, re.I)
+    if m:
+        home, away = m.group(1).strip(), m.group(2).strip()
+        # Jei pagavo santrumpas su rezultatu – atmetam
+        if not re.search(r"\d", home) and not re.search(r"\d", away):
+            return home, away
+
     return "", ""
 
 
@@ -238,13 +253,12 @@ def scrape_match(page, url: str) -> dict | None:
         date = parse_date(text)
         home, away = extract_teams_from_title(title)
 
-        # Fallback komandų vardams
-        if not home or not away:
+        # Fallback – imame tikrus komandų pavadinimus iš puslapio
+        if not home or not away or re.search(r"\d", home) or re.search(r"\d", away):
             try:
                 names = page.eval_on_selector_all(
                     ".duelParticipant__home .participant__participantName, "
-                    ".duelParticipant__away .participant__participantName, "
-                    ".participant__participantName",
+                    ".duelParticipant__away .participant__participantName",
                     "els => els.map(e => e.textContent.trim()).filter(Boolean)"
                 )
                 if len(names) >= 2:
