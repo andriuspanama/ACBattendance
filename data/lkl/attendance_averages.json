@@ -1,287 +1,107 @@
 {
   "league": "LKL",
   "season": "2026-27",
-  "updated": "2026-10-12T19:40:14+00:00",
+  "updated": "2026-10-12T20:00:27+00:00",
   "clubs": [
     {
       "league": "LKL",
       "season": "2026-27",
-      "club": "ZAL 101-82 SIA | Zalgiris Kaunas",
-      "home_games_counted": 1,
-      "average": 6746,
-      "total": 6746,
+      "club": "Zalgiris Kaunas",
+      "home_games_counted": 2,
+      "average": 5430,
+      "total": 10861,
       "max": 6746,
-      "min": 6746
-    },
-    {
-      "league": "LKL",
-      "season": "2026-27",
-      "club": "NEP 69-93 ZAL | Neptunas",
-      "home_games_counted": 1,
-      "average": 4698,
-      "total": 4698,
-      "max": 4698,
-      "min": 4698
-    },
-    {
-      "league": "LKL",
-      "season": "2026-27",
-      "club": "ZAL 97-68 LIE | Zalgiris Kaunas",
-      "home_games_counted": 1,
-      "average": 4115,
-      "total": 4115,
-      "max": 4115,
       "min": 4115
     },
     {
       "league": "LKL",
       "season": "2026-27",
-      "club": "RYT 86-77 NEP | Rytas",
-      "home_games_counted": 1,
-      "average": 3455,
-      "total": 3455,
+      "club": "Rytas",
+      "home_games_counted": 2,
+      "average": 3234,
+      "total": 6467,
       "max": 3455,
-      "min": 3455
-    },
-    {
-      "league": "LKL",
-      "season": "2026-27",
-      "club": "RYT 102-105 GAR | Rytas",
-      "home_games_counted": 1,
-      "average": 3012,
-      "total": 3012,
-      "max": 3012,
       "min": 3012
     },
     {
       "league": "LKL",
       "season": "2026-27",
+      "club": "Neptunas",
+      "home_games_counted": 3,
+      "average": 2643,
+      "total": 7929,
+      "max": 4698,
+      "min": 1552
+    },
+    {
+      "league": "LKL",
+      "season": "2026-27",
       "club": "Juventus",
-      "home_games_counted": 2,
-      "average": 2329,
-      "total": 4658,
+      "home_games_counted": 4,
+      "average": 1868,
+      "total": 7473,
       "max": 3455,
       "min": 1203
     },
     {
       "league": "LKL",
       "season": "2026-27",
-      "club": "SIA 86-77 LIE | Siauliai",
-      "home_games_counted": 1,
-      "average": 2116,
-      "total": 2116,
+      "club": "Siauliai",
+      "home_games_counted": 3,
+      "average": 1848,
+      "total": 5543,
       "max": 2116,
-      "min": 2116
-    },
-    {
-      "league": "LKL",
-      "season": "2026-27",
-      "club": "Lietkabelis",
-      "home_games_counted": 1,
-      "average": 1827,
-      "total": 1827,
-      "max": 1827,
-      "min": 1827
-    },
-    {
-      "league": "LKL",
-      "season": "2026-27",
-      "club": "SIA 83-71 JUV | Siauliai",
-      "home_games_counted": 1,
-      "average": 1827,
-      "total": 1827,
-      "max": 1827,
-      "min": 1827
-    },
-    {
-      "league": "LKL",
-      "season": "2026-27",
-      "club": "TAU 82-102 GAR | Taurage",
-      "home_games_counted": 1,
-      "average": 1780,
-      "total": 1780,
-      "max": 1780,
-      "min": 1780
-    },
-    {
-      "league": "LKL",
-      "season": "2026-27",
-      "club": "TAU 95-90 JON | Taurage",
-      "home_games_counted": 1,
-      "average": 1780,
-      "total": 1780,
-      "max": 1780,
-      "min": 1780
+      "min": 1600
     },
     {
       "league": "LKL",
       "season": "2026-27",
       "club": "Taurage",
-      "home_games_counted": 1,
+      "home_games_counted": 3,
       "average": 1780,
-      "total": 1780,
+      "total": 5340,
       "max": 1780,
       "min": 1780
     },
     {
       "league": "LKL",
       "season": "2026-27",
-      "club": "NEP 99-84 JUV | Neptunas",
-      "home_games_counted": 1,
-      "average": 1679,
-      "total": 1679,
-      "max": 1679,
-      "min": 1679
-    },
-    {
-      "league": "LKL",
-      "season": "2026-27",
-      "club": "NEV 76-80 ZAL | Nevezis",
+      "club": "Nevezis",
       "home_games_counted": 1,
       "average": 1600,
       "total": 1600,
       "max": 1600,
       "min": 1600
-    },
-    {
-      "league": "LKL",
-      "season": "2026-27",
-      "club": "Siauliai",
-      "home_games_counted": 1,
-      "average": 1600,
-      "total": 1600,
-      "max": 1600,
-      "min": 1600
-    },
-    {
-      "league": "LKL",
-      "season": "2026-27",
-      "club": "NEP 89-62 NEV | Neptunas",
-      "home_games_counted": 1,
-      "average": 1552,
-      "total": 1552,
-      "max": 1552,
-      "min": 1552
-    },
-    {
-      "league": "LKL",
-      "season": "2026-27",
-      "club": "GAR 77-98 ZAL | Gargzdai",
-      "home_games_counted": 1,
-      "average": 1500,
-      "total": 1500,
-      "max": 1500,
-      "min": 1500
-    },
-    {
-      "league": "LKL",
-      "season": "2026-27",
-      "club": "GAR 87-78 NEP | Gargzdai",
-      "home_games_counted": 1,
-      "average": 1486,
-      "total": 1486,
-      "max": 1486,
-      "min": 1486
-    },
-    {
-      "league": "LKL",
-      "season": "2026-27",
-      "club": "JUV 93-77 TAU | Juventus",
-      "home_games_counted": 1,
-      "average": 1443,
-      "total": 1443,
-      "max": 1443,
-      "min": 1443
-    },
-    {
-      "league": "LKL",
-      "season": "2026-27",
-      "club": "JUV 94-77 NEV | Juventus",
-      "home_games_counted": 1,
-      "average": 1372,
-      "total": 1372,
-      "max": 1372,
-      "min": 1372
-    },
-    {
-      "league": "LKL",
-      "season": "2026-27",
-      "club": "LIE 84-82 JUV | Lietkabelis",
-      "home_games_counted": 1,
-      "average": 1269,
-      "total": 1269,
-      "max": 1269,
-      "min": 1269
-    },
-    {
-      "league": "LKL",
-      "season": "2026-27",
-      "club": "LIE 85-79 TAU | Lietkabelis",
-      "home_games_counted": 1,
-      "average": 1240,
-      "total": 1240,
-      "max": 1240,
-      "min": 1240
-    },
-    {
-      "league": "LKL",
-      "season": "2026-27",
-      "club": "LIE 65-71 JON | Lietkabelis",
-      "home_games_counted": 1,
-      "average": 1203,
-      "total": 1203,
-      "max": 1203,
-      "min": 1203
-    },
-    {
-      "league": "LKL",
-      "season": "2026-27",
-      "club": "GAR 90-79 SIA | Gargzdai",
-      "home_games_counted": 1,
-      "average": 1169,
-      "total": 1169,
-      "max": 1169,
-      "min": 1169
-    },
-    {
-      "league": "LKL",
-      "season": "2026-27",
-      "club": "JON 85-65 NEV | Jonava",
-      "home_games_counted": 1,
-      "average": 792,
-      "total": 792,
-      "max": 792,
-      "min": 792
-    },
-    {
-      "league": "LKL",
-      "season": "2026-27",
-      "club": "JON 63-79 SIA | Jonava",
-      "home_games_counted": 1,
-      "average": 712,
-      "total": 712,
-      "max": 712,
-      "min": 712
     },
     {
       "league": "LKL",
       "season": "2026-27",
       "club": "Gargzdai",
-      "home_games_counted": 0,
-      "average": null,
-      "total": 0,
-      "max": null,
-      "min": null
+      "home_games_counted": 3,
+      "average": 1385,
+      "total": 4155,
+      "max": 1500,
+      "min": 1169
     },
     {
       "league": "LKL",
       "season": "2026-27",
-      "club": "Nevezis",
-      "home_games_counted": 0,
-      "average": null,
-      "total": 0,
-      "max": null,
-      "min": null
+      "club": "Lietkabelis",
+      "home_games_counted": 4,
+      "average": 1385,
+      "total": 5539,
+      "max": 1827,
+      "min": 1203
+    },
+    {
+      "league": "LKL",
+      "season": "2026-27",
+      "club": "Jonava",
+      "home_games_counted": 2,
+      "average": 752,
+      "total": 1504,
+      "max": 792,
+      "min": 712
     }
   ]
 }

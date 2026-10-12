@@ -1,28 +1,10 @@
-GAR 77-98 ZAL | Gargzdai
-GAR 87-78 NEP | Gargzdai
-GAR 90-79 SIA | Gargzdai
 Gargzdai
-JON 63-79 SIA | Jonava
-JON 85-65 NEV | Jonava
-JUV 93-77 TAU | Juventus
-JUV 94-77 NEV | Juventus
+Jonava
 Juventus
-LIE 65-71 JON | Lietkabelis
-LIE 84-82 JUV | Lietkabelis
-LIE 85-79 TAU | Lietkabelis
 Lietkabelis
-NEP 69-93 ZAL | Neptunas
-NEP 89-62 NEV | Neptunas
-NEP 99-84 JUV | Neptunas
-NEV 76-80 ZAL | Nevezis
+Neptunas
 Nevezis
-RYT 102-105 GAR | Rytas
-RYT 86-77 NEP | Rytas
-SIA 83-71 JUV | Siauliai
-SIA 86-77 LIE | Siauliai
+Rytas
 Siauliai
-TAU 82-102 GAR | Taurage
-TAU 95-90 JON | Taurage
 Taurage
-ZAL 101-82 SIA | Zalgiris Kaunas
-ZAL 97-68 LIE | Zalgiris Kaunas
+Zalgiris Kaunas
