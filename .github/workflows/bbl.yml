@@ -4,6 +4,11 @@ on:
   schedule:
     - cron: "30 */6 * * *"
   workflow_dispatch:
+    inputs:
+      debug:
+        description: "Išsaugoti HTML derinimui"
+        type: boolean
+        default: false
 
 permissions:
   contents: write
@@ -27,16 +32,26 @@ jobs:
 
       - name: Įdiegti priklausomybes
         run: |
-          sudo apt-get update
-          sudo apt-get install -y tesseract-ocr poppler-utils
-          pip install requests
+          pip install requests beautifulsoup4 playwright
+          playwright install chromium --with-deps
 
       - name: Surinkti BBL lankomumą
         continue-on-error: true
         run: |
           python bbl_attendance.py \
             --season "$SEASON" \
-            --data-dir data/bbl
+            --data-dir data/bbl \
+            --max-fetch 80 \
+            --max-pages 15 \
+            ${{ inputs.debug && '--save-html' || '' }}
+
+      - name: Įkelti derinimo HTML
+        if: ${{ inputs.debug }}
+        uses: actions/upload-artifact@v4
+        with:
+          name: bbl-raw-html
+          path: data/bbl/raw/
+          if-no-files-found: ignore
 
       - name: Įrašyti pakeitimus
         run: |
