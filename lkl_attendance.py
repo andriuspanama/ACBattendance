@@ -37,6 +37,7 @@ except ImportError:
 LEAGUE = "LKL"
 BASE = "https://www.flashscore.com"
 RESULTS_URL = "https://www.flashscore.com/basketball/lithuania/lkl/results/"
+SEASON_START = "2026-09-17"  # 2026/27 sezono pradžia
 MATCH_FIELDS = [
     "league", "season", "match_id", "date", "home", "away",
     "attendance", "source_url", "checked_at", "attempts",
@@ -112,12 +113,10 @@ def extract_teams_from_title(title: str) -> tuple[str, str]:
     - "Rytas v Neptunas 10/10/2026 | Basketball - Flashscore"
     - "RYT 86-77 NEP | Rytas v Neptunas 10/10/2026 | Basketball - Flashscore | Match"
     """
-    # Pirmiausia bandome rasti "FullName v FullName" dalį po |
     m = re.search(r"\|\s*([^|]+?)\s+v\s+([^|]+?)(?:\s+\d|/|\||$)", title, re.I)
     if m:
         return m.group(1).strip(), m.group(2).strip()
 
-    # Jei nėra | – bandome nuo pradžios
     m = re.search(r"^(.+?)\s+v\s+(.+?)(?:\s+\d|/|\||$)", title, re.I)
     if m:
         home, away = m.group(1).strip(), m.group(2).strip()
@@ -133,14 +132,10 @@ def clean_team_name(name: str) -> str:
         return name
     name = name.strip()
 
-    # Jei yra | – imame dalį po paskutinio |
     if "|" in name:
         name = name.split("|")[-1].strip()
 
-    # Pašaliname santrumpas + rezultatą pradžioje (pvz. "RYT 86-77 NEP")
     name = re.sub(r"^[A-Z]{2,4}\s+\d{1,3}[-–]\d{1,3}\s+[A-Z]{2,4}\s*", "", name)
-
-    # Pašaliname likusias santrumpas pradžioje
     name = re.sub(r"^[A-Z]{2,4}\s+", "", name)
 
     return name.strip()
@@ -153,6 +148,10 @@ def compute_averages(matches: dict, aliases: dict, season: str):
 
     for m in matches.values():
         if m.get("season") != season:
+            continue
+        # Filtruojame pagal sezono pradžią
+        match_date = (m.get("date") or "").strip()
+        if match_date and match_date < SEASON_START:
             continue
         home_raw = (m.get("home") or "").strip()
         if not home_raw:
@@ -284,11 +283,9 @@ def scrape_match(page, url: str) -> dict | None:
             except Exception:
                 pass
 
-        # Išvalome pavadinimus
         home = clean_team_name(home)
         away = clean_team_name(away)
 
-        # Unikalus ID = mid parametras
         mid_match = re.search(r"[?&]mid=([A-Za-z0-9]+)", url)
         match_id = mid_match.group(1) if mid_match else url.rstrip("/").split("/")[-1]
 
@@ -337,7 +334,7 @@ def main():
         print("Reikia playwright: pip install playwright && playwright install chromium", file=sys.stderr)
         return 1
 
-    print(f"Sezonas {args.season}. Esama rungtynių: {len(matches)}")
+    print(f"Sezonas {args.season} (nuo {SEASON_START}). Esama rungtynių: {len(matches)}")
 
     with sync_playwright() as p:
         browser = p.chromium.launch(headless=True)
@@ -348,12 +345,10 @@ def main():
         )
         page = context.new_page()
 
-        # 1. Surinkti match URL
         print("Renku rungtynių nuorodas iš results...")
         page.goto(RESULTS_URL, wait_until="domcontentloaded", timeout=30000)
         page.wait_for_timeout(2000)
 
-        # Accept cookies
         try:
             page.locator("button:has-text('I Accept')").first.click(timeout=2000)
             page.wait_for_timeout(800)
@@ -363,7 +358,6 @@ def main():
         urls = collect_match_urls(page, max_pages=args.max_pages)
         print(f"Rasta unikalių match URL: {len(urls)}")
 
-        # 2. Scrapinti tuos, kurių dar nėra arba nėra attendance
         to_fetch = []
         for url in urls:
             mid_match = re.search(r"[?&]mid=([A-Za-z0-9]+)", url)
@@ -383,6 +377,14 @@ def main():
             time.sleep(args.delay)
             if not info:
                 continue
+
+            match_date = info["date"] or ""
+            
+            # Imame tik nuo sezono pradžios
+            if match_date and match_date < SEASON_START:
+                print(f"  -> {info['home']} vs {info['away']}: praleista (prieš sezoną – {match_date})")
+                continue
+
             mid = info["match_id"]
             prev = matches.get(mid, {})
             attempts = int(prev.get("attempts") or 0) + 1
@@ -390,7 +392,7 @@ def main():
                 "league": LEAGUE,
                 "season": args.season,
                 "match_id": mid,
-                "date": info["date"] or prev.get("date", ""),
+                "date": match_date,
                 "home": info["home"] or prev.get("home", ""),
                 "away": info["away"] or prev.get("away", ""),
                 "attendance": info["attendance"] if info["attendance"] is not None else prev.get("attendance", ""),
@@ -400,7 +402,7 @@ def main():
             }
             if info["attendance"] is not None:
                 found += 1
-                print(f"  -> {info['home']} vs {info['away']}: {info['attendance']} ({info['date']})")
+                print(f"  -> {info['home']} vs {info['away']}: {info['attendance']} ({match_date})")
             else:
                 print(f"  -> {info['home']} vs {info['away']}: (nėra attendance)")
 
