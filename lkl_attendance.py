@@ -99,7 +99,6 @@ def parse_attendance(text: str) -> int | None:
 
 
 def parse_date(text: str) -> str:
-    # 12.10.2025 or 12.10.2025 09:50
     m = re.search(r"\b(\d{1,2})\.(\d{1,2})\.(\d{4})\b", text)
     if m:
         d, mo, y = int(m.group(1)), int(m.group(2)), int(m.group(3))
@@ -108,7 +107,6 @@ def parse_date(text: str) -> str:
 
 
 def extract_teams_from_title(title: str) -> tuple[str, str]:
-    # "Juventus v Siauliai 12/10/2025 | Basketball - Flashscore"
     m = re.search(r"^(.+?)\s+v\s+(.+?)(?:\s+\d|/|\|)", title, re.I)
     if m:
         return m.group(1).strip(), m.group(2).strip()
@@ -184,47 +182,49 @@ def write_outputs(data_dir: Path, rows, unresolved, season: str):
         (data_dir / "unresolved_teams.txt").write_text("", encoding="utf-8")
 
 
-def collect_match_urls(page, max_pages: int = 10) -> list[str]:
-    """Scroll / click 'Show more matches' and collect unique match hrefs."""
+def collect_match_urls(page, max_pages: int = 12) -> list[str]:
+    """Surenka unikalias rungtynių nuorodas (su mid parametru)."""
     urls: set[str] = set()
+
     for _ in range(max_pages):
-        # Collect current links
         links = page.eval_on_selector_all(
             "a[href*='/match/basketball/']",
-            "els => els.map(e => e.getAttribute('href'))"
+            """els => els.map(e => e.href).filter(h => h && h.includes('/match/basketball/'))"""
         )
         for href in links:
-            if href and "/match/basketball/" in href:
-                full = urljoin(BASE, href.split("?")[0])
-                # only real match pages, not team pages
-                if re.search(r"/match/basketball/[^/]+/[^/]+/?$", full):
-                    urls.add(full)
+            if re.search(r"/match/basketball/[^/]+/[^/]+", href):
+                clean = href.split("#")[0]
+                urls.add(clean)
 
-        # Try to click "Show more matches"
         try:
             btn = page.locator("text=Show more matches").first
-            if btn.is_visible(timeout=1500):
+            if btn.is_visible(timeout=1200):
                 btn.click()
-                page.wait_for_timeout(1500)
+                page.wait_for_timeout(1600)
             else:
                 break
         except Exception:
             break
+
     return sorted(urls)
 
 
 def scrape_match(page, url: str) -> dict | None:
-    """Open a match page and extract attendance + teams + date."""
+    """Atidaro rungtynių puslapį ir ištraukia lankomumą + komandas + datą."""
     try:
         page.goto(url, wait_until="domcontentloaded", timeout=25000)
-        page.wait_for_timeout(1200)
+        page.wait_for_timeout(1400)
 
-        # Accept cookies if banner appears
+        # Cookie banner
         try:
-            for sel in ["button:has-text('I Accept')", "button:has-text('Accept All')",
-                        "button:has-text('Sutinku')", "#onetrust-accept-btn-handler"]:
+            for sel in [
+                "button:has-text('I Accept')",
+                "button:has-text('Accept All')",
+                "button:has-text('Sutinku')",
+                "#onetrust-accept-btn-handler",
+            ]:
                 btn = page.locator(sel).first
-                if btn.is_visible(timeout=800):
+                if btn.is_visible(timeout=700):
                     btn.click()
                     page.wait_for_timeout(600)
                     break
@@ -238,23 +238,23 @@ def scrape_match(page, url: str) -> dict | None:
         date = parse_date(text)
         home, away = extract_teams_from_title(title)
 
-        # Fallback: try to get team names from the page header
+        # Fallback komandų vardams
         if not home or not away:
             try:
                 names = page.eval_on_selector_all(
-                    ".detailScore__wrapper .participant__participantName, "
                     ".duelParticipant__home .participant__participantName, "
-                    ".duelParticipant__away .participant__participantName",
-                    "els => els.map(e => e.textContent.trim())"
+                    ".duelParticipant__away .participant__participantName, "
+                    ".participant__participantName",
+                    "els => els.map(e => e.textContent.trim()).filter(Boolean)"
                 )
                 if len(names) >= 2:
                     home, away = names[0], names[1]
             except Exception:
                 pass
 
-        match_id = url.rstrip("/").split("/")[-1]
-        if not match_id:
-            match_id = url.rstrip("/").split("/")[-2]
+        # Unikalus ID = mid parametras
+        mid_match = re.search(r"[?&]mid=([A-Za-z0-9]+)", url)
+        match_id = mid_match.group(1) if mid_match else url.rstrip("/").split("/")[-1]
 
         return {
             "match_id": match_id,
@@ -262,7 +262,7 @@ def scrape_match(page, url: str) -> dict | None:
             "home": home,
             "away": away,
             "attendance": att,
-            "source_url": url,
+            "source_url": url.split("?")[0] + (f"?mid={match_id}" if mid_match else ""),
         }
     except PlaywrightTimeout:
         return None
@@ -316,6 +316,7 @@ def main():
         print("Renku rungtynių nuorodas iš results...")
         page.goto(RESULTS_URL, wait_until="domcontentloaded", timeout=30000)
         page.wait_for_timeout(2000)
+
         # Accept cookies
         try:
             page.locator("button:has-text('I Accept')").first.click(timeout=2000)
@@ -329,7 +330,8 @@ def main():
         # 2. Scrapinti tuos, kurių dar nėra arba nėra attendance
         to_fetch = []
         for url in urls:
-            mid = url.rstrip("/").split("/")[-1]
+            mid_match = re.search(r"[?&]mid=([A-Za-z0-9]+)", url)
+            mid = mid_match.group(1) if mid_match else url.rstrip("/").split("/")[-1]
             existing = matches.get(mid)
             if existing and existing.get("attendance"):
                 continue
@@ -356,7 +358,7 @@ def main():
                 "home": info["home"] or prev.get("home", ""),
                 "away": info["away"] or prev.get("away", ""),
                 "attendance": info["attendance"] if info["attendance"] is not None else prev.get("attendance", ""),
-                "source_url": url,
+                "source_url": info["source_url"],
                 "checked_at": datetime.now(timezone.utc).isoformat(timespec="seconds"),
                 "attempts": str(attempts),
             }
