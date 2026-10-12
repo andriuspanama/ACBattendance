@@ -1,7 +1,7 @@
 {
   "league": "LKL",
   "season": "2026-27",
-  "updated": "2026-10-12T13:58:25+00:00",
+  "updated": "2026-10-12T14:00:53+00:00",
   "clubs": [
     {
       "league": "LKL",
@@ -96,7 +96,77 @@
     {
       "league": "LKL",
       "season": "2026-27",
+      "club": "Gargzdai v Lietkabelis results, stats | Basketball",
+      "home_games_counted": 0,
+      "average": null,
+      "total": 0,
+      "max": null,
+      "min": null
+    },
+    {
+      "league": "LKL",
+      "season": "2026-27",
+      "club": "Jonava v Neptunas LIVE 17/10/2026 | Basketball",
+      "home_games_counted": 0,
+      "average": null,
+      "total": 0,
+      "max": null,
+      "min": null
+    },
+    {
+      "league": "LKL",
+      "season": "2026-27",
+      "club": "Juventus v Rytas results, stats | Basketball",
+      "home_games_counted": 0,
+      "average": null,
+      "total": 0,
+      "max": null,
+      "min": null
+    },
+    {
+      "league": "LKL",
+      "season": "2026-27",
+      "club": "Neptunas v Siauliai results, stats | Basketball",
+      "home_games_counted": 0,
+      "average": null,
+      "total": 0,
+      "max": null,
+      "min": null
+    },
+    {
+      "league": "LKL",
+      "season": "2026-27",
+      "club": "Nevezis v Lietkabelis LIVE 17/10/2026 | Basketball",
+      "home_games_counted": 0,
+      "average": null,
+      "total": 0,
+      "max": null,
+      "min": null
+    },
+    {
+      "league": "LKL",
+      "season": "2026-27",
       "club": "Nevėžis-Paskolų klubas",
+      "home_games_counted": 0,
+      "average": null,
+      "total": 0,
+      "max": null,
+      "min": null
+    },
+    {
+      "league": "LKL",
+      "season": "2026-27",
+      "club": "Taurage v Nevezis 07/10/2026 | Basketball",
+      "home_games_counted": 0,
+      "average": null,
+      "total": 0,
+      "max": null,
+      "min": null
+    },
+    {
+      "league": "LKL",
+      "season": "2026-27",
+      "club": "Zalgiris Kaunas v Jonava results, stats | Basketball",
       "home_games_counted": 0,
       "average": null,
       "total": 0,
