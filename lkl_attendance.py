@@ -131,5 +131,5 @@ def compute_averages(matches: dict, aliases: dict, season: str):
         att = m.get("attendance")
         if att not in (None, ""):
             try:
-                per_club[club].append(int(att)
+                per_club[club].append(int(att))
 ... 
