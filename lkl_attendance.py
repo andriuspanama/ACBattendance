@@ -1,4 +1,4 @@
-#!/usr/init/env python3
+#!/usr/bin/env python3
 """
 LKL lankomumo rinkėjas (Flashscore versija).
 
@@ -298,6 +298,8 @@ def main():
     ap = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
     ap.add_argument("--season", default="2026-27")
     ap.add_argument("--data-dir", default="data/lkl")
+    ap.add_argument("--max-fetch", type=int, default=80)
+    ap.add_argument("--max-pages", type=int, default=20)
     ap.add_argument("--delay", type=float, default=1.0)
     ap.add_argument("--save-html", action="store_true")
     ap.add_argument("--recompute-only", action="store_true")
