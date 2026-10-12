@@ -1,7 +1,7 @@
 {
   "league": "LKL",
   "season": "2026-27",
-  "updated": "2026-10-12T20:32:58+00:00",
+  "updated": "2026-10-12T20:48:52+00:00",
   "clubs": [
     {
       "league": "LKL",
@@ -36,30 +36,20 @@
     {
       "league": "LKL",
       "season": "2026-27",
-      "club": "Juventus",
-      "home_games_counted": 4,
-      "average": 1868,
-      "total": 7473,
-      "max": 3455,
-      "min": 1203
-    },
-    {
-      "league": "LKL",
-      "season": "2026-27",
       "club": "Siauliai",
-      "home_games_counted": 3,
-      "average": 1848,
-      "total": 5543,
+      "home_games_counted": 2,
+      "average": 1972,
+      "total": 3943,
       "max": 2116,
-      "min": 1600
+      "min": 1827
     },
     {
       "league": "LKL",
       "season": "2026-27",
       "club": "Taurage",
-      "home_games_counted": 3,
+      "home_games_counted": 2,
       "average": 1780,
-      "total": 5340,
+      "total": 3560,
       "max": 1780,
       "min": 1780
     },
@@ -76,6 +66,16 @@
     {
       "league": "LKL",
       "season": "2026-27",
+      "club": "Juventus",
+      "home_games_counted": 2,
+      "average": 1408,
+      "total": 2815,
+      "max": 1443,
+      "min": 1372
+    },
+    {
+      "league": "LKL",
+      "season": "2026-27",
       "club": "Gargzdai",
       "home_games_counted": 3,
       "average": 1385,
@@ -87,10 +87,10 @@
       "league": "LKL",
       "season": "2026-27",
       "club": "Lietkabelis",
-      "home_games_counted": 4,
-      "average": 1385,
-      "total": 5539,
-      "max": 1827,
+      "home_games_counted": 3,
+      "average": 1237,
+      "total": 3712,
+      "max": 1269,
       "min": 1203
     },
     {
