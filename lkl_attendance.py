@@ -28,7 +28,11 @@ MATCH_FIELDS = [
     "attendance", "source_url", "checked_at", "attempts",
 ]
 
-ATTENDANCE_RE = re.compile(r"Attendance:\s*([\d\s\u00a0]+)", re.I)
+# Ieško tiek JSON formate ("attendance": 3455), tiek tekstiniame ("Attendance:", "Žiūrovai:")
+ATTENDANCE_RE = re.compile(
+    r'(?:["\']?attendance["\']?\s*[:=]\s*["\']?(\d+)|attendance[:\s]*([\d\s\u00a0]+)|žiūrovai[:\s]*([\d\s\u00a0]+))',
+    re.I
+)
 MAX_PLAUSIBLE = 20000
 
 LT_MONTHS = {
@@ -60,19 +64,23 @@ def parse_lt_date(text: str) -> str | None:
     return f"{year:04d}-{mon:02d}-{day:02d}"
 
 
-def parse_attendance(text: str) -> int | None:
-    m = ATTENDANCE_RE.search(text)
-    if not m:
-        return None
-    n = int(re.sub(r"\D", "", m.group(1)))
-    return n if 0 < n < MAX_PLAUSIBLE else None
+def parse_attendance(html: str, text: str) -> int | None:
+    # Patikriname tiek HTML šaltinį (dėl JSON), tiek matomą tekstą
+    combined = html + " " + text
+    for match in ATTENDANCE_RE.finditer(combined):
+        raw_val = match.group(1) or match.group(2) or match.group(3)
+        if raw_val:
+            n = int(re.sub(r"\D", "", raw_val))
+            if 0 < n < MAX_PLAUSIBLE:
+                return n
+    return None
 
 
 def parse_game(html: str) -> dict | None:
     soup = BeautifulSoup(html, "html.parser")
     text = soup.get_text(" ", strip=True)
     
-    attendance = parse_attendance(text)
+    attendance = parse_attendance(html, text)
     
     title = (soup.title.string or "").strip() if soup.title else ""
     home = away = None
@@ -172,7 +180,6 @@ def load_matches(path: Path) -> dict:
         for r in csv.DictReader(f):
             mid = (r.get("match_id") or "").strip()
             if mid:
-                # Ignoruojame senas lkl.lt nuorodas
                 url = r.get("source_url", "")
                 if "lkl.lt" not in url:
                     matches[mid] = r
@@ -324,7 +331,6 @@ def main():
         print("Ieškoma rungtynių per Flashscore...")
         games = discover_flashscore_games(fx)
         
-        # Prijungiame jau turėtas Flashscore nuorodas iš matches.csv, kad jos nepasimestų
         for mid, m in matches.items():
             if mid not in games and m.get("source_url"):
                 games[mid] = {"url": m["source_url"]}
