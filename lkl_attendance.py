@@ -20,6 +20,7 @@ from bs4 import BeautifulSoup
 
 LEAGUE = "LKL"
 FLASHSCORE_FIXTURES = "https://www.flashscore.com/basketball/lithuania/lkl/fixtures/"
+FLASHSCORE_RESULTS = "https://www.flashscore.com/basketball/lithuania/lkl/results/"
 UA = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36"
 
 MATCH_FIELDS = [
@@ -148,18 +149,18 @@ class Fetcher:
 
 def discover_flashscore_games(fx: Fetcher) -> dict:
     games = {}
-    html = fx.get(FLASHSCORE_FIXTURES, tag="flashscore_fixtures")
-    if not html:
-        return games
-    
-    match_paths = re.findall(r'href="(/match/basketball/[^"]+)"', html)
-    for path in match_paths:
-        full_url = "https://www.flashscore.com" + path
-        mid_match = re.search(r"mid=([a-zA-Z0-9]+)", path)
-        mid = mid_match.group(1) if mid_match else path.strip("/").split("/")[-1]
-        games[mid] = {"url": full_url}
+    for url in [FLASHSCORE_FIXTURES, FLASHSCORE_RESULTS]:
+        html = fx.get(url, tag=f"flashscore_{url.split('/')[-2]}")
+        if not html:
+            continue
+        match_paths = re.findall(r'href="(/match/basketball/[^"]+)"', html)
+        for path in match_paths:
+            full_url = "https://www.flashscore.com" + path
+            mid_match = re.search(r"mid=([a-zA-Z0-9]+)", path)
+            mid = mid_match.group(1) if mid_match else path.strip("/").split("/")[-1]
+            games[mid] = {"url": full_url}
         
-    print(f"Rasta rungtynių iš Flashscore: {len(games)}")
+    print(f"Rasta rungtynių iš Flashscore (iš viso): {len(games)}")
     return games
 
 
@@ -319,6 +320,10 @@ def main():
         fx = Fetcher(args.delay, data_dir / "raw" if args.save_html else None)
         print("Ieškoma rungtynių per Flashscore...")
         games = discover_flashscore_games(fx)
+        # Užtikriname, kad neištrintume jau išsaugotų rungtynių iš matches.csv
+        for mid, m in matches.items():
+            if mid not in games and m.get("source_url"):
+                games[mid] = {"url": m["source_url"]}
         update_matches(fx, games, matches, args.season)
         save_matches(matches_path, matches)
 
