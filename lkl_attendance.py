@@ -121,11 +121,29 @@ def extract_teams_from_title(title: str) -> tuple[str, str]:
     m = re.search(r"^(.+?)\s+v\s+(.+?)(?:\s+\d|/|\||$)", title, re.I)
     if m:
         home, away = m.group(1).strip(), m.group(2).strip()
-        # Jei pagavo santrumpas su rezultatu – atmetam
         if not re.search(r"\d", home) and not re.search(r"\d", away):
             return home, away
 
     return "", ""
+
+
+def clean_team_name(name: str) -> str:
+    """Išvalo Flashscore scoreboard šiukšles iš komandos pavadinimo."""
+    if not name:
+        return name
+    name = name.strip()
+
+    # Jei yra | – imame dalį po paskutinio |
+    if "|" in name:
+        name = name.split("|")[-1].strip()
+
+    # Pašaliname santrumpas + rezultatą pradžioje (pvz. "RYT 86-77 NEP")
+    name = re.sub(r"^[A-Z]{2,4}\s+\d{1,3}[-–]\d{1,3}\s+[A-Z]{2,4}\s*", "", name)
+
+    # Pašaliname likusias santrumpas pradžioje
+    name = re.sub(r"^[A-Z]{2,4}\s+", "", name)
+
+    return name.strip()
 
 
 def compute_averages(matches: dict, aliases: dict, season: str):
@@ -139,7 +157,7 @@ def compute_averages(matches: dict, aliases: dict, season: str):
         home_raw = (m.get("home") or "").strip()
         if not home_raw:
             continue
-        club = resolve_club(home_raw, aliases, unresolved)
+        club = resolve_club(clean_team_name(home_raw), aliases, unresolved)
         all_homes.add(club)
         att = m.get("attendance")
         if att not in (None, ""):
@@ -265,6 +283,10 @@ def scrape_match(page, url: str) -> dict | None:
                     home, away = names[0], names[1]
             except Exception:
                 pass
+
+        # Išvalome pavadinimus
+        home = clean_team_name(home)
+        away = clean_team_name(away)
 
         # Unikalus ID = mid parametras
         mid_match = re.search(r"[?&]mid=([A-Za-z0-9]+)", url)
