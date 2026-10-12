@@ -1,6 +1,187 @@
 {
   "league": "BBL",
   "season": "2026-27",
-  "updated": "2026-10-12T19:49:38+00:00",
-  "clubs": []
+  "updated": "2026-10-12T20:11:29+00:00",
+  "clubs": [
+    {
+      "league": "BBL",
+      "season": "2026-27",
+      "club": "Alba Berlin",
+      "home_games_counted": 2,
+      "average": 7886,
+      "total": 15771,
+      "max": 9060,
+      "min": 6711
+    },
+    {
+      "league": "BBL",
+      "season": "2026-27",
+      "club": "Oldenburg",
+      "home_games_counted": 3,
+      "average": 6500,
+      "total": 19500,
+      "max": 6500,
+      "min": 6500
+    },
+    {
+      "league": "BBL",
+      "season": "2026-27",
+      "club": "Trier",
+      "home_games_counted": 3,
+      "average": 5400,
+      "total": 16200,
+      "max": 5400,
+      "min": 5400
+    },
+    {
+      "league": "BBL",
+      "season": "2026-27",
+      "club": "Bonn",
+      "home_games_counted": 3,
+      "average": 5212,
+      "total": 15635,
+      "max": 5332,
+      "min": 5082
+    },
+    {
+      "league": "BBL",
+      "season": "2026-27",
+      "club": "Bayern",
+      "home_games_counted": 3,
+      "average": 4925,
+      "total": 14776,
+      "max": 6600,
+      "min": 4020
+    },
+    {
+      "league": "BBL",
+      "season": "2026-27",
+      "club": "Ulm",
+      "home_games_counted": 2,
+      "average": 4600,
+      "total": 9200,
+      "max": 4961,
+      "min": 4239
+    },
+    {
+      "league": "BBL",
+      "season": "2026-27",
+      "club": "Bamberg",
+      "home_games_counted": 2,
+      "average": 4116,
+      "total": 8233,
+      "max": 4210,
+      "min": 4023
+    },
+    {
+      "league": "BBL",
+      "season": "2026-27",
+      "club": "Chemnitz",
+      "home_games_counted": 2,
+      "average": 3901,
+      "total": 7802,
+      "max": 4405,
+      "min": 3397
+    },
+    {
+      "league": "BBL",
+      "season": "2026-27",
+      "club": "Rostock",
+      "home_games_counted": 2,
+      "average": 3677,
+      "total": 7354,
+      "max": 3722,
+      "min": 3632
+    },
+    {
+      "league": "BBL",
+      "season": "2026-27",
+      "club": "Basketball Braunschweig",
+      "home_games_counted": 3,
+      "average": 3334,
+      "total": 10002,
+      "max": 3590,
+      "min": 3074
+    },
+    {
+      "league": "BBL",
+      "season": "2026-27",
+      "club": "Ludwigsburg",
+      "home_games_counted": 2,
+      "average": 3243,
+      "total": 6486,
+      "max": 3514,
+      "min": 2972
+    },
+    {
+      "league": "BBL",
+      "season": "2026-27",
+      "club": "Phoenix Hagen",
+      "home_games_counted": 2,
+      "average": 3078,
+      "total": 6156,
+      "max": 3145,
+      "min": 3011
+    },
+    {
+      "league": "BBL",
+      "season": "2026-27",
+      "club": "Vechta",
+      "home_games_counted": 3,
+      "average": 2959,
+      "total": 8877,
+      "max": 3067,
+      "min": 2888
+    },
+    {
+      "league": "BBL",
+      "season": "2026-27",
+      "club": "Frankfurt",
+      "home_games_counted": 2,
+      "average": 2905,
+      "total": 5810,
+      "max": 3200,
+      "min": 2610
+    },
+    {
+      "league": "BBL",
+      "season": "2026-27",
+      "club": "Wurzburg",
+      "home_games_counted": 2,
+      "average": 2882,
+      "total": 5765,
+      "max": 2920,
+      "min": 2845
+    },
+    {
+      "league": "BBL",
+      "season": "2026-27",
+      "club": "Hamburg",
+      "home_games_counted": 2,
+      "average": 2791,
+      "total": 5582,
+      "max": 3190,
+      "min": 2392
+    },
+    {
+      "league": "BBL",
+      "season": "2026-27",
+      "club": "Jena",
+      "home_games_counted": 2,
+      "average": 2653,
+      "total": 5306,
+      "max": 3125,
+      "min": 2181
+    },
+    {
+      "league": "BBL",
+      "season": "2026-27",
+      "club": "Syntainics MBC",
+      "home_games_counted": 2,
+      "average": 2456,
+      "total": 4912,
+      "max": 2780,
+      "min": 2132
+    }
+  ]
 }
