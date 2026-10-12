@@ -1,0 +1,53 @@
+name: Atnaujinti BSL lankomumą
+
+on:
+  schedule:
+    - cron: "15 */6 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: attendance-bsl
+  cancel-in-progress: false
+
+env:
+  SEASON: "2026-27"
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Įdiegti priklausomybes
+        run: |
+          pip install requests beautifulsoup4 playwright
+          playwright install chromium --with-deps
+
+      - name: Surinkti BSL lankomumą
+        continue-on-error: true
+        run: |
+          python bsl_attendance.py \
+            --season "$SEASON" \
+            --data-dir data/bsl \
+            --max-fetch 60 \
+            --max-pages 8
+
+      - name: Įrašyti pakeitimus
+        run: |
+          git config user.name "attendance-bot"
+          git config user.email "attendance-bot@users.noreply.github.com"
+          git add data/bsl/matches.csv data/bsl/attendance_averages.json data/bsl/attendance_averages.csv data/bsl/unresolved_teams.txt 2>/dev/null || true
+          if git diff --cached --quiet; then
+            echo "Pakeitimų nėra"
+          else
+            git commit -m "BSL lankomumas: $(date -u +'%Y-%m-%d %H:%M') UTC"
+            git pull --rebase
+            git push
+          fi
