@@ -8,7 +8,7 @@ ACB,2026-27,105380,0000-00-00,La Laguna Tenerife,Casademont Zaragoza,4103,https:
 ACB,2026-27,105381,0000-00-00,Fiatc Girona,Ucam Murcia,4367,https://live.acb.com/partidos/fiatc-girona-vs-ucam-murcia-105381/resumen,2026-10-09T12:11:14+00:00,1
 ACB,2026-27,105382,0000-00-00,Valencia Basket,Ilerna Lleida,13111,https://live.acb.com/partidos/valencia-basket-vs-ilerna-lleida-105382/resumen,2026-10-09T12:11:17+00:00,1
 ACB,2026-27,105383,0000-00-00,Real Madrid,Unicaja,8123,https://live.acb.com/partidos/real-madrid-vs-unicaja-105383/resumen,2026-10-09T12:11:20+00:00,1
-ACB,2026-27,105384,,Asisa Joventut,Morabanc Andorra,,https://live.acb.com/partidos/asisa-joventut-vs-morabanc-andorra-105384/resumen,2026-10-12T18:36:48+00:00,5
+ACB,2026-27,105384,0000-00-00,Asisa Joventut,Morabanc Andorra,,https://live.acb.com/partidos/asisa-joventut-vs-morabanc-andorra-105384/resumen,2026-10-13T18:40:28+00:00,6
 ACB,2026-27,105385,0000-00-00,Unicaja,La Laguna Tenerife,9936,https://live.acb.com/partidos/unicaja-vs-la-laguna-tenerife-105385/resumen,2026-10-09T12:11:25+00:00,1
 ACB,2026-27,105386,0000-00-00,Kidsandus Manresa,Rio Breogan,4210,https://live.acb.com/partidos/kidsandus-manresa-vs-rio-breogan-105386/resumen,2026-10-09T12:11:28+00:00,1
 ACB,2026-27,105387,0000-00-00,Ilerna Lleida,Recoletas Salud San Pablo Burgos,5565,https://live.acb.com/partidos/ilerna-lleida-vs-recoletas-salud-san-pablo-burgos-105387/resumen,2026-10-09T12:11:31+00:00,1
@@ -26,10 +26,10 @@ ACB,2026-27,105398,0000-00-00,Ucam Murcia,La Laguna Tenerife,6611,https://live.a
 ACB,2026-27,105399,0000-00-00,Kosner Baskonia,Asisa Joventut,8240,https://live.acb.com/partidos/kosner-baskonia-vs-asisa-joventut-105399/resumen,2026-10-11T18:33:51+00:00,4
 ACB,2026-27,105400,0000-00-00,Surne Bilbao,Recoletas Salud San Pablo Burgos,9321,https://live.acb.com/partidos/surne-bilbao-vs-recoletas-salud-san-pablo-burgos-105400/resumen,2026-10-11T18:33:54+00:00,4
 ACB,2026-27,105401,0000-00-00,Barca,Valencia Basket,5342,https://live.acb.com/partidos/barca-vs-valencia-basket-105401/resumen,2026-10-11T18:33:57+00:00,4
-ACB,2026-27,105402,0000-00-00,Kidsandus Manresa,Unicaja,,https://live.acb.com/partidos/kidsandus-manresa-vs-unicaja-105402/resumen,2026-10-12T18:36:51+00:00,5
-ACB,2026-27,105403,0000-00-00,Morabanc Andorra,Rio Breogan,,https://live.acb.com/partidos/morabanc-andorra-vs-rio-breogan-105403/resumen,2026-10-12T18:36:53+00:00,5
-ACB,2026-27,105404,0000-00-00,Recoletas Salud San Pablo Burgos,Monbus Obradoiro,,https://live.acb.com/partidos/recoletas-salud-san-pablo-burgos-vs-monbus-obradoiro-105404/resumen,2026-10-12T18:36:56+00:00,5
-ACB,2026-27,105405,0000-00-00,Fiatc Girona,Leyma Coruna,,https://live.acb.com/partidos/fiatc-girona-vs-leyma-coruna-105405/resumen,2026-10-12T18:36:59+00:00,5
+ACB,2026-27,105402,0000-00-00,Kidsandus Manresa,Unicaja,,https://live.acb.com/partidos/kidsandus-manresa-vs-unicaja-105402/resumen,2026-10-13T18:40:31+00:00,6
+ACB,2026-27,105403,0000-00-00,Morabanc Andorra,Rio Breogan,,https://live.acb.com/partidos/morabanc-andorra-vs-rio-breogan-105403/resumen,2026-10-13T18:40:34+00:00,6
+ACB,2026-27,105404,0000-00-00,Recoletas Salud San Pablo Burgos,Monbus Obradoiro,,https://live.acb.com/partidos/recoletas-salud-san-pablo-burgos-vs-monbus-obradoiro-105404/resumen,2026-10-13T18:40:37+00:00,6
+ACB,2026-27,105405,0000-00-00,Fiatc Girona,Leyma Coruna,,https://live.acb.com/partidos/fiatc-girona-vs-leyma-coruna-105405/resumen,2026-10-13T18:40:40+00:00,6
 ACB,2026-27,105406,0000-00-00,Casademont Zaragoza,Ilerna Lleida,,https://live.acb.com/partidos/casademont-zaragoza-vs-ilerna-lleida-105406/resumen,2026-10-12T21:20:42+00:00,5
 ACB,2026-27,105407,0000-00-00,Real Madrid,Surne Bilbao,,https://live.acb.com/partidos/real-madrid-vs-surne-bilbao-105407/resumen,2026-10-12T21:20:45+00:00,5
 ACB,2026-27,105408,0000-00-00,Valencia Basket,Ucam Murcia,,https://live.acb.com/partidos/valencia-basket-vs-ucam-murcia-105408/resumen,2026-10-12T21:20:48+00:00,5
@@ -46,7 +46,7 @@ ACB,2026-27,105418,0000-00-00,Rio Breogan,Unicaja,,https://live.acb.com/partidos
 ACB,2026-27,105419,0000-00-00,Ilerna Lleida,Real Madrid,,https://live.acb.com/partidos/ilerna-lleida-vs-real-madrid-105419/resumen,2026-10-13T00:45:51+00:00,5
 ACB,2026-27,105420,0000-00-00,Casademont Zaragoza,Fiatc Girona,,https://live.acb.com/partidos/casademont-zaragoza-vs-fiatc-girona-105420/resumen,2026-10-13T00:45:54+00:00,5
 ACB,2026-27,105421,0000-00-00,Ucam Murcia,Ilerna Lleida,,https://live.acb.com/partidos/ucam-murcia-vs-ilerna-lleida-105421/resumen,2026-10-13T00:45:57+00:00,5
-ACB,2026-27,105422,0000-00-00,Leyma Coruna,La Laguna Tenerife,,https://live.acb.com/partidos/leyma-coruna-vs-la-laguna-tenerife-105422/resumen,2026-10-12T13:05:54+00:00,4
+ACB,2026-27,105422,0000-00-00,Leyma Coruna,La Laguna Tenerife,,https://live.acb.com/partidos/leyma-coruna-vs-la-laguna-tenerife-105422/resumen,2026-10-13T18:40:43+00:00,5
 ACB,2026-27,105423,0000-00-00,Asisa Joventut,Surne Bilbao,,https://live.acb.com/partidos/asisa-joventut-vs-surne-bilbao-105423/resumen,2026-10-13T00:46:00+00:00,4
 ACB,2026-27,105424,0000-00-00,Monbus Obradoiro,Rio Breogan,,https://live.acb.com/partidos/monbus-obradoiro-vs-rio-breogan-105424/resumen,2026-10-13T00:46:03+00:00,4
 ACB,2026-27,105425,0000-00-00,Real Madrid,Recoletas Salud San Pablo Burgos,,https://live.acb.com/partidos/real-madrid-vs-recoletas-salud-san-pablo-burgos-105425/resumen,2026-10-13T00:46:06+00:00,4
@@ -60,5 +60,7 @@ ACB,2026-27,105432,0000-00-00,Barca,Rio Breogan,,https://live.acb.com/partidos/b
 ACB,2026-27,105433,0000-00-00,Recoletas Salud San Pablo Burgos,Valencia Basket,,https://live.acb.com/partidos/recoletas-salud-san-pablo-burgos-vs-valencia-basket-105433/resumen,2026-10-13T12:43:04+00:00,4
 ACB,2026-27,105434,0000-00-00,La Laguna Tenerife,Asisa Joventut,,https://live.acb.com/partidos/la-laguna-tenerife-vs-asisa-joventut-105434/resumen,2026-10-13T12:43:07+00:00,4
 ACB,2026-27,105435,0000-00-00,Casademont Zaragoza,Unicaja,,https://live.acb.com/partidos/casademont-zaragoza-vs-unicaja-105435/resumen,2026-10-13T12:43:10+00:00,4
-ACB,2026-27,105436,0000-00-00,Leyma Coruna,Morabanc Andorra,,https://live.acb.com/partidos/leyma-coruna-vs-morabanc-andorra-105436/resumen,2026-10-13T06:42:43+00:00,2
-ACB,2026-27,105437,0000-00-00,Real Madrid,Ucam Murcia,,https://live.acb.com/partidos/real-madrid-vs-ucam-murcia-105437/resumen,2026-10-12T18:37:17+00:00,1
+ACB,2026-27,105436,0000-00-00,Leyma Coruna,Morabanc Andorra,,https://live.acb.com/partidos/leyma-coruna-vs-morabanc-andorra-105436/resumen,2026-10-13T18:40:46+00:00,3
+ACB,2026-27,105437,0000-00-00,Real Madrid,Ucam Murcia,,https://live.acb.com/partidos/real-madrid-vs-ucam-murcia-105437/resumen,2026-10-13T18:40:49+00:00,2
+ACB,2026-27,105438,0000-00-00,Rio Breogan,Recoletas Salud San Pablo Burgos,,https://live.acb.com/partidos/rio-breogan-vs-recoletas-salud-san-pablo-burgos-105438/resumen,2026-10-13T18:40:52+00:00,1
+ACB,2026-27,105439,0000-00-00,Morabanc Andorra,La Laguna Tenerife,,https://live.acb.com/partidos/morabanc-andorra-vs-la-laguna-tenerife-105439/resumen,2026-10-13T18:40:55+00:00,1
