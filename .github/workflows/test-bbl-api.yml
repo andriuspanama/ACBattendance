@@ -1,0 +1,17 @@
+name: Testuoti BBL API
+
+on:
+  workflow_dispatch:
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Patikrinti boxscore adresus
+        run: |
+          for id in 2006860 2006870 2006875 2006882; do
+            code=$(curl -s -o /tmp/t.pdf -w "HTTP %{http_code}, %{content_type}, %{size_download} B" \
+              -H "User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 Chrome/124.0 Safari/537.36" \
+              "https://api.basketball-bundesliga.de/reports/485/$id/boxscore")
+            echo "$id: $code, pradžia: $(head -c 5 /tmp/t.pdf)"
+          done
