@@ -20,4 +20,4 @@ jobs:
           pip install requests
 
       - name: Patikra
-        run: python check_bbl.py
+                run: python check_bbl.py --start 2006000 --end 2008000
