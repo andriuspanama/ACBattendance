@@ -1,7 +1,7 @@
 {
   "league": "LKL",
   "season": "2026-27",
-  "updated": "2026-10-18T13:14:40+00:00",
+  "updated": "2026-10-18T19:06:56+00:00",
   "clubs": [
     {
       "league": "LKL",
@@ -57,10 +57,10 @@
       "league": "LKL",
       "season": "2026-27",
       "club": "Juventus",
-      "home_games_counted": 2,
-      "average": 1408,
-      "total": 2815,
-      "max": 1443,
+      "home_games_counted": 3,
+      "average": 1429,
+      "total": 4288,
+      "max": 1473,
       "min": 1372
     },
     {
