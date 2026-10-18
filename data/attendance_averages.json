@@ -1,17 +1,17 @@
 {
   "league": "ACB",
   "season": "2026-27",
-  "updated": "2026-10-18T12:48:19+00:00",
+  "updated": "2026-10-18T18:43:33+00:00",
   "clubs": [
     {
       "league": "ACB",
       "season": "2026-27",
       "club": "Valencia Basket",
-      "home_games_counted": 1,
-      "average": 13111,
-      "total": 13111,
+      "home_games_counted": 2,
+      "average": 11108,
+      "total": 22215,
       "max": 13111,
-      "min": 13111
+      "min": 9104
     },
     {
       "league": "ACB",
@@ -56,22 +56,32 @@
     {
       "league": "ACB",
       "season": "2026-27",
-      "club": "Real Madrid",
+      "club": "Asisa Joventut",
       "home_games_counted": 2,
-      "average": 7619,
-      "total": 15238,
+      "average": 7442,
+      "total": 14884,
+      "max": 10248,
+      "min": 4636
+    },
+    {
+      "league": "ACB",
+      "season": "2026-27",
+      "club": "Real Madrid",
+      "home_games_counted": 3,
+      "average": 7286,
+      "total": 21857,
       "max": 8123,
-      "min": 7115
+      "min": 6619
     },
     {
       "league": "ACB",
       "season": "2026-27",
       "club": "Casademont Zaragoza",
-      "home_games_counted": 1,
-      "average": 7364,
-      "total": 7364,
+      "home_games_counted": 2,
+      "average": 6942,
+      "total": 13884,
       "max": 7364,
-      "min": 7364
+      "min": 6520
     },
     {
       "league": "ACB",
@@ -126,16 +136,6 @@
     {
       "league": "ACB",
       "season": "2026-27",
-      "club": "Asisa Joventut",
-      "home_games_counted": 1,
-      "average": 4636,
-      "total": 4636,
-      "max": 4636,
-      "min": 4636
-    },
-    {
-      "league": "ACB",
-      "season": "2026-27",
       "club": "Kidsandus Manresa",
       "home_games_counted": 2,
       "average": 4508,
@@ -167,10 +167,10 @@
       "league": "ACB",
       "season": "2026-27",
       "club": "La Laguna Tenerife",
-      "home_games_counted": 1,
-      "average": 4103,
-      "total": 4103,
-      "max": 4103,
+      "home_games_counted": 2,
+      "average": 4270,
+      "total": 8541,
+      "max": 4438,
       "min": 4103
     },
     {
