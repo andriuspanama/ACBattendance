@@ -1,7 +1,7 @@
 {
   "league": "ACB",
   "season": "2026-27",
-  "updated": "2026-10-17T18:42:44+00:00",
+  "updated": "2026-10-18T00:55:41+00:00",
   "clubs": [
     {
       "league": "ACB",
@@ -27,11 +27,11 @@
       "league": "ACB",
       "season": "2026-27",
       "club": "Recoletas Salud San Pablo Burgos",
-      "home_games_counted": 1,
-      "average": 8963,
-      "total": 8963,
+      "home_games_counted": 2,
+      "average": 8956,
+      "total": 17911,
       "max": 8963,
-      "min": 8963
+      "min": 8948
     },
     {
       "league": "ACB",
@@ -136,6 +136,16 @@
     {
       "league": "ACB",
       "season": "2026-27",
+      "club": "Kidsandus Manresa",
+      "home_games_counted": 2,
+      "average": 4508,
+      "total": 9016,
+      "max": 4806,
+      "min": 4210
+    },
+    {
+      "league": "ACB",
+      "season": "2026-27",
       "club": "Fiatc Girona",
       "home_games_counted": 1,
       "average": 4367,
@@ -156,16 +166,6 @@
     {
       "league": "ACB",
       "season": "2026-27",
-      "club": "Kidsandus Manresa",
-      "home_games_counted": 1,
-      "average": 4210,
-      "total": 4210,
-      "max": 4210,
-      "min": 4210
-    },
-    {
-      "league": "ACB",
-      "season": "2026-27",
       "club": "La Laguna Tenerife",
       "home_games_counted": 1,
       "average": 4103,
@@ -177,11 +177,11 @@
       "league": "ACB",
       "season": "2026-27",
       "club": "Morabanc Andorra",
-      "home_games_counted": 1,
-      "average": 3848,
-      "total": 3848,
+      "home_games_counted": 2,
+      "average": 3785,
+      "total": 7570,
       "max": 3848,
-      "min": 3848
+      "min": 3722
     }
   ]
 }
