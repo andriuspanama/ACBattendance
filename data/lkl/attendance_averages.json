@@ -1,7 +1,7 @@
 {
   "league": "LKL",
   "season": "2026-27",
-  "updated": "2026-10-21T19:19:19+00:00",
+  "updated": "2026-10-21T21:21:43+00:00",
   "clubs": [
     {
       "league": "LKL",
@@ -47,10 +47,10 @@
       "league": "LKL",
       "season": "2026-27",
       "club": "Taurage",
-      "home_games_counted": 2,
-      "average": 1780,
-      "total": 3560,
-      "max": 1780,
+      "home_games_counted": 3,
+      "average": 1787,
+      "total": 5360,
+      "max": 1800,
       "min": 1780
     },
     {
