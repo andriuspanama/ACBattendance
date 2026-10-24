@@ -1,7 +1,7 @@
 {
   "league": "ACB",
   "season": "2026-27",
-  "updated": "2026-10-24T12:51:44+00:00",
+  "updated": "2026-10-24T18:45:26+00:00",
   "clubs": [
     {
       "league": "ACB",
@@ -87,11 +87,11 @@
       "league": "ACB",
       "season": "2026-27",
       "club": "Ucam Murcia",
-      "home_games_counted": 2,
-      "average": 6911,
-      "total": 13822,
+      "home_games_counted": 3,
+      "average": 6629,
+      "total": 19887,
       "max": 7211,
-      "min": 6611
+      "min": 6065
     },
     {
       "league": "ACB",
@@ -137,9 +137,9 @@
       "league": "ACB",
       "season": "2026-27",
       "club": "Kidsandus Manresa",
-      "home_games_counted": 2,
-      "average": 4508,
-      "total": 9016,
+      "home_games_counted": 3,
+      "average": 4567,
+      "total": 13701,
       "max": 4806,
       "min": 4210
     },
