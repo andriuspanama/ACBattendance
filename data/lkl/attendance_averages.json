@@ -1,7 +1,7 @@
 {
   "league": "LKL",
   "season": "2026-27",
-  "updated": "2026-10-24T19:12:04+00:00",
+  "updated": "2026-10-25T01:19:08+00:00",
   "clubs": [
     {
       "league": "LKL",
@@ -47,9 +47,9 @@
       "league": "LKL",
       "season": "2026-27",
       "club": "Taurage",
-      "home_games_counted": 3,
-      "average": 1787,
-      "total": 5360,
+      "home_games_counted": 4,
+      "average": 1785,
+      "total": 7140,
       "max": 1800,
       "min": 1780
     },
@@ -67,9 +67,9 @@
       "league": "LKL",
       "season": "2026-27",
       "club": "Gargzdai",
-      "home_games_counted": 3,
-      "average": 1385,
-      "total": 4155,
+      "home_games_counted": 4,
+      "average": 1400,
+      "total": 5598,
       "max": 1500,
       "min": 1169
     },
