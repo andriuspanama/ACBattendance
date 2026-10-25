@@ -1,7 +1,7 @@
 {
   "league": "BBL",
   "season": "2026-27",
-  "updated": "2026-10-24T18:56:14+00:00",
+  "updated": "2026-10-25T01:04:37+00:00",
   "clubs": [
     {
       "league": "BBL",
@@ -96,22 +96,22 @@
     {
       "league": "BBL",
       "season": "2026-27",
+      "club": "Ludwigsburg",
+      "home_games_counted": 3,
+      "average": 3389,
+      "total": 10168,
+      "max": 3682,
+      "min": 2972
+    },
+    {
+      "league": "BBL",
+      "season": "2026-27",
       "club": "Basketball Braunschweig",
       "home_games_counted": 3,
       "average": 3334,
       "total": 10002,
       "max": 3590,
       "min": 3074
-    },
-    {
-      "league": "BBL",
-      "season": "2026-27",
-      "club": "Ludwigsburg",
-      "home_games_counted": 2,
-      "average": 3243,
-      "total": 6486,
-      "max": 3514,
-      "min": 2972
     },
     {
       "league": "BBL",
@@ -127,10 +127,10 @@
       "league": "BBL",
       "season": "2026-27",
       "club": "Vechta",
-      "home_games_counted": 3,
-      "average": 2959,
-      "total": 8877,
-      "max": 3067,
+      "home_games_counted": 4,
+      "average": 3004,
+      "total": 12017,
+      "max": 3140,
       "min": 2888
     },
     {
@@ -177,9 +177,9 @@
       "league": "BBL",
       "season": "2026-27",
       "club": "Syntainics MBC",
-      "home_games_counted": 2,
-      "average": 2456,
-      "total": 4912,
+      "home_games_counted": 3,
+      "average": 2396,
+      "total": 7188,
       "max": 2780,
       "min": 2132
     }
