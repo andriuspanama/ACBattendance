@@ -1,15 +1,15 @@
 {
   "league": "ACB",
   "season": "2026-27",
-  "updated": "2026-10-25T12:51:12+00:00",
+  "updated": "2026-10-25T18:46:48+00:00",
   "clubs": [
     {
       "league": "ACB",
       "season": "2026-27",
       "club": "Valencia Basket",
-      "home_games_counted": 2,
-      "average": 11108,
-      "total": 22215,
+      "home_games_counted": 3,
+      "average": 11435,
+      "total": 34305,
       "max": 13111,
       "min": 9104
     },
@@ -37,11 +37,11 @@
       "league": "ACB",
       "season": "2026-27",
       "club": "Surne Bilbao",
-      "home_games_counted": 2,
-      "average": 8709,
-      "total": 17418,
+      "home_games_counted": 3,
+      "average": 8414,
+      "total": 25241,
       "max": 9321,
-      "min": 8097
+      "min": 7823
     },
     {
       "league": "ACB",
@@ -127,10 +127,10 @@
       "league": "ACB",
       "season": "2026-27",
       "club": "Rio Breogan",
-      "home_games_counted": 2,
-      "average": 5272,
-      "total": 10545,
-      "max": 5280,
+      "home_games_counted": 3,
+      "average": 5283,
+      "total": 15850,
+      "max": 5305,
       "min": 5265
     },
     {
@@ -147,31 +147,31 @@
       "league": "ACB",
       "season": "2026-27",
       "club": "Fiatc Girona",
-      "home_games_counted": 2,
-      "average": 4472,
-      "total": 8945,
-      "max": 4578,
+      "home_games_counted": 3,
+      "average": 4553,
+      "total": 13659,
+      "max": 4714,
       "min": 4367
     },
     {
       "league": "ACB",
       "season": "2026-27",
-      "club": "Barca",
-      "home_games_counted": 2,
-      "average": 4365,
-      "total": 8730,
-      "max": 5342,
-      "min": 3388
+      "club": "La Laguna Tenerife",
+      "home_games_counted": 3,
+      "average": 4361,
+      "total": 13083,
+      "max": 4542,
+      "min": 4103
     },
     {
       "league": "ACB",
       "season": "2026-27",
-      "club": "La Laguna Tenerife",
-      "home_games_counted": 2,
-      "average": 4270,
-      "total": 8541,
-      "max": 4438,
-      "min": 4103
+      "club": "Barca",
+      "home_games_counted": 3,
+      "average": 4213,
+      "total": 12640,
+      "max": 5342,
+      "min": 3388
     },
     {
       "league": "ACB",
