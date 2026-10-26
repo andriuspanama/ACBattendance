@@ -1,15 +1,15 @@
 {
   "league": "BBL",
   "season": "2026-27",
-  "updated": "2026-10-26T01:19:41+00:00",
+  "updated": "2026-10-26T07:22:03+00:00",
   "clubs": [
     {
       "league": "BBL",
       "season": "2026-27",
       "club": "Alba Berlin",
-      "home_games_counted": 3,
-      "average": 8274,
-      "total": 24821,
+      "home_games_counted": 4,
+      "average": 8275,
+      "total": 33100,
       "max": 9060,
       "min": 6711
     },
