@@ -1,7 +1,7 @@
 {
   "league": "ACB",
   "season": "2026-27",
-  "updated": "2026-10-26T14:55:19+00:00",
+  "updated": "2026-10-26T18:59:24+00:00",
   "clubs": [
     {
       "league": "ACB",
@@ -106,22 +106,22 @@
     {
       "league": "ACB",
       "season": "2026-27",
+      "club": "Ilerna Lleida",
+      "home_games_counted": 2,
+      "average": 5632,
+      "total": 11264,
+      "max": 5699,
+      "min": 5565
+    },
+    {
+      "league": "ACB",
+      "season": "2026-27",
       "club": "Monbus Obradoiro",
       "home_games_counted": 2,
       "average": 5590,
       "total": 11180,
       "max": 5976,
       "min": 5204
-    },
-    {
-      "league": "ACB",
-      "season": "2026-27",
-      "club": "Ilerna Lleida",
-      "home_games_counted": 1,
-      "average": 5565,
-      "total": 5565,
-      "max": 5565,
-      "min": 5565
     },
     {
       "league": "ACB",
