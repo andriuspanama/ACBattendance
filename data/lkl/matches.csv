@@ -1,7 +1,7 @@
 league,season,match_id,date,home,away,attendance,source_url,checked_at,attempts
 LKL,2026-27,46sBO1Xa,2026-09-19,Taurage,Jonava,1780,https://www.flashscore.com/match/basketball/bc-jonava-pCTrYeo8/taurage-jZEoISJO/?mid=46sBO1Xa,2026-10-12T20:47:50+00:00,1
 LKL,2026-27,6gMrw1ng,2026-09-23,Siauliai,Lietkabelis,2116,https://www.flashscore.com/match/basketball/lietkabelis-vVYAjqNq/siauliai-xG6QEcED/?mid=6gMrw1ng,2026-10-12T20:48:31+00:00,1
-LKL,2026-27,8bteDgoK,2026-10-25,Juventus,Rytas,,https://www.flashscore.com/match/basketball/bc-rytas-d2OmwT1J/juventus-UylfCwh5/?mid=8bteDgoK,2026-10-25T19:16:12+00:00,1
+LKL,2026-27,8bteDgoK,2026-10-25,Juventus,Rytas,2244,https://www.flashscore.com/match/basketball/bc-rytas-d2OmwT1J/juventus-UylfCwh5/?mid=8bteDgoK,2026-10-26T01:28:54+00:00,2
 LKL,2026-27,8tFtSeek,2026-10-10,Lietkabelis,Jonava,1203,https://www.flashscore.com/match/basketball/bc-jonava-pCTrYeo8/lietkabelis-vVYAjqNq/?mid=8tFtSeek,2026-10-12T20:47:39+00:00,1
 LKL,2026-27,8vj1iCO0,2026-10-24,Gargzdai,Lietkabelis,1443,https://www.flashscore.com/match/basketball/gargzdai-425jx2pg/lietkabelis-vVYAjqNq/?mid=8vj1iCO0,2026-10-25T01:19:04+00:00,2
 LKL,2026-27,ANGFi01n,2026-09-27,Zalgiris Kaunas,Siauliai,6746,https://www.flashscore.com/match/basketball/siauliai-xG6QEcED/zalgiris-kaunas-6JbDYvUs/?mid=ANGFi01n,2026-10-12T20:48:52+00:00,1
@@ -28,7 +28,7 @@ LKL,2026-27,j1IVmI0B,2026-10-03,Rytas,Gargzdai,3012,https://www.flashscore.com/m
 LKL,2026-27,jLATxD97,2026-10-17,Nevezis,Lietkabelis,870,https://www.flashscore.com/match/basketball/lietkabelis-vVYAjqNq/nevezis-zgNixmHP/?mid=jLATxD97,2026-10-17T19:07:11+00:00,1
 LKL,2026-27,n7hXVquQ,2026-09-17,Gargzdai,Zalgiris Kaunas,1500,https://www.flashscore.com/match/basketball/gargzdai-425jx2pg/zalgiris-kaunas-6JbDYvUs/?mid=n7hXVquQ,2026-10-12T20:48:10+00:00,1
 LKL,2026-27,ppqRKJWO,2026-09-20,Gargzdai,Siauliai,1169,https://www.flashscore.com/match/basketball/gargzdai-425jx2pg/siauliai-xG6QEcED/?mid=ppqRKJWO,2026-10-12T20:48:04+00:00,1
-LKL,2026-27,pvzZ5Bwf,2026-10-25,Neptunas,Siauliai,,https://www.flashscore.com/match/basketball/neptunas-pUCKb7F3/siauliai-xG6QEcED/?mid=pvzZ5Bwf,2026-10-25T19:16:15+00:00,1
-LKL,2026-27,vsXQ7X8s,2026-10-25,Zalgiris Kaunas,Jonava,,https://www.flashscore.com/match/basketball/bc-jonava-pCTrYeo8/zalgiris-kaunas-6JbDYvUs/?mid=vsXQ7X8s,2026-10-25T19:16:08+00:00,1
+LKL,2026-27,pvzZ5Bwf,2026-10-25,Neptunas,Siauliai,1809,https://www.flashscore.com/match/basketball/neptunas-pUCKb7F3/siauliai-xG6QEcED/?mid=pvzZ5Bwf,2026-10-26T01:28:57+00:00,2
+LKL,2026-27,vsXQ7X8s,2026-10-25,Zalgiris Kaunas,Jonava,3956,https://www.flashscore.com/match/basketball/bc-jonava-pCTrYeo8/zalgiris-kaunas-6JbDYvUs/?mid=vsXQ7X8s,2026-10-26T01:28:50+00:00,2
 LKL,2026-27,xKuJMu2C,2026-09-20,Neptunas,Zalgiris Kaunas,4698,https://www.flashscore.com/match/basketball/neptunas-pUCKb7F3/zalgiris-kaunas-6JbDYvUs/?mid=xKuJMu2C,2026-10-12T20:48:45+00:00,1
 LKL,2026-27,xfh9p4BG,2026-10-10,Rytas,Neptunas,3455,https://www.flashscore.com/match/basketball/bc-rytas-d2OmwT1J/neptunas-pUCKb7F3/?mid=xfh9p4BG,2026-10-12T20:47:57+00:00,1

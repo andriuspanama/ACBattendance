@@ -1,15 +1,15 @@
 {
   "league": "LKL",
   "season": "2026-27",
-  "updated": "2026-10-25T19:16:15+00:00",
+  "updated": "2026-10-26T01:28:57+00:00",
   "clubs": [
     {
       "league": "LKL",
       "season": "2026-27",
       "club": "Zalgiris Kaunas",
-      "home_games_counted": 3,
-      "average": 4537,
-      "total": 13611,
+      "home_games_counted": 4,
+      "average": 4392,
+      "total": 17567,
       "max": 6746,
       "min": 2750
     },
@@ -27,9 +27,9 @@
       "league": "LKL",
       "season": "2026-27",
       "club": "Neptunas",
-      "home_games_counted": 3,
-      "average": 2643,
-      "total": 7929,
+      "home_games_counted": 4,
+      "average": 2434,
+      "total": 9738,
       "max": 4698,
       "min": 1552
     },
@@ -57,10 +57,10 @@
       "league": "LKL",
       "season": "2026-27",
       "club": "Juventus",
-      "home_games_counted": 3,
-      "average": 1429,
-      "total": 4288,
-      "max": 1473,
+      "home_games_counted": 4,
+      "average": 1633,
+      "total": 6532,
+      "max": 2244,
       "min": 1372
     },
     {
