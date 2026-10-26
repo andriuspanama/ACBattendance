@@ -1,7 +1,7 @@
 {
   "league": "BBL",
   "season": "2026-27",
-  "updated": "2026-10-25T18:57:59+00:00",
+  "updated": "2026-10-26T01:19:41+00:00",
   "clubs": [
     {
       "league": "BBL",
@@ -36,22 +36,22 @@
     {
       "league": "BBL",
       "season": "2026-27",
+      "club": "Bayern",
+      "home_games_counted": 4,
+      "average": 5305,
+      "total": 21220,
+      "max": 6600,
+      "min": 4020
+    },
+    {
+      "league": "BBL",
+      "season": "2026-27",
       "club": "Bonn",
       "home_games_counted": 3,
       "average": 5212,
       "total": 15635,
       "max": 5332,
       "min": 5082
-    },
-    {
-      "league": "BBL",
-      "season": "2026-27",
-      "club": "Bayern",
-      "home_games_counted": 3,
-      "average": 5040,
-      "total": 15120,
-      "max": 6600,
-      "min": 4020
     },
     {
       "league": "BBL",
@@ -117,9 +117,9 @@
       "league": "BBL",
       "season": "2026-27",
       "club": "Phoenix Hagen",
-      "home_games_counted": 2,
-      "average": 3078,
-      "total": 6156,
+      "home_games_counted": 3,
+      "average": 3100,
+      "total": 9301,
       "max": 3145,
       "min": 3011
     },
