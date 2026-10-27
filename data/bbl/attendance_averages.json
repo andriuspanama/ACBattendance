@@ -1,7 +1,7 @@
 {
   "league": "BBL",
   "season": "2026-27",
-  "updated": "2026-10-27T01:14:12+00:00",
+  "updated": "2026-10-27T07:17:09+00:00",
   "clubs": [
     {
       "league": "BBL",
@@ -146,22 +146,22 @@
     {
       "league": "BBL",
       "season": "2026-27",
-      "club": "Wurzburg",
-      "home_games_counted": 2,
-      "average": 2882,
-      "total": 5765,
-      "max": 2920,
-      "min": 2845
-    },
-    {
-      "league": "BBL",
-      "season": "2026-27",
       "club": "Hamburg",
       "home_games_counted": 2,
       "average": 2791,
       "total": 5582,
       "max": 3190,
       "min": 2392
+    },
+    {
+      "league": "BBL",
+      "season": "2026-27",
+      "club": "Wurzburg",
+      "home_games_counted": 3,
+      "average": 2755,
+      "total": 8266,
+      "max": 2920,
+      "min": 2501
     },
     {
       "league": "BBL",
