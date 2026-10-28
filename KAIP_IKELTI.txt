@@ -1,0 +1,93 @@
+LANKOMUMO RINKIKLIAI – KĄ KUR ĮKELTI
+====================================
+
+1) ACBattendance repo (https://github.com/andriuspanama/ACBattendance) – įkelkite su ta pačia struktūra:
+   official_attendance.py        NAUJAS  Australija, Suomija, Latvijos–Estijos, ABA, Italija, Lenkija, Graikija (+ BBL)
+   manual_attendance.py          NAUJAS  Turkija (iš Google Sheets lapo)
+   flashscore_attendance.py      NAUJAS  Lenkijos ir Graikijos lankomumas iš Flashscore
+   index.html                    PAKEISTAS  nauji skirtukai: ABA, LBA, PLK, GBL, LEBL, Korisliiga, NBL;
+                                           2 nauji stulpeliai: Galima arenos talpa, Užpildymas
+   .github/workflows/official.yml  NAUJAS  (kas 6 val.)
+   .github/workflows/pol.yml       NAUJAS  (kas 6 val.)
+   .github/workflows/gre.yml       NAUJAS  Graikija: esake.gr arenos + Flashscore lankomumas (kas 6 val.)
+   .github/workflows/bbl.yml       PAKEISTAS  oficiali svetainė, jei neveikia – kaip anksčiau Flashscore
+   .github/workflows/bsl.yml       PAKEISTAS  Turkija iš Google Sheets (kas 6 val.)
+   tools/tbf_bookmarklet.js / .txt NAUJAS  mygtukas Turkijos tvarkaraščiui
+
+   Įkėlus: Actions → paleiskite ranka „Atnaujinti lankomumą (oficialios lygų svetainės)“,
+   „Atnaujinti PLK lankomumą“, „Atnaujinti GBL lankomumą (Graikija)“ ir „Atnaujinti BBL lankomumą“ (Run workflow). Pirmas BBL paleidimas
+   užtrunka ~5 min. (sudaromas sezono rungtynių sąrašas), vėliau – greitai.
+
+2) krepsiniofinansai repo: index.html (pakeistas tik gyvų lankomumo duomenų sąrašas ir klubų
+   pavadinimų susiejimas; dizainas nekeistas).
+
+3) Turkija (vieną kartą, paskui kas kelias savaites):
+   a) Google Sheets faile sukurkite naują lapą, pavadinimas tiksliai: BSL 26/27 games
+   b) Naršyklėje sukurkite žymę (bookmark): pavadinimas „BSL → Sheets“, adresas – visas
+      tools/tbf_bookmarklet.txt turinys (prasideda „javascript:“).
+   c) Atidarykite bet kurį tbf.org.tr puslapį, paspauskite žymę → atsiras langas su visu sezonu.
+      Ctrl+C, tada lape „BSL 26/27 games“ spustelėkite A1 ir Ctrl+V.
+   d) Lankomumo stulpelio pildyti nereikia – GitHub jį užpildo automatiškai (FIBA LiveStats).
+      Jei kur nors trūksta – įrašykite skaičių ranka, jis turi pirmenybę.
+   Kodėl kartoti kas kelias savaites: TBF ateities rungtynėms ID priskiria palaipsniui
+   (dabar turi 1–9 turai). Iš naujo įklijavus lentelę jau surinkti skaičiai neprarandami.
+
+4) Arenų talpos (talpa, svertinė talpa, užpildymas)
+   a) Google Sheets: File → Import → Upload → Arenas.csv → „Insert new sheet(s)“.
+      Lapas turi vadintis tiksliai: Arenas   (stulpeliai League | Club | Arena | Capacity | Also known as | Source)
+   b) Įkelkite į ACBattendance: capacities.py, game_arenas.py ir .github/workflows/capacity.yml (+ atnaujintą index.html).
+      game_arenas.py kiekvienoms ACB ir LKL rungtynėms suranda tikrą areną (live.acb.com „Pabellón“, lkl.lt),
+      pvz. Ryto rungtynės Active Vilnius Arena (2 500) skaičiuojamos atskirai nuo Arena Vilnius (10 000).
+   c) Actions → „Perskaičiuoti arenų talpas“ → Run workflow. Toliau – automatiškai kas 6 val. (po lankomumo rinkiklių).
+   Kaip pildyti:
+   - Talpą galima keisti bet kada – po rankinio paleidimo (arba per ≤6 val.) atsinaujina visur.
+   - Nauja arena: įrašykite eilutę su lyga, pavadinimu (kaip lygos svetainėje) ir talpa.
+     Kurių arenų trūksta – puslapyje po reitingu rodoma geltona eilutė „⚠ Trūksta arenos talpos: …“
+     (arena, klubas, rungtynių skaičius). Įrašius talpą į lapą „Arenas“, per ≤6 val. (arba paleidus
+     „Perskaičiuoti arenų talpas“ ranka) viskas perskaičiuojama ir įspėjimas dingsta.
+   Puslapyje: du nauji stulpeliai po „Vidurkis“ – „Galima arenos talpa“ ir „Užpildymas“.
+   Rungtynės be lankomumo neįskaičiuojamos niekur; rungtynės be žinomos talpos neįskaičiuojamos
+   į talpą ir užpildymą (bet įskaičiuojamos į vidurkį).
+   - „Club“ stulpelis – tik ACB ir LKL: atsarginė klubo arena, jei kurių nors rungtynių arenos nepavyko rasti.
+   - „Also known as“ – kiti tos pačios arenos pavadinimai (sponsorių), atskirti „;“.
+   - BBL talpas pateikia pati lyga; eilutė lape jas pakeičia, jei įrašysite kitą skaičių.
+
+5) Kaip sužinoti, jei lygos svetainė ima blokuoti ar pasikeičia
+   Kiekvienas rinkiklis po paleidimo įrašo data/<aplankas>/run_status.json (ar pavyko, kas negerai).
+   Įspėjimai rodomi puslapyje to paties lygos skirtuko apačioje, ta pačia geltona eilute:
+   - „⚠ Paskutinis duomenų nuskaitymas (šaltinis) … nepavyko: …“ – svetainė atsakė „uždrausta“ (HTTP 403/429),
+     parodė patikrą prieš robotus, rungtynių sąrašas staiga tuščias arba puslapis pasikeitė.
+   - „⚠ Duomenys sėkmingai nuskaityti tik prieš N d.“ – rinkiklis seniai nebepavyksta / nepaleidžiamas.
+   - „⚠ Patikrinta N sužaistų rungtynių, bet nė vienose nerasta lankomumo“ – švelnesnis įspėjimas.
+   - „⚠ Naujo lankomumo nėra nuo … (N d.)“ – jei sezono metu (spal.–geg., NBL spal.–kov.) daugiau
+     nei 14 d. neatsiranda naujo lankomumo. Veikia visoms lygoms, ir ACB/LKL/BBL senajam rinkikliui.
+   Be to, GitHub Actions paleidimas tampa raudonas, o GitHub atsiunčia el. laišką
+   (Settings → Notifications → Actions → „Only notify for failed workflows“ turi būti įjungta).
+   Kai svetainė vėl veikia – kitas sėkmingas paleidimas įspėjimą panaikina pats.
+
+6) LKL arenos – kad lkl.lt nelaikytų robotu
+   game_arenas.py nebeskenuoja rungtynių ID. Kas 6 val. atidaromas 1 puslapis lkl.lt/rezultatai
+   ir tik naujų sužaistų rungtynių puslapiai (kiekvienas vieną kartą), 3–6 s pertraukos, ≤12 per kartą.
+   Pirmą kartą – visas sezonas per kelis paleidimus. Jei lkl.lt atsako „uždrausta“ – iškart sustoja,
+   3 d. nebando, o tuo metu naudojama klubo arena iš lapo „Arenas“ (puslapyje – įspėjimas).
+
+7) Klubų logotipai
+   Naujų lygų logotipai imami iš pagrindinio puslapio logos.json (krepsiniofinansai repo),
+   tad pakanka pataisyti / papildyti ten – atsinaujins abiejuose puslapiuose.
+
+8) BBL – dabartiniai duomenys saugomi
+   Kol oficialioje easycredit-bbl.de svetainėje nerandama bent tiek rungtynių su lankomumu, kiek turi
+   dabartiniai Flashscore duomenys, niekas nekeičiama – toliau veikia senasis Flashscore rinkiklis.
+   Lape „Arenas“ BBL eilutėse užpildytas „Club“ (klubo pagrindinė arena) – naudojama tik tol,
+   kol BBL duomenys iš Flashscore (ten arenos nėra). Jei lapą jau importavote anksčiau –
+   importuokite naują Arenas.csv iš naujo (arba įrašykite Club reikšmes BBL eilutėms).
+
+9) Tik reguliarusis sezonas (kaip Excel failuose)
+   Atkrintamosios, play-in, finalai, taurės ir Europos turnyrai į vidurkį, „Rungt.“, talpą ir užpildymą
+   neįskaičiuojami. Kaip atskiriama – regular_season.py (aprašyta failo pradžioje):
+   - pagal lygos svetainę: NBL, LBA, BBL, PLK, ABA (Stage 1 + Top8/Play-out), GBL, Korisliiga
+     (runkosarja + jatkosarja);
+   - pagal taisyklę: ACB – pirmos 17 namų rungtynių, BBL (Flashscore), LEBL, BSL – komandų skaičius − 1
+     namų rungtynių, LKL – rungtynės iki 2027-05-16 (paskutinė LKL reguliariojo sezono diena; KMT taurės rungtynės neįskaičiuojamos).
+   acb_attendance.py, lkl_attendance.py, bbl_attendance.py pridėtas tik šis filtras (3 eilutės) –
+   dabartiniai duomenys nepasikeitė. Kitam sezonui regular_season.py reikės atnaujinti LKL datą.

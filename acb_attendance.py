@@ -32,6 +32,7 @@ from urllib.parse import urljoin, urlparse
 
 import requests
 from bs4 import BeautifulSoup
+from regular_season import playoff_ids
 
 LEAGUE = "ACB"
 BASE = "https://www.acb.com"
@@ -162,8 +163,11 @@ def compute_averages(matches: dict, aliases: dict, season: str):
     unresolved = set()
     per_club = defaultdict(list)
     all_homes = set()
+    not_regular = playoff_ids(LEAGUE, matches, season)   # tik reguliarusis sezonas
     for m in matches.values():
         if m.get("season") != season:
+            continue
+        if str(m.get("match_id")) in not_regular:
             continue
         home_raw = (m.get("home") or "").strip()
         if not home_raw:

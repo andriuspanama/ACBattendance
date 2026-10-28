@@ -28,6 +28,7 @@ from collections import defaultdict
 from datetime import datetime, timezone
 from pathlib import Path
 from urllib.parse import urljoin
+from regular_season import playoff_ids
 
 try:
     from playwright.sync_api import sync_playwright, TimeoutError as PlaywrightTimeout
@@ -145,8 +146,11 @@ def compute_averages(matches: dict, aliases: dict, season: str):
     per_club: dict[str, list[int]] = defaultdict(list)
     all_homes: set[str] = set()
 
+    not_regular = playoff_ids(LEAGUE, matches, season)   # tik reguliarusis sezonas
     for m in matches.values():
         if m.get("season") != season:
+            continue
+        if str(m.get("match_id")) in not_regular:
             continue
         home_raw = (m.get("home") or "").strip()
         if not home_raw:

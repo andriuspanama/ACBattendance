@@ -3,8 +3,8 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Lankomumas · ACB + LKL + BBL + BSL</title>
-  <meta name="description" content="ACB, LKL, BBL ir BSL namų rungtynių lankomumo statistika" />
+  <title>Lankomumas · ACB + LKL + BBL + BSL + ABA + LBA + PLK + GBL + LEBL + Korisliiga + NBL</title>
+  <meta name="description" content="ACB, LKL, BBL, BSL, ABA, LBA, PLK, GBL, LEBL, Korisliiga ir NBL namų rungtynių lankomumo statistika" />
   <style>
     :root {
       --bg: #0c1118;
@@ -194,9 +194,52 @@
         <small>Vokietija</small>
       </button>
       <button class="tab" data-league="bsl" type="button">
-        <span class="league-logo" style="display:inline-flex;align-items:center;justify-content:center;font-weight:700;font-size:.7rem;color:#1a1a1a">BSL</span>
+        <img class="league-logo wide" src="https://upload.wikimedia.org/wikipedia/en/thumb/e/e0/Official_logo_of_the_Turkish_Basketball_Super_League.png/250px-Official_logo_of_the_Turkish_Basketball_Super_League.png" alt="BSL"
+             onerror="this.style.visibility='hidden'" />
         <span>BSL</span>
         <small>Turkija</small>
+      </button>
+      <button class="tab" data-league="aba" type="button">
+        <img class="league-logo" src="https://www.aba-liga.com/images/favicon_ABA_180.png" alt="ABA"
+             onerror="this.style.visibility='hidden'" />
+        <span>ABA</span>
+        <small>Adrijos lyga</small>
+      </button>
+      <button class="tab" data-league="lba" type="button">
+        <img class="league-logo" src="https://www.legabasket.it/assets/apple-touch-icon.png" alt="LBA"
+             onerror="this.style.visibility='hidden'" />
+        <span>LBA</span>
+        <small>Italija</small>
+      </button>
+      <button class="tab" data-league="plk" type="button">
+        <img class="league-logo wide" src="https://plk.pl/plk-logo.png" alt="PLK"
+             onerror="this.style.visibility='hidden'" />
+        <span>PLK</span>
+        <small>Lenkija</small>
+      </button>
+      <button class="tab" data-league="gbl" type="button">
+        <img class="league-logo" src="https://upload.wikimedia.org/wikipedia/en/thumb/8/8d/Greek_Basketball_League_Logo.svg/250px-Greek_Basketball_League_Logo.svg.png" alt="GBL"
+             onerror="this.style.visibility='hidden'" />
+        <span>GBL</span>
+        <small>Graikija</small>
+      </button>
+      <button class="tab" data-league="lebl" type="button">
+        <img class="league-logo" src="https://upload.wikimedia.org/wikipedia/commons/b/ba/Optibet_Latvian-Estonian_Basketball_League_logo.jpg" alt="LEBL"
+             onerror="this.style.visibility='hidden'" />
+        <span>LEBL</span>
+        <small>Latvija–Estija</small>
+      </button>
+      <button class="tab" data-league="korisliiga" type="button">
+        <img class="league-logo wide" src="https://upload.wikimedia.org/wikipedia/en/thumb/1/1d/Korisliiga_2015-16_logo.png/250px-Korisliiga_2015-16_logo.png" alt="KOR"
+             onerror="this.style.visibility='hidden'" />
+        <span>Korisliiga</span>
+        <small>Suomija</small>
+      </button>
+      <button class="tab" data-league="nbl" type="button">
+        <img class="league-logo" src="https://upload.wikimedia.org/wikipedia/en/thumb/b/b2/NBL_%28Australia%29_logo.svg/250px-NBL_%28Australia%29_logo.svg.png" alt="NBL"
+             onerror="this.style.visibility='hidden'" />
+        <span>NBL</span>
+        <small>Australija</small>
       </button>
     </div>
 
@@ -208,6 +251,13 @@
       <a href="https://www.acb.com" target="_blank" rel="noopener">acb.com</a> ·
       <a href="https://lkl.lt" target="_blank" rel="noopener">lkl.lt</a> ·
       <a href="https://www.easycredit-bbl.de" target="_blank" rel="noopener">easycredit-bbl.de</a>
+      · <a href="https://www.aba-liga.com" target="_blank" rel="noopener">aba-liga.com</a>
+      · <a href="https://www.legabasket.it" target="_blank" rel="noopener">legabasket.it</a>
+      · <a href="https://plk.pl" target="_blank" rel="noopener">plk.pl</a>
+      · <a href="https://www.esake.gr" target="_blank" rel="noopener">esake.gr</a>
+      · <a href="https://www.estlatbl.com" target="_blank" rel="noopener">estlatbl.com</a>
+      · <a href="https://basket.fi" target="_blank" rel="noopener">basket.fi</a>
+      · <a href="https://www.nbl.com.au" target="_blank" rel="noopener">nbl.com.au</a>
       · <a href="https://github.com/andriuspanama/ACBattendance" target="_blank" rel="noopener">GitHub</a>
     </footer>
   </div>
@@ -250,7 +300,8 @@
       "Gargždai": "https://lkl.lt/media/teams/svg/sQ4a0Ns4gi5QPEv1k1RHG9fxWVBob3dATIuixWiZ.svg",
       "Tauragė": "https://lkl.lt/media/teams/svg/CV8HGyUwqqnTrdsEIkszyODzKyIysAFWQ6266CuZ.svg",
       "Hipocredit": "https://lkl.lt/media/teams/svg/cExP0PVSuiRrENAHoUtVmnfyRPfb3mp4x2hJzu7h.svg",
-      "Jonavos Hipocredit": "https://lkl.lt/media/teams/svg/cExP0PVSuiRrENAHoUtVmnfyRPfb3mp4x2hJzu7h.svg"
+      "Jonavos Hipocredit": "https://lkl.lt/media/teams/svg/cExP0PVSuiRrENAHoUtVmnfyRPfb3mp4x2hJzu7h.svg",
+      "Rigas Ekselences Juniori": "https://www.estlatbl.com/cache/basket/public/remote/http_is-basket-ee/_100x100x0/bw-client-filesXbasketisXpublicXteam-imgX13632-v1789112896-Primary-1.png"
     };
 
     const DATA_PATHS = {
@@ -285,10 +336,39 @@
       bsl: {
         averages: ["./data/bsl/attendance_averages.json"],
         matches: ["./data/bsl/matches.csv"]
+      },
+      aba: {
+        averages: ["./data/aba/attendance_averages.json"],
+        matches: ["./data/aba/matches.csv"]
+      },
+      lba: {
+        averages: ["./data/ita/attendance_averages.json"],
+        matches: ["./data/ita/matches.csv"]
+      },
+      plk: {
+        averages: ["./data/pol/attendance_averages.json"],
+        matches: ["./data/pol/matches.csv"]
+      },
+      gbl: {
+        averages: ["./data/gre/attendance_averages.json"],
+        matches: ["./data/gre/matches.csv"]
+      },
+      lebl: {
+        averages: ["./data/lvee/attendance_averages.json"],
+        matches: ["./data/lvee/matches.csv"]
+      },
+      korisliiga: {
+        averages: ["./data/fin/attendance_averages.json"],
+        matches: ["./data/fin/matches.csv"]
+      },
+      nbl: {
+        averages: ["./data/nbl/attendance_averages.json"],
+        matches: ["./data/nbl/matches.csv"]
       }
     };
 
     const fmt = (n) => (n == null || n === "" ? "—" : Number(n).toLocaleString("lt-LT"));
+    const fmtPct = (x) => (x == null ? "—" : Math.round(x * 100) + " %");
     const fmtDate = (iso) => {
       if (!iso) return "—";
       try {
@@ -319,15 +399,93 @@
         if (kk.includes(cl) && cl.length >= 6) return true;
         return false;
       });
-      return partial ? TEAM_LOGOS[partial] : null;
+      return partial ? TEAM_LOGOS[partial] : sharedLogo(club);
+    }
+
+    // Kitų lygų logotipai – iš pagrindinio puslapio (krepsiniofinansai) logos.json, kad būtų viename sąraše.
+    // Pavadinimai lygų svetainėse ilgesni (su rėmėjais), todėl lyginama pagal reikšmingus žodžius.
+    const LOGO_SOURCES = [
+      "https://raw.githubusercontent.com/andriuspanama/krepsiniofinansai/main/logos.json",
+      "../krepsiniofinansai/logos.json"
+    ];
+    const LOGO_ALIAS = {
+      "UNA Hotels Reggio Emilia": "Pallacanestro Reggiana",
+      "Dolomiti Energia Trentino": "Aquila Trento",
+      "Borac Mozzart": "KK Borac Čačak",
+      "AEK Athens": "AEK B.C.",
+      "AEK": "AEK B.C."
+    };
+    const LOGO_STOP = new Set(("kk bc bk sk kb okk bkk hkk cb club klub basket basketball baloncesto basquet pallacanestro " +
+      "koszykowka kosarlabda basketbol spor the de fc ks mks wks as bsc baskets towers city sport sports team").split(" "));
+    // miestai, kuriuose keli klubai – vien pagal miestą nesiejama
+    const LOGO_CITY = new Set(("athens athina riga rigas belgrade beograd istanbul ankara izmir milano roma rome warszawa " +
+      "zagreb sarajevo ljubljana vilnius kaunas tallinn helsinki madrid barcelona berlin munchen paris sydney melbourne " +
+      "bologna napoli torino thessaloniki podgorica skopje sofia bratislava wien vienna").split(" "));
+    let sharedLogos = null, sharedKeys = [];
+    const lwd = function(s) {
+      return String(s == null ? "" : s).toLowerCase().replace(/ł/g, "l").replace(/đ/g, "d").replace(/ø/g, "o")
+        .replace(/ı/g, "i").replace(/ß/g, "ss").normalize("NFD").replace(/[\u0300-\u036f]/g, "")
+        .split(/[^a-z0-9]+/).filter(Boolean);
+    };
+    const ltk = function(s) { return lwd(s).filter(function(w) { return w.length >= 3 && !LOGO_STOP.has(w); }); };
+
+    async function loadSharedLogos() {
+      if (sharedLogos) return;
+      sharedLogos = {};
+      for (const u of LOGO_SOURCES) {
+        try {
+          const r = await fetch(u, { cache: "no-store" });
+          if (!r.ok) continue;
+          sharedLogos = await r.json();
+          break;
+        } catch (_) {}
+      }
+      sharedKeys = Object.keys(sharedLogos).map(function(k) { return { k: k, t: ltk(k), w: lwd(k), n: lwd(k).join("") }; });
+    }
+
+    function sharedLogo(club) {
+      if (!sharedKeys.length || !club) return null;
+      const name = LOGO_ALIAS[club] || club;
+      const n = lwd(name).join(""), t = ltk(name), w = lwd(name);
+      const ex = sharedKeys.find(function(x) { return x.n === n; });
+      if (ex) return sharedLogos[ex.k];
+      const pick = function(c, score) {
+        if (!c.length) return null;
+        c.sort(function(a, b) { return score(b) - score(a); });
+        const file = function(x) {
+          try { return decodeURIComponent(sharedLogos[x.k].split("/").pop()).replace(/^\d+px-/, "").toLowerCase(); }
+          catch (_) { return sharedLogos[x.k]; }
+        };
+        if (c.length > 1 && score(c[0]) === score(c[1]) && file(c[0]) !== file(c[1])) return null;
+        return sharedLogos[c[0].k];
+      };
+      const raw = function(x) { return x.w.filter(function(v) { return w.includes(v); }).length; };
+      // visi reikšmingi vieno pavadinimo žodžiai yra kitame
+      let c = sharedKeys.filter(function(x) {
+        return x.t.length && x.t.join("").length > 3 && t.length &&
+          (x.t.every(function(v) { return t.includes(v); }) || t.every(function(v) { return x.t.includes(v); }));
+      });
+      // daugiau bendrų žodžių – geriau; papildomi (nesutampantys) žodžiai – blogiau
+      let got = pick(c, function(x) {
+        const common = x.t.filter(function(v) { return t.includes(v); }).length;
+        return common * 10 - (x.t.length - common) + raw(x) * 0.5;
+      });
+      if (got || c.length) return got;
+      // bent vienas retas (ne miesto) žodis sutampa
+      c = sharedKeys.filter(function(x) {
+        return x.t.some(function(v) { return v.length >= 4 && !LOGO_CITY.has(v) && t.includes(v); });
+      });
+      return pick(c, function(x) { return x.t.filter(function(v) { return v.length >= 4 && t.includes(v); }).length * 10 + raw(x); });
     }
 
     // BBL/BSL: logotipai laikomi logos/<lyga>/<KODAS>.png (pvz. logos/bbl/HAM.png).
     // Jei failo nėra, rodomas 3 raidžių kodas.
     function clubLogoHtml(club, code) {
       if (code) {
+        const alt = logoUrl(club);
         return '<img class="club-logo" src="./logos/' + league + '/' + code + '.png" alt="" loading="lazy" ' +
-          'onerror="this.outerHTML=\'<span class=&quot;club-logo missing&quot;>' + code + '</span>\'" />';
+          (alt ? 'data-alt="' + esc(alt) + '" ' : '') +
+          'onerror="if(this.dataset.alt){this.src=this.dataset.alt;this.removeAttribute(\'data-alt\')}else{this.outerHTML=\'<span class=&quot;club-logo missing&quot;>' + code + '</span>\'}" />';
       }
       const url = logoUrl(club);
       if (url) {
@@ -337,6 +495,9 @@
     }
 
     let league = "acb";
+    let capInfo = null;
+    let runStatus = null;
+    let lastAttGame = "";
     let clubs = [];
     let sortKey = "average";
     let sortDir = "desc";
@@ -388,14 +549,44 @@
 
       const paths = DATA_PATHS[code];
       try {
+        await loadSharedLogos();
         const avgRes = await fetchFirst(paths.averages, code);
         if (!avgRes) throw new Error("Nerastas attendance_averages.json šiai lygai");
         const data = await avgRes.json();
         clubs = data.clubs || [];
 
+        // Arenos talpa (capacity.json – skaičiuoja capacities.py iš lapo „Arenas“)
+        capInfo = null;
+        try {
+          const cr = await fetch(paths.averages[0].replace("attendance_averages.json", "capacity.json"), { cache: "no-store" });
+          if (cr.ok) capInfo = await cr.json();
+        } catch (_) {}
+        // Rinkiklio būsena (run_status.json) – ar paskutinis nuskaitymas pavyko
+        runStatus = null;
+        try {
+          const sr = await fetch(paths.averages[0].replace("attendance_averages.json", "run_status.json"), { cache: "no-store" });
+          if (sr.ok) runStatus = await sr.json();
+        } catch (_) {}
+        if (capInfo && capInfo.clubs) {
+          const byClub = {};
+          capInfo.clubs.forEach(function(x) { byClub[x.club] = x; });
+          clubs.forEach(function(c) {
+            const x = byClub[c.club];
+            c.weighted_capacity = x ? x.weighted_capacity : null;
+            c.filling_rate = x ? x.filling_rate : null;
+          });
+        }
+
         let matches = [];
         const mRes = await fetchFirst(paths.matches);
         if (mRes) matches = parseCSV(await mRes.text());
+        lastAttGame = (capInfo && capInfo.last_attendance_game) || "";
+        if (!/^20\d\d-/.test(lastAttGame)) lastAttGame = "";
+        matches.forEach(function(m) {
+          // ACB rinkiklis datų nefiksuoja (0000-00-00) – tada imama, kada lankomumas rastas
+          const d = /^20\d\d-\d\d-\d\d/.test(m.date || "") ? m.date : (m.checked_at || "").slice(0, 10);
+          if (Number(m.attendance) > 0 && /^20\d\d-/.test(d) && d > lastAttGame) lastAttGame = d;
+        });
 
         render(data, matches);
       } catch (e) {
@@ -459,11 +650,15 @@
         '<th data-key="rank" style="width:2.8rem">#</th>' +
         '<th data-key="club">Klubas <span class="sort-arrow"></span></th>' +
         '<th class="num" data-key="average">Vidurkis <span class="sort-arrow"></span></th>' +
+        '<th class="num hide-sm" data-key="weighted_capacity" title="Vidutinė talpa pagal arenas, kuriose iš tikrųjų žaista">Galima arenos talpa <span class="sort-arrow"></span></th>' +
+        '<th class="num hide-sm" data-key="filling_rate" title="Žiūrovų suma / arenų talpų suma">Užpildymas <span class="sort-arrow"></span></th>' +
         '<th class="num hide-sm" data-key="home_games_counted">Rungt. <span class="sort-arrow"></span></th>' +
         '<th class="num hide-sm" data-key="max">Maks. <span class="sort-arrow"></span></th>' +
         '<th class="num hide-sm" data-key="min">Min. <span class="sort-arrow"></span></th>' +
         '<th class="hide-sm">Santykis</th>' +
         '</tr></thead><tbody id="tbody"></tbody></table></div></div>' +
+        healthHtml() +
+        missingCapHtml() +
         matchesHtml;
 
       document.getElementById("search").addEventListener("input", function(e) {
@@ -480,6 +675,57 @@
         });
       });
       renderTable(maxAvg);
+    }
+
+    // Įspėjimas, jei lygos svetainė nebeduoda duomenų (blokuoja, pasikeitė) arba naujo lankomumo seniai nėra
+    function healthHtml() {
+      const out = [];
+      const now = new Date();
+      const days = function(iso) { return Math.floor((now - new Date(iso)) / 86400000); };
+      const when = function(iso) {
+        const d = new Date(iso);
+        return String(d.getDate()).padStart(2, "0") + "." + String(d.getMonth() + 1).padStart(2, "0") + " " +
+          String(d.getHours()).padStart(2, "0") + ":" + String(d.getMinutes()).padStart(2, "0");
+      };
+      const st = runStatus;
+      if (st) {
+        const src = st.source ? " (" + esc(st.source) + ")" : "";
+        if (st.ok === false) {
+          out.push("Paskutinis duomenų nuskaitymas" + src + (st.run_at ? " " + when(st.run_at) : "") +
+            " nepavyko: " + esc(st.error || "nežinoma klaida") +
+            (st.last_ok ? ". Paskutinį kartą pavyko " + when(st.last_ok) : ""));
+        } else if (st.last_ok && days(st.last_ok) >= 2) {
+          out.push("Duomenys" + src + " sėkmingai nuskaityti tik prieš " + days(st.last_ok) + " d. – patikrinkite GitHub Actions");
+        }
+        (st.notes || []).forEach(function(n) { out.push(esc(n) + src); });
+      }
+      // Naujo lankomumo nėra ilgiau nei 14 d., nors vyksta sezonas (spal. 1 – geg. 20; NBL – iki kov. 15)
+      if (lastAttGame) {
+        const md = (now.getMonth() + 1) * 100 + now.getDate();
+        const end = league === "nbl" ? 315 : 520;
+        const inSeason = md >= 1001 || md <= end;
+        const gap = days(lastAttGame + "T12:00:00");
+        if (inSeason && gap > 14) {
+          out.push("Naujo lankomumo nėra nuo " + esc(lastAttGame) + " (" + gap + " d.). Jei lyga tuo metu žaidė – " +
+            (league === "bsl" ? "įklijuokite naujas rungtynes į lapą „BSL 26/27 games“ arba patikrinkite, ar FIBA LiveStats veikia"
+                              : "svetainė gali blokuoti skaitymą arba nebeskelbia lankomumo"));
+        }
+      }
+      if (!out.length) return "";
+      return out.map(function(t) {
+        return '<div class="meta" style="margin:.6rem 0 0;justify-content:flex-start;color:var(--accent)">⚠ ' + t + '</div>';
+      }).join("");
+    }
+
+    // Įspėjimas: rungtynės su lankomumu, kurių arenos talpos nėra lape „Arenas“
+    function missingCapHtml() {
+      const u = (capInfo && capInfo.unknown_arenas) || [];
+      if (!u.length) return "";
+      return '<div class="meta" style="margin:.6rem 0 0;justify-content:flex-start;color:var(--accent)">⚠ Trūksta arenos talpos: ' +
+        u.map(function(x) {
+          return '<strong>' + esc(x.arena) + '</strong> (' + esc((x.clubs || []).join(", ")) + ', ' + x.games + ' rungt.)';
+        }).join("; ") +
+        ' – įrašykite į lapą „Arenas“</div>';
     }
 
     function renderTable(maxAvg) {
@@ -519,12 +765,14 @@
           '<td><span class="rank ' + rankCls + '">' + (rank || "—") + '</span></td>' +
           '<td><div class="club-cell">' + clubLogoHtml(c.club, c.code) + '<span class="club-name">' + esc(c.club) + '</span></div></td>' +
           '<td class="num" style="font-weight:700;color:' + (has ? "var(--accent)" : "var(--muted)") + '">' + fmt(c.average) + '</td>' +
+          '<td class="num hide-sm">' + fmt(c.weighted_capacity) + '</td>' +
+          '<td class="num hide-sm">' + (c.filling_rate != null ? fmtPct(c.filling_rate) : "—") + '</td>' +
           '<td class="num hide-sm">' + fmt(c.home_games_counted) + '</td>' +
           '<td class="num hide-sm">' + fmt(c.max) + '</td>' +
           '<td class="num hide-sm">' + fmt(c.min) + '</td>' +
           '<td class="hide-sm"><div class="bar-track"><div class="bar-fill" style="width:' + pct + '%"></div></div></td>' +
           '</tr>';
-      }).join("") || '<tr><td colspan="7" style="text-align:center;color:var(--muted);padding:1.5rem">Nerasta</td></tr>';
+      }).join("") || '<tr><td colspan="9" style="text-align:center;color:var(--muted);padding:1.5rem">Nerasta</td></tr>';
     }
 
     document.getElementById("tabs").addEventListener("click", function(e) {
