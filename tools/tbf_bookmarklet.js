@@ -1,7 +1,8 @@
-// TBF (Turkija, BSL) – viso sezono rungtynių sąrašo eksportas į Google Sheets.
-// Veikia bet kuriame tbf.org.tr puslapyje (jūsų naršyklėje, po Cloudflare patikros).
+// TBF (Turkija, BSL) – viso sezono rungtynių sąrašo eksportas į Google Sheets, SU LANKOMUMU.
+// Veikia bet kuriame tbf.org.tr puslapyje (jūsų naršyklėje, po Cloudflare patikros – GitHub to padaryti negali).
 // Sukuria lentelę: Date | Home | Away | Arena | Attendance | Link | GeniusId
-// Lankomumo stulpelis paliekamas tuščias – jį automatiškai užpildo GitHub (iš FIBA LiveStats).
+// Lankomumas – TBF „Seyirci Sayısı“: /api/Match/mac-header?matchId=… → data.matchSpectatorCount.
+// Jei TBF jo dar neturi – langelis tuščias (GitHub bando FIBA LiveStats, anksčiau įrašytas skaičius neištrinamas).
 (async () => {
   const ACTIVITY = 22214, SEASON = 174;              // BSL 2026-2027 (kitam sezonui pakeisti)
   const box = document.createElement("div");
@@ -11,6 +12,13 @@
   box.querySelector("#tbf-x").onclick = () => box.remove();
   const st = box.querySelector("#tbf-st"), ta = box.querySelector("#tbf-ta");
   const tc = s => (s || "").toLocaleLowerCase("tr").replace(/(^|[\s\-\/(])(\S)/g, (m, a, b) => a + b.toLocaleUpperCase("tr")).replace(/ Ve /g, " ve ");
+  const spectators = async id => {
+    try {
+      const j = await (await fetch(`/api/Match/mac-header?matchId=${id}`, { credentials: "include" })).json();
+      const n = parseInt((j && j.data && j.data.matchSpectatorCount) || 0, 10);
+      return n > 0 && n < 100000 ? n : null;
+    } catch (e) { return null; }
+  };
   try {
     const w = await (await fetch(`/api/League/get-league-weeks?leagueId=${ACTIVITY}&seasonId=${SEASON}`)).json();
     const weeks = [...new Set((w.data || []).map(x => x.sezon_Hafta))];
@@ -18,21 +26,35 @@
       fetch(`/api/Match/get-all-matches-for-filter?ActivityId=${ACTIVITY}&WeekFilter=${n}&Page=1&PageSize=-1`)
         .then(r => r.json()).then(j => j.data || []).catch(() => [])));
     const rows = lists.flat().sort((a, b) => (a.matchDate || "").localeCompare(b.matchDate || ""));
+    const link = m => `https://www.tbf.org.tr/ligler/${(m.activityName || "").toLowerCase().replace(/\s+/g, "-")}/mac-detay/${m.matchId}`;
+    const now = new Date().toISOString();
+    const played = rows.filter(m => (m.matchDate || "") && m.matchDate < now);
+    const att = {};
+    let i = 0, done = 0, found = 0;
+    await Promise.all([0, 1, 2, 3].map(async () => {          // po 4 užklausas vienu metu
+      while (i < played.length) {
+        const m = played[i++];
+        const n = await spectators(m.matchId);
+        if (n) { att[m.matchId] = n; found++; }
+        done++;
+        st.textContent = `Lankomumas… ${done}/${played.length}`;
+      }
+    }));
     const out = [["Date", "Home", "Away", "Arena", "Attendance", "Link", "GeniusId"].join("\t")];
     for (const m of rows) {
       out.push([m.matchDateOnly || (m.matchDate || "").slice(0, 10), tc(m.homeTeam && m.homeTeam.name), tc(m.awayTeam && m.awayTeam.name),
-        tc(m.salonAdi), "", `https://www.tbf.org.tr/ligler/${(m.activityName || "").toLowerCase().replace(/\s+/g, "-")}/mac-detay/${m.matchId}`,
-        m.genuisId || ""].join("\t"));
+        tc(m.salonAdi), att[m.matchId] || "", link(m), m.genuisId || ""].join("\t"));
     }
     ta.value = out.join("\n");
     ta.focus(); ta.select();
+    const info = `${rows.length} rungtynių; lankomumas (Seyirci Sayısı) rastas ${found} iš ${played.length} sužaistų.`;
     let copied = false;
-    st.textContent = `${rows.length} rungtynių. Tekstas pažymėtas – paspauskite Ctrl+C, tada lape „BSL 26/27 games“ spustelėkite A1 ir Ctrl+V.`;
+    st.textContent = info + " Tekstas pažymėtas – paspauskite Ctrl+C, tada lape „BSL 26/27 games“ spustelėkite A1 ir Ctrl+V.";
     try { copied = document.execCommand("copy"); } catch (e) {}
     if (!copied) {
       try { await Promise.race([navigator.clipboard.writeText(ta.value), new Promise((_, rj) => setTimeout(rj, 1500))]); copied = true; } catch (e) {}
     }
-    if (copied) st.textContent = `${rows.length} rungtynių. Nukopijuota – Google Sheets lape „BSL 26/27 games“ spustelėkite A1 ir įklijuokite (Ctrl+V).`;
+    if (copied) st.textContent = info + " Nukopijuota – lape „BSL 26/27 games“ spustelėkite A1 ir įklijuokite (Ctrl+V).";
   } catch (e) {
     st.textContent = "Nepavyko: " + e.message + " (ar atidarytas tbf.org.tr puslapis?)";
   }
