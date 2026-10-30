@@ -1,7 +1,7 @@
 {
  "league": "Korisliiga",
  "season": "2026-27",
- "updated": "2026-10-30T02:01:24+00:00",
+ "updated": "2026-10-30T19:50:31+00:00",
  "clubs": [
   {
    "club": "Bisons Loimaa",
@@ -20,30 +20,30 @@
   },
   {
    "club": "Helsinki Seagulls",
-   "home_games_counted": 3,
-   "games_with_capacity": 3,
+   "home_games_counted": 4,
+   "games_with_capacity": 4,
    "capacity": 1600,
    "weighted_capacity": 1600,
-   "filling_rate": 0.5181,
+   "filling_rate": 0.5033,
    "arenas": [
     {
      "arena": "Töölön Kisahalli",
-     "games": 3,
+     "games": 4,
      "capacity": 1600
     }
    ]
   },
   {
    "club": "KTP-Basket",
-   "home_games_counted": 2,
-   "games_with_capacity": 2,
+   "home_games_counted": 3,
+   "games_with_capacity": 3,
    "capacity": 1600,
    "weighted_capacity": 1600,
-   "filling_rate": 0.7081,
+   "filling_rate": 0.6894,
    "arenas": [
     {
      "arena": "Steveco Areena",
-     "games": 2,
+     "games": 3,
      "capacity": 1600
     }
    ]
@@ -110,15 +110,15 @@
   },
   {
    "club": "Kouvot",
-   "home_games_counted": 4,
-   "games_with_capacity": 4,
+   "home_games_counted": 5,
+   "games_with_capacity": 5,
    "capacity": 1076,
    "weighted_capacity": 1076,
-   "filling_rate": 0.7537,
+   "filling_rate": 0.7478,
    "arenas": [
     {
      "arena": "MLL Areena",
-     "games": 4,
+     "games": 5,
      "capacity": 1076
     }
    ]
@@ -185,7 +185,7 @@
   }
  ],
  "unknown_arenas": [],
- "last_attendance_game": "2026-10-27",
+ "last_attendance_game": "2026-10-30",
  "games": {
   "44cfe520-a1e7-11f1-8d0e-4fe1f25b2942": {
    "arena": "Motonet Areena",
@@ -354,6 +354,18 @@
   "930690c1-9c6f-11f1-972a-73e7b4190e78": {
    "arena": "Luhta Areena",
    "capacity": 1950
+  },
+  "89d2b3a2-a1e7-11f1-91ad-79eedb9b2e14": {
+   "arena": "MLL Areena",
+   "capacity": 1076
+  },
+  "8ce6609b-a1e7-11f1-af33-517db3f9a13f": {
+   "arena": "Steveco Areena",
+   "capacity": 1600
+  },
+  "8e46130a-a1e7-11f1-bfa4-81c2cf585513": {
+   "arena": "Töölön Kisahalli",
+   "capacity": 1600
   }
  }
 }

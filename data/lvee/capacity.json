@@ -1,7 +1,7 @@
 {
  "league": "LEBL",
  "season": "2026-27",
- "updated": "2026-10-30T02:01:24+00:00",
+ "updated": "2026-10-30T19:50:31+00:00",
  "clubs": [
   {
    "club": "BC Pärnu",
@@ -50,15 +50,15 @@
   },
   {
    "club": "BK Ventspils",
-   "home_games_counted": 2,
-   "games_with_capacity": 2,
+   "home_games_counted": 3,
+   "games_with_capacity": 3,
    "capacity": 3000,
    "weighted_capacity": 3000,
-   "filling_rate": 0.271,
+   "filling_rate": 0.2567,
    "arenas": [
     {
      "arena": "Olimpiskais centrs \"Ventspils\"",
-     "games": 2,
+     "games": 3,
      "capacity": 3000
     }
    ]
@@ -250,7 +250,7 @@
   }
  ],
  "unknown_arenas": [],
- "last_attendance_game": "2026-10-28",
+ "last_attendance_game": "2026-10-30",
  "games": {
   "2027212141": {
    "arena": "Komandas Sporta Spelu Halle",
@@ -451,6 +451,10 @@
   "2027212004": {
    "arena": "Tallinn, TalTech Spordihoone",
    "capacity": 1000
+  },
+  "2027212129": {
+   "arena": "Olimpiskais centrs \"Ventspils\"",
+   "capacity": 3000
   }
  }
 }
