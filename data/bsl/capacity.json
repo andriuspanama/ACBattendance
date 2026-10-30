@@ -1,7 +1,7 @@
 {
  "league": "BSL",
  "season": "2026-27",
- "updated": "2026-10-30T01:37:30+00:00",
+ "updated": "2026-10-30T14:03:04+00:00",
  "clubs": [
   {
    "club": "Aliağa Petkim Spor",
@@ -9,7 +9,7 @@
    "games_with_capacity": 2,
    "capacity": 2500,
    "weighted_capacity": 2500,
-   "filling_rate": 0.74,
+   "filling_rate": 0.7716,
    "arenas": [
     {
      "arena": "Enka Spor Salonu",
@@ -35,15 +35,15 @@
   },
   {
    "club": "Bahçeşehir Koleji",
-   "home_games_counted": 1,
-   "games_with_capacity": 1,
+   "home_games_counted": 3,
+   "games_with_capacity": 3,
    "capacity": 16000,
    "weighted_capacity": 16000,
-   "filling_rate": 0.4241,
+   "filling_rate": 0.2451,
    "arenas": [
     {
      "arena": "Sinan Erdem Spor Salonu",
-     "games": 1,
+     "games": 3,
      "capacity": 16000
     }
    ]
@@ -65,15 +65,15 @@
   },
   {
    "club": "Biotekno Körfez Basket",
-   "home_games_counted": 1,
-   "games_with_capacity": 1,
+   "home_games_counted": 2,
+   "games_with_capacity": 2,
    "capacity": 5000,
    "weighted_capacity": 5000,
-   "filling_rate": 0.207,
+   "filling_rate": 0.1956,
    "arenas": [
     {
      "arena": "Şehit Polis Recep Topaloğlu Spor Salonu",
-     "games": 1,
+     "games": 2,
      "capacity": 5000
     }
    ]
@@ -84,7 +84,7 @@
    "games_with_capacity": 2,
    "capacity": 5750,
    "weighted_capacity": 5750,
-   "filling_rate": 0.4122,
+   "filling_rate": 0.3687,
    "arenas": [
     {
      "arena": "Tofaş Spor Salonu",
@@ -99,7 +99,7 @@
    "games_with_capacity": 2,
    "capacity": 2890,
    "weighted_capacity": 2890,
-   "filling_rate": 0.1298,
+   "filling_rate": 0.1272,
    "arenas": [
     {
      "arena": "Beşiktaş Akatlar Spor Kompleksi",
@@ -140,15 +140,15 @@
   },
   {
    "club": "Glint Çayırova Belediyesi",
-   "home_games_counted": 2,
-   "games_with_capacity": 2,
+   "home_games_counted": 3,
+   "games_with_capacity": 3,
    "capacity": 3500,
    "weighted_capacity": 3500,
-   "filling_rate": 0.9457,
+   "filling_rate": 0.7468,
    "arenas": [
     {
      "arena": "Çayırova Belediyesi Spor Kompleksi",
-     "games": 2,
+     "games": 3,
      "capacity": 3500
     }
    ]
@@ -158,8 +158,8 @@
    "home_games_counted": 2,
    "games_with_capacity": 2,
    "capacity": 4800,
-   "weighted_capacity": 4800,
-   "filling_rate": 0.5026,
+   "weighted_capacity": 5150,
+   "filling_rate": 0.5364,
    "arenas": [
     {
      "arena": "Mustafa Kemal Atatürk Karşıyaka Spor Salonu",
@@ -173,8 +173,8 @@
    "home_games_counted": 2,
    "games_with_capacity": 2,
    "capacity": 2000,
-   "weighted_capacity": 2375,
-   "filling_rate": 0.9789,
+   "weighted_capacity": 2432,
+   "filling_rate": 0.9794,
    "arenas": [
     {
      "arena": "Bandırma 17 Eylül Üniversitesi Spor Salonu",
@@ -215,15 +215,15 @@
   },
   {
    "club": "Türk Telekom",
-   "home_games_counted": 2,
-   "games_with_capacity": 2,
+   "home_games_counted": 3,
+   "games_with_capacity": 3,
    "capacity": 9984,
    "weighted_capacity": 9984,
-   "filling_rate": 0.3753,
+   "filling_rate": 0.5429,
    "arenas": [
     {
      "arena": "Ankara Spor Salonu",
-     "games": 2,
+     "games": 3,
      "capacity": 9984
     }
    ]
