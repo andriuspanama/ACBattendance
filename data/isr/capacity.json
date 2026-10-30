@@ -1,0 +1,919 @@
+{
+ "league": "Winner League",
+ "season": "2026-27",
+ "updated": "2026-10-30T02:01:24+00:00",
+ "clubs": [
+  {
+   "club": "Bnei Penlink Herzliya Bnei Penlink Herzliya",
+   "home_games_counted": 2,
+   "games_with_capacity": 2,
+   "capacity": 1240,
+   "weighted_capacity": 1240,
+   "filling_rate": 0.9677,
+   "arenas": [
+    {
+     "arena": "HaYovel Herzliya",
+     "games": 2,
+     "capacity": 1240
+    }
+   ]
+  },
+  {
+   "club": "Hapoel Alfi Benedek Galil Elion Hapoel Alfi Benedek Galil Elion",
+   "home_games_counted": 1,
+   "games_with_capacity": 1,
+   "capacity": 1382,
+   "weighted_capacity": 1382,
+   "filling_rate": 0.8104,
+   "arenas": [
+    {
+     "arena": "Kfar Blum Hall",
+     "games": 1,
+     "capacity": 1382
+    }
+   ]
+  },
+  {
+   "club": "Hapoel Altshuler Shaham Beer Sheva/Dimona Hapoel Altshuler Shaham Beer Sheva/Dimona",
+   "home_games_counted": 2,
+   "games_with_capacity": 2,
+   "capacity": 3009,
+   "weighted_capacity": 3009,
+   "filling_rate": 0.3046,
+   "arenas": [
+    {
+     "arena": "Conch Arena",
+     "games": 2,
+     "capacity": 3009
+    }
+   ]
+  },
+  {
+   "club": "Hapoel Gilat Telecom Haemek Hapoel Gilat Telecom Haemek",
+   "home_games_counted": 1,
+   "games_with_capacity": 1,
+   "capacity": 2069,
+   "weighted_capacity": 2069,
+   "filling_rate": 0.8217,
+   "arenas": [
+    {
+     "arena": "Haim Ohayon Hall (Gan Ner Sports Hall)",
+     "games": 1,
+     "capacity": 2069
+    }
+   ]
+  },
+  {
+   "club": "Hapoel IBI Tel Aviv Hapoel IBI Tel Aviv",
+   "home_games_counted": 2,
+   "games_with_capacity": 2,
+   "capacity": 3536,
+   "weighted_capacity": 3536,
+   "filling_rate": 0.6176,
+   "arenas": [
+    {
+     "arena": "Shlomo Group Arena",
+     "games": 2,
+     "capacity": 3536
+    }
+   ]
+  },
+  {
+   "club": "Hapoel Irony Eilat Hapoel Irony Eilat",
+   "home_games_counted": 1,
+   "games_with_capacity": 1,
+   "capacity": 1374,
+   "weighted_capacity": 1374,
+   "filling_rate": 0.5095,
+   "arenas": [
+    {
+     "arena": "Begin Arena",
+     "games": 1,
+     "capacity": 1374
+    }
+   ]
+  },
+  {
+   "club": "Hapoel Maoz Daniel Holon Hapoel Maoz Daniel Holon",
+   "home_games_counted": 1,
+   "games_with_capacity": 1,
+   "capacity": 5337,
+   "weighted_capacity": 5337,
+   "filling_rate": 0.4778,
+   "arenas": [
+    {
+     "arena": "Holon Toto Hall",
+     "games": 1,
+     "capacity": 5337
+    }
+   ]
+  },
+  {
+   "club": "Hapoel Midtown Jerusalem Hapoel Midtown Jerusalem",
+   "home_games_counted": 1,
+   "games_with_capacity": 1,
+   "capacity": 11600,
+   "weighted_capacity": 11600,
+   "filling_rate": 0.3119,
+   "arenas": [
+    {
+     "arena": "Pais Arena Jerusalem",
+     "games": 1,
+     "capacity": 11600
+    }
+   ]
+  },
+  {
+   "club": "Ironi Hai Motors Ness Ziona Ironi Hai Motors Ness Ziona",
+   "home_games_counted": 1,
+   "games_with_capacity": 1,
+   "capacity": 1300,
+   "weighted_capacity": 1300,
+   "filling_rate": 0.5769,
+   "arenas": [
+    {
+     "arena": "Lev Hamoshava",
+     "games": 1,
+     "capacity": 1300
+    }
+   ]
+  },
+  {
+   "club": "Maccabi Rapyd Tel Aviv Maccabi Rapyd Tel Aviv",
+   "home_games_counted": 2,
+   "games_with_capacity": 2,
+   "capacity": 10871,
+   "weighted_capacity": 10871,
+   "filling_rate": 0.7826,
+   "arenas": [
+    {
+     "arena": "Menora Mivtachim Arena",
+     "games": 2,
+     "capacity": 10871
+    }
+   ]
+  },
+  {
+   "club": "Maccabi Rotshtein Ashdod Maccabi Rotshtein Ashdod",
+   "home_games_counted": 2,
+   "games_with_capacity": 2,
+   "capacity": 2009,
+   "weighted_capacity": 2009,
+   "filling_rate": 0.3223,
+   "arenas": [
+    {
+     "arena": "HaKiriya Arena",
+     "games": 2,
+     "capacity": 2009
+    }
+   ]
+  },
+  {
+   "club": "Maccabi Tapuzina Rishon LeZion Maccabi Tapuzina Rishon LeZion",
+   "home_games_counted": 3,
+   "games_with_capacity": 3,
+   "capacity": 1620,
+   "weighted_capacity": 1620,
+   "filling_rate": 0.7407,
+   "arenas": [
+    {
+     "arena": "Beit Maccabi Rishon LeZion",
+     "games": 3,
+     "capacity": 1620
+    }
+   ]
+  }
+ ],
+ "unknown_arenas": [],
+ "last_attendance_game": "2026-10-26",
+ "games": {
+  "26646": {
+   "arena": "Menora Mivtachim Arena",
+   "capacity": 10871
+  },
+  "26647": {
+   "arena": "Holon Toto Hall",
+   "capacity": 5337
+  },
+  "26648": {
+   "arena": "Conch Arena",
+   "capacity": 3009
+  },
+  "26649": {
+   "arena": "Remez Hall",
+   "capacity": 1000
+  },
+  "26650": {
+   "arena": "HaYovel Herzliya",
+   "capacity": 1240
+  },
+  "26651": {
+   "arena": "Beit Maccabi Rishon LeZion",
+   "capacity": 1620
+  },
+  "26652": {
+   "arena": "HaKiriya Arena",
+   "capacity": 2009
+  },
+  "26653": {
+   "arena": "Pais Arena Jerusalem",
+   "capacity": 11600
+  },
+  "26654": {
+   "arena": "Menora Mivtachim Arena",
+   "capacity": 10871
+  },
+  "26655": {
+   "arena": "Shlomo Group Arena",
+   "capacity": 3536
+  },
+  "26656": {
+   "arena": "Lev Hamoshava",
+   "capacity": 1300
+  },
+  "26658": {
+   "arena": "Kfar Blum Hall",
+   "capacity": 1382
+  },
+  "26659": {
+   "arena": "Begin Arena",
+   "capacity": 1374
+  },
+  "26741": {
+   "arena": "Beit Maccabi Rishon LeZion",
+   "capacity": 1620
+  },
+  "26660": {
+   "arena": "Conch Arena",
+   "capacity": 3009
+  },
+  "26661": {
+   "arena": "Beit Maccabi Rishon LeZion",
+   "capacity": 1620
+  },
+  "26662": {
+   "arena": "Shlomo Group Arena",
+   "capacity": 3536
+  },
+  "26663": {
+   "arena": "Haim Ohayon Hall (Gan Ner Sports Hall)",
+   "capacity": 2069
+  },
+  "26664": {
+   "arena": "HaYovel Herzliya",
+   "capacity": 1240
+  },
+  "26665": {
+   "arena": "Zisman Hall",
+   "capacity": 1400
+  },
+  "26666": {
+   "arena": "HaKiriya Arena",
+   "capacity": 2009
+  },
+  "26668": {
+   "arena": "Haim Ohayon Hall (Gan Ner Sports Hall)",
+   "capacity": 2069
+  },
+  "26669": {
+   "arena": "Pais Arena Jerusalem",
+   "capacity": 11600
+  },
+  "26670": {
+   "arena": "Remez Hall",
+   "capacity": 1000
+  },
+  "26673": {
+   "arena": "Menora Mivtachim Arena",
+   "capacity": 10871
+  },
+  "26667": {
+   "arena": "Kfar Blum Hall",
+   "capacity": 1382
+  },
+  "26671": {
+   "arena": "Holon Toto Hall",
+   "capacity": 5337
+  },
+  "26672": {
+   "arena": "HaKiriya Arena",
+   "capacity": 2009
+  },
+  "26674": {
+   "arena": "Holon Toto Hall",
+   "capacity": 5337
+  },
+  "26677": {
+   "arena": "Zisman Hall",
+   "capacity": 1400
+  },
+  "26676": {
+   "arena": "Pais Arena Jerusalem",
+   "capacity": 11600
+  },
+  "26680": {
+   "arena": "Lev Hamoshava",
+   "capacity": 1300
+  },
+  "26678": {
+   "arena": "HaYovel Herzliya",
+   "capacity": 1240
+  },
+  "26700": {
+   "arena": "Begin Arena",
+   "capacity": 1374
+  },
+  "26682": {
+   "arena": "Menora Mivtachim Arena",
+   "capacity": 10871
+  },
+  "26683": {
+   "arena": "Shlomo Group Arena",
+   "capacity": 3536
+  },
+  "26681": {
+   "arena": "Zisman Hall",
+   "capacity": 1400
+  },
+  "26686": {
+   "arena": "Remez Hall",
+   "capacity": 1000
+  },
+  "26684": {
+   "arena": "Beit Maccabi Rishon LeZion",
+   "capacity": 1620
+  },
+  "26685": {
+   "arena": "Holon Toto Hall",
+   "capacity": 5337
+  },
+  "26687": {
+   "arena": "Kfar Blum Hall",
+   "capacity": 1382
+  },
+  "26688": {
+   "arena": "Conch Arena",
+   "capacity": 3009
+  },
+  "26690": {
+   "arena": "Pais Arena Jerusalem",
+   "capacity": 11600
+  },
+  "26691": {
+   "arena": "Menora Mivtachim Arena",
+   "capacity": 10871
+  },
+  "26692": {
+   "arena": "Shlomo Group Arena",
+   "capacity": 3536
+  },
+  "26689": {
+   "arena": "Begin Arena",
+   "capacity": 1374
+  },
+  "26693": {
+   "arena": "Beit Maccabi Rishon LeZion",
+   "capacity": 1620
+  },
+  "26694": {
+   "arena": "Haim Ohayon Hall (Gan Ner Sports Hall)",
+   "capacity": 2069
+  },
+  "26695": {
+   "arena": "Lev Hamoshava",
+   "capacity": 1300
+  },
+  "26696": {
+   "arena": "",
+   "capacity": null
+  },
+  "26697": {
+   "arena": "HaYovel Herzliya",
+   "capacity": 1240
+  },
+  "26698": {
+   "arena": "",
+   "capacity": null
+  },
+  "26699": {
+   "arena": "Remez Hall",
+   "capacity": 1000
+  },
+  "26701": {
+   "arena": "HaKiriya Arena",
+   "capacity": 2009
+  },
+  "26675": {
+   "arena": "Begin Arena",
+   "capacity": 1374
+  },
+  "26702": {
+   "arena": "HaYovel Herzliya",
+   "capacity": 1240
+  },
+  "26703": {
+   "arena": "Haim Ohayon Hall (Gan Ner Sports Hall)",
+   "capacity": 2069
+  },
+  "26704": {
+   "arena": "Lev Hamoshava",
+   "capacity": 1300
+  },
+  "26705": {
+   "arena": "",
+   "capacity": null
+  },
+  "26706": {
+   "arena": "Remez Hall",
+   "capacity": 1000
+  },
+  "26707": {
+   "arena": "",
+   "capacity": null
+  },
+  "26708": {
+   "arena": "HaKiriya Arena",
+   "capacity": 2009
+  },
+  "26709": {
+   "arena": "Holon Toto Hall",
+   "capacity": 5337
+  },
+  "26710": {
+   "arena": "Beit Maccabi Rishon LeZion",
+   "capacity": 1620
+  },
+  "26711": {
+   "arena": "Pais Arena Jerusalem",
+   "capacity": 11600
+  },
+  "26712": {
+   "arena": "Haim Ohayon Hall (Gan Ner Sports Hall)",
+   "capacity": 2069
+  },
+  "26713": {
+   "arena": "",
+   "capacity": null
+  },
+  "26714": {
+   "arena": "Lev Hamoshava",
+   "capacity": 1300
+  },
+  "26715": {
+   "arena": "Remez Hall",
+   "capacity": 1000
+  },
+  "26716": {
+   "arena": "Shlomo Group Arena",
+   "capacity": 3536
+  },
+  "26717": {
+   "arena": "Menora Mivtachim Arena",
+   "capacity": 10871
+  },
+  "26718": {
+   "arena": "HaKiriya Arena",
+   "capacity": 2009
+  },
+  "26719": {
+   "arena": "Pais Arena Jerusalem",
+   "capacity": 11600
+  },
+  "26720": {
+   "arena": "HaYovel Herzliya",
+   "capacity": 1240
+  },
+  "26721": {
+   "arena": "",
+   "capacity": null
+  },
+  "26722": {
+   "arena": "",
+   "capacity": null
+  },
+  "26679": {
+   "arena": "Conch Arena",
+   "capacity": 3009
+  },
+  "26723": {
+   "arena": "Shlomo Group Arena",
+   "capacity": 3536
+  },
+  "26724": {
+   "arena": "Lev Hamoshava",
+   "capacity": 1300
+  },
+  "26725": {
+   "arena": "",
+   "capacity": null
+  },
+  "26726": {
+   "arena": "Beit Maccabi Rishon LeZion",
+   "capacity": 1620
+  },
+  "26727": {
+   "arena": "Haim Ohayon Hall (Gan Ner Sports Hall)",
+   "capacity": 2069
+  },
+  "26728": {
+   "arena": "Remez Hall",
+   "capacity": 1000
+  },
+  "26729": {
+   "arena": "",
+   "capacity": null
+  },
+  "26730": {
+   "arena": "Lev Hamoshava",
+   "capacity": 1300
+  },
+  "26731": {
+   "arena": "Menora Mivtachim Arena",
+   "capacity": 10871
+  },
+  "26732": {
+   "arena": "Holon Toto Hall",
+   "capacity": 5337
+  },
+  "26733": {
+   "arena": "Pais Arena Jerusalem",
+   "capacity": 11600
+  },
+  "26734": {
+   "arena": "",
+   "capacity": null
+  },
+  "26735": {
+   "arena": "",
+   "capacity": null
+  },
+  "26736": {
+   "arena": "HaKiriya Arena",
+   "capacity": 2009
+  },
+  "26657": {
+   "arena": "Haim Ohayon Hall (Gan Ner Sports Hall)",
+   "capacity": 2069
+  },
+  "26737": {
+   "arena": "Holon Toto Hall",
+   "capacity": 5337
+  },
+  "26738": {
+   "arena": "",
+   "capacity": null
+  },
+  "26739": {
+   "arena": "Shlomo Group Arena",
+   "capacity": 3536
+  },
+  "26740": {
+   "arena": "Remez Hall",
+   "capacity": 1000
+  },
+  "26742": {
+   "arena": "",
+   "capacity": null
+  },
+  "26743": {
+   "arena": "HaKiriya Arena",
+   "capacity": 2009
+  },
+  "26744": {
+   "arena": "Lev Hamoshava",
+   "capacity": 1300
+  },
+  "26745": {
+   "arena": "HaYovel Herzliya",
+   "capacity": 1240
+  },
+  "26746": {
+   "arena": "Holon Toto Hall",
+   "capacity": 5337
+  },
+  "26747": {
+   "arena": "Menora Mivtachim Arena",
+   "capacity": 10871
+  },
+  "26748": {
+   "arena": "Haim Ohayon Hall (Gan Ner Sports Hall)",
+   "capacity": 2069
+  },
+  "26749": {
+   "arena": "",
+   "capacity": null
+  },
+  "26750": {
+   "arena": "",
+   "capacity": null
+  },
+  "26751": {
+   "arena": "Pais Arena Jerusalem",
+   "capacity": 11600
+  },
+  "26752": {
+   "arena": "",
+   "capacity": null
+  },
+  "26753": {
+   "arena": "HaKiriya Arena",
+   "capacity": 2009
+  },
+  "26754": {
+   "arena": "Menora Mivtachim Arena",
+   "capacity": 10871
+  },
+  "26755": {
+   "arena": "Shlomo Group Arena",
+   "capacity": 3536
+  },
+  "26756": {
+   "arena": "Beit Maccabi Rishon LeZion",
+   "capacity": 1620
+  },
+  "26757": {
+   "arena": "",
+   "capacity": null
+  },
+  "26758": {
+   "arena": "Beit Maccabi Rishon LeZion",
+   "capacity": 1620
+  },
+  "26759": {
+   "arena": "",
+   "capacity": null
+  },
+  "26760": {
+   "arena": "Shlomo Group Arena",
+   "capacity": 3536
+  },
+  "26761": {
+   "arena": "HaYovel Herzliya",
+   "capacity": 1240
+  },
+  "26762": {
+   "arena": "Holon Toto Hall",
+   "capacity": 5337
+  },
+  "26763": {
+   "arena": "Haim Ohayon Hall (Gan Ner Sports Hall)",
+   "capacity": 2069
+  },
+  "26764": {
+   "arena": "Remez Hall",
+   "capacity": 1000
+  },
+  "26772": {
+   "arena": "Lev Hamoshava",
+   "capacity": 1300
+  },
+  "26773": {
+   "arena": "Pais Arena Jerusalem",
+   "capacity": 11600
+  },
+  "26774": {
+   "arena": "Holon Toto Hall",
+   "capacity": 5337
+  },
+  "26775": {
+   "arena": "",
+   "capacity": null
+  },
+  "26776": {
+   "arena": "",
+   "capacity": null
+  },
+  "26777": {
+   "arena": "",
+   "capacity": null
+  },
+  "26778": {
+   "arena": "HaKiriya Arena",
+   "capacity": 2009
+  },
+  "26779": {
+   "arena": "Haim Ohayon Hall (Gan Ner Sports Hall)",
+   "capacity": 2069
+  },
+  "26780": {
+   "arena": "",
+   "capacity": null
+  },
+  "26781": {
+   "arena": "Shlomo Group Arena",
+   "capacity": 3536
+  },
+  "26782": {
+   "arena": "HaYovel Herzliya",
+   "capacity": 1240
+  },
+  "26783": {
+   "arena": "Beit Maccabi Rishon LeZion",
+   "capacity": 1620
+  },
+  "26784": {
+   "arena": "",
+   "capacity": null
+  },
+  "26785": {
+   "arena": "",
+   "capacity": null
+  },
+  "26786": {
+   "arena": "Beit Maccabi Rishon LeZion",
+   "capacity": 1620
+  },
+  "26787": {
+   "arena": "HaYovel Herzliya",
+   "capacity": 1240
+  },
+  "26788": {
+   "arena": "",
+   "capacity": null
+  },
+  "26789": {
+   "arena": "Menora Mivtachim Arena",
+   "capacity": 10871
+  },
+  "26790": {
+   "arena": "Lev Hamoshava",
+   "capacity": 1300
+  },
+  "26791": {
+   "arena": "Remez Hall",
+   "capacity": 1000
+  },
+  "26792": {
+   "arena": "HaKiriya Arena",
+   "capacity": 2009
+  },
+  "26793": {
+   "arena": "Lev Hamoshava",
+   "capacity": 1300
+  },
+  "26794": {
+   "arena": "Shlomo Group Arena",
+   "capacity": 3536
+  },
+  "26795": {
+   "arena": "",
+   "capacity": null
+  },
+  "26796": {
+   "arena": "",
+   "capacity": null
+  },
+  "26797": {
+   "arena": "HaYovel Herzliya",
+   "capacity": 1240
+  },
+  "26798": {
+   "arena": "Holon Toto Hall",
+   "capacity": 5337
+  },
+  "26799": {
+   "arena": "",
+   "capacity": null
+  },
+  "26800": {
+   "arena": "Shlomo Group Arena",
+   "capacity": 3536
+  },
+  "26801": {
+   "arena": "Holon Toto Hall",
+   "capacity": 5337
+  },
+  "26802": {
+   "arena": "Pais Arena Jerusalem",
+   "capacity": 11600
+  },
+  "26803": {
+   "arena": "Menora Mivtachim Arena",
+   "capacity": 10871
+  },
+  "26804": {
+   "arena": "Haim Ohayon Hall (Gan Ner Sports Hall)",
+   "capacity": 2069
+  },
+  "26805": {
+   "arena": "",
+   "capacity": null
+  },
+  "26806": {
+   "arena": "",
+   "capacity": null
+  },
+  "26807": {
+   "arena": "Shlomo Group Arena",
+   "capacity": 3536
+  },
+  "26808": {
+   "arena": "HaYovel Herzliya",
+   "capacity": 1240
+  },
+  "26809": {
+   "arena": "",
+   "capacity": null
+  },
+  "26810": {
+   "arena": "Remez Hall",
+   "capacity": 1000
+  },
+  "26811": {
+   "arena": "Pais Arena Jerusalem",
+   "capacity": 11600
+  },
+  "26812": {
+   "arena": "Lev Hamoshava",
+   "capacity": 1300
+  },
+  "26813": {
+   "arena": "",
+   "capacity": null
+  },
+  "26814": {
+   "arena": "",
+   "capacity": null
+  },
+  "26815": {
+   "arena": "Holon Toto Hall",
+   "capacity": 5337
+  },
+  "26816": {
+   "arena": "Menora Mivtachim Arena",
+   "capacity": 10871
+  },
+  "26817": {
+   "arena": "HaKiriya Arena",
+   "capacity": 2009
+  },
+  "26818": {
+   "arena": "Haim Ohayon Hall (Gan Ner Sports Hall)",
+   "capacity": 2069
+  },
+  "26819": {
+   "arena": "Beit Maccabi Rishon LeZion",
+   "capacity": 1620
+  },
+  "26820": {
+   "arena": "Remez Hall",
+   "capacity": 1000
+  },
+  "26821": {
+   "arena": "Pais Arena Jerusalem",
+   "capacity": 11600
+  },
+  "26822": {
+   "arena": "HaYovel Herzliya",
+   "capacity": 1240
+  },
+  "26823": {
+   "arena": "Lev Hamoshava",
+   "capacity": 1300
+  },
+  "26824": {
+   "arena": "",
+   "capacity": null
+  },
+  "26825": {
+   "arena": "Haim Ohayon Hall (Gan Ner Sports Hall)",
+   "capacity": 2069
+  },
+  "26826": {
+   "arena": "",
+   "capacity": null
+  },
+  "26827": {
+   "arena": "HaKiriya Arena",
+   "capacity": 2009
+  },
+  "26828": {
+   "arena": "",
+   "capacity": null
+  },
+  "26829": {
+   "arena": "",
+   "capacity": null
+  },
+  "26830": {
+   "arena": "Beit Maccabi Rishon LeZion",
+   "capacity": 1620
+  },
+  "26831": {
+   "arena": "",
+   "capacity": null
+  },
+  "26832": {
+   "arena": "Menora Mivtachim Arena",
+   "capacity": 10871
+  },
+  "26833": {
+   "arena": "Pais Arena Jerusalem",
+   "capacity": 11600
+  },
+  "26834": {
+   "arena": "Remez Hall",
+   "capacity": 1000
+  }
+ }
+}

@@ -1,0 +1,359 @@
+{
+ "league": "Korisliiga",
+ "season": "2026-27",
+ "updated": "2026-10-30T02:01:24+00:00",
+ "clubs": [
+  {
+   "club": "Bisons Loimaa",
+   "home_games_counted": 3,
+   "games_with_capacity": 3,
+   "capacity": 1500,
+   "weighted_capacity": 1500,
+   "filling_rate": 0.426,
+   "arenas": [
+    {
+     "arena": "Loimaan Liikuntahalli",
+     "games": 3,
+     "capacity": 1500
+    }
+   ]
+  },
+  {
+   "club": "Helsinki Seagulls",
+   "home_games_counted": 3,
+   "games_with_capacity": 3,
+   "capacity": 1600,
+   "weighted_capacity": 1600,
+   "filling_rate": 0.5181,
+   "arenas": [
+    {
+     "arena": "Töölön Kisahalli",
+     "games": 3,
+     "capacity": 1600
+    }
+   ]
+  },
+  {
+   "club": "KTP-Basket",
+   "home_games_counted": 2,
+   "games_with_capacity": 2,
+   "capacity": 1600,
+   "weighted_capacity": 1600,
+   "filling_rate": 0.7081,
+   "arenas": [
+    {
+     "arena": "Steveco Areena",
+     "games": 2,
+     "capacity": 1600
+    }
+   ]
+  },
+  {
+   "club": "Kataja Basket",
+   "home_games_counted": 2,
+   "games_with_capacity": 2,
+   "capacity": 2500,
+   "weighted_capacity": 2500,
+   "filling_rate": 0.3658,
+   "arenas": [
+    {
+     "arena": "Motonet Areena",
+     "games": 2,
+     "capacity": 2500
+    }
+   ]
+  },
+  {
+   "club": "Kauhajoki",
+   "home_games_counted": 3,
+   "games_with_capacity": 3,
+   "capacity": 3500,
+   "weighted_capacity": 3500,
+   "filling_rate": 0.4215,
+   "arenas": [
+    {
+     "arena": "IKH Areena",
+     "games": 3,
+     "capacity": 3500
+    }
+   ]
+  },
+  {
+   "club": "Kipinä Basket",
+   "home_games_counted": 3,
+   "games_with_capacity": 3,
+   "capacity": 1300,
+   "weighted_capacity": 1300,
+   "filling_rate": 0.779,
+   "arenas": [
+    {
+     "arena": "Äänekoski Areena Pankkari",
+     "games": 3,
+     "capacity": 1300
+    }
+   ]
+  },
+  {
+   "club": "Korihait",
+   "home_games_counted": 3,
+   "games_with_capacity": 3,
+   "capacity": 1700,
+   "weighted_capacity": 1700,
+   "filling_rate": 0.4202,
+   "arenas": [
+    {
+     "arena": "Wintteri",
+     "games": 3,
+     "capacity": 1700
+    }
+   ]
+  },
+  {
+   "club": "Kouvot",
+   "home_games_counted": 4,
+   "games_with_capacity": 4,
+   "capacity": 1076,
+   "weighted_capacity": 1076,
+   "filling_rate": 0.7537,
+   "arenas": [
+    {
+     "arena": "MLL Areena",
+     "games": 4,
+     "capacity": 1076
+    }
+   ]
+  },
+  {
+   "club": "Lahti Basketball",
+   "home_games_counted": 4,
+   "games_with_capacity": 4,
+   "capacity": 1950,
+   "weighted_capacity": 1950,
+   "filling_rate": 0.619,
+   "arenas": [
+    {
+     "arena": "Luhta Areena",
+     "games": 4,
+     "capacity": 1950
+    }
+   ]
+  },
+  {
+   "club": "Salon Vilpas",
+   "home_games_counted": 4,
+   "games_with_capacity": 4,
+   "capacity": 2500,
+   "weighted_capacity": 2500,
+   "filling_rate": 0.5544,
+   "arenas": [
+    {
+     "arena": "Salohalli",
+     "games": 4,
+     "capacity": 2500
+    }
+   ]
+  },
+  {
+   "club": "Tampereen Pyrintö",
+   "home_games_counted": 3,
+   "games_with_capacity": 3,
+   "capacity": 1400,
+   "weighted_capacity": 1400,
+   "filling_rate": 0.5536,
+   "arenas": [
+    {
+     "arena": "Pyynikin palloiluhalli",
+     "games": 3,
+     "capacity": 1400
+    }
+   ]
+  },
+  {
+   "club": "Tapiolan Honka",
+   "home_games_counted": 2,
+   "games_with_capacity": 2,
+   "capacity": 1570,
+   "weighted_capacity": 1570,
+   "filling_rate": 0.6045,
+   "arenas": [
+    {
+     "arena": "Tapiolan Liikuntahalli",
+     "games": 2,
+     "capacity": 1570
+    }
+   ]
+  }
+ ],
+ "unknown_arenas": [],
+ "last_attendance_game": "2026-10-27",
+ "games": {
+  "44cfe520-a1e7-11f1-8d0e-4fe1f25b2942": {
+   "arena": "Motonet Areena",
+   "capacity": 2500
+  },
+  "465a0628-a1e7-11f1-8de2-45f849a56e81": {
+   "arena": "Salohalli",
+   "capacity": 2500
+  },
+  "47af59b7-a1e7-11f1-a381-51c0d75f5f30": {
+   "arena": "Steveco Areena",
+   "capacity": 1600
+  },
+  "4bad5374-a1e7-11f1-a287-c7b777354007": {
+   "arena": "MLL Areena",
+   "capacity": 1076
+  },
+  "4fcacae0-a1e7-11f1-93db-2b3f5fc87c31": {
+   "arena": "Wintteri",
+   "capacity": 1700
+  },
+  "50b80b84-a1e7-11f1-b47f-1bba1df13a25": {
+   "arena": "Töölön Kisahalli",
+   "capacity": 1600
+  },
+  "51de1e95-a1e7-11f1-ba0f-535ab7e7bd9c": {
+   "arena": "Äänekoski Areena Pankkari",
+   "capacity": 1300
+  },
+  "5306c5e1-a1e7-11f1-aa95-158f0bc16800": {
+   "arena": "Loimaan Liikuntahalli",
+   "capacity": 1500
+  },
+  "5451e9ab-a1e7-11f1-be10-39fc8abd6e98": {
+   "arena": "Tapiolan Liikuntahalli",
+   "capacity": 1570
+  },
+  "56d8efcc-a1e7-11f1-827a-07d05e571f62": {
+   "arena": "IKH Areena",
+   "capacity": 3500
+  },
+  "5812b2f4-a1e7-11f1-8279-27163149452a": {
+   "arena": "Pyynikin palloiluhalli",
+   "capacity": 1400
+  },
+  "1fc68228-a1ec-11f1-b231-bf1496bf65f9": {
+   "arena": "Tapiolan Liikuntahalli",
+   "capacity": 1570
+  },
+  "594cf260-a1e7-11f1-9a07-575e59f8ad71": {
+   "arena": "MLL Areena",
+   "capacity": 1076
+  },
+  "5d01f7a9-a1e7-11f1-aa20-f3cc6fdc4944": {
+   "arena": "Wintteri",
+   "capacity": 1700
+  },
+  "5dcdaa99-a1e7-11f1-8b50-575e59f8ad71": {
+   "arena": "IKH Areena",
+   "capacity": 3500
+  },
+  "5f169655-a1e7-11f1-8671-f3cc6fdc4944": {
+   "arena": "Luhta Areena",
+   "capacity": 1950
+  },
+  "629cb38c-a1e7-11f1-9297-575e59f8ad71": {
+   "arena": "Steveco Areena",
+   "capacity": 1600
+  },
+  "63809eae-a1e7-11f1-af62-f5e52faffe1d": {
+   "arena": "Töölön Kisahalli",
+   "capacity": 1600
+  },
+  "64db9ff1-a1e7-11f1-8d68-e36ac786250f": {
+   "arena": "Motonet Areena",
+   "capacity": 2500
+  },
+  "65b32359-a1e7-11f1-8e6d-1bf0ebcfe296": {
+   "arena": "Äänekoski Areena Pankkari",
+   "capacity": 1300
+  },
+  "6687d373-a1e7-11f1-bf2a-398db07c5a79": {
+   "arena": "Salohalli",
+   "capacity": 2500
+  },
+  "61ac5599-a1e7-11f1-9789-5974580ffbf0": {
+   "arena": "Salohalli",
+   "capacity": 2500
+  },
+  "67e60953-a1e7-11f1-bd1c-01ec03a4ab12": {
+   "arena": "Luhta Areena",
+   "capacity": 1950
+  },
+  "6b047728-a1e7-11f1-9a41-350932e7698b": {
+   "arena": "MLL Areena",
+   "capacity": 1076
+  },
+  "6d7c1302-a1e7-11f1-ade1-bf79f52bf358": {
+   "arena": "Pyynikin palloiluhalli",
+   "capacity": 1400
+  },
+  "6e93f248-a1e7-11f1-a712-ad074af542df": {
+   "arena": "Tapiolan Liikuntahalli",
+   "capacity": 1570
+  },
+  "718545c4-a1e7-11f1-8b24-b5b6ac4382a6": {
+   "arena": "Loimaan Liikuntahalli",
+   "capacity": 1500
+  },
+  "7284253e-a1e7-11f1-88bd-9b9204d0c032": {
+   "arena": "Wintteri",
+   "capacity": 1700
+  },
+  "73aaa9be-a1e7-11f1-bfe4-5b4d79ef6160": {
+   "arena": "IKH Areena",
+   "capacity": 3500
+  },
+  "7638cda6-a1e7-11f1-8f1a-d5ff74c5835d": {
+   "arena": "Loimaan Liikuntahalli",
+   "capacity": 1500
+  },
+  "772b800a-a1e7-11f1-bb93-575e59f8ad71": {
+   "arena": "Luhta Areena",
+   "capacity": 1950
+  },
+  "79d210fb-a1e7-11f1-a394-550cb810459e": {
+   "arena": "MLL Areena",
+   "capacity": 1076
+  },
+  "7c443b6a-a1e7-11f1-96bd-e36ac786250f": {
+   "arena": "Pyynikin palloiluhalli",
+   "capacity": 1400
+  },
+  "7d673bb5-a1e7-11f1-9c3b-0f21cb6f57bf": {
+   "arena": "Äänekoski Areena Pankkari",
+   "capacity": 1300
+  },
+  "7eb7e010-a1e7-11f1-9240-9b9204d0c032": {
+   "arena": "Steveco Areena",
+   "capacity": 1600
+  },
+  "84d249d3-a1e7-11f1-8d9e-51ecc4c5019b": {
+   "arena": "IKH Areena",
+   "capacity": 3500
+  },
+  "7fbdd998-a1e7-11f1-a3e0-ffc3ab626302": {
+   "arena": "Tapiolan Liikuntahalli",
+   "capacity": 1570
+  },
+  "8275f5ab-a1e7-11f1-a5b0-01ec03a4ab12": {
+   "arena": "Wintteri",
+   "capacity": 1700
+  },
+  "83a00027-a1e7-11f1-b2f7-3b5caaaa3e80": {
+   "arena": "Motonet Areena",
+   "capacity": 2500
+  },
+  "85fa5471-a1e7-11f1-a915-c914e69a6209": {
+   "arena": "Salohalli",
+   "capacity": 2500
+  },
+  "74d708ba-a1e7-11f1-bf4a-ab3c43ee1fb5": {
+   "arena": "Töölön Kisahalli",
+   "capacity": 1600
+  },
+  "930690c1-9c6f-11f1-972a-73e7b4190e78": {
+   "arena": "Luhta Areena",
+   "capacity": 1950
+  }
+ }
+}

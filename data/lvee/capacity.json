@@ -1,0 +1,456 @@
+{
+ "league": "LEBL",
+ "season": "2026-27",
+ "updated": "2026-10-30T02:01:24+00:00",
+ "clubs": [
+  {
+   "club": "BC Pärnu",
+   "home_games_counted": 3,
+   "games_with_capacity": 3,
+   "capacity": 1820,
+   "weighted_capacity": 1820,
+   "filling_rate": 0.3535,
+   "arenas": [
+    {
+     "arena": "Pärnu Spordihall",
+     "games": 3,
+     "capacity": 1820
+    }
+   ]
+  },
+  {
+   "club": "BK Liepaja",
+   "home_games_counted": 3,
+   "games_with_capacity": 3,
+   "capacity": 2500,
+   "weighted_capacity": 2500,
+   "filling_rate": 0.1933,
+   "arenas": [
+    {
+     "arena": "Liepajas Olimpiskais centrs",
+     "games": 3,
+     "capacity": 2500
+    }
+   ]
+  },
+  {
+   "club": "BK Ogre",
+   "home_games_counted": 3,
+   "games_with_capacity": 3,
+   "capacity": 1700,
+   "weighted_capacity": 1700,
+   "filling_rate": 0.4567,
+   "arenas": [
+    {
+     "arena": "Sporta arena Ogre",
+     "games": 3,
+     "capacity": 1700
+    }
+   ]
+  },
+  {
+   "club": "BK Ventspils",
+   "home_games_counted": 2,
+   "games_with_capacity": 2,
+   "capacity": 3000,
+   "weighted_capacity": 3000,
+   "filling_rate": 0.271,
+   "arenas": [
+    {
+     "arena": "Olimpiskais centrs \"Ventspils\"",
+     "games": 2,
+     "capacity": 3000
+    }
+   ]
+  },
+  {
+   "club": "Bigbank/Kalev",
+   "home_games_counted": 4,
+   "games_with_capacity": 4,
+   "capacity": 980,
+   "weighted_capacity": 980,
+   "filling_rate": 0.5099,
+   "arenas": [
+    {
+     "arena": "Nord Spordihoone",
+     "games": 4,
+     "capacity": 980
+    }
+   ]
+  },
+  {
+   "club": "Keila Basket",
+   "home_games_counted": 3,
+   "games_with_capacity": 3,
+   "capacity": 800,
+   "weighted_capacity": 800,
+   "filling_rate": 0.2079,
+   "arenas": [
+    {
+     "arena": "Keila Tervisekeskus",
+     "games": 3,
+     "capacity": 800
+    }
+   ]
+  },
+  {
+   "club": "Keila KK",
+   "home_games_counted": 4,
+   "games_with_capacity": 4,
+   "capacity": 800,
+   "weighted_capacity": 800,
+   "filling_rate": 0.5569,
+   "arenas": [
+    {
+     "arena": "Keila Tervisekeskus",
+     "games": 4,
+     "capacity": 800
+    }
+   ]
+  },
+  {
+   "club": "Latvijas Universitāte",
+   "home_games_counted": 2,
+   "games_with_capacity": 2,
+   "capacity": 400,
+   "weighted_capacity": 329,
+   "filling_rate": 0.4985,
+   "arenas": [
+    {
+     "arena": "Marupe SC",
+     "games": 1,
+     "capacity": 400
+    },
+    {
+     "arena": "O. Kalpaka RTDP",
+     "games": 1,
+     "capacity": 258
+    }
+   ]
+  },
+  {
+   "club": "Rigas Ekselences Juniori",
+   "home_games_counted": 4,
+   "games_with_capacity": 4,
+   "capacity": 2400,
+   "weighted_capacity": 2050,
+   "filling_rate": 0.0655,
+   "arenas": [
+    {
+     "arena": "Komandas Sporta Spelu Halle",
+     "games": 3,
+     "capacity": 2400
+    },
+    {
+     "arena": "Daugavas sporta nams",
+     "games": 1,
+     "capacity": 1000
+    }
+   ]
+  },
+  {
+   "club": "Rīgas Zeļļi",
+   "home_games_counted": 3,
+   "games_with_capacity": 3,
+   "capacity": 2400,
+   "weighted_capacity": 1933,
+   "filling_rate": 0.2338,
+   "arenas": [
+    {
+     "arena": "Komandas Sporta Spelu Halle",
+     "games": 2,
+     "capacity": 2400
+    },
+    {
+     "arena": "Daugavas sporta nams",
+     "games": 1,
+     "capacity": 1000
+    }
+   ]
+  },
+  {
+   "club": "TalTech/ALEXELA",
+   "home_games_counted": 4,
+   "games_with_capacity": 4,
+   "capacity": 1000,
+   "weighted_capacity": 1000,
+   "filling_rate": 0.7392,
+   "arenas": [
+    {
+     "arena": "Tallinn, TalTech Spordihoone",
+     "games": 4,
+     "capacity": 1000
+    }
+   ]
+  },
+  {
+   "club": "Tartu Ülikool Maks & Moorits",
+   "home_games_counted": 3,
+   "games_with_capacity": 3,
+   "capacity": 2600,
+   "weighted_capacity": 2600,
+   "filling_rate": 0.584,
+   "arenas": [
+    {
+     "arena": "Tartu, TÜ sph (Kullami peaväljak)",
+     "games": 3,
+     "capacity": 2600
+    }
+   ]
+  },
+  {
+   "club": "VEF Rīga",
+   "home_games_counted": 4,
+   "games_with_capacity": 4,
+   "capacity": 830,
+   "weighted_capacity": 830,
+   "filling_rate": 0.4855,
+   "arenas": [
+    {
+     "arena": "Rimi Olimpiskais centrs",
+     "games": 4,
+     "capacity": 830
+    }
+   ]
+  },
+  {
+   "club": "Valmiera Glass VIA",
+   "home_games_counted": 4,
+   "games_with_capacity": 4,
+   "capacity": 1200,
+   "weighted_capacity": 1114,
+   "filling_rate": 0.8739,
+   "arenas": [
+    {
+     "arena": "Valmieras Olimpiskais Centrs",
+     "games": 3,
+     "capacity": 1200
+    },
+    {
+     "arena": "Ruijena SH",
+     "games": 1,
+     "capacity": 605
+    }
+   ]
+  },
+  {
+   "club": "Viimsi",
+   "home_games_counted": 4,
+   "games_with_capacity": 4,
+   "capacity": 500,
+   "weighted_capacity": 578,
+   "filling_rate": 0.8254,
+   "arenas": [
+    {
+     "arena": "Forus Spordikeskus Viimsi",
+     "games": 4,
+     "capacity": 500
+    }
+   ]
+  }
+ ],
+ "unknown_arenas": [],
+ "last_attendance_game": "2026-10-28",
+ "games": {
+  "2027212141": {
+   "arena": "Komandas Sporta Spelu Halle",
+   "capacity": 2400
+  },
+  "2027212155": {
+   "arena": "Rimi Olimpiskais centrs",
+   "capacity": 830
+  },
+  "2027212015": {
+   "arena": "Tartu, TÜ sph (Kullami peaväljak)",
+   "capacity": 2600
+  },
+  "2027212029": {
+   "arena": "Keila Tervisekeskus",
+   "capacity": 800
+  },
+  "2027212071": {
+   "arena": "Valmieras Olimpiskais Centrs",
+   "capacity": 1200
+  },
+  "2027212001": {
+   "arena": "Tallinn, TalTech Spordihoone",
+   "capacity": 1000
+  },
+  "2027212043": {
+   "arena": "Pärnu Spordihall",
+   "capacity": 1820
+  },
+  "2027212085": {
+   "arena": "Sporta arena Ogre",
+   "capacity": 1700
+  },
+  "2027212057": {
+   "arena": "Forus Spordikeskus Viimsi",
+   "capacity": 500
+  },
+  "2027212169": {
+   "arena": "Marupe SC",
+   "capacity": 400
+  },
+  "2027212072": {
+   "arena": "Valmieras Olimpiskais Centrs",
+   "capacity": 1200
+  },
+  "2027212156": {
+   "arena": "Rimi Olimpiskais centrs",
+   "capacity": 830
+  },
+  "2027212183": {
+   "arena": "Liepajas Olimpiskais centrs",
+   "capacity": 2500
+  },
+  "2027212142": {
+   "arena": "Komandas Sporta Spelu Halle",
+   "capacity": 2400
+  },
+  "2027212127": {
+   "arena": "Olimpiskais centrs \"Ventspils\"",
+   "capacity": 3000
+  },
+  "2027212099": {
+   "arena": "Keila Tervisekeskus",
+   "capacity": 800
+  },
+  "2027212113": {
+   "arena": "Nord Spordihoone",
+   "capacity": 980
+  },
+  "2027212157": {
+   "arena": "Rimi Olimpiskais centrs",
+   "capacity": 830
+  },
+  "2027212197": {
+   "arena": "Komandas Sporta Spelu Halle",
+   "capacity": 2400
+  },
+  "2027212030": {
+   "arena": "Keila Tervisekeskus",
+   "capacity": 800
+  },
+  "2027212058": {
+   "arena": "Forus Spordikeskus Viimsi",
+   "capacity": 500
+  },
+  "2027212143": {
+   "arena": "Daugavas sporta nams",
+   "capacity": 1000
+  },
+  "2027212016": {
+   "arena": "Tartu, TÜ sph (Kullami peaväljak)",
+   "capacity": 2600
+  },
+  "2027212002": {
+   "arena": "Tallinn, TalTech Spordihoone",
+   "capacity": 1000
+  },
+  "2027212044": {
+   "arena": "Pärnu Spordihall",
+   "capacity": 1820
+  },
+  "2027212086": {
+   "arena": "Sporta arena Ogre",
+   "capacity": 1700
+  },
+  "2027212114": {
+   "arena": "Nord Spordihoone",
+   "capacity": 980
+  },
+  "2027212031": {
+   "arena": "Keila Tervisekeskus",
+   "capacity": 800
+  },
+  "2027212059": {
+   "arena": "Forus Spordikeskus Viimsi",
+   "capacity": 500
+  },
+  "2027212184": {
+   "arena": "Liepajas Olimpiskais centrs",
+   "capacity": 2500
+  },
+  "2027212185": {
+   "arena": "Liepajas Olimpiskais centrs",
+   "capacity": 2500
+  },
+  "2027212060": {
+   "arena": "Forus Spordikeskus Viimsi",
+   "capacity": 500
+  },
+  "2027212128": {
+   "arena": "Olimpiskais centrs \"Ventspils\"",
+   "capacity": 3000
+  },
+  "2027212073": {
+   "arena": "Ruijena SH",
+   "capacity": 605
+  },
+  "2027212100": {
+   "arena": "Keila Tervisekeskus",
+   "capacity": 800
+  },
+  "2027212115": {
+   "arena": "Nord Spordihoone",
+   "capacity": 980
+  },
+  "2027212158": {
+   "arena": "Rimi Olimpiskais centrs",
+   "capacity": 830
+  },
+  "2027212198": {
+   "arena": "Komandas Sporta Spelu Halle",
+   "capacity": 2400
+  },
+  "2027212101": {
+   "arena": "Keila Tervisekeskus",
+   "capacity": 800
+  },
+  "2027212170": {
+   "arena": "O. Kalpaka RTDP",
+   "capacity": 258
+  },
+  "2027212003": {
+   "arena": "Tallinn, TalTech Spordihoone",
+   "capacity": 1000
+  },
+  "2027212017": {
+   "arena": "Tartu, TÜ sph (Kullami peaväljak)",
+   "capacity": 2600
+  },
+  "2027212074": {
+   "arena": "Valmieras Olimpiskais Centrs",
+   "capacity": 1200
+  },
+  "2027212087": {
+   "arena": "Sporta arena Ogre",
+   "capacity": 1700
+  },
+  "2027212116": {
+   "arena": "Nord Spordihoone",
+   "capacity": 980
+  },
+  "2027212199": {
+   "arena": "Daugavas sporta nams",
+   "capacity": 1000
+  },
+  "2027212045": {
+   "arena": "Pärnu Spordihall",
+   "capacity": 1820
+  },
+  "2027212032": {
+   "arena": "Komandas Sporta Spelu Halle",
+   "capacity": 2400
+  },
+  "2027212102": {
+   "arena": "Keila Tervisekeskus",
+   "capacity": 800
+  },
+  "2027212004": {
+   "arena": "Tallinn, TalTech Spordihoone",
+   "capacity": 1000
+  }
+ }
+}

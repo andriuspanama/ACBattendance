@@ -15,16 +15,96 @@
 "11591": {},
 "11592": {},
 "11593": {},
-"11594": {},
-"11595": {},
-"11596": {},
-"11597": {},
-"11598": {},
-"11599": {},
-"11600": {},
-"11601": {},
-"11602": {},
-"11603": {},
+"11594": {
+"arena": "Utenos daugiafunkcis sporto centras",
+"att": 1443,
+"away": "Tauragė",
+"date": "2026-10-04",
+"home": "Juventus",
+"last_try": "2026-10-30T02:00:27+00:00",
+"tries": 1
+},
+"11595": {
+"arena": "Arena Vilnius",
+"att": 3455,
+"away": "Neptūnas",
+"date": "2026-10-10",
+"home": "Rytas",
+"last_try": "2026-10-30T02:00:27+00:00",
+"tries": 1
+},
+"11596": {
+"arena": "Tauragės Arena",
+"att": 1780,
+"away": "Gargždai",
+"date": "2026-10-11",
+"home": "Tauragė",
+"last_try": "2026-10-30T02:00:27+00:00",
+"tries": 1
+},
+"11597": {
+"arena": "Kėdainių arena",
+"att": 1600,
+"away": "Žalgiris",
+"date": "2026-10-11",
+"home": "Nevėžis-Paskolų klubas",
+"last_try": "2026-10-30T02:00:27+00:00",
+"tries": 1
+},
+"11598": {
+"arena": "Kalnapilio arena",
+"att": 1203,
+"away": "Hipocredit",
+"date": "2026-10-10",
+"home": "Lietkabelis",
+"last_try": "2026-10-30T02:00:27+00:00",
+"tries": 1
+},
+"11599": {
+"arena": "Šiaulių arena",
+"att": 1827,
+"away": "Juventus",
+"date": "2026-10-11",
+"home": "Šiauliai",
+"last_try": "2026-10-30T02:00:27+00:00",
+"tries": 1
+},
+"11600": {
+"arena": "Šiaulių arena",
+"att": 2723,
+"away": "Rytas",
+"date": "2026-10-17",
+"home": "Šiauliai",
+"last_try": "2026-10-30T02:00:27+00:00",
+"tries": 1
+},
+"11601": {
+"arena": "Jonavos sporto arena",
+"att": 760,
+"away": "Neptūnas",
+"date": "2026-10-17",
+"home": "Hipocredit",
+"last_try": "2026-10-30T02:00:27+00:00",
+"tries": 1
+},
+"11602": {
+"arena": "Žalgirio arena",
+"att": 2750,
+"away": "Tauragė",
+"date": "2026-10-18",
+"home": "Žalgiris",
+"last_try": "2026-10-30T02:00:27+00:00",
+"tries": 1
+},
+"11603": {
+"arena": "Tauragės Arena",
+"att": 1800,
+"away": "Rytas",
+"date": "2026-10-21",
+"home": "Tauragė",
+"last_try": "2026-10-30T02:00:27+00:00",
+"tries": 1
+},
 "11604": {
 "arena": "Gargždų SC arena",
 "att": 1443,

@@ -1,7 +1,7 @@
 {
  "league": "ACB",
  "season": "2026-27",
- "updated": "2026-10-30T01:37:30+00:00",
+ "updated": "2026-10-30T02:01:24+00:00",
  "clubs": [
   {
    "club": "Asisa Joventut",
@@ -654,6 +654,46 @@
    "capacity": 12760
   },
   "105469": {
+   "arena": "Pavelló Toni Martí",
+   "capacity": 5001
+  },
+  "105470": {
+   "arena": "Pazo Provincial dos Deportes de Lugo",
+   "capacity": 5310
+  },
+  "105471": {
+   "arena": "Palacio de Deportes de Murcia",
+   "capacity": 7454
+  },
+  "105472": {
+   "arena": "Palau Girona-Fontajau",
+   "capacity": 5750
+  },
+  "105473": {
+   "arena": "Pab. Dep. Tenerife Santiago Martín",
+   "capacity": 5100
+  },
+  "105474": {
+   "arena": "Pavelló Nou Congost",
+   "capacity": 5000
+  },
+  "105475": {
+   "arena": "Pazo Provincial dos Deportes de Lugo",
+   "capacity": 5310
+  },
+  "105476": {
+   "arena": "Palau Municipal D'Esports de Badalona",
+   "capacity": 12760
+  },
+  "105477": {
+   "arena": "Bilbao Arena",
+   "capacity": 10014
+  },
+  "105478": {
+   "arena": "Espai Fruita Barris Nord",
+   "capacity": 6100
+  },
+  "105479": {
    "arena": "Pavelló Toni Martí",
    "capacity": 5001
   }

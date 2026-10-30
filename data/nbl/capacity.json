@@ -1,0 +1,351 @@
+{
+ "league": "NBL",
+ "season": "2026-27",
+ "updated": "2026-10-30T02:01:24+00:00",
+ "clubs": [
+  {
+   "club": "Adelaide 36ers",
+   "home_games_counted": 3,
+   "games_with_capacity": 3,
+   "capacity": 10000,
+   "weighted_capacity": 10039,
+   "filling_rate": 1.0,
+   "arenas": [
+    {
+     "arena": "Adelaide Entertainment Centre",
+     "games": 3,
+     "capacity": 10000
+    }
+   ]
+  },
+  {
+   "club": "Brisbane Bullets",
+   "home_games_counted": 5,
+   "games_with_capacity": 5,
+   "capacity": 10500,
+   "weighted_capacity": 9500,
+   "filling_rate": 0.4503,
+   "arenas": [
+    {
+     "arena": "Brisbane Entertainment Centre",
+     "games": 4,
+     "capacity": 10500
+    },
+    {
+     "arena": "Pat Rafter Arena",
+     "games": 1,
+     "capacity": 5500
+    }
+   ]
+  },
+  {
+   "club": "Cairns Taipans",
+   "home_games_counted": 3,
+   "games_with_capacity": 3,
+   "capacity": 5300,
+   "weighted_capacity": 5300,
+   "filling_rate": 0.8367,
+   "arenas": [
+    {
+     "arena": "Cairns Convention Centre",
+     "games": 3,
+     "capacity": 5300
+    }
+   ]
+  },
+  {
+   "club": "Illawarra Hawks",
+   "home_games_counted": 5,
+   "games_with_capacity": 5,
+   "capacity": 6000,
+   "weighted_capacity": 6000,
+   "filling_rate": 0.6537,
+   "arenas": [
+    {
+     "arena": "WIN Entertainment Centre",
+     "games": 5,
+     "capacity": 6000
+    }
+   ]
+  },
+  {
+   "club": "Melbourne United",
+   "home_games_counted": 4,
+   "games_with_capacity": 4,
+   "capacity": 10500,
+   "weighted_capacity": 10500,
+   "filling_rate": 0.861,
+   "arenas": [
+    {
+     "arena": "John Cain Arena",
+     "games": 4,
+     "capacity": 10500
+    }
+   ]
+  },
+  {
+   "club": "NZ Breakers",
+   "home_games_counted": 2,
+   "games_with_capacity": 2,
+   "capacity": 9740,
+   "weighted_capacity": 9740,
+   "filling_rate": 0.4587,
+   "arenas": [
+    {
+     "arena": "Spark Arena",
+     "games": 2,
+     "capacity": 9740
+    }
+   ]
+  },
+  {
+   "club": "Perth Wildcats",
+   "home_games_counted": 7,
+   "games_with_capacity": 7,
+   "capacity": 14846,
+   "weighted_capacity": 14846,
+   "filling_rate": 0.7445,
+   "arenas": [
+    {
+     "arena": "RAC Arena",
+     "games": 7,
+     "capacity": 14846
+    }
+   ]
+  },
+  {
+   "club": "South East Melbourne Phoenix",
+   "home_games_counted": 5,
+   "games_with_capacity": 5,
+   "capacity": 10500,
+   "weighted_capacity": 10500,
+   "filling_rate": 0.7061,
+   "arenas": [
+    {
+     "arena": "John Cain Arena",
+     "games": 5,
+     "capacity": 10500
+    }
+   ]
+  },
+  {
+   "club": "Sydney Kings",
+   "home_games_counted": 6,
+   "games_with_capacity": 6,
+   "capacity": 18000,
+   "weighted_capacity": 15700,
+   "filling_rate": 0.6005,
+   "arenas": [
+    {
+     "arena": "Afterpay Arena",
+     "games": 5,
+     "capacity": 18000
+    },
+    {
+     "arena": "AIS Arena",
+     "games": 1,
+     "capacity": 4200
+    }
+   ]
+  },
+  {
+   "club": "Tasmania JackJumpers",
+   "home_games_counted": 5,
+   "games_with_capacity": 5,
+   "capacity": 4340,
+   "weighted_capacity": 4340,
+   "filling_rate": 0.9991,
+   "arenas": [
+    {
+     "arena": "MyState Bank Arena",
+     "games": 5,
+     "capacity": 4340
+    }
+   ]
+  }
+ ],
+ "unknown_arenas": [],
+ "last_attendance_game": "2026-10-29",
+ "games": {
+  "36dbeb55-58ad-11f1-a69b-43a6b5595d3e": {
+   "arena": "John Cain Arena",
+   "capacity": 10500
+  },
+  "36e0e11c-58ad-11f1-93d0-e78395b5c13c": {
+   "arena": "RAC Arena",
+   "capacity": 14846
+  },
+  "36e225dc-58ad-11f1-b0d4-e94b8c35b649": {
+   "arena": "Afterpay Arena",
+   "capacity": 18000
+  },
+  "3700706c-58ad-11f1-ae9e-a93048d70593": {
+   "arena": "Spark Arena",
+   "capacity": 9740
+  },
+  "36e80b8c-58ad-11f1-ab03-2572c13c410b": {
+   "arena": "MyState Bank Arena",
+   "capacity": 4340
+  },
+  "36e7aa3c-58ad-11f1-b88d-1138b8cb68ba": {
+   "arena": "Pat Rafter Arena",
+   "capacity": 5500
+  },
+  "36e0818b-58ad-11f1-89d2-fb9d3a8baf78": {
+   "arena": "Cairns Convention Centre",
+   "capacity": 5300
+  },
+  "36e93c3b-58ad-11f1-8215-c5dc2cf09b1f": {
+   "arena": "RAC Arena",
+   "capacity": 14846
+  },
+  "3705a1db-58ad-11f1-af46-11cc539397b9": {
+   "arena": "John Cain Arena",
+   "capacity": 10500
+  },
+  "36f361e7-58ad-11f1-a449-59142d8bd7d5": {
+   "arena": "Brisbane Entertainment Centre",
+   "capacity": 10500
+  },
+  "36f4ac8b-58ad-11f1-bf00-2942781e7154": {
+   "arena": "RAC Arena",
+   "capacity": 14846
+  },
+  "36f8857c-58ad-11f1-9db7-b15d4ea6aed8": {
+   "arena": "Adelaide Entertainment Centre",
+   "capacity": 10000
+  },
+  "3715a95f-58ad-11f1-9621-61e4f965035a": {
+   "arena": "Afterpay Arena",
+   "capacity": 18000
+  },
+  "36f8c608-58ad-11f1-aa0e-2bbb920071b5": {
+   "arena": "Spark Arena",
+   "capacity": 9740
+  },
+  "3718a994-58ad-11f1-add9-d98e318e0a1e": {
+   "arena": "Afterpay Arena",
+   "capacity": 18000
+  },
+  "36f713cb-58ad-11f1-b8d2-f1316c48f9c2": {
+   "arena": "MyState Bank Arena",
+   "capacity": 4340
+  },
+  "36f2e004-58ad-11f1-aa96-6775645a7b9a": {
+   "arena": "WIN Entertainment Centre",
+   "capacity": 6000
+  },
+  "3724384a-58ad-11f1-bbdc-6d6f61141df2": {
+   "arena": "RAC Arena",
+   "capacity": 14846
+  },
+  "36fd4a13-58ad-11f1-9ca2-a9a6cbaba447": {
+   "arena": "John Cain Arena",
+   "capacity": 10500
+  },
+  "37007b03-58ad-11f1-89e4-67a8251482c3": {
+   "arena": "Brisbane Entertainment Centre",
+   "capacity": 10500
+  },
+  "36fdee6b-58ad-11f1-ac5d-19f7d3a187d4": {
+   "arena": "John Cain Arena",
+   "capacity": 10500
+  },
+  "36fff950-58ad-11f1-8de3-37c9e1eacb09": {
+   "arena": "Adelaide Entertainment Centre",
+   "capacity": 10000
+  },
+  "36fc0fd6-58ad-11f1-8ed4-c9ba3efad88d": {
+   "arena": "Adelaide Entertainment Centre",
+   "capacity": 10000
+  },
+  "37023ff5-58ad-11f1-88e1-6f9744c8d3ab": {
+   "arena": "Cairns Convention Centre",
+   "capacity": 5300
+  },
+  "36fe21e3-58ad-11f1-ba69-dd12ee8972e9": {
+   "arena": "WIN Entertainment Centre",
+   "capacity": 6000
+  },
+  "3703c23b-58ad-11f1-bf9b-db7d6019155e": {
+   "arena": "John Cain Arena",
+   "capacity": 10500
+  },
+  "3705bd4d-58ad-11f1-8baa-ede76c1d904d": {
+   "arena": "RAC Arena",
+   "capacity": 14846
+  },
+  "36fb1b72-58ad-11f1-a2a4-7da015763581": {
+   "arena": "WIN Entertainment Centre",
+   "capacity": 6000
+  },
+  "36fffdc1-58ad-11f1-b499-f3575d2dc39f": {
+   "arena": "Afterpay Arena",
+   "capacity": 18000
+  },
+  "3706e834-58ad-11f1-8519-a362560fc147": {
+   "arena": "AIS Arena",
+   "capacity": 4200
+  },
+  "36fd506c-58ad-11f1-a57f-6d6fb61b331b": {
+   "arena": "Brisbane Entertainment Centre",
+   "capacity": 10500
+  },
+  "3700bf63-58ad-11f1-89a0-03625b994063": {
+   "arena": "MyState Bank Arena",
+   "capacity": 4340
+  },
+  "3707e960-58ad-11f1-a8d4-819ec06531e4": {
+   "arena": "Afterpay Arena",
+   "capacity": 18000
+  },
+  "37082c14-58ad-11f1-8882-9bf90a853321": {
+   "arena": "John Cain Arena",
+   "capacity": 10500
+  },
+  "37085418-58ad-11f1-9e12-411a11259918": {
+   "arena": "MyState Bank Arena",
+   "capacity": 4340
+  },
+  "371032f3-58ad-11f1-a72d-69c2b72ae0a9": {
+   "arena": "John Cain Arena",
+   "capacity": 10500
+  },
+  "370d79db-58ad-11f1-8bd9-59a0fb078f66": {
+   "arena": "MyState Bank Arena",
+   "capacity": 4340
+  },
+  "370e679e-58ad-11f1-acba-8b618b817e22": {
+   "arena": "WIN Entertainment Centre",
+   "capacity": 6000
+  },
+  "371130fd-58ad-11f1-aac7-754512109772": {
+   "arena": "RAC Arena",
+   "capacity": 14846
+  },
+  "37106a00-58ad-11f1-a7e9-87e414b8c2d5": {
+   "arena": "WIN Entertainment Centre",
+   "capacity": 6000
+  },
+  "3711a017-58ad-11f1-b649-93b9302663c0": {
+   "arena": "John Cain Arena",
+   "capacity": 10500
+  },
+  "3714bc12-58ad-11f1-bdd2-69207a436dad": {
+   "arena": "Cairns Convention Centre",
+   "capacity": 5300
+  },
+  "3716743f-58ad-11f1-8c04-1fa229f84a5e": {
+   "arena": "John Cain Arena",
+   "capacity": 10500
+  },
+  "371aff1e-58ad-11f1-b4cd-0919017f2391": {
+   "arena": "RAC Arena",
+   "capacity": 14846
+  },
+  "37196322-58ad-11f1-9f91-61e38b2284ba": {
+   "arena": "Brisbane Entertainment Centre",
+   "capacity": 10500
+  }
+ }
+}

@@ -1,0 +1,353 @@
+{
+ "league": "PLK",
+ "season": "2026-27",
+ "updated": "2026-10-30T02:01:24+00:00",
+ "clubs": [
+  {
+   "club": "AMW Arka Gdynia",
+   "home_games_counted": 3,
+   "games_with_capacity": 3,
+   "capacity": 4010,
+   "weighted_capacity": 4010,
+   "filling_rate": 0.7331,
+   "arenas": [
+    {
+     "arena": "Polsat Plus Arena Gdynia",
+     "games": 3,
+     "capacity": 4010
+    }
+   ]
+  },
+  {
+   "club": "Anwil Włocławek",
+   "home_games_counted": 2,
+   "games_with_capacity": 2,
+   "capacity": 3963,
+   "weighted_capacity": 3963,
+   "filling_rate": 0.8617,
+   "arenas": [
+    {
+     "arena": "Hala Mistrzów",
+     "games": 2,
+     "capacity": 3963
+    }
+   ]
+  },
+  {
+   "club": "Arriva Lotto Twarde Pierniki Toruń",
+   "home_games_counted": 2,
+   "games_with_capacity": 2,
+   "capacity": 6248,
+   "weighted_capacity": 6248,
+   "filling_rate": 0.2852,
+   "arenas": [
+    {
+     "arena": "Kujawsko-Pomorska Arena Toruń",
+     "games": 2,
+     "capacity": 6248
+    }
+   ]
+  },
+  {
+   "club": "Dziki Warszawa",
+   "home_games_counted": 2,
+   "games_with_capacity": 2,
+   "capacity": 1298,
+   "weighted_capacity": 1298,
+   "filling_rate": 0.9503,
+   "arenas": [
+    {
+     "arena": "Hala Koło",
+     "games": 2,
+     "capacity": 1298
+    }
+   ]
+  },
+  {
+   "club": "Enea Łaciate Astoria Bydgoszcz",
+   "home_games_counted": 2,
+   "games_with_capacity": 2,
+   "capacity": 1475,
+   "weighted_capacity": 1479,
+   "filling_rate": 1.0,
+   "arenas": [
+    {
+     "arena": "Grupa Moderator Arena",
+     "games": 2,
+     "capacity": 1475
+    }
+   ]
+  },
+  {
+   "club": "Energa Czarni Słupsk",
+   "home_games_counted": 2,
+   "games_with_capacity": 2,
+   "capacity": 2249,
+   "weighted_capacity": 2249,
+   "filling_rate": 0.8688,
+   "arenas": [
+    {
+     "arena": "Hala Gryfia",
+     "games": 2,
+     "capacity": 2249
+    }
+   ]
+  },
+  {
+   "club": "Energa Trefl Sopot",
+   "home_games_counted": 1,
+   "games_with_capacity": 1,
+   "capacity": 1942,
+   "weighted_capacity": 1942,
+   "filling_rate": 0.8424,
+   "arenas": [
+    {
+     "arena": "Hala Sportowa 100-lecia Sopotu",
+     "games": 1,
+     "capacity": 1942
+    }
+   ]
+  },
+  {
+   "club": "Euvic GTK Gliwice",
+   "home_games_counted": 3,
+   "games_with_capacity": 3,
+   "capacity": 1092,
+   "weighted_capacity": 2078,
+   "filling_rate": 0.9753,
+   "arenas": [
+    {
+     "arena": "Prezero Arena Gliwice",
+     "games": 3,
+     "capacity": 1092
+    }
+   ]
+  },
+  {
+   "club": "King Szczecin",
+   "home_games_counted": 2,
+   "games_with_capacity": 2,
+   "capacity": 5055,
+   "weighted_capacity": 3322,
+   "filling_rate": 0.54,
+   "arenas": [
+    {
+     "arena": "Hala Enea Arena",
+     "games": 1,
+     "capacity": 5055
+    },
+    {
+     "arena": "Hala SDS 2.0",
+     "games": 1,
+     "capacity": 1215
+    }
+   ]
+  },
+  {
+   "club": "Legia Warszawa",
+   "home_games_counted": 1,
+   "games_with_capacity": 1,
+   "capacity": 1991,
+   "weighted_capacity": 1991,
+   "filling_rate": 0.9543,
+   "arenas": [
+    {
+     "arena": "OSiR Warszawa Bemowo",
+     "games": 1,
+     "capacity": 1991
+    }
+   ]
+  },
+  {
+   "club": "MKS Dąbrowa Górnicza",
+   "home_games_counted": 3,
+   "games_with_capacity": 3,
+   "capacity": 2944,
+   "weighted_capacity": 2944,
+   "filling_rate": 0.6643,
+   "arenas": [
+    {
+     "arena": "HWS Centrum im.Z.Cybulskiego",
+     "games": 3,
+     "capacity": 2944
+    }
+   ]
+  },
+  {
+   "club": "PGE Start Lublin",
+   "home_games_counted": 1,
+   "games_with_capacity": 1,
+   "capacity": 4119,
+   "weighted_capacity": 4119,
+   "filling_rate": 0.201,
+   "arenas": [
+    {
+     "arena": "MOSiR Globus",
+     "games": 1,
+     "capacity": 4119
+    }
+   ]
+  },
+  {
+   "club": "Tasomix Rosiek Stal Ostrów Wielkopolski",
+   "home_games_counted": 1,
+   "games_with_capacity": 1,
+   "capacity": 3086,
+   "weighted_capacity": 3086,
+   "filling_rate": 0.9559,
+   "arenas": [
+    {
+     "arena": "3mk Arena Ostrów",
+     "games": 1,
+     "capacity": 3086
+    }
+   ]
+  },
+  {
+   "club": "WKS Śląsk Wrocław",
+   "home_games_counted": 1,
+   "games_with_capacity": 1,
+   "capacity": 3000,
+   "weighted_capacity": 3000,
+   "filling_rate": 0.952,
+   "arenas": [
+    {
+     "arena": "Hala Orbita",
+     "games": 1,
+     "capacity": 3000
+    }
+   ]
+  },
+  {
+   "club": "Zastal Zielona Góra",
+   "home_games_counted": 2,
+   "games_with_capacity": 2,
+   "capacity": 5080,
+   "weighted_capacity": 5080,
+   "filling_rate": 0.9174,
+   "arenas": [
+    {
+     "arena": "Centrum Rekreacyjno-Sportowe",
+     "games": 2,
+     "capacity": 5080
+    }
+   ]
+  }
+ ],
+ "unknown_arenas": [],
+ "last_attendance_game": "2026-10-25",
+ "games": {
+  "223465": {
+   "arena": "Hala Sportowa 100-lecia Sopotu",
+   "capacity": 1942
+  },
+  "223468": {
+   "arena": "Hala Gryfia",
+   "capacity": 2249
+  },
+  "223461": {
+   "arena": "Grupa Moderator Arena",
+   "capacity": 1475
+  },
+  "223463": {
+   "arena": "Kujawsko-Pomorska Arena Toruń",
+   "capacity": 6248
+  },
+  "223466": {
+   "arena": "MOSiR Globus",
+   "capacity": 4119
+  },
+  "223462": {
+   "arena": "Prezero Arena Gliwice",
+   "capacity": 1092
+  },
+  "223464": {
+   "arena": "Polsat Plus Arena Gdynia",
+   "capacity": 4010
+  },
+  "223467": {
+   "arena": "Hala Mistrzów",
+   "capacity": 3963
+  },
+  "223469": {
+   "arena": "Centrum Rekreacyjno-Sportowe",
+   "capacity": 5080
+  },
+  "223476": {
+   "arena": "Grupa Moderator Arena",
+   "capacity": 1475
+  },
+  "223474": {
+   "arena": "Hala Enea Arena",
+   "capacity": 5055
+  },
+  "223475": {
+   "arena": "HWS Centrum im.Z.Cybulskiego",
+   "capacity": 2944
+  },
+  "223470": {
+   "arena": "Hala Mistrzów",
+   "capacity": 3963
+  },
+  "223472": {
+   "arena": "Hala Koło",
+   "capacity": 1298
+  },
+  "223473": {
+   "arena": "Polsat Plus Arena Gdynia",
+   "capacity": 4010
+  },
+  "223471": {
+   "arena": "3mk Arena Ostrów",
+   "capacity": 3086
+  },
+  "223478": {
+   "arena": "Kujawsko-Pomorska Arena Toruń",
+   "capacity": 6248
+  },
+  "223477": {
+   "arena": "Prezero Arena Gliwice",
+   "capacity": 1092
+  },
+  "223479": {
+   "arena": "HWS Centrum im.Z.Cybulskiego",
+   "capacity": 2944
+  },
+  "223483": {
+   "arena": "Hala Gryfia",
+   "capacity": 2249
+  },
+  "223492": {
+   "arena": "Prezero Arena Gliwice",
+   "capacity": 1092
+  },
+  "223485": {
+   "arena": "Centrum Rekreacyjno-Sportowe",
+   "capacity": 5080
+  },
+  "223489": {
+   "arena": "Hala SDS 2.0",
+   "capacity": 1215
+  },
+  "223491": {
+   "arena": "Hala Orbita",
+   "capacity": 3000
+  },
+  "223486": {
+   "arena": "OSiR Warszawa Bemowo",
+   "capacity": 1991
+  },
+  "223487": {
+   "arena": "Hala Koło",
+   "capacity": 1298
+  },
+  "223488": {
+   "arena": "Polsat Plus Arena Gdynia",
+   "capacity": 4010
+  },
+  "223490": {
+   "arena": "HWS Centrum im.Z.Cybulskiego",
+   "capacity": 2944
+  }
+ }
+}

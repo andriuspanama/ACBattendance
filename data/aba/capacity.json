@@ -1,0 +1,466 @@
+{
+ "league": "ABA",
+ "season": "2026-27",
+ "updated": "2026-10-30T02:01:24+00:00",
+ "clubs": [
+  {
+   "club": "BC Vienna",
+   "home_games_counted": 3,
+   "games_with_capacity": 3,
+   "capacity": 1399,
+   "weighted_capacity": 1399,
+   "filling_rate": 0.5838,
+   "arenas": [
+    {
+     "arena": "BC Vienna Arena",
+     "games": 3,
+     "capacity": 1399
+    }
+   ]
+  },
+  {
+   "club": "Borac Mozzart",
+   "home_games_counted": 2,
+   "games_with_capacity": 2,
+   "capacity": 4260,
+   "weighted_capacity": 4260,
+   "filling_rate": 0.1995,
+   "arenas": [
+    {
+     "arena": "Dvorana Borac",
+     "games": 2,
+     "capacity": 4260
+    }
+   ]
+  },
+  {
+   "club": "Bosna BH Telecom",
+   "home_games_counted": 2,
+   "games_with_capacity": 2,
+   "capacity": 12000,
+   "weighted_capacity": 12000,
+   "filling_rate": 0.2083,
+   "arenas": [
+    {
+     "arena": "Zetra Olympic Hall",
+     "games": 2,
+     "capacity": 12000
+    }
+   ]
+  },
+  {
+   "club": "Budućnost VOLI",
+   "home_games_counted": 1,
+   "games_with_capacity": 1,
+   "capacity": 6000,
+   "weighted_capacity": 6000,
+   "filling_rate": 0.0917,
+   "arenas": [
+    {
+     "arena": "Sportski centar Morača",
+     "games": 1,
+     "capacity": 6000
+    }
+   ]
+  },
+  {
+   "club": "Cedevita Olimpija",
+   "home_games_counted": 2,
+   "games_with_capacity": 2,
+   "capacity": 4500,
+   "weighted_capacity": 8490,
+   "filling_rate": 0.178,
+   "arenas": [
+    {
+     "arena": "Mala dvorana Tivoli",
+     "games": 1,
+     "capacity": 4500
+    },
+    {
+     "arena": "Arena Stožice",
+     "games": 1,
+     "capacity": 12480
+    }
+   ]
+  },
+  {
+   "club": "Cibona",
+   "home_games_counted": 3,
+   "games_with_capacity": 3,
+   "capacity": 5400,
+   "weighted_capacity": 5400,
+   "filling_rate": 0.0741,
+   "arenas": [
+    {
+     "arena": "Košarkaški centar Dražen Petrović",
+     "games": 3,
+     "capacity": 5400
+    }
+   ]
+  },
+  {
+   "club": "Crvena zvezda Meridianbet",
+   "home_games_counted": 1,
+   "games_with_capacity": 1,
+   "capacity": 8000,
+   "weighted_capacity": 8000,
+   "filling_rate": 0.3806,
+   "arenas": [
+    {
+     "arena": "Košarkaška dvorana Aleksandar Nikolić",
+     "games": 1,
+     "capacity": 8000
+    }
+   ]
+  },
+  {
+   "club": "Dubai Basketball",
+   "home_games_counted": 1,
+   "games_with_capacity": 1,
+   "capacity": 15000,
+   "weighted_capacity": 15000,
+   "filling_rate": 0.2267,
+   "arenas": [
+    {
+     "arena": "Coca Cola Arena",
+     "games": 1,
+     "capacity": 15000
+    }
+   ]
+  },
+  {
+   "club": "FMP",
+   "home_games_counted": 2,
+   "games_with_capacity": 2,
+   "capacity": 3000,
+   "weighted_capacity": 3000,
+   "filling_rate": 0.3155,
+   "arenas": [
+    {
+     "arena": "Arena KK FMP",
+     "games": 2,
+     "capacity": 3000
+    }
+   ]
+  },
+  {
+   "club": "HKK Široki TT Kabeli",
+   "home_games_counted": 2,
+   "games_with_capacity": 2,
+   "capacity": 4500,
+   "weighted_capacity": 4500,
+   "filling_rate": 0.6111,
+   "arenas": [
+    {
+     "arena": "GSD Pecara",
+     "games": 2,
+     "capacity": 4500
+    }
+   ]
+  },
+  {
+   "club": "Igokea m:tel",
+   "home_games_counted": 4,
+   "games_with_capacity": 4,
+   "capacity": 3050,
+   "weighted_capacity": 3050,
+   "filling_rate": 0.3197,
+   "arenas": [
+    {
+     "arena": "J.U. Sportska dvorana Laktaši",
+     "games": 4,
+     "capacity": 3050
+    }
+   ]
+  },
+  {
+   "club": "Krka",
+   "home_games_counted": 3,
+   "games_with_capacity": 3,
+   "capacity": 2500,
+   "weighted_capacity": 2500,
+   "filling_rate": 0.36,
+   "arenas": [
+    {
+     "arena": "ŠD Leona Štuklja Novo Mesto",
+     "games": 3,
+     "capacity": 2500
+    }
+   ]
+  },
+  {
+   "club": "Mega Superbet",
+   "home_games_counted": 1,
+   "games_with_capacity": 1,
+   "capacity": 5000,
+   "weighted_capacity": 5000,
+   "filling_rate": 0.07,
+   "arenas": [
+    {
+     "arena": "Hala sportova Ranko Žeravica",
+     "games": 1,
+     "capacity": 5000
+    }
+   ]
+  },
+  {
+   "club": "Partizan Mozzart Bet",
+   "home_games_counted": 1,
+   "games_with_capacity": 1,
+   "capacity": 8000,
+   "weighted_capacity": 8000,
+   "filling_rate": 0.1766,
+   "arenas": [
+    {
+     "arena": "Košarkaška dvorana Aleksandar Nikolić",
+     "games": 1,
+     "capacity": 8000
+    }
+   ]
+  },
+  {
+   "club": "Perspektiva Ilirija",
+   "home_games_counted": 2,
+   "games_with_capacity": 2,
+   "capacity": 4500,
+   "weighted_capacity": 4500,
+   "filling_rate": 0.0778,
+   "arenas": [
+    {
+     "arena": "Mala dvorana Tivoli",
+     "games": 2,
+     "capacity": 4500
+    }
+   ]
+  },
+  {
+   "club": "SC Derby",
+   "home_games_counted": 1,
+   "games_with_capacity": 1,
+   "capacity": 6000,
+   "weighted_capacity": 6000,
+   "filling_rate": 0.0917,
+   "arenas": [
+    {
+     "arena": "Sportski centar Morača",
+     "games": 1,
+     "capacity": 6000
+    }
+   ]
+  },
+  {
+   "club": "Spartak Office Shoes",
+   "home_games_counted": 3,
+   "games_with_capacity": 3,
+   "capacity": 3000,
+   "weighted_capacity": 3067,
+   "filling_rate": 0.7587,
+   "arenas": [
+    {
+     "arena": "Hala Sportova Dudova šuma",
+     "games": 3,
+     "capacity": 3000
+    }
+   ]
+  },
+  {
+   "club": "U-BT Cluj-Napoca",
+   "home_games_counted": 2,
+   "games_with_capacity": 2,
+   "capacity": 10000,
+   "weighted_capacity": 6262,
+   "filling_rate": 0.6902,
+   "arenas": [
+    {
+     "arena": "BT Arena",
+     "games": 1,
+     "capacity": 10000
+    },
+    {
+     "arena": "Horia Demian Sports Hall",
+     "games": 1,
+     "capacity": 2525
+    }
+   ]
+  },
+  {
+   "club": "Zadar",
+   "home_games_counted": 2,
+   "games_with_capacity": 2,
+   "capacity": 8500,
+   "weighted_capacity": 8500,
+   "filling_rate": 0.1882,
+   "arenas": [
+    {
+     "arena": "Dvorana Krešimir Ćosić",
+     "games": 2,
+     "capacity": 8500
+    }
+   ]
+  }
+ ],
+ "unknown_arenas": [],
+ "last_attendance_game": "2026-10-25",
+ "games": {
+  "13": {
+   "arena": "ŠD Leona Štuklja Novo Mesto",
+   "capacity": 2500
+  },
+  "15": {
+   "arena": "Dvorana Borac",
+   "capacity": 4260
+  },
+  "12": {
+   "arena": "Mala dvorana Tivoli",
+   "capacity": 4500
+  },
+  "14": {
+   "arena": "J.U. Sportska dvorana Laktaši",
+   "capacity": 3050
+  },
+  "18": {
+   "arena": "BC Vienna Arena",
+   "capacity": 1399
+  },
+  "20": {
+   "arena": "Hala Sportova Dudova šuma",
+   "capacity": 3000
+  },
+  "11": {
+   "arena": "Arena KK FMP",
+   "capacity": 3000
+  },
+  "17": {
+   "arena": "Mala dvorana Tivoli",
+   "capacity": 4500
+  },
+  "16": {
+   "arena": "Košarkaška dvorana Aleksandar Nikolić",
+   "capacity": 8000
+  },
+  "19": {
+   "arena": "Dvorana Krešimir Ćosić",
+   "capacity": 8500
+  },
+  "21": {
+   "arena": "Košarkaška dvorana Aleksandar Nikolić",
+   "capacity": 8000
+  },
+  "22": {
+   "arena": "GSD Pecara",
+   "capacity": 4500
+  },
+  "24": {
+   "arena": "J.U. Sportska dvorana Laktaši",
+   "capacity": 3050
+  },
+  "29": {
+   "arena": "Sportski centar Morača",
+   "capacity": 6000
+  },
+  "30": {
+   "arena": "Mala dvorana Tivoli",
+   "capacity": 4500
+  },
+  "25": {
+   "arena": "ŠD Leona Štuklja Novo Mesto",
+   "capacity": 2500
+  },
+  "26": {
+   "arena": "Košarkaška dvorana Aleksandar Nikolić",
+   "capacity": 8000
+  },
+  "27": {
+   "arena": "BT Arena",
+   "capacity": 10000
+  },
+  "28": {
+   "arena": "Hala sportova Ranko Žeravica",
+   "capacity": 5000
+  },
+  "23": {
+   "arena": "Košarkaški centar Dražen Petrović",
+   "capacity": 5400
+  },
+  "34": {
+   "arena": "Košarkaški centar Dražen Petrović",
+   "capacity": 5400
+  },
+  "40": {
+   "arena": "BC Vienna Arena",
+   "capacity": 1399
+  },
+  "33": {
+   "arena": "J.U. Sportska dvorana Laktaši",
+   "capacity": 3050
+  },
+  "35": {
+   "arena": "Arena KK FMP",
+   "capacity": 3000
+  },
+  "31": {
+   "arena": "ŠD Leona Štuklja Novo Mesto",
+   "capacity": 2500
+  },
+  "32": {
+   "arena": "Sportski centar Morača",
+   "capacity": 6000
+  },
+  "36": {
+   "arena": "Zetra Olympic Hall",
+   "capacity": 12000
+  },
+  "38": {
+   "arena": "Mala dvorana Tivoli",
+   "capacity": 4500
+  },
+  "39": {
+   "arena": "Hala Sportova Dudova šuma",
+   "capacity": 3000
+  },
+  "37": {
+   "arena": "Coca Cola Arena",
+   "capacity": 15000
+  },
+  "45": {
+   "arena": "GSD Pecara",
+   "capacity": 4500
+  },
+  "43": {
+   "arena": "Košarkaški centar Dražen Petrović",
+   "capacity": 5400
+  },
+  "44": {
+   "arena": "Dvorana Borac",
+   "capacity": 4260
+  },
+  "50": {
+   "arena": "Horia Demian Sports Hall",
+   "capacity": 2525
+  },
+  "41": {
+   "arena": "J.U. Sportska dvorana Laktaši",
+   "capacity": 3050
+  },
+  "42": {
+   "arena": "Arena Stožice",
+   "capacity": 12480
+  },
+  "46": {
+   "arena": "Hala Sportova Dudova šuma",
+   "capacity": 3000
+  },
+  "47": {
+   "arena": "Zetra Olympic Hall",
+   "capacity": 12000
+  },
+  "49": {
+   "arena": "BC Vienna Arena",
+   "capacity": 1399
+  },
+  "48": {
+   "arena": "Dvorana Krešimir Ćosić",
+   "capacity": 8500
+  }
+ }
+}

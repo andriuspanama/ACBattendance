@@ -1,0 +1,321 @@
+{
+ "league": "LBA",
+ "season": "2026-27",
+ "updated": "2026-10-30T02:01:24+00:00",
+ "clubs": [
+  {
+   "club": "Armani Olimpia Milano",
+   "home_games_counted": 3,
+   "games_with_capacity": 3,
+   "capacity": 12700,
+   "weighted_capacity": 12700,
+   "filling_rate": 0.5274,
+   "arenas": [
+    {
+     "arena": "Unipol Forum",
+     "games": 3,
+     "capacity": 12700
+    }
+   ]
+  },
+  {
+   "club": "BC Roma",
+   "home_games_counted": 2,
+   "games_with_capacity": 2,
+   "capacity": 3500,
+   "weighted_capacity": 3500,
+   "filling_rate": 0.7211,
+   "arenas": [
+    {
+     "arena": "Palazzetto dello Sport",
+     "games": 2,
+     "capacity": 3500
+    }
+   ]
+  },
+  {
+   "club": "Bertram Derthona Tortona",
+   "home_games_counted": 3,
+   "games_with_capacity": 3,
+   "capacity": 5000,
+   "weighted_capacity": 5000,
+   "filling_rate": 0.5213,
+   "arenas": [
+    {
+     "arena": "Nova Arena",
+     "games": 3,
+     "capacity": 5000
+    }
+   ]
+  },
+  {
+   "club": "Dolomiti Energia Trentino",
+   "home_games_counted": 2,
+   "games_with_capacity": 2,
+   "capacity": 3882,
+   "weighted_capacity": 3941,
+   "filling_rate": 0.9669,
+   "arenas": [
+    {
+     "arena": "BTS Arena",
+     "games": 2,
+     "capacity": 3882
+    }
+   ]
+  },
+  {
+   "club": "Maxima Roma",
+   "home_games_counted": 1,
+   "games_with_capacity": 1,
+   "capacity": 11200,
+   "weighted_capacity": 11200,
+   "filling_rate": 0.8314,
+   "arenas": [
+    {
+     "arena": "PalaEur",
+     "games": 1,
+     "capacity": 11200
+    }
+   ]
+  },
+  {
+   "club": "Napoli Basketball",
+   "home_games_counted": 1,
+   "games_with_capacity": 1,
+   "capacity": 3980,
+   "weighted_capacity": 3980,
+   "filling_rate": 0.7789,
+   "arenas": [
+    {
+     "arena": "Alcott Arena",
+     "games": 1,
+     "capacity": 3980
+    }
+   ]
+  },
+  {
+   "club": "Nutribullet Treviso Basket",
+   "home_games_counted": 2,
+   "games_with_capacity": 2,
+   "capacity": 5344,
+   "weighted_capacity": 5344,
+   "filling_rate": 0.8099,
+   "arenas": [
+    {
+     "arena": "Palaverde",
+     "games": 2,
+     "capacity": 5344
+    }
+   ]
+  },
+  {
+   "club": "Openjobmetis Varese",
+   "home_games_counted": 2,
+   "games_with_capacity": 2,
+   "capacity": 5677,
+   "weighted_capacity": 5677,
+   "filling_rate": 0.8135,
+   "arenas": [
+    {
+     "arena": "Itelyum Arena",
+     "games": 2,
+     "capacity": 5677
+    }
+   ]
+  },
+  {
+   "club": "Pallacanestro Trieste",
+   "home_games_counted": 1,
+   "games_with_capacity": 1,
+   "capacity": 6736,
+   "weighted_capacity": 6736,
+   "filling_rate": 0.6842,
+   "arenas": [
+    {
+     "arena": "PalaTrieste",
+     "games": 1,
+     "capacity": 6736
+    }
+   ]
+  },
+  {
+   "club": "UNA Hotels Reggio Emilia",
+   "home_games_counted": 3,
+   "games_with_capacity": 3,
+   "capacity": 4530,
+   "weighted_capacity": 4530,
+   "filling_rate": 0.7642,
+   "arenas": [
+    {
+     "arena": "PalaBigi",
+     "games": 3,
+     "capacity": 4530
+    }
+   ]
+  }
+ ],
+ "unknown_arenas": [],
+ "last_attendance_game": "2026-10-25",
+ "games": {
+  "25602": {
+   "arena": "Palaverde",
+   "capacity": 5344
+  },
+  "25603": {
+   "arena": "Palasport Taliercio",
+   "capacity": 3509
+  },
+  "25605": {
+   "arena": "PalaBigi",
+   "capacity": 4530
+  },
+  "25600": {
+   "arena": "Unipol Forum",
+   "capacity": 12700
+  },
+  "25601": {
+   "arena": "Nova Arena",
+   "capacity": 5000
+  },
+  "25604": {
+   "arena": "PalaEur",
+   "capacity": 11200
+  },
+  "25606": {
+   "arena": "Itelyum Arena",
+   "capacity": 5677
+  },
+  "25607": {
+   "arena": "PalaCarnera Credifriuli",
+   "capacity": 3500
+  },
+  "25371": {
+   "arena": "BTS Arena",
+   "capacity": 3882
+  },
+  "25373": {
+   "arena": "Alcott Arena",
+   "capacity": 3980
+  },
+  "25368": {
+   "arena": "PalaDozza",
+   "capacity": 5570
+  },
+  "25369": {
+   "arena": "Palazzetto dello Sport",
+   "capacity": 3500
+  },
+  "25372": {
+   "arena": "PalaTrieste",
+   "capacity": 6736
+  },
+  "25374": {
+   "arena": "Beta Ricambi Arena PalaMangano",
+   "capacity": 3500
+  },
+  "25370": {
+   "arena": "Pala MAGIS",
+   "capacity": 5350
+  },
+  "25375": {
+   "arena": "PalaDesio",
+   "capacity": 6500
+  },
+  "25381": {
+   "arena": "Itelyum Arena",
+   "capacity": 5677
+  },
+  "25383": {
+   "arena": "PalaCarnera Credifriuli",
+   "capacity": 3500
+  },
+  "25376": {
+   "arena": "Unipol Forum",
+   "capacity": 12700
+  },
+  "25377": {
+   "arena": "Palasport Taliercio",
+   "capacity": 3509
+  },
+  "25378": {
+   "arena": "PalaEur",
+   "capacity": 11200
+  },
+  "25379": {
+   "arena": "Beta Ricambi Arena PalaMangano",
+   "capacity": 3500
+  },
+  "25380": {
+   "arena": "PalaBigi",
+   "capacity": 4530
+  },
+  "25382": {
+   "arena": "PalaDesio",
+   "capacity": 6500
+  },
+  "25385": {
+   "arena": "Palazzetto dello Sport",
+   "capacity": 3500
+  },
+  "25384": {
+   "arena": "PalaDozza",
+   "capacity": 5570
+  },
+  "25386": {
+   "arena": "Pala MAGIS",
+   "capacity": 5350
+  },
+  "25387": {
+   "arena": "BTS Arena",
+   "capacity": 3882
+  },
+  "25388": {
+   "arena": "Nova Arena",
+   "capacity": 5000
+  },
+  "25389": {
+   "arena": "PalaTrieste",
+   "capacity": 6736
+  },
+  "25390": {
+   "arena": "Palaverde",
+   "capacity": 5344
+  },
+  "25391": {
+   "arena": "Alcott Arena",
+   "capacity": 3980
+  },
+  "25397": {
+   "arena": "Beta Ricambi Arena PalaMangano",
+   "capacity": 3500
+  },
+  "25399": {
+   "arena": "Itelyum Arena",
+   "capacity": 5677
+  },
+  "25392": {
+   "arena": "Unipol Forum",
+   "capacity": 12700
+  },
+  "25393": {
+   "arena": "Nova Arena",
+   "capacity": 5000
+  },
+  "25394": {
+   "arena": "PalaTrieste",
+   "capacity": 6736
+  },
+  "25395": {
+   "arena": "Palasport Taliercio",
+   "capacity": 3509
+  },
+  "25396": {
+   "arena": "Palazzetto dello Sport",
+   "capacity": 3500
+  },
+  "25398": {
+   "arena": "PalaBigi",
+   "capacity": 4530
+  }
+ }
+}
