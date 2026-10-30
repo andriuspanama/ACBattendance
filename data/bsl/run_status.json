@@ -1,12 +1,10 @@
 {
  "league": "BSL",
  "source": "Google Sheets + FIBA LiveStats",
- "ok": false,
- "error": "FIBA LiveStats nedavė lankomumo nė vienoms iš 6 rungtynių – gali blokuoti",
- "notes": [
-  "Patikrinta 6 sužaistų rungtynių, bet nė vienose nerasta lankomumo"
- ],
+ "ok": true,
+ "error": "",
+ "notes": [],
  "last_ok": "2026-10-30T01:33:24+00:00",
- "last_new_attendance": "2026-10-30T01:33:24+00:00",
- "run_at": "2026-10-30T07:00:46+00:00"
+ "last_new_attendance": "2026-10-30T12:59:39+00:00",
+ "run_at": "2026-10-30T12:59:39+00:00"
 }
