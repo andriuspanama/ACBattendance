@@ -3,7 +3,8 @@ name: Perskaičiuoti arenų talpas
 # ACB ir LKL: game_arenas.py suranda kiekvienų rungtynių areną (live.acb.com, lkl.lt).
 # Skaito Google Sheets lapą „Arenas“ ir kiekvienos lygos matches.csv,
 # rašo data/<aplankas>/capacity.json (talpa, svertinė talpa, užpildymas)
-# ir data/main_arenas.json (kiekvieno klubo pagrindinė arena žemėlapiui).
+# ir data/main_arenas.json (kiekvieno klubo pagrindinė arena žemėlapiui),
+# data/leagues.json (visų renkamų lygų sąrašas – krepsiniofinansai jį skaito).
 # Rinkiklių failų neliečia. Pakeitus lapą – paleiskite ranka (Run workflow) arba palaukite iki 1 val.
 
 on:
@@ -48,7 +49,7 @@ jobs:
         run: |
           git config user.name "attendance-bot"
           git config user.email "attendance-bot@users.noreply.github.com"
-          git add data/capacity.json data/*/capacity.json data/main_arenas.json data/game_arenas.json data/lkl/game_arenas.json data/lkl/lkl_games.json data/run_status.json data/lkl/run_status.json 2>/dev/null || true
+          git add data/capacity.json data/*/capacity.json data/main_arenas.json data/leagues.json data/game_arenas.json data/lkl/game_arenas.json data/lkl/lkl_games.json data/run_status.json data/lkl/run_status.json 2>/dev/null || true
           if git diff --cached --quiet; then
             echo "Pakeitimų nėra"
             exit 0
