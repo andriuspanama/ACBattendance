@@ -1,0 +1,319 @@
+{
+  "league": "ABA",
+  "season": "2026-27",
+  "updated": "2026-10-30T01:39:31+00:00",
+  "clubs": [
+    {
+      "league": "ABA",
+      "season": "2026-27",
+      "club": "U-BT Cluj-Napoca",
+      "home_games_counted": 2,
+      "average": 4322,
+      "total": 8645,
+      "max": 6228,
+      "min": 2417,
+      "arenas": [
+        {
+          "arena": "BT Arena",
+          "games": 1
+        },
+        {
+          "arena": "Horia Demian Sports Hall",
+          "games": 1
+        }
+      ]
+    },
+    {
+      "league": "ABA",
+      "season": "2026-27",
+      "club": "Dubai Basketball",
+      "home_games_counted": 1,
+      "average": 3401,
+      "total": 3401,
+      "max": 3401,
+      "min": 3401,
+      "arenas": [
+        {
+          "arena": "Coca Cola Arena",
+          "games": 1
+        }
+      ]
+    },
+    {
+      "league": "ABA",
+      "season": "2026-27",
+      "club": "Crvena zvezda Meridianbet",
+      "home_games_counted": 1,
+      "average": 3045,
+      "total": 3045,
+      "max": 3045,
+      "min": 3045,
+      "arenas": [
+        {
+          "arena": "Košarkaška dvorana Aleksandar Nikolić",
+          "games": 1
+        }
+      ]
+    },
+    {
+      "league": "ABA",
+      "season": "2026-27",
+      "club": "HKK Široki TT Kabeli",
+      "home_games_counted": 2,
+      "average": 2750,
+      "total": 5500,
+      "max": 3000,
+      "min": 2500,
+      "arenas": [
+        {
+          "arena": "GSD Pecara",
+          "games": 2
+        }
+      ]
+    },
+    {
+      "league": "ABA",
+      "season": "2026-27",
+      "club": "Bosna BH Telecom",
+      "home_games_counted": 2,
+      "average": 2500,
+      "total": 5000,
+      "max": 3000,
+      "min": 2000,
+      "arenas": [
+        {
+          "arena": "Zetra Olympic Hall",
+          "games": 2
+        }
+      ]
+    },
+    {
+      "league": "ABA",
+      "season": "2026-27",
+      "club": "Spartak Office Shoes",
+      "home_games_counted": 3,
+      "average": 2327,
+      "total": 6980,
+      "max": 3200,
+      "min": 1280,
+      "arenas": [
+        {
+          "arena": "Hala Sportova Dudova šuma",
+          "games": 3
+        }
+      ]
+    },
+    {
+      "league": "ABA",
+      "season": "2026-27",
+      "club": "Zadar",
+      "home_games_counted": 2,
+      "average": 1600,
+      "total": 3200,
+      "max": 2000,
+      "min": 1200,
+      "arenas": [
+        {
+          "arena": "Dvorana Krešimir Ćosić",
+          "games": 2
+        }
+      ]
+    },
+    {
+      "league": "ABA",
+      "season": "2026-27",
+      "club": "Cedevita Olimpija",
+      "home_games_counted": 2,
+      "average": 1512,
+      "total": 3023,
+      "max": 1523,
+      "min": 1500,
+      "arenas": [
+        {
+          "arena": "Mala dvorana Tivoli",
+          "games": 1
+        },
+        {
+          "arena": "Arena Stožice",
+          "games": 1
+        }
+      ]
+    },
+    {
+      "league": "ABA",
+      "season": "2026-27",
+      "club": "Partizan Mozzart Bet",
+      "home_games_counted": 1,
+      "average": 1413,
+      "total": 1413,
+      "max": 1413,
+      "min": 1413,
+      "arenas": [
+        {
+          "arena": "Košarkaška dvorana Aleksandar Nikolić",
+          "games": 1
+        }
+      ]
+    },
+    {
+      "league": "ABA",
+      "season": "2026-27",
+      "club": "Igokea m:tel",
+      "home_games_counted": 4,
+      "average": 975,
+      "total": 3900,
+      "max": 2200,
+      "min": 500,
+      "arenas": [
+        {
+          "arena": "J.U. Sportska dvorana Laktaši",
+          "games": 4
+        }
+      ]
+    },
+    {
+      "league": "ABA",
+      "season": "2026-27",
+      "club": "FMP",
+      "home_games_counted": 2,
+      "average": 946,
+      "total": 1893,
+      "max": 1250,
+      "min": 643,
+      "arenas": [
+        {
+          "arena": "Arena KK FMP",
+          "games": 2
+        }
+      ]
+    },
+    {
+      "league": "ABA",
+      "season": "2026-27",
+      "club": "Krka",
+      "home_games_counted": 3,
+      "average": 900,
+      "total": 2700,
+      "max": 1800,
+      "min": 400,
+      "arenas": [
+        {
+          "arena": "ŠD Leona Štuklja Novo Mesto",
+          "games": 3
+        }
+      ]
+    },
+    {
+      "league": "ABA",
+      "season": "2026-27",
+      "club": "Borac Mozzart",
+      "home_games_counted": 2,
+      "average": 850,
+      "total": 1700,
+      "max": 1000,
+      "min": 700,
+      "arenas": [
+        {
+          "arena": "Dvorana Borac",
+          "games": 2
+        }
+      ]
+    },
+    {
+      "league": "ABA",
+      "season": "2026-27",
+      "club": "BC Vienna",
+      "home_games_counted": 3,
+      "average": 817,
+      "total": 2450,
+      "max": 1000,
+      "min": 600,
+      "arenas": [
+        {
+          "arena": "BC Vienna Arena",
+          "games": 3
+        }
+      ]
+    },
+    {
+      "league": "ABA",
+      "season": "2026-27",
+      "club": "Budućnost VOLI",
+      "home_games_counted": 1,
+      "average": 550,
+      "total": 550,
+      "max": 550,
+      "min": 550,
+      "arenas": [
+        {
+          "arena": "Sportski centar Morača",
+          "games": 1
+        }
+      ]
+    },
+    {
+      "league": "ABA",
+      "season": "2026-27",
+      "club": "SC Derby",
+      "home_games_counted": 1,
+      "average": 550,
+      "total": 550,
+      "max": 550,
+      "min": 550,
+      "arenas": [
+        {
+          "arena": "Sportski centar Morača",
+          "games": 1
+        }
+      ]
+    },
+    {
+      "league": "ABA",
+      "season": "2026-27",
+      "club": "Cibona",
+      "home_games_counted": 3,
+      "average": 400,
+      "total": 1200,
+      "max": 500,
+      "min": 300,
+      "arenas": [
+        {
+          "arena": "Košarkaški centar Dražen Petrović",
+          "games": 3
+        }
+      ]
+    },
+    {
+      "league": "ABA",
+      "season": "2026-27",
+      "club": "Mega Superbet",
+      "home_games_counted": 1,
+      "average": 350,
+      "total": 350,
+      "max": 350,
+      "min": 350,
+      "arenas": [
+        {
+          "arena": "Hala sportova Ranko Žeravica",
+          "games": 1
+        }
+      ]
+    },
+    {
+      "league": "ABA",
+      "season": "2026-27",
+      "club": "Perspektiva Ilirija",
+      "home_games_counted": 2,
+      "average": 350,
+      "total": 700,
+      "max": 500,
+      "min": 200,
+      "arenas": [
+        {
+          "arena": "Mala dvorana Tivoli",
+          "games": 2
+        }
+      ]
+    }
+  ]
+}
