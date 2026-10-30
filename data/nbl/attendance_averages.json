@@ -1,0 +1,175 @@
+{
+  "league": "NBL",
+  "season": "2026-27",
+  "updated": "2026-10-30T01:36:34+00:00",
+  "clubs": [
+    {
+      "league": "NBL",
+      "season": "2026-27",
+      "club": "Perth Wildcats",
+      "home_games_counted": 7,
+      "average": 11052,
+      "total": 77365,
+      "max": 12808,
+      "min": 9646,
+      "arenas": [
+        {
+          "arena": "RAC Arena",
+          "games": 7
+        }
+      ]
+    },
+    {
+      "league": "NBL",
+      "season": "2026-27",
+      "club": "Adelaide 36ers",
+      "home_games_counted": 3,
+      "average": 10039,
+      "total": 30116,
+      "max": 10047,
+      "min": 10025,
+      "arenas": [
+        {
+          "arena": "Adelaide Entertainment Centre",
+          "games": 3
+        }
+      ]
+    },
+    {
+      "league": "NBL",
+      "season": "2026-27",
+      "club": "Sydney Kings",
+      "home_games_counted": 6,
+      "average": 9428,
+      "total": 56565,
+      "max": 13632,
+      "min": 4103,
+      "arenas": [
+        {
+          "arena": "Afterpay Arena",
+          "games": 5
+        },
+        {
+          "arena": "AIS Arena",
+          "games": 1
+        }
+      ]
+    },
+    {
+      "league": "NBL",
+      "season": "2026-27",
+      "club": "Melbourne United",
+      "home_games_counted": 4,
+      "average": 9041,
+      "total": 36164,
+      "max": 9679,
+      "min": 8523,
+      "arenas": [
+        {
+          "arena": "John Cain Arena",
+          "games": 4
+        }
+      ]
+    },
+    {
+      "league": "NBL",
+      "season": "2026-27",
+      "club": "South East Melbourne Phoenix",
+      "home_games_counted": 5,
+      "average": 7414,
+      "total": 37068,
+      "max": 10175,
+      "min": 5602,
+      "arenas": [
+        {
+          "arena": "John Cain Arena",
+          "games": 5
+        }
+      ]
+    },
+    {
+      "league": "NBL",
+      "season": "2026-27",
+      "club": "NZ Breakers",
+      "home_games_counted": 2,
+      "average": 4468,
+      "total": 8935,
+      "max": 5187,
+      "min": 3748,
+      "arenas": [
+        {
+          "arena": "Spark Arena",
+          "games": 2
+        }
+      ]
+    },
+    {
+      "league": "NBL",
+      "season": "2026-27",
+      "club": "Cairns Taipans",
+      "home_games_counted": 3,
+      "average": 4435,
+      "total": 13304,
+      "max": 4636,
+      "min": 4254,
+      "arenas": [
+        {
+          "arena": "Cairns Convention Centre",
+          "games": 3
+        }
+      ]
+    },
+    {
+      "league": "NBL",
+      "season": "2026-27",
+      "club": "Tasmania JackJumpers",
+      "home_games_counted": 5,
+      "average": 4336,
+      "total": 21680,
+      "max": 4340,
+      "min": 4320,
+      "arenas": [
+        {
+          "arena": "MyState Bank Arena",
+          "games": 5
+        }
+      ]
+    },
+    {
+      "league": "NBL",
+      "season": "2026-27",
+      "club": "Brisbane Bullets",
+      "home_games_counted": 5,
+      "average": 4278,
+      "total": 21390,
+      "max": 5556,
+      "min": 2906,
+      "arenas": [
+        {
+          "arena": "Brisbane Entertainment Centre",
+          "games": 4
+        },
+        {
+          "arena": "Pat Rafter Arena",
+          "games": 1
+        }
+      ]
+    },
+    {
+      "league": "NBL",
+      "season": "2026-27",
+      "club": "Illawarra Hawks",
+      "home_games_counted": 5,
+      "average": 3922,
+      "total": 19610,
+      "max": 4025,
+      "min": 3814,
+      "arenas": [
+        {
+          "arena": "WIN Entertainment Centre",
+          "games": 5
+        }
+      ]
+    }
+  ]
+}
