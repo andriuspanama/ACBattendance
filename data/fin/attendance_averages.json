@@ -1,7 +1,7 @@
 {
   "league": "Korisliiga",
   "season": "2026-27",
-  "updated": "2026-10-30T16:12:41+00:00",
+  "updated": "2026-10-30T19:08:41+00:00",
   "clubs": [
     {
       "league": "Korisliiga",
@@ -55,15 +55,15 @@
       "league": "Korisliiga",
       "season": "2026-27",
       "club": "KTP-Basket",
-      "home_games_counted": 2,
-      "average": 1133,
-      "total": 2266,
+      "home_games_counted": 3,
+      "average": 1103,
+      "total": 3309,
       "max": 1182,
-      "min": 1084,
+      "min": 1043,
       "arenas": [
         {
           "arena": "Steveco Areena",
-          "games": 2
+          "games": 3
         }
       ]
     },
@@ -119,15 +119,15 @@
       "league": "Korisliiga",
       "season": "2026-27",
       "club": "Helsinki Seagulls",
-      "home_games_counted": 3,
-      "average": 829,
-      "total": 2487,
+      "home_games_counted": 4,
+      "average": 805,
+      "total": 3221,
       "max": 925,
       "min": 725,
       "arenas": [
         {
           "arena": "Töölön Kisahalli",
-          "games": 3
+          "games": 4
         }
       ]
     },
@@ -135,15 +135,15 @@
       "league": "Korisliiga",
       "season": "2026-27",
       "club": "Kouvot",
-      "home_games_counted": 4,
-      "average": 811,
-      "total": 3244,
+      "home_games_counted": 5,
+      "average": 805,
+      "total": 4023,
       "max": 909,
       "min": 699,
       "arenas": [
         {
           "arena": "MLL Areena",
-          "games": 4
+          "games": 5
         }
       ]
     },
