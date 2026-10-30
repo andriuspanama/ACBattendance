@@ -1,0 +1,151 @@
+{
+  "league": "GBL",
+  "season": "2026-27",
+  "updated": "2026-10-30T01:35:16+00:00",
+  "games": {
+    "checked": 28,
+    "with_attendance": 7
+  },
+  "clubs": [
+    {
+      "league": "GBL",
+      "season": "2026-27",
+      "club": "Aris",
+      "home_games_counted": 2,
+      "average": 5950,
+      "total": 11900,
+      "max": 6000,
+      "min": 5900
+    },
+    {
+      "league": "GBL",
+      "season": "2026-27",
+      "club": "Karditsas",
+      "home_games_counted": 1,
+      "average": 3500,
+      "total": 3500,
+      "max": 3500,
+      "min": 3500
+    },
+    {
+      "league": "GBL",
+      "season": "2026-27",
+      "club": "Promitheas",
+      "home_games_counted": 1,
+      "average": 2000,
+      "total": 2000,
+      "max": 2000,
+      "min": 2000
+    },
+    {
+      "league": "GBL",
+      "season": "2026-27",
+      "club": "Lefkadas",
+      "home_games_counted": 2,
+      "average": 1500,
+      "total": 3000,
+      "max": 1500,
+      "min": 1500
+    },
+    {
+      "league": "GBL",
+      "season": "2026-27",
+      "club": "Vikos",
+      "home_games_counted": 1,
+      "average": 1500,
+      "total": 1500,
+      "max": 1500,
+      "min": 1500
+    },
+    {
+      "league": "GBL",
+      "season": "2026-27",
+      "club": "Athens",
+      "home_games_counted": 0,
+      "average": null,
+      "total": 0,
+      "max": null,
+      "min": null
+    },
+    {
+      "league": "GBL",
+      "season": "2026-27",
+      "club": "Iraklis",
+      "home_games_counted": 0,
+      "average": null,
+      "total": 0,
+      "max": null,
+      "min": null
+    },
+    {
+      "league": "GBL",
+      "season": "2026-27",
+      "club": "Kolossos Rhodes",
+      "home_games_counted": 0,
+      "average": null,
+      "total": 0,
+      "max": null,
+      "min": null
+    },
+    {
+      "league": "GBL",
+      "season": "2026-27",
+      "club": "Maroussi",
+      "home_games_counted": 0,
+      "average": null,
+      "total": 0,
+      "max": null,
+      "min": null
+    },
+    {
+      "league": "GBL",
+      "season": "2026-27",
+      "club": "Mykonos",
+      "home_games_counted": 0,
+      "average": null,
+      "total": 0,
+      "max": null,
+      "min": null
+    },
+    {
+      "league": "GBL",
+      "season": "2026-27",
+      "club": "Olympiacos",
+      "home_games_counted": 0,
+      "average": null,
+      "total": 0,
+      "max": null,
+      "min": null
+    },
+    {
+      "league": "GBL",
+      "season": "2026-27",
+      "club": "PAOK",
+      "home_games_counted": 0,
+      "average": null,
+      "total": 0,
+      "max": null,
+      "min": null
+    },
+    {
+      "league": "GBL",
+      "season": "2026-27",
+      "club": "Panathinaikos",
+      "home_games_counted": 0,
+      "average": null,
+      "total": 0,
+      "max": null,
+      "min": null
+    },
+    {
+      "league": "GBL",
+      "season": "2026-27",
+      "club": "Peristeri",
+      "home_games_counted": 0,
+      "average": null,
+      "total": 0,
+      "max": null,
+      "min": null
+    }
+  ]
+}
