@@ -1,0 +1,263 @@
+{
+  "league": "BSL",
+  "season": "2026-27",
+  "updated": "2026-10-30T01:33:24+00:00",
+  "clubs": [
+    {
+      "league": "BSL",
+      "season": "2026-27",
+      "club": "Bahçeşehir Koleji",
+      "home_games_counted": 1,
+      "average": 6785,
+      "total": 6785,
+      "max": 6785,
+      "min": 6785,
+      "arenas": [
+        {
+          "arena": "Sinan Erdem Spor Salonu",
+          "games": 1
+        }
+      ]
+    },
+    {
+      "league": "BSL",
+      "season": "2026-27",
+      "club": "Beşiktaş",
+      "home_games_counted": 2,
+      "average": 4164,
+      "total": 8329,
+      "max": 4829,
+      "min": 3500,
+      "arenas": [
+        {
+          "arena": "Turkcell Basketbol Gelişim Merkezi",
+          "games": 2
+        }
+      ]
+    },
+    {
+      "league": "BSL",
+      "season": "2026-27",
+      "club": "Türk Telekom",
+      "home_games_counted": 2,
+      "average": 3747,
+      "total": 7494,
+      "max": 4118,
+      "min": 3376,
+      "arenas": [
+        {
+          "arena": "Ankara Spor Salonu",
+          "games": 2
+        }
+      ]
+    },
+    {
+      "league": "BSL",
+      "season": "2026-27",
+      "club": "Glint Çayırova Belediyesi",
+      "home_games_counted": 2,
+      "average": 3310,
+      "total": 6620,
+      "max": 3500,
+      "min": 3120,
+      "arenas": [
+        {
+          "arena": "Çayırova Belediyesi Spor Kompleksi",
+          "games": 2
+        }
+      ]
+    },
+    {
+      "league": "BSL",
+      "season": "2026-27",
+      "club": "Fenerbahçe Tarfin",
+      "home_games_counted": 2,
+      "average": 2582,
+      "total": 5163,
+      "max": 2659,
+      "min": 2504,
+      "arenas": [
+        {
+          "arena": "Ülker Spor ve Etkinlik Salonu",
+          "games": 2
+        }
+      ]
+    },
+    {
+      "league": "BSL",
+      "season": "2026-27",
+      "club": "Karşıyaka",
+      "home_games_counted": 2,
+      "average": 2412,
+      "total": 4825,
+      "max": 4800,
+      "min": 25,
+      "arenas": [
+        {
+          "arena": "Mustafa Kemal Atatürk Karşıyaka Spor Salonu",
+          "games": 2
+        }
+      ]
+    },
+    {
+      "league": "BSL",
+      "season": "2026-27",
+      "club": "Bursaspor Basketbol",
+      "home_games_counted": 2,
+      "average": 2370,
+      "total": 4740,
+      "max": 3000,
+      "min": 1740,
+      "arenas": [
+        {
+          "arena": "Tofaş Spor Salonu",
+          "games": 2
+        }
+      ]
+    },
+    {
+      "league": "BSL",
+      "season": "2026-27",
+      "club": "Pizzabulls Bordo Bandırma",
+      "home_games_counted": 2,
+      "average": 2325,
+      "total": 4650,
+      "max": 2750,
+      "min": 1900,
+      "arenas": [
+        {
+          "arena": "Bandırma 17 Eylül Üniversitesi Spor Salonu",
+          "games": 2
+        }
+      ]
+    },
+    {
+      "league": "BSL",
+      "season": "2026-27",
+      "club": "Trabzonspor",
+      "home_games_counted": 3,
+      "average": 2219,
+      "total": 6657,
+      "max": 3194,
+      "min": 1335,
+      "arenas": [
+        {
+          "arena": "Hayri Gür Spor Salonu",
+          "games": 3
+        }
+      ]
+    },
+    {
+      "league": "BSL",
+      "season": "2026-27",
+      "club": "Galatasaray Mct Technıc",
+      "home_games_counted": 3,
+      "average": 2027,
+      "total": 6081,
+      "max": 2452,
+      "min": 1775,
+      "arenas": [
+        {
+          "arena": "Sinan Erdem Spor Salonu",
+          "games": 3
+        }
+      ]
+    },
+    {
+      "league": "BSL",
+      "season": "2026-27",
+      "club": "Aliağa Petkim Spor",
+      "home_games_counted": 2,
+      "average": 1850,
+      "total": 3700,
+      "max": 2200,
+      "min": 1500,
+      "arenas": [
+        {
+          "arena": "Enka Spor Salonu",
+          "games": 2
+        }
+      ]
+    },
+    {
+      "league": "BSL",
+      "season": "2026-27",
+      "club": "Yukatel Denizli Basket",
+      "home_games_counted": 2,
+      "average": 1700,
+      "total": 3400,
+      "max": 2000,
+      "min": 1400,
+      "arenas": [
+        {
+          "arena": "Pamukkale Üniversitesi Spor Salonu",
+          "games": 2
+        }
+      ]
+    },
+    {
+      "league": "BSL",
+      "season": "2026-27",
+      "club": "Tofaş",
+      "home_games_counted": 3,
+      "average": 1525,
+      "total": 4576,
+      "max": 1719,
+      "min": 1374,
+      "arenas": [
+        {
+          "arena": "Tofaş Spor Salonu",
+          "games": 3
+        }
+      ]
+    },
+    {
+      "league": "BSL",
+      "season": "2026-27",
+      "club": "Anadolu Efes",
+      "home_games_counted": 3,
+      "average": 1402,
+      "total": 4206,
+      "max": 2051,
+      "min": 650,
+      "arenas": [
+        {
+          "arena": "Turkcell Basketbol Gelişim Merkezi",
+          "games": 3
+        }
+      ]
+    },
+    {
+      "league": "BSL",
+      "season": "2026-27",
+      "club": "Biotekno Körfez Basket",
+      "home_games_counted": 1,
+      "average": 1035,
+      "total": 1035,
+      "max": 1035,
+      "min": 1035,
+      "arenas": [
+        {
+          "arena": "Şehit Polis Recep Topaloğlu Spor Salonu",
+          "games": 1
+        }
+      ]
+    },
+    {
+      "league": "BSL",
+      "season": "2026-27",
+      "club": "Esenler Erokspor",
+      "home_games_counted": 2,
+      "average": 375,
+      "total": 750,
+      "max": 550,
+      "min": 200,
+      "arenas": [
+        {
+          "arena": "Beşiktaş Akatlar Spor Kompleksi",
+          "games": 2
+        }
+      ]
+    }
+  ]
+}
