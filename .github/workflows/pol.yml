@@ -1,0 +1,69 @@
+name: Atnaujinti PLK lankomumą (Lenkija)
+
+# Lankomumas – iš Flashscore, arena ir rungtynių sąrašas – iš plk.pl.
+
+on:
+  schedule:
+    - cron: "50 */6 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: attendance-pol
+  cancel-in-progress: false
+
+env:
+  SEASON: "2026-27"
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    timeout-minutes: 40
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Įdiegti priklausomybes
+        run: |
+          pip install requests beautifulsoup4 playwright
+          playwright install chromium --with-deps
+
+      - name: Flashscore lankomumas
+        id: fs
+        continue-on-error: true
+        run: python flashscore_attendance.py --league pol --season "$SEASON" --max-fetch 80 --max-pages 15 --fail-if-empty
+
+      - name: plk.pl arenos + sujungimas
+        id: official
+        continue-on-error: true
+        env:
+          UPSTREAM_OUTCOME: ${{ steps.fs.outcome }}
+          UPSTREAM_NAME: "Flashscore lankomumo nuskaitymas"
+        run: python official_attendance.py --league pol --season "$SEASON" --data-dir data/pol
+
+      - name: Įrašyti pakeitimus
+        run: |
+          git config user.name "attendance-bot"
+          git config user.email "attendance-bot@users.noreply.github.com"
+          git add data/pol 2>/dev/null || true
+          if git diff --cached --quiet; then
+            echo "Pakeitimų nėra"
+            exit 0
+          fi
+          git commit -m "PLK lankomumas: $(date -u +'%Y-%m-%d %H:%M') UTC"
+          for i in 1 2 3 4 5; do
+            git pull --rebase && git push && exit 0
+            sleep $((RANDOM % 15 + 5))
+          done
+          exit 1
+
+      - name: Pranešti apie nepavykusį nuskaitymą
+        if: steps.fs.outcome == 'failure' || steps.official.outcome == 'failure'
+        run: |
+          echo "::error::PLK: Flashscore arba plk.pl nuskaityti nepavyko – žr. žurnalą aukščiau. Puslapyje rodomas įspėjimas (run_status.json)."
+          exit 1

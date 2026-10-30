@@ -1,12 +1,15 @@
 name: Atnaujinti BBL lankomumą
 
+# Pirmiausia – oficiali easycredit-bbl.de svetainė (lankomumas + arena kiekvienose rungtynėse).
+# Jei ji nepasiekiama, kaip anksčiau renkama iš Flashscore (bbl_attendance.py).
+
 on:
   schedule:
     - cron: "30 */6 * * *"
   workflow_dispatch:
     inputs:
       debug:
-        description: "Išsaugoti HTML derinimui"
+        description: "Išsaugoti HTML derinimui (tik Flashscore atsarginiam variantui)"
         type: boolean
         default: false
 
@@ -23,6 +26,7 @@ env:
 jobs:
   update:
     runs-on: ubuntu-latest
+    timeout-minutes: 40
     steps:
       - uses: actions/checkout@v4
 
@@ -31,13 +35,19 @@ jobs:
           python-version: "3.12"
 
       - name: Įdiegti priklausomybes
-        run: |
-          pip install requests beautifulsoup4 playwright
-          playwright install chromium --with-deps
+        run: pip install requests beautifulsoup4
 
-      - name: Surinkti BBL lankomumą
+      - name: Surinkti BBL lankomumą (oficiali svetainė)
+        id: official
+        continue-on-error: true
+        run: python official_attendance.py --league bbl --season "$SEASON" --data-dir data/bbl
+
+      - name: Atsarginis variantas – Flashscore
+        if: hashFiles('data/bbl/official_games.json') == ''
         continue-on-error: true
         run: |
+          pip install playwright
+          playwright install chromium --with-deps
           python bbl_attendance.py \
             --season "$SEASON" \
             --data-dir data/bbl \
@@ -57,11 +67,21 @@ jobs:
         run: |
           git config user.name "attendance-bot"
           git config user.email "attendance-bot@users.noreply.github.com"
-          git add data/bbl/matches.csv data/bbl/attendance_averages.json data/bbl/attendance_averages.csv data/bbl/unresolved_teams.txt 2>/dev/null || true
+          git add data/bbl 2>/dev/null || true
+          git reset -q data/bbl/raw 2>/dev/null || true
           if git diff --cached --quiet; then
             echo "Pakeitimų nėra"
           else
             git commit -m "BBL lankomumas: $(date -u +'%Y-%m-%d %H:%M') UTC"
-            git pull --rebase
-            git push
+            for i in 1 2 3 4 5; do
+              git pull --rebase && git push && exit 0
+              sleep $((RANDOM % 15 + 5))
+            done
+            exit 1
           fi
+
+      - name: Pranešti apie nepavykusį nuskaitymą
+        if: steps.official.outcome == 'failure'
+        run: |
+          echo "::error::BBL: easycredit-bbl.de nuskaityti nepavyko – žr. žurnalą aukščiau. Puslapyje rodomas įspėjimas (run_status.json)."
+          exit 1

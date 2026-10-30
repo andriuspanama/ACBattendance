@@ -1,4 +1,8 @@
-name: Atnaujinti BSL lankomumą
+name: Atnaujinti BSL lankomumą (Turkija, rankiniu būdu)
+
+# tbf.org.tr blokuoja automatinį skaitymą (Cloudflare), todėl lankomumas suvedamas
+# ranka į Google Sheets lapą „BSL 26/27 games“: Date | Home | Away | Arena | Attendance | Link.
+# Ši užduotis lapą nuskaito ir paverčia tokiu pat formatu kaip kitos lygos (data/bsl/).
 
 on:
   schedule:
@@ -14,6 +18,8 @@ concurrency:
 
 env:
   SEASON: "2026-27"
+  SHEET_ID: "1Qt4ijFGDmvoLLHb-gCbcAF9KGts6ZC-RHwWzQw68cZI"
+  SHEET_NAME: "BSL 26/27 games"
 
 jobs:
   update:
@@ -26,28 +32,31 @@ jobs:
           python-version: "3.12"
 
       - name: Įdiegti priklausomybes
-        run: |
-          pip install requests beautifulsoup4 playwright
-          playwright install chromium --with-deps
+        run: pip install requests beautifulsoup4
 
-      - name: Surinkti BSL lankomumą
+      - name: Nuskaityti lapą
+        id: sheet
         continue-on-error: true
-        run: |
-          python bsl_attendance.py \
-            --season "$SEASON" \
-            --data-dir data/bsl \
-            --max-fetch 60 \
-            --max-pages 8
+        run: python manual_attendance.py --sheet-id "$SHEET_ID" --sheet "$SHEET_NAME" --league BSL --season "$SEASON" --data-dir data/bsl
 
       - name: Įrašyti pakeitimus
         run: |
           git config user.name "attendance-bot"
           git config user.email "attendance-bot@users.noreply.github.com"
-          git add data/bsl/matches.csv data/bsl/attendance_averages.json data/bsl/attendance_averages.csv data/bsl/unresolved_teams.txt 2>/dev/null || true
+          git add data/bsl 2>/dev/null || true
           if git diff --cached --quiet; then
             echo "Pakeitimų nėra"
           else
             git commit -m "BSL lankomumas: $(date -u +'%Y-%m-%d %H:%M') UTC"
-            git pull --rebase
-            git push
+            for i in 1 2 3 4 5; do
+              git pull --rebase && git push && exit 0
+              sleep $((RANDOM % 15 + 5))
+            done
+            exit 1
           fi
+
+      - name: Pranešti apie nepavykusį nuskaitymą
+        if: steps.sheet.outcome == 'failure'
+        run: |
+          echo "::error::BSL: lapo arba FIBA LiveStats nuskaityti nepavyko – žr. žurnalą aukščiau. Puslapyje rodomas įspėjimas (run_status.json)."
+          exit 1

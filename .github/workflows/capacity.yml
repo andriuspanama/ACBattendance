@@ -1,0 +1,67 @@
+name: Perskaičiuoti arenų talpas
+
+# ACB ir LKL: game_arenas.py suranda kiekvienų rungtynių areną (live.acb.com, lkl.lt).
+# Skaito Google Sheets lapą „Arenas“ ir kiekvienos lygos matches.csv,
+# rašo data/<aplankas>/capacity.json (talpa, svertinė talpa, užpildymas)
+# ir data/main_arenas.json (kiekvieno klubo pagrindinė arena žemėlapiui).
+# Rinkiklių failų neliečia. Pakeitus lapą – paleiskite ranka (Run workflow) arba palaukite iki 1 val.
+
+on:
+  schedule:
+    - cron: "10 1,7,13,19 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: attendance-capacity
+  cancel-in-progress: false
+
+env:
+  SEASON: "2026-27"
+  SHEET_ID: "1Qt4ijFGDmvoLLHb-gCbcAF9KGts6ZC-RHwWzQw68cZI"
+  SHEET_NAME: "Arenas"
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Įdiegti priklausomybes
+        run: pip install requests
+
+      - name: ACB ir LKL rungtynių arenos
+        id: arenas
+        continue-on-error: true
+        run: python game_arenas.py --season "$SEASON"
+
+      - name: Perskaičiuoti talpas
+        run: python capacities.py --sheet-id "$SHEET_ID" --sheet "$SHEET_NAME" --season "$SEASON"
+
+      - name: Įrašyti pakeitimus
+        run: |
+          git config user.name "attendance-bot"
+          git config user.email "attendance-bot@users.noreply.github.com"
+          git add data/capacity.json data/*/capacity.json data/main_arenas.json data/game_arenas.json data/lkl/game_arenas.json data/lkl/lkl_games.json data/run_status.json data/lkl/run_status.json 2>/dev/null || true
+          if git diff --cached --quiet; then
+            echo "Pakeitimų nėra"
+            exit 0
+          fi
+          git commit -m "Arenų talpos: $(date -u +'%Y-%m-%d %H:%M') UTC"
+          for i in 1 2 3 4 5; do
+            git pull --rebase && git push && exit 0
+            sleep $((RANDOM % 15 + 5))
+          done
+          exit 1
+
+      - name: Pranešti apie nepavykusį nuskaitymą
+        if: steps.arenas.outcome == 'failure'
+        run: |
+          echo "::error::ACB/LKL arenų (live.acb.com, lkl.lt) nuskaityti nepavyko – žr. žurnalą aukščiau. Puslapyje rodomas įspėjimas (run_status.json)."
+          exit 1

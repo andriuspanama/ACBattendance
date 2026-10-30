@@ -1,0 +1,88 @@
+name: Atnaujinti lankomumą (oficialios lygų svetainės)
+
+# Australija, Suomija, Latvijos–Estijos lyga, ABA, Italija ir Izraelis.
+# Kiekviena lyga renkama atskirai, rezultatai – data/<aplankas>/ (tas pats formatas kaip LKL/BBL).
+
+on:
+  schedule:
+    - cron: "20 */6 * * *"
+  workflow_dispatch:
+    inputs:
+      league:
+        description: "Tik viena lyga (aus, fin, lvee, aba, ita, isr) – tuščia = visos"
+        type: string
+        default: ""
+
+permissions:
+  contents: write
+
+concurrency:
+  group: attendance-official
+  cancel-in-progress: false
+
+env:
+  SEASON: "2026-27"
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    strategy:
+      fail-fast: false
+      max-parallel: 1
+      matrix:
+        include:
+          - { league: aus,  dir: data/nbl }
+          - { league: fin,  dir: data/fin }
+          - { league: lvee, dir: data/lvee }
+          - { league: aba,  dir: data/aba }
+          - { league: ita,  dir: data/ita }
+          - { league: isr,  dir: data/isr }
+    steps:
+      - name: Praleisti, jei pasirinkta kita lyga
+        id: pick
+        run: |
+          if [ -n "${{ inputs.league }}" ] && [ "${{ inputs.league }}" != "${{ matrix.league }}" ]; then
+            echo "skip=true" >> "$GITHUB_OUTPUT"
+          fi
+
+      - uses: actions/checkout@v4
+        if: steps.pick.outputs.skip != 'true'
+
+      - uses: actions/setup-python@v5
+        if: steps.pick.outputs.skip != 'true'
+        with:
+          python-version: "3.12"
+
+      - name: Įdiegti priklausomybes
+        if: steps.pick.outputs.skip != 'true'
+        run: pip install requests beautifulsoup4
+
+      - name: Surinkti lankomumą (${{ matrix.league }})
+        id: collect
+        if: steps.pick.outputs.skip != 'true'
+        continue-on-error: true
+        run: python official_attendance.py --league "${{ matrix.league }}" --season "$SEASON" --data-dir "${{ matrix.dir }}"
+
+      - name: Įrašyti pakeitimus
+        if: steps.pick.outputs.skip != 'true'
+        run: |
+          git config user.name "attendance-bot"
+          git config user.email "attendance-bot@users.noreply.github.com"
+          git add "${{ matrix.dir }}" 2>/dev/null || true
+          if git diff --cached --quiet; then
+            echo "Pakeitimų nėra"
+            exit 0
+          fi
+          git commit -m "${{ matrix.league }} lankomumas: $(date -u +'%Y-%m-%d %H:%M') UTC"
+          for i in 1 2 3 4 5; do
+            git pull --rebase && git push && exit 0
+            sleep $((RANDOM % 15 + 5))
+          done
+          exit 1
+
+      - name: Pranešti apie nepavykusį nuskaitymą
+        if: steps.collect.outcome == 'failure'
+        run: |
+          echo "::error::${{ matrix.league }}: lygos svetainės nuskaityti nepavyko – žr. žurnalą aukščiau. Puslapyje rodomas įspėjimas (run_status.json)."
+          exit 1
