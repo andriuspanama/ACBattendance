@@ -1,0 +1,171 @@
+{
+  "league": "PLK",
+  "season": "2026-27",
+  "updated": "2026-10-30T01:36:37+00:00",
+  "games": {
+    "checked": 32,
+    "with_attendance": 32
+  },
+  "clubs": [
+    {
+      "league": "PLK",
+      "season": "2026-27",
+      "club": "Zielona Gora",
+      "home_games_counted": 2,
+      "average": 4660,
+      "total": 9321,
+      "max": 4805,
+      "min": 4516
+    },
+    {
+      "league": "PLK",
+      "season": "2026-27",
+      "club": "Anwil Wloclawek",
+      "home_games_counted": 2,
+      "average": 3415,
+      "total": 6830,
+      "max": 3417,
+      "min": 3413
+    },
+    {
+      "league": "PLK",
+      "season": "2026-27",
+      "club": "Ostrow Wielkopolski",
+      "home_games_counted": 1,
+      "average": 2950,
+      "total": 2950,
+      "max": 2950,
+      "min": 2950
+    },
+    {
+      "league": "PLK",
+      "season": "2026-27",
+      "club": "Gdynia",
+      "home_games_counted": 3,
+      "average": 2940,
+      "total": 8819,
+      "max": 3811,
+      "min": 2475
+    },
+    {
+      "league": "PLK",
+      "season": "2026-27",
+      "club": "Slask Wroclaw",
+      "home_games_counted": 1,
+      "average": 2856,
+      "total": 2856,
+      "max": 2856,
+      "min": 2856
+    },
+    {
+      "league": "PLK",
+      "season": "2026-27",
+      "club": "Gornik Walbrzych",
+      "home_games_counted": 1,
+      "average": 2190,
+      "total": 2190,
+      "max": 2190,
+      "min": 2190
+    },
+    {
+      "league": "PLK",
+      "season": "2026-27",
+      "club": "Gliwice",
+      "home_games_counted": 3,
+      "average": 2027,
+      "total": 6080,
+      "max": 4050,
+      "min": 980
+    },
+    {
+      "league": "PLK",
+      "season": "2026-27",
+      "club": "Dabrowa Gornicza",
+      "home_games_counted": 3,
+      "average": 1956,
+      "total": 5867,
+      "max": 2003,
+      "min": 1895
+    },
+    {
+      "league": "PLK",
+      "season": "2026-27",
+      "club": "Czarni Slupsk",
+      "home_games_counted": 2,
+      "average": 1954,
+      "total": 3908,
+      "max": 1988,
+      "min": 1920
+    },
+    {
+      "league": "PLK",
+      "season": "2026-27",
+      "club": "Legia",
+      "home_games_counted": 2,
+      "average": 1946,
+      "total": 3891,
+      "max": 1991,
+      "min": 1900
+    },
+    {
+      "league": "PLK",
+      "season": "2026-27",
+      "club": "Szczecin",
+      "home_games_counted": 2,
+      "average": 1794,
+      "total": 3587,
+      "max": 1999,
+      "min": 1588
+    },
+    {
+      "league": "PLK",
+      "season": "2026-27",
+      "club": "Torun",
+      "home_games_counted": 2,
+      "average": 1782,
+      "total": 3564,
+      "max": 1784,
+      "min": 1780
+    },
+    {
+      "league": "PLK",
+      "season": "2026-27",
+      "club": "Trefl Sopot",
+      "home_games_counted": 2,
+      "average": 1620,
+      "total": 3241,
+      "max": 1636,
+      "min": 1605
+    },
+    {
+      "league": "PLK",
+      "season": "2026-27",
+      "club": "Bydgoszcz",
+      "home_games_counted": 2,
+      "average": 1479,
+      "total": 2958,
+      "max": 1479,
+      "min": 1479
+    },
+    {
+      "league": "PLK",
+      "season": "2026-27",
+      "club": "Dziki Warszawa",
+      "home_games_counted": 2,
+      "average": 1234,
+      "total": 2467,
+      "max": 1237,
+      "min": 1230
+    },
+    {
+      "league": "PLK",
+      "season": "2026-27",
+      "club": "Lublin",
+      "home_games_counted": 2,
+      "average": 882,
+      "total": 1764,
+      "max": 936,
+      "min": 828
+    }
+  ]
+}
