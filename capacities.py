@@ -43,7 +43,7 @@ from regular_season import playoff_ids
 
 # (aplankas, lyga) – visos lygos, kurių lankomumą renka šis repo
 LEAGUE_DIRS = ["data", "data/lkl", "data/bbl", "data/nbl", "data/fin", "data/lvee",
-               "data/aba", "data/ita", "data/pol", "data/bsl", "data/gre"]
+               "data/aba", "data/ita", "data/pol", "data/bsl", "data/gre", "data/isr"]
 
 UNKNOWN = {"tbc", "tba", "atanmadi", "koht tapsustamisel", "nezinoma", "unknown", "null", "none", "?"}
 
@@ -62,6 +62,22 @@ def norm(s: str) -> str:
     s = s.replace("ł", "l").replace("Ł", "L").replace("ı", "i").replace("đ", "d").replace("Đ", "D").replace("ß", "ss")
     s = re.sub(r"[^a-z0-9 ]+", " ", s.lower())
     return re.sub(r"\s+", " ", s).strip()
+
+
+def fix_text(s: str) -> str:
+    """Pataiso „sugadintą“ koduotę, pvz. „BMW Park MĆ¼nchen“ -> „BMW Park München“
+    (UTF-8 failas atidarytas Excel'yje kaip Windows-1257 / 1250 / 1252 ir išsaugotas)."""
+    s = str(s or "")
+    if s.isascii():
+        return s
+    for enc in ("cp1257", "cp1250", "cp1252", "latin-1"):
+        try:
+            t = s.encode(enc).decode("utf-8")
+        except (UnicodeEncodeError, UnicodeDecodeError):
+            continue
+        if t != s:
+            return t
+    return s
 
 
 def toks(s: str) -> set[str]:
@@ -96,8 +112,9 @@ def load_arenas_csv(text: str) -> list[dict]:
         g = lambda k: (r[c[k]].strip() if c[k] is not None and c[k] < len(r) else "")  # noqa: E731
         if not g("league") or not (g("arena") or g("club")):
             continue
-        out.append({"league": g("league"), "club": g("club"), "arena": g("arena"), "capacity": to_int(g("cap")),
-                    "aka": [a.strip() for a in g("aka").split(";") if a.strip()], "source": g("src")})
+        out.append({"league": g("league"), "club": fix_text(g("club")), "arena": fix_text(g("arena")),
+                    "capacity": to_int(g("cap")),
+                    "aka": [fix_text(a.strip()) for a in g("aka").split(";") if a.strip()], "source": g("src")})
     return out
 
 
@@ -258,6 +275,13 @@ def main() -> int:
         done = sum(1 for c in clubs if c["weighted_capacity"])
         print(f"{league:<11} klubų {len(clubs):>3}, su talpa {done:>3}"
               + (f"; nežinomos arenos: {', '.join(u['arena'] for u in unknown)}" if unknown else ""))
+    # kiekvieno klubo pagrindinė arena žemėlapiui (data/main_arenas.json) – klaida čia talpų nesugadina
+    try:
+        from main_arenas import build, sheet_raw_csv
+        raw = sheet_raw_csv(args.sheet_id, args.sheet) if args.sheet_id and not args.arenas_csv else None
+        build(raw or text, args.root, args.season, now)
+    except Exception as e:  # noqa: BLE001
+        print(f"! main_arenas.json neatnaujintas: {e}")
     return 0
 
 

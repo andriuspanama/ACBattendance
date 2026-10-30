@@ -3,8 +3,8 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Lankomumas · ACB + LKL + BBL + BSL + ABA + LBA + PLK + GBL + LEBL + Korisliiga + NBL</title>
-  <meta name="description" content="ACB, LKL, BBL, BSL, ABA, LBA, PLK, GBL, LEBL, Korisliiga ir NBL namų rungtynių lankomumo statistika" />
+  <title>Lankomumas · ACB + LKL + BBL + BSL + ABA + LBA + PLK + GBL + LEBL + Korisliiga + NBL + Winner</title>
+  <meta name="description" content="ACB, LKL, BBL, BSL, ABA, LBA, PLK, GBL, LEBL, Korisliiga, NBL ir Izraelio Winner lygos namų rungtynių lankomumo statistika" />
   <style>
     :root {
       --bg: #0c1118;
@@ -241,6 +241,12 @@
         <span>NBL</span>
         <small>Australija</small>
       </button>
+      <button class="tab" data-league="winner" type="button">
+        <img class="league-logo" src="https://basket.co.il/favicon.ico" alt="ISR"
+             onerror="this.style.visibility='hidden'" />
+        <span>Winner</span>
+        <small>Izraelis</small>
+      </button>
     </div>
 
     <div class="meta" id="meta"></div>
@@ -258,6 +264,7 @@
       · <a href="https://www.estlatbl.com" target="_blank" rel="noopener">estlatbl.com</a>
       · <a href="https://basket.fi" target="_blank" rel="noopener">basket.fi</a>
       · <a href="https://www.nbl.com.au" target="_blank" rel="noopener">nbl.com.au</a>
+      · <a href="https://basket.co.il" target="_blank" rel="noopener">basket.co.il</a>
       · <a href="https://github.com/andriuspanama/ACBattendance" target="_blank" rel="noopener">GitHub</a>
     </footer>
   </div>
@@ -364,6 +371,10 @@
       nbl: {
         averages: ["./data/nbl/attendance_averages.json"],
         matches: ["./data/nbl/matches.csv"]
+      },
+      winner: {
+        averages: ["./data/isr/attendance_averages.json"],
+        matches: ["./data/isr/matches.csv"]
       }
     };
 

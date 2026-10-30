@@ -91,3 +91,24 @@ LANKOMUMO RINKIKLIAI – KĄ KUR ĮKELTI
      namų rungtynių, LKL – rungtynės iki 2027-05-16 (paskutinė LKL reguliariojo sezono diena; KMT taurės rungtynės neįskaičiuojamos).
    acb_attendance.py, lkl_attendance.py, bbl_attendance.py pridėtas tik šis filtras (3 eilutės) –
    dabartiniai duomenys nepasikeitė. Kitam sezonui regular_season.py reikės atnaujinti LKL datą.
+
+10) Pagrindinė klubo arena žemėlapiui – data/main_arenas.json (main_arenas.py, kartu su capacities.py)
+   Kas 6 val. kiekvienam klubui (raktas – pavadinimas kaip lape „Budgets 26/27“) parenkama viena arena:
+   - lygoms, kurias renka šis repo: arena, kurioje klubas šį sezoną sužaidė / pagal tvarkaraštį žais
+     DAUGIAUSIA reguliariojo sezono namų rungtynių (pvz. Galatasaray – Sinan Erdem, Körfez – Recep Topaloğlu);
+   - kitoms lygoms ir dar nežaidusiems namuose – lapo „Arenas“ stulpelis „Main arena for“;
+   - stulpelis „Main arena override“ – ranka įrašytos išimtys, jos svarbiausios (pvz. Olympiacos –
+     Peace and Friendship Stadium, nors laikinai žaidžia SUNEL ARENA).
+   Klubai, kurių lygos pavadinimo nepavyko susieti su Budgets pavadinimu, – sąraše „unmatched“
+   (juos įrašykite į „Main arena override“ prie reikiamos arenos).
+   arenamap.js gali skaityti:
+   https://raw.githubusercontent.com/andriuspanama/ACBattendance/main/data/main_arenas.json
+   → clubs["<klubas>"] = {arena, city, lat, lon, capacity, league, source}
+
+11) Izraelis (Winner League) – nauja lyga, data/isr/
+   basket.co.il: tvarkaraštis (results.asp, 1–26 turai = reguliarusis sezonas; play-out, play-in ir
+   atkrintamosios neįskaičiuojamos), rungtynių arena iš tvarkaraščio, lankomumas – „Viewers“ rungtynių
+   puslapyje (game-zone.asp). Paleidžiama kartu su kitomis lygomis (official.yml), kas 6 val.
+   Baigti turai daugiau neskaitomi; būsimi – tik prieš pat turą arba kas 3 d. (dėl arenų pasikeitimų).
+   Lape „Arenas“ – League „Winner League“, „Also known as“ įrašyti basket.co.il arenų pavadinimai
+   (pvz. „The Shell, Be'er Sheva“, „Toto Arena, Holon“). Talpos – lygos (viewers.asp) duomenys.

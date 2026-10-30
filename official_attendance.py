@@ -11,6 +11,7 @@ Lygos:
   ita   LBA (Italija)               legabasket.it duomenų srautas
   pol   PLK (Lenkija)               plk.pl (arena) + Flashscore (lankomumas)
   gre   GBL (Graikija)              esake.gr (arena) + Flashscore (lankomumas)
+  isr   Winner League (Izraelis)    basket.co.il (tvarkaraštis, arena, „Viewers“ rungtynių puslapyje)
 
 Kiekvienai lygai rašomi tie patys failai ir tas pats formatas kaip LKL/BBL:
   data/<aplankas>/matches.csv               (+ papildomas stulpelis „arena“ gale)
@@ -890,25 +891,150 @@ def run_gre(args) -> int:
     return ctx.finish()
 
 
+
+# --------------------------------------------------------------------------- Izraelis (Winner League)
+
+ISR = "https://basket.co.il"
+ISR_ROUNDS = 26          # reguliarusis sezonas: 14 komandų × 2 ratai (27+ – play-out, play-in, atkrintamosios)
+ISR_SCORE = re.compile(r"^\s*(\d{2,3})\s*-\s*(\d{2,3})")
+ISR_VIEWERS = re.compile(r"(?:Viewers|צופים)\s*:?\s*([\d][\d,\.]*)")
+
+
+def isr_round(sess, rnd: int) -> list[dict]:
+    """Vieno turo rungtynės iš results.asp (angliška versija): GameId, data, arena, šeimininkai, svečiai, ar sužaista."""
+    html = get(sess, f"{ISR}/results.asp?Board=5&RoundNumber={rnd}&TeamId=0&lang=en").text
+    soup = BeautifulSoup(html, "html.parser")
+    out, seen = [], set()
+    for a in soup.select('a[href*="GameId="]'):
+        m = re.search(r"GameId=(\d+)", a.get("href", ""), re.I)
+        tr = a.find_parent("tr")
+        if not m or tr is None or m.group(1) in seen:
+            continue
+        seen.add(m.group(1))
+        cells = [td.get_text(" ", strip=True) for td in tr.find_all("td")]
+        txt = " ".join(cells)
+        dm = re.search(r"\b(\d{1,2})/(\d{1,2})/(\d{4})\b", txt)
+        date = f"{dm.group(3)}-{int(dm.group(2)):02d}-{int(dm.group(1)):02d}" if dm else ""
+        teams, ids = [], set()
+        for t in tr.select('a[href*="TeamId="]'):
+            tid = re.search(r"TeamId=(\d+)", t.get("href", ""), re.I)
+            name = t.get_text(" ", strip=True)
+            if tid and tid.group(1) not in ids and name:
+                ids.add(tid.group(1))
+                teams.append(name)
+        # arena – stulpelis, kurio antraštė „Venue“/„Arena“/„אולם“ (numatyta – 3-ias stulpelis)
+        idx = 2
+        table = tr.find_parent("table")
+        head = table.find("tr") if table else None
+        if head is not None:
+            hc = [c.get_text(" ", strip=True) for c in head.find_all(["th", "td"])]
+            for i, h in enumerate(hc):
+                if re.search(r"venue|arena|hall|אולם", h, re.I):
+                    idx = i
+                    break
+        arena = cells[idx] if idx < len(cells) else ""
+        if re.search(r"\d{1,2}/\d{1,2}/\d{4}|^\d{1,2}:\d{2}$", arena):
+            arena = ""
+        played = any(ISR_SCORE.match(c) for c in cells)
+        if len(teams) < 2:
+            continue
+        out.append({"gid": m.group(1), "date": date, "home": teams[0], "away": teams[1],
+                    "arena": arena, "played": played})
+    return out
+
+
+def run_isr(args) -> int:
+    import random
+    ctx = Ctx("Winner League", args.data_dir or "data/isr", args.season)
+    sess = make_session(ISR + "/")
+    state_p = ctx.dir / "rounds.json"
+    try:
+        state = json.loads(state_p.read_text(encoding="utf-8"))
+    except Exception:  # noqa: BLE001
+        state = {}
+    now = datetime.now(timezone.utc)
+    soon = (now + timedelta(days=2)).date().isoformat()
+    played = []
+    pages = parsed = 0
+    seen_started = None          # sužaistų rungtynių skaičius jau prasidėjusiuose (šį kartą skaitytuose) turuose
+    for rnd in range(1, ISR_ROUNDS + 1):
+        st = state.get(str(rnd), {})
+        if st.get("done"):
+            continue
+        try:
+            age = now - datetime.fromisoformat(st.get("fetched", ""))
+        except ValueError:
+            age = timedelta(days=99)
+        first = st.get("first", "")
+        # nebaigtas turas: skaitome, jei jis jau prasidėjo / prasidės per 2 d.; tolimesni – kas 3 d. (dėl arenų)
+        if st and first and first > soon and age < timedelta(days=3):
+            continue
+        games = isr_round(sess, rnd)
+        pages, parsed = pages + 1, parsed + len(games)
+        time.sleep(random.uniform(2, 4))
+        if not games:
+            continue
+        for g in games:
+            ctx.put(g["gid"], g["date"], g["home"], g["away"], None,
+                    f"{ISR}/game-zone.asp?GameId={g['gid']}&lang=en", g["arena"], count_attempt=False)
+            if g["played"]:
+                played.append(g)
+        dates = sorted(g["date"] for g in games if g["date"])
+        if dates and dates[0] < today():
+            seen_started = (seen_started or 0) + sum(1 for g in games if g["played"])
+        state[str(rnd)] = {"fetched": now.isoformat(timespec="seconds"), "first": dates[0] if dates else "",
+                           "done": all(g["played"] for g in games)}
+    # anksčiau sužaistos (baigtų turų) rungtynės, kurioms dar trūksta lankomumo
+    known = {g["gid"] for g in played}
+    for mid, m in ctx.matches.items():
+        if m.get("season") == ctx.season and mid not in known and m.get("date") and m["date"] < today() \
+                and not m.get("attendance"):
+            played.append({"gid": mid, "date": m["date"], "home": m["home"], "away": m["away"],
+                           "arena": m.get("arena", "")})
+    if pages and not parsed:
+        ctx.problems.append(f"basket.co.il: {pages} tvarkaraščio puslapiuose nerasta rungtynių – svetainė pasikeitė arba blokuoja")
+    ctx.listed = seen_started   # 0 – prasidėjusiuose turuose nerasta nė vienų sužaistų (svetainė pasikeitė?)
+    print(f"Winner League: sužaistų rungtynių be lankomumo / naujų {len(played)}")
+    n = 0
+    for g in played:
+        if not ctx.wants(g["gid"]) or n >= args.max_fetch:
+            continue
+        n += 1
+        url = f"{ISR}/game-zone.asp?GameId={g['gid']}&lang=en"
+        att = None
+        try:
+            txt = BeautifulSoup(get(sess, url).text, "html.parser").get_text(" ", strip=True)
+            vm = ISR_VIEWERS.search(txt)
+            att = to_int(vm.group(1)) if vm else None
+        except Exception as e:  # noqa: BLE001
+            print(f"  {g['gid']}: klaida {e}", file=sys.stderr)
+        ctx.put(g["gid"], g["date"], g["home"], g["away"], att, url, g["arena"])
+        print(f"  {g['date']} {g['home']} – {g['away']}: {att} ({g['arena']})")
+        time.sleep(random.uniform(2, 4))
+    state_p.parent.mkdir(parents=True, exist_ok=True)
+    state_p.write_text(json.dumps(state, ensure_ascii=False, indent=1), encoding="utf-8")
+    return ctx.finish()
+
+
 # --------------------------------------------------------------------------- paleidimas
 
 DIRS = {"aus": "data/nbl", "fin": "data/fin", "lvee": "data/lvee", "bbl": "data/bbl",
-        "aba": "data/aba", "ita": "data/ita", "pol": "data/pol", "gre": "data/gre"}
+        "aba": "data/aba", "ita": "data/ita", "pol": "data/pol", "gre": "data/gre", "isr": "data/isr"}
 NAMES = {"aus": "NBL", "fin": "Korisliiga", "lvee": "LEBL", "bbl": "BBL",
-         "aba": "ABA", "ita": "LBA", "pol": "PLK", "gre": "GBL"}
+         "aba": "ABA", "ita": "LBA", "pol": "PLK", "gre": "GBL", "isr": "Winner League"}
 SOURCES = {"NBL": "nbl.com.au", "Korisliiga": "basket.fi (Sportradar)", "LEBL": "estlatbl.com + FIBA LiveStats",
            "BBL": "easycredit-bbl.de", "ABA": "aba-liga.com", "LBA": "legabasket.it",
-           "PLK": "plk.pl + Flashscore", "GBL": "esake.gr + Flashscore"}
+           "PLK": "plk.pl + Flashscore", "GBL": "esake.gr + Flashscore", "Winner League": "basket.co.il"}
 
 LEAGUES = {
     "aus": run_aus, "fin": run_fin, "lvee": run_lvee, "bbl": run_bbl,
-    "aba": run_aba, "ita": run_ita, "pol": run_pol, "gre": run_gre,
+    "aba": run_aba, "ita": run_ita, "pol": run_pol, "gre": run_gre, "isr": run_isr,
 }
 
 
 def main() -> int:
     ap = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
-    ap.add_argument("--league", required=True, help="aus, fin, lvee, bbl, aba, ita, pol, gre arba all")
+    ap.add_argument("--league", required=True, help="aus, fin, lvee, bbl, aba, ita, pol, gre, isr arba all")
     ap.add_argument("--season", default="2026-27")
     ap.add_argument("--data-dir", default=None, help="pakeisti numatytąjį aplanką")
     ap.add_argument("--season-id", default=None, help="lygos sezono ID (jei automatiškai nerandamas)")
