@@ -491,14 +491,15 @@
 
     // BBL/BSL: logotipai laikomi logos/<lyga>/<KODAS>.png (pvz. logos/bbl/HAM.png).
     // Jei failo nėra, rodomas 3 raidžių kodas.
-    function clubLogoHtml(club, code) {
+    function clubLogoHtml(club, code, sheetName) {
+      const pick = function() { return logoUrl(club) || (sheetName && sheetName !== club ? logoUrl(sheetName) : null); };
       if (code) {
-        const alt = logoUrl(club);
+        const alt = pick();
         return '<img class="club-logo" src="./logos/' + league + '/' + code + '.png" alt="" loading="lazy" ' +
           (alt ? 'data-alt="' + esc(alt) + '" ' : '') +
           'onerror="if(this.dataset.alt){this.src=this.dataset.alt;this.removeAttribute(\'data-alt\')}else{this.outerHTML=\'<span class=&quot;club-logo missing&quot;>' + code + '</span>\'}" />';
       }
-      const url = logoUrl(club);
+      const url = pick();
       if (url) {
         return '<img class="club-logo" src="' + url + '" alt="" loading="lazy" onerror="this.style.visibility=\'hidden\'" />';
       }
@@ -507,6 +508,17 @@
 
     let league = "acb";
     let capInfo = null;
+    // Klubų pavadinimai kaip Google Sheets lape (data/main_arenas.json → names) – rodomi vietoje lygos pavadinimų
+    let sheetNames = null, NM = {};
+    async function loadSheetNames() {
+      if (sheetNames) return sheetNames;
+      try {
+        const r = await fetch("./data/main_arenas.json", { cache: "no-store" });
+        sheetNames = r.ok ? ((await r.json()).names || {}) : {};
+      } catch (_) { sheetNames = {}; }
+      return sheetNames;
+    }
+    const disp = function(n) { return NM[n] || n; };
     let runStatus = null;
     let lastAttGame = "";
     let clubs = [];
@@ -587,6 +599,9 @@
             c.filling_rate = x ? x.filling_rate : null;
           });
         }
+        // lygos pavadinimas -> pavadinimas kaip lape (logotipas ieškomas pagal abu)
+        NM = ((await loadSheetNames())[data.league]) || {};
+        clubs.forEach(function(c) { c.league_name = c.club; c.club = disp(c.club); });
 
         let matches = [];
         const mRes = await fetchFirst(paths.matches);
@@ -638,8 +653,8 @@
           matchesWithAtt.map(m => {
             const src = m.source_url || m.url;
             return '<tr>' +
-            '<td><div class="club-cell">' + clubLogoHtml(m.home, m.home_code) + '<span class="club-name">' + esc(m.home) + '</span></div></td>' +
-            '<td><div class="club-cell">' + clubLogoHtml(m.away, m.away_code) + '<span>' + esc(m.away) + '</span></div></td>' +
+            '<td><div class="club-cell">' + clubLogoHtml(m.home, m.home_code, disp(m.home)) + '<span class="club-name">' + esc(disp(m.home)) + '</span></div></td>' +
+            '<td><div class="club-cell">' + clubLogoHtml(m.away, m.away_code, disp(m.away)) + '<span>' + esc(disp(m.away)) + '</span></div></td>' +
             '<td class="num" style="font-weight:600;color:var(--green)">' + fmt(m.attendance) + '</td>' +
             '<td class="hide-sm">' + (src ? '<a href="' + esc(src) + '" target="_blank" rel="noopener" style="color:var(--blue);font-size:.8rem">↗</a>' : '') + '</td>' +
             '</tr>';
@@ -741,7 +756,7 @@
 
     function renderTable(maxAvg) {
       let list = clubs.slice();
-      if (filter) list = list.filter(c => c.club.toLowerCase().includes(filter));
+      if (filter) list = list.filter(c => (c.club + " " + (c.league_name || "")).toLowerCase().includes(filter));
 
       list.sort(function(a, b) {
         let va = a[sortKey], vb = b[sortKey];
@@ -774,7 +789,8 @@
         const pct = has && maxAvg ? Math.round((c.average / maxAvg) * 100) : 0;
         return '<tr style="' + (has ? "" : "opacity:.55") + '">' +
           '<td><span class="rank ' + rankCls + '">' + (rank || "—") + '</span></td>' +
-          '<td><div class="club-cell">' + clubLogoHtml(c.club, c.code) + '<span class="club-name">' + esc(c.club) + '</span></div></td>' +
+          '<td><div class="club-cell">' + clubLogoHtml(c.league_name || c.club, c.code, c.club) + '<span class="club-name"' +
+            (c.league_name && c.league_name !== c.club ? ' title="' + esc(c.league_name) + '"' : '') + '>' + esc(c.club) + '</span></div></td>' +
           '<td class="num" style="font-weight:700;color:' + (has ? "var(--accent)" : "var(--muted)") + '">' + fmt(c.average) + '</td>' +
           '<td class="num hide-sm">' + fmt(c.weighted_capacity) + '</td>' +
           '<td class="num hide-sm">' + (c.filling_rate != null ? fmtPct(c.filling_rate) : "—") + '</td>' +

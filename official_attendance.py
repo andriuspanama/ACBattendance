@@ -130,6 +130,9 @@ def get(sess: requests.Session, url: str, *, expect_json=False, tries=3, **kw):
     for i in range(tries):
         try:
             r = sess.get(url, timeout=30, **kw)
+            if "charset" not in (r.headers.get("Content-Type") or "").lower() and \
+                    (r.encoding or "").lower() in ("", "iso-8859-1", "latin-1"):
+                r.encoding = "utf-8"        # be nurodytos koduotės requests spėja Latin-1 (sugadina graikų raides)
             _note_block(r)
             if r.status_code in (400, 403, 404):
                 return r
@@ -697,8 +700,11 @@ def run_pol(args) -> int:
         return 1
 
     def probe(gid) -> bool:
+        hits = BLOCK["hits"]
         g = plk_game(sess, gid)
         time.sleep(0.15)
+        if not g:
+            BLOCK["hits"] = hits   # dar neegzistuojančios rungtynės plk.pl atsako 403 – tai ne blokavimas
         if not g or str(g.get("seasonId")) != str(season_id) or (g.get("league") or {}).get("id") != 2:
             return False
         # tik „Runda Zasadnicza“ (reguliarusis sezonas); atkrintamosios pažymimos „x“ ir nebetikrinamos
@@ -900,6 +906,13 @@ ISR_SCORE = re.compile(r"^\s*(\d{2,3})\s*-\s*(\d{2,3})")
 ISR_VIEWERS = re.compile(r"(?:Viewers|צופים)\s*:?\s*([\d][\d,\.]*)")
 
 
+def isr_undouble(name: str) -> str:
+    """basket.co.il nuorodoje pavadinimas būna du kartus („Bnei Herzliya Bnei Herzliya“)."""
+    w = (name or "").split()
+    n = len(w)
+    return " ".join(w[: n // 2]) if n >= 2 and n % 2 == 0 and w[: n // 2] == w[n // 2:] else (name or "")
+
+
 def isr_round(sess, rnd: int) -> list[dict]:
     """Vieno turo rungtynės iš results.asp (angliška versija): GameId, data, arena, šeimininkai, svečiai, ar sužaista."""
     html = get(sess, f"{ISR}/results.asp?Board=5&RoundNumber={rnd}&TeamId=0&lang=en").text
@@ -918,7 +931,7 @@ def isr_round(sess, rnd: int) -> list[dict]:
         teams, ids = [], set()
         for t in tr.select('a[href*="TeamId="]'):
             tid = re.search(r"TeamId=(\d+)", t.get("href", ""), re.I)
-            name = t.get_text(" ", strip=True)
+            name = isr_undouble(t.get_text(" ", strip=True))
             if tid and tid.group(1) not in ids and name:
                 ids.add(tid.group(1))
                 teams.append(name)
@@ -946,6 +959,8 @@ def isr_round(sess, rnd: int) -> list[dict]:
 def run_isr(args) -> int:
     import random
     ctx = Ctx("Winner League", args.data_dir or "data/isr", args.season)
+    for m in ctx.matches.values():          # anksčiau įrašyti dvigubi pavadinimai
+        m["home"], m["away"] = isr_undouble(m.get("home", "")), isr_undouble(m.get("away", ""))
     sess = make_session(ISR + "/")
     state_p = ctx.dir / "rounds.json"
     try:

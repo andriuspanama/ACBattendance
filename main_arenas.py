@@ -153,7 +153,7 @@ def pick(rec):
 
 def build(text, root=".", season="2026-27", now=""):
     rows = load_rows(text)
-    out, unmatched = {}, []
+    out, unmatched, names_out = {}, [], {}
     # 3) lapas – visiems
     for r in rows:
         for club in r["main"]:
@@ -185,32 +185,46 @@ def build(text, root=".", season="2026-27", now=""):
         L = norm(league)
         league_rows = [r for r in rows if norm(r["league"]) == L]
         pool = {n for r in league_rows for n, k in r["home"]} | {n for r in league_rows for n in r["main"]}
+        def link(club, mains):
+            """lygos pavadinimas -> Budgets pavadinimas"""
+            w = _words(club)
+            exact = [n for n in pool if norm(n) == norm(club)]
+            if exact:
+                return exact[0]
+            for names in (mains, pool):
+                cands = sorted(((len(w & _words(n)), n) for n in names if w & _words(n)), reverse=True)
+                if cands and (len(cands) == 1 or cands[0][0] > cands[1][0]):
+                    return cands[0][1]
+            return mains[0] if len(mains) == 1 else None
+
+        lnames = names_out.setdefault(league, {})
         for club, gl in games.items():
             cnt = Counter(id(rec) for _, _, rec in gl)
             last = {id(rec): (dt, mid) for dt, mid, rec in sorted(gl, key=lambda x: (x[0], x[1]))}
             best_id = max(cnt, key=lambda k: (cnt[k], last[k]))
             best = next(rec for _, _, rec in gl if id(rec) == best_id)
-            # lygos pavadinimas -> Budgets pavadinimas
-            budget = None
-            mains = [n for n, k in best["home"] if k == "main"]
-            w = _words(club)
-            for names in (mains, pool):
-                cands = sorted(((len(w & _words(n)), n) for n in names if w & _words(n)), reverse=True)
-                if cands and (len(cands) == 1 or cands[0][0] > cands[1][0]):
-                    budget = cands[0][1]
-                    break
-            if not budget and len(mains) == 1:
-                budget = mains[0]
+            budget = link(club, [n for n, k in best["home"] if k == "main"])
             if not budget:
                 unmatched.append({"league": league, "club": club, "arena": best["arena"]})
                 continue
+            lnames[club] = budget
             out[budget] = {**pick(best), "source": "games", "games": cnt[best_id], "of_games": len(gl),
                            "league_name": club}
+        # visi lygos pavadinimai (ir klubų, kurių arenos dar nežinomos) – puslapis rodo lapo pavadinimus
+        for m in matches:
+            if m.get("season") != season:
+                continue
+            for club in ((m.get("home") or "").strip(), (m.get("away") or "").strip()):
+                if club and club not in lnames:
+                    b = link(club, [])
+                    if b:
+                        lnames[club] = b
     # 1) ranka įrašytos išimtys
     for r in rows:
         for club in r["over"]:
             out[club] = {**pick(r), "source": "override"}
-    res = {"season": season, "updated": now, "clubs": dict(sorted(out.items())), "unmatched": unmatched}
+    res = {"season": season, "updated": now, "clubs": dict(sorted(out.items())), "unmatched": unmatched,
+           "names": {lg: dict(sorted(v.items())) for lg, v in names_out.items()}}
     p = Path(root) / "data" / "main_arenas.json"
     try:
         old = json.loads(p.read_text(encoding="utf-8"))

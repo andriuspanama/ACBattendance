@@ -20,6 +20,7 @@ import argparse
 import csv
 import io
 import re
+from datetime import datetime, timedelta, timezone
 import sys
 import urllib.parse
 
@@ -104,6 +105,8 @@ def run() -> int:
     fiba = requests.Session()
     fiba.headers["User-Agent"] = "Mozilla/5.0"
     fetched = 0
+    recent_tried = recent_got = 0       # paskutinių 10 d. rungtynės – pagal jas sprendžiama, ar FIBA blokuoja
+    recent_from = (datetime.now(timezone.utc) - timedelta(days=10)).date().isoformat()
     for r in rows[1:]:
         home, away = cell(r, "home"), cell(r, "away")
         if not home:
@@ -111,12 +114,22 @@ def run() -> int:
         d = parse_date(cell(r, "date"))
         mid = f"{d or 'nd'}-{norm(home).replace(' ', '-')}-{norm(away).replace(' ', '-')}"
         prev = old.get(mid, {})
-        att = to_int(cell(r, "att"))
+        raw_att = cell(r, "att").strip()
+        # „0“, „seyircisiz“, „closed“, „be žiūrovų“ – rungtynės be žiūrovų: į vidurkį ir talpą neįskaičiuojamos
+        if re.fullmatch(r"0+|-|seyircisiz|closed( doors)?|be žiūrovų|be ziurovu|uždarytos|uzdarytos", raw_att, re.I):
+            ctx.matches[mid] = dict(prev) if prev else {}
+            ctx.put(mid, d, home, away, None, cell(r, "link") or f"https://docs.google.com/spreadsheets/d/{args.sheet_id}",
+                    cell(r, "arena"), count_attempt=False)
+            ctx.matches[mid]["attendance"] = ""
+            ctx.matches[mid]["attempts"] = "99"
+            continue
+        att = to_int(raw_att)
         gid = re.sub(r"\D", "", cell(r, "genius"))
         attempt = False
         if not att and prev.get("attendance"):
             att = to_int(prev["attendance"])
-        elif not att and gid and d and d <= today() and needs_fetch(prev or None, 3) and fetched < 120:
+        elif not att and gid and d and d <= today() and prev.get("attempts") != "99" \
+                and needs_fetch(prev or None, 3) and fetched < 120:
             attempt, fetched = True, fetched + 1
             try:
                 j = fiba.get(f"https://fibalivestats.dcd.shared.geniussports.com/data/{gid}/data.json", timeout=20)
@@ -125,6 +138,9 @@ def run() -> int:
             except Exception as e:  # noqa: BLE001
                 print(f"  {gid}: {e}", file=sys.stderr)
             print(f"  {d} {home} – {away}: {att}")
+            if d >= recent_from:
+                recent_tried += 1
+                recent_got += 1 if att else 0
         if prev:
             ctx.matches[mid] = prev
         ctx.put(mid, d, home, away, att,
@@ -134,8 +150,11 @@ def run() -> int:
             ctx.matches[mid]["attempts"] = "0"
     ctx.source = SOURCE
     ctx.listed = None
-    if ctx.tried >= 3 and not ctx.got_att:
-        ctx.problems.append(f"FIBA LiveStats nedavė lankomumo nė vienoms iš {ctx.tried} rungtynių – gali blokuoti")
+    if recent_tried >= 3 and not recent_got:
+        ctx.problems.append(f"FIBA LiveStats nedavė lankomumo nė vienoms iš {recent_tried} paskutinių rungtynių – gali blokuoti")
+    elif ctx.tried and not ctx.got_att:
+        # senesnės rungtynės, kurių FIBA lankomumo neturi – įrašykite ranka lape (stulpelis Attendance)
+        ctx.notes.append(f"{ctx.tried} rungtynės be lankomumo FIBA LiveStats – įrašykite ranka lape")
     return ctx.finish()
 
 
