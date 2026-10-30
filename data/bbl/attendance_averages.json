@@ -1,117 +1,194 @@
 {
   "league": "BBL",
   "season": "2026-27",
-  "updated": "2026-10-29T19:20:53+00:00",
+  "updated": "2026-10-30T01:33:08+00:00",
   "clubs": [
     {
       "league": "BBL",
       "season": "2026-27",
-      "club": "Alba Berlin",
+      "club": "ALBA BERLIN",
       "home_games_counted": 4,
       "average": 8275,
       "total": 33100,
       "max": 9060,
-      "min": 6711
+      "min": 6711,
+      "arenas": [
+        {
+          "arena": "Uber Arena",
+          "games": 4,
+          "capacity": 13488
+        }
+      ]
     },
     {
       "league": "BBL",
       "season": "2026-27",
-      "club": "Oldenburg",
+      "club": "EWE Baskets Oldenburg",
       "home_games_counted": 4,
       "average": 6500,
       "total": 26000,
       "max": 6500,
-      "min": 6500
+      "min": 6500,
+      "arenas": [
+        {
+          "arena": "Große EWE Arena Oldenburg",
+          "games": 4,
+          "capacity": 6335
+        }
+      ]
     },
     {
       "league": "BBL",
       "season": "2026-27",
-      "club": "Trier",
+      "club": "VET-CONCEPT Gladiators Trier",
       "home_games_counted": 3,
       "average": 5400,
       "total": 16200,
       "max": 5400,
-      "min": 5400
+      "min": 5400,
+      "arenas": [
+        {
+          "arena": "SWT-Arena",
+          "games": 3,
+          "capacity": 5400
+        }
+      ]
     },
     {
       "league": "BBL",
       "season": "2026-27",
-      "club": "Bayern",
+      "club": "FC Bayern München Basketball",
       "home_games_counted": 4,
-      "average": 5305,
-      "total": 21220,
+      "average": 5264,
+      "total": 21056,
       "max": 6600,
-      "min": 4020
+      "min": 4156,
+      "arenas": [
+        {
+          "arena": "BMW Park München",
+          "games": 4,
+          "capacity": 6731
+        }
+      ]
     },
     {
       "league": "BBL",
       "season": "2026-27",
-      "club": "Bonn",
+      "club": "Telekom Baskets Bonn",
       "home_games_counted": 3,
       "average": 5212,
       "total": 15635,
       "max": 5332,
-      "min": 5082
+      "min": 5082,
+      "arenas": [
+        {
+          "arena": "Telekom Dome Bonn",
+          "games": 3,
+          "capacity": 6000
+        }
+      ]
     },
     {
       "league": "BBL",
       "season": "2026-27",
-      "club": "Ulm",
+      "club": "ratiopharm ulm",
       "home_games_counted": 2,
       "average": 4600,
       "total": 9200,
       "max": 4961,
-      "min": 4239
+      "min": 4239,
+      "arenas": [
+        {
+          "arena": "ratiopharm arena Ulm",
+          "games": 2,
+          "capacity": 6000
+        }
+      ]
     },
     {
       "league": "BBL",
       "season": "2026-27",
-      "club": "Bamberg",
+      "club": "NINERS Chemnitz",
+      "home_games_counted": 2,
+      "average": 4201,
+      "total": 8402,
+      "max": 4405,
+      "min": 3997,
+      "arenas": [
+        {
+          "arena": "Messe Chemnitz",
+          "games": 2,
+          "capacity": 5000
+        }
+      ]
+    },
+    {
+      "league": "BBL",
+      "season": "2026-27",
+      "club": "BMA365 Bamberg Baskets",
       "home_games_counted": 2,
       "average": 4116,
       "total": 8233,
       "max": 4210,
-      "min": 4023
+      "min": 4023,
+      "arenas": [
+        {
+          "arena": "Brose Arena Bamberg",
+          "games": 2,
+          "capacity": 5700
+        }
+      ]
     },
     {
       "league": "BBL",
       "season": "2026-27",
-      "club": "Chemnitz",
-      "home_games_counted": 2,
-      "average": 3901,
-      "total": 7802,
-      "max": 4405,
-      "min": 3397
-    },
-    {
-      "league": "BBL",
-      "season": "2026-27",
-      "club": "Rostock",
+      "club": "ROSTOCK SEAWOLVES",
       "home_games_counted": 2,
       "average": 3677,
       "total": 7354,
       "max": 3722,
-      "min": 3632
+      "min": 3632,
+      "arenas": [
+        {
+          "arena": "StadtHalle Rostock",
+          "games": 2,
+          "capacity": 5000
+        }
+      ]
     },
     {
       "league": "BBL",
       "season": "2026-27",
-      "club": "Ludwigsburg",
+      "club": "MHP RIESEN Ludwigsburg",
       "home_games_counted": 3,
       "average": 3389,
       "total": 10168,
       "max": 3682,
-      "min": 2972
+      "min": 2972,
+      "arenas": [
+        {
+          "arena": "MHPArena Ludwigsburg",
+          "games": 3,
+          "capacity": 4000
+        }
+      ]
     },
     {
       "league": "BBL",
       "season": "2026-27",
-      "club": "Basketball Braunschweig",
+      "club": "Basketball Löwen Braunschweig",
       "home_games_counted": 3,
       "average": 3334,
       "total": 10002,
       "max": 3590,
-      "min": 3074
+      "min": 3074,
+      "arenas": [
+        {
+          "arena": "Volkswagen Halle Braunschweig",
+          "games": 3,
+          "capacity": 6358
+        }
+      ]
     },
     {
       "league": "BBL",
@@ -121,67 +198,116 @@
       "average": 3100,
       "total": 9301,
       "max": 3145,
-      "min": 3011
+      "min": 3011,
+      "arenas": [
+        {
+          "arena": "Ischelandhalle",
+          "games": 3,
+          "capacity": 3145
+        }
+      ]
     },
     {
       "league": "BBL",
       "season": "2026-27",
-      "club": "Vechta",
+      "club": "RASTA Vechta",
       "home_games_counted": 4,
       "average": 3004,
       "total": 12017,
       "max": 3140,
-      "min": 2888
+      "min": 2888,
+      "arenas": [
+        {
+          "arena": "RASTA Dome",
+          "games": 4,
+          "capacity": 3140
+        }
+      ]
     },
     {
       "league": "BBL",
       "season": "2026-27",
-      "club": "Frankfurt",
+      "club": "SKYLINERS",
       "home_games_counted": 2,
       "average": 2905,
       "total": 5810,
       "max": 3200,
-      "min": 2610
+      "min": 2610,
+      "arenas": [
+        {
+          "arena": "Süwag Energie ARENA",
+          "games": 2,
+          "capacity": 5002
+        }
+      ]
     },
     {
       "league": "BBL",
       "season": "2026-27",
-      "club": "Hamburg",
+      "club": "Veolia Towers Hamburg",
       "home_games_counted": 2,
       "average": 2791,
       "total": 5582,
       "max": 3190,
-      "min": 2392
+      "min": 2392,
+      "arenas": [
+        {
+          "arena": "Inselpark Arena",
+          "games": 2,
+          "capacity": 3400
+        }
+      ]
     },
     {
       "league": "BBL",
       "season": "2026-27",
-      "club": "Wurzburg",
+      "club": "Fitness First Würzburg Baskets",
       "home_games_counted": 3,
       "average": 2755,
       "total": 8266,
       "max": 2920,
-      "min": 2501
+      "min": 2501,
+      "arenas": [
+        {
+          "arena": "tectake ARENA Würzburg",
+          "games": 3,
+          "capacity": 3140
+        }
+      ]
     },
     {
       "league": "BBL",
       "season": "2026-27",
-      "club": "Jena",
+      "club": "Science City Jena",
       "home_games_counted": 2,
       "average": 2653,
       "total": 5306,
       "max": 3125,
-      "min": 2181
+      "min": 2181,
+      "arenas": [
+        {
+          "arena": "Sparkassen-Arena Jena",
+          "games": 2,
+          "capacity": 3125
+        }
+      ]
     },
     {
       "league": "BBL",
       "season": "2026-27",
-      "club": "Syntainics MBC",
+      "club": "SYNTAINICS MBC",
       "home_games_counted": 3,
       "average": 2396,
       "total": 7188,
       "max": 2780,
-      "min": 2132
+      "min": 2132,
+      "arenas": [
+        {
+          "arena": "Stadthalle Weißenfels",
+          "games": 3,
+          "capacity": 3000
+        }
+      ]
     }
   ]
 }
