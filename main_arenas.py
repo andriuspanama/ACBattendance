@@ -24,15 +24,13 @@ import re
 from collections import Counter, defaultdict
 from pathlib import Path
 
-from capacities import fix_text, norm, read_matches, to_int
+from capacities import fix_text, league_dirs, norm, read_matches, to_int
 from regular_season import playoff_ids
 
 GENERIC = {"bc", "kk", "bk", "fc", "cb", "sk", "basket", "basketball", "basketbol", "baloncesto", "basquet",
            "club", "pallacanestro", "spor", "kulubu", "bkk", "okk", "ks", "mks", "the", "de", "b", "c", "k", "s",
            "j", "baskets", "team", "sport", "city", "sc", "ii", "kosarlabda", "kts", "bt", "rgu"}
 UNKNOWN = {"", "tbc", "tba", "atanmadi", "koht tapsustamisel", "nezinoma", "unknown", "null", "none"}
-LEAGUE_DIRS = ["data", "data/lkl", "data/bbl", "data/nbl", "data/fin", "data/lvee",
-               "data/aba", "data/ita", "data/pol", "data/bsl", "data/gre", "data/isr"]
 
 
 def _words(s):
@@ -153,18 +151,22 @@ def pick(rec):
 
 def build(text, root=".", season="2026-27", now=""):
     rows = load_rows(text)
-    out, unmatched, names_out = {}, [], {}
+    out, unmatched, names_out, leagues = {}, [], {}, []
     # 3) lapas – visiems
     for r in rows:
         for club in r["main"]:
             out[club] = {**pick(r), "source": "sheet"}
     # 2) tikri šio sezono duomenys
-    for d in LEAGUE_DIRS:
+    for d in league_dirs(root):
         ddir = Path(root) / d
         try:
-            league = json.loads((ddir / "attendance_averages.json").read_text(encoding="utf-8")).get("league", "")
+            avg = json.loads((ddir / "attendance_averages.json").read_text(encoding="utf-8"))
+            league = avg.get("league", "")
         except Exception:  # noqa: BLE001
             continue
+        leagues.append({"dir": d, "league": league, "season": avg.get("season", ""),
+                        "clubs": len(avg.get("clubs") or []),
+                        "capacity": (ddir / "capacity.json").exists()})
         matches = read_matches(ddir / "matches.csv")
         try:
             extra = json.loads((ddir / "game_arenas.json").read_text(encoding="utf-8"))
@@ -235,6 +237,15 @@ def build(text, root=".", season="2026-27", now=""):
     if not same:
         p.parent.mkdir(parents=True, exist_ok=True)
         p.write_text(json.dumps(res, ensure_ascii=False, indent=1), encoding="utf-8")
+    # lygų sąrašas pagrindiniam puslapiui (krepsiniofinansai): nauja lyga ten atsiranda automatiškai
+    lp = Path(root) / "data" / "leagues.json"
+    lres = {"season": season, "leagues": leagues}
+    try:
+        lsame = json.loads(lp.read_text(encoding="utf-8")) == lres
+    except Exception:  # noqa: BLE001
+        lsame = False
+    if not lsame:
+        lp.write_text(json.dumps(lres, ensure_ascii=False, indent=1), encoding="utf-8")
     n_games = sum(1 for v in out.values() if v["source"] == "games")
     print(f"Pagrindinės arenos: {len(out)} klubų (pagal šio sezono rungtynes {n_games})"
           + (f"; nesusieti: {', '.join(u['club'] for u in unmatched)}" if unmatched else ""))

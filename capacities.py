@@ -45,6 +45,17 @@ from regular_season import playoff_ids
 LEAGUE_DIRS = ["data", "data/lkl", "data/bbl", "data/nbl", "data/fin", "data/lvee",
                "data/aba", "data/ita", "data/pol", "data/bsl", "data/gre", "data/isr"]
 
+
+def league_dirs(root="."):
+    """Žinomi aplankai + bet kuris naujas data/<aplankas>/ su attendance_averages.json (nauja lyga
+    įtraukiama automatiškai – nereikia keisti šio sąrašo)."""
+    found = list(LEAGUE_DIRS)
+    for p in sorted((Path(root) / "data").glob("*/attendance_averages.json")):
+        d = f"data/{p.parent.name}"
+        if d not in found:
+            found.append(d)
+    return found
+
 UNKNOWN = {"tbc", "tba", "atanmadi", "koht tapsustamisel", "nezinoma", "unknown", "null", "none", "?"}
 
 
@@ -238,7 +249,7 @@ def main() -> int:
     print(f"Arenų sąraše eilučių: {len(table)}")
 
     now = datetime.now(timezone.utc).isoformat(timespec="seconds")
-    for d in LEAGUE_DIRS:
+    for d in league_dirs(args.root):
         ddir = Path(args.root) / d
         avg = ddir / "attendance_averages.json"
         if not avg.exists():
