@@ -1,12 +1,92 @@
 {
   "league": "GBL",
   "season": "2026-27",
-  "updated": "2026-10-30T13:42:44+00:00",
+  "updated": "2026-10-30T16:14:50+00:00",
   "clubs": [
     {
       "league": "GBL",
       "season": "2026-27",
-      "club": "I Iiiiiiiiªiii£ Aktor",
+      "club": "Aris",
+      "home_games_counted": 1,
+      "average": 5900,
+      "total": 5900,
+      "max": 5900,
+      "min": 5900,
+      "arenas": [
+        {
+          "arena": "ΑΛΕΞΑΝΔΡΕΙΟ",
+          "games": 1
+        }
+      ]
+    },
+    {
+      "league": "GBL",
+      "season": "2026-27",
+      "club": "Karditsas",
+      "home_games_counted": 1,
+      "average": 3500,
+      "total": 3500,
+      "max": 3500,
+      "min": 3500,
+      "arenas": [
+        {
+          "arena": "Ν.Κ.Γ. ΓΙΑΝΝΗΣ ΜΠΟΥΡΟΥΣΗΣ",
+          "games": 1
+        }
+      ]
+    },
+    {
+      "league": "GBL",
+      "season": "2026-27",
+      "club": "Promitheas",
+      "home_games_counted": 1,
+      "average": 2000,
+      "total": 2000,
+      "max": 2000,
+      "min": 2000,
+      "arenas": [
+        {
+          "arena": "ΠΕΑΚ ΠΑΤΡΑΣ ΔΗΜ. ΤΟΦΑΛΟΣ",
+          "games": 1
+        }
+      ]
+    },
+    {
+      "league": "GBL",
+      "season": "2026-27",
+      "club": "Lefkadas",
+      "home_games_counted": 2,
+      "average": 1500,
+      "total": 3000,
+      "max": 1500,
+      "min": 1500,
+      "arenas": [
+        {
+          "arena": "ΔΗΜΟΤΙΚΟ ΚΛΕΙΣΤΟ ΓΥΜΝΑΣΤΗΡΙΟ ΛΕΥΚΑΔΑΣ",
+          "games": 2
+        }
+      ]
+    },
+    {
+      "league": "GBL",
+      "season": "2026-27",
+      "club": "Vikos",
+      "home_games_counted": 1,
+      "average": 1500,
+      "total": 1500,
+      "max": 1500,
+      "min": 1500,
+      "arenas": [
+        {
+          "arena": "Κ. Γ. ΙΩΑΝΝΙΝΩΝ «ΣΙΔΕΡΗΣ ΚΑΡΑΔΗΜΑΣ»",
+          "games": 1
+        }
+      ]
+    },
+    {
+      "league": "GBL",
+      "season": "2026-27",
+      "club": "Aek",
       "home_games_counted": 0,
       "average": null,
       "total": 0,
@@ -16,7 +96,7 @@
     {
       "league": "GBL",
       "season": "2026-27",
-      "club": "I Iii",
+      "club": "Iraklis",
       "home_games_counted": 0,
       "average": null,
       "total": 0,
@@ -26,7 +106,7 @@
     {
       "league": "GBL",
       "season": "2026-27",
-      "club": "I Ii¡ii£i¤ii¡i Betsson",
+      "club": "Kolossos Rhodes",
       "home_games_counted": 0,
       "average": null,
       "total": 0,
@@ -36,7 +116,7 @@
     {
       "league": "GBL",
       "season": "2026-27",
-      "club": "I I¡iiiiiii£ I Ii¤i¡ii£ Iiiii£ Cola",
+      "club": "Maroussi",
       "home_games_counted": 0,
       "average": null,
       "total": 0,
@@ -46,7 +126,7 @@
     {
       "league": "GBL",
       "season": "2026-27",
-      "club": "Iii",
+      "club": "Mykonos",
       "home_games_counted": 0,
       "average": null,
       "total": 0,
@@ -56,7 +136,7 @@
     {
       "league": "GBL",
       "season": "2026-27",
-      "club": "Ii¡ii£",
+      "club": "Olympiacos",
       "home_games_counted": 0,
       "average": null,
       "total": 0,
@@ -66,7 +146,7 @@
     {
       "league": "GBL",
       "season": "2026-27",
-      "club": "Iiii Iii¥iiiii£ Elabet",
+      "club": "PAOK",
       "home_games_counted": 0,
       "average": null,
       "total": 0,
@@ -76,7 +156,7 @@
     {
       "league": "GBL",
       "season": "2026-27",
-      "club": "Ii¡iiiii£",
+      "club": "Panathinaikos",
       "home_games_counted": 0,
       "average": null,
       "total": 0,
@@ -86,57 +166,7 @@
     {
       "league": "GBL",
       "season": "2026-27",
-      "club": "Iii¡iii¤i£i Iii I©iiii",
-      "home_games_counted": 0,
-      "average": null,
-      "total": 0,
-      "max": null,
-      "min": null
-    },
-    {
-      "league": "GBL",
-      "season": "2026-27",
-      "club": "Iiiii£i£ii£ H Hotels Collection",
-      "home_games_counted": 0,
-      "average": null,
-      "total": 0,
-      "max": null,
-      "min": null
-    },
-    {
-      "league": "GBL",
-      "season": "2026-27",
-      "club": "Iii¡ii¥i£i",
-      "home_games_counted": 0,
-      "average": null,
-      "total": 0,
-      "max": null,
-      "min": null
-    },
-    {
-      "league": "GBL",
-      "season": "2026-27",
-      "club": "Ii¥iiiii£ Betsson Bc",
-      "home_games_counted": 0,
-      "average": null,
-      "total": 0,
-      "max": null,
-      "min": null
-    },
-    {
-      "league": "GBL",
-      "season": "2026-27",
-      "club": "Iii¥ii Iiiii£",
-      "home_games_counted": 0,
-      "average": null,
-      "total": 0,
-      "max": null,
-      "min": null
-    },
-    {
-      "league": "GBL",
-      "season": "2026-27",
-      "club": "Vikos I¦alcons",
+      "club": "Peristeri",
       "home_games_counted": 0,
       "average": null,
       "total": 0,
