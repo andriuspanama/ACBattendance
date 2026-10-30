@@ -1,0 +1,199 @@
+{
+  "league": "Korisliiga",
+  "season": "2026-27",
+  "updated": "2026-10-30T01:36:49+00:00",
+  "clubs": [
+    {
+      "league": "Korisliiga",
+      "season": "2026-27",
+      "club": "Kauhajoki",
+      "home_games_counted": 3,
+      "average": 1475,
+      "total": 4426,
+      "max": 1511,
+      "min": 1408,
+      "arenas": [
+        {
+          "arena": "IKH Areena",
+          "games": 3
+        }
+      ]
+    },
+    {
+      "league": "Korisliiga",
+      "season": "2026-27",
+      "club": "Salon Vilpas",
+      "home_games_counted": 4,
+      "average": 1386,
+      "total": 5544,
+      "max": 1406,
+      "min": 1356,
+      "arenas": [
+        {
+          "arena": "Salohalli",
+          "games": 4
+        }
+      ]
+    },
+    {
+      "league": "Korisliiga",
+      "season": "2026-27",
+      "club": "Lahti Basketball",
+      "home_games_counted": 4,
+      "average": 1207,
+      "total": 4828,
+      "max": 1850,
+      "min": 879,
+      "arenas": [
+        {
+          "arena": "Luhta Areena",
+          "games": 4
+        }
+      ]
+    },
+    {
+      "league": "Korisliiga",
+      "season": "2026-27",
+      "club": "KTP-Basket",
+      "home_games_counted": 2,
+      "average": 1133,
+      "total": 2266,
+      "max": 1182,
+      "min": 1084,
+      "arenas": [
+        {
+          "arena": "Steveco Areena",
+          "games": 2
+        }
+      ]
+    },
+    {
+      "league": "Korisliiga",
+      "season": "2026-27",
+      "club": "Kipinä Basket",
+      "home_games_counted": 3,
+      "average": 1013,
+      "total": 3038,
+      "max": 1175,
+      "min": 845,
+      "arenas": [
+        {
+          "arena": "Äänekoski Areena Pankkari",
+          "games": 3
+        }
+      ]
+    },
+    {
+      "league": "Korisliiga",
+      "season": "2026-27",
+      "club": "Tapiolan Honka",
+      "home_games_counted": 2,
+      "average": 949,
+      "total": 1898,
+      "max": 1004,
+      "min": 894,
+      "arenas": [
+        {
+          "arena": "Tapiolan Liikuntahalli",
+          "games": 2
+        }
+      ]
+    },
+    {
+      "league": "Korisliiga",
+      "season": "2026-27",
+      "club": "Kataja Basket",
+      "home_games_counted": 2,
+      "average": 914,
+      "total": 1829,
+      "max": 945,
+      "min": 884,
+      "arenas": [
+        {
+          "arena": "Motonet Areena",
+          "games": 2
+        }
+      ]
+    },
+    {
+      "league": "Korisliiga",
+      "season": "2026-27",
+      "club": "Helsinki Seagulls",
+      "home_games_counted": 3,
+      "average": 829,
+      "total": 2487,
+      "max": 925,
+      "min": 725,
+      "arenas": [
+        {
+          "arena": "Töölön Kisahalli",
+          "games": 3
+        }
+      ]
+    },
+    {
+      "league": "Korisliiga",
+      "season": "2026-27",
+      "club": "Kouvot",
+      "home_games_counted": 4,
+      "average": 811,
+      "total": 3244,
+      "max": 909,
+      "min": 699,
+      "arenas": [
+        {
+          "arena": "MLL Areena",
+          "games": 4
+        }
+      ]
+    },
+    {
+      "league": "Korisliiga",
+      "season": "2026-27",
+      "club": "Tampereen Pyrintö",
+      "home_games_counted": 3,
+      "average": 775,
+      "total": 2325,
+      "max": 1030,
+      "min": 575,
+      "arenas": [
+        {
+          "arena": "Pyynikin palloiluhalli",
+          "games": 3
+        }
+      ]
+    },
+    {
+      "league": "Korisliiga",
+      "season": "2026-27",
+      "club": "Korihait",
+      "home_games_counted": 3,
+      "average": 714,
+      "total": 2143,
+      "max": 785,
+      "min": 642,
+      "arenas": [
+        {
+          "arena": "Wintteri",
+          "games": 3
+        }
+      ]
+    },
+    {
+      "league": "Korisliiga",
+      "season": "2026-27",
+      "club": "Bisons Loimaa",
+      "home_games_counted": 3,
+      "average": 639,
+      "total": 1917,
+      "max": 713,
+      "min": 601,
+      "arenas": [
+        {
+          "arena": "Loimaan Liikuntahalli",
+          "games": 3
+        }
+      ]
+    }
+  ]
+}
