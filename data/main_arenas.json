@@ -1,6 +1,6 @@
 {
  "season": "2026-27",
- "updated": "2026-10-30T14:03:04+00:00",
+ "updated": "2026-10-30T16:16:14+00:00",
  "clubs": {
   "AEK B.C.": {
    "arena": "SUNEL ARENA",
@@ -12,7 +12,7 @@
    "source": "games",
    "games": 2,
    "of_games": 2,
-   "league_name": "Iii"
+   "league_name": "Aek"
   },
   "APU Udine": {
    "arena": "PalaCarnera Credifriuli",
@@ -33,7 +33,10 @@
    "lon": 21.90494,
    "capacity": 3500,
    "league": "GBL",
-   "source": "sheet"
+   "source": "games",
+   "games": 2,
+   "of_games": 2,
+   "league_name": "Karditsas"
   },
   "ASVEL Basket": {
    "arena": "Astroballe",
@@ -129,7 +132,10 @@
    "lon": 22.95734,
    "capacity": 5138,
    "league": "GBL",
-   "source": "sheet"
+   "source": "games",
+   "games": 2,
+   "of_games": 2,
+   "league_name": "Aris"
   },
   "Arka Gdynia": {
    "arena": "Polsat Plus Arena Gdynia",
@@ -522,7 +528,7 @@
    "source": "games",
    "games": 3,
    "of_games": 3,
-   "league_name": "Bnei Penlink Herzliya Bnei Penlink Herzliya"
+   "league_name": "Bnei Penlink Herzliya"
   },
   "Boulazac Basket Dordogne": {
    "arena": "Le Palio",
@@ -789,7 +795,10 @@
    "lon": 20.69916,
    "capacity": 1600,
    "league": "GBL",
-   "source": "sheet"
+   "source": "games",
+   "games": 2,
+   "of_games": 2,
+   "league_name": "Lefkadas"
   },
   "Dubai Basketball": {
    "arena": "Coca Cola Arena",
@@ -1050,7 +1059,7 @@
    "source": "games",
    "games": 4,
    "of_games": 4,
-   "league_name": "Hapoel Altshuler Shaham Beer Sheva/Dimona Hapoel Altshuler Shaham Beer Sheva/Dimona"
+   "league_name": "Hapoel Altshuler Shaham Beer Sheva/Dimona"
   },
   "Hapoel Galil Elyon": {
    "arena": "Kfar Blum Hall",
@@ -1062,7 +1071,7 @@
    "source": "games",
    "games": 3,
    "of_games": 3,
-   "league_name": "Hapoel Alfi Benedek Galil Elion Hapoel Alfi Benedek Galil Elion"
+   "league_name": "Hapoel Alfi Benedek Galil Elion"
   },
   "Hapoel HaEmek": {
    "arena": "Haim Ohayon Hall (Gan Ner Sports Hall)",
@@ -1074,7 +1083,7 @@
    "source": "games",
    "games": 4,
    "of_games": 4,
-   "league_name": "Hapoel Gilat Telecom Haemek Hapoel Gilat Telecom Haemek"
+   "league_name": "Hapoel Gilat Telecom Haemek"
   },
   "Hapoel Holon": {
    "arena": "Holon Toto Hall",
@@ -1086,7 +1095,7 @@
    "source": "games",
    "games": 4,
    "of_games": 4,
-   "league_name": "Hapoel Maoz Daniel Holon Hapoel Maoz Daniel Holon"
+   "league_name": "Hapoel Maoz Daniel Holon"
   },
   "Hapoel Ironi Eilat": {
    "arena": "Begin Arena",
@@ -1098,7 +1107,7 @@
    "source": "games",
    "games": 4,
    "of_games": 4,
-   "league_name": "Hapoel Irony Eilat Hapoel Irony Eilat"
+   "league_name": "Hapoel Irony Eilat"
   },
   "Hapoel Jerusalem": {
    "arena": "Pais Arena Jerusalem",
@@ -1110,7 +1119,7 @@
    "source": "games",
    "games": 4,
    "of_games": 4,
-   "league_name": "Hapoel Midtown Jerusalem Hapoel Midtown Jerusalem"
+   "league_name": "Hapoel Midtown Jerusalem"
   },
   "Hapoel Tel Aviv": {
    "arena": "Shlomo Group Arena",
@@ -1122,7 +1131,7 @@
    "source": "games",
    "games": 4,
    "of_games": 4,
-   "league_name": "Hapoel IBI Tel Aviv Hapoel IBI Tel Aviv"
+   "league_name": "Hapoel IBI Tel Aviv"
   },
   "Helsinki Seagulls": {
    "arena": "Töölön Kisahalli",
@@ -1155,7 +1164,10 @@
    "lon": 22.96407,
    "capacity": 2500,
    "league": "GBL",
-   "source": "sheet"
+   "source": "games",
+   "games": 2,
+   "of_games": 2,
+   "league_name": "Iraklis"
   },
   "Ironi Kiryat Ata B.C.": {
    "arena": "Remez Hall",
@@ -1167,7 +1179,7 @@
    "source": "games",
    "games": 3,
    "of_games": 3,
-   "league_name": "Ironi Lati Kiryat Ata Ironi Lati Kiryat Ata"
+   "league_name": "Ironi Lati Kiryat Ata"
   },
   "Ironi Ness Ziona B.C.": {
    "arena": "Lev Hamoshava",
@@ -1179,7 +1191,7 @@
    "source": "games",
    "games": 2,
    "of_games": 2,
-   "league_name": "Ironi Hai Motors Ness Ziona Ironi Hai Motors Ness Ziona"
+   "league_name": "Ironi Hai Motors Ness Ziona"
   },
   "JDA Dijon Basket": {
    "arena": "Palais des Sports Jean-Michel Geoffroy",
@@ -1545,7 +1557,10 @@
    "lon": 24.41182,
    "capacity": 800,
    "league": "LEBL",
-   "source": "sheet"
+   "source": "games",
+   "games": 3,
+   "of_games": 3,
+   "league_name": "Keila Basket"
   },
   "Keila KK": {
    "arena": "Keila Tervisekeskus",
@@ -1554,7 +1569,10 @@
    "lon": 24.41182,
    "capacity": 800,
    "league": "LEBL",
-   "source": "sheet"
+   "source": "games",
+   "games": 4,
+   "of_games": 4,
+   "league_name": "Keila KK"
   },
   "King Wilki Morskie Szczecin": {
    "arena": "Hala SDS 2.0",
@@ -1596,7 +1614,10 @@
    "lon": 28.19075,
    "capacity": 3400,
    "league": "GBL",
-   "source": "sheet"
+   "source": "games",
+   "games": 3,
+   "of_games": 3,
+   "league_name": "Kolossos Rhodes"
   },
   "Korfez Basket (Manisa)": {
    "arena": "Şehit Polis Recep Topaloğlu Spor Salonu",
@@ -1764,7 +1785,7 @@
    "source": "games",
    "games": 3,
    "of_games": 3,
-   "league_name": "Maccabi Rotshtein Ashdod Maccabi Rotshtein Ashdod"
+   "league_name": "Maccabi Rotshtein Ashdod"
   },
   "Maccabi Ironi Ramat Gan": {
    "arena": "Zisman Hall",
@@ -1776,7 +1797,7 @@
    "source": "games",
    "games": 3,
    "of_games": 3,
-   "league_name": "Maccabi Cnaan Group Ramat Gan Maccabi Cnaan Group Ramat Gan"
+   "league_name": "Maccabi Cnaan Group Ramat Gan"
   },
   "Maccabi Rishon Lezion": {
    "arena": "Beit Maccabi Rishon LeZion",
@@ -1788,7 +1809,7 @@
    "source": "games",
    "games": 5,
    "of_games": 5,
-   "league_name": "Maccabi Tapuzina Rishon LeZion Maccabi Tapuzina Rishon LeZion"
+   "league_name": "Maccabi Tapuzina Rishon LeZion"
   },
   "Maccabi Tel Aviv": {
    "arena": "Menora Mivtachim Arena",
@@ -1800,7 +1821,7 @@
    "source": "games",
    "games": 5,
    "of_games": 5,
-   "league_name": "Maccabi Rapyd Tel Aviv Maccabi Rapyd Tel Aviv"
+   "league_name": "Maccabi Rapyd Tel Aviv"
   },
   "Maroussi B.C.": {
    "arena": "Κ.Γ. ΑΜΑΡΟΥΣΙΟΥ",
@@ -1809,7 +1830,10 @@
    "lon": 23.79897,
    "capacity": 1700,
    "league": "GBL",
-   "source": "sheet"
+   "source": "games",
+   "games": 1,
+   "of_games": 1,
+   "league_name": "Maroussi"
   },
   "Maxima Roma": {
    "arena": "PalaEur",
@@ -1860,7 +1884,10 @@
    "lon": 25.39541724,
    "capacity": 1014,
    "league": "GBL",
-   "source": "sheet"
+   "source": "games",
+   "games": 2,
+   "of_games": 2,
+   "league_name": "Mykonos"
   },
   "NKA Universitas Pecs": {
    "arena": "Nemzeti Kosárlabda Akadémia Fűzy Ákos Centerpálya",
@@ -1990,9 +2017,9 @@
    "capacity": 8142,
    "league": "GBL",
    "source": "games",
-   "games": 1,
-   "of_games": 1,
-   "league_name": "I Iii"
+   "games": 2,
+   "of_games": 2,
+   "league_name": "PAOK"
   },
   "Pallacanestro Cantu": {
    "arena": "PalaDesio",
@@ -2049,7 +2076,10 @@
    "lon": 23.78478,
    "capacity": 19000,
    "league": "GBL",
-   "source": "sheet"
+   "source": "games",
+   "games": 3,
+   "of_games": 3,
+   "league_name": "Panathinaikos"
   },
   "Paris Basketball": {
    "arena": "Adidas Arena",
@@ -2067,7 +2097,10 @@
    "lon": 23.6888,
    "capacity": 4000,
    "league": "GBL",
-   "source": "sheet"
+   "source": "games",
+   "games": 2,
+   "of_games": 2,
+   "league_name": "Peristeri"
   },
   "Perth Wildcats": {
    "arena": "RAC Arena",
@@ -2121,7 +2154,10 @@
    "lon": 21.77340222,
    "capacity": 4200,
    "league": "GBL",
-   "source": "sheet"
+   "source": "games",
+   "games": 3,
+   "of_games": 3,
+   "league_name": "Promitheas"
   },
   "Rapla KK": {
    "arena": "Sadolin Sports Hall",
@@ -2682,7 +2718,10 @@
    "lon": 20.86748133,
    "capacity": 1060,
    "league": "GBL",
-   "source": "sheet"
+   "source": "games",
+   "games": 1,
+   "of_games": 1,
+   "league_name": "Vikos"
   },
   "Virtus Bologna": {
    "arena": "PalaDozza",
@@ -2751,16 +2790,210 @@
    "league_name": "Zalgiris Kaunas"
   }
  },
- "unmatched": [
-  {
-   "league": "LEBL",
-   "club": "Keila Basket",
-   "arena": "Keila Tervisekeskus"
+ "unmatched": [],
+ "names": {
+  "ACB": {
+   "Asisa Joventut": "Club Joventut Badalona",
+   "Barca": "FC Barcelona Basquet",
+   "Casademont Zaragoza": "Basket Zaragoza",
+   "Fiatc Girona": "Basquet Girona",
+   "Ilerna Lleida": "Forca Lleida CE",
+   "Kidsandus Manresa": "Basquet Manresa",
+   "Kosner Baskonia": "Saski Baskonia",
+   "La Laguna Tenerife": "CB Canarias Tenerife",
+   "Leyma Coruna": "Basquet Coruna",
+   "Monbus Obradoiro": "Obradoiro CAB",
+   "Morabanc Andorra": "BC Andorra",
+   "Real Madrid": "Real Madrid Baloncesto",
+   "Recoletas Salud San Pablo Burgos": "CB San Pablo Burgos",
+   "Rio Breogan": "Club Baloncesto Breogan",
+   "Surne Bilbao": "Bilbao Surne Basket",
+   "Ucam Murcia": "UCAM Murcia",
+   "Unicaja": "Unicaja Malaga",
+   "Valencia Basket": "Valencia Basket"
   },
-  {
-   "league": "LEBL",
-   "club": "Keila KK",
-   "arena": "Keila Tervisekeskus"
+  "LKL": {
+   "Gargzdai": "Gargždai Basketball",
+   "Jonava": "BC Jonava",
+   "Juventus": "Utena Juventus",
+   "Lietkabelis": "Lietkabelis Panevėžys",
+   "Neptunas": "Neptūnas Klaipėda",
+   "Nevezis": "Nevėžis Kėdainiai",
+   "Rytas": "Rytas Vilnius",
+   "Siauliai": "BC Šiauliai",
+   "Taurage": "BC Tauragė",
+   "Zalgiris Kaunas": "Žalgiris Kaunas"
+  },
+  "BBL": {
+   "ALBA BERLIN": "Alba Berlin",
+   "BMA365 Bamberg Baskets": "Bamberg Baskets",
+   "Basketball Löwen Braunschweig": "Lowen Braunschweig",
+   "EWE Baskets Oldenburg": "EWE Baskets Oldenburg",
+   "FC Bayern München Basketball": "Bayern Munich",
+   "Fitness First Würzburg Baskets": "Wurzburg Baskets",
+   "MHP RIESEN Ludwigsburg": "MHP Riesen Ludwigsburg",
+   "NINERS Chemnitz": "Niners Chemnitz",
+   "Phoenix Hagen": "Phoenix Hagen",
+   "RASTA Vechta": "Rasta Vechta",
+   "ROSTOCK SEAWOLVES": "Rostock Seawolves",
+   "SKYLINERS": "Frankfurt Skyliners",
+   "SYNTAINICS MBC": "Syntainics MBC",
+   "Science City Jena": "Science City Jena",
+   "Telekom Baskets Bonn": "Telekom Baskets Bonn",
+   "VET-CONCEPT Gladiators Trier": "Gladiators Trier",
+   "Veolia Towers Hamburg": "Hamburg Towers",
+   "ratiopharm ulm": "Ratiopharm Ulm"
+  },
+  "NBL": {
+   "Adelaide 36ers": "Adelaide 36ers",
+   "Brisbane Bullets": "Brisbane Bullets",
+   "Cairns Taipans": "Cairns Taipans",
+   "Illawarra Hawks": "Illawarra Hawks",
+   "Melbourne United": "Melbourne United",
+   "NZ Breakers": "New Zealand Breakers",
+   "Perth Wildcats": "Perth Wildcats",
+   "South East Melbourne Phoenix": "South East Melbourne Phoenix",
+   "Sydney Kings": "Sydney Kings",
+   "Tasmania JackJumpers": "Tasmania JackJumpers"
+  },
+  "Korisliiga": {
+   "Bisons Loimaa": "Bisons Loimaa",
+   "Helsinki Seagulls": "Helsinki Seagulls",
+   "KTP-Basket": "KTP Basket",
+   "Kataja Basket": "Kataja Basket",
+   "Kauhajoki": "Kauhajoki",
+   "Kipinä Basket": "Kipina Basket",
+   "Korihait": "Korihait",
+   "Kouvot": "Kouvot",
+   "Lahti Basketball": "Lahti Basketball",
+   "Salon Vilpas": "Salon Vilpas",
+   "Tampereen Pyrintö": "Tampereen Pyrinto",
+   "Tapiolan Honka": "Tapiolan Honka"
+  },
+  "LEBL": {
+   "BC Pärnu": "BC Parnu",
+   "BK Liepaja": "BK Liepaja",
+   "BK Ogre": "BK Ogre",
+   "BK Ventspils": "BK Ventspils",
+   "Bigbank/Kalev": "BC Kalev/Cramo",
+   "Keila Basket": "Keila Basket",
+   "Keila KK": "Keila KK",
+   "Latvijas Universitāte": "Latvijas Universitates",
+   "Rigas Ekselences Juniori": "Rigas Ekselences Juniori",
+   "Rīgas Zeļļi": "Rigas Zelli",
+   "TalTech/ALEXELA": "TalTech Basketball",
+   "Tartu Ülikool Maks & Moorits": "Tartu Ulikool",
+   "VEF Rīga": "BK VEF Riga",
+   "Valmiera Glass VIA": "Valmiera Glass/ViA",
+   "Viimsi": "KK Viimsi"
+  },
+  "ABA": {
+   "BC Vienna": "BC Vienna",
+   "Borac Mozzart": "KK Borac Čačak",
+   "Bosna BH Telecom": "KK Bosna Royal",
+   "Budućnost VOLI": "KK Buducnost",
+   "Cedevita Olimpija": "KK Cedevita Olimpija",
+   "Cibona": "KK Cibona",
+   "Crvena zvezda Meridianbet": "KK Crvena zvezda",
+   "Dubai Basketball": "Dubai Basketball",
+   "FMP": "KK FMP Beograd",
+   "HKK Široki TT Kabeli": "HKK Široki",
+   "Igokea m:tel": "KK Igokea",
+   "Krka": "KK Krka",
+   "Mega Superbet": "KK Mega Basket",
+   "Partizan Mozzart Bet": "KK Partizan",
+   "Perspektiva Ilirija": "KK Ilirija",
+   "SC Derby": "KK Studentski centar Derby",
+   "Slovan Bratislava": "BC Slovan Bratislava",
+   "Spartak Office Shoes": "KK Spartak Subotica",
+   "U-BT Cluj-Napoca": "U-BT Cluj - Napoca",
+   "Zadar": "KK Zadar"
+  },
+  "LBA": {
+   "APU Old Wild West Udine": "APU Udine",
+   "Acqua S.Bernardo Cantù": "Pallacanestro Cantu",
+   "Armani Olimpia Milano": "Olimpia Milano",
+   "BC Roma": "BC Roma SPQR",
+   "Bertram Derthona Tortona": "Derthona Basket",
+   "Dolomiti Energia Trentino": "Aquila Trento",
+   "Longobardi Scafati Basket": "Scafati Basket",
+   "Maxima Roma": "Maxima Roma",
+   "Napoli Basketball": "Napoli Basket",
+   "Nutribullet Treviso Basket": "Universo Treviso Basket",
+   "Openjobmetis Varese": "Pallacanestro Varese",
+   "Pallacanestro Trieste": "Pallacanestro Trieste",
+   "Tezenis Verona": "Scaligera Basket Verona",
+   "UNA Hotels Reggio Emilia": "Pallacanestro Reggiana",
+   "Umana Reyer Venezia": "Umana Reyer Venezia",
+   "Virtus Costa Bologna": "Virtus Bologna"
+  },
+  "PLK": {
+   "AMW Arka Gdynia": "Arka Gdynia",
+   "Anwil Włocławek": "Anwil Wloclawek",
+   "Arriva Lotto Twarde Pierniki Toruń": "Twarde Pierniki Torun",
+   "Dziki Warszawa": "Dziki Warszawa",
+   "Enea Łaciate Astoria Bydgoszcz": "Astoria Bydgoszcz",
+   "Energa Czarni Słupsk": "Czarni Slupsk",
+   "Energa Trefl Sopot": "Trefl Sopot",
+   "Euvic GTK Gliwice": "GTK Gliwice",
+   "Górnik Zamek Książ Wałbrzych": "Gornik Walbrzych",
+   "King Szczecin": "King Wilki Morskie Szczecin",
+   "Legia Warszawa": "Legia Warszawa",
+   "MKS Dąbrowa Górnicza": "MKS Dabrowa Gornicza",
+   "PGE Start Lublin": "Start Lublin",
+   "Tasomix Rosiek Stal Ostrów Wielkopolski": "Stal Ostrow Wielkopolski",
+   "WKS Śląsk Wrocław": "Slask Wroclaw",
+   "Zastal Zielona Góra": "Zastal Zielona Gora"
+  },
+  "BSL": {
+   "Aliağa Petkim Spor": "Petkim Spor Kulubu",
+   "Anadolu Efes": "Anadolu Efes S.K.",
+   "Bahçeşehir Koleji": "Bahcesehir Koleji",
+   "Beşiktaş": "Besiktas J.K.",
+   "Biotekno Körfez Basket": "Korfez Basket (Manisa)",
+   "Bursaspor Basketbol": "Bursaspor Basketbol",
+   "Esenler Erokspor": "Esenler Erokspor",
+   "Fenerbahçe Tarfin": "Fenerbahce Istanbul",
+   "Galatasaray Mct Technıc": "Galatasaray S.K.",
+   "Glint Çayırova Belediyesi": "Cayirova Belediyespor",
+   "Karşıyaka": "Karsiyaka Basket",
+   "Pizzabulls Bordo Bandırma": "Bandirma Bordo Basketbol",
+   "Tofaş": "Tofas Bursa",
+   "Trabzonspor": "Trabzonspor B.K.",
+   "Türk Telekom": "Turk Telekom B.K.",
+   "Yukatel Denizli Basket": "Denizli Basket (Merkezefendi)"
+  },
+  "GBL": {
+   "Aek": "AEK B.C.",
+   "Aris": "Aris B.C.",
+   "Iraklis": "Iraklis B.C.",
+   "Karditsas": "ASK Karditsas B.C.",
+   "Kolossos Rhodes": "Kolossos Rodou B.C.",
+   "Lefkadas": "Doxa Lefkadas B.C.",
+   "Maroussi": "Maroussi B.C.",
+   "Mykonos": "Mykonos B.C.",
+   "Olympiacos": "Olympiacos B.C.",
+   "PAOK": "PAOK BC",
+   "Panathinaikos": "Panathinaikos B.C.",
+   "Peristeri": "Peristeri B.C.",
+   "Promitheas": "Promitheas Patras B.C.",
+   "Vikos": "Vikos Falcons Ioannina B.C."
+  },
+  "Winner League": {
+   "Bnei Penlink Herzliya": "Bnei Herzliya",
+   "Hapoel Alfi Benedek Galil Elion": "Hapoel Galil Elyon",
+   "Hapoel Altshuler Shaham Beer Sheva/Dimona": "Hapoel Beer Sheeva",
+   "Hapoel Gilat Telecom Haemek": "Hapoel HaEmek",
+   "Hapoel IBI Tel Aviv": "Hapoel Tel Aviv",
+   "Hapoel Irony Eilat": "Hapoel Ironi Eilat",
+   "Hapoel Maoz Daniel Holon": "Hapoel Holon",
+   "Hapoel Midtown Jerusalem": "Hapoel Jerusalem",
+   "Ironi Hai Motors Ness Ziona": "Ironi Ness Ziona B.C.",
+   "Ironi Lati Kiryat Ata": "Ironi Kiryat Ata B.C.",
+   "Maccabi Cnaan Group Ramat Gan": "Maccabi Ironi Ramat Gan",
+   "Maccabi Rapyd Tel Aviv": "Maccabi Tel Aviv",
+   "Maccabi Rotshtein Ashdod": "Maccabi Ashdod B.C.",
+   "Maccabi Tapuzina Rishon LeZion": "Maccabi Rishon Lezion"
   }
- ]
+ }
 }

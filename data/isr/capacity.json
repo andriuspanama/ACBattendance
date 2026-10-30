@@ -1,10 +1,10 @@
 {
  "league": "Winner League",
  "season": "2026-27",
- "updated": "2026-10-30T02:01:24+00:00",
+ "updated": "2026-10-30T16:16:14+00:00",
  "clubs": [
   {
-   "club": "Bnei Penlink Herzliya Bnei Penlink Herzliya",
+   "club": "Bnei Penlink Herzliya",
    "home_games_counted": 2,
    "games_with_capacity": 2,
    "capacity": 1240,
@@ -19,7 +19,7 @@
    ]
   },
   {
-   "club": "Hapoel Alfi Benedek Galil Elion Hapoel Alfi Benedek Galil Elion",
+   "club": "Hapoel Alfi Benedek Galil Elion",
    "home_games_counted": 1,
    "games_with_capacity": 1,
    "capacity": 1382,
@@ -34,7 +34,7 @@
    ]
   },
   {
-   "club": "Hapoel Altshuler Shaham Beer Sheva/Dimona Hapoel Altshuler Shaham Beer Sheva/Dimona",
+   "club": "Hapoel Altshuler Shaham Beer Sheva/Dimona",
    "home_games_counted": 2,
    "games_with_capacity": 2,
    "capacity": 3009,
@@ -49,7 +49,7 @@
    ]
   },
   {
-   "club": "Hapoel Gilat Telecom Haemek Hapoel Gilat Telecom Haemek",
+   "club": "Hapoel Gilat Telecom Haemek",
    "home_games_counted": 1,
    "games_with_capacity": 1,
    "capacity": 2069,
@@ -64,7 +64,7 @@
    ]
   },
   {
-   "club": "Hapoel IBI Tel Aviv Hapoel IBI Tel Aviv",
+   "club": "Hapoel IBI Tel Aviv",
    "home_games_counted": 2,
    "games_with_capacity": 2,
    "capacity": 3536,
@@ -79,7 +79,7 @@
    ]
   },
   {
-   "club": "Hapoel Irony Eilat Hapoel Irony Eilat",
+   "club": "Hapoel Irony Eilat",
    "home_games_counted": 1,
    "games_with_capacity": 1,
    "capacity": 1374,
@@ -94,7 +94,7 @@
    ]
   },
   {
-   "club": "Hapoel Maoz Daniel Holon Hapoel Maoz Daniel Holon",
+   "club": "Hapoel Maoz Daniel Holon",
    "home_games_counted": 1,
    "games_with_capacity": 1,
    "capacity": 5337,
@@ -109,7 +109,7 @@
    ]
   },
   {
-   "club": "Hapoel Midtown Jerusalem Hapoel Midtown Jerusalem",
+   "club": "Hapoel Midtown Jerusalem",
    "home_games_counted": 1,
    "games_with_capacity": 1,
    "capacity": 11600,
@@ -124,7 +124,7 @@
    ]
   },
   {
-   "club": "Ironi Hai Motors Ness Ziona Ironi Hai Motors Ness Ziona",
+   "club": "Ironi Hai Motors Ness Ziona",
    "home_games_counted": 1,
    "games_with_capacity": 1,
    "capacity": 1300,
@@ -139,7 +139,7 @@
    ]
   },
   {
-   "club": "Maccabi Rapyd Tel Aviv Maccabi Rapyd Tel Aviv",
+   "club": "Maccabi Rapyd Tel Aviv",
    "home_games_counted": 2,
    "games_with_capacity": 2,
    "capacity": 10871,
@@ -154,7 +154,7 @@
    ]
   },
   {
-   "club": "Maccabi Rotshtein Ashdod Maccabi Rotshtein Ashdod",
+   "club": "Maccabi Rotshtein Ashdod",
    "home_games_counted": 2,
    "games_with_capacity": 2,
    "capacity": 2009,
@@ -169,7 +169,7 @@
    ]
   },
   {
-   "club": "Maccabi Tapuzina Rishon LeZion Maccabi Tapuzina Rishon LeZion",
+   "club": "Maccabi Tapuzina Rishon LeZion",
    "home_games_counted": 3,
    "games_with_capacity": 3,
    "capacity": 1620,

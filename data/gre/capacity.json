@@ -1,62 +1,138 @@
 {
  "league": "GBL",
  "season": "2026-27",
- "updated": "2026-10-30T02:01:24+00:00",
- "clubs": [],
+ "updated": "2026-10-30T16:16:14+00:00",
+ "clubs": [
+  {
+   "club": "Aris",
+   "home_games_counted": 1,
+   "games_with_capacity": 1,
+   "capacity": 5138,
+   "weighted_capacity": 5900,
+   "filling_rate": 1.0,
+   "arenas": [
+    {
+     "arena": "ΑΛΕΞΑΝΔΡΕΙΟ",
+     "games": 1,
+     "capacity": 5138
+    }
+   ]
+  },
+  {
+   "club": "Karditsas",
+   "home_games_counted": 1,
+   "games_with_capacity": 1,
+   "capacity": 3500,
+   "weighted_capacity": 3500,
+   "filling_rate": 1.0,
+   "arenas": [
+    {
+     "arena": "Ν.Κ.Γ. \"ΓΙΑΝΝΗΣ ΜΠΟΥΡΟΥΣΗΣ\"",
+     "games": 1,
+     "capacity": 3500
+    }
+   ]
+  },
+  {
+   "club": "Lefkadas",
+   "home_games_counted": 2,
+   "games_with_capacity": 2,
+   "capacity": 1600,
+   "weighted_capacity": 1600,
+   "filling_rate": 0.9375,
+   "arenas": [
+    {
+     "arena": "ΔΗΜΟΤΙΚΟ ΚΛΕΙΣΤΟ ΓΥΜΝΑΣΤΗΡΙΟ ΛΕΥΚΑΔΑΣ",
+     "games": 2,
+     "capacity": 1600
+    }
+   ]
+  },
+  {
+   "club": "Promitheas",
+   "home_games_counted": 1,
+   "games_with_capacity": 1,
+   "capacity": 4200,
+   "weighted_capacity": 4200,
+   "filling_rate": 0.4762,
+   "arenas": [
+    {
+     "arena": "ΠΕΑΚ ΠΑΤΡΑΣ \"ΔΗΜ. ΤΟΦΑΛΟΣ\"",
+     "games": 1,
+     "capacity": 4200
+    }
+   ]
+  },
+  {
+   "club": "Vikos",
+   "home_games_counted": 1,
+   "games_with_capacity": 1,
+   "capacity": 1060,
+   "weighted_capacity": 1500,
+   "filling_rate": 1.0,
+   "arenas": [
+    {
+     "arena": "Κ.Γ. ΙΩΑΝΝΙΝΩΝ «ΣΙΔΕΡΗΣ ΚΑΡΑΔΗΜΑΣ»",
+     "games": 1,
+     "capacity": 1060
+    }
+   ]
+  }
+ ],
  "unknown_arenas": [],
- "last_attendance_game": "",
+ "last_attendance_game": "2026-10-25",
  "games": {
   "0AA956E9": {
-   "arena": "Î. Î. ÎÎÎÎÎÎÎÎÎ£ Î¡ÎÎÎÎ¥",
-   "capacity": null
+   "arena": "Κ. Γ. ΚΑΛΛΙΘΕΑΣ ΡΟΔΟΥ",
+   "capacity": 3400
   },
   "1F83E401": {
    "arena": "SUNEL ARENA",
    "capacity": 9025
   },
   "47FBE805": {
-   "arena": "Î.Î. Â«Î ÎÎ. Î§ÎÎÎÎ©Î¤ÎÂ» ÎÎÎ© ÎÎÎ¡Î ÎÎ¥ÎÎÎÎÎ¥",
-   "capacity": null
+   "arena": "Κ.Γ. «ΠΑΝ. ΧΑΝΙΩΤΗΣ» ΑΝΩ ΜΕΡΑ ΜΥΚΟΝΟΥ",
+   "capacity": 1014
   },
   "A7698911": {
-   "arena": "Î.Î.Î. ÎÎÎÎÎÎÎ£ ÎÎ ÎÎ¥Î¡ÎÎ¥Î£ÎÎ£",
-   "capacity": null
+   "arena": "Ν.Κ.Γ. \"ΓΙΑΝΝΗΣ ΜΠΟΥΡΟΥΣΗΣ\"",
+   "capacity": 3500
   },
   "DAA7CA1B": {
-   "arena": "Î ÎÎÎ Î ÎÎ¤Î¡ÎÎ£ ÎÎÎ. Î¤ÎÎ¦ÎÎÎÎ£",
-   "capacity": null
+   "arena": "ΠΕΑΚ ΠΑΤΡΑΣ \"ΔΗΜ. ΤΟΦΑΛΟΣ\"",
+   "capacity": 4200
   },
   "4A03748D": {
-   "arena": "ÎÎÎÎÎ©Î¦ÎÎÎ",
-   "capacity": null
+   "arena": "ΙΒΑΝΩΦΕΙΟ",
+   "capacity": 2500
   },
   "FDBBC910": {
    "arena": "TELEKOM CENTER ATHENS",
    "capacity": 19000
   },
   "0048BBEF": {
-   "arena": "Î.Î.Î. ÎÎÎÎÎÎÎ£ ÎÎ ÎÎ¥Î¡ÎÎ¥Î£ÎÎ£",
-   "capacity": null
+   "arena": "Ν.Κ.Γ. \"ΓΙΑΝΝΗΣ ΜΠΟΥΡΟΥΣΗΣ\"",
+   "capacity": 3500
   },
   "08A5D3D2": {
-   "arena": "Î.Î. ÎÎÎÎ¡ÎÎ¥Î£ÎÎÎ¥",
-   "capacity": null
+   "arena": "Κ.Γ. ΑΜΑΡΟΥΣΙΟΥ",
+   "capacity": 1700
   },
   "1C3A75D4": {
-   "arena": "ÎÎÎÎÎÎÎÎ¡ÎÎÎ",
-   "capacity": null
+   "arena": "ΑΛΕΞΑΝΔΡΕΙΟ",
+   "capacity": 5138
   },
   "28F71477": {
    "arena": "PAOK SPORTS ARENA",
    "capacity": 8142
   },
   "3BB0E9E4": {
-   "arena": "Î ÎÎÎ Î ÎÎ¤Î¡ÎÎ£ ÎÎÎ. Î¤ÎÎ¦ÎÎÎÎ£",
-   "capacity": null
+   "arena": "ΠΕΑΚ ΠΑΤΡΑΣ \"ΔΗΜ. ΤΟΦΑΛΟΣ\"",
+   "capacity": 4200
   },
   "C519D6ED": {
-   "arena": "Î.Î. Î ÎÎ¡ÎÎ£Î¤ÎÎ¡ÎÎÎ¥ ÎÎÎÎ¡ÎÎÎ£ Î ÎÎ ÎÎÎÎ¡ÎÎÎ¥",
-   "capacity": null
+   "arena": "Κ.Γ. ΠΕΡΙΣΤΕΡΙΟΥ \"ΑΝΔΡΕΑΣ ΠΑΠΑΝΔΡΕΟΥ\"",
+   "capacity": 4000
   },
   "4930A53C": {
    "arena": "SUNEL ARENA",
@@ -67,36 +143,36 @@
    "capacity": 9025
   },
   "4A05E464": {
-   "arena": "Î. Î. ÎÎÎÎÎÎÎÎÎ£ Î¡ÎÎÎÎ¥",
-   "capacity": null
+   "arena": "Κ. Γ. ΚΑΛΛΙΘΕΑΣ ΡΟΔΟΥ",
+   "capacity": 3400
   },
   "575F58C3": {
-   "arena": "ÎÎÎÎÎÎÎÎ¡ÎÎÎ",
-   "capacity": null
+   "arena": "ΑΛΕΞΑΝΔΡΕΙΟ",
+   "capacity": 5138
   },
   "B6A4C33F": {
-   "arena": "ÎÎÎÎÎ©Î¦ÎÎÎ",
-   "capacity": null
+   "arena": "ΙΒΑΝΩΦΕΙΟ",
+   "capacity": 2500
   },
   "C59619E9": {
-   "arena": "ÎÎÎÎÎ¤ÎÎÎ ÎÎÎÎÎ£Î¤Î ÎÎ¥ÎÎÎÎ£Î¤ÎÎ¡ÎÎ ÎÎÎ¥ÎÎÎÎÎ£",
-   "capacity": null
+   "arena": "ΔΗΜΟΤΙΚΟ ΚΛΕΙΣΤΟ ΓΥΜΝΑΣΤΗΡΙΟ ΛΕΥΚΑΔΑΣ",
+   "capacity": 1600
   },
   "6CC281CB": {
-   "arena": "Î. Î. ÎÎ©ÎÎÎÎÎÎ©Î Â«Î£ÎÎÎÎ¡ÎÎ£ ÎÎÎ¡ÎÎÎÎÎÎ£Â»",
-   "capacity": null
+   "arena": "Κ.Γ. ΙΩΑΝΝΙΝΩΝ «ΣΙΔΕΡΗΣ ΚΑΡΑΔΗΜΑΣ»",
+   "capacity": 1060
   },
   "9BA09DF1": {
    "arena": "TELEKOM CENTER ATHENS",
    "capacity": 19000
   },
   "2A098C20": {
-   "arena": "Î.Î. Â«Î ÎÎ. Î§ÎÎÎÎ©Î¤ÎÎ£Â» ÎÎÎ© ÎÎÎ¡Î ÎÎ¥ÎÎÎÎÎ¥",
-   "capacity": null
+   "arena": "Κ.Γ. «ΠΑΝ. ΧΑΝΙΩΤΗΣ» ΑΝΩ ΜΕΡΑ ΜΥΚΟΝΟΥ",
+   "capacity": 1014
   },
   "8645D767": {
-   "arena": "Î.Î. Î ÎÎ¡ÎÎ£Î¤ÎÎ¡ÎÎÎ¥ ÎÎÎÎ¡ÎÎÎ£ Î ÎÎ ÎÎÎÎ¡ÎÎÎ¥",
-   "capacity": null
+   "arena": "Κ.Γ. ΠΕΡΙΣΤΕΡΙΟΥ \"ΑΝΔΡΕΑΣ ΠΑΠΑΝΔΡΕΟΥ\"",
+   "capacity": 4000
   },
   "A904D6E3": {
    "arena": "TELEKOM CENTER ATHENS",
@@ -107,16 +183,16 @@
    "capacity": 8142
   },
   "D8B7382E": {
-   "arena": "ÎÎÎÎÎ¤ÎÎÎ ÎÎÎÎÎ£Î¤Î ÎÎ¥ÎÎÎÎ£Î¤ÎÎ¡ÎÎ ÎÎÎ¥ÎÎÎÎÎ£",
-   "capacity": null
+   "arena": "ΔΗΜΟΤΙΚΟ ΚΛΕΙΣΤΟ ΓΥΜΝΑΣΤΗΡΙΟ ΛΕΥΚΑΔΑΣ",
+   "capacity": 1600
   },
   "31F4330D": {
-   "arena": "Î ÎÎÎ Î ÎÎ¤Î¡ÎÎ£ ÎÎÎ. Î¤ÎÎ¦ÎÎÎÎ£",
-   "capacity": null
+   "arena": "ΠΕΑΚ ΠΑΤΡΑΣ \"ΔΗΜ. ΤΟΦΑΛΟΣ\"",
+   "capacity": 4200
   },
   "8C9531D2": {
-   "arena": "Î. Î. ÎÎÎÎÎÎÎÎÎ£ Î¡ÎÎÎÎ¥",
-   "capacity": null
+   "arena": "Κ. Γ. ΚΑΛΛΙΘΕΑΣ ΡΟΔΟΥ",
+   "capacity": 3400
   }
  }
 }
