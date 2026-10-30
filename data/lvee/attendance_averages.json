@@ -1,0 +1,263 @@
+{
+  "league": "LEBL",
+  "season": "2026-27",
+  "updated": "2026-10-30T01:38:39+00:00",
+  "clubs": [
+    {
+      "league": "LEBL",
+      "season": "2026-27",
+      "club": "Tartu Ülikool Maks & Moorits",
+      "home_games_counted": 3,
+      "average": 1518,
+      "total": 4555,
+      "max": 1915,
+      "min": 975,
+      "arenas": [
+        {
+          "arena": "Tartu TÜ sph (Kullami peaväljak)",
+          "games": 3
+        }
+      ]
+    },
+    {
+      "league": "LEBL",
+      "season": "2026-27",
+      "club": "Valmiera Glass VIA",
+      "home_games_counted": 4,
+      "average": 974,
+      "total": 3895,
+      "max": 1449,
+      "min": 437,
+      "arenas": [
+        {
+          "arena": "Valmieras Olimpiskais Centrs",
+          "games": 3
+        },
+        {
+          "arena": "Ruijena SH",
+          "games": 1
+        }
+      ]
+    },
+    {
+      "league": "LEBL",
+      "season": "2026-27",
+      "club": "BK Ventspils",
+      "home_games_counted": 2,
+      "average": 813,
+      "total": 1626,
+      "max": 834,
+      "min": 792,
+      "arenas": [
+        {
+          "arena": "Olimpiskais centrs Ventspils",
+          "games": 2
+        }
+      ]
+    },
+    {
+      "league": "LEBL",
+      "season": "2026-27",
+      "club": "BK Ogre",
+      "home_games_counted": 3,
+      "average": 776,
+      "total": 2329,
+      "max": 1008,
+      "min": 621,
+      "arenas": [
+        {
+          "arena": "Sporta arena Ogre",
+          "games": 3
+        }
+      ]
+    },
+    {
+      "league": "LEBL",
+      "season": "2026-27",
+      "club": "TalTech/ALEXELA",
+      "home_games_counted": 4,
+      "average": 739,
+      "total": 2957,
+      "max": 794,
+      "min": 697,
+      "arenas": [
+        {
+          "arena": "Tallinn TalTech Spordihoone",
+          "games": 4
+        }
+      ]
+    },
+    {
+      "league": "LEBL",
+      "season": "2026-27",
+      "club": "BC Pärnu",
+      "home_games_counted": 3,
+      "average": 643,
+      "total": 1930,
+      "max": 814,
+      "min": 534,
+      "arenas": [
+        {
+          "arena": "Pärnu Spordihall",
+          "games": 3
+        }
+      ]
+    },
+    {
+      "league": "LEBL",
+      "season": "2026-27",
+      "club": "Bigbank/Kalev",
+      "home_games_counted": 4,
+      "average": 500,
+      "total": 1999,
+      "max": 572,
+      "min": 433,
+      "arenas": [
+        {
+          "arena": "Nord Spordihoone",
+          "games": 4
+        }
+      ]
+    },
+    {
+      "league": "LEBL",
+      "season": "2026-27",
+      "club": "BK Liepaja",
+      "home_games_counted": 3,
+      "average": 483,
+      "total": 1450,
+      "max": 660,
+      "min": 150,
+      "arenas": [
+        {
+          "arena": "Liepajas Olimpiskais centrs",
+          "games": 3
+        }
+      ]
+    },
+    {
+      "league": "LEBL",
+      "season": "2026-27",
+      "club": "Viimsi",
+      "home_games_counted": 4,
+      "average": 478,
+      "total": 1910,
+      "max": 814,
+      "min": 291,
+      "arenas": [
+        {
+          "arena": "Forus Spordikeskus Viimsi",
+          "games": 4
+        }
+      ]
+    },
+    {
+      "league": "LEBL",
+      "season": "2026-27",
+      "club": "Rīgas Zeļļi",
+      "home_games_counted": 3,
+      "average": 452,
+      "total": 1356,
+      "max": 546,
+      "min": 351,
+      "arenas": [
+        {
+          "arena": "Komandas Sporta Spelu Halle",
+          "games": 2
+        },
+        {
+          "arena": "Daugavas sporta nams",
+          "games": 1
+        }
+      ]
+    },
+    {
+      "league": "LEBL",
+      "season": "2026-27",
+      "club": "Keila KK",
+      "home_games_counted": 4,
+      "average": 446,
+      "total": 1782,
+      "max": 627,
+      "min": 304,
+      "arenas": [
+        {
+          "arena": "Keila Tervisekeskus",
+          "games": 4
+        }
+      ]
+    },
+    {
+      "league": "LEBL",
+      "season": "2026-27",
+      "club": "VEF Rīga",
+      "home_games_counted": 4,
+      "average": 403,
+      "total": 1612,
+      "max": 504,
+      "min": 248,
+      "arenas": [
+        {
+          "arena": "Rimi Olimpiskais centrs",
+          "games": 4
+        }
+      ]
+    },
+    {
+      "league": "LEBL",
+      "season": "2026-27",
+      "club": "Keila Basket",
+      "home_games_counted": 3,
+      "average": 166,
+      "total": 499,
+      "max": 209,
+      "min": 131,
+      "arenas": [
+        {
+          "arena": "Keila Tervisekeskus",
+          "games": 3
+        }
+      ]
+    },
+    {
+      "league": "LEBL",
+      "season": "2026-27",
+      "club": "Latvijas Universitāte",
+      "home_games_counted": 2,
+      "average": 164,
+      "total": 328,
+      "max": 203,
+      "min": 125,
+      "arenas": [
+        {
+          "arena": "O. Kalpaka RTDP",
+          "games": 1
+        },
+        {
+          "arena": "Marupe SC",
+          "games": 1
+        }
+      ]
+    },
+    {
+      "league": "LEBL",
+      "season": "2026-27",
+      "club": "Rigas Ekselences Juniori",
+      "home_games_counted": 4,
+      "average": 134,
+      "total": 537,
+      "max": 185,
+      "min": 82,
+      "arenas": [
+        {
+          "arena": "Komandas Sporta Spelu Halle",
+          "games": 3
+        },
+        {
+          "arena": "Daugavas sporta nams",
+          "games": 1
+        }
+      ]
+    }
+  ]
+}
