@@ -3,8 +3,10 @@
  "source": "basket.fi (Sportradar)",
  "ok": true,
  "error": "",
- "notes": [],
+ "notes": [
+  "Patikrinta 6 sužaistų rungtynių, bet nė vienose nerasta lankomumo"
+ ],
  "last_ok": "2026-10-30T01:36:49+00:00",
  "last_new_attendance": "2026-10-30T01:36:49+00:00",
- "run_at": "2026-10-30T01:36:49+00:00"
+ "run_at": "2026-10-30T07:23:31+00:00"
 }
