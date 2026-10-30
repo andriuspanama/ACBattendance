@@ -1,6 +1,6 @@
 {
  "season": "2026-27",
- "updated": "2026-10-30T02:01:24+00:00",
+ "updated": "2026-10-30T08:04:54+00:00",
  "clubs": {
   "AEK B.C.": {
    "arena": "SUNEL ARENA",
@@ -184,8 +184,8 @@
    "capacity": 2246,
    "league": "LKL",
    "source": "games",
-   "games": 1,
-   "of_games": 1,
+   "games": 3,
+   "of_games": 3,
    "league_name": "Jonava"
   },
   "BC Kalev/Cramo": {
@@ -292,8 +292,8 @@
    "capacity": 5500,
    "league": "LKL",
    "source": "games",
-   "games": 2,
-   "of_games": 2,
+   "games": 3,
+   "of_games": 3,
    "league_name": "Siauliai"
   },
   "BCM Gravelines - Dunkerque": {
@@ -982,8 +982,8 @@
    "capacity": 1500,
    "league": "LKL",
    "source": "games",
-   "games": 1,
-   "of_games": 1,
+   "games": 3,
+   "of_games": 3,
    "league_name": "Gargzdai"
   },
   "Gladiators Trier": {
@@ -1696,8 +1696,8 @@
    "capacity": 5600,
    "league": "LKL",
    "source": "games",
-   "games": 1,
-   "of_games": 1,
+   "games": 2,
+   "of_games": 2,
    "league_name": "Lietkabelis"
   },
   "Limoges CSP": {
@@ -1900,8 +1900,8 @@
    "capacity": 6200,
    "league": "LKL",
    "source": "games",
-   "games": 1,
-   "of_games": 1,
+   "games": 3,
+   "of_games": 3,
    "league_name": "Neptunas"
   },
   "Nevėžis Kėdainiai": {
@@ -2212,8 +2212,8 @@
    "capacity": 10000,
    "league": "LKL",
    "source": "games",
-   "games": 1,
-   "of_games": 1,
+   "games": 2,
+   "of_games": 2,
    "league_name": "Rytas"
   },
   "SIG Strasbourg": {
@@ -2647,8 +2647,8 @@
    "capacity": 2500,
    "league": "LKL",
    "source": "games",
-   "games": 3,
-   "of_games": 3,
+   "games": 4,
+   "of_games": 4,
    "league_name": "Juventus"
   },
   "Valencia Basket": {
@@ -2746,8 +2746,8 @@
    "capacity": 15415,
    "league": "LKL",
    "source": "games",
-   "games": 2,
-   "of_games": 2,
+   "games": 4,
+   "of_games": 4,
    "league_name": "Zalgiris Kaunas"
   }
  },
