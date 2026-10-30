@@ -1,0 +1,2440 @@
+{
+ "season": "2026-27",
+ "updated": "2026-10-30T01:37:30+00:00",
+ "clubs": {
+  "AEK B.C.": {
+   "arena": "SUNEL ARENA",
+   "city": "Ano Liosia",
+   "lat": 38.08169,
+   "lon": 23.68652,
+   "capacity": 9025,
+   "league": "GBL",
+   "source": "sheet"
+  },
+  "APU Udine": {
+   "arena": "PalaCarnera Credifriuli",
+   "city": "Udine",
+   "lat": 46.08206,
+   "lon": 13.20186,
+   "capacity": 3500,
+   "league": "LBA",
+   "source": "sheet"
+  },
+  "ASK Karditsas B.C.": {
+   "arena": "Ν.Κ.Γ. \"ΓΙΑΝΝΗΣ ΜΠΟΥΡΟΥΣΗΣ\"",
+   "city": "Karditsa",
+   "lat": 39.3592,
+   "lon": 21.90494,
+   "capacity": 3500,
+   "league": "GBL",
+   "source": "sheet"
+  },
+  "ASVEL Basket": {
+   "arena": "Astroballe",
+   "city": "Villeurbanne",
+   "lat": 45.76642,
+   "lon": 4.90736,
+   "capacity": 5556,
+   "league": "Betclic Elite",
+   "source": "sheet"
+  },
+  "Adelaide 36ers": {
+   "arena": "Adelaide Entertainment Centre",
+   "city": "Adelaide",
+   "lat": -34.90794,
+   "lon": 138.5738,
+   "capacity": 10000,
+   "league": "NBL",
+   "source": "sheet"
+  },
+  "Alba - Fehervar": {
+   "arena": "Alba Regia Sportcsarnok",
+   "city": "Székesfehérvár",
+   "lat": 47.19139,
+   "lon": 18.41937,
+   "capacity": 2400,
+   "league": "NB I/A",
+   "source": "sheet"
+  },
+  "Alba Berlin": {
+   "arena": "Uber Arena",
+   "city": "Berlin",
+   "lat": 52.50637,
+   "lon": 13.44377,
+   "capacity": 13488,
+   "league": "BBL",
+   "source": "games",
+   "games": 4,
+   "of_games": 4,
+   "league_name": "ALBA BERLIN"
+  },
+  "Anadolu Efes S.K.": {
+   "arena": "Turkcell Basketbol Gelişim Merkezi",
+   "city": "İstanbul",
+   "lat": 40.99558,
+   "lon": 28.91913,
+   "capacity": 10000,
+   "league": "BSL",
+   "source": "games",
+   "games": 14,
+   "of_games": 15,
+   "league_name": "Anadolu Efes"
+  },
+  "Antwerp Giants": {
+   "arena": "Lotto Arena",
+   "city": "Antwerpen",
+   "lat": 51.23012,
+   "lon": 4.44185,
+   "capacity": 5218,
+   "league": "Other",
+   "source": "sheet"
+  },
+  "Anwil Wloclawek": {
+   "arena": "Hala Mistrzów",
+   "city": "Włocławek",
+   "lat": 52.64209,
+   "lon": 19.07856,
+   "capacity": 3963,
+   "league": "PLK",
+   "source": "sheet"
+  },
+  "Aquila Trento": {
+   "arena": "BTS Arena",
+   "city": "Trento",
+   "lat": 46.04098,
+   "lon": 11.12275,
+   "capacity": 3882,
+   "league": "LBA",
+   "source": "sheet"
+  },
+  "Aris B.C.": {
+   "arena": "ΑΛΕΞΑΝΔΡΕΙΟ",
+   "city": "Thessaloniki",
+   "lat": 40.62687,
+   "lon": 22.95734,
+   "capacity": 5138,
+   "league": "GBL",
+   "source": "sheet"
+  },
+  "Arka Gdynia": {
+   "arena": "Polsat Plus Arena Gdynia",
+   "city": "Gdynia",
+   "lat": 54.49892,
+   "lon": 18.53136,
+   "capacity": 4010,
+   "league": "PLK",
+   "source": "sheet"
+  },
+  "Astoria Bydgoszcz": {
+   "arena": "Grupa Moderator Arena",
+   "city": "Bydgoszcz",
+   "lat": 53.11965,
+   "lon": 18.02771,
+   "capacity": 1475,
+   "league": "PLK",
+   "source": "sheet"
+  },
+  "Atomeromu Paks": {
+   "arena": "ASE Sportcsarnok",
+   "city": "Paks",
+   "lat": 46.61698,
+   "lon": 18.83683,
+   "capacity": 1500,
+   "league": "NB I/A",
+   "source": "sheet"
+  },
+  "BC Andorra": {
+   "arena": "Pavelló Toni Martí",
+   "city": "Andorra la Vella",
+   "lat": 42.50488,
+   "lon": 1.51657,
+   "capacity": 5001,
+   "league": "ACB",
+   "source": "games",
+   "games": 2,
+   "of_games": 2,
+   "league_name": "Morabanc Andorra"
+  },
+  "BC Jonava": {
+   "arena": "Jonavos sporto arena",
+   "city": "Jonava",
+   "lat": 55.07658,
+   "lon": 24.27331,
+   "capacity": 2246,
+   "league": "LKL",
+   "source": "sheet"
+  },
+  "BC Kalev/Cramo": {
+   "arena": "Nord Spordihoone",
+   "city": "Tallinn",
+   "lat": 59.395,
+   "lon": 24.70056,
+   "capacity": 980,
+   "league": "LEBL",
+   "source": "sheet"
+  },
+  "BC Nokia": {
+   "arena": "AGCO Power Arena",
+   "city": "Nokia",
+   "lat": 61.48768,
+   "lon": 23.51421,
+   "capacity": 2500,
+   "league": "Korisliiga",
+   "source": "sheet"
+  },
+  "BC Parnu": {
+   "arena": "Pärnu Spordihall",
+   "city": "Pärnu",
+   "lat": 58.37624,
+   "lon": 24.53241,
+   "capacity": 1820,
+   "league": "LEBL",
+   "source": "sheet"
+  },
+  "BC Prievidza": {
+   "arena": "Niké Aréna",
+   "city": "Prievidza",
+   "lat": 48.77755,
+   "lon": 18.60298,
+   "capacity": 3400,
+   "league": "Other",
+   "source": "sheet"
+  },
+  "BC Prometey": {
+   "arena": "Jurmalas valsts gimnazijas sporta zale",
+   "city": "Jūrmala",
+   "lat": 56.95339,
+   "lon": 23.61011,
+   "capacity": 810,
+   "league": "LEBL",
+   "source": "sheet"
+  },
+  "BC Roma SPQR": {
+   "arena": "Palazzetto dello Sport",
+   "city": "Roma",
+   "lat": 41.9296,
+   "lon": 12.47075,
+   "capacity": 3500,
+   "league": "LBA",
+   "source": "sheet"
+  },
+  "BC Slovan Bratislava": {
+   "arena": "GOPASS Arena",
+   "city": "Bratislava",
+   "lat": 48.1624,
+   "lon": 17.14138,
+   "capacity": 3200,
+   "league": "ABA",
+   "source": "sheet"
+  },
+  "BC Tauragė": {
+   "arena": "Tauragės Arena",
+   "city": "Tauragė",
+   "lat": 55.25699,
+   "lon": 22.3039,
+   "capacity": 1780,
+   "league": "LKL",
+   "source": "games",
+   "games": 1,
+   "of_games": 1,
+   "league_name": "Taurage"
+  },
+  "BC Vienna": {
+   "arena": "BC Vienna Arena",
+   "city": "Wien",
+   "lat": 48.16265,
+   "lon": 16.3389,
+   "capacity": 1399,
+   "league": "ABA",
+   "source": "sheet"
+  },
+  "BC Šiauliai": {
+   "arena": "Šiaulių arena",
+   "city": "Šiauliai",
+   "lat": 55.92066,
+   "lon": 23.28212,
+   "capacity": 5500,
+   "league": "LKL",
+   "source": "sheet"
+  },
+  "BCM Gravelines - Dunkerque": {
+   "arena": "Stade des Flandres",
+   "city": "Dunkerque",
+   "lat": 51.03566,
+   "lon": 2.39177,
+   "capacity": 2500,
+   "league": "Betclic Elite",
+   "source": "sheet"
+  },
+  "BK Liepaja": {
+   "arena": "Liepajas Olimpiskais centrs",
+   "city": "Liepāja",
+   "lat": 56.51906,
+   "lon": 21.01784,
+   "capacity": 2500,
+   "league": "LEBL",
+   "source": "sheet"
+  },
+  "BK Ogre": {
+   "arena": "Sporta arena Ogre",
+   "city": "Ogre",
+   "lat": 56.82463,
+   "lon": 24.60998,
+   "capacity": 1700,
+   "league": "LEBL",
+   "source": "sheet"
+  },
+  "BK Patrioti Levice": {
+   "arena": "Športová hala Levice",
+   "city": "Levice",
+   "lat": 48.22055,
+   "lon": 18.59746,
+   "capacity": 2250,
+   "league": "Other",
+   "source": "sheet"
+  },
+  "BK VEF Riga": {
+   "arena": "Rimi Olimpiskais centrs",
+   "city": "Rīga",
+   "lat": 56.96766,
+   "lon": 24.12464,
+   "capacity": 830,
+   "league": "LEBL",
+   "source": "sheet"
+  },
+  "BK Ventspils": {
+   "arena": "Olimpiskais centrs \"Ventspils\"",
+   "city": "Ventspils",
+   "lat": 57.38753,
+   "lon": 21.57045,
+   "capacity": 3000,
+   "league": "LEBL",
+   "source": "sheet"
+  },
+  "Bahcesehir Koleji": {
+   "arena": "Sinan Erdem Spor Salonu",
+   "city": "İstanbul",
+   "lat": 40.98859,
+   "lon": 28.854,
+   "capacity": 16000,
+   "league": "BSL",
+   "source": "games",
+   "games": 15,
+   "of_games": 15,
+   "league_name": "Bahçeşehir Koleji"
+  },
+  "Bakken Bears": {
+   "arena": "Vejlby-Risskov Hallen",
+   "city": "Aarhus",
+   "lat": 56.19315,
+   "lon": 10.20834,
+   "capacity": 1800,
+   "league": "Other",
+   "source": "sheet"
+  },
+  "Bamberg Baskets": {
+   "arena": "Brose Arena Bamberg",
+   "city": "Bamberg",
+   "lat": 49.87951,
+   "lon": 10.92029,
+   "capacity": 5700,
+   "league": "BBL",
+   "source": "games",
+   "games": 2,
+   "of_games": 2,
+   "league_name": "BMA365 Bamberg Baskets"
+  },
+  "Bandirma Bordo Basketbol": {
+   "arena": "Bandırma 17 Eylül Üniversitesi Spor Salonu",
+   "city": "Bandırma",
+   "lat": 40.33865,
+   "lon": 27.98689,
+   "capacity": 2000,
+   "league": "BSL",
+   "source": "games",
+   "games": 15,
+   "of_games": 15,
+   "league_name": "Pizzabulls Bordo Bandırma"
+  },
+  "Basket Brno": {
+   "arena": "STAREZ ARÉNA Vodova",
+   "city": "Brno",
+   "lat": 49.22762,
+   "lon": 16.58404,
+   "capacity": 2900,
+   "league": "Other",
+   "source": "sheet"
+  },
+  "Basket Zaragoza": {
+   "arena": "Pabellón Príncipe Felipe",
+   "city": "Zaragoza",
+   "lat": 41.63537,
+   "lon": -0.86624,
+   "capacity": 10744,
+   "league": "ACB",
+   "source": "games",
+   "games": 2,
+   "of_games": 2,
+   "league_name": "Casademont Zaragoza"
+  },
+  "Basquet Coruna": {
+   "arena": "Coliseum",
+   "city": "A Coruña",
+   "lat": 43.33874,
+   "lon": -8.4097,
+   "capacity": 9300,
+   "league": "ACB",
+   "source": "games",
+   "games": 2,
+   "of_games": 2,
+   "league_name": "Leyma Coruna"
+  },
+  "Basquet Girona": {
+   "arena": "Palau Girona-Fontajau",
+   "city": "Girona",
+   "lat": 41.99035,
+   "lon": 2.81087,
+   "capacity": 5750,
+   "league": "ACB",
+   "source": "games",
+   "games": 3,
+   "of_games": 3,
+   "league_name": "Fiatc Girona"
+  },
+  "Basquet Manresa": {
+   "arena": "Pavelló Nou Congost",
+   "city": "Manresa",
+   "lat": 41.72533,
+   "lon": 1.80934,
+   "capacity": 5000,
+   "league": "ACB",
+   "source": "games",
+   "games": 3,
+   "of_games": 3,
+   "league_name": "Kidsandus Manresa"
+  },
+  "Bayern Munich": {
+   "arena": "BMW Park München",
+   "city": "München",
+   "lat": 48.12603,
+   "lon": 11.52537,
+   "capacity": 6731,
+   "league": "BBL",
+   "source": "games",
+   "games": 4,
+   "of_games": 4,
+   "league_name": "FC Bayern München Basketball"
+  },
+  "Besiktas J.K.": {
+   "arena": "Turkcell Basketbol Gelişim Merkezi",
+   "city": "İstanbul",
+   "lat": 40.99558,
+   "lon": 28.91913,
+   "capacity": 10000,
+   "league": "BSL",
+   "source": "games",
+   "games": 13,
+   "of_games": 15,
+   "league_name": "Beşiktaş"
+  },
+  "Bilbao Surne Basket": {
+   "arena": "Bilbao Arena",
+   "city": "Bilbao",
+   "lat": 43.25222,
+   "lon": -2.92604,
+   "capacity": 10014,
+   "league": "ACB",
+   "source": "games",
+   "games": 2,
+   "of_games": 2,
+   "league_name": "Surne Bilbao"
+  },
+  "Bisons Loimaa": {
+   "arena": "Loimaan Liikuntahalli",
+   "city": "Loimaa",
+   "lat": 60.84645,
+   "lon": 23.04665,
+   "capacity": 1500,
+   "league": "Korisliiga",
+   "source": "sheet"
+  },
+  "Bnei Herzliya": {
+   "arena": "HaYovel Herzliya",
+   "city": "Herzliya",
+   "lat": 32.17358,
+   "lon": 34.83347,
+   "capacity": 1240,
+   "league": "Winner League",
+   "source": "sheet"
+  },
+  "Boulazac Basket Dordogne": {
+   "arena": "Le Palio",
+   "city": "Boulazac Isle Manoire",
+   "lat": 45.18383,
+   "lon": 0.76078,
+   "capacity": 5200,
+   "league": "Betclic Elite",
+   "source": "sheet"
+  },
+  "Brisbane Bullets": {
+   "arena": "Brisbane Entertainment Centre",
+   "city": "Brisbane",
+   "lat": -27.34209,
+   "lon": 153.07093,
+   "capacity": 10500,
+   "league": "NBL",
+   "source": "sheet"
+  },
+  "Budapesti Honved": {
+   "arena": "Ludovika Aréna",
+   "city": "Budapest",
+   "lat": 47.48224,
+   "lon": 19.09152,
+   "capacity": 1500,
+   "league": "NB I/A",
+   "source": "sheet"
+  },
+  "Bursaspor Basketbol": {
+   "arena": "Tofaş Spor Salonu",
+   "city": "Bursa",
+   "lat": 40.22715,
+   "lon": 28.97173,
+   "capacity": 5750,
+   "league": "BSL",
+   "source": "games",
+   "games": 15,
+   "of_games": 15,
+   "league_name": "Bursaspor Basketbol"
+  },
+  "Buyukcekmece Basketbol": {
+   "arena": "Gazanfer Bilge Spor Salonu",
+   "city": "İstanbul (Büyükçekmece)",
+   "lat": 41.027,
+   "lon": 28.5912,
+   "capacity": 2500,
+   "league": "BSL",
+   "source": "sheet"
+  },
+  "CB Canarias Tenerife": {
+   "arena": "Pab. Dep. Tenerife Santiago Martín",
+   "city": "San Cristóbal de La Laguna",
+   "lat": 28.45837,
+   "lon": -16.29696,
+   "capacity": 5100,
+   "league": "ACB",
+   "source": "games",
+   "games": 2,
+   "of_games": 2,
+   "league_name": "La Laguna Tenerife"
+  },
+  "CB Gran Canaria": {
+   "arena": "Gran Canaria Arena",
+   "city": "Las Palmas de Gran Canaria",
+   "lat": 28.10301,
+   "lon": -15.45694,
+   "capacity": 9870,
+   "league": "Other",
+   "source": "sheet"
+  },
+  "CB San Pablo Burgos": {
+   "arena": "Coliseum Burgos",
+   "city": "Burgos",
+   "lat": 42.34439,
+   "lon": -3.67839,
+   "capacity": 9604,
+   "league": "ACB",
+   "source": "games",
+   "games": 2,
+   "of_games": 2,
+   "league_name": "Recoletas Salud San Pablo Burgos"
+  },
+  "CS Dinamo Bucharest": {
+   "arena": "Sala Polivalentă Dinamo",
+   "city": "Bucharest",
+   "lat": 44.45403,
+   "lon": 26.10408,
+   "capacity": 2538,
+   "league": "Other",
+   "source": "sheet"
+  },
+  "CS Valcea 1924": {
+   "arena": "Sala Sporturilor Traian",
+   "city": "Râmnicu Vâlcea",
+   "lat": 45.10805,
+   "lon": 24.37095,
+   "capacity": 2239,
+   "league": "Other",
+   "source": "sheet"
+  },
+  "CSM Oradea": {
+   "arena": "Oradea Arena",
+   "city": "Oradea",
+   "lat": 47.046,
+   "lon": 21.91375,
+   "capacity": 5200,
+   "league": "Other",
+   "source": "sheet"
+  },
+  "Cagdas Bodrumspor": {
+   "arena": "Mugla Mentese Spor Salonu",
+   "city": "Muğla",
+   "lat": 37.21275694,
+   "lon": 28.37454926,
+   "capacity": 3500,
+   "league": "BSL",
+   "source": "sheet"
+  },
+  "Cairns Taipans": {
+   "arena": "Cairns Convention Centre",
+   "city": "Cairns",
+   "lat": -16.9276,
+   "lon": 145.77801,
+   "capacity": 5300,
+   "league": "NBL",
+   "source": "sheet"
+  },
+  "Cayirova Belediyespor": {
+   "arena": "Çayırova Belediyesi Spor Kompleksi",
+   "city": "Çayırova",
+   "lat": 40.83322,
+   "lon": 29.39466,
+   "capacity": 3500,
+   "league": "BSL",
+   "source": "games",
+   "games": 5,
+   "of_games": 5,
+   "league_name": "Glint Çayırova Belediyesi"
+  },
+  "Cholet Basket": {
+   "arena": "La Meilleraie",
+   "city": "Cholet",
+   "lat": 47.05751,
+   "lon": -0.89679,
+   "capacity": 5191,
+   "league": "Betclic Elite",
+   "source": "sheet"
+  },
+  "Chorale Roanne Basket": {
+   "arena": "Halle André Vacheresse",
+   "city": "Roanne",
+   "lat": 46.03119,
+   "lon": 4.05155,
+   "capacity": 5020,
+   "league": "Betclic Elite",
+   "source": "sheet"
+  },
+  "Club Baloncesto Breogan": {
+   "arena": "Pazo Provincial dos Deportes de Lugo",
+   "city": "Lugo",
+   "lat": 42.99125,
+   "lon": -7.54534,
+   "capacity": 5310,
+   "league": "ACB",
+   "source": "games",
+   "games": 2,
+   "of_games": 2,
+   "league_name": "Rio Breogan"
+  },
+  "Club Baloncesto Estudiantes": {
+   "arena": "Movistar Arena",
+   "city": "Madrid",
+   "lat": 40.42386,
+   "lon": -3.67179,
+   "capacity": 13109,
+   "league": "Other",
+   "source": "sheet"
+  },
+  "Club Joventut Badalona": {
+   "arena": "Palau Municipal D'Esports de Badalona",
+   "city": "Badalona",
+   "lat": 41.4425,
+   "lon": 2.23199,
+   "capacity": 12760,
+   "league": "ACB",
+   "source": "games",
+   "games": 2,
+   "of_games": 2,
+   "league_name": "Asisa Joventut"
+  },
+  "Czarni Slupsk": {
+   "arena": "Hala Gryfia",
+   "city": "Słupsk",
+   "lat": 54.46133,
+   "lon": 17.00683,
+   "capacity": 2249,
+   "league": "PLK",
+   "source": "sheet"
+  },
+  "DEAC (Kosarlabda Akademia)": {
+   "arena": "Oláh Gábor utcai Sportcsarnok",
+   "city": "Debrecen",
+   "lat": 47.5502096120448,
+   "lon": 21.6366568297216,
+   "capacity": 1500,
+   "league": "NB I/A",
+   "source": "sheet"
+  },
+  "Darussafaka Basketbol": {
+   "arena": "Darussafaka Ayhan Sahenk Spor Salonu",
+   "city": "İstanbul",
+   "lat": 41.12639,
+   "lon": 29.02889,
+   "capacity": 3509,
+   "league": "BSL",
+   "source": "sheet"
+  },
+  "Denizli Basket (Merkezefendi)": {
+   "arena": "Pamukkale Üniversitesi Spor Salonu",
+   "city": "Denizli",
+   "lat": 37.73792,
+   "lon": 29.09497,
+   "capacity": 3490,
+   "league": "BSL",
+   "source": "games",
+   "games": 15,
+   "of_games": 15,
+   "league_name": "Yukatel Denizli Basket"
+  },
+  "Derthona Basket": {
+   "arena": "Nova Arena",
+   "city": "Novara",
+   "lat": 45.45089,
+   "lon": 8.65057,
+   "capacity": 5000,
+   "league": "LBA",
+   "source": "sheet"
+  },
+  "Dinamo Sassari": {
+   "arena": "PalaSerradimigni",
+   "city": "Sassari",
+   "lat": 40.71702,
+   "lon": 8.58296,
+   "capacity": 5000,
+   "league": "Other",
+   "source": "sheet"
+  },
+  "Doxa Lefkadas B.C.": {
+   "arena": "ΔΗΜΟΤΙΚΟ ΚΛΕΙΣΤΟ ΓΥΜΝΑΣΤΗΡΙΟ ΛΕΥΚΑΔΑΣ",
+   "city": "Lefkada",
+   "lat": 38.83515,
+   "lon": 20.69916,
+   "capacity": 1600,
+   "league": "GBL",
+   "source": "sheet"
+  },
+  "Dubai Basketball": {
+   "arena": "Coca Cola Arena",
+   "city": "Dubai",
+   "lat": 25.20365,
+   "lon": 55.26581,
+   "capacity": 15000,
+   "league": "ABA",
+   "source": "sheet"
+  },
+  "Dziki Warszawa": {
+   "arena": "Hala Koło",
+   "city": "Warszawa",
+   "lat": 52.24816,
+   "lon": 20.95374,
+   "capacity": 1298,
+   "league": "PLK",
+   "source": "sheet"
+  },
+  "EWE Baskets Oldenburg": {
+   "arena": "Große EWE Arena Oldenburg",
+   "city": "Oldenburg",
+   "lat": 53.14621,
+   "lon": 8.22863,
+   "capacity": 6335,
+   "league": "BBL",
+   "source": "games",
+   "games": 4,
+   "of_games": 4,
+   "league_name": "EWE Baskets Oldenburg"
+  },
+  "Egis Kormend": {
+   "arena": "Dr. Kristóf László Sportcsarnok",
+   "city": "Körmend",
+   "lat": 47.01399,
+   "lon": 16.60098,
+   "capacity": 2002,
+   "league": "NB I/A",
+   "source": "sheet"
+  },
+  "Elan Bearnais Pau - Lacq - Orthez": {
+   "arena": "Palais des Sports de Pau",
+   "city": "Pau",
+   "lat": 43.3345,
+   "lon": -0.36272,
+   "capacity": 7707,
+   "league": "Betclic Elite",
+   "source": "sheet"
+  },
+  "Elan Chalon": {
+   "arena": "Le Colisée",
+   "city": "Chalon-sur-Saône",
+   "lat": 46.78658,
+   "lon": 4.86502,
+   "capacity": 4540,
+   "league": "Betclic Elite",
+   "source": "sheet"
+  },
+  "Era Nymburk": {
+   "arena": "Královka Arena",
+   "city": "Praha",
+   "lat": 50.10134,
+   "lon": 14.41633,
+   "capacity": 2500,
+   "league": "Other",
+   "source": "sheet"
+  },
+  "Esenler Erokspor": {
+   "arena": "Beşiktaş Akatlar Spor Kompleksi",
+   "city": "İstanbul",
+   "lat": 41.08687,
+   "lon": 29.02354,
+   "capacity": 2890,
+   "league": "BSL",
+   "source": "games",
+   "games": 15,
+   "of_games": 15,
+   "league_name": "Esenler Erokspor"
+  },
+  "FC Barcelona Basquet": {
+   "arena": "Palau Blaugrana",
+   "city": "Barcelona",
+   "lat": 41.38003,
+   "lon": 2.12009,
+   "capacity": 7786,
+   "league": "ACB",
+   "source": "games",
+   "games": 3,
+   "of_games": 3,
+   "league_name": "Barca"
+  },
+  "FC Porto": {
+   "arena": "Dragão Arena",
+   "city": "Porto",
+   "lat": 41.16267,
+   "lon": -8.5818,
+   "capacity": 2179,
+   "league": "Other",
+   "source": "sheet"
+  },
+  "Falco Szombathely": {
+   "arena": "Arena Savaria",
+   "city": "Szombathely",
+   "lat": 47.24318,
+   "lon": 16.61926,
+   "capacity": 3070,
+   "league": "NB I/A",
+   "source": "sheet"
+  },
+  "Fenerbahce Istanbul": {
+   "arena": "Ülker Spor ve Etkinlik Salonu",
+   "city": "İstanbul",
+   "lat": 40.99313,
+   "lon": 29.1049,
+   "capacity": 12687,
+   "league": "BSL",
+   "source": "games",
+   "games": 15,
+   "of_games": 15,
+   "league_name": "Fenerbahçe Tarfin"
+  },
+  "Filou Ostende": {
+   "arena": "COREtec Dôme",
+   "city": "Oostende",
+   "lat": 51.21729,
+   "lon": 2.88804,
+   "capacity": 5000,
+   "league": "Other",
+   "source": "sheet"
+  },
+  "Forca Lleida CE": {
+   "arena": "Espai Fruita Barris Nord",
+   "city": "Lleida",
+   "lat": 41.62594,
+   "lon": 0.6316,
+   "capacity": 6100,
+   "league": "ACB",
+   "source": "games",
+   "games": 1,
+   "of_games": 1,
+   "league_name": "Ilerna Lleida"
+  },
+  "Frankfurt Skyliners": {
+   "arena": "Süwag Energie ARENA",
+   "city": "Frankfurt am Main",
+   "lat": 50.10123,
+   "lon": 8.52723,
+   "capacity": 5002,
+   "league": "BBL",
+   "source": "games",
+   "games": 2,
+   "of_games": 2,
+   "league_name": "SKYLINERS"
+  },
+  "GTK Gliwice": {
+   "arena": "Prezero Arena Gliwice",
+   "city": "Gliwice",
+   "lat": 50.28567,
+   "lon": 18.68612,
+   "capacity": 1092,
+   "league": "PLK",
+   "source": "sheet"
+  },
+  "Galatasaray S.K.": {
+   "arena": "Sinan Erdem Spor Salonu",
+   "city": "İstanbul",
+   "lat": 40.98859,
+   "lon": 28.854,
+   "capacity": 16000,
+   "league": "BSL",
+   "source": "games",
+   "games": 15,
+   "of_games": 15,
+   "league_name": "Galatasaray Mct Technıc"
+  },
+  "Gargždai Basketball": {
+   "arena": "Gargždų SC arena",
+   "city": "Gargždai",
+   "lat": 55.71072,
+   "lon": 21.38256,
+   "capacity": 1500,
+   "league": "LKL",
+   "source": "games",
+   "games": 1,
+   "of_games": 1,
+   "league_name": "Gargzdai"
+  },
+  "Gladiators Trier": {
+   "arena": "SWT-Arena",
+   "city": "Trier",
+   "lat": 49.77164,
+   "lon": 6.66381,
+   "capacity": 5400,
+   "league": "BBL",
+   "source": "games",
+   "games": 3,
+   "of_games": 3,
+   "league_name": "VET-CONCEPT Gladiators Trier"
+  },
+  "Gornik Walbrzych": {
+   "arena": "Hala Widowiskowo-Sportowa Aqua Zdrój",
+   "city": "Wałbrzych",
+   "lat": 50.78499,
+   "lon": 16.25254,
+   "capacity": 3000,
+   "league": "PLK",
+   "source": "sheet"
+  },
+  "Granada": {
+   "arena": "Palacio Municipal de Deportes de Granada",
+   "city": "Granada",
+   "lat": 37.15347,
+   "lon": -3.59408,
+   "capacity": 8100,
+   "league": "Other",
+   "source": "sheet"
+  },
+  "HKK Široki": {
+   "arena": "GSD Pecara",
+   "city": "Široki Brijeg",
+   "lat": 43.37865,
+   "lon": 17.59935,
+   "capacity": 4500,
+   "league": "ABA",
+   "source": "sheet"
+  },
+  "Hamburg Towers": {
+   "arena": "Inselpark Arena",
+   "city": "Hamburg",
+   "lat": 53.49558,
+   "lon": 10.00242,
+   "capacity": 3400,
+   "league": "BBL",
+   "source": "games",
+   "games": 2,
+   "of_games": 2,
+   "league_name": "Veolia Towers Hamburg"
+  },
+  "Hapoel Beer Sheeva": {
+   "arena": "Conch Arena",
+   "city": "Be'er Sheva",
+   "lat": 31.27203,
+   "lon": 34.77778,
+   "capacity": 3009,
+   "league": "Winner League",
+   "source": "sheet"
+  },
+  "Hapoel Galil Elyon": {
+   "arena": "Kfar Blum Hall",
+   "city": "Kfar Blum",
+   "lat": 33.1757397141475,
+   "lon": 35.6150765900165,
+   "capacity": 1382,
+   "league": "Winner League",
+   "source": "sheet"
+  },
+  "Hapoel HaEmek": {
+   "arena": "Haim Ohayon Hall (Gan Ner Sports Hall)",
+   "city": "Gan Ner",
+   "lat": 32.53227,
+   "lon": 35.34129,
+   "capacity": 2069,
+   "league": "Winner League",
+   "source": "sheet"
+  },
+  "Hapoel Holon": {
+   "arena": "Holon Toto Hall",
+   "city": "Holon",
+   "lat": 32.00226,
+   "lon": 34.79742,
+   "capacity": 5337,
+   "league": "Winner League",
+   "source": "sheet"
+  },
+  "Hapoel Ironi Eilat": {
+   "arena": "Begin Arena",
+   "city": "Eilat",
+   "lat": 29.56343,
+   "lon": 34.93767,
+   "capacity": 1374,
+   "league": "Winner League",
+   "source": "sheet"
+  },
+  "Hapoel Jerusalem": {
+   "arena": "Pais Arena Jerusalem",
+   "city": "Jerusalem",
+   "lat": 31.75128,
+   "lon": 35.19411,
+   "capacity": 11600,
+   "league": "Winner League",
+   "source": "sheet"
+  },
+  "Hapoel Tel Aviv": {
+   "arena": "Shlomo Group Arena",
+   "city": "Tel Aviv",
+   "lat": 32.10912,
+   "lon": 34.81085,
+   "capacity": 3536,
+   "league": "Winner League",
+   "source": "sheet"
+  },
+  "Helsinki Seagulls": {
+   "arena": "Töölön Kisahalli",
+   "city": "Helsinki",
+   "lat": 60.18343,
+   "lon": 24.92573,
+   "capacity": 1600,
+   "league": "Korisliiga",
+   "source": "sheet"
+  },
+  "Illawarra Hawks": {
+   "arena": "WIN Entertainment Centre",
+   "city": "Wollongong",
+   "lat": -34.42682,
+   "lon": 150.90273,
+   "capacity": 6000,
+   "league": "NBL",
+   "source": "sheet"
+  },
+  "Iraklis B.C.": {
+   "arena": "ΙΒΑΝΩΦΕΙΟ",
+   "city": "Thessaloniki",
+   "lat": 40.6281,
+   "lon": 22.96407,
+   "capacity": 2500,
+   "league": "GBL",
+   "source": "sheet"
+  },
+  "Ironi Kiryat Ata B.C.": {
+   "arena": "Remez Hall",
+   "city": "Kiryat Ata",
+   "lat": 32.8074544919431,
+   "lon": 35.1104298120689,
+   "capacity": 1000,
+   "league": "Winner League",
+   "source": "sheet"
+  },
+  "Ironi Ness Ziona B.C.": {
+   "arena": "Lev Hamoshava",
+   "city": "Ness Ziona",
+   "lat": 31.93076,
+   "lon": 34.81238,
+   "capacity": 1300,
+   "league": "Winner League",
+   "source": "sheet"
+  },
+  "JDA Dijon Basket": {
+   "arena": "Palais des Sports Jean-Michel Geoffroy",
+   "city": "Dijon",
+   "lat": 47.33236,
+   "lon": 5.05595,
+   "capacity": 5000,
+   "league": "Betclic Elite",
+   "source": "sheet"
+  },
+  "JL Bourg Basket": {
+   "arena": "Ekinox",
+   "city": "Bourg-en-Bresse",
+   "lat": 46.18648,
+   "lon": 5.24771,
+   "capacity": 3548,
+   "league": "Betclic Elite",
+   "source": "sheet"
+  },
+  "KK Borac Čačak": {
+   "arena": "Dvorana Borac",
+   "city": "Čačak",
+   "lat": 43.89746,
+   "lon": 20.35242,
+   "capacity": 4260,
+   "league": "ABA",
+   "source": "sheet"
+  },
+  "KK Bosna Royal": {
+   "arena": "Zetra Olympic Hall",
+   "city": "Sarajevo",
+   "lat": 43.87178,
+   "lon": 18.40953,
+   "capacity": 12000,
+   "league": "ABA",
+   "source": "sheet"
+  },
+  "KK Buducnost": {
+   "arena": "Sportski centar Morača",
+   "city": "Podgorica",
+   "lat": 42.43778,
+   "lon": 19.25461,
+   "capacity": 6000,
+   "league": "ABA",
+   "source": "sheet"
+  },
+  "KK Cedevita Olimpija": {
+   "arena": "Arena Stožice",
+   "city": "Ljubljana",
+   "lat": 46.08137,
+   "lon": 14.52146,
+   "capacity": 12480,
+   "league": "ABA",
+   "source": "sheet"
+  },
+  "KK Cibona": {
+   "arena": "Košarkaški centar Dražen Petrović",
+   "city": "Zagreb",
+   "lat": 45.80256,
+   "lon": 15.96327,
+   "capacity": 5400,
+   "league": "ABA",
+   "source": "sheet"
+  },
+  "KK Crvena zvezda": {
+   "arena": "Košarkaška dvorana Aleksandar Nikolić",
+   "city": "Beograd",
+   "lat": 44.81553,
+   "lon": 20.48504,
+   "capacity": 8000,
+   "league": "ABA",
+   "source": "sheet"
+  },
+  "KK Domžale": {
+   "arena": "Športna dvorana Domžale",
+   "city": "Domžale",
+   "lat": 46.13944,
+   "lon": 14.59507,
+   "capacity": 2500,
+   "league": "Other",
+   "source": "sheet"
+  },
+  "KK FMP Beograd": {
+   "arena": "Arena KK FMP",
+   "city": "Beograd",
+   "lat": 44.73125,
+   "lon": 20.37664,
+   "capacity": 3000,
+   "league": "ABA",
+   "source": "sheet"
+  },
+  "KK Igokea": {
+   "arena": "J.U. Sportska dvorana Laktaši",
+   "city": "Laktaši",
+   "lat": 44.9073,
+   "lon": 17.30817,
+   "capacity": 3050,
+   "league": "ABA",
+   "source": "sheet"
+  },
+  "KK Ilirija": {
+   "arena": "Mala dvorana Tivoli",
+   "city": "Ljubljana",
+   "lat": 46.05992,
+   "lon": 14.49518,
+   "capacity": 4500,
+   "league": "ABA",
+   "source": "sheet"
+  },
+  "KK Krka": {
+   "arena": "ŠD Leona Štuklja Novo Mesto",
+   "city": "Novo Mesto",
+   "lat": 45.79499215,
+   "lon": 15.15935722,
+   "capacity": 2500,
+   "league": "ABA",
+   "source": "sheet"
+  },
+  "KK MZT Skopje Aerodrom": {
+   "arena": "Jane Sandanski Arena",
+   "city": "Skopje",
+   "lat": 41.99325,
+   "lon": 21.46487,
+   "capacity": 5850,
+   "league": "Other",
+   "source": "sheet"
+  },
+  "KK Mega Basket": {
+   "arena": "Hala sportova Ranko Žeravica",
+   "city": "Beograd",
+   "lat": 44.82765,
+   "lon": 20.40635,
+   "capacity": 5000,
+   "league": "ABA",
+   "source": "sheet"
+  },
+  "KK Mornar Bar": {
+   "arena": "SRC Topolica",
+   "city": "Bar",
+   "lat": 42.10334,
+   "lon": 19.09429,
+   "capacity": 2625,
+   "league": "ABA",
+   "source": "sheet"
+  },
+  "KK Partizan": {
+   "arena": "Beogradska Arena",
+   "city": "Beograd",
+   "lat": 44.81412,
+   "lon": 20.42139,
+   "capacity": 18386,
+   "league": "ABA",
+   "source": "sheet"
+  },
+  "KK Pelister": {
+   "arena": "Boro Čurlevski Sports Hall",
+   "city": "Bitola",
+   "lat": 41.02204,
+   "lon": 21.337,
+   "capacity": 4000,
+   "league": "Other",
+   "source": "sheet"
+  },
+  "KK Rabotnički": {
+   "arena": "SRC Kale",
+   "city": "Skopje",
+   "lat": 42.00288,
+   "lon": 21.43132,
+   "capacity": 2250,
+   "league": "Other",
+   "source": "sheet"
+  },
+  "KK Spartak Subotica": {
+   "arena": "Hala Sportova Dudova šuma",
+   "city": "Subotica",
+   "lat": 46.10956,
+   "lon": 19.65516,
+   "capacity": 3000,
+   "league": "ABA",
+   "source": "sheet"
+  },
+  "KK Split": {
+   "arena": "Mala dvorana KK Split",
+   "city": "Split",
+   "lat": 43.50914,
+   "lon": 16.45111,
+   "capacity": 3500,
+   "league": "ABA",
+   "source": "sheet"
+  },
+  "KK Studentski centar Derby": {
+   "arena": "Sportski centar Morača",
+   "city": "Podgorica",
+   "lat": 42.43778,
+   "lon": 19.25461,
+   "capacity": 6000,
+   "league": "ABA",
+   "source": "sheet"
+  },
+  "KK Viimsi": {
+   "arena": "Forus Spordikeskus Viimsi",
+   "city": "Viimsi",
+   "lat": 59.50928,
+   "lon": 24.83599,
+   "capacity": 500,
+   "league": "LEBL",
+   "source": "sheet"
+  },
+  "KK Zadar": {
+   "arena": "Dvorana Krešimir Ćosić",
+   "city": "Zadar",
+   "lat": 44.1195,
+   "lon": 15.24559,
+   "capacity": 8500,
+   "league": "ABA",
+   "source": "sheet"
+  },
+  "KK Zlatorog Laško": {
+   "arena": "Tri Lilije Hall",
+   "city": "Laško",
+   "lat": 46.16482,
+   "lon": 15.23042,
+   "capacity": 2500,
+   "league": "Other",
+   "source": "sheet"
+  },
+  "KK Šentjur": {
+   "arena": "Dvorana OŠ Hruševec",
+   "city": "Šentjur",
+   "lat": 46.2079424,
+   "lon": 15.3902967,
+   "capacity": 800,
+   "league": "Other",
+   "source": "sheet"
+  },
+  "KK Šenčur": {
+   "arena": "Športna dvorana Šenčur",
+   "city": "Šenčur",
+   "lat": 46.24902,
+   "lon": 14.4193,
+   "capacity": 800,
+   "league": "Other",
+   "source": "sheet"
+  },
+  "KTE Kecskemeti": {
+   "arena": "Messzi István Sportcsarnok",
+   "city": "Kecskemét",
+   "lat": 46.90126,
+   "lon": 19.67451,
+   "capacity": 1804,
+   "league": "NB I/A",
+   "source": "sheet"
+  },
+  "KTP Basket": {
+   "arena": "Steveco Areena",
+   "city": "Kotka",
+   "lat": 60.48564,
+   "lon": 26.85708,
+   "capacity": 1600,
+   "league": "Korisliiga",
+   "source": "sheet"
+  },
+  "Kaposvari": {
+   "arena": "Kaposvár Aréna",
+   "city": "Kaposvár",
+   "lat": 46.36945,
+   "lon": 17.79398,
+   "capacity": 2931,
+   "league": "NB I/A",
+   "source": "sheet"
+  },
+  "Karsiyaka Basket": {
+   "arena": "Mustafa Kemal Atatürk Karşıyaka Spor Salonu",
+   "city": "İzmir",
+   "lat": 38.47442,
+   "lon": 27.07674,
+   "capacity": 4800,
+   "league": "BSL",
+   "source": "games",
+   "games": 15,
+   "of_games": 15,
+   "league_name": "Karşıyaka"
+  },
+  "Kataja Basket": {
+   "arena": "Motonet Areena",
+   "city": "Joensuu",
+   "lat": 62.60151,
+   "lon": 29.74218,
+   "capacity": 2500,
+   "league": "Korisliiga",
+   "source": "sheet"
+  },
+  "Kauhajoki": {
+   "arena": "IKH Areena",
+   "city": "Kauhajoki",
+   "lat": 62.42462,
+   "lon": 22.19674,
+   "capacity": 3500,
+   "league": "Korisliiga",
+   "source": "sheet"
+  },
+  "Keila Basket": {
+   "arena": "Keila Tervisekeskus",
+   "city": "Keila",
+   "lat": 59.31469,
+   "lon": 24.41182,
+   "capacity": 800,
+   "league": "LEBL",
+   "source": "sheet"
+  },
+  "Keila KK": {
+   "arena": "Keila Tervisekeskus",
+   "city": "Keila",
+   "lat": 59.31469,
+   "lon": 24.41182,
+   "capacity": 800,
+   "league": "LEBL",
+   "source": "sheet"
+  },
+  "King Wilki Morskie Szczecin": {
+   "arena": "Hala Enea Arena",
+   "city": "Szczecin",
+   "lat": 53.4582,
+   "lon": 14.49398,
+   "capacity": 5055,
+   "league": "PLK",
+   "source": "sheet"
+  },
+  "Kipina Basket": {
+   "arena": "Äänekoski Areena Pankkari",
+   "city": "Äänekoski",
+   "lat": 62.60355,
+   "lon": 25.69635,
+   "capacity": 1300,
+   "league": "Korisliiga",
+   "source": "sheet"
+  },
+  "Kobrat": {
+   "arena": "Lapuan urheilutalo (Kobra-Areena)",
+   "city": "Lapua",
+   "lat": 62.96672485,
+   "lon": 23.0113484,
+   "capacity": 800,
+   "league": "Korisliiga",
+   "source": "sheet"
+  },
+  "Kolossos Rodou B.C.": {
+   "arena": "Κ. Γ. ΚΑΛΛΙΘΕΑΣ ΡΟΔΟΥ",
+   "city": "Rhodes",
+   "lat": 36.3471,
+   "lon": 28.19075,
+   "capacity": 3400,
+   "league": "GBL",
+   "source": "sheet"
+  },
+  "Korfez Basket (Manisa)": {
+   "arena": "Şehit Polis Recep Topaloğlu Spor Salonu",
+   "city": "Kocaeli",
+   "lat": 40.76639,
+   "lon": 29.97861,
+   "capacity": 5000,
+   "league": "BSL",
+   "source": "games",
+   "games": 15,
+   "of_games": 15,
+   "league_name": "Biotekno Körfez Basket"
+  },
+  "Korihait": {
+   "arena": "Wintteri",
+   "city": "Uusikaupunki",
+   "lat": 60.80587,
+   "lon": 21.40614,
+   "capacity": 1700,
+   "league": "Korisliiga",
+   "source": "sheet"
+  },
+  "Kouvot": {
+   "arena": "MLL Areena",
+   "city": "Kouvola",
+   "lat": 60.87695203,
+   "lon": 26.72855415,
+   "capacity": 1076,
+   "league": "Korisliiga",
+   "source": "sheet"
+  },
+  "LKS Lodz": {
+   "arena": "Sport Arena Łódź",
+   "city": "Łódź",
+   "lat": 51.75872,
+   "lon": 19.42419,
+   "capacity": 3000,
+   "league": "Other",
+   "source": "sheet"
+  },
+  "Lahti Basketball": {
+   "arena": "Luhta Areena",
+   "city": "Lahti",
+   "lat": 60.9853,
+   "lon": 25.6364,
+   "capacity": 1950,
+   "league": "Korisliiga",
+   "source": "sheet"
+  },
+  "Latvijas Universitates": {
+   "arena": "O. Kalpaka RTDP",
+   "city": "Rīga",
+   "lat": 56.9526,
+   "lon": 24.17142,
+   "capacity": 258,
+   "league": "LEBL",
+   "source": "sheet"
+  },
+  "Le Mans Sarthe Basket": {
+   "arena": "Antarès",
+   "city": "Le Mans",
+   "lat": 47.95603,
+   "lon": 0.22636,
+   "capacity": 6023,
+   "league": "Betclic Elite",
+   "source": "sheet"
+  },
+  "Legia Warszawa": {
+   "arena": "OSiR Warszawa Bemowo",
+   "city": "Warszawa",
+   "lat": 52.25775,
+   "lon": 20.93049,
+   "capacity": 1991,
+   "league": "PLK",
+   "source": "sheet"
+  },
+  "Lietkabelis Panevėžys": {
+   "arena": "Kalnapilio arena",
+   "city": "Panevėžys",
+   "lat": 55.73336,
+   "lon": 24.33931,
+   "capacity": 5600,
+   "league": "LKL",
+   "source": "sheet"
+  },
+  "Limoges CSP": {
+   "arena": "Palais des Sports de Beaublanc",
+   "city": "Limoges",
+   "lat": 45.84752,
+   "lon": 1.24339,
+   "capacity": 6506,
+   "league": "Betclic Elite",
+   "source": "sheet"
+  },
+  "London Lions": {
+   "arena": "Copper Box Arena",
+   "city": "London",
+   "lat": 51.54431,
+   "lon": -0.02006,
+   "capacity": 6000,
+   "league": "Other",
+   "source": "sheet"
+  },
+  "Lowen Braunschweig": {
+   "arena": "Volkswagen Halle Braunschweig",
+   "city": "Braunschweig",
+   "lat": 52.25736,
+   "lon": 10.51907,
+   "capacity": 6358,
+   "league": "BBL",
+   "source": "games",
+   "games": 3,
+   "of_games": 3,
+   "league_name": "Basketball Löwen Braunschweig"
+  },
+  "MHP Riesen Ludwigsburg": {
+   "arena": "MHPArena Ludwigsburg",
+   "city": "Ludwigsburg",
+   "lat": 48.89114,
+   "lon": 9.18252,
+   "capacity": 4000,
+   "league": "BBL",
+   "source": "games",
+   "games": 3,
+   "of_games": 3,
+   "league_name": "MHP RIESEN Ludwigsburg"
+  },
+  "MKS Dabrowa Gornicza": {
+   "arena": "HWS Centrum im.Z.Cybulskiego",
+   "city": "Dąbrowa Górnicza",
+   "lat": 50.3206,
+   "lon": 19.19,
+   "capacity": 2944,
+   "league": "PLK",
+   "source": "sheet"
+  },
+  "Maccabi Ashdod B.C.": {
+   "arena": "HaKiriya Arena",
+   "city": "Ashdod",
+   "lat": 31.79101,
+   "lon": 34.6429,
+   "capacity": 2009,
+   "league": "Winner League",
+   "source": "sheet"
+  },
+  "Maccabi Ironi Ramat Gan": {
+   "arena": "Zisman Hall",
+   "city": "Ramat Gan",
+   "lat": 32.0466373159529,
+   "lon": 34.814557822644,
+   "capacity": 1400,
+   "league": "Winner League",
+   "source": "sheet"
+  },
+  "Maccabi Rishon Lezion": {
+   "arena": "Beit Maccabi Rishon LeZion",
+   "city": "Rishon LeZion",
+   "lat": 31.96928,
+   "lon": 34.78647,
+   "capacity": 1620,
+   "league": "Winner League",
+   "source": "sheet"
+  },
+  "Maccabi Tel Aviv": {
+   "arena": "Menora Mivtachim Arena",
+   "city": "Tel Aviv",
+   "lat": 32.06113,
+   "lon": 34.79131,
+   "capacity": 10871,
+   "league": "Winner League",
+   "source": "sheet"
+  },
+  "Maroussi B.C.": {
+   "arena": "Κ.Γ. ΑΜΑΡΟΥΣΙΟΥ",
+   "city": "Marousi",
+   "lat": 38.04083,
+   "lon": 23.79897,
+   "capacity": 1700,
+   "league": "GBL",
+   "source": "sheet"
+  },
+  "Maxima Roma": {
+   "arena": "PalaEur",
+   "city": "Roma",
+   "lat": 41.82526,
+   "lon": 12.46658,
+   "capacity": 11200,
+   "league": "LBA",
+   "source": "sheet"
+  },
+  "Melbourne United": {
+   "arena": "John Cain Arena",
+   "city": "Melbourne",
+   "lat": -37.82282,
+   "lon": 144.98189,
+   "capacity": 10500,
+   "league": "NBL",
+   "source": "sheet"
+  },
+  "Mersin MSK": {
+   "arena": "Servet Tazegül Spor Salonu",
+   "city": "Mersin",
+   "lat": 36.78833,
+   "lon": 34.55028,
+   "capacity": 6499,
+   "league": "BSL",
+   "source": "sheet"
+  },
+  "Miasto Szkla Krosno": {
+   "arena": "VANDER Arena",
+   "city": "Krosno",
+   "lat": 49.69245,
+   "lon": 21.77563,
+   "capacity": 1380,
+   "league": "Other",
+   "source": "sheet"
+  },
+  "Mykonos B.C.": {
+   "arena": "Κ.Γ. «ΠΑΝ. ΧΑΝΙΩΤΗΣ» ΑΝΩ ΜΕΡΑ ΜΥΚΟΝΟΥ",
+   "city": "Ano Mera",
+   "lat": 37.44491587,
+   "lon": 25.39541724,
+   "capacity": 1014,
+   "league": "GBL",
+   "source": "sheet"
+  },
+  "NKA Universitas Pecs": {
+   "arena": "Nemzeti Kosárlabda Akadémia Fűzy Ákos Centerpálya",
+   "city": "Pécs",
+   "lat": 46.05447,
+   "lon": 18.21144,
+   "capacity": 2000,
+   "league": "NB I/A",
+   "source": "sheet"
+  },
+  "Nanterre 92": {
+   "arena": "Palais des Sports Maurice-Thorez",
+   "city": "Nanterre",
+   "lat": 48.89213,
+   "lon": 2.21229,
+   "capacity": 3000,
+   "league": "Betclic Elite",
+   "source": "sheet"
+  },
+  "Napoli Basket": {
+   "arena": "Alcott Arena",
+   "city": "Napoli",
+   "lat": 40.82238,
+   "lon": 14.17892,
+   "capacity": 3980,
+   "league": "LBA",
+   "source": "sheet"
+  },
+  "Neptūnas Klaipėda": {
+   "arena": "Švyturio arena",
+   "city": "Klaipėda",
+   "lat": 55.68736,
+   "lon": 21.15184,
+   "capacity": 6200,
+   "league": "LKL",
+   "source": "games",
+   "games": 1,
+   "of_games": 1,
+   "league_name": "Neptunas"
+  },
+  "Nevėžis Kėdainiai": {
+   "arena": "Kėdainių arena",
+   "city": "Kėdainiai",
+   "lat": 55.2995,
+   "lon": 23.98991,
+   "capacity": 2200,
+   "league": "LKL",
+   "source": "games",
+   "games": 1,
+   "of_games": 1,
+   "league_name": "Nevezis"
+  },
+  "New Zealand Breakers": {
+   "arena": "Spark Arena",
+   "city": "Auckland",
+   "lat": -36.84718,
+   "lon": 174.77698,
+   "capacity": 9740,
+   "league": "NBL",
+   "source": "sheet"
+  },
+  "Niners Chemnitz": {
+   "arena": "Messe Chemnitz",
+   "city": "Chemnitz",
+   "lat": 50.81782,
+   "lon": 12.88166,
+   "capacity": 5000,
+   "league": "BBL",
+   "source": "games",
+   "games": 2,
+   "of_games": 2,
+   "league_name": "NINERS Chemnitz"
+  },
+  "OSE Lions": {
+   "arena": "Krajnyik „Akác” András Sportcsarnok",
+   "city": "Oroszlány",
+   "lat": 47.48636,
+   "lon": 18.31667,
+   "capacity": 1400,
+   "league": "NB I/A",
+   "source": "sheet"
+  },
+  "Obradoiro CAB": {
+   "arena": "Multiusos Fontes do Sar",
+   "city": "Santiago de Compostela",
+   "lat": 42.87616,
+   "lon": -8.53073,
+   "capacity": 6000,
+   "league": "ACB",
+   "source": "games",
+   "games": 2,
+   "of_games": 2,
+   "league_name": "Monbus Obradoiro"
+  },
+  "Olimpia Milano": {
+   "arena": "Unipol Forum",
+   "city": "Assago",
+   "lat": 45.40136,
+   "lon": 9.1423,
+   "capacity": 12700,
+   "league": "LBA",
+   "source": "sheet"
+  },
+  "Olympiacos B.C.": {
+   "arena": "Peace and Friendship Stadium",
+   "city": "Piraeus",
+   "lat": 37.9425,
+   "lon": 23.66738,
+   "capacity": 12300,
+   "league": "GBL",
+   "source": "override"
+  },
+  "PAOK BC": {
+   "arena": "PAOK SPORTS ARENA",
+   "city": "Pylaia",
+   "lat": 40.56561,
+   "lon": 22.98125,
+   "capacity": 8142,
+   "league": "GBL",
+   "source": "sheet"
+  },
+  "Pallacanestro Cantu": {
+   "arena": "PalaDesio",
+   "city": "Desio",
+   "lat": 45.61331,
+   "lon": 9.19308,
+   "capacity": 6500,
+   "league": "LBA",
+   "source": "sheet"
+  },
+  "Pallacanestro Reggiana": {
+   "arena": "PalaBigi",
+   "city": "Reggio Emilia",
+   "lat": 44.69889,
+   "lon": 10.62472,
+   "capacity": 4530,
+   "league": "LBA",
+   "source": "sheet"
+  },
+  "Pallacanestro Trieste": {
+   "arena": "PalaTrieste",
+   "city": "Trieste",
+   "lat": 45.62285,
+   "lon": 13.79509,
+   "capacity": 6736,
+   "league": "LBA",
+   "source": "sheet"
+  },
+  "Pallacanestro Varese": {
+   "arena": "Itelyum Arena",
+   "city": "Varese",
+   "lat": 45.83607,
+   "lon": 8.80248,
+   "capacity": 5677,
+   "league": "LBA",
+   "source": "sheet"
+  },
+  "Panathinaikos B.C.": {
+   "arena": "TELEKOM CENTER ATHENS",
+   "city": "Marousi",
+   "lat": 38.03788,
+   "lon": 23.78478,
+   "capacity": 19000,
+   "league": "GBL",
+   "source": "sheet"
+  },
+  "Paris Basketball": {
+   "arena": "Adidas Arena",
+   "city": "Paris",
+   "lat": 48.8996,
+   "lon": 2.36075,
+   "capacity": 8000,
+   "league": "Betclic Elite",
+   "source": "sheet"
+  },
+  "Peristeri B.C.": {
+   "arena": "Κ.Γ. ΠΕΡΙΣΤΕΡΙΟΥ \"ΑΝΔΡΕΑΣ ΠΑΠΑΝΔΡΕΟΥ\"",
+   "city": "Peristeri",
+   "lat": 38.00368,
+   "lon": 23.6888,
+   "capacity": 4000,
+   "league": "GBL",
+   "source": "sheet"
+  },
+  "Perth Wildcats": {
+   "arena": "RAC Arena",
+   "city": "Perth",
+   "lat": -31.94823,
+   "lon": 115.85207,
+   "capacity": 14846,
+   "league": "NBL",
+   "source": "sheet"
+  },
+  "Petkim Spor Kulubu": {
+   "arena": "Enka Spor Salonu",
+   "city": "Aliağa",
+   "lat": 38.79487,
+   "lon": 26.96515,
+   "capacity": 2500,
+   "league": "BSL",
+   "source": "games",
+   "games": 15,
+   "of_games": 15,
+   "league_name": "Aliağa Petkim Spor"
+  },
+  "Phoenix Foti Tigrisek": {
+   "arena": "PHOENIX Sportcsarnok Fót",
+   "city": "Fót",
+   "lat": 47.60859,
+   "lon": 19.18692,
+   "capacity": 576,
+   "league": "NB I/A",
+   "source": "sheet"
+  },
+  "Phoenix Hagen": {
+   "arena": "Ischelandhalle",
+   "city": "Hagen",
+   "lat": 51.37087,
+   "lon": 7.47735,
+   "capacity": 3145,
+   "league": "BBL",
+   "source": "games",
+   "games": 3,
+   "of_games": 3,
+   "league_name": "Phoenix Hagen"
+  },
+  "Promitheas Patras B.C.": {
+   "arena": "ΠΕΑΚ ΠΑΤΡΑΣ \"ΔΗΜ. ΤΟΦΑΛΟΣ\"",
+   "city": "Patra",
+   "lat": 38.28375597,
+   "lon": 21.77340222,
+   "capacity": 4200,
+   "league": "GBL",
+   "source": "sheet"
+  },
+  "Rapla KK": {
+   "arena": "Sadolin Sports Hall",
+   "city": "Rapla",
+   "lat": 58.99807,
+   "lon": 24.81334,
+   "capacity": 958,
+   "league": "LEBL",
+   "source": "sheet"
+  },
+  "Rasta Vechta": {
+   "arena": "RASTA Dome",
+   "city": "Vechta",
+   "lat": 52.73321,
+   "lon": 8.25949,
+   "capacity": 3140,
+   "league": "BBL",
+   "source": "games",
+   "games": 4,
+   "of_games": 4,
+   "league_name": "RASTA Vechta"
+  },
+  "Ratiopharm Ulm": {
+   "arena": "ratiopharm arena Ulm",
+   "city": "Neu-Ulm",
+   "lat": 48.38174,
+   "lon": 10.00474,
+   "capacity": 6000,
+   "league": "BBL",
+   "source": "games",
+   "games": 2,
+   "of_games": 2,
+   "league_name": "ratiopharm ulm"
+  },
+  "Real Madrid Baloncesto": {
+   "arena": "Movistar Arena",
+   "city": "Madrid",
+   "lat": 40.42386,
+   "lon": -3.67179,
+   "capacity": 13109,
+   "league": "ACB",
+   "source": "games",
+   "games": 3,
+   "of_games": 3,
+   "league_name": "Real Madrid"
+  },
+  "Rigas Ekselences Juniori": {
+   "arena": "Komandas Sporta Spelu Halle",
+   "city": "Rīga",
+   "lat": 56.96352,
+   "lon": 24.14134,
+   "capacity": 2400,
+   "league": "LEBL",
+   "source": "sheet"
+  },
+  "Rigas Zelli": {
+   "arena": "Komandas Sporta Spelu Halle",
+   "city": "Rīga",
+   "lat": 56.96352,
+   "lon": 24.14134,
+   "capacity": 2400,
+   "league": "LEBL",
+   "source": "sheet"
+  },
+  "Rostock Seawolves": {
+   "arena": "StadtHalle Rostock",
+   "city": "Rostock",
+   "lat": 54.07722,
+   "lon": 12.12554,
+   "capacity": 5000,
+   "league": "BBL",
+   "source": "games",
+   "games": 2,
+   "of_games": 2,
+   "league_name": "ROSTOCK SEAWOLVES"
+  },
+  "Rytas Vilnius": {
+   "arena": "Arena Vilnius",
+   "city": "Vilnius",
+   "lat": 54.71625,
+   "lon": 25.27993,
+   "capacity": 10000,
+   "league": "LKL",
+   "source": "sheet"
+  },
+  "SIG Strasbourg": {
+   "arena": "Rhénus Sport",
+   "city": "Strasbourg",
+   "lat": 48.60028,
+   "lon": 7.76472,
+   "capacity": 6200,
+   "league": "Betclic Elite",
+   "source": "sheet"
+  },
+  "SL Benfica": {
+   "arena": "Pavilhão Fidelidade",
+   "city": "Lisboa",
+   "lat": 38.75128,
+   "lon": -9.18351,
+   "capacity": 2456,
+   "league": "Other",
+   "source": "sheet"
+  },
+  "SLUC Nancy Basket": {
+   "arena": "Palais des Sports Jean Weille",
+   "city": "Nancy",
+   "lat": 48.69926,
+   "lon": 6.13918,
+   "capacity": 6027,
+   "league": "Betclic Elite",
+   "source": "sheet"
+  },
+  "SZTE - Szedeak": {
+   "arena": "Városi Sportcsarnok",
+   "city": "Szeged",
+   "lat": 46.24475,
+   "lon": 20.16272,
+   "capacity": 3200,
+   "league": "NB I/A",
+   "source": "sheet"
+  },
+  "Saint - Quentin BB": {
+   "arena": "Palais des Sports Pierre-Ratte",
+   "city": "Saint-Quentin",
+   "lat": 49.84871,
+   "lon": 3.29428,
+   "capacity": 3800,
+   "league": "Betclic Elite",
+   "source": "sheet"
+  },
+  "Salon Vilpas": {
+   "arena": "Salohalli",
+   "city": "Salo",
+   "lat": 60.37928,
+   "lon": 23.14189,
+   "capacity": 2500,
+   "league": "Korisliiga",
+   "source": "sheet"
+  },
+  "Saski Baskonia": {
+   "arena": "Fernando Buesa Arena",
+   "city": "Vitoria-Gasteiz",
+   "lat": 42.86406,
+   "lon": -2.64166,
+   "capacity": 15504,
+   "league": "ACB",
+   "source": "games",
+   "games": 2,
+   "of_games": 2,
+   "league_name": "Kosner Baskonia"
+  },
+  "Scafati Basket": {
+   "arena": "Beta Ricambi Arena PalaMangano",
+   "city": "Scafati",
+   "lat": 40.76329,
+   "lon": 14.51799,
+   "capacity": 3500,
+   "league": "LBA",
+   "source": "sheet"
+  },
+  "Scaligera Basket Verona": {
+   "arena": "Pala MAGIS",
+   "city": "Verona",
+   "lat": 45.43735,
+   "lon": 10.96482,
+   "capacity": 5350,
+   "league": "LBA",
+   "source": "sheet"
+  },
+  "Science City Jena": {
+   "arena": "Sparkassen-Arena Jena",
+   "city": "Jena",
+   "lat": 50.8999,
+   "lon": 11.58847,
+   "capacity": 3125,
+   "league": "BBL",
+   "source": "games",
+   "games": 2,
+   "of_games": 2,
+   "league_name": "Science City Jena"
+  },
+  "Sibiu": {
+   "arena": "Sala Transilvania",
+   "city": "Sibiu",
+   "lat": 45.78278,
+   "lon": 24.14556,
+   "capacity": 1850,
+   "league": "Other",
+   "source": "sheet"
+  },
+  "Slask Wroclaw": {
+   "arena": "Hala Orbita",
+   "city": "Wrocław",
+   "lat": 51.13251,
+   "lon": 16.98711,
+   "capacity": 3000,
+   "league": "PLK",
+   "source": "sheet"
+  },
+  "Sokol Lancut": {
+   "arena": "Hala MOSiR Łańcut",
+   "city": "Łańcut",
+   "lat": 50.06746,
+   "lon": 22.24257,
+   "capacity": 800,
+   "league": "Other",
+   "source": "sheet"
+  },
+  "Soproni KC": {
+   "arena": "Novomatic Aréna",
+   "city": "Sopron",
+   "lat": 47.69274,
+   "lon": 16.58324,
+   "capacity": 2500,
+   "league": "NB I/A",
+   "source": "sheet"
+  },
+  "South East Melbourne Phoenix": {
+   "arena": "John Cain Arena",
+   "city": "Melbourne",
+   "lat": -37.82282,
+   "lon": 144.98189,
+   "capacity": 10500,
+   "league": "NBL",
+   "source": "sheet"
+  },
+  "Spojnia Stargard": {
+   "arena": "Hala Miejska Stargard",
+   "city": "Stargard",
+   "lat": 53.34155,
+   "lon": 15.02114,
+   "capacity": 2500,
+   "league": "Other",
+   "source": "sheet"
+  },
+  "Sporting CP": {
+   "arena": "Pavilhão João Rocha",
+   "city": "Lisboa",
+   "lat": 38.76343,
+   "lon": -9.15843,
+   "capacity": 3001,
+   "league": "Other",
+   "source": "sheet"
+  },
+  "Stal Ostrow Wielkopolski": {
+   "arena": "3mk Arena Ostrów",
+   "city": "Ostrów Wielkopolski",
+   "lat": 51.65125,
+   "lon": 17.80825,
+   "capacity": 3086,
+   "league": "PLK",
+   "source": "sheet"
+  },
+  "Start Lublin": {
+   "arena": "MOSiR Globus",
+   "city": "Lublin",
+   "lat": 51.2386,
+   "lon": 22.53262,
+   "capacity": 4119,
+   "league": "PLK",
+   "source": "sheet"
+  },
+  "Sydney Kings": {
+   "arena": "Afterpay Arena",
+   "city": "Sydney",
+   "lat": -33.84429,
+   "lon": 151.06224,
+   "capacity": 18000,
+   "league": "NBL",
+   "source": "sheet"
+  },
+  "Syntainics MBC": {
+   "arena": "Stadthalle Weißenfels",
+   "city": "Weißenfels",
+   "lat": 51.20178,
+   "lon": 11.9571,
+   "capacity": 3000,
+   "league": "BBL",
+   "source": "games",
+   "games": 3,
+   "of_games": 3,
+   "league_name": "SYNTAINICS MBC"
+  },
+  "Szolnoki Olaj": {
+   "arena": "Szolnok Városi Sportcsarnok",
+   "city": "Szolnok",
+   "lat": 47.16932,
+   "lon": 20.19762,
+   "capacity": 2200,
+   "league": "NB I/A",
+   "source": "sheet"
+  },
+  "TalTech Basketball": {
+   "arena": "Tallinn, TalTech Spordihoone",
+   "city": "Tallinn",
+   "lat": 59.3936,
+   "lon": 24.67823,
+   "capacity": 1000,
+   "league": "LEBL",
+   "source": "sheet"
+  },
+  "Tampereen Pyrinto": {
+   "arena": "Pyynikin palloiluhalli",
+   "city": "Tampere",
+   "lat": 61.49773,
+   "lon": 23.7337,
+   "capacity": 1400,
+   "league": "Korisliiga",
+   "source": "sheet"
+  },
+  "Tapiolan Honka": {
+   "arena": "Tapiolan Liikuntahalli",
+   "city": "Espoo",
+   "lat": 60.17871,
+   "lon": 24.78517,
+   "capacity": 1570,
+   "league": "Korisliiga",
+   "source": "sheet"
+  },
+  "Tartu Ulikool": {
+   "arena": "Tartu, TÜ sph (Kullami peaväljak)",
+   "city": "Tartu",
+   "lat": 58.38825,
+   "lon": 26.7218,
+   "capacity": 2600,
+   "league": "LEBL",
+   "source": "sheet"
+  },
+  "Tasmania JackJumpers": {
+   "arena": "MyState Bank Arena",
+   "city": "Hobart",
+   "lat": -42.82415,
+   "lon": 147.28267,
+   "capacity": 4340,
+   "league": "NBL",
+   "source": "sheet"
+  },
+  "Telekom Baskets Bonn": {
+   "arena": "Telekom Dome Bonn",
+   "city": "Bonn",
+   "lat": 50.70514,
+   "lon": 7.06037,
+   "capacity": 6000,
+   "league": "BBL",
+   "source": "games",
+   "games": 3,
+   "of_games": 3,
+   "league_name": "Telekom Baskets Bonn"
+  },
+  "Tofas Bursa": {
+   "arena": "Tofaş Spor Salonu",
+   "city": "Bursa",
+   "lat": 40.22715,
+   "lon": 28.97173,
+   "capacity": 5750,
+   "league": "BSL",
+   "source": "games",
+   "games": 15,
+   "of_games": 15,
+   "league_name": "Tofaş"
+  },
+  "Trabzonspor B.K.": {
+   "arena": "Hayri Gür Spor Salonu",
+   "city": "Trabzon",
+   "lat": 40.98688,
+   "lon": 39.80472,
+   "capacity": 7500,
+   "league": "BSL",
+   "source": "games",
+   "games": 15,
+   "of_games": 15,
+   "league_name": "Trabzonspor"
+  },
+  "Trefl Sopot": {
+   "arena": "Hala Sportowa 100-lecia Sopotu",
+   "city": "Sopot",
+   "lat": 54.44891,
+   "lon": 18.56174,
+   "capacity": 1942,
+   "league": "PLK",
+   "source": "sheet"
+  },
+  "Turk Telekom B.K.": {
+   "arena": "Ankara Spor Salonu",
+   "city": "Ankara",
+   "lat": 39.93792,
+   "lon": 32.84391,
+   "capacity": 9984,
+   "league": "BSL",
+   "source": "games",
+   "games": 15,
+   "of_games": 15,
+   "league_name": "Türk Telekom"
+  },
+  "Twarde Pierniki Torun": {
+   "arena": "Kujawsko-Pomorska Arena Toruń",
+   "city": "Toruń",
+   "lat": 53.01775,
+   "lon": 18.58829,
+   "capacity": 6248,
+   "league": "PLK",
+   "source": "sheet"
+  },
+  "U-BT Cluj - Napoca": {
+   "arena": "BT Arena",
+   "city": "Cluj-Napoca",
+   "lat": 46.76697,
+   "lon": 23.57039,
+   "capacity": 10000,
+   "league": "ABA",
+   "source": "sheet"
+  },
+  "UCAM Murcia": {
+   "arena": "Palacio de Deportes de Murcia",
+   "city": "Murcia",
+   "lat": 37.99399,
+   "lon": -1.11274,
+   "capacity": 7454,
+   "league": "ACB",
+   "source": "games",
+   "games": 3,
+   "of_games": 3,
+   "league_name": "Ucam Murcia"
+  },
+  "Umana Reyer Venezia": {
+   "arena": "Palasport Taliercio",
+   "city": "Venezia",
+   "lat": 45.48837,
+   "lon": 12.27855,
+   "capacity": 3509,
+   "league": "LBA",
+   "source": "sheet"
+  },
+  "Unicaja Malaga": {
+   "arena": "Palacio de Deportes José María Martín Carpena",
+   "city": "Málaga",
+   "lat": 36.68252,
+   "lon": -4.46052,
+   "capacity": 10699,
+   "league": "ACB",
+   "source": "games",
+   "games": 2,
+   "of_games": 2,
+   "league_name": "Unicaja"
+  },
+  "Universo Treviso Basket": {
+   "arena": "Palaverde",
+   "city": "Villorba",
+   "lat": 45.7242,
+   "lon": 12.26254,
+   "capacity": 5344,
+   "league": "LBA",
+   "source": "sheet"
+  },
+  "Utena Juventus": {
+   "arena": "Utenos daugiafunkcis sporto centras",
+   "city": "Utena",
+   "lat": 55.50425,
+   "lon": 25.59143,
+   "capacity": 2500,
+   "league": "LKL",
+   "source": "games",
+   "games": 2,
+   "of_games": 2,
+   "league_name": "Juventus"
+  },
+  "Valencia Basket": {
+   "arena": "Roig Arena",
+   "city": "Valencia",
+   "lat": 39.4491,
+   "lon": -0.36435,
+   "capacity": 15600,
+   "league": "ACB",
+   "source": "games",
+   "games": 2,
+   "of_games": 2,
+   "league_name": "Valencia Basket"
+  },
+  "Valmiera Glass/ViA": {
+   "arena": "Valmieras Olimpiskais Centrs",
+   "city": "Valmiera",
+   "lat": 57.52812,
+   "lon": 25.38789,
+   "capacity": 1200,
+   "league": "LEBL",
+   "source": "sheet"
+  },
+  "Vikos Falcons Ioannina B.C.": {
+   "arena": "Κ.Γ. ΙΩΑΝΝΙΝΩΝ «ΣΙΔΕΡΗΣ ΚΑΡΑΔΗΜΑΣ»",
+   "city": "Ioannina",
+   "lat": 39.62078366,
+   "lon": 20.86748133,
+   "capacity": 1060,
+   "league": "GBL",
+   "source": "sheet"
+  },
+  "Virtus Bologna": {
+   "arena": "Virtus Arena",
+   "city": "Bologna",
+   "lat": 44.50999,
+   "lon": 11.36698,
+   "capacity": 10220,
+   "league": "LBA",
+   "source": "sheet"
+  },
+  "Wurzburg Baskets": {
+   "arena": "tectake ARENA Würzburg",
+   "city": "Würzburg",
+   "lat": 49.77341,
+   "lon": 9.9412,
+   "capacity": 3140,
+   "league": "BBL",
+   "source": "games",
+   "games": 3,
+   "of_games": 3,
+   "league_name": "Fitness First Würzburg Baskets"
+  },
+  "Yalovaspor BK": {
+   "arena": "Yalova 90. Yil Spor Salonu",
+   "city": "Yalova",
+   "lat": 40.65408839,
+   "lon": 29.26091583,
+   "capacity": 2000,
+   "league": "BSL",
+   "source": "sheet"
+  },
+  "Zalakeramia ZTE": {
+   "arena": "Zalaegerszeg Városi Sportcsarnok",
+   "city": "Zalaegerszeg",
+   "lat": 46.84588,
+   "lon": 16.85283,
+   "capacity": 2592,
+   "league": "Other",
+   "source": "sheet"
+  },
+  "Zastal Zielona Gora": {
+   "arena": "Centrum Rekreacyjno-Sportowe",
+   "city": "Zielona Góra",
+   "lat": 51.95604,
+   "lon": 15.52408,
+   "capacity": 5080,
+   "league": "PLK",
+   "source": "sheet"
+  },
+  "Žalgiris Kaunas": {
+   "arena": "Žalgirio arena",
+   "city": "Kaunas",
+   "lat": 54.89041,
+   "lon": 23.91444,
+   "capacity": 15415,
+   "league": "LKL",
+   "source": "games",
+   "games": 1,
+   "of_games": 1,
+   "league_name": "Zalgiris Kaunas"
+  }
+ },
+ "unmatched": []
+}

@@ -1,0 +1,1211 @@
+{
+ "league": "BSL",
+ "season": "2026-27",
+ "updated": "2026-10-30T01:37:30+00:00",
+ "clubs": [
+  {
+   "club": "Aliağa Petkim Spor",
+   "home_games_counted": 2,
+   "games_with_capacity": 2,
+   "capacity": 2500,
+   "weighted_capacity": 2500,
+   "filling_rate": 0.74,
+   "arenas": [
+    {
+     "arena": "Enka Spor Salonu",
+     "games": 2,
+     "capacity": 2500
+    }
+   ]
+  },
+  {
+   "club": "Anadolu Efes",
+   "home_games_counted": 3,
+   "games_with_capacity": 3,
+   "capacity": 10000,
+   "weighted_capacity": 10000,
+   "filling_rate": 0.1402,
+   "arenas": [
+    {
+     "arena": "Turkcell Basketbol Gelişim Merkezi",
+     "games": 3,
+     "capacity": 10000
+    }
+   ]
+  },
+  {
+   "club": "Bahçeşehir Koleji",
+   "home_games_counted": 1,
+   "games_with_capacity": 1,
+   "capacity": 16000,
+   "weighted_capacity": 16000,
+   "filling_rate": 0.4241,
+   "arenas": [
+    {
+     "arena": "Sinan Erdem Spor Salonu",
+     "games": 1,
+     "capacity": 16000
+    }
+   ]
+  },
+  {
+   "club": "Beşiktaş",
+   "home_games_counted": 2,
+   "games_with_capacity": 2,
+   "capacity": 10000,
+   "weighted_capacity": 10000,
+   "filling_rate": 0.4164,
+   "arenas": [
+    {
+     "arena": "Turkcell Basketbol Gelişim Merkezi",
+     "games": 2,
+     "capacity": 10000
+    }
+   ]
+  },
+  {
+   "club": "Biotekno Körfez Basket",
+   "home_games_counted": 1,
+   "games_with_capacity": 1,
+   "capacity": 5000,
+   "weighted_capacity": 5000,
+   "filling_rate": 0.207,
+   "arenas": [
+    {
+     "arena": "Şehit Polis Recep Topaloğlu Spor Salonu",
+     "games": 1,
+     "capacity": 5000
+    }
+   ]
+  },
+  {
+   "club": "Bursaspor Basketbol",
+   "home_games_counted": 2,
+   "games_with_capacity": 2,
+   "capacity": 5750,
+   "weighted_capacity": 5750,
+   "filling_rate": 0.4122,
+   "arenas": [
+    {
+     "arena": "Tofaş Spor Salonu",
+     "games": 2,
+     "capacity": 5750
+    }
+   ]
+  },
+  {
+   "club": "Esenler Erokspor",
+   "home_games_counted": 2,
+   "games_with_capacity": 2,
+   "capacity": 2890,
+   "weighted_capacity": 2890,
+   "filling_rate": 0.1298,
+   "arenas": [
+    {
+     "arena": "Beşiktaş Akatlar Spor Kompleksi",
+     "games": 2,
+     "capacity": 2890
+    }
+   ]
+  },
+  {
+   "club": "Fenerbahçe Tarfin",
+   "home_games_counted": 2,
+   "games_with_capacity": 2,
+   "capacity": 12687,
+   "weighted_capacity": 12687,
+   "filling_rate": 0.2035,
+   "arenas": [
+    {
+     "arena": "Ülker Spor ve Etkinlik Salonu",
+     "games": 2,
+     "capacity": 12687
+    }
+   ]
+  },
+  {
+   "club": "Galatasaray Mct Technıc",
+   "home_games_counted": 3,
+   "games_with_capacity": 3,
+   "capacity": 16000,
+   "weighted_capacity": 16000,
+   "filling_rate": 0.1267,
+   "arenas": [
+    {
+     "arena": "Sinan Erdem Spor Salonu",
+     "games": 3,
+     "capacity": 16000
+    }
+   ]
+  },
+  {
+   "club": "Glint Çayırova Belediyesi",
+   "home_games_counted": 2,
+   "games_with_capacity": 2,
+   "capacity": 3500,
+   "weighted_capacity": 3500,
+   "filling_rate": 0.9457,
+   "arenas": [
+    {
+     "arena": "Çayırova Belediyesi Spor Kompleksi",
+     "games": 2,
+     "capacity": 3500
+    }
+   ]
+  },
+  {
+   "club": "Karşıyaka",
+   "home_games_counted": 2,
+   "games_with_capacity": 2,
+   "capacity": 4800,
+   "weighted_capacity": 4800,
+   "filling_rate": 0.5026,
+   "arenas": [
+    {
+     "arena": "Mustafa Kemal Atatürk Karşıyaka Spor Salonu",
+     "games": 2,
+     "capacity": 4800
+    }
+   ]
+  },
+  {
+   "club": "Pizzabulls Bordo Bandırma",
+   "home_games_counted": 2,
+   "games_with_capacity": 2,
+   "capacity": 2000,
+   "weighted_capacity": 2375,
+   "filling_rate": 0.9789,
+   "arenas": [
+    {
+     "arena": "Bandırma 17 Eylül Üniversitesi Spor Salonu",
+     "games": 2,
+     "capacity": 2000
+    }
+   ]
+  },
+  {
+   "club": "Tofaş",
+   "home_games_counted": 3,
+   "games_with_capacity": 3,
+   "capacity": 5750,
+   "weighted_capacity": 5750,
+   "filling_rate": 0.2653,
+   "arenas": [
+    {
+     "arena": "Tofaş Spor Salonu",
+     "games": 3,
+     "capacity": 5750
+    }
+   ]
+  },
+  {
+   "club": "Trabzonspor",
+   "home_games_counted": 3,
+   "games_with_capacity": 3,
+   "capacity": 7500,
+   "weighted_capacity": 7500,
+   "filling_rate": 0.2959,
+   "arenas": [
+    {
+     "arena": "Hayri Gür Spor Salonu",
+     "games": 3,
+     "capacity": 7500
+    }
+   ]
+  },
+  {
+   "club": "Türk Telekom",
+   "home_games_counted": 2,
+   "games_with_capacity": 2,
+   "capacity": 9984,
+   "weighted_capacity": 9984,
+   "filling_rate": 0.3753,
+   "arenas": [
+    {
+     "arena": "Ankara Spor Salonu",
+     "games": 2,
+     "capacity": 9984
+    }
+   ]
+  },
+  {
+   "club": "Yukatel Denizli Basket",
+   "home_games_counted": 2,
+   "games_with_capacity": 2,
+   "capacity": 3490,
+   "weighted_capacity": 3490,
+   "filling_rate": 0.4871,
+   "arenas": [
+    {
+     "arena": "Pamukkale Üniversitesi Spor Salonu",
+     "games": 2,
+     "capacity": 3490
+    }
+   ]
+  }
+ ],
+ "unknown_arenas": [],
+ "last_attendance_game": "2026-10-25",
+ "games": {
+  "2026-09-25-tofas-pizzabulls-bordo-bandirma": {
+   "arena": "Tofaş Spor Salonu",
+   "capacity": 5750
+  },
+  "2026-09-26-aliaga-petkim-spor-yukatel-denizli-basket": {
+   "arena": "Enka Spor Salonu",
+   "capacity": 2500
+  },
+  "2026-09-26-galatasaray-mct-technic-glint-cayirova-belediyesi": {
+   "arena": "Sinan Erdem Spor Salonu",
+   "capacity": 16000
+  },
+  "2026-09-26-turk-telekom-karsiyaka": {
+   "arena": "Ankara Spor Salonu",
+   "capacity": 9984
+  },
+  "2026-09-27-anadolu-efes-besiktas": {
+   "arena": "Turkcell Basketbol Gelişim Merkezi",
+   "capacity": 10000
+  },
+  "2026-09-27-bahcesehir-koleji-fenerbahce-tarfin": {
+   "arena": "Sinan Erdem Spor Salonu",
+   "capacity": 16000
+  },
+  "2026-09-27-trabzonspor-bursaspor-basketbol": {
+   "arena": "Hayri Gür Spor Salonu",
+   "capacity": 7500
+  },
+  "2026-09-28-biotekno-korfez-basket-esenler-erokspor": {
+   "arena": "Şehit Polis Recep Topaloğlu Spor Salonu",
+   "capacity": 5000
+  },
+  "2026-10-02-karsiyaka-galatasaray-mct-technic": {
+   "arena": "Mustafa Kemal Atatürk Karşıyaka Spor Salonu",
+   "capacity": 4800
+  },
+  "2026-10-03-bursaspor-basketbol-turk-telekom": {
+   "arena": "Tofaş Spor Salonu",
+   "capacity": 5750
+  },
+  "2026-10-03-esenler-erokspor-aliaga-petkim-spor": {
+   "arena": "Beşiktaş Akatlar Spor Kompleksi",
+   "capacity": 2890
+  },
+  "2026-10-03-yukatel-denizli-basket-tofas": {
+   "arena": "Pamukkale Üniversitesi Spor Salonu",
+   "capacity": 3490
+  },
+  "2026-10-04-fenerbahce-tarfin-biotekno-korfez-basket": {
+   "arena": "Ülker Spor ve Etkinlik Salonu",
+   "capacity": 12687
+  },
+  "2026-10-04-glint-cayirova-belediyesi-bahcesehir-koleji": {
+   "arena": "Çayırova Belediyesi Spor Kompleksi",
+   "capacity": 3500
+  },
+  "2026-10-04-pizzabulls-bordo-bandirma-anadolu-efes": {
+   "arena": "Bandırma 17 Eylül Üniversitesi Spor Salonu",
+   "capacity": 2000
+  },
+  "2026-10-05-besiktas-trabzonspor": {
+   "arena": "Turkcell Basketbol Gelişim Merkezi",
+   "capacity": 10000
+  },
+  "2026-10-10-aliaga-petkim-spor-biotekno-korfez-basket": {
+   "arena": "Enka Spor Salonu",
+   "capacity": 2500
+  },
+  "2026-10-10-bahcesehir-koleji-karsiyaka": {
+   "arena": "Sinan Erdem Spor Salonu",
+   "capacity": 16000
+  },
+  "2026-10-10-glint-cayirova-belediyesi-fenerbahce-tarfin": {
+   "arena": "Çayırova Belediyesi Spor Kompleksi",
+   "capacity": 3500
+  },
+  "2026-10-10-tofas-esenler-erokspor": {
+   "arena": "Tofaş Spor Salonu",
+   "capacity": 5750
+  },
+  "2026-10-11-anadolu-efes-yukatel-denizli-basket": {
+   "arena": "Turkcell Basketbol Gelişim Merkezi",
+   "capacity": 10000
+  },
+  "2026-10-11-trabzonspor-pizzabulls-bordo-bandirma": {
+   "arena": "Hayri Gür Spor Salonu",
+   "capacity": 7500
+  },
+  "2026-10-11-turk-telekom-besiktas": {
+   "arena": "Ankara Spor Salonu",
+   "capacity": 9984
+  },
+  "2026-10-12-galatasaray-mct-technic-bursaspor-basketbol": {
+   "arena": "Sinan Erdem Spor Salonu",
+   "capacity": 16000
+  },
+  "2026-10-16-karsiyaka-glint-cayirova-belediyesi": {
+   "arena": "Mustafa Kemal Atatürk Karşıyaka Spor Salonu",
+   "capacity": 4800
+  },
+  "2026-10-17-biotekno-korfez-basket-tofas": {
+   "arena": "Şehit Polis Recep Topaloğlu Spor Salonu",
+   "capacity": 5000
+  },
+  "2026-10-17-bursaspor-basketbol-bahcesehir-koleji": {
+   "arena": "Tofaş Spor Salonu",
+   "capacity": 5750
+  },
+  "2026-10-17-pizzabulls-bordo-bandirma-turk-telekom": {
+   "arena": "Bandırma 17 Eylül Üniversitesi Spor Salonu",
+   "capacity": 2000
+  },
+  "2026-10-18-besiktas-galatasaray-mct-technic": {
+   "arena": "Turkcell Basketbol Gelişim Merkezi",
+   "capacity": 10000
+  },
+  "2026-10-18-fenerbahce-tarfin-aliaga-petkim-spor": {
+   "arena": "Ülker Spor ve Etkinlik Salonu",
+   "capacity": 12687
+  },
+  "2026-10-18-yukatel-denizli-basket-trabzonspor": {
+   "arena": "Pamukkale Üniversitesi Spor Salonu",
+   "capacity": 3490
+  },
+  "2026-10-19-esenler-erokspor-anadolu-efes": {
+   "arena": "Beşiktaş Akatlar Spor Kompleksi",
+   "capacity": 2890
+  },
+  "2026-10-23-glint-cayirova-belediyesi-bursaspor-basketbol": {
+   "arena": "Çayırova Belediyesi Spor Kompleksi",
+   "capacity": 3500
+  },
+  "2026-10-24-bahcesehir-koleji-besiktas": {
+   "arena": "Sinan Erdem Spor Salonu",
+   "capacity": 16000
+  },
+  "2026-10-24-trabzonspor-esenler-erokspor": {
+   "arena": "Hayri Gür Spor Salonu",
+   "capacity": 7500
+  },
+  "2026-10-24-turk-telekom-yukatel-denizli-basket": {
+   "arena": "Ankara Spor Salonu",
+   "capacity": 9984
+  },
+  "2026-10-25-anadolu-efes-biotekno-korfez-basket": {
+   "arena": "Turkcell Basketbol Gelişim Merkezi",
+   "capacity": 10000
+  },
+  "2026-10-25-galatasaray-mct-technic-pizzabulls-bordo-bandirma": {
+   "arena": "Sinan Erdem Spor Salonu",
+   "capacity": 16000
+  },
+  "2026-10-25-karsiyaka-fenerbahce-tarfin": {
+   "arena": "Mustafa Kemal Atatürk Karşıyaka Spor Salonu",
+   "capacity": 4800
+  },
+  "2026-10-25-tofas-aliaga-petkim-spor": {
+   "arena": "Tofaş Spor Salonu",
+   "capacity": 5750
+  },
+  "2026-10-31-biotekno-korfez-basket-trabzonspor": {
+   "arena": "Şehit Polis Recep Topaloğlu Spor Salonu",
+   "capacity": 5000
+  },
+  "2026-10-31-pizzabulls-bordo-bandirma-bahcesehir-koleji": {
+   "arena": "Bandırma 17 Eylül Üniversitesi Spor Salonu",
+   "capacity": 2000
+  },
+  "2026-10-31-yukatel-denizli-basket-galatasaray-mct-technic": {
+   "arena": "Pamukkale Üniversitesi Spor Salonu",
+   "capacity": 3490
+  },
+  "2026-11-01-bursaspor-basketbol-karsiyaka": {
+   "arena": "Tofaş Spor Salonu",
+   "capacity": 5750
+  },
+  "2026-11-01-esenler-erokspor-turk-telekom": {
+   "arena": "Beşiktaş Akatlar Spor Kompleksi",
+   "capacity": 2890
+  },
+  "2026-11-01-fenerbahce-tarfin-tofas": {
+   "arena": "Ülker Spor ve Etkinlik Salonu",
+   "capacity": 12687
+  },
+  "2026-11-02-aliaga-petkim-spor-anadolu-efes": {
+   "arena": "Enka Spor Salonu",
+   "capacity": 2500
+  },
+  "2026-11-02-besiktas-glint-cayirova-belediyesi": {
+   "arena": "Turkcell Basketbol Gelişim Merkezi",
+   "capacity": 10000
+  },
+  "2026-11-07-bursaspor-basketbol-fenerbahce-tarfin": {
+   "arena": "Tofaş Spor Salonu",
+   "capacity": 5750
+  },
+  "2026-11-07-glint-cayirova-belediyesi-pizzabulls-bordo-bandirma": {
+   "arena": "Çayırova Belediyesi Spor Kompleksi",
+   "capacity": 3500
+  },
+  "2026-11-07-trabzonspor-aliaga-petkim-spor": {
+   "arena": "Hayri Gür Spor Salonu",
+   "capacity": 7500
+  },
+  "2026-11-07-turk-telekom-biotekno-korfez-basket": {
+   "arena": "Ankara Spor Salonu",
+   "capacity": 9984
+  },
+  "2026-11-08-anadolu-efes-tofas": {
+   "arena": "Turkcell Basketbol Gelişim Merkezi",
+   "capacity": 10000
+  },
+  "2026-11-08-bahcesehir-koleji-yukatel-denizli-basket": {
+   "arena": "Sinan Erdem Spor Salonu",
+   "capacity": 16000
+  },
+  "2026-11-08-galatasaray-mct-technic-esenler-erokspor": {
+   "arena": "Sinan Erdem Spor Salonu",
+   "capacity": 16000
+  },
+  "2026-11-09-karsiyaka-besiktas": {
+   "arena": "Mustafa Kemal Atatürk Karşıyaka Spor Salonu",
+   "capacity": 4800
+  },
+  "2026-11-14-aliaga-petkim-spor-turk-telekom": {
+   "arena": "Enka Spor Salonu",
+   "capacity": 2500
+  },
+  "2026-11-14-biotekno-korfez-basket-galatasaray-mct-technic": {
+   "arena": "Şehit Polis Recep Topaloğlu Spor Salonu",
+   "capacity": 5000
+  },
+  "2026-11-14-pizzabulls-bordo-bandirma-karsiyaka": {
+   "arena": "Bandırma 17 Eylül Üniversitesi Spor Salonu",
+   "capacity": 2000
+  },
+  "2026-11-14-tofas-trabzonspor": {
+   "arena": "Tofaş Spor Salonu",
+   "capacity": 5750
+  },
+  "2026-11-15-besiktas-bursaspor-basketbol": {
+   "arena": "Beşiktaş Akatlar Spor Kompleksi",
+   "capacity": 2890
+  },
+  "2026-11-15-esenler-erokspor-bahcesehir-koleji": {
+   "arena": "Beşiktaş Akatlar Spor Kompleksi",
+   "capacity": 2890
+  },
+  "2026-11-15-fenerbahce-tarfin-anadolu-efes": {
+   "arena": "Ülker Spor ve Etkinlik Salonu",
+   "capacity": 12687
+  },
+  "2026-11-15-yukatel-denizli-basket-glint-cayirova-belediyesi": {
+   "arena": "Pamukkale Üniversitesi Spor Salonu",
+   "capacity": 3490
+  },
+  "2026-11-21-bahcesehir-koleji-biotekno-korfez-basket": {
+   "arena": "Sinan Erdem Spor Salonu",
+   "capacity": 16000
+  },
+  "2026-11-21-bursaspor-basketbol-pizzabulls-bordo-bandirma": {
+   "arena": "Tofaş Spor Salonu",
+   "capacity": 5750
+  },
+  "2026-11-21-karsiyaka-yukatel-denizli-basket": {
+   "arena": "Mustafa Kemal Atatürk Karşıyaka Spor Salonu",
+   "capacity": 4800
+  },
+  "2026-11-21-turk-telekom-tofas": {
+   "arena": "Ankara Spor Salonu",
+   "capacity": 9984
+  },
+  "2026-11-22-besiktas-fenerbahce-tarfin": {
+   "arena": "Turkcell Basketbol Gelişim Merkezi",
+   "capacity": 10000
+  },
+  "2026-11-22-galatasaray-mct-technic-aliaga-petkim-spor": {
+   "arena": "Sinan Erdem Spor Salonu",
+   "capacity": 16000
+  },
+  "2026-11-22-glint-cayirova-belediyesi-esenler-erokspor": {
+   "arena": "Atanmadı",
+   "capacity": null
+  },
+  "2026-11-22-trabzonspor-anadolu-efes": {
+   "arena": "Hayri Gür Spor Salonu",
+   "capacity": 7500
+  },
+  "2026-12-05-aliaga-petkim-spor-bahcesehir-koleji": {
+   "arena": "Enka Spor Salonu",
+   "capacity": 2500
+  },
+  "2026-12-05-esenler-erokspor-karsiyaka": {
+   "arena": "Beşiktaş Akatlar Spor Kompleksi",
+   "capacity": 2890
+  },
+  "2026-12-05-tofas-galatasaray-mct-technic": {
+   "arena": "Tofaş Spor Salonu",
+   "capacity": 5750
+  },
+  "2026-12-05-yukatel-denizli-basket-bursaspor-basketbol": {
+   "arena": "Pamukkale Üniversitesi Spor Salonu",
+   "capacity": 3490
+  },
+  "2026-12-06-anadolu-efes-turk-telekom": {
+   "arena": "Sinan Erdem Spor Salonu",
+   "capacity": 16000
+  },
+  "2026-12-06-biotekno-korfez-basket-glint-cayirova-belediyesi": {
+   "arena": "Şehit Polis Recep Topaloğlu Spor Salonu",
+   "capacity": 5000
+  },
+  "2026-12-06-fenerbahce-tarfin-trabzonspor": {
+   "arena": "Ülker Spor ve Etkinlik Salonu",
+   "capacity": 12687
+  },
+  "2026-12-07-pizzabulls-bordo-bandirma-besiktas": {
+   "arena": "Bandırma 17 Eylül Üniversitesi Spor Salonu",
+   "capacity": 2000
+  },
+  "2026-12-11-glint-cayirova-belediyesi-aliaga-petkim-spor": {
+   "arena": "Çayırova Belediyesi Spor Kompleksi",
+   "capacity": 3500
+  },
+  "2026-12-12-bahcesehir-koleji-tofas": {
+   "arena": "Sinan Erdem Spor Salonu",
+   "capacity": 16000
+  },
+  "2026-12-12-galatasaray-mct-technic-anadolu-efes": {
+   "arena": "Sinan Erdem Spor Salonu",
+   "capacity": 16000
+  },
+  "2026-12-12-karsiyaka-biotekno-korfez-basket": {
+   "arena": "Mustafa Kemal Atatürk Karşıyaka Spor Salonu",
+   "capacity": 4800
+  },
+  "2026-12-12-pizzabulls-bordo-bandirma-fenerbahce-tarfin": {
+   "arena": "Bandırma 17 Eylül Üniversitesi Spor Salonu",
+   "capacity": 2000
+  },
+  "2026-12-13-besiktas-yukatel-denizli-basket": {
+   "arena": "Beşiktaş Akatlar Spor Kompleksi",
+   "capacity": 2890
+  },
+  "2026-12-13-bursaspor-basketbol-esenler-erokspor": {
+   "arena": "Tofaş Spor Salonu",
+   "capacity": 5750
+  },
+  "2026-12-13-turk-telekom-trabzonspor": {
+   "arena": "Ankara Spor Salonu",
+   "capacity": 9984
+  },
+  "2026-12-18-trabzonspor-galatasaray-mct-technic": {
+   "arena": "Hayri Gür Spor Salonu",
+   "capacity": 7500
+  },
+  "2026-12-19-aliaga-petkim-spor-karsiyaka": {
+   "arena": "Enka Spor Salonu",
+   "capacity": 2500
+  },
+  "2026-12-19-biotekno-korfez-basket-bursaspor-basketbol": {
+   "arena": "Şehit Polis Recep Topaloğlu Spor Salonu",
+   "capacity": 5000
+  },
+  "2026-12-19-yukatel-denizli-basket-pizzabulls-bordo-bandirma": {
+   "arena": "Pamukkale Üniversitesi Spor Salonu",
+   "capacity": 3490
+  },
+  "2026-12-20-anadolu-efes-bahcesehir-koleji": {
+   "arena": "Turkcell Basketbol Gelişim Merkezi",
+   "capacity": 10000
+  },
+  "2026-12-20-esenler-erokspor-besiktas": {
+   "arena": "Beşiktaş Akatlar Spor Kompleksi",
+   "capacity": 2890
+  },
+  "2026-12-20-fenerbahce-tarfin-turk-telekom": {
+   "arena": "Ülker Spor ve Etkinlik Salonu",
+   "capacity": 12687
+  },
+  "2026-12-20-tofas-glint-cayirova-belediyesi": {
+   "arena": "Tofaş Spor Salonu",
+   "capacity": 5750
+  },
+  "2026-12-26-bahcesehir-koleji-trabzonspor": {
+   "arena": "Sinan Erdem Spor Salonu",
+   "capacity": 16000
+  },
+  "2026-12-26-besiktas-biotekno-korfez-basket": {
+   "arena": "Turkcell Basketbol Gelişim Merkezi",
+   "capacity": 10000
+  },
+  "2026-12-26-bursaspor-basketbol-aliaga-petkim-spor": {
+   "arena": "Tofaş Spor Salonu",
+   "capacity": 5750
+  },
+  "2026-12-26-galatasaray-mct-technic-turk-telekom": {
+   "arena": "Sinan Erdem Spor Salonu",
+   "capacity": 16000
+  },
+  "2026-12-26-glint-cayirova-belediyesi-anadolu-efes": {
+   "arena": "Atanmadı",
+   "capacity": null
+  },
+  "2026-12-26-karsiyaka-tofas": {
+   "arena": "Mustafa Kemal Atatürk Karşıyaka Spor Salonu",
+   "capacity": 4800
+  },
+  "2026-12-26-pizzabulls-bordo-bandirma-esenler-erokspor": {
+   "arena": "Bandırma 17 Eylül Üniversitesi Spor Salonu",
+   "capacity": 2000
+  },
+  "2026-12-26-yukatel-denizli-basket-fenerbahce-tarfin": {
+   "arena": "Pamukkale Üniversitesi Spor Salonu",
+   "capacity": 3490
+  },
+  "2027-01-02-aliaga-petkim-spor-besiktas": {
+   "arena": "Enka Spor Salonu",
+   "capacity": 2500
+  },
+  "2027-01-02-anadolu-efes-karsiyaka": {
+   "arena": "Turkcell Basketbol Gelişim Merkezi",
+   "capacity": 10000
+  },
+  "2027-01-02-biotekno-korfez-basket-pizzabulls-bordo-bandirma": {
+   "arena": "Şehit Polis Recep Topaloğlu Spor Salonu",
+   "capacity": 5000
+  },
+  "2027-01-02-esenler-erokspor-yukatel-denizli-basket": {
+   "arena": "Beşiktaş Akatlar Spor Kompleksi",
+   "capacity": 2890
+  },
+  "2027-01-02-fenerbahce-tarfin-galatasaray-mct-technic": {
+   "arena": "Ülker Spor ve Etkinlik Salonu",
+   "capacity": 12687
+  },
+  "2027-01-02-tofas-bursaspor-basketbol": {
+   "arena": "Tofaş Spor Salonu",
+   "capacity": 5750
+  },
+  "2027-01-02-trabzonspor-glint-cayirova-belediyesi": {
+   "arena": "Hayri Gür Spor Salonu",
+   "capacity": 7500
+  },
+  "2027-01-02-turk-telekom-bahcesehir-koleji": {
+   "arena": "Ankara Spor Salonu",
+   "capacity": 9984
+  },
+  "2027-01-09-bahcesehir-koleji-galatasaray-mct-technic": {
+   "arena": "Sinan Erdem Spor Salonu",
+   "capacity": 16000
+  },
+  "2027-01-09-besiktas-tofas": {
+   "arena": "Turkcell Basketbol Gelişim Merkezi",
+   "capacity": 10000
+  },
+  "2027-01-09-bursaspor-basketbol-anadolu-efes": {
+   "arena": "Tofaş Spor Salonu",
+   "capacity": 5750
+  },
+  "2027-01-09-esenler-erokspor-fenerbahce-tarfin": {
+   "arena": "Beşiktaş Akatlar Spor Kompleksi",
+   "capacity": 2890
+  },
+  "2027-01-09-glint-cayirova-belediyesi-turk-telekom": {
+   "arena": "Atanmadı",
+   "capacity": null
+  },
+  "2027-01-09-karsiyaka-trabzonspor": {
+   "arena": "Mustafa Kemal Atatürk Karşıyaka Spor Salonu",
+   "capacity": 4800
+  },
+  "2027-01-09-pizzabulls-bordo-bandirma-aliaga-petkim-spor": {
+   "arena": "Bandırma 17 Eylül Üniversitesi Spor Salonu",
+   "capacity": 2000
+  },
+  "2027-01-09-yukatel-denizli-basket-biotekno-korfez-basket": {
+   "arena": "Pamukkale Üniversitesi Spor Salonu",
+   "capacity": 3490
+  },
+  "2027-01-16-besiktas-anadolu-efes": {
+   "arena": "Turkcell Basketbol Gelişim Merkezi",
+   "capacity": 10000
+  },
+  "2027-01-16-bursaspor-basketbol-trabzonspor": {
+   "arena": "Tofaş Spor Salonu",
+   "capacity": 5750
+  },
+  "2027-01-16-esenler-erokspor-biotekno-korfez-basket": {
+   "arena": "Beşiktaş Akatlar Spor Kompleksi",
+   "capacity": 2890
+  },
+  "2027-01-16-fenerbahce-tarfin-bahcesehir-koleji": {
+   "arena": "Ülker Spor ve Etkinlik Salonu",
+   "capacity": 12687
+  },
+  "2027-01-16-glint-cayirova-belediyesi-galatasaray-mct-technic": {
+   "arena": "Atanmadı",
+   "capacity": null
+  },
+  "2027-01-16-karsiyaka-turk-telekom": {
+   "arena": "Mustafa Kemal Atatürk Karşıyaka Spor Salonu",
+   "capacity": 4800
+  },
+  "2027-01-16-pizzabulls-bordo-bandirma-tofas": {
+   "arena": "Bandırma 17 Eylül Üniversitesi Spor Salonu",
+   "capacity": 2000
+  },
+  "2027-01-16-yukatel-denizli-basket-aliaga-petkim-spor": {
+   "arena": "Pamukkale Üniversitesi Spor Salonu",
+   "capacity": 3490
+  },
+  "2027-01-23-aliaga-petkim-spor-esenler-erokspor": {
+   "arena": "Enka Spor Salonu",
+   "capacity": 2500
+  },
+  "2027-01-23-anadolu-efes-pizzabulls-bordo-bandirma": {
+   "arena": "Turkcell Basketbol Gelişim Merkezi",
+   "capacity": 10000
+  },
+  "2027-01-23-bahcesehir-koleji-glint-cayirova-belediyesi": {
+   "arena": "Sinan Erdem Spor Salonu",
+   "capacity": 16000
+  },
+  "2027-01-23-biotekno-korfez-basket-fenerbahce-tarfin": {
+   "arena": "Şehit Polis Recep Topaloğlu Spor Salonu",
+   "capacity": 5000
+  },
+  "2027-01-23-galatasaray-mct-technic-karsiyaka": {
+   "arena": "Sinan Erdem Spor Salonu",
+   "capacity": 16000
+  },
+  "2027-01-23-tofas-yukatel-denizli-basket": {
+   "arena": "Tofaş Spor Salonu",
+   "capacity": 5750
+  },
+  "2027-01-23-trabzonspor-besiktas": {
+   "arena": "Hayri Gür Spor Salonu",
+   "capacity": 7500
+  },
+  "2027-01-23-turk-telekom-bursaspor-basketbol": {
+   "arena": "Ankara Spor Salonu",
+   "capacity": 9984
+  },
+  "2027-01-30-besiktas-turk-telekom": {
+   "arena": "Turkcell Basketbol Gelişim Merkezi",
+   "capacity": 10000
+  },
+  "2027-01-30-biotekno-korfez-basket-aliaga-petkim-spor": {
+   "arena": "Şehit Polis Recep Topaloğlu Spor Salonu",
+   "capacity": 5000
+  },
+  "2027-01-30-bursaspor-basketbol-galatasaray-mct-technic": {
+   "arena": "Tofaş Spor Salonu",
+   "capacity": 5750
+  },
+  "2027-01-30-esenler-erokspor-tofas": {
+   "arena": "Beşiktaş Akatlar Spor Kompleksi",
+   "capacity": 2890
+  },
+  "2027-01-30-fenerbahce-tarfin-glint-cayirova-belediyesi": {
+   "arena": "Ülker Spor ve Etkinlik Salonu",
+   "capacity": 12687
+  },
+  "2027-01-30-karsiyaka-bahcesehir-koleji": {
+   "arena": "Mustafa Kemal Atatürk Karşıyaka Spor Salonu",
+   "capacity": 4800
+  },
+  "2027-01-30-pizzabulls-bordo-bandirma-trabzonspor": {
+   "arena": "Bandırma 17 Eylül Üniversitesi Spor Salonu",
+   "capacity": 2000
+  },
+  "2027-01-30-yukatel-denizli-basket-anadolu-efes": {
+   "arena": "Pamukkale Üniversitesi Spor Salonu",
+   "capacity": 3490
+  },
+  "2027-02-06-aliaga-petkim-spor-fenerbahce-tarfin": {
+   "arena": "Enka Spor Salonu",
+   "capacity": 2500
+  },
+  "2027-02-06-anadolu-efes-esenler-erokspor": {
+   "arena": "Turkcell Basketbol Gelişim Merkezi",
+   "capacity": 10000
+  },
+  "2027-02-06-bahcesehir-koleji-bursaspor-basketbol": {
+   "arena": "Sinan Erdem Spor Salonu",
+   "capacity": 16000
+  },
+  "2027-02-06-galatasaray-mct-technic-besiktas": {
+   "arena": "Sinan Erdem Spor Salonu",
+   "capacity": 16000
+  },
+  "2027-02-06-glint-cayirova-belediyesi-karsiyaka": {
+   "arena": "Atanmadı",
+   "capacity": null
+  },
+  "2027-02-06-tofas-biotekno-korfez-basket": {
+   "arena": "Tofaş Spor Salonu",
+   "capacity": 5750
+  },
+  "2027-02-06-trabzonspor-yukatel-denizli-basket": {
+   "arena": "Hayri Gür Spor Salonu",
+   "capacity": 7500
+  },
+  "2027-02-06-turk-telekom-pizzabulls-bordo-bandirma": {
+   "arena": "Ankara Spor Salonu",
+   "capacity": 9984
+  },
+  "2027-02-13-aliaga-petkim-spor-tofas": {
+   "arena": "Enka Spor Salonu",
+   "capacity": 2500
+  },
+  "2027-02-13-besiktas-bahcesehir-koleji": {
+   "arena": "Turkcell Basketbol Gelişim Merkezi",
+   "capacity": 10000
+  },
+  "2027-02-13-biotekno-korfez-basket-anadolu-efes": {
+   "arena": "Şehit Polis Recep Topaloğlu Spor Salonu",
+   "capacity": 5000
+  },
+  "2027-02-13-bursaspor-basketbol-glint-cayirova-belediyesi": {
+   "arena": "Tofaş Spor Salonu",
+   "capacity": 5750
+  },
+  "2027-02-13-esenler-erokspor-trabzonspor": {
+   "arena": "Beşiktaş Akatlar Spor Kompleksi",
+   "capacity": 2890
+  },
+  "2027-02-13-fenerbahce-tarfin-karsiyaka": {
+   "arena": "Ülker Spor ve Etkinlik Salonu",
+   "capacity": 12687
+  },
+  "2027-02-13-pizzabulls-bordo-bandirma-galatasaray-mct-technic": {
+   "arena": "Bandırma 17 Eylül Üniversitesi Spor Salonu",
+   "capacity": 2000
+  },
+  "2027-02-13-yukatel-denizli-basket-turk-telekom": {
+   "arena": "Pamukkale Üniversitesi Spor Salonu",
+   "capacity": 3490
+  },
+  "2027-03-06-anadolu-efes-aliaga-petkim-spor": {
+   "arena": "Turkcell Basketbol Gelişim Merkezi",
+   "capacity": 10000
+  },
+  "2027-03-06-bahcesehir-koleji-pizzabulls-bordo-bandirma": {
+   "arena": "Sinan Erdem Spor Salonu",
+   "capacity": 16000
+  },
+  "2027-03-06-galatasaray-mct-technic-yukatel-denizli-basket": {
+   "arena": "Sinan Erdem Spor Salonu",
+   "capacity": 16000
+  },
+  "2027-03-06-glint-cayirova-belediyesi-besiktas": {
+   "arena": "Atanmadı",
+   "capacity": null
+  },
+  "2027-03-06-karsiyaka-bursaspor-basketbol": {
+   "arena": "Mustafa Kemal Atatürk Karşıyaka Spor Salonu",
+   "capacity": 4800
+  },
+  "2027-03-06-tofas-fenerbahce-tarfin": {
+   "arena": "Tofaş Spor Salonu",
+   "capacity": 5750
+  },
+  "2027-03-06-trabzonspor-biotekno-korfez-basket": {
+   "arena": "Hayri Gür Spor Salonu",
+   "capacity": 7500
+  },
+  "2027-03-06-turk-telekom-esenler-erokspor": {
+   "arena": "Ankara Spor Salonu",
+   "capacity": 9984
+  },
+  "2027-03-13-aliaga-petkim-spor-trabzonspor": {
+   "arena": "Enka Spor Salonu",
+   "capacity": 2500
+  },
+  "2027-03-13-besiktas-karsiyaka": {
+   "arena": "Turkcell Basketbol Gelişim Merkezi",
+   "capacity": 10000
+  },
+  "2027-03-13-biotekno-korfez-basket-turk-telekom": {
+   "arena": "Şehit Polis Recep Topaloğlu Spor Salonu",
+   "capacity": 5000
+  },
+  "2027-03-13-esenler-erokspor-galatasaray-mct-technic": {
+   "arena": "Beşiktaş Akatlar Spor Kompleksi",
+   "capacity": 2890
+  },
+  "2027-03-13-fenerbahce-tarfin-bursaspor-basketbol": {
+   "arena": "Ülker Spor ve Etkinlik Salonu",
+   "capacity": 12687
+  },
+  "2027-03-13-pizzabulls-bordo-bandirma-glint-cayirova-belediyesi": {
+   "arena": "Bandırma 17 Eylül Üniversitesi Spor Salonu",
+   "capacity": 2000
+  },
+  "2027-03-13-tofas-anadolu-efes": {
+   "arena": "Tofaş Spor Salonu",
+   "capacity": 5750
+  },
+  "2027-03-13-yukatel-denizli-basket-bahcesehir-koleji": {
+   "arena": "Pamukkale Üniversitesi Spor Salonu",
+   "capacity": 3490
+  },
+  "2027-03-20-anadolu-efes-fenerbahce-tarfin": {
+   "arena": "Turkcell Basketbol Gelişim Merkezi",
+   "capacity": 10000
+  },
+  "2027-03-20-bahcesehir-koleji-esenler-erokspor": {
+   "arena": "Sinan Erdem Spor Salonu",
+   "capacity": 16000
+  },
+  "2027-03-20-bursaspor-basketbol-besiktas": {
+   "arena": "Tofaş Spor Salonu",
+   "capacity": 5750
+  },
+  "2027-03-20-galatasaray-mct-technic-biotekno-korfez-basket": {
+   "arena": "Sinan Erdem Spor Salonu",
+   "capacity": 16000
+  },
+  "2027-03-20-glint-cayirova-belediyesi-yukatel-denizli-basket": {
+   "arena": "Atanmadı",
+   "capacity": null
+  },
+  "2027-03-20-karsiyaka-pizzabulls-bordo-bandirma": {
+   "arena": "Mustafa Kemal Atatürk Karşıyaka Spor Salonu",
+   "capacity": 4800
+  },
+  "2027-03-20-trabzonspor-tofas": {
+   "arena": "Hayri Gür Spor Salonu",
+   "capacity": 7500
+  },
+  "2027-03-20-turk-telekom-aliaga-petkim-spor": {
+   "arena": "Ankara Spor Salonu",
+   "capacity": 9984
+  },
+  "2027-03-27-aliaga-petkim-spor-galatasaray-mct-technic": {
+   "arena": "Enka Spor Salonu",
+   "capacity": 2500
+  },
+  "2027-03-27-anadolu-efes-trabzonspor": {
+   "arena": "Turkcell Basketbol Gelişim Merkezi",
+   "capacity": 10000
+  },
+  "2027-03-27-biotekno-korfez-basket-bahcesehir-koleji": {
+   "arena": "Şehit Polis Recep Topaloğlu Spor Salonu",
+   "capacity": 5000
+  },
+  "2027-03-27-esenler-erokspor-glint-cayirova-belediyesi": {
+   "arena": "Beşiktaş Akatlar Spor Kompleksi",
+   "capacity": 2890
+  },
+  "2027-03-27-fenerbahce-tarfin-besiktas": {
+   "arena": "Ülker Spor ve Etkinlik Salonu",
+   "capacity": 12687
+  },
+  "2027-03-27-pizzabulls-bordo-bandirma-bursaspor-basketbol": {
+   "arena": "Bandırma 17 Eylül Üniversitesi Spor Salonu",
+   "capacity": 2000
+  },
+  "2027-03-27-tofas-turk-telekom": {
+   "arena": "Tofaş Spor Salonu",
+   "capacity": 5750
+  },
+  "2027-03-27-yukatel-denizli-basket-karsiyaka": {
+   "arena": "Pamukkale Üniversitesi Spor Salonu",
+   "capacity": 3490
+  },
+  "2027-04-03-bahcesehir-koleji-aliaga-petkim-spor": {
+   "arena": "Sinan Erdem Spor Salonu",
+   "capacity": 16000
+  },
+  "2027-04-03-besiktas-pizzabulls-bordo-bandirma": {
+   "arena": "Turkcell Basketbol Gelişim Merkezi",
+   "capacity": 10000
+  },
+  "2027-04-03-bursaspor-basketbol-yukatel-denizli-basket": {
+   "arena": "Tofaş Spor Salonu",
+   "capacity": 5750
+  },
+  "2027-04-03-galatasaray-mct-technic-tofas": {
+   "arena": "Sinan Erdem Spor Salonu",
+   "capacity": 16000
+  },
+  "2027-04-03-glint-cayirova-belediyesi-biotekno-korfez-basket": {
+   "arena": "Atanmadı",
+   "capacity": null
+  },
+  "2027-04-03-karsiyaka-esenler-erokspor": {
+   "arena": "Mustafa Kemal Atatürk Karşıyaka Spor Salonu",
+   "capacity": 4800
+  },
+  "2027-04-03-trabzonspor-fenerbahce-tarfin": {
+   "arena": "Hayri Gür Spor Salonu",
+   "capacity": 7500
+  },
+  "2027-04-03-turk-telekom-anadolu-efes": {
+   "arena": "Ankara Spor Salonu",
+   "capacity": 9984
+  },
+  "2027-04-10-aliaga-petkim-spor-glint-cayirova-belediyesi": {
+   "arena": "Enka Spor Salonu",
+   "capacity": 2500
+  },
+  "2027-04-10-anadolu-efes-galatasaray-mct-technic": {
+   "arena": "Turkcell Basketbol Gelişim Merkezi",
+   "capacity": 10000
+  },
+  "2027-04-10-biotekno-korfez-basket-karsiyaka": {
+   "arena": "Şehit Polis Recep Topaloğlu Spor Salonu",
+   "capacity": 5000
+  },
+  "2027-04-10-esenler-erokspor-bursaspor-basketbol": {
+   "arena": "Beşiktaş Akatlar Spor Kompleksi",
+   "capacity": 2890
+  },
+  "2027-04-10-fenerbahce-tarfin-pizzabulls-bordo-bandirma": {
+   "arena": "Ülker Spor ve Etkinlik Salonu",
+   "capacity": 12687
+  },
+  "2027-04-10-tofas-bahcesehir-koleji": {
+   "arena": "Tofaş Spor Salonu",
+   "capacity": 5750
+  },
+  "2027-04-10-trabzonspor-turk-telekom": {
+   "arena": "Hayri Gür Spor Salonu",
+   "capacity": 7500
+  },
+  "2027-04-10-yukatel-denizli-basket-besiktas": {
+   "arena": "Pamukkale Üniversitesi Spor Salonu",
+   "capacity": 3490
+  },
+  "2027-04-17-bahcesehir-koleji-anadolu-efes": {
+   "arena": "Sinan Erdem Spor Salonu",
+   "capacity": 16000
+  },
+  "2027-04-17-besiktas-esenler-erokspor": {
+   "arena": "Turkcell Basketbol Gelişim Merkezi",
+   "capacity": 10000
+  },
+  "2027-04-17-bursaspor-basketbol-biotekno-korfez-basket": {
+   "arena": "Tofaş Spor Salonu",
+   "capacity": 5750
+  },
+  "2027-04-17-galatasaray-mct-technic-trabzonspor": {
+   "arena": "Sinan Erdem Spor Salonu",
+   "capacity": 16000
+  },
+  "2027-04-17-glint-cayirova-belediyesi-tofas": {
+   "arena": "Atanmadı",
+   "capacity": null
+  },
+  "2027-04-17-karsiyaka-aliaga-petkim-spor": {
+   "arena": "Mustafa Kemal Atatürk Karşıyaka Spor Salonu",
+   "capacity": 4800
+  },
+  "2027-04-17-pizzabulls-bordo-bandirma-yukatel-denizli-basket": {
+   "arena": "Bandırma 17 Eylül Üniversitesi Spor Salonu",
+   "capacity": 2000
+  },
+  "2027-04-17-turk-telekom-fenerbahce-tarfin": {
+   "arena": "Ankara Spor Salonu",
+   "capacity": 9984
+  },
+  "2027-04-24-aliaga-petkim-spor-bursaspor-basketbol": {
+   "arena": "Enka Spor Salonu",
+   "capacity": 2500
+  },
+  "2027-04-24-anadolu-efes-glint-cayirova-belediyesi": {
+   "arena": "Turkcell Basketbol Gelişim Merkezi",
+   "capacity": 10000
+  },
+  "2027-04-24-biotekno-korfez-basket-besiktas": {
+   "arena": "Şehit Polis Recep Topaloğlu Spor Salonu",
+   "capacity": 5000
+  },
+  "2027-04-24-esenler-erokspor-pizzabulls-bordo-bandirma": {
+   "arena": "Beşiktaş Akatlar Spor Kompleksi",
+   "capacity": 2890
+  },
+  "2027-04-24-fenerbahce-tarfin-yukatel-denizli-basket": {
+   "arena": "Ülker Spor ve Etkinlik Salonu",
+   "capacity": 12687
+  },
+  "2027-04-24-tofas-karsiyaka": {
+   "arena": "Tofaş Spor Salonu",
+   "capacity": 5750
+  },
+  "2027-04-24-trabzonspor-bahcesehir-koleji": {
+   "arena": "Hayri Gür Spor Salonu",
+   "capacity": 7500
+  },
+  "2027-04-24-turk-telekom-galatasaray-mct-technic": {
+   "arena": "Ankara Spor Salonu",
+   "capacity": 9984
+  },
+  "2027-05-01-bahcesehir-koleji-turk-telekom": {
+   "arena": "Sinan Erdem Spor Salonu",
+   "capacity": 16000
+  },
+  "2027-05-01-besiktas-aliaga-petkim-spor": {
+   "arena": "Turkcell Basketbol Gelişim Merkezi",
+   "capacity": 10000
+  },
+  "2027-05-01-bursaspor-basketbol-tofas": {
+   "arena": "Tofaş Spor Salonu",
+   "capacity": 5750
+  },
+  "2027-05-01-galatasaray-mct-technic-fenerbahce-tarfin": {
+   "arena": "Sinan Erdem Spor Salonu",
+   "capacity": 16000
+  },
+  "2027-05-01-glint-cayirova-belediyesi-trabzonspor": {
+   "arena": "Atanmadı",
+   "capacity": null
+  },
+  "2027-05-01-karsiyaka-anadolu-efes": {
+   "arena": "Mustafa Kemal Atatürk Karşıyaka Spor Salonu",
+   "capacity": 4800
+  },
+  "2027-05-01-pizzabulls-bordo-bandirma-biotekno-korfez-basket": {
+   "arena": "Bandırma 17 Eylül Üniversitesi Spor Salonu",
+   "capacity": 2000
+  },
+  "2027-05-01-yukatel-denizli-basket-esenler-erokspor": {
+   "arena": "Pamukkale Üniversitesi Spor Salonu",
+   "capacity": 3490
+  },
+  "2027-05-08-aliaga-petkim-spor-pizzabulls-bordo-bandirma": {
+   "arena": "Enka Spor Salonu",
+   "capacity": 2500
+  },
+  "2027-05-08-anadolu-efes-bursaspor-basketbol": {
+   "arena": "Turkcell Basketbol Gelişim Merkezi",
+   "capacity": 10000
+  },
+  "2027-05-08-biotekno-korfez-basket-yukatel-denizli-basket": {
+   "arena": "Şehit Polis Recep Topaloğlu Spor Salonu",
+   "capacity": 5000
+  },
+  "2027-05-08-fenerbahce-tarfin-esenler-erokspor": {
+   "arena": "Ülker Spor ve Etkinlik Salonu",
+   "capacity": 12687
+  },
+  "2027-05-08-galatasaray-mct-technic-bahcesehir-koleji": {
+   "arena": "Sinan Erdem Spor Salonu",
+   "capacity": 16000
+  },
+  "2027-05-08-tofas-besiktas": {
+   "arena": "Tofaş Spor Salonu",
+   "capacity": 5750
+  },
+  "2027-05-08-trabzonspor-karsiyaka": {
+   "arena": "Hayri Gür Spor Salonu",
+   "capacity": 7500
+  },
+  "2027-05-08-turk-telekom-glint-cayirova-belediyesi": {
+   "arena": "Ankara Spor Salonu",
+   "capacity": 9984
+  }
+ }
+}

@@ -1,0 +1,293 @@
+{
+ "league": "LKL",
+ "season": "2026-27",
+ "updated": "2026-10-30T01:37:30+00:00",
+ "clubs": [
+  {
+   "club": "Gargzdai",
+   "home_games_counted": 4,
+   "games_with_capacity": 4,
+   "capacity": 1500,
+   "weighted_capacity": 1500,
+   "filling_rate": 0.933,
+   "arenas": [
+    {
+     "arena": "Gargždų SC arena",
+     "games": 4,
+     "capacity": 1500
+    }
+   ]
+  },
+  {
+   "club": "Jonava",
+   "home_games_counted": 3,
+   "games_with_capacity": 3,
+   "capacity": 2246,
+   "weighted_capacity": 2246,
+   "filling_rate": 0.336,
+   "arenas": [
+    {
+     "arena": "Jonavos sporto arena",
+     "games": 3,
+     "capacity": 2246
+    }
+   ]
+  },
+  {
+   "club": "Juventus",
+   "home_games_counted": 4,
+   "games_with_capacity": 4,
+   "capacity": 2500,
+   "weighted_capacity": 2500,
+   "filling_rate": 0.6532,
+   "arenas": [
+    {
+     "arena": "Utenos daugiafunkcis sporto centras",
+     "games": 4,
+     "capacity": 2500
+    }
+   ]
+  },
+  {
+   "club": "Lietkabelis",
+   "home_games_counted": 3,
+   "games_with_capacity": 3,
+   "capacity": 5600,
+   "weighted_capacity": 5600,
+   "filling_rate": 0.221,
+   "arenas": [
+    {
+     "arena": "Kalnapilio arena",
+     "games": 3,
+     "capacity": 5600
+    }
+   ]
+  },
+  {
+   "club": "Neptunas",
+   "home_games_counted": 4,
+   "games_with_capacity": 4,
+   "capacity": 6200,
+   "weighted_capacity": 6200,
+   "filling_rate": 0.3927,
+   "arenas": [
+    {
+     "arena": "Švyturio arena",
+     "games": 4,
+     "capacity": 6200
+    }
+   ]
+  },
+  {
+   "club": "Nevezis",
+   "home_games_counted": 2,
+   "games_with_capacity": 2,
+   "capacity": 2200,
+   "weighted_capacity": 2200,
+   "filling_rate": 0.5614,
+   "arenas": [
+    {
+     "arena": "Kėdainių arena",
+     "games": 2,
+     "capacity": 2200
+    }
+   ]
+  },
+  {
+   "club": "Rytas",
+   "home_games_counted": 2,
+   "games_with_capacity": 2,
+   "capacity": 10000,
+   "weighted_capacity": 10000,
+   "filling_rate": 0.3234,
+   "arenas": [
+    {
+     "arena": "Arena Vilnius",
+     "games": 2,
+     "capacity": 10000
+    }
+   ]
+  },
+  {
+   "club": "Siauliai",
+   "home_games_counted": 3,
+   "games_with_capacity": 3,
+   "capacity": 5500,
+   "weighted_capacity": 5500,
+   "filling_rate": 0.404,
+   "arenas": [
+    {
+     "arena": "Šiaulių arena",
+     "games": 3,
+     "capacity": 5500
+    }
+   ]
+  },
+  {
+   "club": "Taurage",
+   "home_games_counted": 4,
+   "games_with_capacity": 4,
+   "capacity": 1780,
+   "weighted_capacity": 1785,
+   "filling_rate": 1.0,
+   "arenas": [
+    {
+     "arena": "Tauragės Arena",
+     "games": 4,
+     "capacity": 1780
+    }
+   ]
+  },
+  {
+   "club": "Zalgiris Kaunas",
+   "home_games_counted": 4,
+   "games_with_capacity": 4,
+   "capacity": 15415,
+   "weighted_capacity": 15415,
+   "filling_rate": 0.2849,
+   "arenas": [
+    {
+     "arena": "Žalgirio arena",
+     "games": 4,
+     "capacity": 15415
+    }
+   ]
+  }
+ ],
+ "unknown_arenas": [],
+ "last_attendance_game": "2026-10-25",
+ "games": {
+  "46sBO1Xa": {
+   "arena": "Tauragės Arena",
+   "capacity": 1780
+  },
+  "6gMrw1ng": {
+   "arena": "Šiaulių arena",
+   "capacity": 5500
+  },
+  "8bteDgoK": {
+   "arena": "Utenos daugiafunkcis sporto centras",
+   "capacity": 2500
+  },
+  "8tFtSeek": {
+   "arena": "Kalnapilio arena",
+   "capacity": 5600
+  },
+  "8vj1iCO0": {
+   "arena": "Gargždų SC arena",
+   "capacity": 1500
+  },
+  "ANGFi01n": {
+   "arena": "Žalgirio arena",
+   "capacity": 15415
+  },
+  "EJPjyuH5": {
+   "arena": "Švyturio arena",
+   "capacity": 6200
+  },
+  "G4g9kjgD": {
+   "arena": "Tauragės Arena",
+   "capacity": 1780
+  },
+  "I7CLvZve": {
+   "arena": "Jonavos sporto arena",
+   "capacity": 2246
+  },
+  "IR2F0G1E": {
+   "arena": "Utenos daugiafunkcis sporto centras",
+   "capacity": 2500
+  },
+  "ImKNkvWb": {
+   "arena": "Utenos daugiafunkcis sporto centras",
+   "capacity": 2500
+  },
+  "M35zlwI8": {
+   "arena": "Kėdainių arena",
+   "capacity": 2200
+  },
+  "M3oglnCi": {
+   "arena": "Žalgirio arena",
+   "capacity": 15415
+  },
+  "MNiggYgl": {
+   "arena": "Tauragės Arena",
+   "capacity": 1780
+  },
+  "MqTbZIoI": {
+   "arena": "Kalnapilio arena",
+   "capacity": 5600
+  },
+  "QafEteAr": {
+   "arena": "Šiaulių arena",
+   "capacity": 5500
+  },
+  "Qi6NbfWQ": {
+   "arena": "Žalgirio arena",
+   "capacity": 15415
+  },
+  "StC9tzgo": {
+   "arena": "Jonavos sporto arena",
+   "capacity": 2246
+  },
+  "UTl1nQt4": {
+   "arena": "Utenos daugiafunkcis sporto centras",
+   "capacity": 2500
+  },
+  "YuOzuNHt": {
+   "arena": "Jonavos sporto arena",
+   "capacity": 2246
+  },
+  "bRLwndVN": {
+   "arena": "Švyturio arena",
+   "capacity": 6200
+  },
+  "dtv3QN2m": {
+   "arena": "Kalnapilio arena",
+   "capacity": 5600
+  },
+  "fH3rnHnL": {
+   "arena": "Šiaulių arena",
+   "capacity": 5500
+  },
+  "fcDlQZP1": {
+   "arena": "Tauragės Arena",
+   "capacity": 1780
+  },
+  "fcR6XdGU": {
+   "arena": "Gargždų SC arena",
+   "capacity": 1500
+  },
+  "j1IVmI0B": {
+   "arena": "Arena Vilnius",
+   "capacity": 10000
+  },
+  "jLATxD97": {
+   "arena": "Kėdainių arena",
+   "capacity": 2200
+  },
+  "n7hXVquQ": {
+   "arena": "Gargždų SC arena",
+   "capacity": 1500
+  },
+  "ppqRKJWO": {
+   "arena": "Gargždų SC arena",
+   "capacity": 1500
+  },
+  "pvzZ5Bwf": {
+   "arena": "Švyturio arena",
+   "capacity": 6200
+  },
+  "vsXQ7X8s": {
+   "arena": "Žalgirio arena",
+   "capacity": 15415
+  },
+  "xKuJMu2C": {
+   "arena": "Švyturio arena",
+   "capacity": 6200
+  },
+  "xfh9p4BG": {
+   "arena": "Arena Vilnius",
+   "capacity": 10000
+  }
+ }
+}

@@ -1,0 +1,485 @@
+{
+ "league": "BBL",
+ "season": "2026-27",
+ "updated": "2026-10-30T01:37:30+00:00",
+ "clubs": [
+  {
+   "club": "ALBA BERLIN",
+   "home_games_counted": 4,
+   "games_with_capacity": 4,
+   "capacity": 13488,
+   "weighted_capacity": 13488,
+   "filling_rate": 0.6135,
+   "arenas": [
+    {
+     "arena": "Uber Arena",
+     "games": 4,
+     "capacity": 13488
+    }
+   ]
+  },
+  {
+   "club": "BMA365 Bamberg Baskets",
+   "home_games_counted": 2,
+   "games_with_capacity": 2,
+   "capacity": 5700,
+   "weighted_capacity": 5700,
+   "filling_rate": 0.7222,
+   "arenas": [
+    {
+     "arena": "Brose Arena Bamberg",
+     "games": 2,
+     "capacity": 5700
+    }
+   ]
+  },
+  {
+   "club": "Basketball Löwen Braunschweig",
+   "home_games_counted": 3,
+   "games_with_capacity": 3,
+   "capacity": 6358,
+   "weighted_capacity": 6358,
+   "filling_rate": 0.5244,
+   "arenas": [
+    {
+     "arena": "Volkswagen Halle Braunschweig",
+     "games": 3,
+     "capacity": 6358
+    }
+   ]
+  },
+  {
+   "club": "EWE Baskets Oldenburg",
+   "home_games_counted": 4,
+   "games_with_capacity": 4,
+   "capacity": 6335,
+   "weighted_capacity": 6500,
+   "filling_rate": 1.0,
+   "arenas": [
+    {
+     "arena": "Große EWE Arena Oldenburg",
+     "games": 4,
+     "capacity": 6335
+    }
+   ]
+  },
+  {
+   "club": "FC Bayern München Basketball",
+   "home_games_counted": 4,
+   "games_with_capacity": 4,
+   "capacity": 6731,
+   "weighted_capacity": 6731,
+   "filling_rate": 0.7821,
+   "arenas": [
+    {
+     "arena": "BMW Park München",
+     "games": 4,
+     "capacity": 6731
+    }
+   ]
+  },
+  {
+   "club": "Fitness First Würzburg Baskets",
+   "home_games_counted": 3,
+   "games_with_capacity": 3,
+   "capacity": 3140,
+   "weighted_capacity": 3140,
+   "filling_rate": 0.8775,
+   "arenas": [
+    {
+     "arena": "tectake ARENA Würzburg",
+     "games": 3,
+     "capacity": 3140
+    }
+   ]
+  },
+  {
+   "club": "MHP RIESEN Ludwigsburg",
+   "home_games_counted": 3,
+   "games_with_capacity": 3,
+   "capacity": 4000,
+   "weighted_capacity": 4000,
+   "filling_rate": 0.8473,
+   "arenas": [
+    {
+     "arena": "MHPArena Ludwigsburg",
+     "games": 3,
+     "capacity": 4000
+    }
+   ]
+  },
+  {
+   "club": "NINERS Chemnitz",
+   "home_games_counted": 2,
+   "games_with_capacity": 2,
+   "capacity": 5000,
+   "weighted_capacity": 5000,
+   "filling_rate": 0.8402,
+   "arenas": [
+    {
+     "arena": "Messe Chemnitz",
+     "games": 2,
+     "capacity": 5000
+    }
+   ]
+  },
+  {
+   "club": "Phoenix Hagen",
+   "home_games_counted": 3,
+   "games_with_capacity": 3,
+   "capacity": 3145,
+   "weighted_capacity": 3145,
+   "filling_rate": 0.9858,
+   "arenas": [
+    {
+     "arena": "Ischelandhalle",
+     "games": 3,
+     "capacity": 3145
+    }
+   ]
+  },
+  {
+   "club": "RASTA Vechta",
+   "home_games_counted": 4,
+   "games_with_capacity": 4,
+   "capacity": 3140,
+   "weighted_capacity": 3140,
+   "filling_rate": 0.9568,
+   "arenas": [
+    {
+     "arena": "RASTA Dome",
+     "games": 4,
+     "capacity": 3140
+    }
+   ]
+  },
+  {
+   "club": "ROSTOCK SEAWOLVES",
+   "home_games_counted": 2,
+   "games_with_capacity": 2,
+   "capacity": 5000,
+   "weighted_capacity": 5000,
+   "filling_rate": 0.7354,
+   "arenas": [
+    {
+     "arena": "StadtHalle Rostock",
+     "games": 2,
+     "capacity": 5000
+    }
+   ]
+  },
+  {
+   "club": "SKYLINERS",
+   "home_games_counted": 2,
+   "games_with_capacity": 2,
+   "capacity": 5002,
+   "weighted_capacity": 5002,
+   "filling_rate": 0.5808,
+   "arenas": [
+    {
+     "arena": "Süwag Energie ARENA",
+     "games": 2,
+     "capacity": 5002
+    }
+   ]
+  },
+  {
+   "club": "SYNTAINICS MBC",
+   "home_games_counted": 3,
+   "games_with_capacity": 3,
+   "capacity": 3000,
+   "weighted_capacity": 3000,
+   "filling_rate": 0.7987,
+   "arenas": [
+    {
+     "arena": "Stadthalle Weißenfels",
+     "games": 3,
+     "capacity": 3000
+    }
+   ]
+  },
+  {
+   "club": "Science City Jena",
+   "home_games_counted": 2,
+   "games_with_capacity": 2,
+   "capacity": 3125,
+   "weighted_capacity": 3125,
+   "filling_rate": 0.849,
+   "arenas": [
+    {
+     "arena": "Sparkassen-Arena Jena",
+     "games": 2,
+     "capacity": 3125
+    }
+   ]
+  },
+  {
+   "club": "Telekom Baskets Bonn",
+   "home_games_counted": 3,
+   "games_with_capacity": 3,
+   "capacity": 6000,
+   "weighted_capacity": 6000,
+   "filling_rate": 0.8686,
+   "arenas": [
+    {
+     "arena": "Telekom Dome Bonn",
+     "games": 3,
+     "capacity": 6000
+    }
+   ]
+  },
+  {
+   "club": "VET-CONCEPT Gladiators Trier",
+   "home_games_counted": 3,
+   "games_with_capacity": 3,
+   "capacity": 5400,
+   "weighted_capacity": 5400,
+   "filling_rate": 1.0,
+   "arenas": [
+    {
+     "arena": "SWT-Arena",
+     "games": 3,
+     "capacity": 5400
+    }
+   ]
+  },
+  {
+   "club": "Veolia Towers Hamburg",
+   "home_games_counted": 2,
+   "games_with_capacity": 2,
+   "capacity": 3400,
+   "weighted_capacity": 3400,
+   "filling_rate": 0.8209,
+   "arenas": [
+    {
+     "arena": "Inselpark Arena",
+     "games": 2,
+     "capacity": 3400
+    }
+   ]
+  },
+  {
+   "club": "ratiopharm ulm",
+   "home_games_counted": 2,
+   "games_with_capacity": 2,
+   "capacity": 6000,
+   "weighted_capacity": 6000,
+   "filling_rate": 0.7667,
+   "arenas": [
+    {
+     "arena": "ratiopharm arena Ulm",
+     "games": 2,
+     "capacity": 6000
+    }
+   ]
+  }
+ ],
+ "unknown_arenas": [],
+ "last_attendance_game": "2026-10-26",
+ "games": {
+  "2006920": {
+   "arena": "Uber Arena",
+   "capacity": 13488
+  },
+  "2006921": {
+   "arena": "Telekom Dome Bonn",
+   "capacity": 6000
+  },
+  "2006922": {
+   "arena": "StadtHalle Rostock",
+   "capacity": 5000
+  },
+  "2006923": {
+   "arena": "Volkswagen Halle Braunschweig",
+   "capacity": 6358
+  },
+  "2006924": {
+   "arena": "Große EWE Arena Oldenburg",
+   "capacity": 6335
+  },
+  "2006925": {
+   "arena": "ratiopharm arena Ulm",
+   "capacity": 6000
+  },
+  "2006926": {
+   "arena": "BMW Park München",
+   "capacity": 6731
+  },
+  "2007027": {
+   "arena": "MHPArena Ludwigsburg",
+   "capacity": 4000
+  },
+  "2007028": {
+   "arena": "RASTA Dome",
+   "capacity": 3140
+  },
+  "2007029": {
+   "arena": "Uber Arena",
+   "capacity": 13488
+  },
+  "2007030": {
+   "arena": "Ischelandhalle",
+   "capacity": 3145
+  },
+  "2007031": {
+   "arena": "tectake ARENA Würzburg",
+   "capacity": 3140
+  },
+  "2007032": {
+   "arena": "Stadthalle Weißenfels",
+   "capacity": 3000
+  },
+  "2007033": {
+   "arena": "Inselpark Arena",
+   "capacity": 3400
+  },
+  "2007034": {
+   "arena": "SWT-Arena",
+   "capacity": 5400
+  },
+  "2006901": {
+   "arena": "Brose Arena Bamberg",
+   "capacity": 5700
+  },
+  "2006902": {
+   "arena": "Süwag Energie ARENA",
+   "capacity": 5002
+  },
+  "2006910": {
+   "arena": "BMW Park München",
+   "capacity": 6731
+  },
+  "2006903": {
+   "arena": "SWT-Arena",
+   "capacity": 5400
+  },
+  "2006904": {
+   "arena": "Telekom Dome Bonn",
+   "capacity": 6000
+  },
+  "2006905": {
+   "arena": "Messe Chemnitz",
+   "capacity": 5000
+  },
+  "2006906": {
+   "arena": "ratiopharm arena Ulm",
+   "capacity": 6000
+  },
+  "2006907": {
+   "arena": "Große EWE Arena Oldenburg",
+   "capacity": 6335
+  },
+  "2007009": {
+   "arena": "Volkswagen Halle Braunschweig",
+   "capacity": 6358
+  },
+  "2006927": {
+   "arena": "Sparkassen-Arena Jena",
+   "capacity": 3125
+  },
+  "2006883": {
+   "arena": "tectake ARENA Würzburg",
+   "capacity": 3140
+  },
+  "2006884": {
+   "arena": "Uber Arena",
+   "capacity": 13488
+  },
+  "2006885": {
+   "arena": "Stadthalle Weißenfels",
+   "capacity": 3000
+  },
+  "2006886": {
+   "arena": "Inselpark Arena",
+   "capacity": 3400
+  },
+  "2006887": {
+   "arena": "MHPArena Ludwigsburg",
+   "capacity": 4000
+  },
+  "2006888": {
+   "arena": "BMW Park München",
+   "capacity": 6731
+  },
+  "2006889": {
+   "arena": "Ischelandhalle",
+   "capacity": 3145
+  },
+  "2006890": {
+   "arena": "Sparkassen-Arena Jena",
+   "capacity": 3125
+  },
+  "2006891": {
+   "arena": "RASTA Dome",
+   "capacity": 3140
+  },
+  "2006874": {
+   "arena": "Telekom Dome Bonn",
+   "capacity": 6000
+  },
+  "2006875": {
+   "arena": "Brose Arena Bamberg",
+   "capacity": 5700
+  },
+  "2006876": {
+   "arena": "SWT-Arena",
+   "capacity": 5400
+  },
+  "2006877": {
+   "arena": "Große EWE Arena Oldenburg",
+   "capacity": 6335
+  },
+  "2006878": {
+   "arena": "StadtHalle Rostock",
+   "capacity": 5000
+  },
+  "2006879": {
+   "arena": "RASTA Dome",
+   "capacity": 3140
+  },
+  "2006882": {
+   "arena": "Messe Chemnitz",
+   "capacity": 5000
+  },
+  "2006880": {
+   "arena": "Volkswagen Halle Braunschweig",
+   "capacity": 6358
+  },
+  "2006881": {
+   "arena": "Süwag Energie ARENA",
+   "capacity": 5002
+  },
+  "2006865": {
+   "arena": "Große EWE Arena Oldenburg",
+   "capacity": 6335
+  },
+  "2006866": {
+   "arena": "Stadthalle Weißenfels",
+   "capacity": 3000
+  },
+  "2006867": {
+   "arena": "MHPArena Ludwigsburg",
+   "capacity": 4000
+  },
+  "2006868": {
+   "arena": "RASTA Dome",
+   "capacity": 3140
+  },
+  "2006870": {
+   "arena": "Ischelandhalle",
+   "capacity": 3145
+  },
+  "2006871": {
+   "arena": "BMW Park München",
+   "capacity": 6731
+  },
+  "2006872": {
+   "arena": "Uber Arena",
+   "capacity": 13488
+  },
+  "2006873": {
+   "arena": "tectake ARENA Würzburg",
+   "capacity": 3140
+  }
+ }
+}

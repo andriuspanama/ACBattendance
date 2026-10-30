@@ -1,0 +1,661 @@
+{
+ "league": "ACB",
+ "season": "2026-27",
+ "updated": "2026-10-30T01:37:30+00:00",
+ "clubs": [
+  {
+   "club": "Asisa Joventut",
+   "home_games_counted": 2,
+   "games_with_capacity": 2,
+   "capacity": 12760,
+   "weighted_capacity": 12760,
+   "filling_rate": 0.5832,
+   "arenas": [
+    {
+     "arena": "Palau Municipal D'Esports de Badalona",
+     "games": 2,
+     "capacity": 12760
+    }
+   ]
+  },
+  {
+   "club": "Barca",
+   "home_games_counted": 3,
+   "games_with_capacity": 3,
+   "capacity": 7786,
+   "weighted_capacity": 7786,
+   "filling_rate": 0.5411,
+   "arenas": [
+    {
+     "arena": "Palau Blaugrana",
+     "games": 3,
+     "capacity": 7786
+    }
+   ]
+  },
+  {
+   "club": "Casademont Zaragoza",
+   "home_games_counted": 2,
+   "games_with_capacity": 2,
+   "capacity": 10744,
+   "weighted_capacity": 10744,
+   "filling_rate": 0.6461,
+   "arenas": [
+    {
+     "arena": "Pabellón Príncipe Felipe",
+     "games": 2,
+     "capacity": 10744
+    }
+   ]
+  },
+  {
+   "club": "Fiatc Girona",
+   "home_games_counted": 3,
+   "games_with_capacity": 3,
+   "capacity": 5750,
+   "weighted_capacity": 5750,
+   "filling_rate": 0.7918,
+   "arenas": [
+    {
+     "arena": "Palau Girona-Fontajau",
+     "games": 3,
+     "capacity": 5750
+    }
+   ]
+  },
+  {
+   "club": "Ilerna Lleida",
+   "home_games_counted": 2,
+   "games_with_capacity": 2,
+   "capacity": 6100,
+   "weighted_capacity": 6100,
+   "filling_rate": 0.9233,
+   "arenas": [
+    {
+     "arena": "Espai Fruita Barris Nord",
+     "games": 2,
+     "capacity": 6100
+    }
+   ]
+  },
+  {
+   "club": "Kidsandus Manresa",
+   "home_games_counted": 3,
+   "games_with_capacity": 3,
+   "capacity": 5000,
+   "weighted_capacity": 5000,
+   "filling_rate": 0.9134,
+   "arenas": [
+    {
+     "arena": "Pavelló Nou Congost",
+     "games": 3,
+     "capacity": 5000
+    }
+   ]
+  },
+  {
+   "club": "Kosner Baskonia",
+   "home_games_counted": 2,
+   "games_with_capacity": 2,
+   "capacity": 15504,
+   "weighted_capacity": 15504,
+   "filling_rate": 0.5261,
+   "arenas": [
+    {
+     "arena": "Fernando Buesa Arena",
+     "games": 2,
+     "capacity": 15504
+    }
+   ]
+  },
+  {
+   "club": "La Laguna Tenerife",
+   "home_games_counted": 3,
+   "games_with_capacity": 3,
+   "capacity": 5100,
+   "weighted_capacity": 5100,
+   "filling_rate": 0.8551,
+   "arenas": [
+    {
+     "arena": "Pab. Dep. Tenerife Santiago Martín",
+     "games": 3,
+     "capacity": 5100
+    }
+   ]
+  },
+  {
+   "club": "Leyma Coruna",
+   "home_games_counted": 2,
+   "games_with_capacity": 2,
+   "capacity": 9300,
+   "weighted_capacity": 9300,
+   "filling_rate": 0.676,
+   "arenas": [
+    {
+     "arena": "Coliseum",
+     "games": 2,
+     "capacity": 9300
+    }
+   ]
+  },
+  {
+   "club": "Monbus Obradoiro",
+   "home_games_counted": 2,
+   "games_with_capacity": 2,
+   "capacity": 6000,
+   "weighted_capacity": 6000,
+   "filling_rate": 0.9317,
+   "arenas": [
+    {
+     "arena": "Multiusos Fontes do Sar",
+     "games": 2,
+     "capacity": 6000
+    }
+   ]
+  },
+  {
+   "club": "Morabanc Andorra",
+   "home_games_counted": 2,
+   "games_with_capacity": 2,
+   "capacity": 5001,
+   "weighted_capacity": 5001,
+   "filling_rate": 0.7568,
+   "arenas": [
+    {
+     "arena": "Pavelló Toni Martí",
+     "games": 2,
+     "capacity": 5001
+    }
+   ]
+  },
+  {
+   "club": "Real Madrid",
+   "home_games_counted": 3,
+   "games_with_capacity": 3,
+   "capacity": 13109,
+   "weighted_capacity": 13109,
+   "filling_rate": 0.5558,
+   "arenas": [
+    {
+     "arena": "Movistar Arena",
+     "games": 3,
+     "capacity": 13109
+    }
+   ]
+  },
+  {
+   "club": "Recoletas Salud San Pablo Burgos",
+   "home_games_counted": 2,
+   "games_with_capacity": 2,
+   "capacity": 9604,
+   "weighted_capacity": 9604,
+   "filling_rate": 0.9325,
+   "arenas": [
+    {
+     "arena": "Coliseum Burgos",
+     "games": 2,
+     "capacity": 9604
+    }
+   ]
+  },
+  {
+   "club": "Rio Breogan",
+   "home_games_counted": 3,
+   "games_with_capacity": 3,
+   "capacity": 5310,
+   "weighted_capacity": 5310,
+   "filling_rate": 0.995,
+   "arenas": [
+    {
+     "arena": "Pazo Provincial dos Deportes de Lugo",
+     "games": 3,
+     "capacity": 5310
+    }
+   ]
+  },
+  {
+   "club": "Surne Bilbao",
+   "home_games_counted": 3,
+   "games_with_capacity": 3,
+   "capacity": 10014,
+   "weighted_capacity": 10014,
+   "filling_rate": 0.8402,
+   "arenas": [
+    {
+     "arena": "Bilbao Arena",
+     "games": 3,
+     "capacity": 10014
+    }
+   ]
+  },
+  {
+   "club": "Ucam Murcia",
+   "home_games_counted": 3,
+   "games_with_capacity": 3,
+   "capacity": 7454,
+   "weighted_capacity": 7454,
+   "filling_rate": 0.8893,
+   "arenas": [
+    {
+     "arena": "Palacio de Deportes de Murcia",
+     "games": 3,
+     "capacity": 7454
+    }
+   ]
+  },
+  {
+   "club": "Unicaja",
+   "home_games_counted": 2,
+   "games_with_capacity": 2,
+   "capacity": 10699,
+   "weighted_capacity": 10699,
+   "filling_rate": 0.8978,
+   "arenas": [
+    {
+     "arena": "Palacio de Deportes José María Martín Carpena",
+     "games": 2,
+     "capacity": 10699
+    }
+   ]
+  },
+  {
+   "club": "Valencia Basket",
+   "home_games_counted": 3,
+   "games_with_capacity": 3,
+   "capacity": 15600,
+   "weighted_capacity": 15600,
+   "filling_rate": 0.733,
+   "arenas": [
+    {
+     "arena": "Roig Arena",
+     "games": 3,
+     "capacity": 15600
+    }
+   ]
+  }
+ ],
+ "unknown_arenas": [],
+ "last_attendance_game": "2026-10-26",
+ "games": {
+  "105375": {
+   "arena": "Bilbao Arena",
+   "capacity": 10014
+  },
+  "105376": {
+   "arena": "Pavelló Toni Martí",
+   "capacity": 5001
+  },
+  "105377": {
+   "arena": "Palau Blaugrana",
+   "capacity": 7786
+  },
+  "105378": {
+   "arena": "Pazo Provincial dos Deportes de Lugo",
+   "capacity": 5310
+  },
+  "105379": {
+   "arena": "Coliseum Burgos",
+   "capacity": 9604
+  },
+  "105380": {
+   "arena": "Pab. Dep. Tenerife Santiago Martín",
+   "capacity": 5100
+  },
+  "105381": {
+   "arena": "Palau Girona-Fontajau",
+   "capacity": 5750
+  },
+  "105382": {
+   "arena": "Roig Arena",
+   "capacity": 15600
+  },
+  "105383": {
+   "arena": "Movistar Arena",
+   "capacity": 13109
+  },
+  "105384": {
+   "arena": "Palau Municipal D'Esports de Badalona",
+   "capacity": 12760
+  },
+  "105385": {
+   "arena": "Palacio de Deportes José María Martín Carpena",
+   "capacity": 10699
+  },
+  "105386": {
+   "arena": "Pavelló Nou Congost",
+   "capacity": 5000
+  },
+  "105387": {
+   "arena": "Espai Fruita Barris Nord",
+   "capacity": 6100
+  },
+  "105388": {
+   "arena": "Coliseum",
+   "capacity": 9300
+  },
+  "105389": {
+   "arena": "Multiusos Fontes do Sar",
+   "capacity": 6000
+  },
+  "105390": {
+   "arena": "Pabellón Príncipe Felipe",
+   "capacity": 10744
+  },
+  "105391": {
+   "arena": "Fernando Buesa Arena",
+   "capacity": 15504
+  },
+  "105392": {
+   "arena": "Palacio de Deportes de Murcia",
+   "capacity": 7454
+  },
+  "105393": {
+   "arena": "Coliseum",
+   "capacity": 9300
+  },
+  "105394": {
+   "arena": "Palacio de Deportes José María Martín Carpena",
+   "capacity": 10699
+  },
+  "105395": {
+   "arena": "Pazo Provincial dos Deportes de Lugo",
+   "capacity": 5310
+  },
+  "105396": {
+   "arena": "Multiusos Fontes do Sar",
+   "capacity": 6000
+  },
+  "105397": {
+   "arena": "Movistar Arena",
+   "capacity": 13109
+  },
+  "105398": {
+   "arena": "Palacio de Deportes de Murcia",
+   "capacity": 7454
+  },
+  "105399": {
+   "arena": "Fernando Buesa Arena",
+   "capacity": 15504
+  },
+  "105400": {
+   "arena": "Bilbao Arena",
+   "capacity": 10014
+  },
+  "105401": {
+   "arena": "Palau Blaugrana",
+   "capacity": 7786
+  },
+  "105402": {
+   "arena": "Pavelló Nou Congost",
+   "capacity": 5000
+  },
+  "105403": {
+   "arena": "Pavelló Toni Martí",
+   "capacity": 5001
+  },
+  "105404": {
+   "arena": "Coliseum Burgos",
+   "capacity": 9604
+  },
+  "105405": {
+   "arena": "Palau Girona-Fontajau",
+   "capacity": 5750
+  },
+  "105406": {
+   "arena": "Pabellón Príncipe Felipe",
+   "capacity": 10744
+  },
+  "105407": {
+   "arena": "Movistar Arena",
+   "capacity": 13109
+  },
+  "105408": {
+   "arena": "Roig Arena",
+   "capacity": 15600
+  },
+  "105409": {
+   "arena": "Pab. Dep. Tenerife Santiago Martín",
+   "capacity": 5100
+  },
+  "105410": {
+   "arena": "Palau Municipal D'Esports de Badalona",
+   "capacity": 12760
+  },
+  "105411": {
+   "arena": "Pavelló Nou Congost",
+   "capacity": 5000
+  },
+  "105412": {
+   "arena": "Palau Girona-Fontajau",
+   "capacity": 5750
+  },
+  "105413": {
+   "arena": "Palacio de Deportes de Murcia",
+   "capacity": 7454
+  },
+  "105414": {
+   "arena": "Palau Blaugrana",
+   "capacity": 7786
+  },
+  "105415": {
+   "arena": "Bilbao Arena",
+   "capacity": 10014
+  },
+  "105416": {
+   "arena": "Pab. Dep. Tenerife Santiago Martín",
+   "capacity": 5100
+  },
+  "105417": {
+   "arena": "Roig Arena",
+   "capacity": 15600
+  },
+  "105418": {
+   "arena": "Pazo Provincial dos Deportes de Lugo",
+   "capacity": 5310
+  },
+  "105419": {
+   "arena": "Espai Fruita Barris Nord",
+   "capacity": 6100
+  },
+  "105420": {
+   "arena": "Pabellón Príncipe Felipe",
+   "capacity": 10744
+  },
+  "105421": {
+   "arena": "Palacio de Deportes de Murcia",
+   "capacity": 7454
+  },
+  "105422": {
+   "arena": "Coliseum",
+   "capacity": 9300
+  },
+  "105423": {
+   "arena": "Palau Municipal D'Esports de Badalona",
+   "capacity": 12760
+  },
+  "105424": {
+   "arena": "Multiusos Fontes do Sar",
+   "capacity": 6000
+  },
+  "105425": {
+   "arena": "Movistar Arena",
+   "capacity": 13109
+  },
+  "105426": {
+   "arena": "Fernando Buesa Arena",
+   "capacity": 15504
+  },
+  "105427": {
+   "arena": "Pavelló Toni Martí",
+   "capacity": 5001
+  },
+  "105428": {
+   "arena": "Palacio de Deportes José María Martín Carpena",
+   "capacity": 10699
+  },
+  "105429": {
+   "arena": "Pavelló Nou Congost",
+   "capacity": 5000
+  },
+  "105430": {
+   "arena": "Palau Girona-Fontajau",
+   "capacity": 5750
+  },
+  "105431": {
+   "arena": "Espai Fruita Barris Nord",
+   "capacity": 6100
+  },
+  "105432": {
+   "arena": "Palau Blaugrana",
+   "capacity": 7786
+  },
+  "105433": {
+   "arena": "Coliseum Burgos",
+   "capacity": 9604
+  },
+  "105434": {
+   "arena": "Pab. Dep. Tenerife Santiago Martín",
+   "capacity": 5100
+  },
+  "105435": {
+   "arena": "Pabellón Príncipe Felipe",
+   "capacity": 10744
+  },
+  "105436": {
+   "arena": "Coliseum",
+   "capacity": 9300
+  },
+  "105437": {
+   "arena": "Movistar Arena",
+   "capacity": 13109
+  },
+  "105438": {
+   "arena": "Pazo Provincial dos Deportes de Lugo",
+   "capacity": 5310
+  },
+  "105439": {
+   "arena": "Pavelló Toni Martí",
+   "capacity": 5001
+  },
+  "105440": {
+   "arena": "Palau Municipal D'Esports de Badalona",
+   "capacity": 12760
+  },
+  "105441": {
+   "arena": "Espai Fruita Barris Nord",
+   "capacity": 6100
+  },
+  "105442": {
+   "arena": "Roig Arena",
+   "capacity": 15600
+  },
+  "105443": {
+   "arena": "Palacio de Deportes José María Martín Carpena",
+   "capacity": 10699
+  },
+  "105444": {
+   "arena": "Palau Blaugrana",
+   "capacity": 7786
+  },
+  "105445": {
+   "arena": "Bilbao Arena",
+   "capacity": 10014
+  },
+  "105446": {
+   "arena": "Fernando Buesa Arena",
+   "capacity": 15504
+  },
+  "105447": {
+   "arena": "Coliseum Burgos",
+   "capacity": 9604
+  },
+  "105448": {
+   "arena": "Pavelló Nou Congost",
+   "capacity": 5000
+  },
+  "105449": {
+   "arena": "Palacio de Deportes de Murcia",
+   "capacity": 7454
+  },
+  "105450": {
+   "arena": "Multiusos Fontes do Sar",
+   "capacity": 6000
+  },
+  "105451": {
+   "arena": "Bilbao Arena",
+   "capacity": 10014
+  },
+  "105452": {
+   "arena": "Coliseum",
+   "capacity": 9300
+  },
+  "105453": {
+   "arena": "Roig Arena",
+   "capacity": 15600
+  },
+  "105454": {
+   "arena": "Pab. Dep. Tenerife Santiago Martín",
+   "capacity": 5100
+  },
+  "105455": {
+   "arena": "Movistar Arena",
+   "capacity": 13109
+  },
+  "105456": {
+   "arena": "Espai Fruita Barris Nord",
+   "capacity": 6100
+  },
+  "105457": {
+   "arena": "Multiusos Fontes do Sar",
+   "capacity": 6000
+  },
+  "105458": {
+   "arena": "Pabellón Príncipe Felipe",
+   "capacity": 10744
+  },
+  "105459": {
+   "arena": "Pavelló Nou Congost",
+   "capacity": 5000
+  },
+  "105460": {
+   "arena": "Palau Girona-Fontajau",
+   "capacity": 5750
+  },
+  "105461": {
+   "arena": "Movistar Arena",
+   "capacity": 13109
+  },
+  "105462": {
+   "arena": "Coliseum Burgos",
+   "capacity": 9604
+  },
+  "105463": {
+   "arena": "Fernando Buesa Arena",
+   "capacity": 15504
+  },
+  "105464": {
+   "arena": "Palacio de Deportes José María Martín Carpena",
+   "capacity": 10699
+  },
+  "105465": {
+   "arena": "Palau Blaugrana",
+   "capacity": 7786
+  },
+  "105466": {
+   "arena": "Fernando Buesa Arena",
+   "capacity": 15504
+  },
+  "105467": {
+   "arena": "Coliseum",
+   "capacity": 9300
+  },
+  "105468": {
+   "arena": "Palau Municipal D'Esports de Badalona",
+   "capacity": 12760
+  },
+  "105469": {
+   "arena": "Pavelló Toni Martí",
+   "capacity": 5001
+  }
+ }
+}
