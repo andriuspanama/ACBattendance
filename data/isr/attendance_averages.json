@@ -1,12 +1,12 @@
 {
   "league": "Winner League",
   "season": "2026-27",
-  "updated": "2026-10-30T13:21:07+00:00",
+  "updated": "2026-10-30T16:14:10+00:00",
   "clubs": [
     {
       "league": "Winner League",
       "season": "2026-27",
-      "club": "Maccabi Rapyd Tel Aviv Maccabi Rapyd Tel Aviv",
+      "club": "Maccabi Rapyd Tel Aviv",
       "home_games_counted": 2,
       "average": 8508,
       "total": 17015,
@@ -22,7 +22,7 @@
     {
       "league": "Winner League",
       "season": "2026-27",
-      "club": "Hapoel Midtown Jerusalem Hapoel Midtown Jerusalem",
+      "club": "Hapoel Midtown Jerusalem",
       "home_games_counted": 1,
       "average": 3618,
       "total": 3618,
@@ -38,7 +38,7 @@
     {
       "league": "Winner League",
       "season": "2026-27",
-      "club": "Hapoel Maoz Daniel Holon Hapoel Maoz Daniel Holon",
+      "club": "Hapoel Maoz Daniel Holon",
       "home_games_counted": 1,
       "average": 2550,
       "total": 2550,
@@ -54,7 +54,7 @@
     {
       "league": "Winner League",
       "season": "2026-27",
-      "club": "Hapoel IBI Tel Aviv Hapoel IBI Tel Aviv",
+      "club": "Hapoel IBI Tel Aviv",
       "home_games_counted": 2,
       "average": 2184,
       "total": 4368,
@@ -70,7 +70,7 @@
     {
       "league": "Winner League",
       "season": "2026-27",
-      "club": "Hapoel Gilat Telecom Haemek Hapoel Gilat Telecom Haemek",
+      "club": "Hapoel Gilat Telecom Haemek",
       "home_games_counted": 1,
       "average": 1700,
       "total": 1700,
@@ -86,7 +86,7 @@
     {
       "league": "Winner League",
       "season": "2026-27",
-      "club": "Bnei Penlink Herzliya Bnei Penlink Herzliya",
+      "club": "Bnei Penlink Herzliya",
       "home_games_counted": 2,
       "average": 1200,
       "total": 2400,
@@ -102,7 +102,7 @@
     {
       "league": "Winner League",
       "season": "2026-27",
-      "club": "Maccabi Tapuzina Rishon LeZion Maccabi Tapuzina Rishon LeZion",
+      "club": "Maccabi Tapuzina Rishon LeZion",
       "home_games_counted": 3,
       "average": 1200,
       "total": 3600,
@@ -118,7 +118,7 @@
     {
       "league": "Winner League",
       "season": "2026-27",
-      "club": "Hapoel Alfi Benedek Galil Elion Hapoel Alfi Benedek Galil Elion",
+      "club": "Hapoel Alfi Benedek Galil Elion",
       "home_games_counted": 1,
       "average": 1120,
       "total": 1120,
@@ -134,7 +134,7 @@
     {
       "league": "Winner League",
       "season": "2026-27",
-      "club": "Hapoel Altshuler Shaham Beer Sheva/Dimona Hapoel Altshuler Shaham Beer Sheva/Dimona",
+      "club": "Hapoel Altshuler Shaham Beer Sheva/Dimona",
       "home_games_counted": 2,
       "average": 916,
       "total": 1833,
@@ -150,7 +150,7 @@
     {
       "league": "Winner League",
       "season": "2026-27",
-      "club": "Ironi Hai Motors Ness Ziona Ironi Hai Motors Ness Ziona",
+      "club": "Ironi Hai Motors Ness Ziona",
       "home_games_counted": 1,
       "average": 750,
       "total": 750,
@@ -166,7 +166,7 @@
     {
       "league": "Winner League",
       "season": "2026-27",
-      "club": "Hapoel Irony Eilat Hapoel Irony Eilat",
+      "club": "Hapoel Irony Eilat",
       "home_games_counted": 1,
       "average": 700,
       "total": 700,
@@ -182,7 +182,7 @@
     {
       "league": "Winner League",
       "season": "2026-27",
-      "club": "Maccabi Rotshtein Ashdod Maccabi Rotshtein Ashdod",
+      "club": "Maccabi Rotshtein Ashdod",
       "home_games_counted": 2,
       "average": 648,
       "total": 1295,
@@ -198,7 +198,7 @@
     {
       "league": "Winner League",
       "season": "2026-27",
-      "club": "Ironi Lati Kiryat Ata Ironi Lati Kiryat Ata",
+      "club": "Ironi Lati Kiryat Ata",
       "home_games_counted": 0,
       "average": null,
       "total": 0,
@@ -208,7 +208,7 @@
     {
       "league": "Winner League",
       "season": "2026-27",
-      "club": "Maccabi Cnaan Group Ramat Gan Maccabi Cnaan Group Ramat Gan",
+      "club": "Maccabi Cnaan Group Ramat Gan",
       "home_games_counted": 0,
       "average": null,
       "total": 0,
