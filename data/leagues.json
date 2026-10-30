@@ -1,0 +1,89 @@
+{
+ "season": "2026-27",
+ "leagues": [
+  {
+   "dir": "data",
+   "league": "ACB",
+   "season": "2026-27",
+   "clubs": 18,
+   "capacity": true
+  },
+  {
+   "dir": "data/lkl",
+   "league": "LKL",
+   "season": "2026-27",
+   "clubs": 10,
+   "capacity": true
+  },
+  {
+   "dir": "data/bbl",
+   "league": "BBL",
+   "season": "2026-27",
+   "clubs": 18,
+   "capacity": true
+  },
+  {
+   "dir": "data/nbl",
+   "league": "NBL",
+   "season": "2026-27",
+   "clubs": 10,
+   "capacity": true
+  },
+  {
+   "dir": "data/fin",
+   "league": "Korisliiga",
+   "season": "2026-27",
+   "clubs": 12,
+   "capacity": true
+  },
+  {
+   "dir": "data/lvee",
+   "league": "LEBL",
+   "season": "2026-27",
+   "clubs": 15,
+   "capacity": true
+  },
+  {
+   "dir": "data/aba",
+   "league": "ABA",
+   "season": "2026-27",
+   "clubs": 19,
+   "capacity": true
+  },
+  {
+   "dir": "data/ita",
+   "league": "LBA",
+   "season": "2026-27",
+   "clubs": 16,
+   "capacity": true
+  },
+  {
+   "dir": "data/pol",
+   "league": "PLK",
+   "season": "2026-27",
+   "clubs": 15,
+   "capacity": true
+  },
+  {
+   "dir": "data/bsl",
+   "league": "BSL",
+   "season": "2026-27",
+   "clubs": 16,
+   "capacity": true
+  },
+  {
+   "dir": "data/gre",
+   "league": "GBL",
+   "season": "2026-27",
+   "clubs": 14,
+   "capacity": true
+  },
+  {
+   "dir": "data/isr",
+   "league": "Winner League",
+   "season": "2026-27",
+   "clubs": 14,
+   "capacity": true
+  }
+ ]
+}
