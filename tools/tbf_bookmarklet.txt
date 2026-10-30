@@ -1,0 +1,68 @@
+ACBattendance – final update (Israel + main arenas + missing files)
+=====================================================================
+
+What is in this zip
+  1_i_pagrindini_aplanka/   8 files  -> the repo's main (top) folder
+  2_i_github_workflows/     6 files  -> the repo's .github/workflows folder
+  3_i_tools/tools/          2 files  -> a new "tools" folder in the repo
+  4_i_Google_Sheets/        1 file   -> pasted into the "Arenas" tab (not GitHub)
+
+Files that already exist in the repo are replaced; the rest are new.
+Your current data (data/ folder) is not touched.
+
+
+STEP 1 – Main folder (8 files)
+  1. Open https://github.com/andriuspanama/ACBattendance
+  2. Click "Add file" -> "Upload files"
+  3. Drag in ALL files from 1_i_pagrindini_aplanka
+  4. Click "Commit changes"
+
+
+STEP 2 – Workflow files (6 files)   <- this is what was missing last time
+  1. In the repo, click the folder ".github", then "workflows"
+     (you must be INSIDE that folder)
+  2. Click "Add file" -> "Upload files"
+  3. Drag in ALL files from 2_i_github_workflows
+  4. Click "Commit changes"
+  Check: the workflows folder must now contain capacity.yml, official.yml, pol.yml, gre.yml
+  (plus bbl.yml, bsl.yml and your old ones).
+
+
+STEP 3 – Tools folder (2 files, optional helper for filling the BSL sheet)
+  1. Back on the repo's main page: "Add file" -> "Upload files"
+  2. Open 3_i_tools and drag the folder "tools" itself (not the files) into the upload box
+  3. Click "Commit changes"
+
+
+STEP 4 – Google Sheets "Arenas" tab (Israeli venue names + capacities)
+  Do NOT re-import the whole tab (it would undo your coordinate fixes).
+  1. Open 4_i_Google_Sheets/Winner_League_G243-H257.xlsx, select cells A1:B15, copy
+  2. In the Google Sheet, tab "Arenas", click cell G243 (Capacity of "Menora Mivtachim Arena")
+  3. Paste. Rows 243–257 (Menora … HaKiriya) now have the league's capacities and the
+     venue names basket.co.il uses (e.g. "The Shell, Be'er Sheva").
+  Check: G250 (Conch Arena) = 3009.
+
+
+STEP 5 – Run everything once (otherwise it starts by itself within 6 hours)
+  Repo -> "Actions" tab -> for each workflow below: click it -> "Run workflow" -> "Run workflow"
+    a) "Atnaujinti lankomumą (oficialios lygų svetainės)"   (official.yml – NBL, Korisliiga, LEBL, ABA, LBA, Israel)
+    b) "Atnaujinti PLK lankomumą (Lenkija)"
+       "Atnaujinti GBL lankomumą (Graikija)"
+       "Atnaujinti BSL lankomumą (Turkija, rankiniu būdu)"
+    c) when a) and b) are finished (green or red):
+       "Perskaičiuoti arenų talpas"                           (capacity.yml – capacity, filling rate, main arenas)
+  Then open https://andriuspanama.github.io/ACBattendance/ (refresh with Ctrl+F5).
+
+
+What you should see afterwards
+  - ACB, LKL, BBL: "Galima arenos talpa" and "Užpildymas" filled in.
+  - New leagues (incl. "Winner · Izraelis") with data.
+  - LKL: per-game arenas fill in over a few runs (12 game pages per run, on purpose,
+    so lkl.lt does not block it).
+  - In the repo: data/main_arenas.json (one main arena per club, for the map).
+  - If a site blocks reading or changes, the league's tab shows a warning and GitHub emails you.
+
+Later, nothing to do: everything runs every 6 hours.
+  - BSL: keep filling the "BSL 26/27 games" sheet as before.
+  - New arena for a club: add a row to "Arenas" (League, Arena, Capacity, City, Latitude, Longitude).
+  - Map exceptions: write the club in "Main arena override" on the arena's row.
