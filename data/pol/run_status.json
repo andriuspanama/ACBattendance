@@ -1,10 +1,10 @@
 {
  "league": "PLK",
  "source": "plk.pl + Flashscore",
- "ok": true,
- "error": "",
+ "ok": false,
+ "error": "svetainė 15 k. atsisakė duoti duomenis (HTTP 403 https://plk.pl/api/webpage/game/223715) – greičiausiai blokuoja",
  "notes": [],
  "last_ok": "2026-10-30T01:38:59+00:00",
  "last_new_attendance": "2026-10-30T01:38:59+00:00",
- "run_at": "2026-10-30T01:38:59+00:00"
+ "run_at": "2026-10-30T07:44:18+00:00"
 }
