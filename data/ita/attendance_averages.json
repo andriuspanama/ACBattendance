@@ -1,0 +1,227 @@
+{
+  "league": "LBA",
+  "season": "2026-27",
+  "updated": "2026-10-30T01:40:17+00:00",
+  "clubs": [
+    {
+      "league": "LBA",
+      "season": "2026-27",
+      "club": "Maxima Roma",
+      "home_games_counted": 1,
+      "average": 9312,
+      "total": 9312,
+      "max": 9312,
+      "min": 9312,
+      "arenas": [
+        {
+          "arena": "PalaEur",
+          "games": 1
+        }
+      ]
+    },
+    {
+      "league": "LBA",
+      "season": "2026-27",
+      "club": "Armani Olimpia Milano",
+      "home_games_counted": 3,
+      "average": 6698,
+      "total": 20095,
+      "max": 8068,
+      "min": 5600,
+      "arenas": [
+        {
+          "arena": "Unipol Forum",
+          "games": 3
+        }
+      ]
+    },
+    {
+      "league": "LBA",
+      "season": "2026-27",
+      "club": "Openjobmetis Varese",
+      "home_games_counted": 2,
+      "average": 4618,
+      "total": 9237,
+      "max": 4763,
+      "min": 4474,
+      "arenas": [
+        {
+          "arena": "Itelyum Arena",
+          "games": 2
+        }
+      ]
+    },
+    {
+      "league": "LBA",
+      "season": "2026-27",
+      "club": "Pallacanestro Trieste",
+      "home_games_counted": 1,
+      "average": 4609,
+      "total": 4609,
+      "max": 4609,
+      "min": 4609,
+      "arenas": [
+        {
+          "arena": "PalaTrieste",
+          "games": 1
+        }
+      ]
+    },
+    {
+      "league": "LBA",
+      "season": "2026-27",
+      "club": "Nutribullet Treviso Basket",
+      "home_games_counted": 2,
+      "average": 4328,
+      "total": 8656,
+      "max": 4534,
+      "min": 4122,
+      "arenas": [
+        {
+          "arena": "Palaverde",
+          "games": 2
+        }
+      ]
+    },
+    {
+      "league": "LBA",
+      "season": "2026-27",
+      "club": "Dolomiti Energia Trentino",
+      "home_games_counted": 2,
+      "average": 3810,
+      "total": 7621,
+      "max": 4000,
+      "min": 3621,
+      "arenas": [
+        {
+          "arena": "BTS Arena",
+          "games": 2
+        }
+      ]
+    },
+    {
+      "league": "LBA",
+      "season": "2026-27",
+      "club": "UNA Hotels Reggio Emilia",
+      "home_games_counted": 3,
+      "average": 3462,
+      "total": 10386,
+      "max": 3556,
+      "min": 3393,
+      "arenas": [
+        {
+          "arena": "PalaBigi",
+          "games": 3
+        }
+      ]
+    },
+    {
+      "league": "LBA",
+      "season": "2026-27",
+      "club": "Napoli Basketball",
+      "home_games_counted": 1,
+      "average": 3100,
+      "total": 3100,
+      "max": 3100,
+      "min": 3100,
+      "arenas": [
+        {
+          "arena": "Alcott Arena",
+          "games": 1
+        }
+      ]
+    },
+    {
+      "league": "LBA",
+      "season": "2026-27",
+      "club": "Bertram Derthona Tortona",
+      "home_games_counted": 3,
+      "average": 2606,
+      "total": 7819,
+      "max": 2750,
+      "min": 2413,
+      "arenas": [
+        {
+          "arena": "Nova Arena",
+          "games": 3
+        }
+      ]
+    },
+    {
+      "league": "LBA",
+      "season": "2026-27",
+      "club": "BC Roma",
+      "home_games_counted": 2,
+      "average": 2524,
+      "total": 5048,
+      "max": 2842,
+      "min": 2206,
+      "arenas": [
+        {
+          "arena": "Palazzetto dello Sport",
+          "games": 2
+        }
+      ]
+    },
+    {
+      "league": "LBA",
+      "season": "2026-27",
+      "club": "APU Old Wild West Udine",
+      "home_games_counted": 0,
+      "average": null,
+      "total": 0,
+      "max": null,
+      "min": null
+    },
+    {
+      "league": "LBA",
+      "season": "2026-27",
+      "club": "Acqua S.Bernardo Cantù",
+      "home_games_counted": 0,
+      "average": null,
+      "total": 0,
+      "max": null,
+      "min": null
+    },
+    {
+      "league": "LBA",
+      "season": "2026-27",
+      "club": "Longobardi Scafati Basket",
+      "home_games_counted": 0,
+      "average": null,
+      "total": 0,
+      "max": null,
+      "min": null
+    },
+    {
+      "league": "LBA",
+      "season": "2026-27",
+      "club": "Tezenis Verona",
+      "home_games_counted": 0,
+      "average": null,
+      "total": 0,
+      "max": null,
+      "min": null
+    },
+    {
+      "league": "LBA",
+      "season": "2026-27",
+      "club": "Umana Reyer Venezia",
+      "home_games_counted": 0,
+      "average": null,
+      "total": 0,
+      "max": null,
+      "min": null
+    },
+    {
+      "league": "LBA",
+      "season": "2026-27",
+      "club": "Virtus Costa Bologna",
+      "home_games_counted": 0,
+      "average": null,
+      "total": 0,
+      "max": null,
+      "min": null
+    }
+  ]
+}
