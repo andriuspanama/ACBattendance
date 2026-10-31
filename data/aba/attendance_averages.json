@@ -1,7 +1,7 @@
 {
   "league": "ABA",
   "season": "2026-27",
-  "updated": "2026-10-30T19:09:56+00:00",
+  "updated": "2026-10-31T01:24:08+00:00",
   "clubs": [
     {
       "league": "ABA",
@@ -158,6 +158,22 @@
     {
       "league": "ABA",
       "season": "2026-27",
+      "club": "BC Vienna",
+      "home_games_counted": 4,
+      "average": 1012,
+      "total": 4050,
+      "max": 1600,
+      "min": 600,
+      "arenas": [
+        {
+          "arena": "BC Vienna Arena",
+          "games": 4
+        }
+      ]
+    },
+    {
+      "league": "ABA",
+      "season": "2026-27",
       "club": "Igokea m:tel",
       "home_games_counted": 4,
       "average": 975,
@@ -222,22 +238,6 @@
     {
       "league": "ABA",
       "season": "2026-27",
-      "club": "BC Vienna",
-      "home_games_counted": 3,
-      "average": 817,
-      "total": 2450,
-      "max": 1000,
-      "min": 600,
-      "arenas": [
-        {
-          "arena": "BC Vienna Arena",
-          "games": 3
-        }
-      ]
-    },
-    {
-      "league": "ABA",
-      "season": "2026-27",
       "club": "Budućnost VOLI",
       "home_games_counted": 1,
       "average": 550,
@@ -271,15 +271,15 @@
       "league": "ABA",
       "season": "2026-27",
       "club": "Cibona",
-      "home_games_counted": 3,
-      "average": 400,
-      "total": 1200,
+      "home_games_counted": 4,
+      "average": 425,
+      "total": 1700,
       "max": 500,
       "min": 300,
       "arenas": [
         {
           "arena": "Košarkaški centar Dražen Petrović",
-          "games": 3
+          "games": 4
         }
       ]
     },
