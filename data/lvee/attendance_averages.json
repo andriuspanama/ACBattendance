@@ -1,7 +1,7 @@
 {
   "league": "LEBL",
   "season": "2026-27",
-  "updated": "2026-10-31T13:13:06+00:00",
+  "updated": "2026-10-31T19:06:16+00:00",
   "clubs": [
     {
       "league": "LEBL",
@@ -42,22 +42,6 @@
     {
       "league": "LEBL",
       "season": "2026-27",
-      "club": "BK Ogre",
-      "home_games_counted": 3,
-      "average": 776,
-      "total": 2329,
-      "max": 1008,
-      "min": 621,
-      "arenas": [
-        {
-          "arena": "Sporta arena Ogre",
-          "games": 3
-        }
-      ]
-    },
-    {
-      "league": "LEBL",
-      "season": "2026-27",
       "club": "BK Ventspils",
       "home_games_counted": 3,
       "average": 770,
@@ -90,6 +74,22 @@
     {
       "league": "LEBL",
       "season": "2026-27",
+      "club": "BK Ogre",
+      "home_games_counted": 4,
+      "average": 712,
+      "total": 2849,
+      "max": 1008,
+      "min": 520,
+      "arenas": [
+        {
+          "arena": "Sporta arena Ogre",
+          "games": 4
+        }
+      ]
+    },
+    {
+      "league": "LEBL",
+      "season": "2026-27",
       "club": "BC Pärnu",
       "home_games_counted": 3,
       "average": 643,
@@ -107,31 +107,15 @@
       "league": "LEBL",
       "season": "2026-27",
       "club": "Bigbank/Kalev",
-      "home_games_counted": 4,
-      "average": 500,
-      "total": 1999,
-      "max": 572,
+      "home_games_counted": 5,
+      "average": 532,
+      "total": 2658,
+      "max": 659,
       "min": 433,
       "arenas": [
         {
           "arena": "Nord Spordihoone",
-          "games": 4
-        }
-      ]
-    },
-    {
-      "league": "LEBL",
-      "season": "2026-27",
-      "club": "BK Liepaja",
-      "home_games_counted": 3,
-      "average": 483,
-      "total": 1450,
-      "max": 660,
-      "min": 150,
-      "arenas": [
-        {
-          "arena": "Liepajas Olimpiskais centrs",
-          "games": 3
+          "games": 5
         }
       ]
     },
@@ -174,15 +158,35 @@
     {
       "league": "LEBL",
       "season": "2026-27",
-      "club": "Keila KK",
-      "home_games_counted": 4,
-      "average": 446,
-      "total": 1782,
-      "max": 627,
-      "min": 304,
+      "club": "VEF Rīga",
+      "home_games_counted": 5,
+      "average": 452,
+      "total": 2261,
+      "max": 649,
+      "min": 248,
       "arenas": [
         {
-          "arena": "Keila Tervisekeskus",
+          "arena": "Rimi Olimpiskais centrs",
+          "games": 4
+        },
+        {
+          "arena": "Komandas Sporta Spelu Halle",
+          "games": 1
+        }
+      ]
+    },
+    {
+      "league": "LEBL",
+      "season": "2026-27",
+      "club": "BK Liepaja",
+      "home_games_counted": 4,
+      "average": 444,
+      "total": 1775,
+      "max": 660,
+      "min": 150,
+      "arenas": [
+        {
+          "arena": "Liepajas Olimpiskais centrs",
           "games": 4
         }
       ]
@@ -190,16 +194,16 @@
     {
       "league": "LEBL",
       "season": "2026-27",
-      "club": "VEF Rīga",
-      "home_games_counted": 4,
-      "average": 403,
-      "total": 1612,
-      "max": 504,
-      "min": 248,
+      "club": "Keila KK",
+      "home_games_counted": 5,
+      "average": 431,
+      "total": 2154,
+      "max": 627,
+      "min": 304,
       "arenas": [
         {
-          "arena": "Rimi Olimpiskais centrs",
-          "games": 4
+          "arena": "Keila Tervisekeskus",
+          "games": 5
         }
       ]
     },
