@@ -1,7 +1,7 @@
 {
   "league": "LKL",
   "season": "2026-27",
-  "updated": "2026-10-31T13:29:20+00:00",
+  "updated": "2026-10-31T19:22:33+00:00",
   "clubs": [
     {
       "league": "LKL",
@@ -37,11 +37,11 @@
       "league": "LKL",
       "season": "2026-27",
       "club": "Siauliai",
-      "home_games_counted": 3,
-      "average": 2222,
-      "total": 6666,
+      "home_games_counted": 4,
+      "average": 2060,
+      "total": 8240,
       "max": 2723,
-      "min": 1827
+      "min": 1574
     },
     {
       "league": "LKL",
@@ -76,22 +76,22 @@
     {
       "league": "LKL",
       "season": "2026-27",
-      "club": "Lietkabelis",
-      "home_games_counted": 3,
-      "average": 1237,
-      "total": 3712,
-      "max": 1269,
-      "min": 1203
-    },
-    {
-      "league": "LKL",
-      "season": "2026-27",
       "club": "Nevezis",
       "home_games_counted": 2,
       "average": 1235,
       "total": 2470,
       "max": 1600,
       "min": 870
+    },
+    {
+      "league": "LKL",
+      "season": "2026-27",
+      "club": "Lietkabelis",
+      "home_games_counted": 4,
+      "average": 1180,
+      "total": 4721,
+      "max": 1269,
+      "min": 1009
     },
     {
       "league": "LKL",
