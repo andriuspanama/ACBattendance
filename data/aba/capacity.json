@@ -1,7 +1,7 @@
 {
  "league": "ABA",
  "season": "2026-27",
- "updated": "2026-10-31T01:58:02+00:00",
+ "updated": "2026-10-31T19:41:12+00:00",
  "clubs": [
   {
    "club": "BC Vienna",
@@ -65,21 +65,21 @@
   },
   {
    "club": "Cedevita Olimpija",
-   "home_games_counted": 2,
-   "games_with_capacity": 2,
-   "capacity": 4500,
-   "weighted_capacity": 8490,
-   "filling_rate": 0.178,
+   "home_games_counted": 3,
+   "games_with_capacity": 3,
+   "capacity": 12480,
+   "weighted_capacity": 9820,
+   "filling_rate": 0.1282,
    "arenas": [
+    {
+     "arena": "Arena Stožice",
+     "games": 2,
+     "capacity": 12480
+    },
     {
      "arena": "Mala dvorana Tivoli",
      "games": 1,
      "capacity": 4500
-    },
-    {
-     "arena": "Arena Stožice",
-     "games": 1,
-     "capacity": 12480
     }
    ]
   },
@@ -300,7 +300,7 @@
   }
  ],
  "unknown_arenas": [],
- "last_attendance_game": "2026-10-30",
+ "last_attendance_game": "2026-10-31",
  "games": {
   "13": {
    "arena": "ŠD Leona Štuklja Novo Mesto",
@@ -469,6 +469,10 @@
   "59": {
    "arena": "BC Vienna Arena",
    "capacity": 1399
+  },
+  "53": {
+   "arena": "Arena Stožice",
+   "capacity": 12480
   }
  }
 }

@@ -1,19 +1,19 @@
 {
  "league": "Korisliiga",
  "season": "2026-27",
- "updated": "2026-10-31T01:58:02+00:00",
+ "updated": "2026-10-31T19:41:12+00:00",
  "clubs": [
   {
    "club": "Bisons Loimaa",
-   "home_games_counted": 3,
-   "games_with_capacity": 3,
+   "home_games_counted": 4,
+   "games_with_capacity": 4,
    "capacity": 1500,
    "weighted_capacity": 1500,
-   "filling_rate": 0.426,
+   "filling_rate": 0.44,
    "arenas": [
     {
      "arena": "Loimaan Liikuntahalli",
-     "games": 3,
+     "games": 4,
      "capacity": 1500
     }
    ]
@@ -50,15 +50,15 @@
   },
   {
    "club": "Kataja Basket",
-   "home_games_counted": 2,
-   "games_with_capacity": 2,
+   "home_games_counted": 3,
+   "games_with_capacity": 3,
    "capacity": 2500,
    "weighted_capacity": 2500,
-   "filling_rate": 0.3658,
+   "filling_rate": 0.3521,
    "arenas": [
     {
      "arena": "Motonet Areena",
-     "games": 2,
+     "games": 3,
      "capacity": 2500
     }
    ]
@@ -185,7 +185,7 @@
   }
  ],
  "unknown_arenas": [],
- "last_attendance_game": "2026-10-30",
+ "last_attendance_game": "2026-10-31",
  "games": {
   "44cfe520-a1e7-11f1-8d0e-4fe1f25b2942": {
    "arena": "Motonet Areena",
@@ -370,6 +370,14 @@
   "8e46130a-a1e7-11f1-bfa4-81c2cf585513": {
    "arena": "Töölön Kisahalli",
    "capacity": 1600
+  },
+  "8f2ac917-a1e7-11f1-b0bc-2908f1ca822f": {
+   "arena": "Loimaan Liikuntahalli",
+   "capacity": 1500
+  },
+  "9043de89-a1e7-11f1-9ea1-ebbd88296a81": {
+   "arena": "Motonet Areena",
+   "capacity": 2500
   }
  }
 }

@@ -1,7 +1,7 @@
 {
  "league": "PLK",
  "season": "2026-27",
- "updated": "2026-10-31T01:58:02+00:00",
+ "updated": "2026-10-31T19:41:12+00:00",
  "clubs": [
   {
    "club": "AMW Arka Gdynia",
@@ -95,15 +95,15 @@
   },
   {
    "club": "Energa Trefl Sopot",
-   "home_games_counted": 1,
-   "games_with_capacity": 1,
+   "home_games_counted": 2,
+   "games_with_capacity": 2,
    "capacity": 1942,
    "weighted_capacity": 1942,
-   "filling_rate": 0.8424,
+   "filling_rate": 0.8378,
    "arenas": [
     {
      "arena": "Hala Sportowa 100-lecia Sopotu",
-     "games": 1,
+     "games": 2,
      "capacity": 1942
     }
    ]
@@ -235,7 +235,7 @@
   }
  ],
  "unknown_arenas": [],
- "last_attendance_game": "2026-10-30",
+ "last_attendance_game": "2026-10-31",
  "games": {
   "223465": {
    "arena": "Hala Sportowa 100-lecia Sopotu",
@@ -352,6 +352,14 @@
   "223500": {
    "arena": "Hala Mistrzów",
    "capacity": 3963
+  },
+  "223495": {
+   "arena": "Hala Sportowa 100-lecia Sopotu",
+   "capacity": 1942
+  },
+  "223499": {
+   "arena": "Torwar",
+   "capacity": null
   }
  }
 }

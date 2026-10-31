@@ -1,7 +1,7 @@
 {
  "league": "BSL",
  "season": "2026-27",
- "updated": "2026-10-30T14:03:04+00:00",
+ "updated": "2026-10-31T19:41:12+00:00",
  "clubs": [
   {
    "club": "Aliağa Petkim Spor",
@@ -65,15 +65,15 @@
   },
   {
    "club": "Biotekno Körfez Basket",
-   "home_games_counted": 2,
-   "games_with_capacity": 2,
+   "home_games_counted": 3,
+   "games_with_capacity": 3,
    "capacity": 5000,
    "weighted_capacity": 5000,
-   "filling_rate": 0.1956,
+   "filling_rate": 0.1825,
    "arenas": [
     {
      "arena": "Şehit Polis Recep Topaloğlu Spor Salonu",
-     "games": 2,
+     "games": 3,
      "capacity": 5000
     }
    ]
@@ -170,15 +170,15 @@
   },
   {
    "club": "Pizzabulls Bordo Bandırma",
-   "home_games_counted": 2,
-   "games_with_capacity": 2,
+   "home_games_counted": 3,
+   "games_with_capacity": 3,
    "capacity": 2000,
-   "weighted_capacity": 2432,
-   "filling_rate": 0.9794,
+   "weighted_capacity": 2288,
+   "filling_rate": 0.9783,
    "arenas": [
     {
      "arena": "Bandırma 17 Eylül Üniversitesi Spor Salonu",
-     "games": 2,
+     "games": 3,
      "capacity": 2000
     }
    ]
@@ -230,22 +230,22 @@
   },
   {
    "club": "Yukatel Denizli Basket",
-   "home_games_counted": 2,
-   "games_with_capacity": 2,
+   "home_games_counted": 3,
+   "games_with_capacity": 3,
    "capacity": 3490,
    "weighted_capacity": 3490,
-   "filling_rate": 0.4871,
+   "filling_rate": 0.6113,
    "arenas": [
     {
      "arena": "Pamukkale Üniversitesi Spor Salonu",
-     "games": 2,
+     "games": 3,
      "capacity": 3490
     }
    ]
   }
  ],
  "unknown_arenas": [],
- "last_attendance_game": "2026-10-25",
+ "last_attendance_game": "2026-10-31",
  "games": {
   "2026-09-25-tofas-pizzabulls-bordo-bandirma": {
    "arena": "Tofaş Spor Salonu",

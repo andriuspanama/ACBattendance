@@ -1,20 +1,35 @@
 {
  "league": "GBL",
  "season": "2026-27",
- "updated": "2026-10-30T16:16:14+00:00",
+ "updated": "2026-10-31T19:41:12+00:00",
  "clubs": [
   {
    "club": "Aris",
    "home_games_counted": 1,
    "games_with_capacity": 1,
-   "capacity": 5138,
-   "weighted_capacity": 5900,
-   "filling_rate": 1.0,
+   "capacity": 6200,
+   "weighted_capacity": 6200,
+   "filling_rate": 0.9516,
    "arenas": [
     {
      "arena": "ΑΛΕΞΑΝΔΡΕΙΟ",
      "games": 1,
-     "capacity": 5138
+     "capacity": 6200
+    }
+   ]
+  },
+  {
+   "club": "Iraklis",
+   "home_games_counted": 1,
+   "games_with_capacity": 1,
+   "capacity": 2580,
+   "weighted_capacity": 3000,
+   "filling_rate": 1.0,
+   "arenas": [
+    {
+     "arena": "ΙΒΑΝΩΦΕΙΟ",
+     "games": 1,
+     "capacity": 2580
     }
    ]
   },
@@ -45,6 +60,21 @@
      "arena": "ΔΗΜΟΤΙΚΟ ΚΛΕΙΣΤΟ ΓΥΜΝΑΣΤΗΡΙΟ ΛΕΥΚΑΔΑΣ",
      "games": 2,
      "capacity": 1600
+    }
+   ]
+  },
+  {
+   "club": "Mykonos",
+   "home_games_counted": 1,
+   "games_with_capacity": 1,
+   "capacity": 1014,
+   "weighted_capacity": 1014,
+   "filling_rate": 0.6903,
+   "arenas": [
+    {
+     "arena": "Κ.Γ. «ΠΑΝ. ΧΑΝΙΩΤΗΣ» ΑΝΩ ΜΕΡΑ ΜΥΚΟΝΟΥ",
+     "games": 1,
+     "capacity": 1014
     }
    ]
   },
@@ -80,7 +110,7 @@
   }
  ],
  "unknown_arenas": [],
- "last_attendance_game": "2026-10-25",
+ "last_attendance_game": "2026-10-31",
  "games": {
   "0AA956E9": {
    "arena": "Κ. Γ. ΚΑΛΛΙΘΕΑΣ ΡΟΔΟΥ",
@@ -104,7 +134,7 @@
   },
   "4A03748D": {
    "arena": "ΙΒΑΝΩΦΕΙΟ",
-   "capacity": 2500
+   "capacity": 2580
   },
   "FDBBC910": {
    "arena": "TELEKOM CENTER ATHENS",
@@ -120,7 +150,7 @@
   },
   "1C3A75D4": {
    "arena": "ΑΛΕΞΑΝΔΡΕΙΟ",
-   "capacity": 5138
+   "capacity": 6200
   },
   "28F71477": {
    "arena": "PAOK SPORTS ARENA",
@@ -148,11 +178,11 @@
   },
   "575F58C3": {
    "arena": "ΑΛΕΞΑΝΔΡΕΙΟ",
-   "capacity": 5138
+   "capacity": 6200
   },
   "B6A4C33F": {
    "arena": "ΙΒΑΝΩΦΕΙΟ",
-   "capacity": 2500
+   "capacity": 2580
   },
   "C59619E9": {
    "arena": "ΔΗΜΟΤΙΚΟ ΚΛΕΙΣΤΟ ΓΥΜΝΑΣΤΗΡΙΟ ΛΕΥΚΑΔΑΣ",
@@ -193,6 +223,26 @@
   "8C9531D2": {
    "arena": "Κ. Γ. ΚΑΛΛΙΘΕΑΣ ΡΟΔΟΥ",
    "capacity": 3400
+  },
+  "29CD5AD8": {
+   "arena": "ΙΒΑΝΩΦΕΙΟ",
+   "capacity": 2580
+  },
+  "4A0F9BFB": {
+   "arena": "Κ.Γ. «ΠΑΝ. ΧΑΝΙΩΤΗΣ» ΑΝΩ ΜΕΡΑ ΜΥΚΟΝΟΥ",
+   "capacity": 1014
+  },
+  "7E63AA3B": {
+   "arena": "Κ.Γ. ΑΜΑΡΟΥΣΙΟΥ",
+   "capacity": 1700
+  },
+  "EE1F3C5A": {
+   "arena": "Ν.Κ.Γ. \"ΓΙΑΝΝΗΣ ΜΠΟΥΡΟΥΣΗΣ\"",
+   "capacity": 3500
+  },
+  "F744FDDE": {
+   "arena": "Κ.Γ. ΙΩΑΝΝΙΝΩΝ «ΣΙΔΕΡΗΣ ΚΑΡΑΔΗΜΑΣ»",
+   "capacity": 1060
   }
  }
 }

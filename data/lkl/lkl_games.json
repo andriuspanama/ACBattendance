@@ -296,6 +296,33 @@
 "last_try": "2026-10-30T01:36:11+00:00",
 "tries": 1
 },
+"11611": {
+"arena": "Kalnapilio arena",
+"att": 1009,
+"away": "Neptūnas",
+"date": "2026-10-31",
+"home": "Lietkabelis",
+"last_try": "2026-10-31T19:40:53+00:00",
+"tries": 1
+},
+"11612": {
+"arena": "Šiaulių arena",
+"att": 1574,
+"away": "Tauragė",
+"date": "2026-10-31",
+"home": "Šiauliai",
+"last_try": "2026-10-31T19:40:53+00:00",
+"tries": 1
+},
+"11613": {
+"arena": "Jonavos sporto arena",
+"att": 802,
+"away": "Juventus",
+"date": "2026-10-31",
+"home": "Hipocredit",
+"last_try": "2026-10-31T19:40:53+00:00",
+"tries": 1
+},
 "11758": {
 "arena": "Gargždų SC arena",
 "att": 1340,

@@ -1,6 +1,6 @@
 {
  "season": "2026-27",
- "updated": "2026-10-31T13:47:52+00:00",
+ "updated": "2026-10-31T19:41:12+00:00",
  "clubs": {
   "AEK B.C.": {
    "arena": "SUNEL ARENA",
@@ -34,8 +34,8 @@
    "capacity": 3500,
    "league": "GBL",
    "source": "games",
-   "games": 2,
-   "of_games": 2,
+   "games": 3,
+   "of_games": 3,
    "league_name": "Karditsas"
   },
   "ASVEL Basket": {
@@ -130,7 +130,7 @@
    "city": "Thessaloniki",
    "lat": 40.62687,
    "lon": 22.95734,
-   "capacity": 5138,
+   "capacity": 6200,
    "league": "GBL",
    "source": "games",
    "games": 2,
@@ -190,8 +190,8 @@
    "capacity": 2246,
    "league": "LKL",
    "source": "games",
-   "games": 3,
-   "of_games": 3,
+   "games": 4,
+   "of_games": 4,
    "league_name": "Jonava"
   },
   "BC Kalev/Cramo": {
@@ -202,8 +202,8 @@
    "capacity": 980,
    "league": "LEBL",
    "source": "games",
-   "games": 4,
-   "of_games": 4,
+   "games": 5,
+   "of_games": 5,
    "league_name": "Bigbank/Kalev"
   },
   "BC Nokia": {
@@ -262,7 +262,7 @@
    "city": "Tauragė",
    "lat": 55.25699,
    "lon": 22.3039,
-   "capacity": 1780,
+   "capacity": 1800,
    "league": "LKL",
    "source": "games",
    "games": 4,
@@ -289,8 +289,8 @@
    "capacity": 5500,
    "league": "LKL",
    "source": "games",
-   "games": 3,
-   "of_games": 3,
+   "games": 4,
+   "of_games": 4,
    "league_name": "Siauliai"
   },
   "BCM Gravelines - Dunkerque": {
@@ -310,8 +310,8 @@
    "capacity": 2500,
    "league": "LEBL",
    "source": "games",
-   "games": 3,
-   "of_games": 3,
+   "games": 4,
+   "of_games": 4,
    "league_name": "BK Liepaja"
   },
   "BK Ogre": {
@@ -322,8 +322,8 @@
    "capacity": 1700,
    "league": "LEBL",
    "source": "games",
-   "games": 3,
-   "of_games": 3,
+   "games": 4,
+   "of_games": 4,
    "league_name": "BK Ogre"
   },
   "BK Patrioti Levice": {
@@ -344,7 +344,7 @@
    "league": "LEBL",
    "source": "games",
    "games": 4,
-   "of_games": 4,
+   "of_games": 5,
    "league_name": "VEF Rīga"
   },
   "BK Ventspils": {
@@ -505,8 +505,8 @@
    "capacity": 1500,
    "league": "Korisliiga",
    "source": "games",
-   "games": 3,
-   "of_games": 3,
+   "games": 4,
+   "of_games": 4,
    "league_name": "Bisons Loimaa"
   },
   "Bnei Herzliya": {
@@ -1153,11 +1153,11 @@
    "city": "Thessaloniki",
    "lat": 40.6281,
    "lon": 22.96407,
-   "capacity": 2500,
+   "capacity": 2580,
    "league": "GBL",
    "source": "games",
-   "games": 2,
-   "of_games": 2,
+   "games": 3,
+   "of_games": 3,
    "league_name": "Iraklis"
   },
   "Ironi Kiryat Ata B.C.": {
@@ -1246,8 +1246,8 @@
    "capacity": 12480,
    "league": "ABA",
    "source": "games",
-   "games": 1,
-   "of_games": 2,
+   "games": 2,
+   "of_games": 3,
    "league_name": "Cedevita Olimpija"
   },
   "KK Cibona": {
@@ -1525,8 +1525,8 @@
    "capacity": 2500,
    "league": "Korisliiga",
    "source": "games",
-   "games": 3,
-   "of_games": 3,
+   "games": 4,
+   "of_games": 4,
    "league_name": "Kataja Basket"
   },
   "Kauhajoki": {
@@ -1561,8 +1561,8 @@
    "capacity": 800,
    "league": "LEBL",
    "source": "games",
-   "games": 4,
-   "of_games": 4,
+   "games": 5,
+   "of_games": 5,
    "league_name": "Keila KK"
   },
   "King Wilki Morskie Szczecin": {
@@ -1708,8 +1708,8 @@
    "capacity": 5600,
    "league": "LKL",
    "source": "games",
-   "games": 3,
-   "of_games": 3,
+   "games": 4,
+   "of_games": 4,
    "league_name": "Lietkabelis"
   },
   "Limoges CSP": {
@@ -1822,8 +1822,8 @@
    "capacity": 1700,
    "league": "GBL",
    "source": "games",
-   "games": 1,
-   "of_games": 1,
+   "games": 2,
+   "of_games": 2,
    "league_name": "Maroussi"
   },
   "Maxima Roma": {
@@ -1876,8 +1876,8 @@
    "capacity": 1014,
    "league": "GBL",
    "source": "games",
-   "games": 2,
-   "of_games": 2,
+   "games": 3,
+   "of_games": 3,
    "league_name": "Mykonos"
   },
   "NKA Universitas Pecs": {
@@ -2578,8 +2578,8 @@
    "capacity": 1942,
    "league": "PLK",
    "source": "games",
-   "games": 1,
-   "of_games": 1,
+   "games": 2,
+   "of_games": 2,
    "league_name": "Energa Trefl Sopot"
   },
   "Turk Telekom B.K.": {
@@ -2710,8 +2710,8 @@
    "capacity": 1060,
    "league": "GBL",
    "source": "games",
-   "games": 1,
-   "of_games": 1,
+   "games": 2,
+   "of_games": 2,
    "league_name": "Vikos"
   },
   "Virtus Bologna": {
