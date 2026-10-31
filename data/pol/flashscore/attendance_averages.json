@@ -1,10 +1,10 @@
 {
   "league": "PLK",
   "season": "2026-27",
-  "updated": "2026-10-30T19:32:48+00:00",
+  "updated": "2026-10-31T01:43:15+00:00",
   "games": {
-    "checked": 32,
-    "with_attendance": 32
+    "checked": 33,
+    "with_attendance": 33
   },
   "clubs": [
     {
@@ -21,10 +21,10 @@
       "league": "PLK",
       "season": "2026-27",
       "club": "Anwil Wloclawek",
-      "home_games_counted": 2,
-      "average": 3415,
-      "total": 6830,
-      "max": 3417,
+      "home_games_counted": 3,
+      "average": 3461,
+      "total": 10382,
+      "max": 3552,
       "min": 3413
     },
     {
