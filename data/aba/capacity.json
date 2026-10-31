@@ -1,19 +1,19 @@
 {
  "league": "ABA",
  "season": "2026-27",
- "updated": "2026-10-30T02:01:24+00:00",
+ "updated": "2026-10-31T01:58:02+00:00",
  "clubs": [
   {
    "club": "BC Vienna",
-   "home_games_counted": 3,
-   "games_with_capacity": 3,
+   "home_games_counted": 4,
+   "games_with_capacity": 4,
    "capacity": 1399,
-   "weighted_capacity": 1399,
-   "filling_rate": 0.5838,
+   "weighted_capacity": 1449,
+   "filling_rate": 0.6986,
    "arenas": [
     {
      "arena": "BC Vienna Arena",
-     "games": 3,
+     "games": 4,
      "capacity": 1399
     }
    ]
@@ -85,15 +85,15 @@
   },
   {
    "club": "Cibona",
-   "home_games_counted": 3,
-   "games_with_capacity": 3,
+   "home_games_counted": 4,
+   "games_with_capacity": 4,
    "capacity": 5400,
    "weighted_capacity": 5400,
-   "filling_rate": 0.0741,
+   "filling_rate": 0.0787,
    "arenas": [
     {
      "arena": "Košarkaški centar Dražen Petrović",
-     "games": 3,
+     "games": 4,
      "capacity": 5400
     }
    ]
@@ -300,7 +300,7 @@
   }
  ],
  "unknown_arenas": [],
- "last_attendance_game": "2026-10-25",
+ "last_attendance_game": "2026-10-30",
  "games": {
   "13": {
    "arena": "ŠD Leona Štuklja Novo Mesto",
@@ -461,6 +461,14 @@
   "48": {
    "arena": "Dvorana Krešimir Ćosić",
    "capacity": 8500
+  },
+  "54": {
+   "arena": "Košarkaški centar Dražen Petrović",
+   "capacity": 5400
+  },
+  "59": {
+   "arena": "BC Vienna Arena",
+   "capacity": 1399
   }
  }
 }

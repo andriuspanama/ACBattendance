@@ -1,7 +1,7 @@
 {
  "league": "BBL",
  "season": "2026-27",
- "updated": "2026-10-30T01:37:30+00:00",
+ "updated": "2026-10-31T01:58:02+00:00",
  "clubs": [
   {
    "club": "ALBA BERLIN",
@@ -125,15 +125,15 @@
   },
   {
    "club": "Phoenix Hagen",
-   "home_games_counted": 3,
-   "games_with_capacity": 3,
+   "home_games_counted": 4,
+   "games_with_capacity": 4,
    "capacity": 3145,
    "weighted_capacity": 3145,
-   "filling_rate": 0.9858,
+   "filling_rate": 0.98,
    "arenas": [
     {
      "arena": "Ischelandhalle",
-     "games": 3,
+     "games": 4,
      "capacity": 3145
     }
    ]
@@ -200,15 +200,15 @@
   },
   {
    "club": "Science City Jena",
-   "home_games_counted": 2,
-   "games_with_capacity": 2,
+   "home_games_counted": 3,
+   "games_with_capacity": 3,
    "capacity": 3125,
    "weighted_capacity": 3125,
-   "filling_rate": 0.849,
+   "filling_rate": 0.8316,
    "arenas": [
     {
      "arena": "Sparkassen-Arena Jena",
-     "games": 2,
+     "games": 3,
      "capacity": 3125
     }
    ]
@@ -275,7 +275,7 @@
   }
  ],
  "unknown_arenas": [],
- "last_attendance_game": "2026-10-26",
+ "last_attendance_game": "2026-10-30",
  "games": {
   "2006920": {
    "arena": "Uber Arena",
@@ -480,6 +480,14 @@
   "2006873": {
    "arena": "tectake ARENA Würzburg",
    "capacity": 3140
+  },
+  "2006869": {
+   "arena": "Sparkassen-Arena Jena",
+   "capacity": 3125
+  },
+  "2006893": {
+   "arena": "Ischelandhalle",
+   "capacity": 3145
   }
  }
 }

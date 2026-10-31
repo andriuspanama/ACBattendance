@@ -1,7 +1,7 @@
 {
  "league": "Korisliiga",
  "season": "2026-27",
- "updated": "2026-10-30T19:50:31+00:00",
+ "updated": "2026-10-31T01:58:02+00:00",
  "clubs": [
   {
    "club": "Bisons Loimaa",
@@ -352,6 +352,10 @@
    "capacity": 1600
   },
   "930690c1-9c6f-11f1-972a-73e7b4190e78": {
+   "arena": "Luhta Areena",
+   "capacity": 1950
+  },
+  "8709952d-a1e7-11f1-9412-255bba719915": {
    "arena": "Luhta Areena",
    "capacity": 1950
   },

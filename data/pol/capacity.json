@@ -1,7 +1,7 @@
 {
  "league": "PLK",
  "season": "2026-27",
- "updated": "2026-10-30T02:01:24+00:00",
+ "updated": "2026-10-31T01:58:02+00:00",
  "clubs": [
   {
    "club": "AMW Arka Gdynia",
@@ -20,15 +20,15 @@
   },
   {
    "club": "Anwil Włocławek",
-   "home_games_counted": 2,
-   "games_with_capacity": 2,
+   "home_games_counted": 3,
+   "games_with_capacity": 3,
    "capacity": 3963,
    "weighted_capacity": 3963,
-   "filling_rate": 0.8617,
+   "filling_rate": 0.8732,
    "arenas": [
     {
      "arena": "Hala Mistrzów",
-     "games": 2,
+     "games": 3,
      "capacity": 3963
     }
    ]
@@ -235,7 +235,7 @@
   }
  ],
  "unknown_arenas": [],
- "last_attendance_game": "2026-10-25",
+ "last_attendance_game": "2026-10-30",
  "games": {
   "223465": {
    "arena": "Hala Sportowa 100-lecia Sopotu",
@@ -348,6 +348,10 @@
   "223490": {
    "arena": "HWS Centrum im.Z.Cybulskiego",
    "capacity": 2944
+  },
+  "223500": {
+   "arena": "Hala Mistrzów",
+   "capacity": 3963
   }
  }
 }
