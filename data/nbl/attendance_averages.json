@@ -1,21 +1,21 @@
 {
   "league": "NBL",
   "season": "2026-27",
-  "updated": "2026-10-31T07:17:55+00:00",
+  "updated": "2026-10-31T13:12:42+00:00",
   "clubs": [
     {
       "league": "NBL",
       "season": "2026-27",
       "club": "Perth Wildcats",
-      "home_games_counted": 7,
-      "average": 11052,
-      "total": 77365,
+      "home_games_counted": 8,
+      "average": 11003,
+      "total": 88023,
       "max": 12808,
       "min": 9646,
       "arenas": [
         {
           "arena": "RAC Arena",
-          "games": 7
+          "games": 8
         }
       ]
     },
@@ -107,15 +107,15 @@
       "league": "NBL",
       "season": "2026-27",
       "club": "Cairns Taipans",
-      "home_games_counted": 3,
-      "average": 4435,
-      "total": 13304,
+      "home_games_counted": 4,
+      "average": 4333,
+      "total": 17332,
       "max": 4636,
-      "min": 4254,
+      "min": 4028,
       "arenas": [
         {
           "arena": "Cairns Convention Centre",
-          "games": 3
+          "games": 4
         }
       ]
     },
