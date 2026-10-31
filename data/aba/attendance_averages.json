@@ -1,7 +1,7 @@
 {
   "league": "ABA",
   "season": "2026-27",
-  "updated": "2026-10-31T13:13:17+00:00",
+  "updated": "2026-10-31T19:06:28+00:00",
   "clubs": [
     {
       "league": "ABA",
@@ -122,26 +122,6 @@
     {
       "league": "ABA",
       "season": "2026-27",
-      "club": "Cedevita Olimpija",
-      "home_games_counted": 2,
-      "average": 1512,
-      "total": 3023,
-      "max": 1523,
-      "min": 1500,
-      "arenas": [
-        {
-          "arena": "Mala dvorana Tivoli",
-          "games": 1
-        },
-        {
-          "arena": "Arena Stožice",
-          "games": 1
-        }
-      ]
-    },
-    {
-      "league": "ABA",
-      "season": "2026-27",
       "club": "Partizan Mozzart Bet",
       "home_games_counted": 1,
       "average": 1413,
@@ -151,6 +131,26 @@
       "arenas": [
         {
           "arena": "Košarkaška dvorana Aleksandar Nikolić",
+          "games": 1
+        }
+      ]
+    },
+    {
+      "league": "ABA",
+      "season": "2026-27",
+      "club": "Cedevita Olimpija",
+      "home_games_counted": 3,
+      "average": 1259,
+      "total": 3778,
+      "max": 1523,
+      "min": 755,
+      "arenas": [
+        {
+          "arena": "Arena Stožice",
+          "games": 2
+        },
+        {
+          "arena": "Mala dvorana Tivoli",
           "games": 1
         }
       ]
