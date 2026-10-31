@@ -1,7 +1,7 @@
 {
   "league": "BSL",
   "season": "2026-27",
-  "updated": "2026-10-31T12:52:44+00:00",
+  "updated": "2026-10-31T18:49:33+00:00",
   "clubs": [
     {
       "league": "BSL",
@@ -103,15 +103,15 @@
       "league": "BSL",
       "season": "2026-27",
       "club": "Pizzabulls Bordo Bandırma",
-      "home_games_counted": 2,
-      "average": 2382,
-      "total": 4763,
+      "home_games_counted": 3,
+      "average": 2238,
+      "total": 6714,
       "max": 2863,
       "min": 1900,
       "arenas": [
         {
           "arena": "Bandırma 17 Eylül Üniversitesi Spor Salonu",
-          "games": 2
+          "games": 3
         }
       ]
     },
@@ -127,6 +127,22 @@
       "arenas": [
         {
           "arena": "Hayri Gür Spor Salonu",
+          "games": 3
+        }
+      ]
+    },
+    {
+      "league": "BSL",
+      "season": "2026-27",
+      "club": "Yukatel Denizli Basket",
+      "home_games_counted": 3,
+      "average": 2133,
+      "total": 6400,
+      "max": 3000,
+      "min": 1400,
+      "arenas": [
+        {
+          "arena": "Pamukkale Üniversitesi Spor Salonu",
           "games": 3
         }
       ]
@@ -182,22 +198,6 @@
     {
       "league": "BSL",
       "season": "2026-27",
-      "club": "Yukatel Denizli Basket",
-      "home_games_counted": 2,
-      "average": 1700,
-      "total": 3400,
-      "max": 2000,
-      "min": 1400,
-      "arenas": [
-        {
-          "arena": "Pamukkale Üniversitesi Spor Salonu",
-          "games": 2
-        }
-      ]
-    },
-    {
-      "league": "BSL",
-      "season": "2026-27",
       "club": "Tofaş",
       "home_games_counted": 3,
       "average": 1525,
@@ -231,15 +231,15 @@
       "league": "BSL",
       "season": "2026-27",
       "club": "Biotekno Körfez Basket",
-      "home_games_counted": 2,
-      "average": 978,
-      "total": 1956,
+      "home_games_counted": 3,
+      "average": 912,
+      "total": 2737,
       "max": 1035,
-      "min": 921,
+      "min": 781,
       "arenas": [
         {
           "arena": "Şehit Polis Recep Topaloğlu Spor Salonu",
-          "games": 2
+          "games": 3
         }
       ]
     },
