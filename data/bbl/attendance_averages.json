@@ -1,7 +1,7 @@
 {
   "league": "BBL",
   "season": "2026-27",
-  "updated": "2026-10-30T19:14:05+00:00",
+  "updated": "2026-10-31T01:27:43+00:00",
   "clubs": [
     {
       "league": "BBL",
@@ -194,15 +194,15 @@
       "league": "BBL",
       "season": "2026-27",
       "club": "Phoenix Hagen",
-      "home_games_counted": 3,
-      "average": 3100,
-      "total": 9301,
+      "home_games_counted": 4,
+      "average": 3082,
+      "total": 12328,
       "max": 3145,
       "min": 3011,
       "arenas": [
         {
           "arena": "Ischelandhalle",
-          "games": 3,
+          "games": 4,
           "capacity": 3145
         }
       ]
@@ -279,15 +279,15 @@
       "league": "BBL",
       "season": "2026-27",
       "club": "Science City Jena",
-      "home_games_counted": 2,
-      "average": 2653,
-      "total": 5306,
+      "home_games_counted": 3,
+      "average": 2599,
+      "total": 7796,
       "max": 3125,
       "min": 2181,
       "arenas": [
         {
           "arena": "Sparkassen-Arena Jena",
-          "games": 2,
+          "games": 3,
           "capacity": 3125
         }
       ]
