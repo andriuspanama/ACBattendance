@@ -1,7 +1,7 @@
 {
   "league": "PLK",
   "season": "2026-27",
-  "updated": "2026-10-31T13:34:05+00:00",
+  "updated": "2026-10-31T19:27:07+00:00",
   "clubs": [
     {
       "league": "PLK",
@@ -187,15 +187,15 @@
       "league": "PLK",
       "season": "2026-27",
       "club": "Energa Trefl Sopot",
-      "home_games_counted": 1,
-      "average": 1636,
-      "total": 1636,
+      "home_games_counted": 2,
+      "average": 1627,
+      "total": 3254,
       "max": 1636,
-      "min": 1636,
+      "min": 1618,
       "arenas": [
         {
           "arena": "Hala Sportowa 100-lecia Sopotu",
-          "games": 1
+          "games": 2
         }
       ]
     },

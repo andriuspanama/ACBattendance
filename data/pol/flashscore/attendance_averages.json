@@ -1,10 +1,10 @@
 {
   "league": "PLK",
   "season": "2026-27",
-  "updated": "2026-10-31T13:33:55+00:00",
+  "updated": "2026-10-31T19:26:57+00:00",
   "games": {
-    "checked": 33,
-    "with_attendance": 33
+    "checked": 35,
+    "with_attendance": 34
   },
   "clubs": [
     {
@@ -131,9 +131,9 @@
       "league": "PLK",
       "season": "2026-27",
       "club": "Trefl Sopot",
-      "home_games_counted": 2,
+      "home_games_counted": 3,
       "average": 1620,
-      "total": 3241,
+      "total": 4859,
       "max": 1636,
       "min": 1605
     },
