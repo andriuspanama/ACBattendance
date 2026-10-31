@@ -1,7 +1,7 @@
 {
  "league": "NBL",
  "season": "2026-27",
- "updated": "2026-10-30T14:03:04+00:00",
+ "updated": "2026-10-31T13:47:52+00:00",
  "clubs": [
   {
    "club": "Adelaide 36ers",
@@ -40,15 +40,15 @@
   },
   {
    "club": "Cairns Taipans",
-   "home_games_counted": 3,
-   "games_with_capacity": 3,
+   "home_games_counted": 4,
+   "games_with_capacity": 4,
    "capacity": 5300,
    "weighted_capacity": 5300,
-   "filling_rate": 0.8367,
+   "filling_rate": 0.8175,
    "arenas": [
     {
      "arena": "Cairns Convention Centre",
-     "games": 3,
+     "games": 4,
      "capacity": 5300
     }
    ]
@@ -100,15 +100,15 @@
   },
   {
    "club": "Perth Wildcats",
-   "home_games_counted": 7,
-   "games_with_capacity": 7,
+   "home_games_counted": 8,
+   "games_with_capacity": 8,
    "capacity": 14846,
    "weighted_capacity": 14846,
-   "filling_rate": 0.7445,
+   "filling_rate": 0.7411,
    "arenas": [
     {
      "arena": "RAC Arena",
-     "games": 7,
+     "games": 8,
      "capacity": 14846
     }
    ]
@@ -170,7 +170,7 @@
   }
  ],
  "unknown_arenas": [],
- "last_attendance_game": "2026-10-30",
+ "last_attendance_game": "2026-10-31",
  "games": {
   "36dbeb55-58ad-11f1-a69b-43a6b5595d3e": {
    "arena": "John Cain Arena",
@@ -359,6 +359,14 @@
   "371d934c-58ad-11f1-8edf-4b570c3bab13": {
    "arena": "Spark Arena",
    "capacity": 9740
+  },
+  "3719f6ce-58ad-11f1-b7b9-736e6b79ac99": {
+   "arena": "Cairns Convention Centre",
+   "capacity": 5300
+  },
+  "37214b47-58ad-11f1-9b38-e78395b5c13c": {
+   "arena": "RAC Arena",
+   "capacity": 14846
   }
  }
 }

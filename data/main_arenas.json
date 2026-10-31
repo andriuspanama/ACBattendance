@@ -1,6 +1,6 @@
 {
  "season": "2026-27",
- "updated": "2026-10-31T01:58:02+00:00",
+ "updated": "2026-10-31T13:47:52+00:00",
  "clubs": {
   "AEK B.C.": {
    "arena": "SUNEL ARENA",
@@ -649,8 +649,8 @@
    "capacity": 5300,
    "league": "NBL",
    "source": "games",
-   "games": 3,
-   "of_games": 3,
+   "games": 4,
+   "of_games": 4,
    "league_name": "Cairns Taipans"
   },
   "Cayirova Belediyespor": {
@@ -2101,8 +2101,8 @@
    "capacity": 14846,
    "league": "NBL",
    "source": "games",
-   "games": 7,
-   "of_games": 7,
+   "games": 8,
+   "of_games": 8,
    "league_name": "Perth Wildcats"
   },
   "Petkim Spor Kulubu": {
