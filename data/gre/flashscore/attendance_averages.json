@@ -1,10 +1,10 @@
 {
   "league": "GBL",
   "season": "2026-27",
-  "updated": "2026-10-31T13:28:16+00:00",
+  "updated": "2026-10-31T19:20:43+00:00",
   "games": {
-    "checked": 28,
-    "with_attendance": 7
+    "checked": 33,
+    "with_attendance": 9
   },
   "clubs": [
     {
@@ -26,6 +26,16 @@
       "total": 3500,
       "max": 3500,
       "min": 3500
+    },
+    {
+      "league": "GBL",
+      "season": "2026-27",
+      "club": "Iraklis",
+      "home_games_counted": 1,
+      "average": 3000,
+      "total": 3000,
+      "max": 3000,
+      "min": 3000
     },
     {
       "league": "GBL",
@@ -60,17 +70,17 @@
     {
       "league": "GBL",
       "season": "2026-27",
-      "club": "Athens",
-      "home_games_counted": 0,
-      "average": null,
-      "total": 0,
-      "max": null,
-      "min": null
+      "club": "Mykonos",
+      "home_games_counted": 1,
+      "average": 700,
+      "total": 700,
+      "max": 700,
+      "min": 700
     },
     {
       "league": "GBL",
       "season": "2026-27",
-      "club": "Iraklis",
+      "club": "Athens",
       "home_games_counted": 0,
       "average": null,
       "total": 0,
@@ -91,16 +101,6 @@
       "league": "GBL",
       "season": "2026-27",
       "club": "Maroussi",
-      "home_games_counted": 0,
-      "average": null,
-      "total": 0,
-      "max": null,
-      "min": null
-    },
-    {
-      "league": "GBL",
-      "season": "2026-27",
-      "club": "Mykonos",
       "home_games_counted": 0,
       "average": null,
       "total": 0,
