@@ -1,7 +1,7 @@
 {
  "league": "Korisliiga",
  "season": "2026-27",
- "updated": "2026-10-31T19:41:12+00:00",
+ "updated": "2026-11-01T13:49:22+00:00",
  "clubs": [
   {
    "club": "Bisons Loimaa",
@@ -125,15 +125,15 @@
   },
   {
    "club": "Lahti Basketball",
-   "home_games_counted": 4,
-   "games_with_capacity": 4,
+   "home_games_counted": 5,
+   "games_with_capacity": 5,
    "capacity": 1950,
    "weighted_capacity": 1950,
-   "filling_rate": 0.619,
+   "filling_rate": 0.5839,
    "arenas": [
     {
      "arena": "Luhta Areena",
-     "games": 4,
+     "games": 5,
      "capacity": 1950
     }
    ]

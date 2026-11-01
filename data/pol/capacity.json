@@ -1,7 +1,7 @@
 {
  "league": "PLK",
  "season": "2026-27",
- "updated": "2026-11-01T02:02:36+00:00",
+ "updated": "2026-11-01T13:49:22+00:00",
  "clubs": [
   {
    "club": "AMW Arka Gdynia",
@@ -146,10 +146,10 @@
   {
    "club": "Legia Warszawa",
    "home_games_counted": 2,
-   "games_with_capacity": 1,
+   "games_with_capacity": 2,
    "capacity": 1991,
-   "weighted_capacity": 1991,
-   "filling_rate": 0.9543,
+   "weighted_capacity": 4148,
+   "filling_rate": 0.7248,
    "arenas": [
     {
      "arena": "OSiR Warszawa Bemowo",
@@ -159,7 +159,7 @@
     {
      "arena": "Torwar",
      "games": 1,
-     "capacity": null
+     "capacity": 6304
     }
    ]
   },
@@ -239,15 +239,7 @@
    ]
   }
  ],
- "unknown_arenas": [
-  {
-   "arena": "Torwar",
-   "games": 1,
-   "clubs": [
-    "Legia Warszawa"
-   ]
-  }
- ],
+ "unknown_arenas": [],
  "last_attendance_game": "2026-10-31",
  "games": {
   "223465": {
@@ -380,7 +372,7 @@
   },
   "223499": {
    "arena": "Torwar",
-   "capacity": null
+   "capacity": 6304
   }
  }
 }

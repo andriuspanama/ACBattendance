@@ -1,7 +1,7 @@
 {
  "league": "LBA",
  "season": "2026-27",
- "updated": "2026-11-01T02:02:36+00:00",
+ "updated": "2026-11-01T13:49:22+00:00",
  "clubs": [
   {
    "club": "Armani Olimpia Milano",
@@ -80,15 +80,15 @@
   },
   {
    "club": "Napoli Basketball",
-   "home_games_counted": 1,
-   "games_with_capacity": 1,
+   "home_games_counted": 2,
+   "games_with_capacity": 2,
    "capacity": 3980,
    "weighted_capacity": 3980,
-   "filling_rate": 0.7789,
+   "filling_rate": 0.7663,
    "arenas": [
     {
      "arena": "Alcott Arena",
-     "games": 1,
+     "games": 2,
      "capacity": 3980
     }
    ]
@@ -155,7 +155,7 @@
   }
  ],
  "unknown_arenas": [],
- "last_attendance_game": "2026-10-31",
+ "last_attendance_game": "2026-11-01",
  "games": {
   "25602": {
    "arena": "Palaverde",
@@ -328,6 +328,10 @@
   "25404": {
    "arena": "Palaverde",
    "capacity": 5344
+  },
+  "25405": {
+   "arena": "Alcott Arena",
+   "capacity": 3980
   }
  }
 }
