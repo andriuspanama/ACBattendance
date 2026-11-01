@@ -1,7 +1,7 @@
 {
   "league": "BSL",
   "season": "2026-27",
-  "updated": "2026-11-01T12:54:21+00:00",
+  "updated": "2026-11-01T21:58:52+00:00",
   "clubs": [
     {
       "league": "BSL",
@@ -87,15 +87,15 @@
       "league": "BSL",
       "season": "2026-27",
       "club": "Fenerbahçe Tarfin",
-      "home_games_counted": 2,
-      "average": 2582,
-      "total": 5163,
+      "home_games_counted": 3,
+      "average": 2534,
+      "total": 7601,
       "max": 2659,
-      "min": 2504,
+      "min": 2438,
       "arenas": [
         {
           "arena": "Ülker Spor ve Etkinlik Salonu",
-          "games": 2
+          "games": 3
         }
       ]
     },
