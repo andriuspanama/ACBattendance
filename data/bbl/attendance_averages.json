@@ -1,7 +1,7 @@
 {
   "league": "BBL",
   "season": "2026-27",
-  "updated": "2026-11-01T13:18:19+00:00",
+  "updated": "2026-11-01T22:14:08+00:00",
   "clubs": [
     {
       "league": "BBL",
@@ -109,15 +109,15 @@
       "league": "BBL",
       "season": "2026-27",
       "club": "BMA365 Bamberg Baskets",
-      "home_games_counted": 2,
-      "average": 4116,
-      "total": 8233,
-      "max": 4210,
+      "home_games_counted": 3,
+      "average": 4245,
+      "total": 12734,
+      "max": 4501,
       "min": 4023,
       "arenas": [
         {
           "arena": "Brose Arena Bamberg",
-          "games": 2,
+          "games": 3,
           "capacity": 5700
         }
       ]
@@ -143,15 +143,15 @@
       "league": "BBL",
       "season": "2026-27",
       "club": "ROSTOCK SEAWOLVES",
-      "home_games_counted": 2,
-      "average": 3677,
-      "total": 7354,
-      "max": 3722,
+      "home_games_counted": 3,
+      "average": 3972,
+      "total": 11917,
+      "max": 4563,
       "min": 3632,
       "arenas": [
         {
           "arena": "StadtHalle Rostock",
-          "games": 2,
+          "games": 3,
           "capacity": 5000
         }
       ]
@@ -245,15 +245,15 @@
       "league": "BBL",
       "season": "2026-27",
       "club": "Veolia Towers Hamburg",
-      "home_games_counted": 2,
-      "average": 2791,
-      "total": 5582,
+      "home_games_counted": 3,
+      "average": 2848,
+      "total": 8544,
       "max": 3190,
       "min": 2392,
       "arenas": [
         {
           "arena": "Inselpark Arena",
-          "games": 2,
+          "games": 3,
           "capacity": 3400
         }
       ]
