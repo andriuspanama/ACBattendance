@@ -1,7 +1,7 @@
 {
   "league": "PLK",
   "season": "2026-27",
-  "updated": "2026-10-31T19:27:07+00:00",
+  "updated": "2026-11-01T01:49:27+00:00",
   "clubs": [
     {
       "league": "PLK",
@@ -32,6 +32,26 @@
         {
           "arena": "Hala Mistrzów",
           "games": 3
+        }
+      ]
+    },
+    {
+      "league": "PLK",
+      "season": "2026-27",
+      "club": "Legia Warszawa",
+      "home_games_counted": 2,
+      "average": 3006,
+      "total": 6012,
+      "max": 4112,
+      "min": 1900,
+      "arenas": [
+        {
+          "arena": "OSiR Warszawa Bemowo",
+          "games": 1
+        },
+        {
+          "arena": "Torwar",
+          "games": 1
         }
       ]
     },
@@ -119,31 +139,15 @@
       "league": "PLK",
       "season": "2026-27",
       "club": "Energa Czarni Słupsk",
-      "home_games_counted": 2,
-      "average": 1954,
-      "total": 3908,
+      "home_games_counted": 3,
+      "average": 1953,
+      "total": 5860,
       "max": 1988,
       "min": 1920,
       "arenas": [
         {
           "arena": "Hala Gryfia",
-          "games": 2
-        }
-      ]
-    },
-    {
-      "league": "PLK",
-      "season": "2026-27",
-      "club": "Legia Warszawa",
-      "home_games_counted": 1,
-      "average": 1900,
-      "total": 1900,
-      "max": 1900,
-      "min": 1900,
-      "arenas": [
-        {
-          "arena": "OSiR Warszawa Bemowo",
-          "games": 1
+          "games": 3
         }
       ]
     },
@@ -164,22 +168,6 @@
         {
           "arena": "Hala SDS 2.0",
           "games": 1
-        }
-      ]
-    },
-    {
-      "league": "PLK",
-      "season": "2026-27",
-      "club": "Arriva Lotto Twarde Pierniki Toruń",
-      "home_games_counted": 2,
-      "average": 1782,
-      "total": 3564,
-      "max": 1784,
-      "min": 1780,
-      "arenas": [
-        {
-          "arena": "Kujawsko-Pomorska Arena Toruń",
-          "games": 2
         }
       ]
     },
@@ -212,6 +200,22 @@
         {
           "arena": "Grupa Moderator Arena",
           "games": 2
+        }
+      ]
+    },
+    {
+      "league": "PLK",
+      "season": "2026-27",
+      "club": "Arriva Lotto Twarde Pierniki Toruń",
+      "home_games_counted": 3,
+      "average": 1449,
+      "total": 4347,
+      "max": 1784,
+      "min": 783,
+      "arenas": [
+        {
+          "arena": "Kujawsko-Pomorska Arena Toruń",
+          "games": 3
         }
       ]
     },

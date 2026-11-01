@@ -1,10 +1,10 @@
 {
   "league": "PLK",
   "season": "2026-27",
-  "updated": "2026-10-31T19:26:57+00:00",
+  "updated": "2026-11-01T01:49:17+00:00",
   "games": {
-    "checked": 35,
-    "with_attendance": 34
+    "checked": 37,
+    "with_attendance": 37
   },
   "clubs": [
     {
@@ -60,6 +60,16 @@
     {
       "league": "PLK",
       "season": "2026-27",
+      "club": "Legia",
+      "home_games_counted": 3,
+      "average": 2668,
+      "total": 8003,
+      "max": 4112,
+      "min": 1900
+    },
+    {
+      "league": "PLK",
+      "season": "2026-27",
       "club": "Gornik Walbrzych",
       "home_games_counted": 1,
       "average": 2190,
@@ -91,21 +101,11 @@
       "league": "PLK",
       "season": "2026-27",
       "club": "Czarni Slupsk",
-      "home_games_counted": 2,
-      "average": 1954,
-      "total": 3908,
+      "home_games_counted": 3,
+      "average": 1953,
+      "total": 5860,
       "max": 1988,
       "min": 1920
-    },
-    {
-      "league": "PLK",
-      "season": "2026-27",
-      "club": "Legia",
-      "home_games_counted": 2,
-      "average": 1946,
-      "total": 3891,
-      "max": 1991,
-      "min": 1900
     },
     {
       "league": "PLK",
@@ -116,16 +116,6 @@
       "total": 3587,
       "max": 1999,
       "min": 1588
-    },
-    {
-      "league": "PLK",
-      "season": "2026-27",
-      "club": "Torun",
-      "home_games_counted": 2,
-      "average": 1782,
-      "total": 3564,
-      "max": 1784,
-      "min": 1780
     },
     {
       "league": "PLK",
@@ -146,6 +136,16 @@
       "total": 2958,
       "max": 1479,
       "min": 1479
+    },
+    {
+      "league": "PLK",
+      "season": "2026-27",
+      "club": "Torun",
+      "home_games_counted": 3,
+      "average": 1449,
+      "total": 4347,
+      "max": 1784,
+      "min": 783
     },
     {
       "league": "PLK",
