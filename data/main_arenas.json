@@ -1,6 +1,6 @@
 {
  "season": "2026-27",
- "updated": "2026-10-31T19:41:12+00:00",
+ "updated": "2026-11-01T02:02:36+00:00",
  "clubs": {
   "AEK B.C.": {
    "arena": "SUNEL ARENA",
@@ -244,8 +244,8 @@
    "capacity": 3500,
    "league": "LBA",
    "source": "games",
-   "games": 2,
-   "of_games": 2,
+   "games": 3,
+   "of_games": 3,
    "league_name": "BC Roma"
   },
   "BC Slovan Bratislava": {
@@ -364,7 +364,7 @@
    "city": "İstanbul",
    "lat": 40.98859,
    "lon": 28.854,
-   "capacity": 16000,
+   "capacity": 16500,
    "league": "BSL",
    "source": "games",
    "games": 15,
@@ -397,7 +397,7 @@
    "city": "Bandırma",
    "lat": 40.33865,
    "lon": 27.98689,
-   "capacity": 2000,
+   "capacity": 3500,
    "league": "BSL",
    "source": "games",
    "games": 15,
@@ -556,7 +556,7 @@
    "city": "Bursa",
    "lat": 40.22715,
    "lon": 28.97173,
-   "capacity": 5750,
+   "capacity": 7500,
    "league": "BSL",
    "source": "games",
    "games": 15,
@@ -724,8 +724,8 @@
    "capacity": 2249,
    "league": "PLK",
    "source": "games",
-   "games": 2,
-   "of_games": 2,
+   "games": 3,
+   "of_games": 3,
    "league_name": "Energa Czarni Słupsk"
   },
   "DEAC (Kosarlabda Akademia)": {
@@ -751,7 +751,7 @@
    "city": "Denizli",
    "lat": 37.73792,
    "lon": 29.09497,
-   "capacity": 3490,
+   "capacity": 5000,
    "league": "BSL",
    "source": "games",
    "games": 15,
@@ -868,7 +868,7 @@
    "city": "İstanbul",
    "lat": 41.08687,
    "lon": 29.02354,
-   "capacity": 2890,
+   "capacity": 3200,
    "league": "BSL",
    "source": "games",
    "games": 15,
@@ -910,7 +910,7 @@
    "city": "İstanbul",
    "lat": 40.99313,
    "lon": 29.1049,
-   "capacity": 12687,
+   "capacity": 13500,
    "league": "BSL",
    "source": "games",
    "games": 15,
@@ -967,7 +967,7 @@
    "city": "İstanbul",
    "lat": 40.98859,
    "lon": 28.854,
-   "capacity": 16000,
+   "capacity": 16500,
    "league": "BSL",
    "source": "games",
    "games": 15,
@@ -1234,8 +1234,8 @@
    "capacity": 6000,
    "league": "ABA",
    "source": "games",
-   "games": 1,
-   "of_games": 1,
+   "games": 2,
+   "of_games": 2,
    "league_name": "Budućnost VOLI"
   },
   "KK Cedevita Olimpija": {
@@ -1510,7 +1510,7 @@
    "city": "İzmir",
    "lat": 38.47442,
    "lon": 27.07674,
-   "capacity": 4800,
+   "capacity": 6500,
    "league": "BSL",
    "source": "games",
    "games": 15,
@@ -1738,8 +1738,8 @@
    "capacity": 6358,
    "league": "BBL",
    "source": "games",
-   "games": 3,
-   "of_games": 3,
+   "games": 4,
+   "of_games": 4,
    "league_name": "Basketball Löwen Braunschweig"
   },
   "MHP Riesen Ludwigsburg": {
@@ -1855,7 +1855,7 @@
    "city": "Mersin",
    "lat": 36.78833,
    "lon": 34.55028,
-   "capacity": 6499,
+   "capacity": 7500,
    "league": "BSL",
    "source": "sheet"
   },
@@ -1954,8 +1954,8 @@
    "capacity": 5000,
    "league": "BBL",
    "source": "games",
-   "games": 2,
-   "of_games": 2,
+   "games": 3,
+   "of_games": 3,
    "league_name": "NINERS Chemnitz"
   },
   "OSE Lions": {
@@ -2179,8 +2179,8 @@
    "capacity": 6000,
    "league": "BBL",
    "source": "games",
-   "games": 2,
-   "of_games": 2,
+   "games": 3,
+   "of_games": 3,
    "league_name": "ratiopharm ulm"
   },
   "Real Madrid Baloncesto": {
@@ -2332,8 +2332,8 @@
    "capacity": 5350,
    "league": "LBA",
    "source": "games",
-   "games": 2,
-   "of_games": 2,
+   "games": 3,
+   "of_games": 3,
    "league_name": "Tezenis Verona"
   },
   "Science City Jena": {
@@ -2551,7 +2551,7 @@
    "city": "Bursa",
    "lat": 40.22715,
    "lon": 28.97173,
-   "capacity": 5750,
+   "capacity": 7500,
    "league": "BSL",
    "source": "games",
    "games": 15,
@@ -2587,7 +2587,7 @@
    "city": "Ankara",
    "lat": 39.93792,
    "lon": 32.84391,
-   "capacity": 9984,
+   "capacity": 10000,
    "league": "BSL",
    "source": "games",
    "games": 15,
@@ -2602,8 +2602,8 @@
    "capacity": 6248,
    "league": "PLK",
    "source": "games",
-   "games": 2,
-   "of_games": 2,
+   "games": 3,
+   "of_games": 3,
    "league_name": "Arriva Lotto Twarde Pierniki Toruń"
   },
   "U-BT Cluj - Napoca": {
@@ -2662,8 +2662,8 @@
    "capacity": 5344,
    "league": "LBA",
    "source": "games",
-   "games": 2,
-   "of_games": 2,
+   "games": 3,
+   "of_games": 3,
    "league_name": "Nutribullet Treviso Basket"
   },
   "Utena Juventus": {

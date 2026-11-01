@@ -1,7 +1,7 @@
 {
  "league": "BBL",
  "season": "2026-27",
- "updated": "2026-10-31T01:58:02+00:00",
+ "updated": "2026-11-01T02:02:36+00:00",
  "clubs": [
   {
    "club": "ALBA BERLIN",
@@ -35,15 +35,15 @@
   },
   {
    "club": "Basketball Löwen Braunschweig",
-   "home_games_counted": 3,
-   "games_with_capacity": 3,
+   "home_games_counted": 4,
+   "games_with_capacity": 4,
    "capacity": 6358,
    "weighted_capacity": 6358,
-   "filling_rate": 0.5244,
+   "filling_rate": 0.5114,
    "arenas": [
     {
      "arena": "Volkswagen Halle Braunschweig",
-     "games": 3,
+     "games": 4,
      "capacity": 6358
     }
    ]
@@ -110,15 +110,15 @@
   },
   {
    "club": "NINERS Chemnitz",
-   "home_games_counted": 2,
-   "games_with_capacity": 2,
+   "home_games_counted": 3,
+   "games_with_capacity": 3,
    "capacity": 5000,
    "weighted_capacity": 5000,
-   "filling_rate": 0.8402,
+   "filling_rate": 0.8173,
    "arenas": [
     {
      "arena": "Messe Chemnitz",
-     "games": 2,
+     "games": 3,
      "capacity": 5000
     }
    ]
@@ -260,22 +260,22 @@
   },
   {
    "club": "ratiopharm ulm",
-   "home_games_counted": 2,
-   "games_with_capacity": 2,
+   "home_games_counted": 3,
+   "games_with_capacity": 3,
    "capacity": 6000,
    "weighted_capacity": 6000,
-   "filling_rate": 0.7667,
+   "filling_rate": 0.7424,
    "arenas": [
     {
      "arena": "ratiopharm arena Ulm",
-     "games": 2,
+     "games": 3,
      "capacity": 6000
     }
    ]
   }
  ],
  "unknown_arenas": [],
- "last_attendance_game": "2026-10-30",
+ "last_attendance_game": "2026-10-31",
  "games": {
   "2006920": {
    "arena": "Uber Arena",
@@ -488,6 +488,18 @@
   "2006893": {
    "arena": "Ischelandhalle",
    "capacity": 3145
+  },
+  "2006894": {
+   "arena": "Volkswagen Halle Braunschweig",
+   "capacity": 6358
+  },
+  "2006895": {
+   "arena": "Messe Chemnitz",
+   "capacity": 5000
+  },
+  "2006896": {
+   "arena": "ratiopharm arena Ulm",
+   "capacity": 6000
   }
  }
 }

@@ -1,7 +1,7 @@
 {
  "league": "Winner League",
  "season": "2026-27",
- "updated": "2026-10-30T16:16:14+00:00",
+ "updated": "2026-11-01T02:02:36+00:00",
  "clubs": [
   {
    "club": "Bnei Penlink Herzliya",
@@ -50,15 +50,15 @@
   },
   {
    "club": "Hapoel Gilat Telecom Haemek",
-   "home_games_counted": 1,
-   "games_with_capacity": 1,
+   "home_games_counted": 2,
+   "games_with_capacity": 2,
    "capacity": 2069,
    "weighted_capacity": 2069,
-   "filling_rate": 0.8217,
+   "filling_rate": 0.5558,
    "arenas": [
     {
      "arena": "Haim Ohayon Hall (Gan Ner Sports Hall)",
-     "games": 1,
+     "games": 2,
      "capacity": 2069
     }
    ]
@@ -185,7 +185,7 @@
   }
  ],
  "unknown_arenas": [],
- "last_attendance_game": "2026-10-26",
+ "last_attendance_game": "2026-10-31",
  "games": {
   "26646": {
    "arena": "Menora Mivtachim Arena",

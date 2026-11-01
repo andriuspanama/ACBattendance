@@ -1,7 +1,7 @@
 {
  "league": "ABA",
  "season": "2026-27",
- "updated": "2026-10-31T19:41:12+00:00",
+ "updated": "2026-11-01T02:02:36+00:00",
  "clubs": [
   {
    "club": "BC Vienna",
@@ -50,15 +50,15 @@
   },
   {
    "club": "Budućnost VOLI",
-   "home_games_counted": 1,
-   "games_with_capacity": 1,
+   "home_games_counted": 2,
+   "games_with_capacity": 2,
    "capacity": 6000,
    "weighted_capacity": 6000,
    "filling_rate": 0.0917,
    "arenas": [
     {
      "arena": "Sportski centar Morača",
-     "games": 1,
+     "games": 2,
      "capacity": 6000
     }
    ]
@@ -469,6 +469,10 @@
   "59": {
    "arena": "BC Vienna Arena",
    "capacity": 1399
+  },
+  "52": {
+   "arena": "Sportski centar Morača",
+   "capacity": 6000
   },
   "53": {
    "arena": "Arena Stožice",

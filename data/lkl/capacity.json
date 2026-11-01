@@ -1,7 +1,7 @@
 {
  "league": "LKL",
  "season": "2026-27",
- "updated": "2026-10-31T19:41:12+00:00",
+ "updated": "2026-11-01T02:02:36+00:00",
  "clubs": [
   {
    "club": "Gargzdai",
@@ -20,15 +20,15 @@
   },
   {
    "club": "Jonava",
-   "home_games_counted": 3,
-   "games_with_capacity": 3,
+   "home_games_counted": 4,
+   "games_with_capacity": 4,
    "capacity": 2246,
    "weighted_capacity": 2246,
-   "filling_rate": 0.336,
+   "filling_rate": 0.3413,
    "arenas": [
     {
      "arena": "Jonavos sporto arena",
-     "games": 3,
+     "games": 4,
      "capacity": 2246
     }
    ]

@@ -1,7 +1,7 @@
 {
  "league": "PLK",
  "season": "2026-27",
- "updated": "2026-10-31T19:41:12+00:00",
+ "updated": "2026-11-01T02:02:36+00:00",
  "clubs": [
   {
    "club": "AMW Arka Gdynia",
@@ -35,15 +35,15 @@
   },
   {
    "club": "Arriva Lotto Twarde Pierniki Toruń",
-   "home_games_counted": 2,
-   "games_with_capacity": 2,
+   "home_games_counted": 3,
+   "games_with_capacity": 3,
    "capacity": 6248,
    "weighted_capacity": 6248,
-   "filling_rate": 0.2852,
+   "filling_rate": 0.2319,
    "arenas": [
     {
      "arena": "Kujawsko-Pomorska Arena Toruń",
-     "games": 2,
+     "games": 3,
      "capacity": 6248
     }
    ]
@@ -80,15 +80,15 @@
   },
   {
    "club": "Energa Czarni Słupsk",
-   "home_games_counted": 2,
-   "games_with_capacity": 2,
+   "home_games_counted": 3,
+   "games_with_capacity": 3,
    "capacity": 2249,
    "weighted_capacity": 2249,
-   "filling_rate": 0.8688,
+   "filling_rate": 0.8685,
    "arenas": [
     {
      "arena": "Hala Gryfia",
-     "games": 2,
+     "games": 3,
      "capacity": 2249
     }
    ]
@@ -145,7 +145,7 @@
   },
   {
    "club": "Legia Warszawa",
-   "home_games_counted": 1,
+   "home_games_counted": 2,
    "games_with_capacity": 1,
    "capacity": 1991,
    "weighted_capacity": 1991,
@@ -155,6 +155,11 @@
      "arena": "OSiR Warszawa Bemowo",
      "games": 1,
      "capacity": 1991
+    },
+    {
+     "arena": "Torwar",
+     "games": 1,
+     "capacity": null
     }
    ]
   },
@@ -234,7 +239,15 @@
    ]
   }
  ],
- "unknown_arenas": [],
+ "unknown_arenas": [
+  {
+   "arena": "Torwar",
+   "games": 1,
+   "clubs": [
+    "Legia Warszawa"
+   ]
+  }
+ ],
  "last_attendance_game": "2026-10-31",
  "games": {
   "223465": {
@@ -353,9 +366,17 @@
    "arena": "Hala Mistrzów",
    "capacity": 3963
   },
+  "223493": {
+   "arena": "Kujawsko-Pomorska Arena Toruń",
+   "capacity": 6248
+  },
   "223495": {
    "arena": "Hala Sportowa 100-lecia Sopotu",
    "capacity": 1942
+  },
+  "223498": {
+   "arena": "Hala Gryfia",
+   "capacity": 2249
   },
   "223499": {
    "arena": "Torwar",

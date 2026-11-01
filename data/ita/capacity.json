@@ -1,7 +1,7 @@
 {
  "league": "LBA",
  "season": "2026-27",
- "updated": "2026-10-30T02:01:24+00:00",
+ "updated": "2026-11-01T02:02:36+00:00",
  "clubs": [
   {
    "club": "Armani Olimpia Milano",
@@ -95,15 +95,15 @@
   },
   {
    "club": "Nutribullet Treviso Basket",
-   "home_games_counted": 2,
-   "games_with_capacity": 2,
+   "home_games_counted": 3,
+   "games_with_capacity": 3,
    "capacity": 5344,
    "weighted_capacity": 5344,
-   "filling_rate": 0.8099,
+   "filling_rate": 0.7794,
    "arenas": [
     {
      "arena": "Palaverde",
-     "games": 2,
+     "games": 3,
      "capacity": 5344
     }
    ]
@@ -155,7 +155,7 @@
   }
  ],
  "unknown_arenas": [],
- "last_attendance_game": "2026-10-25",
+ "last_attendance_game": "2026-10-31",
  "games": {
   "25602": {
    "arena": "Palaverde",
@@ -316,6 +316,18 @@
   "25398": {
    "arena": "PalaBigi",
    "capacity": 4530
+  },
+  "25401": {
+   "arena": "Palazzetto dello Sport",
+   "capacity": 3500
+  },
+  "25402": {
+   "arena": "Pala MAGIS",
+   "capacity": 5350
+  },
+  "25404": {
+   "arena": "Palaverde",
+   "capacity": 5344
   }
  }
 }
