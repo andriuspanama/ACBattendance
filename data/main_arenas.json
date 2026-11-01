@@ -1,7 +1,16 @@
 {
  "season": "2026-27",
- "updated": "2026-11-01T13:49:22+00:00",
+ "updated": "2026-11-01T19:29:28+00:00",
  "clubs": {
+  "ADA Blois Basket 41": {
+   "arena": "Le Jeu de Paume",
+   "city": "Blois",
+   "lat": 47.60042,
+   "lon": 1.32846,
+   "capacity": 2525,
+   "league": "Other",
+   "source": "sheet"
+  },
   "AEK B.C.": {
    "arena": "SUNEL ARENA",
    "city": "Ano Liosia",
@@ -13,6 +22,15 @@
    "games": 2,
    "of_games": 2,
    "league_name": "Aek"
+  },
+  "ALM Evreux Basket": {
+   "arena": "Salle omnisports Jean-Fourré",
+   "city": "Évreux",
+   "lat": 49.0219,
+   "lon": 1.13921,
+   "capacity": 2500,
+   "league": "Other",
+   "source": "sheet"
   },
   "APU Udine": {
    "arena": "PalaCarnera Credifriuli",
@@ -59,6 +77,15 @@
    "of_games": 4,
    "league_name": "Adelaide 36ers"
   },
+  "Aix Maurienne Savoie Basket AMSB": {
+   "arena": "Halle Marlioz",
+   "city": "Aix-les-Bains",
+   "lat": 45.66605,
+   "lon": 5.91264,
+   "capacity": 1500,
+   "league": "Other",
+   "source": "sheet"
+  },
   "Alba - Fehervar": {
    "arena": "Alba Regia Sportcsarnok",
    "city": "Székesfehérvár",
@@ -79,6 +106,15 @@
    "games": 4,
    "of_games": 4,
    "league_name": "ALBA BERLIN"
+  },
+  "Alliance Sport Alsace ASA": {
+   "arena": "Espace Sport La Forêt",
+   "city": "Gries",
+   "lat": 48.75584,
+   "lon": 7.82306,
+   "capacity": 1700,
+   "league": "Other",
+   "source": "sheet"
   },
   "Anadolu Efes S.K.": {
    "arena": "Turkcell Basketbol Gelişim Merkezi",
@@ -326,6 +362,24 @@
    "of_games": 4,
    "league_name": "BK Ogre"
   },
+  "BK Opava": {
+   "arena": "Víceúčelová hala Opava",
+   "city": "Opava",
+   "lat": 49.9497,
+   "lon": 17.88485,
+   "capacity": 3006,
+   "league": "Other",
+   "source": "sheet"
+  },
+  "BK Pardubice": {
+   "arena": "Sportovní hala Dašická",
+   "city": "Pardubice",
+   "lat": 50.03619,
+   "lon": 15.79128,
+   "capacity": 1400,
+   "league": "Other",
+   "source": "sheet"
+  },
   "BK Patrioti Levice": {
    "arena": "Športová hala Levice",
    "city": "Levice",
@@ -472,6 +526,15 @@
    "games": 4,
    "of_games": 4,
    "league_name": "FC Bayern München Basketball"
+  },
+  "Beliers de Quimper": {
+   "arena": "Kostum Park – À nous la vie",
+   "city": "Quimper",
+   "lat": 47.99283,
+   "lon": -4.07482,
+   "capacity": 3499,
+   "league": "Other",
+   "source": "sheet"
   },
   "Besiktas J.K.": {
    "arena": "Turkcell Basketbol Gelişim Merkezi",
@@ -632,6 +695,15 @@
    "league": "Other",
    "source": "sheet"
   },
+  "Caen Basket Calvados": {
+   "arena": "Palais des Sports de Caen la mer",
+   "city": "Caen",
+   "lat": 49.1708,
+   "lon": -0.38537,
+   "capacity": 4200,
+   "league": "Other",
+   "source": "sheet"
+  },
   "Cagdas Bodrumspor": {
    "arena": "Mugla Mentese Spor Salonu",
    "city": "Muğla",
@@ -664,6 +736,15 @@
    "games": 5,
    "of_games": 5,
    "league_name": "Glint Çayırova Belediyesi"
+  },
+  "Champagne Basket": {
+   "arena": "Palais des Sports Pierre-de-Coubertin",
+   "city": "Châlons-en-Champagne",
+   "lat": 48.96227,
+   "lon": 4.3648,
+   "capacity": 2400,
+   "league": "Other",
+   "source": "sheet"
   },
   "Cholet Basket": {
    "arena": "La Meilleraie",
@@ -746,6 +827,15 @@
    "league": "BSL",
    "source": "sheet"
   },
+  "Denain Voltaire Basket": {
+   "arena": "Salle Jean-Degros",
+   "city": "Denain",
+   "lat": 50.32239,
+   "lon": 3.39886,
+   "capacity": 2500,
+   "league": "Other",
+   "source": "sheet"
+  },
   "Denizli Basket (Merkezefendi)": {
    "arena": "Pamukkale Üniversitesi Spor Salonu",
    "city": "Denizli",
@@ -776,6 +866,15 @@
    "lat": 40.71702,
    "lon": 8.58296,
    "capacity": 5000,
+   "league": "Other",
+   "source": "sheet"
+  },
+  "Donar Groningen": {
+   "arena": "MartiniPlaza",
+   "city": "Groningen",
+   "lat": 53.20278,
+   "lon": 6.55639,
+   "capacity": 4350,
    "league": "Other",
    "source": "sheet"
   },
@@ -938,6 +1037,15 @@
    "of_games": 2,
    "league_name": "Ilerna Lleida"
   },
+  "Fos Provence Basket": {
+   "arena": "Halle des Sports Parsemain",
+   "city": "Fos-sur-Mer",
+   "lat": 43.4676663643238,
+   "lon": 4.94689060082178,
+   "capacity": 2000,
+   "league": "Other",
+   "source": "sheet"
+  },
   "Frankfurt Skyliners": {
    "arena": "Süwag Energie ARENA",
    "city": "Frankfurt am Main",
@@ -949,6 +1057,15 @@
    "games": 2,
    "of_games": 2,
    "league_name": "SKYLINERS"
+  },
+  "Fribourg Olympic Basket": {
+   "arena": "Salle Saint-Léonard",
+   "city": "Fribourg",
+   "lat": 46.81644,
+   "lon": 7.15584,
+   "capacity": 2789,
+   "league": "Other",
+   "source": "sheet"
   },
   "GTK Gliwice": {
    "arena": "Prezero Arena Gliwice",
@@ -1136,6 +1253,33 @@
    "of_games": 4,
    "league_name": "Helsinki Seagulls"
   },
+  "Hermine Nantes Basket": {
+   "arena": "Salle sportive métropolitaine de la Trocardière",
+   "city": "Rezé",
+   "lat": 47.18004,
+   "lon": -1.57166,
+   "capacity": 4185,
+   "league": "Other",
+   "source": "sheet"
+  },
+  "Heroes Den Bosch": {
+   "arena": "Maaspoort",
+   "city": "s-Hertogenbosch",
+   "lat": 51.72268,
+   "lon": 5.31552,
+   "capacity": 2700,
+   "league": "Other",
+   "source": "sheet"
+  },
+  "Hyeres - Toulon Var Basket HTV": {
+   "arena": "Espace 3000",
+   "city": "Hyères",
+   "lat": 43.10572,
+   "lon": 6.12936,
+   "capacity": 3000,
+   "league": "Other",
+   "source": "sheet"
+  },
   "Illawarra Hawks": {
    "arena": "WIN Entertainment Centre",
    "city": "Wollongong",
@@ -1183,6 +1327,15 @@
    "games": 2,
    "of_games": 2,
    "league_name": "Ironi Hai Motors Ness Ziona"
+  },
+  "JA Vichy Basket": {
+   "arena": "Palais des Sports Pierre-Coulon",
+   "city": "Bellerive-sur-Allier",
+   "lat": 46.13911,
+   "lon": 3.40609,
+   "capacity": 3200,
+   "league": "Other",
+   "source": "sheet"
   },
   "JDA Dijon Basket": {
    "arena": "Palais des Sports Jean-Michel Geoffroy",
@@ -1541,6 +1694,15 @@
    "of_games": 4,
    "league_name": "Kauhajoki"
   },
+  "Keflavik IF": {
+   "arena": "Blue-höllin",
+   "city": "Reykjanesbær",
+   "lat": 63.99717,
+   "lon": -22.56117,
+   "capacity": 1200,
+   "league": "Other",
+   "source": "sheet"
+  },
   "Keila Basket": {
    "arena": "Keila Tervisekeskus",
    "city": "Keila",
@@ -1859,6 +2021,15 @@
    "league": "BSL",
    "source": "sheet"
   },
+  "Metropolitans Basketball Club": {
+   "arena": "Palais des sports Marcel-Cerdan",
+   "city": "Levallois-Perret",
+   "lat": 48.89597,
+   "lon": 2.27786,
+   "capacity": 4000,
+   "league": "Other",
+   "source": "sheet"
+  },
   "Miasto Szkla Krosno": {
    "arena": "VANDER Arena",
    "city": "Krosno",
@@ -2000,6 +2171,24 @@
    "league": "GBL",
    "source": "override"
   },
+  "Olympique Antibes Sharks": {
+   "arena": "Azur Arena Antibes",
+   "city": "Antibes",
+   "lat": 43.6062,
+   "lon": 7.07676,
+   "capacity": 5249,
+   "league": "Other",
+   "source": "sheet"
+  },
+  "Orleans Loiret Basket": {
+   "arena": "CO'Met Arena",
+   "city": "Orléans",
+   "lat": 47.87343,
+   "lon": 1.91401,
+   "capacity": 10150,
+   "league": "Other",
+   "source": "sheet"
+  },
   "PAOK BC": {
    "arena": "PAOK SPORTS ARENA",
    "city": "Pylaia",
@@ -2011,6 +2200,15 @@
    "games": 2,
    "of_games": 2,
    "league_name": "PAOK"
+  },
+  "Palencia Baloncesto": {
+   "arena": "Pabellón Municipal de Deportes de Palencia",
+   "city": "Palencia",
+   "lat": 42.01464,
+   "lon": -4.54181,
+   "capacity": 5016,
+   "league": "Other",
+   "source": "sheet"
   },
   "Pallacanestro Cantu": {
    "arena": "PalaDesio",
@@ -2138,6 +2336,15 @@
    "of_games": 4,
    "league_name": "Phoenix Hagen"
   },
+  "Poitiers Basket 86": {
+   "arena": "Salle omnisports Jean-Pierre-Garnier",
+   "city": "Poitiers",
+   "lat": 46.59079,
+   "lon": 0.38525,
+   "capacity": 2700,
+   "league": "Other",
+   "source": "sheet"
+  },
   "Promitheas Patras B.C.": {
    "arena": "ΠΕΑΚ ΠΑΤΡΑΣ \"ΔΗΜ. ΤΟΦΑΛΟΣ\"",
    "city": "Patra",
@@ -2231,6 +2438,15 @@
    "of_games": 2,
    "league_name": "ROSTOCK SEAWOLVES"
   },
+  "Rouen Metropole Basket": {
+   "arena": "Kindarena",
+   "city": "Rouen",
+   "lat": 49.448,
+   "lon": 1.06334,
+   "capacity": 5789,
+   "league": "Other",
+   "source": "sheet"
+  },
   "Rytas Vilnius": {
    "arena": "Arena Vilnius",
    "city": "Vilnius",
@@ -2270,6 +2486,15 @@
    "league": "Betclic Elite",
    "source": "sheet"
   },
+  "STB Le Havre": {
+   "arena": "Docks Océane",
+   "city": "Le Havre",
+   "lat": 49.49112,
+   "lon": 0.13264,
+   "capacity": 3598,
+   "league": "Other",
+   "source": "sheet"
+  },
   "SZTE - Szedeak": {
    "arena": "Városi Sportcsarnok",
    "city": "Szeged",
@@ -2277,6 +2502,15 @@
    "lon": 20.16272,
    "capacity": 3200,
    "league": "NB I/A",
+   "source": "sheet"
+  },
+  "Saint - Chamond Basket": {
+   "arena": "Arena Saint-Étienne Métropole",
+   "city": "Saint-Chamond",
+   "lat": 45.45795,
+   "lon": 4.48731,
+   "capacity": 4200,
+   "league": "Other",
    "source": "sheet"
   },
   "Saint - Quentin BB": {
@@ -2417,6 +2651,15 @@
    "league": "Other",
    "source": "sheet"
   },
+  "Stade Rochelais Basket": {
+   "arena": "Salle Gaston-Neveur",
+   "city": "La Rochelle",
+   "lat": 46.1672,
+   "lon": -1.15372,
+   "capacity": 1994,
+   "league": "Other",
+   "source": "sheet"
+  },
   "Stal Ostrow Wielkopolski": {
    "arena": "3mk Arena Ostrów",
    "city": "Ostrów Wielkopolski",
@@ -2545,6 +2788,15 @@
    "games": 3,
    "of_games": 3,
    "league_name": "Telekom Baskets Bonn"
+  },
+  "Tindastoll": {
+   "arena": "Síkið",
+   "city": "Sauðárkrókur",
+   "lat": 65.74287,
+   "lon": -19.64382,
+   "capacity": 1650,
+   "league": "Other",
+   "source": "sheet"
   },
   "Tofas Bursa": {
    "arena": "Tofaş Spor Salonu",
