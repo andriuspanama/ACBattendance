@@ -1,19 +1,19 @@
 {
  "league": "ACB",
  "season": "2026-27",
- "updated": "2026-11-01T08:00:05+00:00",
+ "updated": "2026-11-01T22:45:51+00:00",
  "clubs": [
   {
    "club": "Asisa Joventut",
-   "home_games_counted": 2,
-   "games_with_capacity": 2,
+   "home_games_counted": 3,
+   "games_with_capacity": 3,
    "capacity": 12760,
    "weighted_capacity": 12760,
-   "filling_rate": 0.5832,
+   "filling_rate": 0.5865,
    "arenas": [
     {
      "arena": "Palau Municipal D'Esports de Badalona",
-     "games": 2,
+     "games": 3,
      "capacity": 12760
     }
    ]
@@ -95,15 +95,15 @@
   },
   {
    "club": "Kosner Baskonia",
-   "home_games_counted": 2,
-   "games_with_capacity": 2,
+   "home_games_counted": 3,
+   "games_with_capacity": 3,
    "capacity": 15504,
    "weighted_capacity": 15504,
-   "filling_rate": 0.5261,
+   "filling_rate": 0.5054,
    "arenas": [
     {
      "arena": "Fernando Buesa Arena",
-     "games": 2,
+     "games": 3,
      "capacity": 15504
     }
    ]
@@ -125,60 +125,60 @@
   },
   {
    "club": "Leyma Coruna",
-   "home_games_counted": 2,
-   "games_with_capacity": 2,
+   "home_games_counted": 3,
+   "games_with_capacity": 3,
    "capacity": 9300,
    "weighted_capacity": 9300,
-   "filling_rate": 0.676,
+   "filling_rate": 0.6483,
    "arenas": [
     {
      "arena": "Coliseum",
-     "games": 2,
+     "games": 3,
      "capacity": 9300
     }
    ]
   },
   {
    "club": "Monbus Obradoiro",
-   "home_games_counted": 2,
-   "games_with_capacity": 2,
+   "home_games_counted": 3,
+   "games_with_capacity": 3,
    "capacity": 6000,
    "weighted_capacity": 6000,
-   "filling_rate": 0.9317,
+   "filling_rate": 0.9431,
    "arenas": [
     {
      "arena": "Multiusos Fontes do Sar",
-     "games": 2,
+     "games": 3,
      "capacity": 6000
     }
    ]
   },
   {
    "club": "Morabanc Andorra",
-   "home_games_counted": 2,
-   "games_with_capacity": 2,
+   "home_games_counted": 3,
+   "games_with_capacity": 3,
    "capacity": 5001,
    "weighted_capacity": 5001,
-   "filling_rate": 0.7568,
+   "filling_rate": 0.6977,
    "arenas": [
     {
      "arena": "Pavelló Toni Martí",
-     "games": 2,
+     "games": 3,
      "capacity": 5001
     }
    ]
   },
   {
    "club": "Real Madrid",
-   "home_games_counted": 3,
-   "games_with_capacity": 3,
+   "home_games_counted": 4,
+   "games_with_capacity": 4,
    "capacity": 13109,
    "weighted_capacity": 13109,
-   "filling_rate": 0.5558,
+   "filling_rate": 0.5429,
    "arenas": [
     {
      "arena": "Movistar Arena",
-     "games": 3,
+     "games": 4,
      "capacity": 13109
     }
    ]
@@ -230,30 +230,30 @@
   },
   {
    "club": "Ucam Murcia",
-   "home_games_counted": 3,
-   "games_with_capacity": 3,
+   "home_games_counted": 4,
+   "games_with_capacity": 4,
    "capacity": 7454,
    "weighted_capacity": 7454,
-   "filling_rate": 0.8893,
+   "filling_rate": 0.8657,
    "arenas": [
     {
      "arena": "Palacio de Deportes de Murcia",
-     "games": 3,
+     "games": 4,
      "capacity": 7454
     }
    ]
   },
   {
    "club": "Unicaja",
-   "home_games_counted": 2,
-   "games_with_capacity": 2,
+   "home_games_counted": 3,
+   "games_with_capacity": 3,
    "capacity": 10699,
    "weighted_capacity": 10699,
-   "filling_rate": 0.8978,
+   "filling_rate": 0.9313,
    "arenas": [
     {
      "arena": "Palacio de Deportes José María Martín Carpena",
-     "games": 2,
+     "games": 3,
      "capacity": 10699
     }
    ]

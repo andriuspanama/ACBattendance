@@ -1,7 +1,7 @@
 {
  "league": "BBL",
  "season": "2026-27",
- "updated": "2026-11-01T02:02:36+00:00",
+ "updated": "2026-11-01T22:45:51+00:00",
  "clubs": [
   {
    "club": "ALBA BERLIN",
@@ -20,15 +20,15 @@
   },
   {
    "club": "BMA365 Bamberg Baskets",
-   "home_games_counted": 2,
-   "games_with_capacity": 2,
+   "home_games_counted": 3,
+   "games_with_capacity": 3,
    "capacity": 5700,
    "weighted_capacity": 5700,
-   "filling_rate": 0.7222,
+   "filling_rate": 0.7447,
    "arenas": [
     {
      "arena": "Brose Arena Bamberg",
-     "games": 2,
+     "games": 3,
      "capacity": 5700
     }
    ]
@@ -155,15 +155,15 @@
   },
   {
    "club": "ROSTOCK SEAWOLVES",
-   "home_games_counted": 2,
-   "games_with_capacity": 2,
+   "home_games_counted": 3,
+   "games_with_capacity": 3,
    "capacity": 5000,
    "weighted_capacity": 5000,
-   "filling_rate": 0.7354,
+   "filling_rate": 0.7945,
    "arenas": [
     {
      "arena": "StadtHalle Rostock",
-     "games": 2,
+     "games": 3,
      "capacity": 5000
     }
    ]
@@ -245,15 +245,15 @@
   },
   {
    "club": "Veolia Towers Hamburg",
-   "home_games_counted": 2,
-   "games_with_capacity": 2,
+   "home_games_counted": 3,
+   "games_with_capacity": 3,
    "capacity": 3400,
    "weighted_capacity": 3400,
-   "filling_rate": 0.8209,
+   "filling_rate": 0.8376,
    "arenas": [
     {
      "arena": "Inselpark Arena",
-     "games": 2,
+     "games": 3,
      "capacity": 3400
     }
    ]
@@ -275,7 +275,7 @@
   }
  ],
  "unknown_arenas": [],
- "last_attendance_game": "2026-10-31",
+ "last_attendance_game": "2026-11-01",
  "games": {
   "2006920": {
    "arena": "Uber Arena",
@@ -500,6 +500,22 @@
   "2006896": {
    "arena": "ratiopharm arena Ulm",
    "capacity": 6000
+  },
+  "2006897": {
+   "arena": "Brose Arena Bamberg",
+   "capacity": 5700
+  },
+  "2006898": {
+   "arena": "Inselpark Arena",
+   "capacity": 3400
+  },
+  "2006899": {
+   "arena": "Telekom Dome Bonn",
+   "capacity": 6000
+  },
+  "2006908": {
+   "arena": "StadtHalle Rostock",
+   "capacity": 5000
   }
  }
 }

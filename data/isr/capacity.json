@@ -1,7 +1,7 @@
 {
  "league": "Winner League",
  "season": "2026-27",
- "updated": "2026-11-01T02:02:36+00:00",
+ "updated": "2026-11-01T22:45:51+00:00",
  "clubs": [
   {
    "club": "Bnei Penlink Herzliya",
@@ -110,15 +110,15 @@
   },
   {
    "club": "Hapoel Midtown Jerusalem",
-   "home_games_counted": 1,
-   "games_with_capacity": 1,
+   "home_games_counted": 2,
+   "games_with_capacity": 2,
    "capacity": 11600,
    "weighted_capacity": 11600,
-   "filling_rate": 0.3119,
+   "filling_rate": 0.3088,
    "arenas": [
     {
      "arena": "Pais Arena Jerusalem",
-     "games": 1,
+     "games": 2,
      "capacity": 11600
     }
    ]
@@ -139,16 +139,31 @@
    ]
   },
   {
+   "club": "Ironi Lati Kiryat Ata",
+   "home_games_counted": 1,
+   "games_with_capacity": 1,
+   "capacity": 1000,
+   "weighted_capacity": 1000,
+   "filling_rate": 0.95,
+   "arenas": [
+    {
+     "arena": "Remez Hall",
+     "games": 1,
+     "capacity": 1000
+    }
+   ]
+  },
+  {
    "club": "Maccabi Rapyd Tel Aviv",
-   "home_games_counted": 2,
-   "games_with_capacity": 2,
+   "home_games_counted": 3,
+   "games_with_capacity": 3,
    "capacity": 10871,
    "weighted_capacity": 10871,
-   "filling_rate": 0.7826,
+   "filling_rate": 0.8054,
    "arenas": [
     {
      "arena": "Menora Mivtachim Arena",
-     "games": 2,
+     "games": 3,
      "capacity": 10871
     }
    ]
@@ -185,7 +200,7 @@
   }
  ],
  "unknown_arenas": [],
- "last_attendance_game": "2026-10-31",
+ "last_attendance_game": "2026-11-01",
  "games": {
   "26646": {
    "arena": "Menora Mivtachim Arena",

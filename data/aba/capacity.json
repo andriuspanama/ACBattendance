@@ -1,7 +1,7 @@
 {
  "league": "ABA",
  "season": "2026-27",
- "updated": "2026-11-01T02:02:36+00:00",
+ "updated": "2026-11-01T22:45:51+00:00",
  "clubs": [
   {
    "club": "BC Vienna",
@@ -100,15 +100,15 @@
   },
   {
    "club": "Crvena zvezda Meridianbet",
-   "home_games_counted": 1,
-   "games_with_capacity": 1,
+   "home_games_counted": 2,
+   "games_with_capacity": 2,
    "capacity": 8000,
    "weighted_capacity": 8000,
-   "filling_rate": 0.3806,
+   "filling_rate": 0.3711,
    "arenas": [
     {
      "arena": "Košarkaška dvorana Aleksandar Nikolić",
-     "games": 1,
+     "games": 2,
      "capacity": 8000
     }
    ]
@@ -235,16 +235,31 @@
   },
   {
    "club": "SC Derby",
-   "home_games_counted": 1,
-   "games_with_capacity": 1,
+   "home_games_counted": 2,
+   "games_with_capacity": 2,
    "capacity": 6000,
    "weighted_capacity": 6000,
-   "filling_rate": 0.0917,
+   "filling_rate": 0.0773,
    "arenas": [
     {
      "arena": "Sportski centar Morača",
-     "games": 1,
+     "games": 2,
      "capacity": 6000
+    }
+   ]
+  },
+  {
+   "club": "Slovan Bratislava",
+   "home_games_counted": 1,
+   "games_with_capacity": 1,
+   "capacity": 3200,
+   "weighted_capacity": 3200,
+   "filling_rate": 0.3981,
+   "arenas": [
+    {
+     "arena": "GOPASS Arena",
+     "games": 1,
+     "capacity": 3200
     }
    ]
   },
@@ -300,7 +315,7 @@
   }
  ],
  "unknown_arenas": [],
- "last_attendance_game": "2026-10-31",
+ "last_attendance_game": "2026-11-01",
  "games": {
   "13": {
    "arena": "ŠD Leona Štuklja Novo Mesto",
@@ -477,6 +492,18 @@
   "53": {
    "arena": "Arena Stožice",
    "capacity": 12480
+  },
+  "51": {
+   "arena": "Košarkaška dvorana Aleksandar Nikolić",
+   "capacity": 8000
+  },
+  "55": {
+   "arena": "GOPASS Arena",
+   "capacity": 3200
+  },
+  "60": {
+   "arena": "Sportski centar Morača",
+   "capacity": 6000
   }
  }
 }

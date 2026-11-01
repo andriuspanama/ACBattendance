@@ -1,7 +1,7 @@
 {
  "league": "LBA",
  "season": "2026-27",
- "updated": "2026-11-01T13:49:22+00:00",
+ "updated": "2026-11-01T22:45:51+00:00",
  "clubs": [
   {
    "club": "Armani Olimpia Milano",
@@ -50,15 +50,15 @@
   },
   {
    "club": "Dolomiti Energia Trentino",
-   "home_games_counted": 2,
-   "games_with_capacity": 2,
+   "home_games_counted": 3,
+   "games_with_capacity": 3,
    "capacity": 3882,
-   "weighted_capacity": 3941,
-   "filling_rate": 0.9669,
+   "weighted_capacity": 3921,
+   "filling_rate": 0.9559,
    "arenas": [
     {
      "arena": "BTS Arena",
-     "games": 2,
+     "games": 3,
      "capacity": 3882
     }
    ]
@@ -329,9 +329,17 @@
    "arena": "Palaverde",
    "capacity": 5344
   },
+  "25403": {
+   "arena": "BTS Arena",
+   "capacity": 3882
+  },
   "25405": {
    "arena": "Alcott Arena",
    "capacity": 3980
+  },
+  "25407": {
+   "arena": "PalaCarnera Credifriuli",
+   "capacity": 3500
   }
  }
 }

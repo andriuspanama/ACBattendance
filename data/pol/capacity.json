@@ -1,7 +1,7 @@
 {
  "league": "PLK",
  "season": "2026-27",
- "updated": "2026-11-01T13:49:22+00:00",
+ "updated": "2026-11-01T22:45:51+00:00",
  "clubs": [
   {
    "club": "AMW Arka Gdynia",
@@ -110,15 +110,15 @@
   },
   {
    "club": "Euvic GTK Gliwice",
-   "home_games_counted": 3,
-   "games_with_capacity": 3,
+   "home_games_counted": 4,
+   "games_with_capacity": 4,
    "capacity": 1092,
-   "weighted_capacity": 2078,
-   "filling_rate": 0.9753,
+   "weighted_capacity": 1832,
+   "filling_rate": 0.9423,
    "arenas": [
     {
      "arena": "Prezero Arena Gliwice",
-     "games": 3,
+     "games": 4,
      "capacity": 1092
     }
    ]
@@ -180,15 +180,15 @@
   },
   {
    "club": "PGE Start Lublin",
-   "home_games_counted": 1,
-   "games_with_capacity": 1,
+   "home_games_counted": 2,
+   "games_with_capacity": 2,
    "capacity": 4119,
    "weighted_capacity": 4119,
-   "filling_rate": 0.201,
+   "filling_rate": 0.1871,
    "arenas": [
     {
      "arena": "MOSiR Globus",
-     "games": 1,
+     "games": 2,
      "capacity": 4119
     }
    ]
@@ -240,7 +240,7 @@
   }
  ],
  "unknown_arenas": [],
- "last_attendance_game": "2026-10-31",
+ "last_attendance_game": "2026-11-01",
  "games": {
   "223465": {
    "arena": "Hala Sportowa 100-lecia Sopotu",
@@ -373,6 +373,18 @@
   "223499": {
    "arena": "Torwar",
    "capacity": 6304
+  },
+  "223494": {
+   "arena": "Prezero Arena Gliwice",
+   "capacity": 1092
+  },
+  "223496": {
+   "arena": "MOSiR Globus",
+   "capacity": 4119
+  },
+  "223497": {
+   "arena": "Hala Widowiskowo-Sportowa Aqua Zdrój",
+   "capacity": 3000
   }
  }
 }

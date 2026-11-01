@@ -47,7 +47,7 @@
    "dir": "data/aba",
    "league": "ABA",
    "season": "2026-27",
-   "clubs": 19,
+   "clubs": 20,
    "capacity": true
   },
   {
@@ -61,7 +61,7 @@
    "dir": "data/pol",
    "league": "PLK",
    "season": "2026-27",
-   "clubs": 15,
+   "clubs": 16,
    "capacity": true
   },
   {
