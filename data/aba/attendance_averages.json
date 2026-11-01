@@ -1,7 +1,7 @@
 {
   "league": "ABA",
   "season": "2026-27",
-  "updated": "2026-11-01T13:14:14+00:00",
+  "updated": "2026-11-01T22:11:57+00:00",
   "clubs": [
     {
       "league": "ABA",
@@ -43,15 +43,15 @@
       "league": "ABA",
       "season": "2026-27",
       "club": "Crvena zvezda Meridianbet",
-      "home_games_counted": 1,
-      "average": 3045,
-      "total": 3045,
+      "home_games_counted": 2,
+      "average": 2968,
+      "total": 5937,
       "max": 3045,
-      "min": 3045,
+      "min": 2892,
       "arenas": [
         {
           "arena": "Košarkaška dvorana Aleksandar Nikolić",
-          "games": 1
+          "games": 2
         }
       ]
     },
@@ -131,6 +131,22 @@
       "arenas": [
         {
           "arena": "Košarkaška dvorana Aleksandar Nikolić",
+          "games": 1
+        }
+      ]
+    },
+    {
+      "league": "ABA",
+      "season": "2026-27",
+      "club": "Slovan Bratislava",
+      "home_games_counted": 1,
+      "average": 1274,
+      "total": 1274,
+      "max": 1274,
+      "min": 1274,
+      "arenas": [
+        {
+          "arena": "GOPASS Arena",
           "games": 1
         }
       ]
@@ -255,15 +271,15 @@
       "league": "ABA",
       "season": "2026-27",
       "club": "SC Derby",
-      "home_games_counted": 1,
-      "average": 550,
-      "total": 550,
+      "home_games_counted": 2,
+      "average": 464,
+      "total": 928,
       "max": 550,
-      "min": 550,
+      "min": 378,
       "arenas": [
         {
           "arena": "Sportski centar Morača",
-          "games": 1
+          "games": 2
         }
       ]
     },
