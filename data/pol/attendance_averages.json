@@ -1,7 +1,7 @@
 {
   "league": "PLK",
   "season": "2026-27",
-  "updated": "2026-11-01T13:35:21+00:00",
+  "updated": "2026-11-01T22:29:30+00:00",
   "clubs": [
     {
       "league": "PLK",
@@ -106,22 +106,6 @@
     {
       "league": "PLK",
       "season": "2026-27",
-      "club": "Euvic GTK Gliwice",
-      "home_games_counted": 3,
-      "average": 2027,
-      "total": 6080,
-      "max": 4050,
-      "min": 980,
-      "arenas": [
-        {
-          "arena": "Prezero Arena Gliwice",
-          "games": 3
-        }
-      ]
-    },
-    {
-      "league": "PLK",
-      "season": "2026-27",
       "club": "MKS Dąbrowa Górnicza",
       "home_games_counted": 3,
       "average": 1956,
@@ -168,6 +152,22 @@
         {
           "arena": "Hala SDS 2.0",
           "games": 1
+        }
+      ]
+    },
+    {
+      "league": "PLK",
+      "season": "2026-27",
+      "club": "Euvic GTK Gliwice",
+      "home_games_counted": 4,
+      "average": 1726,
+      "total": 6903,
+      "max": 4050,
+      "min": 823,
+      "arenas": [
+        {
+          "arena": "Prezero Arena Gliwice",
+          "games": 4
         }
       ]
     },
@@ -239,17 +239,27 @@
       "league": "PLK",
       "season": "2026-27",
       "club": "PGE Start Lublin",
-      "home_games_counted": 1,
-      "average": 828,
-      "total": 828,
+      "home_games_counted": 2,
+      "average": 770,
+      "total": 1541,
       "max": 828,
-      "min": 828,
+      "min": 713,
       "arenas": [
         {
           "arena": "MOSiR Globus",
-          "games": 1
+          "games": 2
         }
       ]
+    },
+    {
+      "league": "PLK",
+      "season": "2026-27",
+      "club": "Górnik Zamek Książ Wałbrzych",
+      "home_games_counted": 0,
+      "average": null,
+      "total": 0,
+      "max": null,
+      "min": null
     }
   ]
 }

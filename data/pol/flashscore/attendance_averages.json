@@ -1,10 +1,10 @@
 {
   "league": "PLK",
   "season": "2026-27",
-  "updated": "2026-11-01T13:35:13+00:00",
+  "updated": "2026-11-01T22:29:21+00:00",
   "games": {
-    "checked": 37,
-    "with_attendance": 37
+    "checked": 40,
+    "with_attendance": 39
   },
   "clubs": [
     {
@@ -80,16 +80,6 @@
     {
       "league": "PLK",
       "season": "2026-27",
-      "club": "Gliwice",
-      "home_games_counted": 3,
-      "average": 2027,
-      "total": 6080,
-      "max": 4050,
-      "min": 980
-    },
-    {
-      "league": "PLK",
-      "season": "2026-27",
       "club": "Dabrowa Gornicza",
       "home_games_counted": 3,
       "average": 1956,
@@ -116,6 +106,16 @@
       "total": 3587,
       "max": 1999,
       "min": 1588
+    },
+    {
+      "league": "PLK",
+      "season": "2026-27",
+      "club": "Gliwice",
+      "home_games_counted": 4,
+      "average": 1726,
+      "total": 6903,
+      "max": 4050,
+      "min": 823
     },
     {
       "league": "PLK",
@@ -161,11 +161,11 @@
       "league": "PLK",
       "season": "2026-27",
       "club": "Lublin",
-      "home_games_counted": 2,
-      "average": 882,
-      "total": 1764,
+      "home_games_counted": 3,
+      "average": 826,
+      "total": 2477,
       "max": 936,
-      "min": 828
+      "min": 713
     }
   ]
 }
