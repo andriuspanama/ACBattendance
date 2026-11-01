@@ -1,7 +1,7 @@
 {
   "league": "BSL",
   "season": "2026-27",
-  "updated": "2026-10-31T18:49:33+00:00",
+  "updated": "2026-11-01T01:12:14+00:00",
   "clubs": [
     {
       "league": "BSL",
@@ -104,8 +104,8 @@
       "season": "2026-27",
       "club": "Pizzabulls Bordo Bandırma",
       "home_games_counted": 3,
-      "average": 2238,
-      "total": 6714,
+      "average": 2254,
+      "total": 6763,
       "max": 2863,
       "min": 1900,
       "arenas": [
