@@ -1,7 +1,7 @@
 {
   "league": "ACB",
   "season": "2026-27",
-  "updated": "2026-11-01T12:59:50+00:00",
+  "updated": "2026-11-01T19:30:35+00:00",
   "clubs": [
     {
       "league": "ACB",
@@ -17,10 +17,10 @@
       "league": "ACB",
       "season": "2026-27",
       "club": "Unicaja",
-      "home_games_counted": 2,
-      "average": 9606,
-      "total": 19211,
-      "max": 9936,
+      "home_games_counted": 3,
+      "average": 9964,
+      "total": 29892,
+      "max": 10681,
       "min": 9275
     },
     {
@@ -47,19 +47,19 @@
       "league": "ACB",
       "season": "2026-27",
       "club": "Kosner Baskonia",
-      "home_games_counted": 2,
-      "average": 8156,
-      "total": 16313,
+      "home_games_counted": 3,
+      "average": 7836,
+      "total": 23507,
       "max": 8240,
-      "min": 8073
+      "min": 7194
     },
     {
       "league": "ACB",
       "season": "2026-27",
       "club": "Asisa Joventut",
-      "home_games_counted": 2,
-      "average": 7442,
-      "total": 14884,
+      "home_games_counted": 3,
+      "average": 7484,
+      "total": 22452,
       "max": 10248,
       "min": 4636
     },
@@ -67,11 +67,11 @@
       "league": "ACB",
       "season": "2026-27",
       "club": "Real Madrid",
-      "home_games_counted": 3,
-      "average": 7286,
-      "total": 21857,
+      "home_games_counted": 4,
+      "average": 7117,
+      "total": 28467,
       "max": 8123,
-      "min": 6619
+      "min": 6610
     },
     {
       "league": "ACB",
@@ -87,21 +87,31 @@
       "league": "ACB",
       "season": "2026-27",
       "club": "Ucam Murcia",
-      "home_games_counted": 3,
-      "average": 6629,
-      "total": 19887,
+      "home_games_counted": 4,
+      "average": 6453,
+      "total": 25811,
       "max": 7211,
-      "min": 6065
+      "min": 5924
     },
     {
       "league": "ACB",
       "season": "2026-27",
       "club": "Leyma Coruna",
-      "home_games_counted": 2,
-      "average": 6287,
-      "total": 12574,
+      "home_games_counted": 3,
+      "average": 6029,
+      "total": 18088,
       "max": 6472,
-      "min": 6102
+      "min": 5514
+    },
+    {
+      "league": "ACB",
+      "season": "2026-27",
+      "club": "Monbus Obradoiro",
+      "home_games_counted": 3,
+      "average": 5658,
+      "total": 16975,
+      "max": 5976,
+      "min": 5204
     },
     {
       "league": "ACB",
@@ -112,16 +122,6 @@
       "total": 11264,
       "max": 5699,
       "min": 5565
-    },
-    {
-      "league": "ACB",
-      "season": "2026-27",
-      "club": "Monbus Obradoiro",
-      "home_games_counted": 2,
-      "average": 5590,
-      "total": 11180,
-      "max": 5976,
-      "min": 5204
     },
     {
       "league": "ACB",
@@ -177,11 +177,11 @@
       "league": "ACB",
       "season": "2026-27",
       "club": "Morabanc Andorra",
-      "home_games_counted": 2,
-      "average": 3785,
-      "total": 7570,
+      "home_games_counted": 3,
+      "average": 3489,
+      "total": 10468,
       "max": 3848,
-      "min": 3722
+      "min": 2898
     }
   ]
 }
