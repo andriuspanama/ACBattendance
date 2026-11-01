@@ -1,7 +1,7 @@
 {
  "league": "ACB",
  "season": "2026-27",
- "updated": "2026-10-30T08:04:54+00:00",
+ "updated": "2026-11-01T08:00:05+00:00",
  "clubs": [
   {
    "club": "Asisa Joventut",
@@ -35,15 +35,15 @@
   },
   {
    "club": "Casademont Zaragoza",
-   "home_games_counted": 2,
-   "games_with_capacity": 2,
+   "home_games_counted": 3,
+   "games_with_capacity": 3,
    "capacity": 10744,
    "weighted_capacity": 10744,
-   "filling_rate": 0.6461,
+   "filling_rate": 0.619,
    "arenas": [
     {
      "arena": "Pabellón Príncipe Felipe",
-     "games": 2,
+     "games": 3,
      "capacity": 10744
     }
    ]
@@ -275,7 +275,7 @@
   }
  ],
  "unknown_arenas": [],
- "last_attendance_game": "2026-10-26",
+ "last_attendance_game": "2026-11-01",
  "games": {
   "105375": {
    "arena": "Bilbao Arena",

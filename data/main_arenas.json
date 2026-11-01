@@ -1,6 +1,6 @@
 {
  "season": "2026-27",
- "updated": "2026-11-01T02:02:36+00:00",
+ "updated": "2026-11-01T08:00:05+00:00",
  "clubs": {
   "AEK B.C.": {
    "arena": "SUNEL ARENA",
@@ -421,8 +421,8 @@
    "capacity": 10744,
    "league": "ACB",
    "source": "games",
-   "games": 2,
-   "of_games": 2,
+   "games": 3,
+   "of_games": 3,
    "league_name": "Casademont Zaragoza"
   },
   "Basquet Coruna": {
@@ -2395,8 +2395,8 @@
    "capacity": 10500,
    "league": "NBL",
    "source": "games",
-   "games": 5,
-   "of_games": 5,
+   "games": 6,
+   "of_games": 6,
    "league_name": "South East Melbourne Phoenix"
   },
   "Spojnia Stargard": {
