@@ -1,21 +1,21 @@
 {
   "league": "Winner League",
   "season": "2026-27",
-  "updated": "2026-11-01T13:14:50+00:00",
+  "updated": "2026-11-01T22:12:42+00:00",
   "clubs": [
     {
       "league": "Winner League",
       "season": "2026-27",
       "club": "Maccabi Rapyd Tel Aviv",
-      "home_games_counted": 2,
-      "average": 8508,
-      "total": 17015,
+      "home_games_counted": 3,
+      "average": 8755,
+      "total": 26265,
       "max": 10461,
       "min": 6554,
       "arenas": [
         {
           "arena": "Menorah Mivtachim Arena",
-          "games": 2
+          "games": 3
         }
       ]
     },
@@ -23,15 +23,15 @@
       "league": "Winner League",
       "season": "2026-27",
       "club": "Hapoel Midtown Jerusalem",
-      "home_games_counted": 1,
-      "average": 3618,
-      "total": 3618,
+      "home_games_counted": 2,
+      "average": 3582,
+      "total": 7165,
       "max": 3618,
-      "min": 3618,
+      "min": 3547,
       "arenas": [
         {
           "arena": "Pais Arena Jerusalem",
-          "games": 1
+          "games": 2
         }
       ]
     },
@@ -134,6 +134,22 @@
     {
       "league": "Winner League",
       "season": "2026-27",
+      "club": "Ironi Lati Kiryat Ata",
+      "home_games_counted": 1,
+      "average": 950,
+      "total": 950,
+      "max": 950,
+      "min": 950,
+      "arenas": [
+        {
+          "arena": "Remez Kiryat Ata",
+          "games": 1
+        }
+      ]
+    },
+    {
+      "league": "Winner League",
+      "season": "2026-27",
       "club": "Hapoel Altshuler Shaham Beer Sheva/Dimona",
       "home_games_counted": 2,
       "average": 916,
@@ -194,16 +210,6 @@
           "games": 2
         }
       ]
-    },
-    {
-      "league": "Winner League",
-      "season": "2026-27",
-      "club": "Ironi Lati Kiryat Ata",
-      "home_games_counted": 0,
-      "average": null,
-      "total": 0,
-      "max": null,
-      "min": null
     },
     {
       "league": "Winner League",
