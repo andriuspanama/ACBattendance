@@ -1,7 +1,7 @@
 {
   "league": "LBA",
   "season": "2026-27",
-  "updated": "2026-11-01T13:14:36+00:00",
+  "updated": "2026-11-01T22:12:21+00:00",
   "clubs": [
     {
       "league": "LBA",
@@ -87,15 +87,15 @@
       "league": "LBA",
       "season": "2026-27",
       "club": "Dolomiti Energia Trentino",
-      "home_games_counted": 2,
-      "average": 3810,
-      "total": 7621,
+      "home_games_counted": 3,
+      "average": 3748,
+      "total": 11245,
       "max": 4000,
       "min": 3621,
       "arenas": [
         {
           "arena": "BTS Arena",
-          "games": 2
+          "games": 3
         }
       ]
     },
