@@ -1,7 +1,7 @@
 {
   "league": "BBL",
   "season": "2026-27",
-  "updated": "2026-10-31T19:11:25+00:00",
+  "updated": "2026-11-01T01:36:44+00:00",
   "clubs": [
     {
       "league": "BBL",
@@ -92,33 +92,16 @@
       "league": "BBL",
       "season": "2026-27",
       "club": "ratiopharm ulm",
-      "home_games_counted": 2,
-      "average": 4600,
-      "total": 9200,
+      "home_games_counted": 3,
+      "average": 4454,
+      "total": 13363,
       "max": 4961,
-      "min": 4239,
+      "min": 4163,
       "arenas": [
         {
           "arena": "ratiopharm arena Ulm",
-          "games": 2,
+          "games": 3,
           "capacity": 6000
-        }
-      ]
-    },
-    {
-      "league": "BBL",
-      "season": "2026-27",
-      "club": "NINERS Chemnitz",
-      "home_games_counted": 2,
-      "average": 4201,
-      "total": 8402,
-      "max": 4405,
-      "min": 3997,
-      "arenas": [
-        {
-          "arena": "Messe Chemnitz",
-          "games": 2,
-          "capacity": 5000
         }
       ]
     },
@@ -136,6 +119,23 @@
           "arena": "Brose Arena Bamberg",
           "games": 2,
           "capacity": 5700
+        }
+      ]
+    },
+    {
+      "league": "BBL",
+      "season": "2026-27",
+      "club": "NINERS Chemnitz",
+      "home_games_counted": 3,
+      "average": 4087,
+      "total": 12260,
+      "max": 4405,
+      "min": 3858,
+      "arenas": [
+        {
+          "arena": "Messe Chemnitz",
+          "games": 3,
+          "capacity": 5000
         }
       ]
     },
@@ -177,15 +177,15 @@
       "league": "BBL",
       "season": "2026-27",
       "club": "Basketball Löwen Braunschweig",
-      "home_games_counted": 3,
-      "average": 3334,
-      "total": 10002,
+      "home_games_counted": 4,
+      "average": 3252,
+      "total": 13006,
       "max": 3590,
-      "min": 3074,
+      "min": 3004,
       "arenas": [
         {
           "arena": "Volkswagen Halle Braunschweig",
-          "games": 3,
+          "games": 4,
           "capacity": 6358
         }
       ]
