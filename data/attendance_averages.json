@@ -1,7 +1,7 @@
 {
   "league": "ACB",
   "season": "2026-27",
-  "updated": "2026-11-01T01:20:38+00:00",
+  "updated": "2026-11-01T07:12:19+00:00",
   "clubs": [
     {
       "league": "ACB",
@@ -77,11 +77,11 @@
       "league": "ACB",
       "season": "2026-27",
       "club": "Casademont Zaragoza",
-      "home_games_counted": 2,
-      "average": 6942,
-      "total": 13884,
+      "home_games_counted": 3,
+      "average": 6650,
+      "total": 19951,
       "max": 7364,
-      "min": 6520
+      "min": 6067
     },
     {
       "league": "ACB",
