@@ -1,7 +1,7 @@
 {
   "league": "LBA",
   "season": "2026-27",
-  "updated": "2026-10-31T19:07:07+00:00",
+  "updated": "2026-11-01T01:31:11+00:00",
   "clubs": [
     {
       "league": "LBA",
@@ -71,15 +71,15 @@
       "league": "LBA",
       "season": "2026-27",
       "club": "Nutribullet Treviso Basket",
-      "home_games_counted": 2,
-      "average": 4328,
-      "total": 8656,
+      "home_games_counted": 3,
+      "average": 4165,
+      "total": 12496,
       "max": 4534,
-      "min": 4122,
+      "min": 3840,
       "arenas": [
         {
           "arena": "Palaverde",
-          "games": 2
+          "games": 3
         }
       ]
     },
