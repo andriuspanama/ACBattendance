@@ -638,10 +638,11 @@
         '<span>Sezonas: <strong>' + (data.season || "—") + '</strong></span>' +
         '<span>Atnaujinta: <strong>' + fmtDate(data.updated) + '</strong></span>';
 
+      // visos rungtynės su lankomumu (skaičius sutampa su „Namų rungt.“); iš pradžių rodomos 40 daugiausiai lankytų
+      const TOPN = 40;
       const matchesWithAtt = matches
         .filter(m => m.attendance && Number(m.attendance) > 0)
-        .sort((a, b) => Number(b.attendance) - Number(a.attendance))
-        .slice(0, 40);
+        .sort((a, b) => Number(b.attendance) - Number(a.attendance));
 
       let matchesHtml = "";
       if (matchesWithAtt.length) {
@@ -650,16 +651,20 @@
           '<div class="panel"><div class="table-wrap"><table><thead><tr>' +
           '<th>Šeimininkai</th><th>Svečiai</th><th class="num">Lankomumas</th><th class="hide-sm">Šaltinis</th>' +
           '</tr></thead><tbody>' +
-          matchesWithAtt.map(m => {
+          matchesWithAtt.map((m, i) => {
             const src = m.source_url || m.url;
-            return '<tr>' +
+            return '<tr' + (i >= TOPN ? ' class="more-row" hidden' : '') + '>' +
             '<td><div class="club-cell">' + clubLogoHtml(m.home, m.home_code, disp(m.home)) + '<span class="club-name">' + esc(disp(m.home)) + '</span></div></td>' +
             '<td><div class="club-cell">' + clubLogoHtml(m.away, m.away_code, disp(m.away)) + '<span>' + esc(disp(m.away)) + '</span></div></td>' +
             '<td class="num" style="font-weight:600;color:var(--green)">' + fmt(m.attendance) + '</td>' +
             '<td class="hide-sm">' + (src ? '<a href="' + esc(src) + '" target="_blank" rel="noopener" style="color:var(--blue);font-size:.8rem">↗</a>' : '') + '</td>' +
             '</tr>';
           }).join("") +
-          '</tbody></table></div></div>';
+          '</tbody></table></div></div>' +
+          (matchesWithAtt.length > TOPN
+            ? '<div style="text-align:center;margin:.8rem 0 0"><button id="show-all" type="button" style="background:var(--surface,#151c2b);color:var(--text,#e2e8f0);border:1px solid var(--border,#2a3346);border-radius:999px;padding:.5rem 1.1rem;font:inherit;font-size:.85rem;cursor:pointer">' +
+              'Rodomos ' + TOPN + ' daugiausiai lankytos – rodyti visas (' + matchesWithAtt.length + ')</button></div>'
+            : '');
       }
 
       document.getElementById("app").innerHTML =
@@ -687,6 +692,11 @@
         missingCapHtml() +
         matchesHtml;
 
+      const sa = document.getElementById("show-all");
+      if (sa) sa.addEventListener("click", function() {
+        document.querySelectorAll("tr.more-row").forEach(function(tr) { tr.hidden = false; });
+        sa.parentNode.remove();
+      });
       document.getElementById("search").addEventListener("input", function(e) {
         filter = e.target.value.toLowerCase().trim();
         renderTable(maxAvg);

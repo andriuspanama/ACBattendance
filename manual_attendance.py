@@ -138,7 +138,8 @@ def run() -> int:
             except Exception as e:  # noqa: BLE001
                 print(f"  {gid}: {e}", file=sys.stderr)
             print(f"  {d} {home} – {away}: {att}")
-            if d >= recent_from:
+            # šiandienos rungtynės dar gali būti nesužaistos – į „blokuoja“ patikrą įskaičiuojamos tik vakarykštės ir senesnės
+            if recent_from <= d < today():
                 recent_tried += 1
                 recent_got += 1 if att else 0
         if prev:

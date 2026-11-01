@@ -1,0 +1,792 @@
+{
+ "source": "Fan_attraction_index_combined.xlsx, Europe 25-26 (frozen for 2026-27)",
+ "europe": {
+  "slope": 742.20962320324,
+  "intercept": -6177.18840942471,
+  "elasticity": 0.0888976923255175
+ },
+ "thresholds": {
+  "full_arena": 0.9,
+  "band_low": 0.9,
+  "band_high": 1.1
+ },
+ "leagues": {
+  "France": {
+   "typical_attendance": 4036.1443953969,
+   "mean_ln_pop": 12.6951509385126,
+   "clubs": {
+    "Paris Basketball": {
+     "attendance": 6288,
+     "population": 13420986
+    },
+    "AS Monaco Basket": {
+     "attendance": 2436,
+     "population": 111298
+    },
+    "Nanterre 92": {
+     "attendance": 3614,
+     "population": 97783
+    },
+    "ASVEL Basket": {
+     "attendance": 5287,
+     "population": 2370243
+    },
+    "Cholet Basket": {
+     "attendance": 4713,
+     "population": 165586
+    },
+    "Le Mans Sarthe Basket": {
+     "attendance": 5228,
+     "population": 373154
+    },
+    "JL Bourg Basket": {
+     "attendance": 3492,
+     "population": 147052
+    },
+    "SIG Strasbourg": {
+     "attendance": 5819,
+     "population": 887714
+    },
+    "Elan Chalon": {
+     "attendance": 4578,
+     "population": 154989
+    },
+    "SLUC Nancy Basket": {
+     "attendance": 5751,
+     "population": 506669
+    },
+    "JDA Dijon Basket": {
+     "attendance": 3228,
+     "population": 422694
+    },
+    "Boulazac Basket Dordogne": {
+     "attendance": 4922,
+     "population": 114705
+    },
+    "Limoges CSP": {
+     "attendance": 4397,
+     "population": 324136
+    },
+    "BCM Gravelines - Dunkerque": {
+     "attendance": 2090,
+     "population": 255897
+    },
+    "Saint - Quentin BB": {
+     "attendance": 3148,
+     "population": 117101
+    },
+    "ESSM Le Portel": {
+     "attendance": 2797,
+     "population": 158845
+    }
+   }
+  },
+  "Germany": {
+   "typical_attendance": 4528.79444159515,
+   "mean_ln_pop": 13.2141058564587,
+   "clubs": {
+    "Bayern Munich": {
+     "attendance": 6452,
+     "population": 3002043
+    },
+    "Alba Berlin": {
+     "attendance": 8616,
+     "population": 5080569
+    },
+    "Bamberg Baskets": {
+     "attendance": 5096,
+     "population": 236461
+    },
+    "Telekom Baskets Bonn": {
+     "attendance": 6471,
+     "population": 668630
+    },
+    "Wurzburg Baskets": {
+     "attendance": 3106,
+     "population": 386811
+    },
+    "Ratiopharm Ulm": {
+     "attendance": 5584,
+     "population": 481850
+    },
+    "Rasta Vechta": {
+     "attendance": 3129,
+     "population": 146539
+    },
+    "Gladiators Trier": {
+     "attendance": 5351,
+     "population": 268614
+    },
+    "Rostock Seawolves": {
+     "attendance": 4112,
+     "population": 324358
+    },
+    "MHP Riesen Ludwigsburg": {
+     "attendance": 3908,
+     "population": 535374
+    },
+    "EWE Baskets Oldenburg": {
+     "attendance": 6256,
+     "population": 320458
+    },
+    "Niners Chemnitz": {
+     "attendance": 4602,
+     "population": 438546
+    },
+    "Syntainics MBC": {
+     "attendance": 2788,
+     "population": 173684
+    },
+    "Hamburg Towers": {
+     "attendance": 3844,
+     "population": 3286152
+    },
+    "Frankfurt Skyliners": {
+     "attendance": 4321,
+     "population": 2668350
+    },
+    "Science City Jena": {
+     "attendance": 2900,
+     "population": 182735
+    },
+    "Lowen Braunschweig": {
+     "attendance": 4212,
+     "population": 534339
+    },
+    "MLP Academics Heidelberg": {
+     "attendance": 4610,
+     "population": 309795
+    }
+   }
+  },
+  "Spain": {
+   "typical_attendance": 6522.35647972221,
+   "mean_ln_pop": 13.3128441108911,
+   "clubs": {
+    "Real Madrid Baloncesto": {
+     "attendance": 7606,
+     "population": 7407493
+    },
+    "Valencia Basket": {
+     "attendance": 11916,
+     "population": 2501821
+    },
+    "Saski Baskonia": {
+     "attendance": 8685,
+     "population": 301991
+    },
+    "UCAM Murcia": {
+     "attendance": 6890,
+     "population": 1274795
+    },
+    "FC Barcelona Basquet": {
+     "attendance": 5204,
+     "population": 5646374
+    },
+    "Club Joventut Badalona": {
+     "attendance": 6859,
+     "population": 226219
+    },
+    "Bilbao Surne Basket": {
+     "attendance": 8360,
+     "population": 1159387
+    },
+    "CB Canarias Tenerife": {
+     "attendance": 4818,
+     "population": 783224
+    },
+    "Unicaja Malaga": {
+     "attendance": 9206,
+     "population": 1359732
+    },
+    "Basquet Manresa": {
+     "attendance": 4785,
+     "population": 138750
+    },
+    "Club Baloncesto Breogan": {
+     "attendance": 5263,
+     "population": 159854
+    },
+    "Basquet Girona": {
+     "attendance": 4933,
+     "population": 283828
+    },
+    "CB San Pablo Burgos": {
+     "attendance": 9008,
+     "population": 215904
+    },
+    "Forca Lleida CE": {
+     "attendance": 5584,
+     "population": 223245
+    },
+    "Basket Zaragoza": {
+     "attendance": 6906,
+     "population": 810050
+    },
+    "BC Andorra": {
+     "attendance": 3471,
+     "population": 83753
+    },
+    "CB Gran Canaria": {
+     "attendance": 6342,
+     "population": 848722
+    },
+    "Granada": {
+     "attendance": 6692,
+     "population": 598336
+    }
+   }
+  },
+  "Italy": {
+   "typical_attendance": 3929.64871490058,
+   "mean_ln_pop": 12.8838495233195,
+   "clubs": {
+    "Virtus Bologna": {
+     "attendance": 6206,
+     "population": 869669
+    },
+    "Germani Brescia": {
+     "attendance": 4683,
+     "population": 482954
+    },
+    "Olimpia Milano": {
+     "attendance": 6519,
+     "population": 5078244
+    },
+    "Umana Reyer Venezia": {
+     "attendance": 3326,
+     "population": 544104
+    },
+    "Derthona Basket": {
+     "attendance": 3600,
+     "population": 57182
+    },
+    "Pallacanestro Reggiana": {
+     "attendance": 3629,
+     "population": 297865
+    },
+    "Pallacanestro Trieste": {
+     "attendance": 5512,
+     "population": 227792
+    },
+    "Aquila Trento": {
+     "attendance": 3877,
+     "population": 333498
+    },
+    "Pallacanestro Varese": {
+     "attendance": 4485,
+     "population": 188188
+    },
+    "Napoli Basket": {
+     "attendance": 2596,
+     "population": 3373061
+    },
+    "Vanoli Cremona": {
+     "attendance": 2193,
+     "population": 145861
+    },
+    "Universo Treviso Basket": {
+     "attendance": 3800,
+     "population": 203512
+    },
+    "APU Udine": {
+     "attendance": 3462,
+     "population": 238513
+    },
+    "Pallacanestro Cantu": {
+     "attendance": 4757,
+     "population": 604528
+    },
+    "Dinamo Sassari": {
+     "attendance": 2927,
+     "population": 208993
+    }
+   }
+  },
+  "Lithuania": {
+   "typical_attendance": 1877.74415592137,
+   "mean_ln_pop": 11.6877217847196,
+   "clubs": {
+    "Žalgiris Kaunas": {
+     "attendance": 4342,
+     "population": 415447
+    },
+    "Rytas Vilnius": {
+     "attendance": 2832,
+     "population": 729647
+    },
+    "Neptūnas Klaipėda": {
+     "attendance": 2325,
+     "population": 231678
+    },
+    "BC Šiauliai": {
+     "attendance": 2489,
+     "population": 151084
+    },
+    "Lietkabelis Panevėžys": {
+     "attendance": 1880,
+     "population": 119694
+    },
+    "Gargždai Basketball": {
+     "attendance": 1294,
+     "population": 54960
+    },
+    "Utena Juventus": {
+     "attendance": 1375,
+     "population": 37099
+    },
+    "BC Jonava": {
+     "attendance": 914,
+     "population": 41382
+    },
+    "Nevėžis Kėdainiai": {
+     "attendance": 1334,
+     "population": 44998
+    }
+   }
+  },
+  "Poland": {
+   "typical_attendance": 1978.69193303581,
+   "mean_ln_pop": 12.7672138245318,
+   "clubs": {
+    "Legia Warszawa": {
+     "attendance": 1932,
+     "population": 3524612
+    },
+    "King Wilki Morskie Szczecin": {
+     "attendance": 2654,
+     "population": 515242
+    },
+    "Slask Wroclaw": {
+     "attendance": 2813,
+     "population": 1038107
+    },
+    "Trefl Sopot": {
+     "attendance": 2984,
+     "population": 717743
+    },
+    "Dziki Warszawa": {
+     "attendance": 1163,
+     "population": 3524612
+    },
+    "Arka Gdynia": {
+     "attendance": 2290,
+     "population": 412700
+    },
+    "Anwil Wloclawek": {
+     "attendance": 3212,
+     "population": 187976
+    },
+    "Zastal Zielona Gora": {
+     "attendance": 4096,
+     "population": 185108
+    },
+    "MKS Dabrowa Gornicza": {
+     "attendance": 1498,
+     "population": 134710
+    },
+    "Stal Ostrow Wielkopolski": {
+     "attendance": 2584,
+     "population": 135570
+    },
+    "Gornik Walbrzych": {
+     "attendance": 2108,
+     "population": 151023
+    },
+    "Twarde Pierniki Torun": {
+     "attendance": 1583,
+     "population": 323575
+    },
+    "Start Lublin": {
+     "attendance": 1009,
+     "population": 677413
+    },
+    "Czarni Slupsk": {
+     "attendance": 1870,
+     "population": 184160
+    },
+    "GTK Gliwice": {
+     "attendance": 887,
+     "population": 450070
+    },
+    "Miasto Szkla Krosno": {
+     "attendance": 1283,
+     "population": 152248
+    }
+   }
+  },
+  "ABA League": {
+   "typical_attendance": 1515.08995376799,
+   "mean_ln_pop": 12.8431032634138,
+   "clubs": {
+    "U-BT Cluj - Napoca": {
+     "attendance": 5585,
+     "population": 425130
+    },
+    "KK Partizan": {
+     "attendance": 5370,
+     "population": 1685563
+    },
+    "KK Crvena zvezda": {
+     "attendance": 3847,
+     "population": 1685563
+    },
+    "Dubai Basketball": {
+     "attendance": 3046,
+     "population": 4248000
+    },
+    "KK Cedevita Olimpija": {
+     "attendance": 2997,
+     "population": 920388
+    },
+    "KK Zadar": {
+     "attendance": 2715,
+     "population": 132350
+    },
+    "KK Bosna Royal": {
+     "attendance": 2424,
+     "population": 421531
+    },
+    "KK Buducnost": {
+     "attendance": 1559,
+     "population": 179505
+    },
+    "KK Igokea": {
+     "attendance": 1229,
+     "population": 220443
+    },
+    "BC Vienna": {
+     "attendance": 1128,
+     "population": 3231239
+    },
+    "KK Spartak Subotica": {
+     "attendance": 1054,
+     "population": 124679
+    },
+    "KK Split": {
+     "attendance": 1050,
+     "population": 315445
+    },
+    "KK Ilirija": {
+     "attendance": 989,
+     "population": 920388
+    },
+    "KK Borac Čačak": {
+     "attendance": 971,
+     "population": 106453
+    },
+    "KK FMP Beograd": {
+     "attendance": 741,
+     "population": 1685563
+    },
+    "KK Mega Basket": {
+     "attendance": 660,
+     "population": 1685563
+    },
+    "KK Krka": {
+     "attendance": 527,
+     "population": 38669
+    },
+    "KK Studentski centar Derby": {
+     "attendance": 433,
+     "population": 179505
+    }
+   }
+  },
+  "Turkey": {
+   "typical_attendance": 2754.49314286675,
+   "mean_ln_pop": 14.1801893548897,
+   "clubs": {
+    "Turk Telekom B.K.": {
+     "attendance": 5364,
+     "population": 5293367
+    },
+    "Trabzonspor B.K.": {
+     "attendance": 3956,
+     "population": 574362
+    },
+    "Fenerbahce Istanbul": {
+     "attendance": 3837,
+     "population": 15754053
+    },
+    "Bursaspor Basketbol": {
+     "attendance": 3697,
+     "population": 2538557
+    },
+    "Karsiyaka Basket": {
+     "attendance": 3397,
+     "population": 3605019
+    },
+    "Mersin MSK": {
+     "attendance": 2839,
+     "population": 1450271
+    },
+    "Tofas Bursa": {
+     "attendance": 2425,
+     "population": 2538557
+    },
+    "Denizli Basket (Merkezefendi)": {
+     "attendance": 2380,
+     "population": 759507
+    },
+    "Besiktas J.K.": {
+     "attendance": 2262,
+     "population": 15754053
+    },
+    "Korfez Basket (Manisa)": {
+     "attendance": 2223,
+     "population": 497412
+    },
+    "Galatasaray S.K.": {
+     "attendance": 2046,
+     "population": 15754053
+    },
+    "Petkim Spor Kulubu": {
+     "attendance": 2001,
+     "population": 110892
+    },
+    "Anadolu Efes S.K.": {
+     "attendance": 1358,
+     "population": 15754053
+    },
+    "Bahcesehir Koleji": {
+     "attendance": 1196,
+     "population": 15754053
+    },
+    "Buyukcekmece Basketbol": {
+     "attendance": 1085,
+     "population": 15754053
+    },
+    "Esenler Erokspor": {
+     "attendance": 349,
+     "population": 15754053
+    }
+   }
+  },
+  "Finland": {
+   "typical_attendance": 941.984462172026,
+   "mean_ln_pop": 11.4823309942664,
+   "clubs": {
+    "Bisons Loimaa": {
+     "attendance": 678,
+     "population": 32672
+    },
+    "Helsinki Seagulls": {
+     "attendance": 914,
+     "population": 1773305
+    },
+    "KTP Basket": {
+     "attendance": 998,
+     "population": 79056
+    },
+    "Kataja Basket": {
+     "attendance": 977,
+     "population": 127639
+    },
+    "Kauhajoki": {
+     "attendance": 1734,
+     "population": 20133
+    },
+    "Kobrat": {
+     "attendance": 569,
+     "population": 14028
+    },
+    "Korihait": {
+     "attendance": 823,
+     "population": 30120
+    },
+    "Kouvot": {
+     "attendance": 782,
+     "population": 78386
+    },
+    "Lahti Basketball": {
+     "attendance": 1072,
+     "population": 189648
+    },
+    "Salon Vilpas": {
+     "attendance": 1490,
+     "population": 59299
+    },
+    "Tampereen Pyrinto": {
+     "attendance": 760,
+     "population": 477107
+    },
+    "Tapiolan Honka": {
+     "attendance": 1048,
+     "population": 331184
+    }
+   }
+  },
+  "Hungary": {
+   "typical_attendance": 1225.33421648774,
+   "mean_ln_pop": 11.929566908085,
+   "clubs": {
+    "Falco Szombathely": {
+     "attendance": 2886,
+     "population": 163673
+    },
+    "Egis Kormend": {
+     "attendance": 1931,
+     "population": 24572
+    },
+    "Szolnoki Olaj": {
+     "attendance": 1831,
+     "population": 152723
+    },
+    "Kaposvari": {
+     "attendance": 1573,
+     "population": 104803
+    },
+    "Sopron KC": {
+     "attendance": 1569,
+     "population": 100129
+    },
+    "Alba - Fehervar": {
+     "attendance": 1334,
+     "population": 256154
+    },
+    "Zalakeramia ZTE": {
+     "attendance": 1215,
+     "population": 105969
+    },
+    "SZTE - Szedeak": {
+     "attendance": 1031,
+     "population": 243373
+    },
+    "OSE Lions": {
+     "attendance": 963,
+     "population": 24408
+    },
+    "DEAC (Kosarlabda Akademia)": {
+     "attendance": 935,
+     "population": 404578
+    },
+    "Atomeromu Paks": {
+     "attendance": 862,
+     "population": 45552
+    },
+    "Budapesti Honved": {
+     "attendance": 850,
+     "population": 3067751
+    },
+    "NKA Universitas Pecs": {
+     "attendance": 835,
+     "population": 261433
+    },
+    "KTE Kecskemeti": {
+     "attendance": 742,
+     "population": 222229
+    }
+   }
+  },
+  "LEBL": {
+   "typical_attendance": 580.362125508216,
+   "mean_ln_pop": 11.3557844698725,
+   "clubs": {
+    "Tartu Ulikool": {
+     "attendance": 1191,
+     "population": 164650
+    },
+    "Rigas Zelli": {
+     "attendance": 1070,
+     "population": 1144747
+    },
+    "BC Parnu": {
+     "attendance": 818,
+     "population": 52812
+    },
+    "Valmiera Glass/ViA": {
+     "attendance": 765,
+     "population": 50656
+    },
+    "TalTech Basketball": {
+     "attendance": 716,
+     "population": 647024
+    },
+    "BC Kalev/Cramo": {
+     "attendance": 670,
+     "population": 647024
+    },
+    "BK Ventspils": {
+     "attendance": 660,
+     "population": 43018
+    },
+    "BK Ogre": {
+     "attendance": 533,
+     "population": 57668
+    },
+    "BK VEF Riga": {
+     "attendance": 470,
+     "population": 1144747
+    },
+    "BK Liepaja": {
+     "attendance": 438,
+     "population": 100243
+    },
+    "KK Viimsi": {
+     "attendance": 375,
+     "population": 23228
+    },
+    "Keila Basket": {
+     "attendance": 341,
+     "population": 11024
+    },
+    "Keila KK": {
+     "attendance": 331,
+     "population": 11024
+    },
+    "Latvijas Universitates": {
+     "attendance": 161,
+     "population": 1144747
+    }
+   }
+  },
+  "Australia": {
+   "typical_attendance": 5928.50842552617,
+   "mean_ln_pop": 14.0436042844238,
+   "clubs": {
+    "Adelaide 36ers": {
+     "attendance": 9733,
+     "population": 1491015
+    },
+    "Brisbane Bullets": {
+     "attendance": 4488,
+     "population": 2833524
+    },
+    "Cairns Taipans": {
+     "attendance": 4092,
+     "population": 164149
+    },
+    "Illawarra Hawks": {
+     "attendance": 4366,
+     "population": 322343
+    },
+    "Melbourne United": {
+     "attendance": 8589,
+     "population": 5435590
+    },
+    "New Zealand Breakers": {
+     "attendance": 3489,
+     "population": 1816000
+    },
+    "Perth Wildcats": {
+     "attendance": 11165,
+     "population": 2452765
+    },
+    "Sydney Kings": {
+     "attendance": 9975,
+     "population": 5638830
+    },
+    "Tasmania JackJumpers": {
+     "attendance": 4179,
+     "population": 255250
+    },
+    "South East Melbourne Phoenix": {
+     "attendance": 5934,
+     "population": 5435590
+    }
+   }
+  }
+ },
+ "coverage_threshold": 0.85
+}
