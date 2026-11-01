@@ -1,7 +1,7 @@
 {
   "league": "NBL",
   "season": "2026-27",
-  "updated": "2026-11-01T07:25:00+00:00",
+  "updated": "2026-11-01T13:13:31+00:00",
   "clubs": [
     {
       "league": "NBL",
@@ -23,15 +23,15 @@
       "league": "NBL",
       "season": "2026-27",
       "club": "Adelaide 36ers",
-      "home_games_counted": 3,
+      "home_games_counted": 4,
       "average": 10039,
-      "total": 30116,
+      "total": 40155,
       "max": 10047,
       "min": 10025,
       "arenas": [
         {
           "arena": "Adelaide Entertainment Centre",
-          "games": 3
+          "games": 4
         }
       ]
     },
