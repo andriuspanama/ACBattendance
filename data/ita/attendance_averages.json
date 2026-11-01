@@ -1,7 +1,7 @@
 {
   "league": "LBA",
   "season": "2026-27",
-  "updated": "2026-11-01T07:26:09+00:00",
+  "updated": "2026-11-01T13:14:36+00:00",
   "clubs": [
     {
       "league": "LBA",
@@ -119,15 +119,15 @@
       "league": "LBA",
       "season": "2026-27",
       "club": "Napoli Basketball",
-      "home_games_counted": 1,
-      "average": 3100,
-      "total": 3100,
+      "home_games_counted": 2,
+      "average": 3050,
+      "total": 6100,
       "max": 3100,
-      "min": 3100,
+      "min": 3000,
       "arenas": [
         {
           "arena": "Alcott Arena",
-          "games": 1
+          "games": 2
         }
       ]
     },
