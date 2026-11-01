@@ -1,7 +1,7 @@
 {
   "league": "LEBL",
   "season": "2026-27",
-  "updated": "2026-11-01T13:14:02+00:00",
+  "updated": "2026-11-01T22:11:41+00:00",
   "clubs": [
     {
       "league": "LEBL",
@@ -91,15 +91,15 @@
       "league": "LEBL",
       "season": "2026-27",
       "club": "BC Pärnu",
-      "home_games_counted": 3,
-      "average": 643,
-      "total": 1930,
+      "home_games_counted": 4,
+      "average": 610,
+      "total": 2442,
       "max": 814,
-      "min": 534,
+      "min": 512,
       "arenas": [
         {
           "arena": "Pärnu Spordihall",
-          "games": 3
+          "games": 4
         }
       ]
     },
