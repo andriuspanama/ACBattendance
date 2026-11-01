@@ -4,7 +4,8 @@ name: Perskaičiuoti arenų talpas
 # Skaito Google Sheets lapą „Arenas“ ir kiekvienos lygos matches.csv,
 # rašo data/<aplankas>/capacity.json (talpa, svertinė talpa, užpildymas)
 # ir data/main_arenas.json (kiekvieno klubo pagrindinė arena žemėlapiui),
-# data/leagues.json (visų renkamų lygų sąrašas – krepsiniofinansai jį skaito).
+# data/leagues.json (visų renkamų lygų sąrašas – krepsiniofinansai jį skaito),
+# data/fan_index.json (sirgalių traukos indeksai ir profiliai – fan_index.py, lapas „Populations“).
 # Rinkiklių failų neliečia. Pakeitus lapą – paleiskite ranka (Run workflow) arba palaukite iki 1 val.
 
 on:
@@ -45,11 +46,15 @@ jobs:
       - name: Perskaičiuoti talpas
         run: python capacities.py --sheet-id "$SHEET_ID" --sheet "$SHEET_NAME" --season "$SEASON"
 
+      - name: Sirgalių traukos indeksai (lapas „Populations“)
+        continue-on-error: true
+        run: python fan_index.py --sheet-id "$SHEET_ID" --sheet Populations --season "$SEASON"
+
       - name: Įrašyti pakeitimus
         run: |
           git config user.name "attendance-bot"
           git config user.email "attendance-bot@users.noreply.github.com"
-          git add data/capacity.json data/*/capacity.json data/main_arenas.json data/leagues.json data/game_arenas.json data/lkl/game_arenas.json data/lkl/lkl_games.json data/run_status.json data/lkl/run_status.json 2>/dev/null || true
+          git add data/capacity.json data/*/capacity.json data/main_arenas.json data/leagues.json data/fan_index.json data/game_arenas.json data/lkl/game_arenas.json data/lkl/lkl_games.json data/run_status.json data/lkl/run_status.json 2>/dev/null || true
           if git diff --cached --quiet; then
             echo "Pakeitimų nėra"
             exit 0
