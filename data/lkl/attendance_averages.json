@@ -1,7 +1,7 @@
 {
   "league": "LKL",
   "season": "2026-27",
-  "updated": "2026-10-31T19:22:33+00:00",
+  "updated": "2026-11-01T01:46:32+00:00",
   "clubs": [
     {
       "league": "LKL",
@@ -97,10 +97,10 @@
       "league": "LKL",
       "season": "2026-27",
       "club": "Jonava",
-      "home_games_counted": 3,
-      "average": 755,
-      "total": 2264,
-      "max": 792,
+      "home_games_counted": 4,
+      "average": 766,
+      "total": 3066,
+      "max": 802,
       "min": 712
     }
   ]
