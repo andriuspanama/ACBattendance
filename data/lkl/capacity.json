@@ -1,7 +1,7 @@
 {
  "league": "LKL",
  "season": "2026-27",
- "updated": "2026-11-01T02:02:36+00:00",
+ "updated": "2026-11-02T22:18:32+00:00",
  "clubs": [
   {
    "club": "Gargzdai",
@@ -80,30 +80,30 @@
   },
   {
    "club": "Nevezis",
-   "home_games_counted": 2,
-   "games_with_capacity": 2,
+   "home_games_counted": 3,
+   "games_with_capacity": 3,
    "capacity": 2200,
    "weighted_capacity": 2200,
-   "filling_rate": 0.5614,
+   "filling_rate": 0.4748,
    "arenas": [
     {
      "arena": "Kėdainių arena",
-     "games": 2,
+     "games": 3,
      "capacity": 2200
     }
    ]
   },
   {
    "club": "Rytas",
-   "home_games_counted": 2,
-   "games_with_capacity": 2,
+   "home_games_counted": 3,
+   "games_with_capacity": 3,
    "capacity": 10000,
    "weighted_capacity": 10000,
-   "filling_rate": 0.3234,
+   "filling_rate": 0.4897,
    "arenas": [
     {
      "arena": "Arena Vilnius",
-     "games": 2,
+     "games": 3,
      "capacity": 10000
     }
    ]
@@ -155,7 +155,7 @@
   }
  ],
  "unknown_arenas": [],
- "last_attendance_game": "2026-10-31",
+ "last_attendance_game": "2026-11-02",
  "games": {
   "46sBO1Xa": {
    "arena": "Tauragės Arena",
@@ -212,6 +212,10 @@
   "M3oglnCi": {
    "arena": "Žalgirio arena",
    "capacity": 15415
+  },
+  "MLSDIlNa": {
+   "arena": "Kėdainių arena",
+   "capacity": 2200
   },
   "MNiggYgl": {
    "arena": "Tauragės Arena",
@@ -276,6 +280,10 @@
   "jLATxD97": {
    "arena": "Kėdainių arena",
    "capacity": 2200
+  },
+  "lfF6KAhm": {
+   "arena": "Arena Vilnius",
+   "capacity": 10000
   },
   "n7hXVquQ": {
    "arena": "Gargždų SC arena",

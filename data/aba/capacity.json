@@ -1,20 +1,20 @@
 {
  "league": "ABA",
  "season": "2026-27",
- "updated": "2026-11-01T22:45:51+00:00",
+ "updated": "2026-11-02T22:18:32+00:00",
  "clubs": [
   {
    "club": "BC Vienna",
    "home_games_counted": 4,
    "games_with_capacity": 4,
-   "capacity": 1399,
-   "weighted_capacity": 1449,
-   "filling_rate": 0.6986,
+   "capacity": 1530,
+   "weighted_capacity": 1548,
+   "filling_rate": 0.6543,
    "arenas": [
     {
      "arena": "BC Vienna Arena",
      "games": 4,
-     "capacity": 1399
+     "capacity": 1530
     }
    ]
   },
@@ -115,15 +115,15 @@
   },
   {
    "club": "Dubai Basketball",
-   "home_games_counted": 1,
-   "games_with_capacity": 1,
+   "home_games_counted": 2,
+   "games_with_capacity": 2,
    "capacity": 15000,
    "weighted_capacity": 15000,
    "filling_rate": 0.2267,
    "arenas": [
     {
      "arena": "Coca Cola Arena",
-     "games": 1,
+     "games": 2,
      "capacity": 15000
     }
    ]
@@ -190,31 +190,36 @@
   },
   {
    "club": "Mega Superbet",
-   "home_games_counted": 1,
-   "games_with_capacity": 1,
+   "home_games_counted": 2,
+   "games_with_capacity": 2,
    "capacity": 5000,
    "weighted_capacity": 5000,
-   "filling_rate": 0.07,
+   "filling_rate": 0.135,
    "arenas": [
     {
      "arena": "Hala sportova Ranko Žeravica",
-     "games": 1,
+     "games": 2,
      "capacity": 5000
     }
    ]
   },
   {
    "club": "Partizan Mozzart Bet",
-   "home_games_counted": 1,
-   "games_with_capacity": 1,
+   "home_games_counted": 2,
+   "games_with_capacity": 2,
    "capacity": 8000,
-   "weighted_capacity": 8000,
-   "filling_rate": 0.1766,
+   "weighted_capacity": 6500,
+   "filling_rate": 0.1869,
    "arenas": [
     {
      "arena": "Košarkaška dvorana Aleksandar Nikolić",
      "games": 1,
      "capacity": 8000
+    },
+    {
+     "arena": "Hala sportova Ranko Žeravica",
+     "games": 1,
+     "capacity": 5000
     }
    ]
   },
@@ -267,14 +272,14 @@
    "club": "Spartak Office Shoes",
    "home_games_counted": 3,
    "games_with_capacity": 3,
-   "capacity": 3000,
-   "weighted_capacity": 3067,
-   "filling_rate": 0.7587,
+   "capacity": 3500,
+   "weighted_capacity": 3500,
+   "filling_rate": 0.6648,
    "arenas": [
     {
      "arena": "Hala Sportova Dudova šuma",
      "games": 3,
-     "capacity": 3000
+     "capacity": 3500
     }
    ]
   },
@@ -315,7 +320,7 @@
   }
  ],
  "unknown_arenas": [],
- "last_attendance_game": "2026-11-01",
+ "last_attendance_game": "2026-11-02",
  "games": {
   "13": {
    "arena": "ŠD Leona Štuklja Novo Mesto",
@@ -335,11 +340,11 @@
   },
   "18": {
    "arena": "BC Vienna Arena",
-   "capacity": 1399
+   "capacity": 1530
   },
   "20": {
    "arena": "Hala Sportova Dudova šuma",
-   "capacity": 3000
+   "capacity": 3500
   },
   "11": {
    "arena": "Arena KK FMP",
@@ -403,7 +408,7 @@
   },
   "40": {
    "arena": "BC Vienna Arena",
-   "capacity": 1399
+   "capacity": 1530
   },
   "33": {
    "arena": "J.U. Sportska dvorana Laktaši",
@@ -431,7 +436,7 @@
   },
   "39": {
    "arena": "Hala Sportova Dudova šuma",
-   "capacity": 3000
+   "capacity": 3500
   },
   "37": {
    "arena": "Coca Cola Arena",
@@ -463,7 +468,7 @@
   },
   "46": {
    "arena": "Hala Sportova Dudova šuma",
-   "capacity": 3000
+   "capacity": 3500
   },
   "47": {
    "arena": "Zetra Olympic Hall",
@@ -471,7 +476,7 @@
   },
   "49": {
    "arena": "BC Vienna Arena",
-   "capacity": 1399
+   "capacity": 1530
   },
   "48": {
    "arena": "Dvorana Krešimir Ćosić",
@@ -483,7 +488,7 @@
   },
   "59": {
    "arena": "BC Vienna Arena",
-   "capacity": 1399
+   "capacity": 1530
   },
   "52": {
    "arena": "Sportski centar Morača",
@@ -504,6 +509,18 @@
   "60": {
    "arena": "Sportski centar Morača",
    "capacity": 6000
+  },
+  "56": {
+   "arena": "Hala sportova Ranko Žeravica",
+   "capacity": 5000
+  },
+  "57": {
+   "arena": "Coca Cola Arena",
+   "capacity": 15000
+  },
+  "58": {
+   "arena": "Hala sportova Ranko Žeravica",
+   "capacity": 5000
   }
  }
 }

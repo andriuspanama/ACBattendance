@@ -1,7 +1,7 @@
 {
  "league": "PLK",
  "season": "2026-27",
- "updated": "2026-11-02T07:38:04+00:00",
+ "updated": "2026-11-02T22:18:32+00:00",
  "clubs": [
   {
    "club": "AMW Arka Gdynia",
@@ -112,14 +112,14 @@
    "club": "Euvic GTK Gliwice",
    "home_games_counted": 4,
    "games_with_capacity": 4,
-   "capacity": 1092,
-   "weighted_capacity": 1832,
-   "filling_rate": 0.9423,
+   "capacity": 3360,
+   "weighted_capacity": 3532,
+   "filling_rate": 0.4885,
    "arenas": [
     {
      "arena": "Prezero Arena Gliwice",
      "games": 4,
-     "capacity": 1092
+     "capacity": 3360
     }
    ]
   },
@@ -279,7 +279,7 @@
   },
   "223462": {
    "arena": "Prezero Arena Gliwice",
-   "capacity": 1092
+   "capacity": 3360
   },
   "223464": {
    "arena": "Polsat Plus Arena Gdynia",
@@ -327,7 +327,7 @@
   },
   "223477": {
    "arena": "Prezero Arena Gliwice",
-   "capacity": 1092
+   "capacity": 3360
   },
   "223479": {
    "arena": "HWS Centrum im.Z.Cybulskiego",
@@ -339,7 +339,7 @@
   },
   "223492": {
    "arena": "Prezero Arena Gliwice",
-   "capacity": 1092
+   "capacity": 3360
   },
   "223485": {
    "arena": "Centrum Rekreacyjno-Sportowe",
@@ -391,7 +391,7 @@
   },
   "223494": {
    "arena": "Prezero Arena Gliwice",
-   "capacity": 1092
+   "capacity": 3360
   },
   "223496": {
    "arena": "MOSiR Globus",

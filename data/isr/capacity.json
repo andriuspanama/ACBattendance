@@ -1,7 +1,7 @@
 {
  "league": "Winner League",
  "season": "2026-27",
- "updated": "2026-11-01T22:45:51+00:00",
+ "updated": "2026-11-02T22:18:32+00:00",
  "clubs": [
   {
    "club": "Bnei Penlink Herzliya",
@@ -20,15 +20,15 @@
   },
   {
    "club": "Hapoel Alfi Benedek Galil Elion",
-   "home_games_counted": 1,
-   "games_with_capacity": 1,
+   "home_games_counted": 2,
+   "games_with_capacity": 2,
    "capacity": 1382,
    "weighted_capacity": 1382,
    "filling_rate": 0.8104,
    "arenas": [
     {
      "arena": "Kfar Blum Hall",
-     "games": 1,
+     "games": 2,
      "capacity": 1382
     }
    ]
@@ -95,15 +95,15 @@
   },
   {
    "club": "Hapoel Maoz Daniel Holon",
-   "home_games_counted": 1,
-   "games_with_capacity": 1,
+   "home_games_counted": 2,
+   "games_with_capacity": 2,
    "capacity": 5337,
    "weighted_capacity": 5337,
-   "filling_rate": 0.4778,
+   "filling_rate": 0.3607,
    "arenas": [
     {
      "arena": "Holon Toto Hall",
-     "games": 1,
+     "games": 2,
      "capacity": 5337
     }
    ]
@@ -170,15 +170,15 @@
   },
   {
    "club": "Maccabi Rotshtein Ashdod",
-   "home_games_counted": 2,
-   "games_with_capacity": 2,
+   "home_games_counted": 3,
+   "games_with_capacity": 3,
    "capacity": 2009,
    "weighted_capacity": 2009,
-   "filling_rate": 0.3223,
+   "filling_rate": 0.3124,
    "arenas": [
     {
      "arena": "HaKiriya Arena",
-     "games": 2,
+     "games": 3,
      "capacity": 2009
     }
    ]
@@ -200,7 +200,7 @@
   }
  ],
  "unknown_arenas": [],
- "last_attendance_game": "2026-11-01",
+ "last_attendance_game": "2026-11-02",
  "games": {
   "26646": {
    "arena": "Menora Mivtachim Arena",

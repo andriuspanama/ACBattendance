@@ -1,7 +1,7 @@
 {
  "league": "LEBL",
  "season": "2026-27",
- "updated": "2026-11-01T22:45:51+00:00",
+ "updated": "2026-11-02T22:18:32+00:00",
  "clubs": [
   {
    "club": "BC Pärnu",
@@ -222,14 +222,14 @@
    "club": "Valmiera Glass VIA",
    "home_games_counted": 4,
    "games_with_capacity": 4,
-   "capacity": 1200,
-   "weighted_capacity": 1114,
-   "filling_rate": 0.8739,
+   "capacity": 1500,
+   "weighted_capacity": 1276,
+   "filling_rate": 0.763,
    "arenas": [
     {
      "arena": "Valmieras Olimpiskais Centrs",
      "games": 3,
-     "capacity": 1200
+     "capacity": 1500
     },
     {
      "arena": "Ruijena SH",
@@ -242,14 +242,14 @@
    "club": "Viimsi",
    "home_games_counted": 4,
    "games_with_capacity": 4,
-   "capacity": 500,
-   "weighted_capacity": 578,
-   "filling_rate": 0.8254,
+   "capacity": 800,
+   "weighted_capacity": 804,
+   "filling_rate": 0.5943,
    "arenas": [
     {
      "arena": "Forus Spordikeskus Viimsi",
      "games": 4,
-     "capacity": 500
+     "capacity": 800
     }
    ]
   }
@@ -275,7 +275,7 @@
   },
   "2027212071": {
    "arena": "Valmieras Olimpiskais Centrs",
-   "capacity": 1200
+   "capacity": 1500
   },
   "2027212001": {
    "arena": "Tallinn, TalTech Spordihoone",
@@ -291,7 +291,7 @@
   },
   "2027212057": {
    "arena": "Forus Spordikeskus Viimsi",
-   "capacity": 500
+   "capacity": 800
   },
   "2027212169": {
    "arena": "Marupe SC",
@@ -299,7 +299,7 @@
   },
   "2027212072": {
    "arena": "Valmieras Olimpiskais Centrs",
-   "capacity": 1200
+   "capacity": 1500
   },
   "2027212156": {
    "arena": "Rimi Olimpiskais centrs",
@@ -339,7 +339,7 @@
   },
   "2027212058": {
    "arena": "Forus Spordikeskus Viimsi",
-   "capacity": 500
+   "capacity": 800
   },
   "2027212143": {
    "arena": "Daugavas sporta nams",
@@ -371,7 +371,7 @@
   },
   "2027212059": {
    "arena": "Forus Spordikeskus Viimsi",
-   "capacity": 500
+   "capacity": 800
   },
   "2027212184": {
    "arena": "Liepajas Olimpiskais centrs",
@@ -383,7 +383,7 @@
   },
   "2027212060": {
    "arena": "Forus Spordikeskus Viimsi",
-   "capacity": 500
+   "capacity": 800
   },
   "2027212128": {
    "arena": "Olimpiskais centrs \"Ventspils\"",
@@ -427,7 +427,7 @@
   },
   "2027212074": {
    "arena": "Valmieras Olimpiskais Centrs",
-   "capacity": 1200
+   "capacity": 1500
   },
   "2027212087": {
    "arena": "Sporta arena Ogre",

@@ -1,8 +1,23 @@
 {
  "league": "LBA",
  "season": "2026-27",
- "updated": "2026-11-01T22:45:51+00:00",
+ "updated": "2026-11-02T22:18:32+00:00",
  "clubs": [
+  {
+   "club": "Acqua S.Bernardo Cantù",
+   "home_games_counted": 1,
+   "games_with_capacity": 1,
+   "capacity": 6500,
+   "weighted_capacity": 6500,
+   "filling_rate": 0.6785,
+   "arenas": [
+    {
+     "arena": "PalaDesio",
+     "games": 1,
+     "capacity": 6500
+    }
+   ]
+  },
   {
    "club": "Armani Olimpia Milano",
    "home_games_counted": 3,
@@ -52,14 +67,14 @@
    "club": "Dolomiti Energia Trentino",
    "home_games_counted": 3,
    "games_with_capacity": 3,
-   "capacity": 3882,
-   "weighted_capacity": 3921,
-   "filling_rate": 0.9559,
+   "capacity": 4000,
+   "weighted_capacity": 4000,
+   "filling_rate": 0.9371,
    "arenas": [
     {
      "arena": "BTS Arena",
      "games": 3,
-     "capacity": 3882
+     "capacity": 4000
     }
    ]
   },
@@ -155,7 +170,7 @@
   }
  ],
  "unknown_arenas": [],
- "last_attendance_game": "2026-11-01",
+ "last_attendance_game": "2026-11-02",
  "games": {
   "25602": {
    "arena": "Palaverde",
@@ -191,7 +206,7 @@
   },
   "25371": {
    "arena": "BTS Arena",
-   "capacity": 3882
+   "capacity": 4000
   },
   "25373": {
    "arena": "Alcott Arena",
@@ -267,7 +282,7 @@
   },
   "25387": {
    "arena": "BTS Arena",
-   "capacity": 3882
+   "capacity": 4000
   },
   "25388": {
    "arena": "Nova Arena",
@@ -331,7 +346,7 @@
   },
   "25403": {
    "arena": "BTS Arena",
-   "capacity": 3882
+   "capacity": 4000
   },
   "25405": {
    "arena": "Alcott Arena",
@@ -340,6 +355,14 @@
   "25407": {
    "arena": "PalaCarnera Credifriuli",
    "capacity": 3500
+  },
+  "25400": {
+   "arena": "PalaDozza",
+   "capacity": 5570
+  },
+  "25406": {
+   "arena": "PalaDesio",
+   "capacity": 6500
   }
  }
 }

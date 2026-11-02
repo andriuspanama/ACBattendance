@@ -1,6 +1,6 @@
 {
  "season": "2026-27",
- "updated": "2026-11-01T22:45:51+00:00",
+ "updated": "2026-11-02T22:18:32+00:00",
  "clubs": {
   "ADA Blois Basket 41": {
    "arena": "Le Jeu de Paume",
@@ -154,7 +154,7 @@
    "city": "Trento",
    "lat": 46.04098,
    "lon": 11.12275,
-   "capacity": 3882,
+   "capacity": 4000,
    "league": "LBA",
    "source": "games",
    "games": 3,
@@ -313,7 +313,7 @@
    "city": "Wien",
    "lat": 48.16265,
    "lon": 16.3389,
-   "capacity": 1399,
+   "capacity": 1530,
    "league": "ABA",
    "source": "games",
    "games": 4,
@@ -901,8 +901,8 @@
    "capacity": 15000,
    "league": "ABA",
    "source": "games",
-   "games": 1,
-   "of_games": 1,
+   "games": 2,
+   "of_games": 2,
    "league_name": "Dubai Basketball"
   },
   "Dziki Warszawa": {
@@ -1075,7 +1075,7 @@
    "city": "Gliwice",
    "lat": 50.28567,
    "lon": 18.68612,
-   "capacity": 1092,
+   "capacity": 3360,
    "league": "PLK",
    "source": "games",
    "games": 4,
@@ -1507,8 +1507,8 @@
    "capacity": 5000,
    "league": "ABA",
    "source": "games",
-   "games": 1,
-   "of_games": 1,
+   "games": 2,
+   "of_games": 2,
    "league_name": "Mega Superbet"
   },
   "KK Mornar Bar": {
@@ -1529,7 +1529,7 @@
    "league": "ABA",
    "source": "games",
    "games": 2,
-   "of_games": 2,
+   "of_games": 3,
    "league_name": "Partizan Mozzart Bet"
   },
   "KK Pelister": {
@@ -1555,7 +1555,7 @@
    "city": "Subotica",
    "lat": 46.10956,
    "lon": 19.65516,
-   "capacity": 3000,
+   "capacity": 3500,
    "league": "ABA",
    "source": "games",
    "games": 3,
@@ -1588,7 +1588,7 @@
    "city": "Viimsi",
    "lat": 59.50928,
    "lon": 24.83599,
-   "capacity": 500,
+   "capacity": 800,
    "league": "LEBL",
    "source": "games",
    "games": 4,
@@ -2014,8 +2014,8 @@
    "capacity": 10500,
    "league": "NBL",
    "source": "games",
-   "games": 4,
-   "of_games": 4,
+   "games": 5,
+   "of_games": 5,
    "league_name": "Melbourne United"
   },
   "Mersin MSK": {
@@ -2107,8 +2107,8 @@
    "capacity": 2200,
    "league": "LKL",
    "source": "games",
-   "games": 2,
-   "of_games": 2,
+   "games": 3,
+   "of_games": 3,
    "league_name": "Nevezis"
   },
   "New Zealand Breakers": {
@@ -2224,8 +2224,8 @@
    "capacity": 6500,
    "league": "LBA",
    "source": "games",
-   "games": 2,
-   "of_games": 2,
+   "games": 3,
+   "of_games": 3,
    "league_name": "Acqua S.Bernardo Cantù"
   },
   "Pallacanestro Reggiana": {
@@ -2461,8 +2461,8 @@
    "capacity": 10000,
    "league": "LKL",
    "source": "games",
-   "games": 2,
-   "of_games": 2,
+   "games": 3,
+   "of_games": 3,
    "league_name": "Rytas"
   },
   "SIG Strasbourg": {
@@ -2953,7 +2953,7 @@
    "city": "Valmiera",
    "lat": 57.52812,
    "lon": 25.38789,
-   "capacity": 1200,
+   "capacity": 1500,
    "league": "LEBL",
    "source": "games",
    "games": 3,
@@ -2980,8 +2980,8 @@
    "capacity": 5570,
    "league": "LBA",
    "source": "games",
-   "games": 2,
-   "of_games": 2,
+   "games": 3,
+   "of_games": 3,
    "league_name": "Virtus Costa Bologna"
   },
   "Wurzburg Baskets": {
