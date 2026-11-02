@@ -1,7 +1,7 @@
 {
   "league": "BBL",
   "season": "2026-27",
-  "updated": "2026-11-02T06:31:38+00:00",
+  "updated": "2026-11-02T21:50:19+00:00",
   "clubs": [
     {
       "league": "BBL",
@@ -40,6 +40,23 @@
     {
       "league": "BBL",
       "season": "2026-27",
+      "club": "Telekom Baskets Bonn",
+      "home_games_counted": 4,
+      "average": 5409,
+      "total": 21635,
+      "max": 6000,
+      "min": 5082,
+      "arenas": [
+        {
+          "arena": "Telekom Dome Bonn",
+          "games": 4,
+          "capacity": 6000
+        }
+      ]
+    },
+    {
+      "league": "BBL",
+      "season": "2026-27",
       "club": "VET-CONCEPT Gladiators Trier",
       "home_games_counted": 3,
       "average": 5400,
@@ -68,23 +85,6 @@
           "arena": "BMW Park München",
           "games": 4,
           "capacity": 6731
-        }
-      ]
-    },
-    {
-      "league": "BBL",
-      "season": "2026-27",
-      "club": "Telekom Baskets Bonn",
-      "home_games_counted": 3,
-      "average": 5212,
-      "total": 15635,
-      "max": 5332,
-      "min": 5082,
-      "arenas": [
-        {
-          "arena": "Telekom Dome Bonn",
-          "games": 3,
-          "capacity": 6000
         }
       ]
     },
