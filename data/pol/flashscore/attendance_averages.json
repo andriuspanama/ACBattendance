@@ -1,10 +1,10 @@
 {
   "league": "PLK",
   "season": "2026-27",
-  "updated": "2026-11-01T22:29:21+00:00",
+  "updated": "2026-11-02T06:55:53+00:00",
   "games": {
     "checked": 40,
-    "with_attendance": 39
+    "with_attendance": 40
   },
   "clubs": [
     {
@@ -71,11 +71,11 @@
       "league": "PLK",
       "season": "2026-27",
       "club": "Gornik Walbrzych",
-      "home_games_counted": 1,
-      "average": 2190,
-      "total": 2190,
+      "home_games_counted": 2,
+      "average": 2182,
+      "total": 4365,
       "max": 2190,
-      "min": 2190
+      "min": 2175
     },
     {
       "league": "PLK",

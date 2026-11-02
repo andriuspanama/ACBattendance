@@ -1,7 +1,7 @@
 {
   "league": "PLK",
   "season": "2026-27",
-  "updated": "2026-11-01T22:29:30+00:00",
+  "updated": "2026-11-02T06:56:00+00:00",
   "clubs": [
     {
       "league": "PLK",
@@ -99,6 +99,22 @@
       "arenas": [
         {
           "arena": "Hala Orbita",
+          "games": 1
+        }
+      ]
+    },
+    {
+      "league": "PLK",
+      "season": "2026-27",
+      "club": "Górnik Zamek Książ Wałbrzych",
+      "home_games_counted": 1,
+      "average": 2175,
+      "total": 2175,
+      "max": 2175,
+      "min": 2175,
+      "arenas": [
+        {
+          "arena": "Hala Widowiskowo-Sportowa Aqua Zdrój",
           "games": 1
         }
       ]
@@ -250,16 +266,6 @@
           "games": 2
         }
       ]
-    },
-    {
-      "league": "PLK",
-      "season": "2026-27",
-      "club": "Górnik Zamek Książ Wałbrzych",
-      "home_games_counted": 0,
-      "average": null,
-      "total": 0,
-      "max": null,
-      "min": null
     }
   ]
 }
