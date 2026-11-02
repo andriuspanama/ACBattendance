@@ -1,7 +1,7 @@
 {
   "league": "BSL",
   "season": "2026-27",
-  "updated": "2026-11-01T21:58:52+00:00",
+  "updated": "2026-11-02T05:57:13+00:00",
   "clubs": [
     {
       "league": "BSL",
@@ -64,6 +64,22 @@
         {
           "arena": "Mustafa Kemal Atatürk Karşıyaka Spor Salonu",
           "games": 2
+        }
+      ]
+    },
+    {
+      "league": "BSL",
+      "season": "2026-27",
+      "club": "Bursaspor Basketbol",
+      "home_games_counted": 3,
+      "average": 2754,
+      "total": 8263,
+      "max": 4023,
+      "min": 1740,
+      "arenas": [
+        {
+          "arena": "Tofaş Spor Salonu",
+          "games": 3
         }
       ]
     },
@@ -144,22 +160,6 @@
         {
           "arena": "Pamukkale Üniversitesi Spor Salonu",
           "games": 3
-        }
-      ]
-    },
-    {
-      "league": "BSL",
-      "season": "2026-27",
-      "club": "Bursaspor Basketbol",
-      "home_games_counted": 2,
-      "average": 2120,
-      "total": 4240,
-      "max": 2500,
-      "min": 1740,
-      "arenas": [
-        {
-          "arena": "Tofaş Spor Salonu",
-          "games": 2
         }
       ]
     },
@@ -247,15 +247,15 @@
       "league": "BSL",
       "season": "2026-27",
       "club": "Esenler Erokspor",
-      "home_games_counted": 2,
-      "average": 368,
-      "total": 735,
+      "home_games_counted": 3,
+      "average": 295,
+      "total": 885,
       "max": 535,
-      "min": 200,
+      "min": 150,
       "arenas": [
         {
           "arena": "Beşiktaş Akatlar Spor Kompleksi",
-          "games": 2
+          "games": 3
         }
       ]
     }
