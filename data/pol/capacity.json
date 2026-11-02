@@ -1,7 +1,7 @@
 {
  "league": "PLK",
  "season": "2026-27",
- "updated": "2026-11-01T22:45:51+00:00",
+ "updated": "2026-11-02T07:38:04+00:00",
  "clubs": [
   {
    "club": "AMW Arka Gdynia",
@@ -120,6 +120,21 @@
      "arena": "Prezero Arena Gliwice",
      "games": 4,
      "capacity": 1092
+    }
+   ]
+  },
+  {
+   "club": "Górnik Zamek Książ Wałbrzych",
+   "home_games_counted": 1,
+   "games_with_capacity": 1,
+   "capacity": 3000,
+   "weighted_capacity": 3000,
+   "filling_rate": 0.725,
+   "arenas": [
+    {
+     "arena": "Hala Widowiskowo-Sportowa Aqua Zdrój",
+     "games": 1,
+     "capacity": 3000
     }
    ]
   },

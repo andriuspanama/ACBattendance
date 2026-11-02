@@ -1,7 +1,7 @@
 {
  "league": "BSL",
  "season": "2026-27",
- "updated": "2026-11-01T22:45:51+00:00",
+ "updated": "2026-11-02T07:38:04+00:00",
  "clubs": [
   {
    "club": "Aliağa Petkim Spor",
@@ -80,30 +80,30 @@
   },
   {
    "club": "Bursaspor Basketbol",
-   "home_games_counted": 2,
-   "games_with_capacity": 2,
+   "home_games_counted": 3,
+   "games_with_capacity": 3,
    "capacity": 7500,
    "weighted_capacity": 7500,
-   "filling_rate": 0.2827,
+   "filling_rate": 0.3672,
    "arenas": [
     {
      "arena": "Tofaş Spor Salonu",
-     "games": 2,
+     "games": 3,
      "capacity": 7500
     }
    ]
   },
   {
    "club": "Esenler Erokspor",
-   "home_games_counted": 2,
-   "games_with_capacity": 2,
+   "home_games_counted": 3,
+   "games_with_capacity": 3,
    "capacity": 3200,
    "weighted_capacity": 3200,
-   "filling_rate": 0.1148,
+   "filling_rate": 0.0922,
    "arenas": [
     {
      "arena": "Beşiktaş Akatlar Spor Kompleksi",
-     "games": 2,
+     "games": 3,
      "capacity": 3200
     }
    ]
