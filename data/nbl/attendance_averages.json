@@ -1,7 +1,7 @@
 {
   "league": "NBL",
   "season": "2026-27",
-  "updated": "2026-11-02T06:25:23+00:00",
+  "updated": "2026-11-02T21:48:04+00:00",
   "clubs": [
     {
       "league": "NBL",
@@ -58,22 +58,6 @@
     {
       "league": "NBL",
       "season": "2026-27",
-      "club": "Melbourne United",
-      "home_games_counted": 4,
-      "average": 9041,
-      "total": 36164,
-      "max": 9679,
-      "min": 8523,
-      "arenas": [
-        {
-          "arena": "John Cain Arena",
-          "games": 4
-        }
-      ]
-    },
-    {
-      "league": "NBL",
-      "season": "2026-27",
       "club": "South East Melbourne Phoenix",
       "home_games_counted": 6,
       "average": 7762,
@@ -84,6 +68,22 @@
         {
           "arena": "John Cain Arena",
           "games": 6
+        }
+      ]
+    },
+    {
+      "league": "NBL",
+      "season": "2026-27",
+      "club": "Melbourne United",
+      "home_games_counted": 5,
+      "average": 7436,
+      "total": 37181,
+      "max": 9679,
+      "min": 1017,
+      "arenas": [
+        {
+          "arena": "John Cain Arena",
+          "games": 5
         }
       ]
     },
