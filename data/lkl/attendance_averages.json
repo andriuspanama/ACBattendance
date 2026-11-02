@@ -1,8 +1,18 @@
 {
   "league": "LKL",
   "season": "2026-27",
-  "updated": "2026-11-02T06:52:38+00:00",
+  "updated": "2026-11-02T21:57:08+00:00",
   "clubs": [
+    {
+      "league": "LKL",
+      "season": "2026-27",
+      "club": "Rytas",
+      "home_games_counted": 3,
+      "average": 4897,
+      "total": 14690,
+      "max": 8223,
+      "min": 3012
+    },
     {
       "league": "LKL",
       "season": "2026-27",
@@ -12,16 +22,6 @@
       "total": 17567,
       "max": 6746,
       "min": 2750
-    },
-    {
-      "league": "LKL",
-      "season": "2026-27",
-      "club": "Rytas",
-      "home_games_counted": 2,
-      "average": 3234,
-      "total": 6467,
-      "max": 3455,
-      "min": 3012
     },
     {
       "league": "LKL",
@@ -76,22 +76,22 @@
     {
       "league": "LKL",
       "season": "2026-27",
-      "club": "Nevezis",
-      "home_games_counted": 2,
-      "average": 1235,
-      "total": 2470,
-      "max": 1600,
-      "min": 870
-    },
-    {
-      "league": "LKL",
-      "season": "2026-27",
       "club": "Lietkabelis",
       "home_games_counted": 4,
       "average": 1180,
       "total": 4721,
       "max": 1269,
       "min": 1009
+    },
+    {
+      "league": "LKL",
+      "season": "2026-27",
+      "club": "Nevezis",
+      "home_games_counted": 3,
+      "average": 1045,
+      "total": 3134,
+      "max": 1600,
+      "min": 664
     },
     {
       "league": "LKL",
