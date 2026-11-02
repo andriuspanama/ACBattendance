@@ -1,7 +1,7 @@
 {
   "league": "ABA",
   "season": "2026-27",
-  "updated": "2026-11-02T06:26:06+00:00",
+  "updated": "2026-11-02T21:49:32+00:00",
   "clubs": [
     {
       "league": "ABA",
@@ -27,15 +27,15 @@
       "league": "ABA",
       "season": "2026-27",
       "club": "Dubai Basketball",
-      "home_games_counted": 1,
-      "average": 3401,
-      "total": 3401,
+      "home_games_counted": 2,
+      "average": 3400,
+      "total": 6801,
       "max": 3401,
-      "min": 3401,
+      "min": 3400,
       "arenas": [
         {
           "arena": "Coca Cola Arena",
-          "games": 1
+          "games": 2
         }
       ]
     },
@@ -122,22 +122,6 @@
     {
       "league": "ABA",
       "season": "2026-27",
-      "club": "Partizan Mozzart Bet",
-      "home_games_counted": 1,
-      "average": 1413,
-      "total": 1413,
-      "max": 1413,
-      "min": 1413,
-      "arenas": [
-        {
-          "arena": "Košarkaška dvorana Aleksandar Nikolić",
-          "games": 1
-        }
-      ]
-    },
-    {
-      "league": "ABA",
-      "season": "2026-27",
       "club": "Slovan Bratislava",
       "home_games_counted": 1,
       "average": 1274,
@@ -167,6 +151,26 @@
         },
         {
           "arena": "Mala dvorana Tivoli",
+          "games": 1
+        }
+      ]
+    },
+    {
+      "league": "ABA",
+      "season": "2026-27",
+      "club": "Partizan Mozzart Bet",
+      "home_games_counted": 2,
+      "average": 1215,
+      "total": 2430,
+      "max": 1413,
+      "min": 1017,
+      "arenas": [
+        {
+          "arena": "Košarkaška dvorana Aleksandar Nikolić",
+          "games": 1
+        },
+        {
+          "arena": "Hala sportova Ranko Žeravica",
           "games": 1
         }
       ]
@@ -254,6 +258,22 @@
     {
       "league": "ABA",
       "season": "2026-27",
+      "club": "Mega Superbet",
+      "home_games_counted": 2,
+      "average": 675,
+      "total": 1350,
+      "max": 1000,
+      "min": 350,
+      "arenas": [
+        {
+          "arena": "Hala sportova Ranko Žeravica",
+          "games": 2
+        }
+      ]
+    },
+    {
+      "league": "ABA",
+      "season": "2026-27",
       "club": "Budućnost VOLI",
       "home_games_counted": 2,
       "average": 550,
@@ -296,22 +316,6 @@
         {
           "arena": "Košarkaški centar Dražen Petrović",
           "games": 4
-        }
-      ]
-    },
-    {
-      "league": "ABA",
-      "season": "2026-27",
-      "club": "Mega Superbet",
-      "home_games_counted": 1,
-      "average": 350,
-      "total": 350,
-      "max": 350,
-      "min": 350,
-      "arenas": [
-        {
-          "arena": "Hala sportova Ranko Žeravica",
-          "games": 1
         }
       ]
     },
