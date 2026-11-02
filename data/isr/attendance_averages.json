@@ -1,7 +1,7 @@
 {
   "league": "Winner League",
   "season": "2026-27",
-  "updated": "2026-11-02T06:28:00+00:00",
+  "updated": "2026-11-02T21:50:31+00:00",
   "clubs": [
     {
       "league": "Winner League",
@@ -38,22 +38,6 @@
     {
       "league": "Winner League",
       "season": "2026-27",
-      "club": "Hapoel Maoz Daniel Holon",
-      "home_games_counted": 1,
-      "average": 2550,
-      "total": 2550,
-      "max": 2550,
-      "min": 2550,
-      "arenas": [
-        {
-          "arena": "Toto Arena Holon",
-          "games": 1
-        }
-      ]
-    },
-    {
-      "league": "Winner League",
-      "season": "2026-27",
       "club": "Hapoel IBI Tel Aviv",
       "home_games_counted": 2,
       "average": 2184,
@@ -63,6 +47,22 @@
       "arenas": [
         {
           "arena": "Shlomo Group Arena",
+          "games": 2
+        }
+      ]
+    },
+    {
+      "league": "Winner League",
+      "season": "2026-27",
+      "club": "Hapoel Maoz Daniel Holon",
+      "home_games_counted": 2,
+      "average": 1925,
+      "total": 3850,
+      "max": 2550,
+      "min": 1300,
+      "arenas": [
+        {
+          "arena": "Toto Arena Holon",
           "games": 2
         }
       ]
@@ -119,15 +119,15 @@
       "league": "Winner League",
       "season": "2026-27",
       "club": "Hapoel Alfi Benedek Galil Elion",
-      "home_games_counted": 1,
+      "home_games_counted": 2,
       "average": 1120,
-      "total": 1120,
+      "total": 2240,
       "max": 1120,
       "min": 1120,
       "arenas": [
         {
           "arena": "Kfar Blum",
-          "games": 1
+          "games": 2
         }
       ]
     },
@@ -199,15 +199,15 @@
       "league": "Winner League",
       "season": "2026-27",
       "club": "Maccabi Rotshtein Ashdod",
-      "home_games_counted": 2,
-      "average": 648,
-      "total": 1295,
+      "home_games_counted": 3,
+      "average": 628,
+      "total": 1883,
       "max": 725,
       "min": 570,
       "arenas": [
         {
           "arena": "HaKiriya Arena",
-          "games": 2
+          "games": 3
         }
       ]
     },
