@@ -1,7 +1,7 @@
 {
   "league": "BSL",
   "season": "2026-27",
-  "updated": "2026-11-02T15:43:32+00:00",
+  "updated": "2026-11-03T00:56:25+00:00",
   "clubs": [
     {
       "league": "BSL",
@@ -22,22 +22,6 @@
     {
       "league": "BSL",
       "season": "2026-27",
-      "club": "Beşiktaş",
-      "home_games_counted": 2,
-      "average": 4164,
-      "total": 8329,
-      "max": 4829,
-      "min": 3500,
-      "arenas": [
-        {
-          "arena": "Turkcell Basketbol Gelişim Merkezi",
-          "games": 2
-        }
-      ]
-    },
-    {
-      "league": "BSL",
-      "season": "2026-27",
       "club": "Bahçeşehir Koleji",
       "home_games_counted": 3,
       "average": 3922,
@@ -47,6 +31,22 @@
       "arenas": [
         {
           "arena": "Sinan Erdem Spor Salonu",
+          "games": 3
+        }
+      ]
+    },
+    {
+      "league": "BSL",
+      "season": "2026-27",
+      "club": "Beşiktaş",
+      "home_games_counted": 3,
+      "average": 3293,
+      "total": 9879,
+      "max": 4829,
+      "min": 1550,
+      "arenas": [
+        {
+          "arena": "Turkcell Basketbol Gelişim Merkezi",
           "games": 3
         }
       ]
@@ -166,6 +166,22 @@
     {
       "league": "BSL",
       "season": "2026-27",
+      "club": "Aliağa Petkim Spor",
+      "home_games_counted": 3,
+      "average": 2036,
+      "total": 6108,
+      "max": 2250,
+      "min": 1700,
+      "arenas": [
+        {
+          "arena": "Enka Spor Salonu",
+          "games": 3
+        }
+      ]
+    },
+    {
+      "league": "BSL",
+      "season": "2026-27",
       "club": "Galatasaray Mct Technıc",
       "home_games_counted": 3,
       "average": 2027,
@@ -176,22 +192,6 @@
         {
           "arena": "Sinan Erdem Spor Salonu",
           "games": 3
-        }
-      ]
-    },
-    {
-      "league": "BSL",
-      "season": "2026-27",
-      "club": "Aliağa Petkim Spor",
-      "home_games_counted": 2,
-      "average": 1929,
-      "total": 3858,
-      "max": 2158,
-      "min": 1700,
-      "arenas": [
-        {
-          "arena": "Enka Spor Salonu",
-          "games": 2
         }
       ]
     },
