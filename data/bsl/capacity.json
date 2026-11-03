@@ -1,19 +1,19 @@
 {
  "league": "BSL",
  "season": "2026-27",
- "updated": "2026-11-02T07:38:04+00:00",
+ "updated": "2026-11-03T07:51:57+00:00",
  "clubs": [
   {
    "club": "Aliağa Petkim Spor",
-   "home_games_counted": 2,
-   "games_with_capacity": 2,
+   "home_games_counted": 3,
+   "games_with_capacity": 3,
    "capacity": 2500,
    "weighted_capacity": 2500,
-   "filling_rate": 0.7716,
+   "filling_rate": 0.8144,
    "arenas": [
     {
      "arena": "Enka Spor Salonu",
-     "games": 2,
+     "games": 3,
      "capacity": 2500
     }
    ]
@@ -50,15 +50,15 @@
   },
   {
    "club": "Beşiktaş",
-   "home_games_counted": 2,
-   "games_with_capacity": 2,
+   "home_games_counted": 3,
+   "games_with_capacity": 3,
    "capacity": 10000,
    "weighted_capacity": 10000,
-   "filling_rate": 0.4164,
+   "filling_rate": 0.3293,
    "arenas": [
     {
      "arena": "Turkcell Basketbol Gelişim Merkezi",
-     "games": 2,
+     "games": 3,
      "capacity": 10000
     }
    ]
@@ -245,7 +245,7 @@
   }
  ],
  "unknown_arenas": [],
- "last_attendance_game": "2026-11-01",
+ "last_attendance_game": "2026-11-02",
  "games": {
   "2026-09-25-tofas-pizzabulls-bordo-bandirma": {
    "arena": "Tofaş Spor Salonu",
