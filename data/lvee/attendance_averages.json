@@ -1,7 +1,7 @@
 {
   "league": "LEBL",
   "season": "2026-27",
-  "updated": "2026-11-04T06:41:17+00:00",
+  "updated": "2026-11-04T19:53:49+00:00",
   "clubs": [
     {
       "league": "LEBL",
@@ -179,15 +179,15 @@
       "league": "LEBL",
       "season": "2026-27",
       "club": "BK Liepaja",
-      "home_games_counted": 4,
-      "average": 444,
-      "total": 1775,
+      "home_games_counted": 5,
+      "average": 448,
+      "total": 2242,
       "max": 660,
       "min": 150,
       "arenas": [
         {
           "arena": "Liepajas Olimpiskais centrs",
-          "games": 4
+          "games": 5
         }
       ]
     },
