@@ -1,7 +1,7 @@
 {
   "league": "BBL",
   "season": "2026-27",
-  "updated": "2026-11-03T19:40:45+00:00",
+  "updated": "2026-11-04T06:46:16+00:00",
   "clubs": [
     {
       "league": "BBL",
@@ -75,15 +75,15 @@
       "league": "BBL",
       "season": "2026-27",
       "club": "FC Bayern München Basketball",
-      "home_games_counted": 4,
-      "average": 5264,
-      "total": 21056,
+      "home_games_counted": 5,
+      "average": 5179,
+      "total": 25895,
       "max": 6600,
       "min": 4156,
       "arenas": [
         {
           "arena": "BMW Park München",
-          "games": 4,
+          "games": 5,
           "capacity": 6731
         }
       ]
