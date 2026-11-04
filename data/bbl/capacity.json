@@ -1,7 +1,7 @@
 {
  "league": "BBL",
  "season": "2026-27",
- "updated": "2026-11-02T22:18:32+00:00",
+ "updated": "2026-11-04T07:28:31+00:00",
  "clubs": [
   {
    "club": "ALBA BERLIN",
@@ -65,15 +65,15 @@
   },
   {
    "club": "FC Bayern München Basketball",
-   "home_games_counted": 4,
-   "games_with_capacity": 4,
+   "home_games_counted": 5,
+   "games_with_capacity": 5,
    "capacity": 6731,
    "weighted_capacity": 6731,
-   "filling_rate": 0.7821,
+   "filling_rate": 0.7694,
    "arenas": [
     {
      "arena": "BMW Park München",
-     "games": 4,
+     "games": 5,
      "capacity": 6731
     }
    ]
@@ -275,7 +275,7 @@
   }
  ],
  "unknown_arenas": [],
- "last_attendance_game": "2026-11-01",
+ "last_attendance_game": "2026-11-03",
  "games": {
   "2006920": {
    "arena": "Uber Arena",
@@ -516,6 +516,10 @@
   "2006908": {
    "arena": "StadtHalle Rostock",
    "capacity": 5000
+  },
+  "2007035": {
+   "arena": "BMW Park München",
+   "capacity": 6731
   }
  }
 }

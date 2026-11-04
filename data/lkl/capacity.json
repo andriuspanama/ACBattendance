@@ -1,7 +1,7 @@
 {
  "league": "LKL",
  "season": "2026-27",
- "updated": "2026-11-02T22:18:32+00:00",
+ "updated": "2026-11-04T07:28:31+00:00",
  "clubs": [
   {
    "club": "Gargzdai",
@@ -97,14 +97,14 @@
    "club": "Rytas",
    "home_games_counted": 3,
    "games_with_capacity": 3,
-   "capacity": 10000,
-   "weighted_capacity": 10000,
-   "filling_rate": 0.4897,
+   "capacity": 9000,
+   "weighted_capacity": 9000,
+   "filling_rate": 0.5441,
    "arenas": [
     {
      "arena": "Arena Vilnius",
      "games": 3,
-     "capacity": 10000
+     "capacity": 9000
     }
    ]
   },
@@ -275,7 +275,7 @@
   },
   "j1IVmI0B": {
    "arena": "Arena Vilnius",
-   "capacity": 10000
+   "capacity": 9000
   },
   "jLATxD97": {
    "arena": "Kėdainių arena",
@@ -283,7 +283,7 @@
   },
   "lfF6KAhm": {
    "arena": "Arena Vilnius",
-   "capacity": 10000
+   "capacity": 9000
   },
   "n7hXVquQ": {
    "arena": "Gargždų SC arena",
@@ -307,7 +307,7 @@
   },
   "xfh9p4BG": {
    "arena": "Arena Vilnius",
-   "capacity": 10000
+   "capacity": 9000
   }
  }
 }

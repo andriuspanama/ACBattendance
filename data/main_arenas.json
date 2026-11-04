@@ -1,6 +1,6 @@
 {
  "season": "2026-27",
- "updated": "2026-11-02T22:18:32+00:00",
+ "updated": "2026-11-04T07:28:31+00:00",
  "clubs": {
   "ADA Blois Basket 41": {
    "arena": "Le Jeu de Paume",
@@ -526,8 +526,8 @@
    "capacity": 6731,
    "league": "BBL",
    "source": "games",
-   "games": 4,
-   "of_games": 4,
+   "games": 5,
+   "of_games": 5,
    "league_name": "FC Bayern München Basketball"
   },
   "Beliers de Quimper": {
@@ -2458,7 +2458,7 @@
    "city": "Vilnius",
    "lat": 54.7163690662967,
    "lon": 25.2800856984299,
-   "capacity": 10000,
+   "capacity": 9000,
    "league": "LKL",
    "source": "games",
    "games": 3,
