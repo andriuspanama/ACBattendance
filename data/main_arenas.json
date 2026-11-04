@@ -1,6 +1,6 @@
 {
  "season": "2026-27",
- "updated": "2026-11-04T07:28:31+00:00",
+ "updated": "2026-11-04T20:24:23+00:00",
  "clubs": {
   "ADA Blois Basket 41": {
    "arena": "Le Jeu de Paume",
@@ -218,6 +218,15 @@
    "of_games": 3,
    "league_name": "Morabanc Andorra"
   },
+  "BC Balkan Botevgrad": {
+   "arena": "Arena Botevgrad",
+   "city": "Botevgrad",
+   "lat": 42.9000513717021,
+   "lon": 23.7884146765533,
+   "capacity": 3500,
+   "league": "Other",
+   "source": "sheet"
+  },
   "BC Jonava": {
    "arena": "Jonavos sporto arena",
    "city": "Jonava",
@@ -269,6 +278,15 @@
    "lat": 48.77755,
    "lon": 18.60298,
    "capacity": 3400,
+   "league": "Other",
+   "source": "sheet"
+  },
+  "BC Rilski Sportist": {
+   "arena": "Arena Samelyon",
+   "city": "Samokov",
+   "lat": 42.3236482250687,
+   "lon": 23.5513962548786,
+   "capacity": 3000,
    "league": "Other",
    "source": "sheet"
   },
@@ -349,8 +367,8 @@
    "capacity": 2500,
    "league": "LEBL",
    "source": "games",
-   "games": 4,
-   "of_games": 4,
+   "games": 5,
+   "of_games": 5,
    "league_name": "BK Liepaja"
   },
   "BK Ogre": {
@@ -605,7 +623,7 @@
    "league": "NBL",
    "source": "games",
    "games": 4,
-   "of_games": 5,
+   "of_games": 6,
    "league_name": "Brisbane Bullets"
   },
   "Budapesti Honved": {
@@ -2508,6 +2526,15 @@
    "lon": 20.16272,
    "capacity": 3200,
    "league": "NB I/A",
+   "source": "sheet"
+  },
+  "Sabah BC": {
+   "arena": "National Gymnastics Arena",
+   "city": "Baku",
+   "lat": 40.419242451278,
+   "lon": 49.9165465596163,
+   "capacity": 9000,
+   "league": "Other",
    "source": "sheet"
   },
   "Saint - Chamond Basket": {

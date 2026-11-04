@@ -1,7 +1,7 @@
 {
  "league": "LEBL",
  "season": "2026-27",
- "updated": "2026-11-02T22:18:32+00:00",
+ "updated": "2026-11-04T20:24:23+00:00",
  "clubs": [
   {
    "club": "BC Pärnu",
@@ -20,15 +20,15 @@
   },
   {
    "club": "BK Liepaja",
-   "home_games_counted": 4,
-   "games_with_capacity": 4,
+   "home_games_counted": 5,
+   "games_with_capacity": 5,
    "capacity": 2500,
    "weighted_capacity": 2500,
-   "filling_rate": 0.1775,
+   "filling_rate": 0.1794,
    "arenas": [
     {
      "arena": "Liepajas Olimpiskais centrs",
-     "games": 4,
+     "games": 5,
      "capacity": 2500
     }
    ]
@@ -255,7 +255,7 @@
   }
  ],
  "unknown_arenas": [],
- "last_attendance_game": "2026-11-01",
+ "last_attendance_game": "2026-11-04",
  "games": {
   "2027212141": {
    "arena": "Komandas Sporta Spelu Halle",
@@ -484,6 +484,10 @@
   "2027212046": {
    "arena": "Pärnu Spordihall",
    "capacity": 1820
+  },
+  "2027212187": {
+   "arena": "Liepajas Olimpiskais centrs",
+   "capacity": 2500
   }
  }
 }
