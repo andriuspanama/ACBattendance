@@ -1,6 +1,6 @@
 {
  "season": "2026-27",
- "updated": "2026-11-04T20:24:23+00:00",
+ "updated": "2026-11-05T07:52:27+00:00",
  "clubs": {
   "ADA Blois Basket 41": {
    "arena": "Le Jeu de Paume",
@@ -1907,6 +1907,15 @@
    "league": "Betclic Elite",
    "source": "sheet"
   },
+  "Lions de Geneve": {
+   "arena": "Pavillon des Sports",
+   "city": "Geneva",
+   "lat": 46.1805839671314,
+   "lon": 6.15592313969605,
+   "capacity": 2000,
+   "league": "Other",
+   "source": "sheet"
+  },
   "London Lions": {
    "arena": "Copper Box Arena",
    "city": "London",
@@ -2152,6 +2161,15 @@
    "games": 3,
    "of_games": 3,
    "league_name": "NINERS Chemnitz"
+  },
+  "Nitra Blue Wings": {
+   "arena": "Mestská športová hala Nitra",
+   "city": "Nitra",
+   "lat": 48.2976648464894,
+   "lon": 18.0669949428421,
+   "capacity": 2000,
+   "league": "Other",
+   "source": "sheet"
   },
   "OSE Lions": {
    "arena": "Krajnyik „Akác” András Sportcsarnok",
