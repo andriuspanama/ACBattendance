@@ -1,7 +1,7 @@
 {
   "league": "ABA",
   "season": "2026-27",
-  "updated": "2026-11-05T07:00:07+00:00",
+  "updated": "2026-11-05T20:06:59+00:00",
   "clubs": [
     {
       "league": "ABA",
@@ -91,15 +91,15 @@
       "league": "ABA",
       "season": "2026-27",
       "club": "Spartak Office Shoes",
-      "home_games_counted": 3,
-      "average": 2327,
-      "total": 6980,
+      "home_games_counted": 4,
+      "average": 2045,
+      "total": 8180,
       "max": 3200,
-      "min": 1280,
+      "min": 1200,
       "arenas": [
         {
           "arena": "Hala Sportova Dudova šuma",
-          "games": 3
+          "games": 4
         }
       ]
     },
