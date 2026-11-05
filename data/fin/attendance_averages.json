@@ -1,7 +1,7 @@
 {
   "league": "Korisliiga",
   "season": "2026-27",
-  "updated": "2026-11-05T06:59:42+00:00",
+  "updated": "2026-11-05T20:06:30+00:00",
   "clubs": [
     {
       "league": "Korisliiga",
@@ -71,15 +71,19 @@
       "league": "Korisliiga",
       "season": "2026-27",
       "club": "Kipinä Basket",
-      "home_games_counted": 3,
-      "average": 1013,
-      "total": 3038,
-      "max": 1175,
+      "home_games_counted": 4,
+      "average": 1092,
+      "total": 4370,
+      "max": 1332,
       "min": 845,
       "arenas": [
         {
           "arena": "Äänekoski Areena Pankkari",
           "games": 3
+        },
+        {
+          "arena": "Jyväskylän Monitoimitalo",
+          "games": 1
         }
       ]
     },
@@ -87,15 +91,15 @@
       "league": "Korisliiga",
       "season": "2026-27",
       "club": "Tapiolan Honka",
-      "home_games_counted": 2,
-      "average": 949,
-      "total": 1898,
-      "max": 1004,
+      "home_games_counted": 3,
+      "average": 1011,
+      "total": 3034,
+      "max": 1136,
       "min": 894,
       "arenas": [
         {
           "arena": "Tapiolan Liikuntahalli",
-          "games": 2
+          "games": 3
         }
       ]
     },
@@ -151,15 +155,15 @@
       "league": "Korisliiga",
       "season": "2026-27",
       "club": "Tampereen Pyrintö",
-      "home_games_counted": 3,
-      "average": 775,
-      "total": 2325,
+      "home_games_counted": 4,
+      "average": 750,
+      "total": 3000,
       "max": 1030,
       "min": 575,
       "arenas": [
         {
           "arena": "Pyynikin palloiluhalli",
-          "games": 3
+          "games": 4
         }
       ]
     },
@@ -167,15 +171,15 @@
       "league": "Korisliiga",
       "season": "2026-27",
       "club": "Korihait",
-      "home_games_counted": 3,
-      "average": 714,
-      "total": 2143,
+      "home_games_counted": 4,
+      "average": 731,
+      "total": 2925,
       "max": 785,
       "min": 642,
       "arenas": [
         {
           "arena": "Wintteri",
-          "games": 3
+          "games": 4
         }
       ]
     },
@@ -183,15 +187,15 @@
       "league": "Korisliiga",
       "season": "2026-27",
       "club": "Bisons Loimaa",
-      "home_games_counted": 4,
-      "average": 660,
-      "total": 2640,
+      "home_games_counted": 5,
+      "average": 629,
+      "total": 3143,
       "max": 723,
-      "min": 601,
+      "min": 503,
       "arenas": [
         {
           "arena": "Loimaan Liikuntahalli",
-          "games": 4
+          "games": 5
         }
       ]
     }
