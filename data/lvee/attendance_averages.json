@@ -1,7 +1,7 @@
 {
   "league": "LEBL",
   "season": "2026-27",
-  "updated": "2026-11-05T06:59:55+00:00",
+  "updated": "2026-11-05T20:06:45+00:00",
   "clubs": [
     {
       "league": "LEBL",
@@ -247,15 +247,15 @@
       "league": "LEBL",
       "season": "2026-27",
       "club": "Rigas Ekselences Juniori",
-      "home_games_counted": 4,
+      "home_games_counted": 5,
       "average": 134,
-      "total": 537,
+      "total": 670,
       "max": 185,
       "min": 82,
       "arenas": [
         {
           "arena": "Komandas Sporta Spelu Halle",
-          "games": 3
+          "games": 4
         },
         {
           "arena": "Daugavas sporta nams",
