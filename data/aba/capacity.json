@@ -1,7 +1,7 @@
 {
  "league": "ABA",
  "season": "2026-27",
- "updated": "2026-11-02T22:18:32+00:00",
+ "updated": "2026-11-05T20:38:03+00:00",
  "clubs": [
   {
    "club": "BC Vienna",
@@ -270,15 +270,15 @@
   },
   {
    "club": "Spartak Office Shoes",
-   "home_games_counted": 3,
-   "games_with_capacity": 3,
+   "home_games_counted": 4,
+   "games_with_capacity": 4,
    "capacity": 3500,
    "weighted_capacity": 3500,
-   "filling_rate": 0.6648,
+   "filling_rate": 0.5843,
    "arenas": [
     {
      "arena": "Hala Sportova Dudova šuma",
-     "games": 3,
+     "games": 4,
      "capacity": 3500
     }
    ]
@@ -320,7 +320,7 @@
   }
  ],
  "unknown_arenas": [],
- "last_attendance_game": "2026-11-02",
+ "last_attendance_game": "2026-11-05",
  "games": {
   "13": {
    "arena": "ŠD Leona Štuklja Novo Mesto",
@@ -521,6 +521,10 @@
   "58": {
    "arena": "Hala sportova Ranko Žeravica",
    "capacity": 5000
+  },
+  "69": {
+   "arena": "Hala Sportova Dudova šuma",
+   "capacity": 3500
   }
  }
 }

@@ -1,19 +1,19 @@
 {
  "league": "Korisliiga",
  "season": "2026-27",
- "updated": "2026-11-01T13:49:22+00:00",
+ "updated": "2026-11-05T20:38:03+00:00",
  "clubs": [
   {
    "club": "Bisons Loimaa",
-   "home_games_counted": 4,
-   "games_with_capacity": 4,
+   "home_games_counted": 5,
+   "games_with_capacity": 5,
    "capacity": 1500,
    "weighted_capacity": 1500,
-   "filling_rate": 0.44,
+   "filling_rate": 0.4191,
    "arenas": [
     {
      "arena": "Loimaan Liikuntahalli",
-     "games": 4,
+     "games": 5,
      "capacity": 1500
     }
    ]
@@ -80,30 +80,35 @@
   },
   {
    "club": "Kipinä Basket",
-   "home_games_counted": 3,
-   "games_with_capacity": 3,
+   "home_games_counted": 4,
+   "games_with_capacity": 4,
    "capacity": 1300,
-   "weighted_capacity": 1300,
-   "filling_rate": 0.779,
+   "weighted_capacity": 1308,
+   "filling_rate": 0.8352,
    "arenas": [
     {
      "arena": "Äänekoski Areena Pankkari",
      "games": 3,
      "capacity": 1300
+    },
+    {
+     "arena": "Jyväskylän Monitoimitalo",
+     "games": 1,
+     "capacity": 1320
     }
    ]
   },
   {
    "club": "Korihait",
-   "home_games_counted": 3,
-   "games_with_capacity": 3,
+   "home_games_counted": 4,
+   "games_with_capacity": 4,
    "capacity": 1700,
    "weighted_capacity": 1700,
-   "filling_rate": 0.4202,
+   "filling_rate": 0.4301,
    "arenas": [
     {
      "arena": "Wintteri",
-     "games": 3,
+     "games": 4,
      "capacity": 1700
     }
    ]
@@ -155,37 +160,37 @@
   },
   {
    "club": "Tampereen Pyrintö",
-   "home_games_counted": 3,
-   "games_with_capacity": 3,
+   "home_games_counted": 4,
+   "games_with_capacity": 4,
    "capacity": 1400,
    "weighted_capacity": 1400,
-   "filling_rate": 0.5536,
+   "filling_rate": 0.5357,
    "arenas": [
     {
      "arena": "Pyynikin palloiluhalli",
-     "games": 3,
+     "games": 4,
      "capacity": 1400
     }
    ]
   },
   {
    "club": "Tapiolan Honka",
-   "home_games_counted": 2,
-   "games_with_capacity": 2,
+   "home_games_counted": 3,
+   "games_with_capacity": 3,
    "capacity": 1570,
    "weighted_capacity": 1570,
-   "filling_rate": 0.6045,
+   "filling_rate": 0.6442,
    "arenas": [
     {
      "arena": "Tapiolan Liikuntahalli",
-     "games": 2,
+     "games": 3,
      "capacity": 1570
     }
    ]
   }
  ],
  "unknown_arenas": [],
- "last_attendance_game": "2026-10-31",
+ "last_attendance_game": "2026-11-04",
  "games": {
   "44cfe520-a1e7-11f1-8d0e-4fe1f25b2942": {
    "arena": "Motonet Areena",
@@ -378,6 +383,26 @@
   "9043de89-a1e7-11f1-9ea1-ebbd88296a81": {
    "arena": "Motonet Areena",
    "capacity": 2500
+  },
+  "919fd9f0-a1e7-11f1-9daa-4d1f3a1635d1": {
+   "arena": "Pyynikin palloiluhalli",
+   "capacity": 1400
+  },
+  "937b69ff-a1e7-11f1-a71c-51ecc4c5019b": {
+   "arena": "Tapiolan Liikuntahalli",
+   "capacity": 1570
+  },
+  "95c9534e-a1e7-11f1-ad68-09a10d13c168": {
+   "arena": "Loimaan Liikuntahalli",
+   "capacity": 1500
+  },
+  "96f3ea84-a1e7-11f1-9c72-edcf53b3eef1": {
+   "arena": "Wintteri",
+   "capacity": 1700
+  },
+  "98ebd4da-a1e7-11f1-a046-c51501e81e9a": {
+   "arena": "Jyväskylän Monitoimitalo",
+   "capacity": 1320
   }
  }
 }

@@ -1,7 +1,7 @@
 {
  "league": "BSL",
  "season": "2026-27",
- "updated": "2026-11-03T07:51:57+00:00",
+ "updated": "2026-11-05T20:38:03+00:00",
  "clubs": [
   {
    "club": "Aliağa Petkim Spor",
@@ -217,14 +217,14 @@
    "club": "Türk Telekom",
    "home_games_counted": 3,
    "games_with_capacity": 3,
-   "capacity": 10000,
-   "weighted_capacity": 10000,
-   "filling_rate": 0.5421,
+   "capacity": 10400,
+   "weighted_capacity": 10400,
+   "filling_rate": 0.5212,
    "arenas": [
     {
      "arena": "Ankara Spor Salonu",
      "games": 3,
-     "capacity": 10000
+     "capacity": 10400
     }
    ]
   },
@@ -261,7 +261,7 @@
   },
   "2026-09-26-turk-telekom-karsiyaka": {
    "arena": "Ankara Spor Salonu",
-   "capacity": 10000
+   "capacity": 10400
   },
   "2026-09-27-anadolu-efes-besiktas": {
    "arena": "Turkcell Basketbol Gelişim Merkezi",
@@ -337,7 +337,7 @@
   },
   "2026-10-11-turk-telekom-besiktas": {
    "arena": "Ankara Spor Salonu",
-   "capacity": 10000
+   "capacity": 10400
   },
   "2026-10-12-galatasaray-mct-technic-bursaspor-basketbol": {
    "arena": "Sinan Erdem Spor Salonu",
@@ -389,7 +389,7 @@
   },
   "2026-10-24-turk-telekom-yukatel-denizli-basket": {
    "arena": "Ankara Spor Salonu",
-   "capacity": 10000
+   "capacity": 10400
   },
   "2026-10-25-anadolu-efes-biotekno-korfez-basket": {
    "arena": "Turkcell Basketbol Gelişim Merkezi",
@@ -453,7 +453,7 @@
   },
   "2026-11-07-turk-telekom-biotekno-korfez-basket": {
    "arena": "Ankara Spor Salonu",
-   "capacity": 10000
+   "capacity": 10400
   },
   "2026-11-08-anadolu-efes-tofas": {
    "arena": "Turkcell Basketbol Gelişim Merkezi",
@@ -517,7 +517,7 @@
   },
   "2026-11-21-turk-telekom-tofas": {
    "arena": "Ankara Spor Salonu",
-   "capacity": 10000
+   "capacity": 10400
   },
   "2026-11-22-besiktas-fenerbahce-tarfin": {
    "arena": "Turkcell Basketbol Gelişim Merkezi",
@@ -597,7 +597,7 @@
   },
   "2026-12-13-turk-telekom-trabzonspor": {
    "arena": "Ankara Spor Salonu",
-   "capacity": 10000
+   "capacity": 10400
   },
   "2026-12-18-trabzonspor-galatasaray-mct-technic": {
    "arena": "Hayri Gür Spor Salonu",
@@ -693,7 +693,7 @@
   },
   "2027-01-02-turk-telekom-bahcesehir-koleji": {
    "arena": "Ankara Spor Salonu",
-   "capacity": 10000
+   "capacity": 10400
   },
   "2027-01-09-bahcesehir-koleji-galatasaray-mct-technic": {
    "arena": "Sinan Erdem Spor Salonu",
@@ -789,7 +789,7 @@
   },
   "2027-01-23-turk-telekom-bursaspor-basketbol": {
    "arena": "Ankara Spor Salonu",
-   "capacity": 10000
+   "capacity": 10400
   },
   "2027-01-30-besiktas-turk-telekom": {
    "arena": "Turkcell Basketbol Gelişim Merkezi",
@@ -853,7 +853,7 @@
   },
   "2027-02-06-turk-telekom-pizzabulls-bordo-bandirma": {
    "arena": "Ankara Spor Salonu",
-   "capacity": 10000
+   "capacity": 10400
   },
   "2027-02-13-aliaga-petkim-spor-tofas": {
    "arena": "Enka Spor Salonu",
@@ -917,7 +917,7 @@
   },
   "2027-03-06-turk-telekom-esenler-erokspor": {
    "arena": "Ankara Spor Salonu",
-   "capacity": 10000
+   "capacity": 10400
   },
   "2027-03-13-aliaga-petkim-spor-trabzonspor": {
    "arena": "Enka Spor Salonu",
@@ -981,7 +981,7 @@
   },
   "2027-03-20-turk-telekom-aliaga-petkim-spor": {
    "arena": "Ankara Spor Salonu",
-   "capacity": 10000
+   "capacity": 10400
   },
   "2027-03-27-aliaga-petkim-spor-galatasaray-mct-technic": {
    "arena": "Enka Spor Salonu",
@@ -1045,7 +1045,7 @@
   },
   "2027-04-03-turk-telekom-anadolu-efes": {
    "arena": "Ankara Spor Salonu",
-   "capacity": 10000
+   "capacity": 10400
   },
   "2027-04-10-aliaga-petkim-spor-glint-cayirova-belediyesi": {
    "arena": "Enka Spor Salonu",
@@ -1109,7 +1109,7 @@
   },
   "2027-04-17-turk-telekom-fenerbahce-tarfin": {
    "arena": "Ankara Spor Salonu",
-   "capacity": 10000
+   "capacity": 10400
   },
   "2027-04-24-aliaga-petkim-spor-bursaspor-basketbol": {
    "arena": "Enka Spor Salonu",
@@ -1141,7 +1141,7 @@
   },
   "2027-04-24-turk-telekom-galatasaray-mct-technic": {
    "arena": "Ankara Spor Salonu",
-   "capacity": 10000
+   "capacity": 10400
   },
   "2027-05-01-bahcesehir-koleji-turk-telekom": {
    "arena": "Sinan Erdem Spor Salonu",
@@ -1205,7 +1205,7 @@
   },
   "2027-05-08-turk-telekom-glint-cayirova-belediyesi": {
    "arena": "Ankara Spor Salonu",
-   "capacity": 10000
+   "capacity": 10400
   }
  }
 }

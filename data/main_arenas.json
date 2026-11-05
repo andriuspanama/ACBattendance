@@ -1,6 +1,6 @@
 {
  "season": "2026-27",
- "updated": "2026-11-05T07:52:27+00:00",
+ "updated": "2026-11-05T20:38:03+00:00",
  "clubs": {
   "ADA Blois Basket 41": {
    "arena": "Le Jeu de Paume",
@@ -154,7 +154,7 @@
    "city": "Trento",
    "lat": 46.04098,
    "lon": 11.12275,
-   "capacity": 4000,
+   "capacity": 4360,
    "league": "LBA",
    "source": "games",
    "games": 3,
@@ -235,8 +235,8 @@
    "capacity": 2246,
    "league": "LKL",
    "source": "games",
-   "games": 4,
-   "of_games": 4,
+   "games": 5,
+   "of_games": 5,
    "league_name": "Jonava"
   },
   "BC Kalev/Cramo": {
@@ -589,8 +589,8 @@
    "capacity": 1500,
    "league": "Korisliiga",
    "source": "games",
-   "games": 4,
-   "of_games": 4,
+   "games": 5,
+   "of_games": 5,
    "league_name": "Bisons Loimaa"
   },
   "Bnei Herzliya": {
@@ -673,7 +673,7 @@
    "city": "Las Palmas de Gran Canaria",
    "lat": 28.10301,
    "lon": -15.45694,
-   "capacity": 9870,
+   "capacity": 10000,
    "league": "Other",
    "source": "sheet"
   },
@@ -742,8 +742,8 @@
    "capacity": 5300,
    "league": "NBL",
    "source": "games",
-   "games": 4,
-   "of_games": 4,
+   "games": 5,
+   "of_games": 5,
    "league_name": "Cairns Taipans"
   },
   "Cayirova Belediyespor": {
@@ -1576,8 +1576,8 @@
    "capacity": 3500,
    "league": "ABA",
    "source": "games",
-   "games": 3,
-   "of_games": 3,
+   "games": 4,
+   "of_games": 4,
    "league_name": "Spartak Office Shoes"
   },
   "KK Split": {
@@ -1772,7 +1772,7 @@
    "league": "Korisliiga",
    "source": "games",
    "games": 3,
-   "of_games": 3,
+   "of_games": 4,
    "league_name": "Kipinä Basket"
   },
   "Kobrat": {
@@ -1816,8 +1816,8 @@
    "capacity": 1700,
    "league": "Korisliiga",
    "source": "games",
-   "games": 4,
-   "of_games": 4,
+   "games": 5,
+   "of_games": 5,
    "league_name": "Korihait"
   },
   "Kouvot": {
@@ -2209,7 +2209,7 @@
    "city": "Piraeus",
    "lat": 37.9425,
    "lon": 23.66738,
-   "capacity": 12300,
+   "capacity": 12700,
    "league": "GBL",
    "source": "override"
   },
@@ -2452,8 +2452,8 @@
    "capacity": 2400,
    "league": "LEBL",
    "source": "games",
-   "games": 3,
-   "of_games": 4,
+   "games": 4,
+   "of_games": 5,
    "league_name": "Rigas Ekselences Juniori"
   },
   "Rigas Zelli": {
@@ -2788,8 +2788,8 @@
    "capacity": 1400,
    "league": "Korisliiga",
    "source": "games",
-   "games": 3,
-   "of_games": 3,
+   "games": 4,
+   "of_games": 4,
    "league_name": "Tampereen Pyrintö"
   },
   "Tapiolan Honka": {
@@ -2800,8 +2800,8 @@
    "capacity": 1570,
    "league": "Korisliiga",
    "source": "games",
-   "games": 4,
-   "of_games": 4,
+   "games": 5,
+   "of_games": 5,
    "league_name": "Tapiolan Honka"
   },
   "Tartu Ulikool": {
@@ -2890,7 +2890,7 @@
    "city": "Ankara",
    "lat": 39.93792,
    "lon": 32.84391,
-   "capacity": 10000,
+   "capacity": 10400,
    "league": "BSL",
    "source": "games",
    "games": 15,
