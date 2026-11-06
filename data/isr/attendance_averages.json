@@ -1,7 +1,7 @@
 {
   "league": "Winner League",
   "season": "2026-27",
-  "updated": "2026-11-06T07:00:29+00:00",
+  "updated": "2026-11-06T19:35:07+00:00",
   "clubs": [
     {
       "league": "Winner League",
@@ -55,15 +55,15 @@
       "league": "Winner League",
       "season": "2026-27",
       "club": "Hapoel Maoz Daniel Holon",
-      "home_games_counted": 2,
-      "average": 1925,
-      "total": 3850,
+      "home_games_counted": 3,
+      "average": 1700,
+      "total": 5100,
       "max": 2550,
-      "min": 1300,
+      "min": 1250,
       "arenas": [
         {
           "arena": "Toto Arena Holon",
-          "games": 2
+          "games": 3
         }
       ]
     },
