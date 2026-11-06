@@ -1,7 +1,7 @@
 {
  "league": "NBL",
  "season": "2026-27",
- "updated": "2026-11-05T20:38:03+00:00",
+ "updated": "2026-11-06T19:56:12+00:00",
  "clubs": [
   {
    "club": "Adelaide 36ers",
@@ -155,11 +155,11 @@
   },
   {
    "club": "Tasmania JackJumpers",
-   "home_games_counted": 6,
-   "games_with_capacity": 6,
+   "home_games_counted": 7,
+   "games_with_capacity": 7,
    "capacity": 4340,
-   "weighted_capacity": 4160,
-   "filling_rate": 0.9992,
+   "weighted_capacity": 4031,
+   "filling_rate": 0.9993,
    "arenas": [
     {
      "arena": "MyState Bank Arena",
@@ -168,14 +168,14 @@
     },
     {
      "arena": "Silverdome",
-     "games": 1,
+     "games": 2,
      "capacity": 3250
     }
    ]
   }
  ],
  "unknown_arenas": [],
- "last_attendance_game": "2026-11-05",
+ "last_attendance_game": "2026-11-06",
  "games": {
   "36dbeb55-58ad-11f1-a69b-43a6b5595d3e": {
    "arena": "John Cain Arena",
@@ -392,6 +392,10 @@
   "3723e003-58ad-11f1-b68b-09df0c3978fa": {
    "arena": "Cairns Convention Centre",
    "capacity": 5300
+  },
+  "3723d8e8-58ad-11f1-b04c-17c1a1f1f487": {
+   "arena": "Silverdome",
+   "capacity": 3250
   }
  }
 }

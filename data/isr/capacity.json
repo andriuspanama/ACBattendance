@@ -1,7 +1,7 @@
 {
  "league": "Winner League",
  "season": "2026-27",
- "updated": "2026-11-02T22:18:32+00:00",
+ "updated": "2026-11-06T19:56:12+00:00",
  "clubs": [
   {
    "club": "Bnei Penlink Herzliya",
@@ -95,15 +95,15 @@
   },
   {
    "club": "Hapoel Maoz Daniel Holon",
-   "home_games_counted": 2,
-   "games_with_capacity": 2,
+   "home_games_counted": 3,
+   "games_with_capacity": 3,
    "capacity": 5337,
    "weighted_capacity": 5337,
-   "filling_rate": 0.3607,
+   "filling_rate": 0.3185,
    "arenas": [
     {
      "arena": "Holon Toto Hall",
-     "games": 2,
+     "games": 3,
      "capacity": 5337
     }
    ]
@@ -200,7 +200,7 @@
   }
  ],
  "unknown_arenas": [],
- "last_attendance_game": "2026-11-02",
+ "last_attendance_game": "2026-11-06",
  "games": {
   "26646": {
    "arena": "Menora Mivtachim Arena",

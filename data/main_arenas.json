@@ -1,6 +1,6 @@
 {
  "season": "2026-27",
- "updated": "2026-11-06T07:53:07+00:00",
+ "updated": "2026-11-06T19:56:12+00:00",
  "clubs": {
   "ADA Blois Basket 41": {
    "arena": "Le Jeu de Paume",
@@ -2825,7 +2825,7 @@
    "league": "NBL",
    "source": "games",
    "games": 5,
-   "of_games": 6,
+   "of_games": 7,
    "league_name": "Tasmania JackJumpers"
   },
   "Telekom Baskets Bonn": {
