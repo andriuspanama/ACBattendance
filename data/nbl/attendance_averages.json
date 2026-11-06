@@ -1,7 +1,7 @@
 {
   "league": "NBL",
   "season": "2026-27",
-  "updated": "2026-11-06T06:59:12+00:00",
+  "updated": "2026-11-06T19:32:11+00:00",
   "clubs": [
     {
       "league": "NBL",
@@ -122,26 +122,6 @@
     {
       "league": "NBL",
       "season": "2026-27",
-      "club": "Tasmania JackJumpers",
-      "home_games_counted": 6,
-      "average": 4157,
-      "total": 24940,
-      "max": 4340,
-      "min": 3260,
-      "arenas": [
-        {
-          "arena": "MyState Bank Arena",
-          "games": 5
-        },
-        {
-          "arena": "Silverdome",
-          "games": 1
-        }
-      ]
-    },
-    {
-      "league": "NBL",
-      "season": "2026-27",
       "club": "Brisbane Bullets",
       "home_games_counted": 6,
       "average": 4064,
@@ -160,6 +140,26 @@
         {
           "arena": "Nissan Arena",
           "games": 1
+        }
+      ]
+    },
+    {
+      "league": "NBL",
+      "season": "2026-27",
+      "club": "Tasmania JackJumpers",
+      "home_games_counted": 7,
+      "average": 4029,
+      "total": 28200,
+      "max": 4340,
+      "min": 3260,
+      "arenas": [
+        {
+          "arena": "MyState Bank Arena",
+          "games": 5
+        },
+        {
+          "arena": "Silverdome",
+          "games": 2
         }
       ]
     },
