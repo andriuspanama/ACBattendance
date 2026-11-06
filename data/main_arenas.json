@@ -1,6 +1,6 @@
 {
  "season": "2026-27",
- "updated": "2026-11-05T20:38:03+00:00",
+ "updated": "2026-11-06T07:53:07+00:00",
  "clubs": {
   "ADA Blois Basket 41": {
    "arena": "Le Jeu de Paume",
@@ -565,7 +565,7 @@
    "capacity": 10000,
    "league": "BSL",
    "source": "games",
-   "games": 13,
+   "games": 14,
    "of_games": 15,
    "league_name": "Beşiktaş"
   },

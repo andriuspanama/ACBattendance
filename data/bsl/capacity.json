@@ -1,7 +1,7 @@
 {
  "league": "BSL",
  "season": "2026-27",
- "updated": "2026-11-05T20:38:03+00:00",
+ "updated": "2026-11-06T07:53:07+00:00",
  "clubs": [
   {
    "club": "Aliağa Petkim Spor",
@@ -488,8 +488,8 @@
    "capacity": 7500
   },
   "2026-11-15-besiktas-bursaspor-basketbol": {
-   "arena": "Beşiktaş Akatlar Spor Kompleksi",
-   "capacity": 3200
+   "arena": "Turkcell Basketbol Gelişim Merkezi",
+   "capacity": 10000
   },
   "2026-11-15-esenler-erokspor-bahcesehir-koleji": {
    "arena": "Beşiktaş Akatlar Spor Kompleksi",
