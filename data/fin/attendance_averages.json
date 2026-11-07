@@ -1,21 +1,21 @@
 {
   "league": "Korisliiga",
   "season": "2026-27",
-  "updated": "2026-11-07T06:12:42+00:00",
+  "updated": "2026-11-07T21:59:35+00:00",
   "clubs": [
     {
       "league": "Korisliiga",
       "season": "2026-27",
       "club": "Kauhajoki",
-      "home_games_counted": 3,
-      "average": 1475,
-      "total": 4426,
-      "max": 1511,
+      "home_games_counted": 4,
+      "average": 1534,
+      "total": 6137,
+      "max": 1711,
       "min": 1408,
       "arenas": [
         {
           "arena": "IKH Areena",
-          "games": 3
+          "games": 4
         }
       ]
     },
@@ -54,6 +54,26 @@
     {
       "league": "Korisliiga",
       "season": "2026-27",
+      "club": "Kipinä Basket",
+      "home_games_counted": 5,
+      "average": 1110,
+      "total": 5550,
+      "max": 1332,
+      "min": 845,
+      "arenas": [
+        {
+          "arena": "Äänekoski Areena Pankkari",
+          "games": 4
+        },
+        {
+          "arena": "Jyväskylän Monitoimitalo",
+          "games": 1
+        }
+      ]
+    },
+    {
+      "league": "Korisliiga",
+      "season": "2026-27",
       "club": "KTP-Basket",
       "home_games_counted": 3,
       "average": 1103,
@@ -64,26 +84,6 @@
         {
           "arena": "Steveco Areena",
           "games": 3
-        }
-      ]
-    },
-    {
-      "league": "Korisliiga",
-      "season": "2026-27",
-      "club": "Kipinä Basket",
-      "home_games_counted": 4,
-      "average": 1092,
-      "total": 4370,
-      "max": 1332,
-      "min": 845,
-      "arenas": [
-        {
-          "arena": "Äänekoski Areena Pankkari",
-          "games": 3
-        },
-        {
-          "arena": "Jyväskylän Monitoimitalo",
-          "games": 1
         }
       ]
     },
@@ -107,15 +107,15 @@
       "league": "Korisliiga",
       "season": "2026-27",
       "club": "Kataja Basket",
-      "home_games_counted": 3,
-      "average": 880,
-      "total": 2641,
+      "home_games_counted": 4,
+      "average": 882,
+      "total": 3527,
       "max": 945,
       "min": 812,
       "arenas": [
         {
           "arena": "Motonet Areena",
-          "games": 3
+          "games": 4
         }
       ]
     },
