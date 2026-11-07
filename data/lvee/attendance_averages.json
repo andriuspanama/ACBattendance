@@ -1,21 +1,21 @@
 {
   "league": "LEBL",
   "season": "2026-27",
-  "updated": "2026-11-07T13:18:42+00:00",
+  "updated": "2026-11-07T21:59:49+00:00",
   "clubs": [
     {
       "league": "LEBL",
       "season": "2026-27",
       "club": "Tartu Ülikool Maks & Moorits",
-      "home_games_counted": 3,
-      "average": 1518,
-      "total": 4555,
+      "home_games_counted": 4,
+      "average": 1519,
+      "total": 6076,
       "max": 1915,
       "min": 975,
       "arenas": [
         {
           "arena": "Tartu TÜ sph (Kullami peaväljak)",
-          "games": 3
+          "games": 4
         }
       ]
     },
@@ -75,15 +75,15 @@
       "league": "LEBL",
       "season": "2026-27",
       "club": "BK Ogre",
-      "home_games_counted": 4,
-      "average": 712,
-      "total": 2849,
+      "home_games_counted": 5,
+      "average": 676,
+      "total": 3379,
       "max": 1008,
       "min": 520,
       "arenas": [
         {
           "arena": "Sporta arena Ogre",
-          "games": 4
+          "games": 5
         }
       ]
     },
@@ -91,15 +91,15 @@
       "league": "LEBL",
       "season": "2026-27",
       "club": "BC Pärnu",
-      "home_games_counted": 4,
-      "average": 610,
-      "total": 2442,
+      "home_games_counted": 5,
+      "average": 611,
+      "total": 3054,
       "max": 814,
       "min": 512,
       "arenas": [
         {
           "arena": "Pärnu Spordihall",
-          "games": 4
+          "games": 5
         }
       ]
     },
@@ -138,26 +138,6 @@
     {
       "league": "LEBL",
       "season": "2026-27",
-      "club": "Rīgas Zeļļi",
-      "home_games_counted": 3,
-      "average": 452,
-      "total": 1356,
-      "max": 546,
-      "min": 351,
-      "arenas": [
-        {
-          "arena": "Komandas Sporta Spelu Halle",
-          "games": 2
-        },
-        {
-          "arena": "Daugavas sporta nams",
-          "games": 1
-        }
-      ]
-    },
-    {
-      "league": "LEBL",
-      "season": "2026-27",
       "club": "VEF Rīga",
       "home_games_counted": 5,
       "average": 452,
@@ -188,6 +168,26 @@
         {
           "arena": "Liepajas Olimpiskais centrs",
           "games": 5
+        }
+      ]
+    },
+    {
+      "league": "LEBL",
+      "season": "2026-27",
+      "club": "Rīgas Zeļļi",
+      "home_games_counted": 4,
+      "average": 436,
+      "total": 1745,
+      "max": 546,
+      "min": 351,
+      "arenas": [
+        {
+          "arena": "Komandas Sporta Spelu Halle",
+          "games": 3
+        },
+        {
+          "arena": "Daugavas sporta nams",
+          "games": 1
         }
       ]
     },
