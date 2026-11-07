@@ -1,21 +1,21 @@
 {
   "league": "BSL",
   "season": "2026-27",
-  "updated": "2026-11-07T12:55:58+00:00",
+  "updated": "2026-11-07T21:46:54+00:00",
   "clubs": [
     {
       "league": "BSL",
       "season": "2026-27",
       "club": "Türk Telekom",
-      "home_games_counted": 3,
-      "average": 5421,
-      "total": 16262,
+      "home_games_counted": 4,
+      "average": 5185,
+      "total": 20741,
       "max": 8768,
       "min": 3376,
       "arenas": [
         {
           "arena": "Ankara Spor Salonu",
-          "games": 3
+          "games": 4
         }
       ]
     },
@@ -54,6 +54,22 @@
     {
       "league": "BSL",
       "season": "2026-27",
+      "club": "Bursaspor Basketbol",
+      "home_games_counted": 4,
+      "average": 3236,
+      "total": 12943,
+      "max": 4680,
+      "min": 1740,
+      "arenas": [
+        {
+          "arena": "Tofaş Spor Salonu",
+          "games": 4
+        }
+      ]
+    },
+    {
+      "league": "BSL",
+      "season": "2026-27",
       "club": "Karşıyaka",
       "home_games_counted": 2,
       "average": 2762,
@@ -64,22 +80,6 @@
         {
           "arena": "Mustafa Kemal Atatürk Karşıyaka Spor Salonu",
           "games": 2
-        }
-      ]
-    },
-    {
-      "league": "BSL",
-      "season": "2026-27",
-      "club": "Bursaspor Basketbol",
-      "home_games_counted": 3,
-      "average": 2754,
-      "total": 8263,
-      "max": 4023,
-      "min": 1740,
-      "arenas": [
-        {
-          "arena": "Tofaş Spor Salonu",
-          "games": 3
         }
       ]
     },
@@ -134,22 +134,6 @@
     {
       "league": "BSL",
       "season": "2026-27",
-      "club": "Trabzonspor",
-      "home_games_counted": 3,
-      "average": 2219,
-      "total": 6657,
-      "max": 3194,
-      "min": 1335,
-      "arenas": [
-        {
-          "arena": "Hayri Gür Spor Salonu",
-          "games": 3
-        }
-      ]
-    },
-    {
-      "league": "BSL",
-      "season": "2026-27",
       "club": "Yukatel Denizli Basket",
       "home_games_counted": 3,
       "average": 2133,
@@ -160,6 +144,22 @@
         {
           "arena": "Pamukkale Üniversitesi Spor Salonu",
           "games": 3
+        }
+      ]
+    },
+    {
+      "league": "BSL",
+      "season": "2026-27",
+      "club": "Trabzonspor",
+      "home_games_counted": 4,
+      "average": 2102,
+      "total": 8408,
+      "max": 3194,
+      "min": 1335,
+      "arenas": [
+        {
+          "arena": "Hayri Gür Spor Salonu",
+          "games": 4
         }
       ]
     },
