@@ -1,4 +1,5 @@
 league,season,match_id,date,home,away,attendance,source_url,checked_at,attempts
+LKL,2026-27,0YhgbKyo,2026-11-07,Lietkabelis,Rytas,2136,https://www.flashscore.com/match/basketball/bc-rytas-d2OmwT1J/lietkabelis-vVYAjqNq/?mid=0YhgbKyo,2026-11-07T22:19:14+00:00,1
 LKL,2026-27,46sBO1Xa,2026-09-19,Taurage,Jonava,1780,https://www.flashscore.com/match/basketball/bc-jonava-pCTrYeo8/taurage-jZEoISJO/?mid=46sBO1Xa,2026-10-12T20:47:50+00:00,1
 LKL,2026-27,6gMrw1ng,2026-09-23,Siauliai,Lietkabelis,2116,https://www.flashscore.com/match/basketball/lietkabelis-vVYAjqNq/siauliai-xG6QEcED/?mid=6gMrw1ng,2026-10-12T20:48:31+00:00,1
 LKL,2026-27,8bteDgoK,2026-10-25,Juventus,Rytas,2244,https://www.flashscore.com/match/basketball/bc-rytas-d2OmwT1J/juventus-UylfCwh5/?mid=8bteDgoK,2026-10-26T01:28:54+00:00,2
@@ -21,6 +22,7 @@ LKL,2026-27,QafEteAr,2026-10-17,Siauliai,Rytas,2723,https://www.flashscore.com/m
 LKL,2026-27,Qi6NbfWQ,2026-10-18,Zalgiris Kaunas,Taurage,2750,https://www.flashscore.com/match/basketball/taurage-jZEoISJO/zalgiris-kaunas-6JbDYvUs/?mid=Qi6NbfWQ,2026-10-19T01:19:34+00:00,2
 LKL,2026-27,S4G6Pdzp,2026-11-05,Jonava,Rytas,941,https://www.flashscore.com/match/basketball/bc-jonava-pCTrYeo8/bc-rytas-d2OmwT1J/?mid=S4G6Pdzp,2026-11-05T20:18:01+00:00,1
 LKL,2026-27,StC9tzgo,2026-10-03,Jonava,Siauliai,712,https://www.flashscore.com/match/basketball/bc-jonava-pCTrYeo8/siauliai-xG6QEcED/?mid=StC9tzgo,2026-10-12T20:47:46+00:00,1
+LKL,2026-27,SvouMNTi,2026-11-07,Neptunas,Taurage,1904,https://www.flashscore.com/match/basketball/neptunas-pUCKb7F3/taurage-jZEoISJO/?mid=SvouMNTi,2026-11-07T22:19:17+00:00,1
 LKL,2026-27,UTl1nQt4,2026-10-04,Juventus,Taurage,1443,https://www.flashscore.com/match/basketball/juventus-UylfCwh5/taurage-jZEoISJO/?mid=UTl1nQt4,2026-10-12T20:48:27+00:00,1
 LKL,2026-27,YuOzuNHt,2026-09-22,Jonava,Nevezis,792,https://www.flashscore.com/match/basketball/bc-jonava-pCTrYeo8/nevezis-zgNixmHP/?mid=YuOzuNHt,2026-10-12T20:47:43+00:00,1
 LKL,2026-27,bRLwndVN,2026-10-03,Neptunas,Nevezis,1552,https://www.flashscore.com/match/basketball/neptunas-pUCKb7F3/nevezis-zgNixmHP/?mid=bRLwndVN,2026-10-12T20:48:42+00:00,1

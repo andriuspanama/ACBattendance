@@ -1,7 +1,7 @@
 {
   "league": "LKL",
   "season": "2026-27",
-  "updated": "2026-11-07T13:35:15+00:00",
+  "updated": "2026-11-07T22:19:17+00:00",
   "clubs": [
     {
       "league": "LKL",
@@ -27,9 +27,9 @@
       "league": "LKL",
       "season": "2026-27",
       "club": "Neptunas",
-      "home_games_counted": 4,
-      "average": 2434,
-      "total": 9738,
+      "home_games_counted": 5,
+      "average": 2328,
+      "total": 11642,
       "max": 4698,
       "min": 1552
     },
@@ -77,10 +77,10 @@
       "league": "LKL",
       "season": "2026-27",
       "club": "Lietkabelis",
-      "home_games_counted": 4,
-      "average": 1180,
-      "total": 4721,
-      "max": 1269,
+      "home_games_counted": 5,
+      "average": 1371,
+      "total": 6857,
+      "max": 2136,
       "min": 1009
     },
     {
