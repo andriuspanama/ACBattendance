@@ -1,6 +1,6 @@
 {
  "season": "2026-27",
- "updated": "2026-11-07T07:03:50+00:00",
+ "updated": "2026-11-07T13:56:17+00:00",
  "clubs": {
   "ADA Blois Basket 41": {
    "arena": "Le Jeu de Paume",
@@ -73,8 +73,8 @@
    "capacity": 10000,
    "league": "NBL",
    "source": "games",
-   "games": 4,
-   "of_games": 4,
+   "games": 5,
+   "of_games": 5,
    "league_name": "Adelaide 36ers"
   },
   "Aix Maurienne Savoie Basket AMSB": {
@@ -2041,8 +2041,8 @@
    "capacity": 10500,
    "league": "NBL",
    "source": "games",
-   "games": 5,
-   "of_games": 5,
+   "games": 6,
+   "of_games": 6,
    "league_name": "Melbourne United"
   },
   "Mersin MSK": {
@@ -2453,7 +2453,7 @@
    "league": "LEBL",
    "source": "games",
    "games": 4,
-   "of_games": 5,
+   "of_games": 6,
    "league_name": "Rigas Ekselences Juniori"
   },
   "Rigas Zelli": {

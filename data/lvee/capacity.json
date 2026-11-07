@@ -1,7 +1,7 @@
 {
  "league": "LEBL",
  "season": "2026-27",
- "updated": "2026-11-05T20:38:03+00:00",
+ "updated": "2026-11-07T13:56:17+00:00",
  "clubs": [
   {
    "club": "BC Pärnu",
@@ -130,11 +130,11 @@
   },
   {
    "club": "Rigas Ekselences Juniori",
-   "home_games_counted": 5,
-   "games_with_capacity": 5,
+   "home_games_counted": 6,
+   "games_with_capacity": 6,
    "capacity": 2400,
-   "weighted_capacity": 2120,
-   "filling_rate": 0.0632,
+   "weighted_capacity": 1933,
+   "filling_rate": 0.0702,
    "arenas": [
     {
      "arena": "Komandas Sporta Spelu Halle",
@@ -143,7 +143,7 @@
     },
     {
      "arena": "Daugavas sporta nams",
-     "games": 1,
+     "games": 2,
      "capacity": 1000
     }
    ]
@@ -255,7 +255,7 @@
   }
  ],
  "unknown_arenas": [],
- "last_attendance_game": "2026-11-05",
+ "last_attendance_game": "2026-11-07",
  "games": {
   "2027212141": {
    "arena": "Komandas Sporta Spelu Halle",
@@ -492,6 +492,10 @@
   "2027212144": {
    "arena": "Komandas Sporta Spelu Halle",
    "capacity": 2400
+  },
+  "2027212145": {
+   "arena": "Daugavas sporta nams",
+   "capacity": 1000
   }
  }
 }

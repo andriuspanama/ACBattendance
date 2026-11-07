@@ -1,19 +1,19 @@
 {
  "league": "NBL",
  "season": "2026-27",
- "updated": "2026-11-06T19:56:12+00:00",
+ "updated": "2026-11-07T13:56:17+00:00",
  "clubs": [
   {
    "club": "Adelaide 36ers",
-   "home_games_counted": 4,
-   "games_with_capacity": 4,
+   "home_games_counted": 5,
+   "games_with_capacity": 5,
    "capacity": 10000,
-   "weighted_capacity": 10039,
+   "weighted_capacity": 10034,
    "filling_rate": 1.0,
    "arenas": [
     {
      "arena": "Adelaide Entertainment Centre",
-     "games": 4,
+     "games": 5,
      "capacity": 10000
     }
    ]
@@ -75,15 +75,15 @@
   },
   {
    "club": "Melbourne United",
-   "home_games_counted": 5,
-   "games_with_capacity": 5,
+   "home_games_counted": 6,
+   "games_with_capacity": 6,
    "capacity": 10500,
    "weighted_capacity": 10500,
-   "filling_rate": 0.7082,
+   "filling_rate": 0.7047,
    "arenas": [
     {
      "arena": "John Cain Arena",
-     "games": 5,
+     "games": 6,
      "capacity": 10500
     }
    ]
@@ -175,7 +175,7 @@
   }
  ],
  "unknown_arenas": [],
- "last_attendance_game": "2026-11-06",
+ "last_attendance_game": "2026-11-07",
  "games": {
   "36dbeb55-58ad-11f1-a69b-43a6b5595d3e": {
    "arena": "John Cain Arena",
@@ -396,6 +396,14 @@
   "3723d8e8-58ad-11f1-b04c-17c1a1f1f487": {
    "arena": "Silverdome",
    "capacity": 3250
+  },
+  "3723d03c-58ad-11f1-9032-15ea51636534": {
+   "arena": "John Cain Arena",
+   "capacity": 10500
+  },
+  "37256511-58ad-11f1-b841-b5c487635207": {
+   "arena": "Adelaide Entertainment Centre",
+   "capacity": 10000
   }
  }
 }
