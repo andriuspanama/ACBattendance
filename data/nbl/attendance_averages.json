@@ -1,7 +1,7 @@
 {
   "league": "NBL",
   "season": "2026-27",
-  "updated": "2026-11-07T06:12:25+00:00",
+  "updated": "2026-11-07T13:16:39+00:00",
   "clubs": [
     {
       "league": "NBL",
@@ -23,15 +23,15 @@
       "league": "NBL",
       "season": "2026-27",
       "club": "Adelaide 36ers",
-      "home_games_counted": 4,
-      "average": 10039,
-      "total": 40155,
+      "home_games_counted": 5,
+      "average": 10034,
+      "total": 50171,
       "max": 10047,
-      "min": 10025,
+      "min": 10016,
       "arenas": [
         {
           "arena": "Adelaide Entertainment Centre",
-          "games": 4
+          "games": 5
         }
       ]
     },
@@ -75,15 +75,15 @@
       "league": "NBL",
       "season": "2026-27",
       "club": "Melbourne United",
-      "home_games_counted": 5,
-      "average": 7436,
-      "total": 37181,
+      "home_games_counted": 6,
+      "average": 7399,
+      "total": 44396,
       "max": 9679,
       "min": 1017,
       "arenas": [
         {
           "arena": "John Cain Arena",
-          "games": 5
+          "games": 6
         }
       ]
     },
