@@ -1,7 +1,7 @@
 {
   "league": "Korisliiga",
   "season": "2026-27",
-  "updated": "2026-11-06T06:59:27+00:00",
+  "updated": "2026-11-07T06:12:42+00:00",
   "clubs": [
     {
       "league": "Korisliiga",
@@ -123,15 +123,15 @@
       "league": "Korisliiga",
       "season": "2026-27",
       "club": "Helsinki Seagulls",
-      "home_games_counted": 4,
-      "average": 805,
-      "total": 3221,
+      "home_games_counted": 5,
+      "average": 822,
+      "total": 4110,
       "max": 925,
       "min": 725,
       "arenas": [
         {
           "arena": "Töölön Kisahalli",
-          "games": 4
+          "games": 5
         }
       ]
     },
