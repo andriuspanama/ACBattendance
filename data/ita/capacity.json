@@ -1,7 +1,7 @@
 {
  "league": "LBA",
  "season": "2026-27",
- "updated": "2026-11-05T20:38:03+00:00",
+ "updated": "2026-11-07T22:41:31+00:00",
  "clubs": [
   {
    "club": "Acqua S.Bernardo Cantù",
@@ -155,22 +155,22 @@
   },
   {
    "club": "UNA Hotels Reggio Emilia",
-   "home_games_counted": 3,
-   "games_with_capacity": 3,
+   "home_games_counted": 4,
+   "games_with_capacity": 4,
    "capacity": 4530,
    "weighted_capacity": 4530,
-   "filling_rate": 0.7642,
+   "filling_rate": 0.7752,
    "arenas": [
     {
      "arena": "PalaBigi",
-     "games": 3,
+     "games": 4,
      "capacity": 4530
     }
    ]
   }
  ],
  "unknown_arenas": [],
- "last_attendance_game": "2026-11-02",
+ "last_attendance_game": "2026-11-07",
  "games": {
   "25602": {
    "arena": "Palaverde",
@@ -363,6 +363,10 @@
   "25406": {
    "arena": "PalaDesio",
    "capacity": 6500
+  },
+  "25414": {
+   "arena": "PalaBigi",
+   "capacity": 4530
   }
  }
 }

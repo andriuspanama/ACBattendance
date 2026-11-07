@@ -1,7 +1,7 @@
 {
  "league": "PLK",
  "season": "2026-27",
- "updated": "2026-11-07T07:03:50+00:00",
+ "updated": "2026-11-07T22:41:31+00:00",
  "clubs": [
   {
    "club": "AMW Arka Gdynia",
@@ -180,15 +180,15 @@
   },
   {
    "club": "MKS Dąbrowa Górnicza",
-   "home_games_counted": 3,
-   "games_with_capacity": 3,
+   "home_games_counted": 4,
+   "games_with_capacity": 4,
    "capacity": 2944,
    "weighted_capacity": 2944,
-   "filling_rate": 0.6643,
+   "filling_rate": 0.7166,
    "arenas": [
     {
      "arena": "HWS Centrum im.Z.Cybulskiego",
-     "games": 3,
+     "games": 4,
      "capacity": 2944
     }
    ]
@@ -225,15 +225,15 @@
   },
   {
    "club": "WKS Śląsk Wrocław",
-   "home_games_counted": 1,
-   "games_with_capacity": 1,
+   "home_games_counted": 2,
+   "games_with_capacity": 2,
    "capacity": 3000,
    "weighted_capacity": 3000,
-   "filling_rate": 0.952,
+   "filling_rate": 0.9313,
    "arenas": [
     {
      "arena": "Hala Orbita",
-     "games": 1,
+     "games": 2,
      "capacity": 3000
     }
    ]
@@ -255,7 +255,7 @@
   }
  ],
  "unknown_arenas": [],
- "last_attendance_game": "2026-11-06",
+ "last_attendance_game": "2026-11-07",
  "games": {
   "223465": {
    "arena": "Hala Sportowa 100-lecia Sopotu",
@@ -404,6 +404,14 @@
   "223506": {
    "arena": "Grupa Moderator Arena",
    "capacity": 1475
+  },
+  "223505": {
+   "arena": "HWS Centrum im.Z.Cybulskiego",
+   "capacity": 2944
+  },
+  "223508": {
+   "arena": "Hala Orbita",
+   "capacity": 3000
   }
  }
 }

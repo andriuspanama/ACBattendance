@@ -1,7 +1,7 @@
 {
  "league": "LKL",
  "season": "2026-27",
- "updated": "2026-11-05T20:38:03+00:00",
+ "updated": "2026-11-07T22:41:31+00:00",
  "clubs": [
   {
    "club": "Gargzdai",
@@ -50,30 +50,30 @@
   },
   {
    "club": "Lietkabelis",
-   "home_games_counted": 4,
-   "games_with_capacity": 4,
+   "home_games_counted": 5,
+   "games_with_capacity": 5,
    "capacity": 5600,
    "weighted_capacity": 5600,
-   "filling_rate": 0.2108,
+   "filling_rate": 0.2449,
    "arenas": [
     {
      "arena": "Kalnapilio arena",
-     "games": 4,
+     "games": 5,
      "capacity": 5600
     }
    ]
   },
   {
    "club": "Neptunas",
-   "home_games_counted": 4,
-   "games_with_capacity": 4,
+   "home_games_counted": 5,
+   "games_with_capacity": 5,
    "capacity": 6200,
    "weighted_capacity": 6200,
-   "filling_rate": 0.3927,
+   "filling_rate": 0.3755,
    "arenas": [
     {
      "arena": "Švyturio arena",
-     "games": 4,
+     "games": 5,
      "capacity": 6200
     }
    ]
@@ -155,8 +155,12 @@
   }
  ],
  "unknown_arenas": [],
- "last_attendance_game": "2026-11-05",
+ "last_attendance_game": "2026-11-07",
  "games": {
+  "0YhgbKyo": {
+   "arena": "Kalnapilio arena",
+   "capacity": 5600
+  },
   "46sBO1Xa": {
    "arena": "Tauragės Arena",
    "capacity": 1800
@@ -244,6 +248,10 @@
   "StC9tzgo": {
    "arena": "Jonavos sporto arena",
    "capacity": 2246
+  },
+  "SvouMNTi": {
+   "arena": "Švyturio arena",
+   "capacity": 6200
   },
   "UTl1nQt4": {
    "arena": "Utenos daugiafunkcis sporto centras",

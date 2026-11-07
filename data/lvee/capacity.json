@@ -1,19 +1,19 @@
 {
  "league": "LEBL",
  "season": "2026-27",
- "updated": "2026-11-07T13:56:17+00:00",
+ "updated": "2026-11-07T22:41:31+00:00",
  "clubs": [
   {
    "club": "BC Pärnu",
-   "home_games_counted": 4,
-   "games_with_capacity": 4,
+   "home_games_counted": 5,
+   "games_with_capacity": 5,
    "capacity": 1820,
    "weighted_capacity": 1820,
-   "filling_rate": 0.3354,
+   "filling_rate": 0.3356,
    "arenas": [
     {
      "arena": "Pärnu Spordihall",
-     "games": 4,
+     "games": 5,
      "capacity": 1820
     }
    ]
@@ -35,15 +35,15 @@
   },
   {
    "club": "BK Ogre",
-   "home_games_counted": 4,
-   "games_with_capacity": 4,
+   "home_games_counted": 5,
+   "games_with_capacity": 5,
    "capacity": 1700,
    "weighted_capacity": 1700,
-   "filling_rate": 0.419,
+   "filling_rate": 0.3975,
    "arenas": [
     {
      "arena": "Sporta arena Ogre",
-     "games": 4,
+     "games": 5,
      "capacity": 1700
     }
    ]
@@ -150,15 +150,15 @@
   },
   {
    "club": "Rīgas Zeļļi",
-   "home_games_counted": 3,
-   "games_with_capacity": 3,
+   "home_games_counted": 4,
+   "games_with_capacity": 4,
    "capacity": 2400,
-   "weighted_capacity": 1933,
-   "filling_rate": 0.2338,
+   "weighted_capacity": 2050,
+   "filling_rate": 0.2128,
    "arenas": [
     {
      "arena": "Komandas Sporta Spelu Halle",
-     "games": 2,
+     "games": 3,
      "capacity": 2400
     },
     {
@@ -185,15 +185,15 @@
   },
   {
    "club": "Tartu Ülikool Maks & Moorits",
-   "home_games_counted": 3,
-   "games_with_capacity": 3,
+   "home_games_counted": 4,
+   "games_with_capacity": 4,
    "capacity": 2600,
    "weighted_capacity": 2600,
-   "filling_rate": 0.584,
+   "filling_rate": 0.5842,
    "arenas": [
     {
      "arena": "Tartu, TÜ sph (Kullami peaväljak)",
-     "games": 3,
+     "games": 4,
      "capacity": 2600
     }
    ]
@@ -493,9 +493,25 @@
    "arena": "Komandas Sporta Spelu Halle",
    "capacity": 2400
   },
+  "2027212018": {
+   "arena": "Tartu, TÜ sph (Kullami peaväljak)",
+   "capacity": 2600
+  },
+  "2027212047": {
+   "arena": "Pärnu Spordihall",
+   "capacity": 1820
+  },
+  "2027212089": {
+   "arena": "Sporta arena Ogre",
+   "capacity": 1700
+  },
   "2027212145": {
    "arena": "Daugavas sporta nams",
    "capacity": 1000
+  },
+  "2027212701": {
+   "arena": "Komandas Sporta Spelu Halle",
+   "capacity": 2400
   }
  }
 }

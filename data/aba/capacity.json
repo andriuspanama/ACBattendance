@@ -1,7 +1,7 @@
 {
  "league": "ABA",
  "season": "2026-27",
- "updated": "2026-11-05T20:38:03+00:00",
+ "updated": "2026-11-07T22:41:31+00:00",
  "clubs": [
   {
    "club": "BC Vienna",
@@ -20,15 +20,15 @@
   },
   {
    "club": "Borac Mozzart",
-   "home_games_counted": 2,
-   "games_with_capacity": 2,
+   "home_games_counted": 3,
+   "games_with_capacity": 3,
    "capacity": 4260,
    "weighted_capacity": 4260,
-   "filling_rate": 0.1995,
+   "filling_rate": 0.2034,
    "arenas": [
     {
      "arena": "Dvorana Borac",
-     "games": 2,
+     "games": 3,
      "capacity": 4260
     }
    ]
@@ -130,15 +130,15 @@
   },
   {
    "club": "FMP",
-   "home_games_counted": 2,
-   "games_with_capacity": 2,
+   "home_games_counted": 3,
+   "games_with_capacity": 3,
    "capacity": 3000,
    "weighted_capacity": 3000,
-   "filling_rate": 0.3155,
+   "filling_rate": 0.2603,
    "arenas": [
     {
      "arena": "Arena KK FMP",
-     "games": 2,
+     "games": 3,
      "capacity": 3000
     }
    ]
@@ -175,15 +175,15 @@
   },
   {
    "club": "Krka",
-   "home_games_counted": 3,
-   "games_with_capacity": 3,
+   "home_games_counted": 4,
+   "games_with_capacity": 4,
    "capacity": 2500,
    "weighted_capacity": 2500,
-   "filling_rate": 0.36,
+   "filling_rate": 0.35,
    "arenas": [
     {
      "arena": "ŠD Leona Štuklja Novo Mesto",
-     "games": 3,
+     "games": 4,
      "capacity": 2500
     }
    ]
@@ -225,15 +225,15 @@
   },
   {
    "club": "Perspektiva Ilirija",
-   "home_games_counted": 2,
-   "games_with_capacity": 2,
+   "home_games_counted": 3,
+   "games_with_capacity": 3,
    "capacity": 4500,
    "weighted_capacity": 4500,
-   "filling_rate": 0.0778,
+   "filling_rate": 0.0741,
    "arenas": [
     {
      "arena": "Mala dvorana Tivoli",
-     "games": 2,
+     "games": 3,
      "capacity": 4500
     }
    ]
@@ -320,7 +320,7 @@
   }
  ],
  "unknown_arenas": [],
- "last_attendance_game": "2026-11-05",
+ "last_attendance_game": "2026-11-07",
  "games": {
   "13": {
    "arena": "ŠD Leona Štuklja Novo Mesto",
@@ -525,6 +525,22 @@
   "69": {
    "arena": "Hala Sportova Dudova šuma",
    "capacity": 3500
+  },
+  "62": {
+   "arena": "Arena KK FMP",
+   "capacity": 3000
+  },
+  "63": {
+   "arena": "Dvorana Borac",
+   "capacity": 4260
+  },
+  "65": {
+   "arena": "ŠD Leona Štuklja Novo Mesto",
+   "capacity": 2500
+  },
+  "70": {
+   "arena": "Mala dvorana Tivoli",
+   "capacity": 4500
   }
  }
 }

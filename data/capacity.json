@@ -1,7 +1,7 @@
 {
  "league": "ACB",
  "season": "2026-27",
- "updated": "2026-11-01T22:45:51+00:00",
+ "updated": "2026-11-07T22:41:31+00:00",
  "clubs": [
   {
    "club": "Asisa Joventut",
@@ -50,15 +50,15 @@
   },
   {
    "club": "Fiatc Girona",
-   "home_games_counted": 3,
-   "games_with_capacity": 3,
+   "home_games_counted": 4,
+   "games_with_capacity": 4,
    "capacity": 5750,
    "weighted_capacity": 5750,
-   "filling_rate": 0.7918,
+   "filling_rate": 0.8059,
    "arenas": [
     {
      "arena": "Palau Girona-Fontajau",
-     "games": 3,
+     "games": 4,
      "capacity": 5750
     }
    ]
@@ -80,15 +80,15 @@
   },
   {
    "club": "Kidsandus Manresa",
-   "home_games_counted": 3,
-   "games_with_capacity": 3,
+   "home_games_counted": 4,
+   "games_with_capacity": 4,
    "capacity": 5000,
    "weighted_capacity": 5000,
-   "filling_rate": 0.9134,
+   "filling_rate": 0.9194,
    "arenas": [
     {
      "arena": "Pavelló Nou Congost",
-     "games": 3,
+     "games": 4,
      "capacity": 5000
     }
    ]
@@ -275,7 +275,7 @@
   }
  ],
  "unknown_arenas": [],
- "last_attendance_game": "2026-11-01",
+ "last_attendance_game": "2026-11-07",
  "games": {
   "105375": {
    "arena": "Bilbao Arena",

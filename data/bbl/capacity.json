@@ -1,7 +1,7 @@
 {
  "league": "BBL",
  "season": "2026-27",
- "updated": "2026-11-07T07:03:50+00:00",
+ "updated": "2026-11-07T22:41:31+00:00",
  "clubs": [
   {
    "club": "ALBA BERLIN",
@@ -155,30 +155,30 @@
   },
   {
    "club": "RASTA Vechta",
-   "home_games_counted": 4,
-   "games_with_capacity": 4,
+   "home_games_counted": 5,
+   "games_with_capacity": 5,
    "capacity": 3140,
    "weighted_capacity": 3140,
-   "filling_rate": 0.9568,
+   "filling_rate": 0.9654,
    "arenas": [
     {
      "arena": "RASTA Dome",
-     "games": 4,
+     "games": 5,
      "capacity": 3140
     }
    ]
   },
   {
    "club": "ROSTOCK SEAWOLVES",
-   "home_games_counted": 3,
-   "games_with_capacity": 3,
+   "home_games_counted": 4,
+   "games_with_capacity": 4,
    "capacity": 5000,
    "weighted_capacity": 5000,
-   "filling_rate": 0.7945,
+   "filling_rate": 0.8076,
    "arenas": [
     {
      "arena": "StadtHalle Rostock",
-     "games": 3,
+     "games": 4,
      "capacity": 5000
     }
    ]
@@ -245,15 +245,15 @@
   },
   {
    "club": "VET-CONCEPT Gladiators Trier",
-   "home_games_counted": 3,
-   "games_with_capacity": 3,
+   "home_games_counted": 4,
+   "games_with_capacity": 4,
    "capacity": 5400,
-   "weighted_capacity": 5400,
+   "weighted_capacity": 5442,
    "filling_rate": 1.0,
    "arenas": [
     {
      "arena": "SWT-Arena",
-     "games": 3,
+     "games": 4,
      "capacity": 5400
     }
    ]
@@ -290,7 +290,7 @@
   }
  ],
  "unknown_arenas": [],
- "last_attendance_game": "2026-11-06",
+ "last_attendance_game": "2026-11-07",
  "games": {
   "2006920": {
    "arena": "Uber Arena",
@@ -539,6 +539,22 @@
   "2006857": {
    "arena": "Uber Arena",
    "capacity": 13488
+  },
+  "2006856": {
+   "arena": "RASTA Dome",
+   "capacity": 3140
+  },
+  "2006858": {
+   "arena": "StadtHalle Rostock",
+   "capacity": 5000
+  },
+  "2006859": {
+   "arena": "Telekom Dome Bonn",
+   "capacity": 6000
+  },
+  "2006860": {
+   "arena": "SWT-Arena",
+   "capacity": 5400
   }
  }
 }

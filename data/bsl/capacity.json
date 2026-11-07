@@ -1,7 +1,7 @@
 {
  "league": "BSL",
  "season": "2026-27",
- "updated": "2026-11-06T07:53:07+00:00",
+ "updated": "2026-11-07T22:41:31+00:00",
  "clubs": [
   {
    "club": "Aliağa Petkim Spor",
@@ -80,15 +80,15 @@
   },
   {
    "club": "Bursaspor Basketbol",
-   "home_games_counted": 3,
-   "games_with_capacity": 3,
+   "home_games_counted": 4,
+   "games_with_capacity": 4,
    "capacity": 7500,
    "weighted_capacity": 7500,
-   "filling_rate": 0.3672,
+   "filling_rate": 0.4314,
    "arenas": [
     {
      "arena": "Tofaş Spor Salonu",
-     "games": 3,
+     "games": 4,
      "capacity": 7500
     }
    ]
@@ -200,30 +200,30 @@
   },
   {
    "club": "Trabzonspor",
-   "home_games_counted": 3,
-   "games_with_capacity": 3,
+   "home_games_counted": 4,
+   "games_with_capacity": 4,
    "capacity": 7500,
    "weighted_capacity": 7500,
-   "filling_rate": 0.2959,
+   "filling_rate": 0.2803,
    "arenas": [
     {
      "arena": "Hayri Gür Spor Salonu",
-     "games": 3,
+     "games": 4,
      "capacity": 7500
     }
    ]
   },
   {
    "club": "Türk Telekom",
-   "home_games_counted": 3,
-   "games_with_capacity": 3,
+   "home_games_counted": 4,
+   "games_with_capacity": 4,
    "capacity": 10400,
    "weighted_capacity": 10400,
-   "filling_rate": 0.5212,
+   "filling_rate": 0.4986,
    "arenas": [
     {
      "arena": "Ankara Spor Salonu",
-     "games": 3,
+     "games": 4,
      "capacity": 10400
     }
    ]
@@ -245,7 +245,7 @@
   }
  ],
  "unknown_arenas": [],
- "last_attendance_game": "2026-11-02",
+ "last_attendance_game": "2026-11-07",
  "games": {
   "2026-09-25-tofas-pizzabulls-bordo-bandirma": {
    "arena": "Tofaş Spor Salonu",
