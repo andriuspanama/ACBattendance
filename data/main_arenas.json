@@ -1,6 +1,6 @@
 {
  "season": "2026-27",
- "updated": "2026-11-06T19:56:12+00:00",
+ "updated": "2026-11-07T07:03:50+00:00",
  "clubs": {
   "ADA Blois Basket 41": {
    "arena": "Le Jeu de Paume",
@@ -103,9 +103,9 @@
    "capacity": 13488,
    "league": "BBL",
    "source": "games",
-   "games": 4,
-   "of_games": 4,
-   "league_name": "ALBA BERLIN"
+   "games": 1,
+   "of_games": 1,
+   "league_name": "ALBA Berlin"
   },
   "Alliance Sport Alsace ASA": {
    "arena": "Espace Sport La Forêt",
@@ -193,8 +193,8 @@
    "capacity": 1475,
    "league": "PLK",
    "source": "games",
-   "games": 2,
-   "of_games": 2,
+   "games": 3,
+   "of_games": 3,
    "league_name": "Enea Łaciate Astoria Bydgoszcz"
   },
   "Atomeromu Paks": {
@@ -1273,8 +1273,8 @@
    "capacity": 1600,
    "league": "Korisliiga",
    "source": "games",
-   "games": 4,
-   "of_games": 4,
+   "games": 5,
+   "of_games": 5,
    "league_name": "Helsinki Seagulls"
   },
   "Hermine Nantes Basket": {
@@ -3120,6 +3120,7 @@
   },
   "BBL": {
    "ALBA BERLIN": "Alba Berlin",
+   "ALBA Berlin": "Alba Berlin",
    "BMA365 Bamberg Baskets": "Bamberg Baskets",
    "Basketball Löwen Braunschweig": "Lowen Braunschweig",
    "EWE Baskets Oldenburg": "EWE Baskets Oldenburg",

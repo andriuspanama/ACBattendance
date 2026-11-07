@@ -1,7 +1,7 @@
 {
  "league": "Korisliiga",
  "season": "2026-27",
- "updated": "2026-11-05T20:38:03+00:00",
+ "updated": "2026-11-07T07:03:50+00:00",
  "clubs": [
   {
    "club": "Bisons Loimaa",
@@ -20,15 +20,15 @@
   },
   {
    "club": "Helsinki Seagulls",
-   "home_games_counted": 4,
-   "games_with_capacity": 4,
+   "home_games_counted": 5,
+   "games_with_capacity": 5,
    "capacity": 1600,
    "weighted_capacity": 1600,
-   "filling_rate": 0.5033,
+   "filling_rate": 0.5138,
    "arenas": [
     {
      "arena": "Töölön Kisahalli",
-     "games": 4,
+     "games": 5,
      "capacity": 1600
     }
    ]
@@ -190,7 +190,7 @@
   }
  ],
  "unknown_arenas": [],
- "last_attendance_game": "2026-11-04",
+ "last_attendance_game": "2026-11-06",
  "games": {
   "44cfe520-a1e7-11f1-8d0e-4fe1f25b2942": {
    "arena": "Motonet Areena",
@@ -403,6 +403,10 @@
   "98ebd4da-a1e7-11f1-a046-c51501e81e9a": {
    "arena": "Jyväskylän Monitoimitalo",
    "capacity": 1320
+  },
+  "99e1cddb-a1e7-11f1-bf3b-5974580ffbf0": {
+   "arena": "Töölön Kisahalli",
+   "capacity": 1600
   }
  }
 }
