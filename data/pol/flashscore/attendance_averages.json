@@ -1,10 +1,10 @@
 {
   "league": "PLK",
   "season": "2026-27",
-  "updated": "2026-11-07T13:37:25+00:00",
+  "updated": "2026-11-07T22:22:56+00:00",
   "games": {
-    "checked": 41,
-    "with_attendance": 41
+    "checked": 44,
+    "with_attendance": 44
   },
   "clubs": [
     {
@@ -51,11 +51,11 @@
       "league": "PLK",
       "season": "2026-27",
       "club": "Slask Wroclaw",
-      "home_games_counted": 1,
-      "average": 2856,
-      "total": 2856,
+      "home_games_counted": 2,
+      "average": 2794,
+      "total": 5588,
       "max": 2856,
-      "min": 2856
+      "min": 2732
     },
     {
       "league": "PLK",
@@ -81,10 +81,10 @@
       "league": "PLK",
       "season": "2026-27",
       "club": "Dabrowa Gornicza",
-      "home_games_counted": 3,
-      "average": 1956,
-      "total": 5867,
-      "max": 2003,
+      "home_games_counted": 4,
+      "average": 2110,
+      "total": 8439,
+      "max": 2572,
       "min": 1895
     },
     {
@@ -151,10 +151,10 @@
       "league": "PLK",
       "season": "2026-27",
       "club": "Dziki Warszawa",
-      "home_games_counted": 2,
-      "average": 1234,
-      "total": 2467,
-      "max": 1237,
+      "home_games_counted": 3,
+      "average": 1235,
+      "total": 3706,
+      "max": 1239,
       "min": 1230
     },
     {

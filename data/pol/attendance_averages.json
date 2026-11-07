@@ -1,7 +1,7 @@
 {
   "league": "PLK",
   "season": "2026-27",
-  "updated": "2026-11-07T13:37:33+00:00",
+  "updated": "2026-11-07T22:23:05+00:00",
   "clubs": [
     {
       "league": "PLK",
@@ -91,15 +91,15 @@
       "league": "PLK",
       "season": "2026-27",
       "club": "WKS Śląsk Wrocław",
-      "home_games_counted": 1,
-      "average": 2856,
-      "total": 2856,
+      "home_games_counted": 2,
+      "average": 2794,
+      "total": 5588,
       "max": 2856,
-      "min": 2856,
+      "min": 2732,
       "arenas": [
         {
           "arena": "Hala Orbita",
-          "games": 1
+          "games": 2
         }
       ]
     },
@@ -123,15 +123,15 @@
       "league": "PLK",
       "season": "2026-27",
       "club": "MKS Dąbrowa Górnicza",
-      "home_games_counted": 3,
-      "average": 1956,
-      "total": 5867,
-      "max": 2003,
+      "home_games_counted": 4,
+      "average": 2110,
+      "total": 8439,
+      "max": 2572,
       "min": 1895,
       "arenas": [
         {
           "arena": "HWS Centrum im.Z.Cybulskiego",
-          "games": 3
+          "games": 4
         }
       ]
     },
