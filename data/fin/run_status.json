@@ -1,10 +1,10 @@
 {
  "league": "Korisliiga",
  "source": "basket.fi (Sportradar)",
- "ok": true,
- "error": "",
+ "ok": false,
+ "error": "klaida skaitant svetainę: svetainė nepasiekiama arba neatsako",
  "notes": [],
  "last_ok": "2026-11-07T06:12:42+00:00",
  "last_new_attendance": "2026-11-07T06:12:42+00:00",
- "run_at": "2026-11-07T06:12:42+00:00"
+ "run_at": "2026-11-07T13:18:25+00:00"
 }
