@@ -1,7 +1,7 @@
 {
   "league": "PLK",
   "season": "2026-27",
-  "updated": "2026-11-06T19:44:13+00:00",
+  "updated": "2026-11-07T06:39:33+00:00",
   "clubs": [
     {
       "league": "PLK",
@@ -207,15 +207,15 @@
       "league": "PLK",
       "season": "2026-27",
       "club": "Enea Łaciate Astoria Bydgoszcz",
-      "home_games_counted": 2,
+      "home_games_counted": 3,
       "average": 1479,
-      "total": 2958,
+      "total": 4437,
       "max": 1479,
       "min": 1479,
       "arenas": [
         {
           "arena": "Grupa Moderator Arena",
-          "games": 2
+          "games": 3
         }
       ]
     },

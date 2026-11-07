@@ -1,10 +1,10 @@
 {
   "league": "PLK",
   "season": "2026-27",
-  "updated": "2026-11-06T19:44:06+00:00",
+  "updated": "2026-11-07T06:39:24+00:00",
   "games": {
-    "checked": 40,
-    "with_attendance": 40
+    "checked": 41,
+    "with_attendance": 41
   },
   "clubs": [
     {
@@ -131,9 +131,9 @@
       "league": "PLK",
       "season": "2026-27",
       "club": "Bydgoszcz",
-      "home_games_counted": 2,
+      "home_games_counted": 3,
       "average": 1479,
-      "total": 2958,
+      "total": 4437,
       "max": 1479,
       "min": 1479
     },
