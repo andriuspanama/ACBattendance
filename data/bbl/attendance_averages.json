@@ -1,7 +1,7 @@
 {
   "league": "BBL",
   "season": "2026-27",
-  "updated": "2026-11-06T19:35:53+00:00",
+  "updated": "2026-11-07T06:18:26+00:00",
   "clubs": [
     {
       "league": "BBL",
@@ -306,6 +306,23 @@
           "arena": "Stadthalle Weißenfels",
           "games": 3,
           "capacity": 3000
+        }
+      ]
+    },
+    {
+      "league": "BBL",
+      "season": "2026-27",
+      "club": "ALBA Berlin",
+      "home_games_counted": 1,
+      "average": 9,
+      "total": 9,
+      "max": 9,
+      "min": 9,
+      "arenas": [
+        {
+          "arena": "Uber Arena",
+          "games": 1,
+          "capacity": 13488
         }
       ]
     }
