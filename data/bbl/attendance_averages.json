@@ -1,7 +1,7 @@
 {
   "league": "BBL",
   "season": "2026-27",
-  "updated": "2026-11-07T13:22:41+00:00",
+  "updated": "2026-11-07T22:06:43+00:00",
   "clubs": [
     {
       "league": "BBL",
@@ -40,6 +40,23 @@
     {
       "league": "BBL",
       "season": "2026-27",
+      "club": "VET-CONCEPT Gladiators Trier",
+      "home_games_counted": 4,
+      "average": 5442,
+      "total": 21770,
+      "max": 5570,
+      "min": 5400,
+      "arenas": [
+        {
+          "arena": "SWT-Arena",
+          "games": 4,
+          "capacity": 5400
+        }
+      ]
+    },
+    {
+      "league": "BBL",
+      "season": "2026-27",
       "club": "Telekom Baskets Bonn",
       "home_games_counted": 4,
       "average": 5409,
@@ -51,23 +68,6 @@
           "arena": "Telekom Dome Bonn",
           "games": 4,
           "capacity": 6000
-        }
-      ]
-    },
-    {
-      "league": "BBL",
-      "season": "2026-27",
-      "club": "VET-CONCEPT Gladiators Trier",
-      "home_games_counted": 3,
-      "average": 5400,
-      "total": 16200,
-      "max": 5400,
-      "min": 5400,
-      "arenas": [
-        {
-          "arena": "SWT-Arena",
-          "games": 3,
-          "capacity": 5400
         }
       ]
     },
@@ -143,15 +143,15 @@
       "league": "BBL",
       "season": "2026-27",
       "club": "ROSTOCK SEAWOLVES",
-      "home_games_counted": 3,
-      "average": 3972,
-      "total": 11917,
+      "home_games_counted": 4,
+      "average": 4038,
+      "total": 16152,
       "max": 4563,
       "min": 3632,
       "arenas": [
         {
           "arena": "StadtHalle Rostock",
-          "games": 3,
+          "games": 4,
           "capacity": 5000
         }
       ]
@@ -211,15 +211,15 @@
       "league": "BBL",
       "season": "2026-27",
       "club": "RASTA Vechta",
-      "home_games_counted": 4,
-      "average": 3004,
-      "total": 12017,
+      "home_games_counted": 5,
+      "average": 3031,
+      "total": 15157,
       "max": 3140,
       "min": 2888,
       "arenas": [
         {
           "arena": "RASTA Dome",
-          "games": 4,
+          "games": 5,
           "capacity": 3140
         }
       ]
