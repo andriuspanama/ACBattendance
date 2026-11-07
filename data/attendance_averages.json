@@ -1,7 +1,7 @@
 {
   "league": "ACB",
   "season": "2026-27",
-  "updated": "2026-11-07T13:02:41+00:00",
+  "updated": "2026-11-07T21:52:13+00:00",
   "clubs": [
     {
       "league": "ACB",
@@ -136,22 +136,22 @@
     {
       "league": "ACB",
       "season": "2026-27",
-      "club": "Kidsandus Manresa",
-      "home_games_counted": 3,
-      "average": 4567,
-      "total": 13701,
-      "max": 4806,
-      "min": 4210
+      "club": "Fiatc Girona",
+      "home_games_counted": 4,
+      "average": 4634,
+      "total": 18535,
+      "max": 4876,
+      "min": 4367
     },
     {
       "league": "ACB",
       "season": "2026-27",
-      "club": "Fiatc Girona",
-      "home_games_counted": 3,
-      "average": 4553,
-      "total": 13659,
-      "max": 4714,
-      "min": 4367
+      "club": "Kidsandus Manresa",
+      "home_games_counted": 4,
+      "average": 4597,
+      "total": 18387,
+      "max": 4806,
+      "min": 4210
     },
     {
       "league": "ACB",
