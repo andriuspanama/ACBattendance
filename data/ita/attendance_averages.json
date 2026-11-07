@@ -1,7 +1,7 @@
 {
   "league": "LBA",
   "season": "2026-27",
-  "updated": "2026-11-07T13:19:19+00:00",
+  "updated": "2026-11-07T22:00:35+00:00",
   "clubs": [
     {
       "league": "LBA",
@@ -119,15 +119,15 @@
       "league": "LBA",
       "season": "2026-27",
       "club": "UNA Hotels Reggio Emilia",
-      "home_games_counted": 3,
-      "average": 3462,
-      "total": 10386,
-      "max": 3556,
+      "home_games_counted": 4,
+      "average": 3512,
+      "total": 14047,
+      "max": 3661,
       "min": 3393,
       "arenas": [
         {
           "arena": "PalaBigi",
-          "games": 3
+          "games": 4
         }
       ]
     },
