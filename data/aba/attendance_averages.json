@@ -1,7 +1,7 @@
 {
   "league": "ABA",
   "season": "2026-27",
-  "updated": "2026-11-07T13:18:56+00:00",
+  "updated": "2026-11-07T22:00:04+00:00",
   "clubs": [
     {
       "league": "ABA",
@@ -210,32 +210,16 @@
     {
       "league": "ABA",
       "season": "2026-27",
-      "club": "FMP",
-      "home_games_counted": 2,
-      "average": 946,
-      "total": 1893,
-      "max": 1250,
-      "min": 643,
-      "arenas": [
-        {
-          "arena": "Arena KK FMP",
-          "games": 2
-        }
-      ]
-    },
-    {
-      "league": "ABA",
-      "season": "2026-27",
       "club": "Krka",
-      "home_games_counted": 3,
-      "average": 900,
-      "total": 2700,
+      "home_games_counted": 4,
+      "average": 875,
+      "total": 3500,
       "max": 1800,
       "min": 400,
       "arenas": [
         {
           "arena": "ŠD Leona Štuklja Novo Mesto",
-          "games": 3
+          "games": 4
         }
       ]
     },
@@ -243,15 +227,31 @@
       "league": "ABA",
       "season": "2026-27",
       "club": "Borac Mozzart",
-      "home_games_counted": 2,
-      "average": 850,
-      "total": 1700,
+      "home_games_counted": 3,
+      "average": 867,
+      "total": 2600,
       "max": 1000,
       "min": 700,
       "arenas": [
         {
           "arena": "Dvorana Borac",
-          "games": 2
+          "games": 3
+        }
+      ]
+    },
+    {
+      "league": "ABA",
+      "season": "2026-27",
+      "club": "FMP",
+      "home_games_counted": 3,
+      "average": 781,
+      "total": 2343,
+      "max": 1250,
+      "min": 450,
+      "arenas": [
+        {
+          "arena": "Arena KK FMP",
+          "games": 3
         }
       ]
     },
@@ -323,15 +323,15 @@
       "league": "ABA",
       "season": "2026-27",
       "club": "Perspektiva Ilirija",
-      "home_games_counted": 2,
-      "average": 350,
-      "total": 700,
+      "home_games_counted": 3,
+      "average": 333,
+      "total": 1000,
       "max": 500,
       "min": 200,
       "arenas": [
         {
           "arena": "Mala dvorana Tivoli",
-          "games": 2
+          "games": 3
         }
       ]
     }
