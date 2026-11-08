@@ -1,6 +1,7 @@
 league,season,match_id,date,home,away,attendance,source_url,checked_at,attempts
 PLK,2026-27,2wg5nrO8,2026-10-16,Legia,Anwil Wloclawek,1991,https://www.flashscore.com/match/basketball/anwil-wloclawek-2k0rXWkg/sk-legia-warszawa-zkhjVsDQ/?mid=2wg5nrO8,2026-10-30T01:34:58+00:00,1
 PLK,2026-27,4CY4G3AU,2026-10-11,Anwil Wloclawek,Czarni Slupsk,3413,https://www.flashscore.com/match/basketball/anwil-wloclawek-2k0rXWkg/czarni-slupsk-ziCPVUZB/?mid=4CY4G3AU,2026-10-30T01:34:52+00:00,1
+PLK,2026-27,APsv5UNi,2026-11-08,Szczecin,Czarni Slupsk,1816,https://www.flashscore.com/match/basketball/czarni-slupsk-ziCPVUZB/king-wilki-morskie-szczecin-0z2ezyQN/?mid=APsv5UNi,2026-11-08T22:32:49+00:00,1
 PLK,2026-27,CbuACf9d,2026-10-10,Dabrowa Gornicza,Torun,1895,https://www.flashscore.com/match/basketball/dabrowa-gornicza-Qy6k31iJ/torun-v3KjOOa7/?mid=CbuACf9d,2026-10-30T01:35:49+00:00,1
 PLK,2026-27,CdGUyBx8,2026-10-25,Dziki Warszawa,Czarni Slupsk,1237,https://www.flashscore.com/match/basketball/czarni-slupsk-ziCPVUZB/dziki-warszawa-nX7BqmD7/?mid=CdGUyBx8,2026-10-30T01:35:32+00:00,1
 PLK,2026-27,CvZ978Ra,2026-10-04,Gliwice,Dabrowa Gornicza,4050,https://www.flashscore.com/match/basketball/dabrowa-gornicza-Qy6k31iJ/gtk-gliwice-vmtBN9Oh/?mid=CvZ978Ra,2026-10-30T01:35:43+00:00,1
@@ -35,12 +36,14 @@ PLK,2026-27,jPn0zJI0,2026-10-24,Slask Wroclaw,Bydgoszcz,2856,https://www.flashsc
 PLK,2026-27,jknKOvW1,2026-10-18,Dabrowa Gornicza,Slask Wroclaw,1969,https://www.flashscore.com/match/basketball/dabrowa-gornicza-Qy6k31iJ/slask-wroclaw-AJa8Xj5a/?mid=jknKOvW1,2026-10-30T01:35:46+00:00,1
 PLK,2026-27,jqwfd0uK,2026-10-31,Torun,Zielona Gora,783,https://www.flashscore.com/match/basketball/torun-v3KjOOa7/zielona-gora-r1BJiCyi/?mid=jqwfd0uK,2026-11-01T01:49:17+00:00,1
 PLK,2026-27,pSqhxull,2026-10-25,Dabrowa Gornicza,Trefl Sopot,2003,https://www.flashscore.com/match/basketball/dabrowa-gornicza-Qy6k31iJ/trefl-sopot-rHiLc4WE/?mid=pSqhxull,2026-10-30T01:35:52+00:00,1
-PLK,2026-27,rJkhsRVp,2026-11-08,Gdynia,Legia,,https://www.flashscore.com/match/basketball/arka-gdynia-OUk4IU6S/sk-legia-warszawa-zkhjVsDQ/?mid=rJkhsRVp,2026-11-08T13:55:51+00:00,1
+PLK,2026-27,rJkhsRVp,2026-11-08,Gdynia,Legia,2841,https://www.flashscore.com/match/basketball/arka-gdynia-OUk4IU6S/sk-legia-warszawa-zkhjVsDQ/?mid=rJkhsRVp,2026-11-08T22:32:46+00:00,2
 PLK,2026-27,rPrCQ01k,2026-10-04,Gdynia,Slask Wroclaw,2475,https://www.flashscore.com/match/basketball/arka-gdynia-OUk4IU6S/slask-wroclaw-AJa8Xj5a/?mid=rPrCQ01k,2026-10-30T01:35:10+00:00,1
 PLK,2026-27,rsGZNTBt,2026-10-03,Lublin,Ostrow Wielkopolski,828,https://www.flashscore.com/match/basketball/ostrow-wielkopolski-4CuFLhhc/start-lublin-G8PsLckJ/?mid=rsGZNTBt,2026-10-30T01:36:34+00:00,1
 PLK,2026-27,rwtn38h4,2026-11-07,Dabrowa Gornicza,Gornik Walbrzych,2572,https://www.flashscore.com/match/basketball/dabrowa-gornicza-Qy6k31iJ/gornik-walbrzych-YyVSUlkI/?mid=rwtn38h4,2026-11-07T22:22:53+00:00,1
 PLK,2026-27,tWfEqNeE,2026-10-25,Gdynia,Gornik Walbrzych,2533,https://www.flashscore.com/match/basketball/arka-gdynia-OUk4IU6S/gornik-walbrzych-YyVSUlkI/?mid=tWfEqNeE,2026-10-30T01:35:05+00:00,1
+PLK,2026-27,vN0El9wB,2026-11-08,Ostrow Wielkopolski,Zielona Gora,2650,https://www.flashscore.com/match/basketball/ostrow-wielkopolski-4CuFLhhc/zielona-gora-r1BJiCyi/?mid=vN0El9wB,2026-11-08T22:32:55+00:00,1
 PLK,2026-27,vRz29Udm,2026-10-03,Bydgoszcz,Zielona Gora,1479,https://www.flashscore.com/match/basketball/astoria-bydgoszcz-YTyYqsSJ/zielona-gora-r1BJiCyi/?mid=vRz29Udm,2026-10-30T01:35:29+00:00,1
 PLK,2026-27,vos2EGvp,2026-10-10,Szczecin,Slask Wroclaw,1999,https://www.flashscore.com/match/basketball/king-wilki-morskie-szczecin-0z2ezyQN/slask-wroclaw-AJa8Xj5a/?mid=vos2EGvp,2026-10-30T01:36:16+00:00,1
+PLK,2026-27,xKs2aQiT,2026-11-08,Gliwice,Trefl Sopot,1117,https://www.flashscore.com/match/basketball/gtk-gliwice-vmtBN9Oh/trefl-sopot-rHiLc4WE/?mid=xKs2aQiT,2026-11-08T22:32:52+00:00,1
 PLK,2026-27,zXrmozXI,2026-10-31,Czarni Slupsk,Gdynia,1952,https://www.flashscore.com/match/basketball/arka-gdynia-OUk4IU6S/czarni-slupsk-ziCPVUZB/?mid=zXrmozXI,2026-11-01T01:49:09+00:00,1
 PLK,2026-27,ziiDpMhL,2026-11-01,Gliwice,Slask Wroclaw,823,https://www.flashscore.com/match/basketball/gtk-gliwice-vmtBN9Oh/slask-wroclaw-AJa8Xj5a/?mid=ziiDpMhL,2026-11-01T22:29:21+00:00,1

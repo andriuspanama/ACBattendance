@@ -1,7 +1,7 @@
 {
   "league": "PLK",
   "season": "2026-27",
-  "updated": "2026-11-08T13:55:59+00:00",
+  "updated": "2026-11-08T22:33:03+00:00",
   "clubs": [
     {
       "league": "PLK",
@@ -174,22 +174,6 @@
     {
       "league": "PLK",
       "season": "2026-27",
-      "club": "Euvic GTK Gliwice",
-      "home_games_counted": 4,
-      "average": 1726,
-      "total": 6903,
-      "max": 4050,
-      "min": 823,
-      "arenas": [
-        {
-          "arena": "Prezero Arena Gliwice",
-          "games": 4
-        }
-      ]
-    },
-    {
-      "league": "PLK",
-      "season": "2026-27",
       "club": "Energa Trefl Sopot",
       "home_games_counted": 2,
       "average": 1627,
@@ -200,6 +184,22 @@
         {
           "arena": "Hala Sportowa 100-lecia Sopotu",
           "games": 2
+        }
+      ]
+    },
+    {
+      "league": "PLK",
+      "season": "2026-27",
+      "club": "Euvic GTK Gliwice",
+      "home_games_counted": 5,
+      "average": 1604,
+      "total": 8020,
+      "max": 4050,
+      "min": 823,
+      "arenas": [
+        {
+          "arena": "Prezero Arena Gliwice",
+          "games": 5
         }
       ]
     },

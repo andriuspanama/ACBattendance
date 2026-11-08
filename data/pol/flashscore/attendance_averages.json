@@ -1,10 +1,10 @@
 {
   "league": "PLK",
   "season": "2026-27",
-  "updated": "2026-11-08T13:55:51+00:00",
+  "updated": "2026-11-08T22:32:55+00:00",
   "games": {
-    "checked": 45,
-    "with_attendance": 44
+    "checked": 48,
+    "with_attendance": 48
   },
   "clubs": [
     {
@@ -30,22 +30,22 @@
     {
       "league": "PLK",
       "season": "2026-27",
-      "club": "Ostrow Wielkopolski",
-      "home_games_counted": 1,
-      "average": 2950,
-      "total": 2950,
-      "max": 2950,
-      "min": 2950
+      "club": "Gdynia",
+      "home_games_counted": 4,
+      "average": 2915,
+      "total": 11660,
+      "max": 3811,
+      "min": 2475
     },
     {
       "league": "PLK",
       "season": "2026-27",
-      "club": "Gdynia",
-      "home_games_counted": 3,
-      "average": 2940,
-      "total": 8819,
-      "max": 3811,
-      "min": 2475
+      "club": "Ostrow Wielkopolski",
+      "home_games_counted": 2,
+      "average": 2800,
+      "total": 5600,
+      "max": 2950,
+      "min": 2650
     },
     {
       "league": "PLK",
@@ -101,21 +101,11 @@
       "league": "PLK",
       "season": "2026-27",
       "club": "Szczecin",
-      "home_games_counted": 2,
-      "average": 1794,
-      "total": 3587,
+      "home_games_counted": 3,
+      "average": 1801,
+      "total": 5403,
       "max": 1999,
       "min": 1588
-    },
-    {
-      "league": "PLK",
-      "season": "2026-27",
-      "club": "Gliwice",
-      "home_games_counted": 4,
-      "average": 1726,
-      "total": 6903,
-      "max": 4050,
-      "min": 823
     },
     {
       "league": "PLK",
@@ -126,6 +116,16 @@
       "total": 4859,
       "max": 1636,
       "min": 1605
+    },
+    {
+      "league": "PLK",
+      "season": "2026-27",
+      "club": "Gliwice",
+      "home_games_counted": 5,
+      "average": 1604,
+      "total": 8020,
+      "max": 4050,
+      "min": 823
     },
     {
       "league": "PLK",
