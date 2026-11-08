@@ -1,21 +1,21 @@
 {
   "league": "NBL",
   "season": "2026-27",
-  "updated": "2026-11-08T06:18:25+00:00",
+  "updated": "2026-11-08T13:40:12+00:00",
   "clubs": [
     {
       "league": "NBL",
       "season": "2026-27",
       "club": "Perth Wildcats",
-      "home_games_counted": 8,
-      "average": 11003,
-      "total": 88023,
+      "home_games_counted": 9,
+      "average": 11178,
+      "total": 100604,
       "max": 12808,
       "min": 9646,
       "arenas": [
         {
           "arena": "RAC Arena",
-          "games": 8
+          "games": 9
         }
       ]
     },
