@@ -1,7 +1,7 @@
 {
   "league": "LKL",
   "season": "2026-27",
-  "updated": "2026-11-08T13:54:09+00:00",
+  "updated": "2026-11-08T22:30:18+00:00",
   "clubs": [
     {
       "league": "LKL",
@@ -46,22 +46,22 @@
     {
       "league": "LKL",
       "season": "2026-27",
+      "club": "Juventus",
+      "home_games_counted": 5,
+      "average": 1900,
+      "total": 9500,
+      "max": 2968,
+      "min": 1372
+    },
+    {
+      "league": "LKL",
+      "season": "2026-27",
       "club": "Taurage",
       "home_games_counted": 4,
       "average": 1785,
       "total": 7140,
       "max": 1800,
       "min": 1780
-    },
-    {
-      "league": "LKL",
-      "season": "2026-27",
-      "club": "Juventus",
-      "home_games_counted": 4,
-      "average": 1633,
-      "total": 6532,
-      "max": 2244,
-      "min": 1372
     },
     {
       "league": "LKL",
@@ -87,9 +87,9 @@
       "league": "LKL",
       "season": "2026-27",
       "club": "Nevezis",
-      "home_games_counted": 3,
-      "average": 1045,
-      "total": 3134,
+      "home_games_counted": 4,
+      "average": 978,
+      "total": 3912,
       "max": 1600,
       "min": 664
     },
@@ -97,9 +97,9 @@
       "league": "LKL",
       "season": "2026-27",
       "club": "Jonava",
-      "home_games_counted": 5,
-      "average": 801,
-      "total": 4007,
+      "home_games_counted": 6,
+      "average": 794,
+      "total": 4767,
       "max": 941,
       "min": 712
     }
