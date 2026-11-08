@@ -1,7 +1,7 @@
 {
   "league": "LBA",
   "season": "2026-27",
-  "updated": "2026-11-08T06:19:36+00:00",
+  "updated": "2026-11-08T13:41:14+00:00",
   "clubs": [
     {
       "league": "LBA",
@@ -38,6 +38,22 @@
     {
       "league": "LBA",
       "season": "2026-27",
+      "club": "Pallacanestro Trieste",
+      "home_games_counted": 2,
+      "average": 4766,
+      "total": 9533,
+      "max": 4924,
+      "min": 4609,
+      "arenas": [
+        {
+          "arena": "PalaTrieste",
+          "games": 2
+        }
+      ]
+    },
+    {
+      "league": "LBA",
+      "season": "2026-27",
       "club": "Openjobmetis Varese",
       "home_games_counted": 2,
       "average": 4618,
@@ -48,22 +64,6 @@
         {
           "arena": "Itelyum Arena",
           "games": 2
-        }
-      ]
-    },
-    {
-      "league": "LBA",
-      "season": "2026-27",
-      "club": "Pallacanestro Trieste",
-      "home_games_counted": 1,
-      "average": 4609,
-      "total": 4609,
-      "max": 4609,
-      "min": 4609,
-      "arenas": [
-        {
-          "arena": "PalaTrieste",
-          "games": 1
         }
       ]
     },
