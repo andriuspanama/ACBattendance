@@ -1,7 +1,7 @@
 {
  "league": "Winner League",
  "season": "2026-27",
- "updated": "2026-11-08T18:19:51+00:00",
+ "updated": "2026-11-08T22:50:37+00:00",
  "clubs": [
   {
    "club": "Bnei Penlink Herzliya",
@@ -110,15 +110,15 @@
   },
   {
    "club": "Hapoel Midtown Jerusalem",
-   "home_games_counted": 2,
-   "games_with_capacity": 2,
+   "home_games_counted": 3,
+   "games_with_capacity": 3,
    "capacity": 11600,
    "weighted_capacity": 11600,
-   "filling_rate": 0.3088,
+   "filling_rate": 0.2984,
    "arenas": [
     {
      "arena": "Pais Arena Jerusalem",
-     "games": 2,
+     "games": 3,
      "capacity": 11600
     }
    ]
@@ -200,7 +200,7 @@
   }
  ],
  "unknown_arenas": [],
- "last_attendance_game": "2026-11-06",
+ "last_attendance_game": "2026-11-08",
  "games": {
   "26646": {
    "arena": "Menora Mivtachim Arena",

@@ -1,7 +1,7 @@
 {
  "league": "LKL",
  "season": "2026-27",
- "updated": "2026-11-07T22:41:31+00:00",
+ "updated": "2026-11-08T22:50:37+00:00",
  "clubs": [
   {
    "club": "Gargzdai",
@@ -20,30 +20,30 @@
   },
   {
    "club": "Jonava",
-   "home_games_counted": 5,
-   "games_with_capacity": 5,
+   "home_games_counted": 6,
+   "games_with_capacity": 6,
    "capacity": 2246,
    "weighted_capacity": 2246,
-   "filling_rate": 0.3568,
+   "filling_rate": 0.3537,
    "arenas": [
     {
      "arena": "Jonavos sporto arena",
-     "games": 5,
+     "games": 6,
      "capacity": 2246
     }
    ]
   },
   {
    "club": "Juventus",
-   "home_games_counted": 4,
-   "games_with_capacity": 4,
+   "home_games_counted": 5,
+   "games_with_capacity": 5,
    "capacity": 2500,
-   "weighted_capacity": 2500,
-   "filling_rate": 0.6532,
+   "weighted_capacity": 2594,
+   "filling_rate": 0.7326,
    "arenas": [
     {
      "arena": "Utenos daugiafunkcis sporto centras",
-     "games": 4,
+     "games": 5,
      "capacity": 2500
     }
    ]
@@ -80,15 +80,15 @@
   },
   {
    "club": "Nevezis",
-   "home_games_counted": 3,
-   "games_with_capacity": 3,
+   "home_games_counted": 4,
+   "games_with_capacity": 4,
    "capacity": 2200,
    "weighted_capacity": 2200,
-   "filling_rate": 0.4748,
+   "filling_rate": 0.4445,
    "arenas": [
     {
      "arena": "Kėdainių arena",
-     "games": 3,
+     "games": 4,
      "capacity": 2200
     }
    ]
@@ -155,7 +155,7 @@
   }
  ],
  "unknown_arenas": [],
- "last_attendance_game": "2026-11-07",
+ "last_attendance_game": "2026-11-08",
  "games": {
   "0YhgbKyo": {
    "arena": "Kalnapilio arena",
@@ -168,6 +168,10 @@
   "6gMrw1ng": {
    "arena": "Šiaulių arena",
    "capacity": 5500
+  },
+  "6kneIuTG": {
+   "arena": "Kėdainių arena",
+   "capacity": 2200
   },
   "8bteDgoK": {
    "arena": "Utenos daugiafunkcis sporto centras",
@@ -184,6 +188,10 @@
   "ANGFi01n": {
    "arena": "Žalgirio arena",
    "capacity": 15415
+  },
+  "EFk3GJcT": {
+   "arena": "Jonavos sporto arena",
+   "capacity": 2246
   },
   "EJPjyuH5": {
    "arena": "Švyturio arena",
@@ -260,6 +268,10 @@
   "YuOzuNHt": {
    "arena": "Jonavos sporto arena",
    "capacity": 2246
+  },
+  "YylmK1b4": {
+   "arena": "Utenos daugiafunkcis sporto centras",
+   "capacity": 2500
   },
   "bRLwndVN": {
    "arena": "Švyturio arena",

@@ -1,7 +1,7 @@
 {
  "league": "BSL",
  "season": "2026-27",
- "updated": "2026-11-07T22:41:31+00:00",
+ "updated": "2026-11-08T22:50:37+00:00",
  "clubs": [
   {
    "club": "Aliağa Petkim Spor",
@@ -20,30 +20,30 @@
   },
   {
    "club": "Anadolu Efes",
-   "home_games_counted": 3,
-   "games_with_capacity": 3,
+   "home_games_counted": 4,
+   "games_with_capacity": 4,
    "capacity": 10000,
    "weighted_capacity": 10000,
-   "filling_rate": 0.1402,
+   "filling_rate": 0.1311,
    "arenas": [
     {
      "arena": "Turkcell Basketbol Gelişim Merkezi",
-     "games": 3,
+     "games": 4,
      "capacity": 10000
     }
    ]
   },
   {
    "club": "Bahçeşehir Koleji",
-   "home_games_counted": 3,
-   "games_with_capacity": 3,
+   "home_games_counted": 4,
+   "games_with_capacity": 4,
    "capacity": 16500,
    "weighted_capacity": 16500,
-   "filling_rate": 0.2377,
+   "filling_rate": 0.1874,
    "arenas": [
     {
      "arena": "Sinan Erdem Spor Salonu",
-     "games": 3,
+     "games": 4,
      "capacity": 16500
     }
    ]
@@ -125,30 +125,30 @@
   },
   {
    "club": "Galatasaray Mct Technıc",
-   "home_games_counted": 3,
-   "games_with_capacity": 3,
+   "home_games_counted": 4,
+   "games_with_capacity": 4,
    "capacity": 16500,
    "weighted_capacity": 16500,
-   "filling_rate": 0.1228,
+   "filling_rate": 0.1107,
    "arenas": [
     {
      "arena": "Sinan Erdem Spor Salonu",
-     "games": 3,
+     "games": 4,
      "capacity": 16500
     }
    ]
   },
   {
    "club": "Glint Çayırova Belediyesi",
-   "home_games_counted": 3,
-   "games_with_capacity": 3,
+   "home_games_counted": 4,
+   "games_with_capacity": 4,
    "capacity": 3500,
    "weighted_capacity": 3500,
-   "filling_rate": 0.7468,
+   "filling_rate": 0.7099,
    "arenas": [
     {
      "arena": "Çayırova Belediyesi Spor Kompleksi",
-     "games": 3,
+     "games": 4,
      "capacity": 3500
     }
    ]
@@ -245,7 +245,7 @@
   }
  ],
  "unknown_arenas": [],
- "last_attendance_game": "2026-11-07",
+ "last_attendance_game": "2026-11-08",
  "games": {
   "2026-09-25-tofas-pizzabulls-bordo-bandirma": {
    "arena": "Tofaş Spor Salonu",

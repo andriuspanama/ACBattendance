@@ -1,7 +1,7 @@
 {
  "league": "PLK",
  "season": "2026-27",
- "updated": "2026-11-07T22:41:31+00:00",
+ "updated": "2026-11-08T22:50:37+00:00",
  "clubs": [
   {
    "club": "AMW Arka Gdynia",
@@ -110,15 +110,15 @@
   },
   {
    "club": "Euvic GTK Gliwice",
-   "home_games_counted": 4,
-   "games_with_capacity": 4,
+   "home_games_counted": 5,
+   "games_with_capacity": 5,
    "capacity": 3360,
-   "weighted_capacity": 3532,
-   "filling_rate": 0.4885,
+   "weighted_capacity": 3498,
+   "filling_rate": 0.4585,
    "arenas": [
     {
      "arena": "Prezero Arena Gliwice",
-     "games": 4,
+     "games": 5,
      "capacity": 3360
     }
    ]
@@ -255,7 +255,7 @@
   }
  ],
  "unknown_arenas": [],
- "last_attendance_game": "2026-11-07",
+ "last_attendance_game": "2026-11-08",
  "games": {
   "223465": {
    "arena": "Hala Sportowa 100-lecia Sopotu",
@@ -412,6 +412,10 @@
   "223508": {
    "arena": "Hala Orbita",
    "capacity": 3000
+  },
+  "223507": {
+   "arena": "Prezero Arena Gliwice",
+   "capacity": 3360
   }
  }
 }

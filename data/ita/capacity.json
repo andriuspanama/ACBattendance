@@ -1,7 +1,7 @@
 {
  "league": "LBA",
  "season": "2026-27",
- "updated": "2026-11-08T18:19:51+00:00",
+ "updated": "2026-11-08T22:50:37+00:00",
  "clubs": [
   {
    "club": "Acqua S.Bernardo Cantù",
@@ -20,15 +20,15 @@
   },
   {
    "club": "Armani Olimpia Milano",
-   "home_games_counted": 3,
-   "games_with_capacity": 3,
+   "home_games_counted": 4,
+   "games_with_capacity": 4,
    "capacity": 12700,
    "weighted_capacity": 12700,
-   "filling_rate": 0.5274,
+   "filling_rate": 0.5255,
    "arenas": [
     {
      "arena": "Unipol Forum",
-     "games": 3,
+     "games": 4,
      "capacity": 12700
     }
    ]
@@ -50,15 +50,15 @@
   },
   {
    "club": "Bertram Derthona Tortona",
-   "home_games_counted": 3,
-   "games_with_capacity": 3,
+   "home_games_counted": 4,
+   "games_with_capacity": 4,
    "capacity": 5000,
    "weighted_capacity": 5000,
-   "filling_rate": 0.5213,
+   "filling_rate": 0.5182,
    "arenas": [
     {
      "arena": "Nova Arena",
-     "games": 3,
+     "games": 4,
      "capacity": 5000
     }
    ]
@@ -80,16 +80,21 @@
   },
   {
    "club": "Maxima Roma",
-   "home_games_counted": 1,
-   "games_with_capacity": 1,
+   "home_games_counted": 2,
+   "games_with_capacity": 2,
    "capacity": 11200,
-   "weighted_capacity": 11200,
-   "filling_rate": 0.8314,
+   "weighted_capacity": 7350,
+   "filling_rate": 0.7888,
    "arenas": [
     {
      "arena": "PalaEur",
      "games": 1,
      "capacity": 11200
+    },
+    {
+     "arena": "Palazzetto dello Sport",
+     "games": 1,
+     "capacity": 3500
     }
    ]
   },
@@ -125,15 +130,15 @@
   },
   {
    "club": "Openjobmetis Varese",
-   "home_games_counted": 2,
-   "games_with_capacity": 2,
+   "home_games_counted": 3,
+   "games_with_capacity": 3,
    "capacity": 5677,
    "weighted_capacity": 5677,
-   "filling_rate": 0.8135,
+   "filling_rate": 0.8399,
    "arenas": [
     {
      "arena": "Itelyum Arena",
-     "games": 2,
+     "games": 3,
      "capacity": 5677
     }
    ]
@@ -368,9 +373,29 @@
    "arena": "PalaBigi",
    "capacity": 4530
   },
+  "25409": {
+   "arena": "Unipol Forum",
+   "capacity": 12700
+  },
+  "25410": {
+   "arena": "Nova Arena",
+   "capacity": 5000
+  },
   "25411": {
    "arena": "PalaTrieste",
    "capacity": 6736
+  },
+  "25412": {
+   "arena": "Palazzetto dello Sport",
+   "capacity": 3500
+  },
+  "25413": {
+   "arena": "Beta Ricambi Arena PalaMangano",
+   "capacity": 3500
+  },
+  "25415": {
+   "arena": "Itelyum Arena",
+   "capacity": 5677
   }
  }
 }

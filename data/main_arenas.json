@@ -1,6 +1,6 @@
 {
  "season": "2026-27",
- "updated": "2026-11-08T18:19:51+00:00",
+ "updated": "2026-11-08T22:50:37+00:00",
  "clubs": {
   "ADA Blois Basket 41": {
    "arena": "Le Jeu de Paume",
@@ -103,9 +103,9 @@
    "capacity": 13488,
    "league": "BBL",
    "source": "games",
-   "games": 1,
-   "of_games": 1,
-   "league_name": "ALBA Berlin"
+   "games": 5,
+   "of_games": 5,
+   "league_name": "ALBA BERLIN"
   },
   "Alliance Sport Alsace ASA": {
    "arena": "Espace Sport La Forêt",
@@ -235,8 +235,8 @@
    "capacity": 2246,
    "league": "LKL",
    "source": "games",
-   "games": 5,
-   "of_games": 5,
+   "games": 6,
+   "of_games": 6,
    "league_name": "Jonava"
   },
   "BC Kalev/Cramo": {
@@ -496,8 +496,8 @@
    "capacity": 10744,
    "league": "ACB",
    "source": "games",
-   "games": 3,
-   "of_games": 3,
+   "games": 4,
+   "of_games": 4,
    "league_name": "Casademont Zaragoza"
   },
   "Basquet Coruna": {
@@ -508,8 +508,8 @@
    "capacity": 9300,
    "league": "ACB",
    "source": "games",
-   "games": 3,
-   "of_games": 3,
+   "games": 4,
+   "of_games": 4,
    "league_name": "Leyma Coruna"
   },
   "Basquet Girona": {
@@ -877,8 +877,8 @@
    "capacity": 5000,
    "league": "LBA",
    "source": "games",
-   "games": 3,
-   "of_games": 3,
+   "games": 4,
+   "of_games": 4,
    "league_name": "Bertram Derthona Tortona"
   },
   "Dinamo Sassari": {
@@ -1096,8 +1096,8 @@
    "capacity": 3360,
    "league": "PLK",
    "source": "games",
-   "games": 4,
-   "of_games": 4,
+   "games": 5,
+   "of_games": 5,
    "league_name": "Euvic GTK Gliwice"
   },
   "Galatasaray S.K.": {
@@ -1539,15 +1539,15 @@
    "source": "sheet"
   },
   "KK Partizan": {
-   "arena": "Košarkaška dvorana Aleksandar Nikolić",
+   "arena": "Hala sportova Ranko Žeravica",
    "city": "Beograd",
-   "lat": 44.81553,
-   "lon": 20.48504,
-   "capacity": 8000,
+   "lat": 44.82765,
+   "lon": 20.40635,
+   "capacity": 5000,
    "league": "ABA",
    "source": "games",
    "games": 2,
-   "of_games": 3,
+   "of_games": 4,
    "league_name": "Partizan Mozzart Bet"
   },
   "KK Pelister": {
@@ -1609,8 +1609,8 @@
    "capacity": 800,
    "league": "LEBL",
    "source": "games",
-   "games": 4,
-   "of_games": 4,
+   "games": 5,
+   "of_games": 5,
    "league_name": "Viimsi"
   },
   "KK Zadar": {
@@ -1669,8 +1669,8 @@
    "capacity": 1600,
    "league": "Korisliiga",
    "source": "games",
-   "games": 4,
-   "of_games": 4,
+   "games": 5,
+   "of_games": 5,
    "league_name": "KTP-Basket"
   },
   "Kaposvari": {
@@ -1945,8 +1945,8 @@
    "capacity": 4000,
    "league": "BBL",
    "source": "games",
-   "games": 3,
-   "of_games": 3,
+   "games": 4,
+   "of_games": 4,
    "league_name": "MHP RIESEN Ludwigsburg"
   },
   "MKS Dabrowa Gornicza": {
@@ -2022,15 +2022,15 @@
    "league_name": "Maroussi"
   },
   "Maxima Roma": {
-   "arena": "PalaEur",
+   "arena": "Palazzetto dello Sport",
    "city": "Roma",
-   "lat": 41.82526,
-   "lon": 12.46658,
-   "capacity": 11200,
+   "lat": 41.9296,
+   "lon": 12.47075,
+   "capacity": 3500,
    "league": "LBA",
    "source": "games",
    "games": 2,
-   "of_games": 3,
+   "of_games": 4,
    "league_name": "Maxima Roma"
   },
   "Melbourne United": {
@@ -2134,8 +2134,8 @@
    "capacity": 2200,
    "league": "LKL",
    "source": "games",
-   "games": 3,
-   "of_games": 3,
+   "games": 4,
+   "of_games": 4,
    "league_name": "Nevezis"
   },
   "New Zealand Breakers": {
@@ -2200,8 +2200,8 @@
    "capacity": 12700,
    "league": "LBA",
    "source": "games",
-   "games": 3,
-   "of_games": 3,
+   "games": 4,
+   "of_games": 4,
    "league_name": "Armani Olimpia Milano"
   },
   "Olympiacos B.C.": {
@@ -2296,8 +2296,8 @@
    "capacity": 5677,
    "league": "LBA",
    "source": "games",
-   "games": 3,
-   "of_games": 3,
+   "games": 4,
+   "of_games": 4,
    "league_name": "Openjobmetis Varese"
   },
   "Panathinaikos B.C.": {
@@ -2605,8 +2605,8 @@
    "capacity": 3500,
    "league": "LBA",
    "source": "games",
-   "games": 3,
-   "of_games": 3,
+   "games": 4,
+   "of_games": 4,
    "league_name": "Longobardi Scafati Basket"
   },
   "Scaligera Basket Verona": {
@@ -2755,8 +2755,8 @@
    "capacity": 3000,
    "league": "BBL",
    "source": "games",
-   "games": 3,
-   "of_games": 3,
+   "games": 4,
+   "of_games": 4,
    "league_name": "SYNTAINICS MBC"
   },
   "Szolnoki Olaj": {
@@ -2788,8 +2788,8 @@
    "capacity": 1400,
    "league": "Korisliiga",
    "source": "games",
-   "games": 4,
-   "of_games": 4,
+   "games": 5,
+   "of_games": 5,
    "league_name": "Tampereen Pyrintö"
   },
   "Tapiolan Honka": {
@@ -2977,8 +2977,8 @@
    "capacity": 2500,
    "league": "LKL",
    "source": "games",
-   "games": 4,
-   "of_games": 4,
+   "games": 5,
+   "of_games": 5,
    "league_name": "Juventus"
   },
   "Valencia Basket": {
@@ -3037,8 +3037,8 @@
    "capacity": 3140,
    "league": "BBL",
    "source": "games",
-   "games": 3,
-   "of_games": 3,
+   "games": 4,
+   "of_games": 4,
    "league_name": "Fitness First Würzburg Baskets"
   },
   "Yalovaspor BK": {
@@ -3120,7 +3120,6 @@
   },
   "BBL": {
    "ALBA BERLIN": "Alba Berlin",
-   "ALBA Berlin": "Alba Berlin",
    "BMA365 Bamberg Baskets": "Bamberg Baskets",
    "Basketball Löwen Braunschweig": "Lowen Braunschweig",
    "EWE Baskets Oldenburg": "EWE Baskets Oldenburg",

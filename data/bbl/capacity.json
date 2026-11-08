@@ -1,34 +1,19 @@
 {
  "league": "BBL",
  "season": "2026-27",
- "updated": "2026-11-07T22:41:31+00:00",
+ "updated": "2026-11-08T22:50:37+00:00",
  "clubs": [
   {
    "club": "ALBA BERLIN",
-   "home_games_counted": 4,
-   "games_with_capacity": 4,
+   "home_games_counted": 5,
+   "games_with_capacity": 5,
    "capacity": 13488,
    "weighted_capacity": 13488,
-   "filling_rate": 0.6135,
+   "filling_rate": 0.6201,
    "arenas": [
     {
      "arena": "Uber Arena",
-     "games": 4,
-     "capacity": 13488
-    }
-   ]
-  },
-  {
-   "club": "ALBA Berlin",
-   "home_games_counted": 1,
-   "games_with_capacity": 1,
-   "capacity": 13488,
-   "weighted_capacity": 13488,
-   "filling_rate": 0.0007,
-   "arenas": [
-    {
-     "arena": "Uber Arena",
-     "games": 1,
+     "games": 5,
      "capacity": 13488
     }
    ]
@@ -95,30 +80,30 @@
   },
   {
    "club": "Fitness First Würzburg Baskets",
-   "home_games_counted": 3,
-   "games_with_capacity": 3,
+   "home_games_counted": 4,
+   "games_with_capacity": 4,
    "capacity": 3140,
    "weighted_capacity": 3140,
-   "filling_rate": 0.8775,
+   "filling_rate": 0.9081,
    "arenas": [
     {
      "arena": "tectake ARENA Würzburg",
-     "games": 3,
+     "games": 4,
      "capacity": 3140
     }
    ]
   },
   {
    "club": "MHP RIESEN Ludwigsburg",
-   "home_games_counted": 3,
-   "games_with_capacity": 3,
+   "home_games_counted": 4,
+   "games_with_capacity": 4,
    "capacity": 4000,
    "weighted_capacity": 4000,
-   "filling_rate": 0.8473,
+   "filling_rate": 0.8676,
    "arenas": [
     {
      "arena": "MHPArena Ludwigsburg",
-     "games": 3,
+     "games": 4,
      "capacity": 4000
     }
    ]
@@ -200,15 +185,15 @@
   },
   {
    "club": "SYNTAINICS MBC",
-   "home_games_counted": 3,
-   "games_with_capacity": 3,
+   "home_games_counted": 4,
+   "games_with_capacity": 4,
    "capacity": 3000,
    "weighted_capacity": 3000,
-   "filling_rate": 0.7987,
+   "filling_rate": 0.8278,
    "arenas": [
     {
      "arena": "Stadthalle Weißenfels",
-     "games": 3,
+     "games": 4,
      "capacity": 3000
     }
    ]
@@ -290,7 +275,7 @@
   }
  ],
  "unknown_arenas": [],
- "last_attendance_game": "2026-11-07",
+ "last_attendance_game": "2026-11-08",
  "games": {
   "2006920": {
    "arena": "Uber Arena",
@@ -555,6 +540,18 @@
   "2006860": {
    "arena": "SWT-Arena",
    "capacity": 5400
+  },
+  "2006861": {
+   "arena": "Stadthalle Weißenfels",
+   "capacity": 3000
+  },
+  "2006862": {
+   "arena": "tectake ARENA Würzburg",
+   "capacity": 3140
+  },
+  "2006863": {
+   "arena": "MHPArena Ludwigsburg",
+   "capacity": 4000
   }
  }
 }

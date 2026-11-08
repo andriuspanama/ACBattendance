@@ -1,7 +1,7 @@
 {
  "league": "ACB",
  "season": "2026-27",
- "updated": "2026-11-08T07:15:52+00:00",
+ "updated": "2026-11-08T22:50:37+00:00",
  "clubs": [
   {
    "club": "Asisa Joventut",
@@ -35,15 +35,15 @@
   },
   {
    "club": "Casademont Zaragoza",
-   "home_games_counted": 3,
-   "games_with_capacity": 3,
+   "home_games_counted": 4,
+   "games_with_capacity": 4,
    "capacity": 10744,
    "weighted_capacity": 10744,
-   "filling_rate": 0.619,
+   "filling_rate": 0.6598,
    "arenas": [
     {
      "arena": "Pabellón Príncipe Felipe",
-     "games": 3,
+     "games": 4,
      "capacity": 10744
     }
    ]
@@ -125,15 +125,15 @@
   },
   {
    "club": "Leyma Coruna",
-   "home_games_counted": 3,
-   "games_with_capacity": 3,
+   "home_games_counted": 4,
+   "games_with_capacity": 4,
    "capacity": 9300,
    "weighted_capacity": 9300,
-   "filling_rate": 0.6483,
+   "filling_rate": 0.6597,
    "arenas": [
     {
      "arena": "Coliseum",
-     "games": 3,
+     "games": 4,
      "capacity": 9300
     }
    ]

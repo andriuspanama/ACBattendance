@@ -1,7 +1,7 @@
 {
  "league": "ABA",
  "season": "2026-27",
- "updated": "2026-11-08T18:19:51+00:00",
+ "updated": "2026-11-08T22:50:37+00:00",
  "clubs": [
   {
    "club": "BC Vienna",
@@ -205,21 +205,21 @@
   },
   {
    "club": "Partizan Mozzart Bet",
-   "home_games_counted": 2,
-   "games_with_capacity": 2,
-   "capacity": 8000,
-   "weighted_capacity": 6500,
-   "filling_rate": 0.1869,
+   "home_games_counted": 3,
+   "games_with_capacity": 3,
+   "capacity": 5000,
+   "weighted_capacity": 6000,
+   "filling_rate": 0.1976,
    "arenas": [
+    {
+     "arena": "Hala sportova Ranko Žeravica",
+     "games": 2,
+     "capacity": 5000
+    },
     {
      "arena": "Košarkaška dvorana Aleksandar Nikolić",
      "games": 1,
      "capacity": 8000
-    },
-    {
-     "arena": "Hala sportova Ranko Žeravica",
-     "games": 1,
-     "capacity": 5000
     }
    ]
   },
@@ -541,6 +541,10 @@
   "70": {
    "arena": "Mala dvorana Tivoli",
    "capacity": 4500
+  },
+  "66": {
+   "arena": "Hala sportova Ranko Žeravica",
+   "capacity": 5000
   },
   "67": {
    "arena": "BT Arena",

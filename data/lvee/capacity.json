@@ -1,7 +1,7 @@
 {
  "league": "LEBL",
  "season": "2026-27",
- "updated": "2026-11-07T22:41:31+00:00",
+ "updated": "2026-11-08T22:50:37+00:00",
  "clubs": [
   {
    "club": "BC Pärnu",
@@ -240,22 +240,22 @@
   },
   {
    "club": "Viimsi",
-   "home_games_counted": 4,
-   "games_with_capacity": 4,
+   "home_games_counted": 5,
+   "games_with_capacity": 5,
    "capacity": 800,
-   "weighted_capacity": 804,
-   "filling_rate": 0.5943,
+   "weighted_capacity": 803,
+   "filling_rate": 0.5374,
    "arenas": [
     {
      "arena": "Forus Spordikeskus Viimsi",
-     "games": 4,
+     "games": 5,
      "capacity": 800
     }
    ]
   }
  ],
  "unknown_arenas": [],
- "last_attendance_game": "2026-11-07",
+ "last_attendance_game": "2026-11-08",
  "games": {
   "2027212141": {
    "arena": "Komandas Sporta Spelu Halle",
@@ -512,6 +512,10 @@
   "2027212701": {
    "arena": "Komandas Sporta Spelu Halle",
    "capacity": 2400
+  },
+  "2027212061": {
+   "arena": "Forus Spordikeskus Viimsi",
+   "capacity": 800
   }
  }
 }
