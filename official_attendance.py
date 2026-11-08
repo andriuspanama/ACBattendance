@@ -157,7 +157,32 @@ def load_matches(path: Path) -> dict:
     return out
 
 
+def _name_key(name: str) -> str:
+    """Klubo pavadinimo raktas be didžiųjų/mažųjų raidžių, diakritikų ir dvigubų tarpų."""
+    s = unicodedata.normalize("NFKD", name or "")
+    s = "".join(c for c in s if not unicodedata.combining(c))
+    return " ".join(s.casefold().split())
+
+
+def merge_club_names(matches: dict) -> None:
+    """Tas pats klubas, bet kitaip parašytas (pvz. „ALBA BERLIN“ ir „ALBA Berlin“), skaičiuojamas kaip vienas.
+    Visur paliekamas dažniausiai pasitaikantis rašymas (lygiųjų atveju – abėcėlės tvarka, kad būtų stabilu)."""
+    counts: dict[str, dict[str, int]] = defaultdict(lambda: defaultdict(int))
+    for m in matches.values():
+        for f in ("home", "away"):
+            n = (m.get(f) or "").strip()
+            if n:
+                counts[_name_key(n)][n] += 1
+    best = {k: sorted(v.items(), key=lambda x: (-x[1], x[0]))[0][0] for k, v in counts.items()}
+    for m in matches.values():
+        for f in ("home", "away"):
+            n = (m.get(f) or "").strip()
+            if n:
+                m[f] = best[_name_key(n)]
+
+
 def save_matches(path: Path, matches: dict):
+    merge_club_names(matches)  # vienodiname klubų pavadinimus prieš įrašant ir skaičiuojant vidurkius
     path.parent.mkdir(parents=True, exist_ok=True)
     with path.open("w", newline="", encoding="utf-8") as f:
         w = csv.DictWriter(f, fieldnames=MATCH_FIELDS)
