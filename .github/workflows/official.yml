@@ -12,6 +12,10 @@ on:
         description: "Tik viena lyga (aus, fin, lvee, aba, ita, isr) – tuščia = visos"
         type: string
         default: ""
+      recheck_days:
+        description: "Vienkartinis patikrinimas: iki kiek dienų po rungtynių dar bandyti gauti trūkstamą lankomumą (pvz. 365). Tuščia = kaip įprasta"
+        type: string
+        default: ""
 
 permissions:
   contents: write
@@ -62,7 +66,17 @@ jobs:
         id: collect
         if: steps.pick.outputs.skip != 'true'
         continue-on-error: true
-        run: python official_attendance.py --league "${{ matrix.league }}" --season "$SEASON" --data-dir "${{ matrix.dir }}"
+        env:
+          RECHECK_DAYS_INPUT: ${{ inputs.recheck_days }}
+        run: |
+          EXTRA=""
+          if [ -n "$RECHECK_DAYS_INPUT" ]; then
+            case "$RECHECK_DAYS_INPUT" in
+              *[!0-9]*) echo "::error::recheck_days turi būti skaičius"; exit 1 ;;
+            esac
+            EXTRA="--recheck-days $RECHECK_DAYS_INPUT"
+          fi
+          python official_attendance.py --league "${{ matrix.league }}" --season "$SEASON" --data-dir "${{ matrix.dir }}" $EXTRA
 
       - name: Įrašyti pakeitimus
         if: steps.pick.outputs.skip != 'true'

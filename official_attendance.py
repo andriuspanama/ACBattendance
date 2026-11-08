@@ -59,6 +59,10 @@ MATCH_FIELDS = [
 # Jei lankomumo dar nėra – bandome kelis kartus, paskui tik kelias dienas po rungtynių.
 MAX_ATTEMPTS = 4
 RECHECK_DAYS = 3
+# Vienkartinis „atgalinis“ patikrinimas: --recheck-days N padidina langą, kiek dienų po rungtynių
+# dar bandome gauti trūkstamą lankomumą (pvz. 365 = visos sezono rungtynės be skaičiaus).
+# Be šio parametro nieko nesikeičia.
+OVERRIDE = {"recheck_days": None}
 
 
 # --------------------------------------------------------------------------- bendra
@@ -275,7 +279,8 @@ class Ctx:
         self.dir = Path(data_dir)
         self.path = self.dir / "matches.csv"
         self.matches = load_matches(self.path)
-        self.recheck = recheck_days
+        # --recheck-days gali tik pailginti langą, niekada jo nesutrumpina
+        self.recheck = max(recheck_days, OVERRIDE["recheck_days"] or 0)
         self.start = season_start(season)
         self.new_att = 0
         self.fetched = 0
@@ -1081,7 +1086,11 @@ def main() -> int:
     ap.add_argument("--max-fetch", type=int, default=150)
     ap.add_argument("--delay", type=float, default=0.4)
     ap.add_argument("--recompute-only", action="store_true")
+    ap.add_argument("--recheck-days", type=int, default=None,
+                    help="vienkartinis patikrinimas: iki kiek dienų po rungtynių dar bandyti gauti trūkstamą lankomumą "
+                         "(pvz. 365); be parametro – kaip įprasta")
     args = ap.parse_args()
+    OVERRIDE["recheck_days"] = args.recheck_days
 
     keys = list(LEAGUES) if args.league == "all" else [args.league]
     rc = 0
