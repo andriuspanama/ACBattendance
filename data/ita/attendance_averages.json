@@ -1,20 +1,40 @@
 {
   "league": "LBA",
   "season": "2026-27",
-  "updated": "2026-11-08T13:41:14+00:00",
+  "updated": "2026-11-08T22:16:51+00:00",
   "clubs": [
     {
       "league": "LBA",
       "season": "2026-27",
+      "club": "Armani Olimpia Milano",
+      "home_games_counted": 4,
+      "average": 6673,
+      "total": 26693,
+      "max": 8068,
+      "min": 5600,
+      "arenas": [
+        {
+          "arena": "Unipol Forum",
+          "games": 4
+        }
+      ]
+    },
+    {
+      "league": "LBA",
+      "season": "2026-27",
       "club": "Maxima Roma",
-      "home_games_counted": 1,
-      "average": 9312,
-      "total": 9312,
+      "home_games_counted": 2,
+      "average": 5798,
+      "total": 11595,
       "max": 9312,
-      "min": 9312,
+      "min": 2283,
       "arenas": [
         {
           "arena": "PalaEur",
+          "games": 1
+        },
+        {
+          "arena": "Palazzetto dello Sport",
           "games": 1
         }
       ]
@@ -22,15 +42,15 @@
     {
       "league": "LBA",
       "season": "2026-27",
-      "club": "Armani Olimpia Milano",
+      "club": "Openjobmetis Varese",
       "home_games_counted": 3,
-      "average": 6698,
-      "total": 20095,
-      "max": 8068,
-      "min": 5600,
+      "average": 4768,
+      "total": 14304,
+      "max": 5067,
+      "min": 4474,
       "arenas": [
         {
-          "arena": "Unipol Forum",
+          "arena": "Itelyum Arena",
           "games": 3
         }
       ]
@@ -47,22 +67,6 @@
       "arenas": [
         {
           "arena": "PalaTrieste",
-          "games": 2
-        }
-      ]
-    },
-    {
-      "league": "LBA",
-      "season": "2026-27",
-      "club": "Openjobmetis Varese",
-      "home_games_counted": 2,
-      "average": 4618,
-      "total": 9237,
-      "max": 4763,
-      "min": 4474,
-      "arenas": [
-        {
-          "arena": "Itelyum Arena",
           "games": 2
         }
       ]
@@ -151,15 +155,15 @@
       "league": "LBA",
       "season": "2026-27",
       "club": "Bertram Derthona Tortona",
-      "home_games_counted": 3,
-      "average": 2606,
-      "total": 7819,
+      "home_games_counted": 4,
+      "average": 2591,
+      "total": 10365,
       "max": 2750,
       "min": 2413,
       "arenas": [
         {
           "arena": "Nova Arena",
-          "games": 3
+          "games": 4
         }
       ]
     },
