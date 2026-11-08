@@ -1,7 +1,7 @@
 {
   "league": "LEBL",
   "season": "2026-27",
-  "updated": "2026-11-08T13:40:37+00:00",
+  "updated": "2026-11-08T22:16:09+00:00",
   "clubs": [
     {
       "league": "LEBL",
@@ -122,22 +122,6 @@
     {
       "league": "LEBL",
       "season": "2026-27",
-      "club": "Viimsi",
-      "home_games_counted": 4,
-      "average": 478,
-      "total": 1910,
-      "max": 814,
-      "min": 291,
-      "arenas": [
-        {
-          "arena": "Forus Spordikeskus Viimsi",
-          "games": 4
-        }
-      ]
-    },
-    {
-      "league": "LEBL",
-      "season": "2026-27",
       "club": "VEF Rīga",
       "home_games_counted": 5,
       "average": 452,
@@ -203,6 +187,22 @@
       "arenas": [
         {
           "arena": "Keila Tervisekeskus",
+          "games": 5
+        }
+      ]
+    },
+    {
+      "league": "LEBL",
+      "season": "2026-27",
+      "club": "Viimsi",
+      "home_games_counted": 5,
+      "average": 431,
+      "total": 2157,
+      "max": 814,
+      "min": 247,
+      "arenas": [
+        {
+          "arena": "Forus Spordikeskus Viimsi",
           "games": 5
         }
       ]
