@@ -1,7 +1,7 @@
 {
   "league": "GBL",
   "season": "2026-27",
-  "updated": "2026-11-07T22:18:44+00:00",
+  "updated": "2026-11-08T06:44:03+00:00",
   "clubs": [
     {
       "league": "GBL",
@@ -39,15 +39,15 @@
       "league": "GBL",
       "season": "2026-27",
       "club": "Iraklis",
-      "home_games_counted": 1,
-      "average": 3000,
-      "total": 3000,
+      "home_games_counted": 2,
+      "average": 2400,
+      "total": 4800,
       "max": 3000,
-      "min": 3000,
+      "min": 1800,
       "arenas": [
         {
           "arena": "ΙΒΑΝΩΦΕΙΟ",
-          "games": 1
+          "games": 2
         }
       ]
     },
