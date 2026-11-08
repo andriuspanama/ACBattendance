@@ -1,7 +1,7 @@
 {
   "league": "ACB",
   "season": "2026-27",
-  "updated": "2026-11-08T13:26:30+00:00",
+  "updated": "2026-11-08T22:07:09+00:00",
   "clubs": [
     {
       "league": "ACB",
@@ -77,10 +77,10 @@
       "league": "ACB",
       "season": "2026-27",
       "club": "Casademont Zaragoza",
-      "home_games_counted": 3,
-      "average": 6650,
-      "total": 19951,
-      "max": 7364,
+      "home_games_counted": 4,
+      "average": 7089,
+      "total": 28357,
+      "max": 8406,
       "min": 6067
     },
     {
@@ -97,9 +97,9 @@
       "league": "ACB",
       "season": "2026-27",
       "club": "Leyma Coruna",
-      "home_games_counted": 3,
-      "average": 6029,
-      "total": 18088,
+      "home_games_counted": 4,
+      "average": 6135,
+      "total": 24540,
       "max": 6472,
       "min": 5514
     },
