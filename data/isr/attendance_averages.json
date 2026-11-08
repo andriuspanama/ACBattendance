@@ -1,7 +1,7 @@
 {
   "league": "Winner League",
   "season": "2026-27",
-  "updated": "2026-11-08T13:42:40+00:00",
+  "updated": "2026-11-08T22:17:22+00:00",
   "clubs": [
     {
       "league": "Winner League",
@@ -23,15 +23,15 @@
       "league": "Winner League",
       "season": "2026-27",
       "club": "Hapoel Midtown Jerusalem",
-      "home_games_counted": 2,
-      "average": 3582,
-      "total": 7165,
+      "home_games_counted": 3,
+      "average": 3461,
+      "total": 10383,
       "max": 3618,
-      "min": 3547,
+      "min": 3218,
       "arenas": [
         {
           "arena": "Pais Arena Jerusalem",
-          "games": 2
+          "games": 3
         }
       ]
     },
