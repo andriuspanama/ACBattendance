@@ -1,7 +1,7 @@
 {
   "league": "BSL",
   "season": "2026-27",
-  "updated": "2026-11-08T13:18:52+00:00",
+  "updated": "2026-11-08T21:59:42+00:00",
   "clubs": [
     {
       "league": "BSL",
@@ -16,22 +16,6 @@
         {
           "arena": "Ankara Spor Salonu",
           "games": 4
-        }
-      ]
-    },
-    {
-      "league": "BSL",
-      "season": "2026-27",
-      "club": "Bahçeşehir Koleji",
-      "home_games_counted": 3,
-      "average": 3922,
-      "total": 11767,
-      "max": 6785,
-      "min": 718,
-      "arenas": [
-        {
-          "arena": "Sinan Erdem Spor Salonu",
-          "games": 3
         }
       ]
     },
@@ -70,6 +54,22 @@
     {
       "league": "BSL",
       "season": "2026-27",
+      "club": "Bahçeşehir Koleji",
+      "home_games_counted": 4,
+      "average": 3092,
+      "total": 12366,
+      "max": 6785,
+      "min": 599,
+      "arenas": [
+        {
+          "arena": "Sinan Erdem Spor Salonu",
+          "games": 4
+        }
+      ]
+    },
+    {
+      "league": "BSL",
+      "season": "2026-27",
       "club": "Karşıyaka",
       "home_games_counted": 2,
       "average": 2762,
@@ -86,22 +86,6 @@
     {
       "league": "BSL",
       "season": "2026-27",
-      "club": "Glint Çayırova Belediyesi",
-      "home_games_counted": 3,
-      "average": 2614,
-      "total": 7841,
-      "max": 3500,
-      "min": 1221,
-      "arenas": [
-        {
-          "arena": "Çayırova Belediyesi Spor Kompleksi",
-          "games": 3
-        }
-      ]
-    },
-    {
-      "league": "BSL",
-      "season": "2026-27",
       "club": "Fenerbahçe Tarfin",
       "home_games_counted": 3,
       "average": 2534,
@@ -112,6 +96,22 @@
         {
           "arena": "Ülker Spor ve Etkinlik Salonu",
           "games": 3
+        }
+      ]
+    },
+    {
+      "league": "BSL",
+      "season": "2026-27",
+      "club": "Glint Çayırova Belediyesi",
+      "home_games_counted": 4,
+      "average": 2485,
+      "total": 9939,
+      "max": 3500,
+      "min": 1221,
+      "arenas": [
+        {
+          "arena": "Çayırova Belediyesi Spor Kompleksi",
+          "games": 4
         }
       ]
     },
@@ -183,15 +183,15 @@
       "league": "BSL",
       "season": "2026-27",
       "club": "Galatasaray Mct Technıc",
-      "home_games_counted": 3,
-      "average": 2027,
-      "total": 6081,
+      "home_games_counted": 4,
+      "average": 1826,
+      "total": 7305,
       "max": 2452,
-      "min": 1775,
+      "min": 1224,
       "arenas": [
         {
           "arena": "Sinan Erdem Spor Salonu",
-          "games": 3
+          "games": 4
         }
       ]
     },
@@ -215,15 +215,15 @@
       "league": "BSL",
       "season": "2026-27",
       "club": "Anadolu Efes",
-      "home_games_counted": 3,
-      "average": 1402,
-      "total": 4206,
+      "home_games_counted": 4,
+      "average": 1311,
+      "total": 5243,
       "max": 2051,
       "min": 650,
       "arenas": [
         {
           "arena": "Turkcell Basketbol Gelişim Merkezi",
-          "games": 3
+          "games": 4
         }
       ]
     },
