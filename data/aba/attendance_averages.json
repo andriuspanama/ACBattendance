@@ -1,7 +1,7 @@
 {
   "league": "ABA",
   "season": "2026-27",
-  "updated": "2026-11-08T13:40:49+00:00",
+  "updated": "2026-11-08T22:16:26+00:00",
   "clubs": [
     {
       "league": "ABA",
@@ -159,18 +159,18 @@
       "league": "ABA",
       "season": "2026-27",
       "club": "Partizan Mozzart Bet",
-      "home_games_counted": 2,
-      "average": 1215,
-      "total": 2430,
+      "home_games_counted": 3,
+      "average": 1186,
+      "total": 3557,
       "max": 1413,
       "min": 1017,
       "arenas": [
         {
-          "arena": "Košarkaška dvorana Aleksandar Nikolić",
-          "games": 1
+          "arena": "Hala sportova Ranko Žeravica",
+          "games": 2
         },
         {
-          "arena": "Hala sportova Ranko Žeravica",
+          "arena": "Košarkaška dvorana Aleksandar Nikolić",
           "games": 1
         }
       ]
