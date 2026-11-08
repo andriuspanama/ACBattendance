@@ -1,7 +1,7 @@
 {
   "league": "BBL",
   "season": "2026-27",
-  "updated": "2026-11-08T13:41:49+00:00",
+  "updated": "2026-11-08T22:18:25+00:00",
   "clubs": [
     {
       "league": "BBL",
@@ -160,15 +160,15 @@
       "league": "BBL",
       "season": "2026-27",
       "club": "MHP RIESEN Ludwigsburg",
-      "home_games_counted": 3,
-      "average": 3389,
-      "total": 10168,
-      "max": 3682,
+      "home_games_counted": 4,
+      "average": 3470,
+      "total": 13882,
+      "max": 3714,
       "min": 2972,
       "arenas": [
         {
           "arena": "MHPArena Ludwigsburg",
-          "games": 3,
+          "games": 4,
           "capacity": 4000
         }
       ]
@@ -244,6 +244,23 @@
     {
       "league": "BBL",
       "season": "2026-27",
+      "club": "Fitness First Würzburg Baskets",
+      "home_games_counted": 4,
+      "average": 2852,
+      "total": 11406,
+      "max": 3140,
+      "min": 2501,
+      "arenas": [
+        {
+          "arena": "tectake ARENA Würzburg",
+          "games": 4,
+          "capacity": 3140
+        }
+      ]
+    },
+    {
+      "league": "BBL",
+      "season": "2026-27",
       "club": "Veolia Towers Hamburg",
       "home_games_counted": 3,
       "average": 2848,
@@ -255,23 +272,6 @@
           "arena": "Inselpark Arena",
           "games": 3,
           "capacity": 3400
-        }
-      ]
-    },
-    {
-      "league": "BBL",
-      "season": "2026-27",
-      "club": "Fitness First Würzburg Baskets",
-      "home_games_counted": 3,
-      "average": 2755,
-      "total": 8266,
-      "max": 2920,
-      "min": 2501,
-      "arenas": [
-        {
-          "arena": "tectake ARENA Würzburg",
-          "games": 3,
-          "capacity": 3140
         }
       ]
     },
@@ -296,15 +296,15 @@
       "league": "BBL",
       "season": "2026-27",
       "club": "SYNTAINICS MBC",
-      "home_games_counted": 3,
-      "average": 2396,
-      "total": 7188,
+      "home_games_counted": 4,
+      "average": 2484,
+      "total": 9934,
       "max": 2780,
       "min": 2132,
       "arenas": [
         {
           "arena": "Stadthalle Weißenfels",
-          "games": 3,
+          "games": 4,
           "capacity": 3000
         }
       ]
