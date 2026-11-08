@@ -1,7 +1,7 @@
 {
   "league": "ACB",
   "season": "2026-27",
-  "updated": "2026-11-07T21:52:13+00:00",
+  "updated": "2026-11-08T06:02:26+00:00",
   "clubs": [
     {
       "league": "ACB",
@@ -117,9 +117,9 @@
       "league": "ACB",
       "season": "2026-27",
       "club": "Ilerna Lleida",
-      "home_games_counted": 2,
-      "average": 5632,
-      "total": 11264,
+      "home_games_counted": 3,
+      "average": 5636,
+      "total": 16908,
       "max": 5699,
       "min": 5565
     },
