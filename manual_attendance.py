@@ -69,14 +69,37 @@ def parse_args():
     return ap.parse_args()
 
 
+def read_sheet_csv(sheet_id: str, sheet: str) -> str:
+    """Lapo turinys CSV. Pagrindinis būdas – „export“ pagal lapo gid: jis grąžina tikrąsias langelių reikšmes.
+    Senasis „gviz“ būdas tekstą skaitinio stulpelio langeliuose (pvz. „seyircisiz“ stulpelyje Attendance)
+    paverčia tuščiu, todėl rungtynės be žiūrovų būdavo nepastebimos – jis paliktas tik kaip atsarginis."""
+    base = f"https://docs.google.com/spreadsheets/d/{sheet_id}"
+    try:
+        h = requests.get(f"{base}/htmlview", timeout=30)
+        h.raise_for_status()
+        gid = None
+        for m in re.finditer(r'items\.push\(\{name: "(.*?)",.*?gid: "(\d+)"', h.text):
+            if m.group(1).replace("\\/", "/") == sheet:
+                gid = m.group(2)
+                break
+        if gid:
+            r = requests.get(f"{base}/export?format=csv&gid={gid}", timeout=30)
+            r.raise_for_status()
+            text = r.content.decode("utf-8")
+            if text.strip():
+                return text
+        print(f"Nepavyko rasti lapo „{sheet}“ gid – naudojamas gviz", file=sys.stderr)
+    except Exception as e:  # noqa: BLE001
+        print(f"Export nepavyko ({e.__class__.__name__}) – naudojamas gviz", file=sys.stderr)
+    r = requests.get(f"{base}/gviz/tq?tqx=out:csv&headers=1&sheet={urllib.parse.quote(sheet)}", timeout=30)
+    r.raise_for_status()
+    return r.content.decode("utf-8")
+
+
 def run() -> int:
     args = parse_args()
 
-    url = (f"https://docs.google.com/spreadsheets/d/{args.sheet_id}/gviz/tq?tqx=out:csv&headers=1"
-           f"&sheet={urllib.parse.quote(args.sheet)}")
-    r = requests.get(url, timeout=30)
-    r.raise_for_status()
-    rows = list(csv.reader(io.StringIO(r.content.decode("utf-8"))))
+    rows = list(csv.reader(io.StringIO(read_sheet_csv(args.sheet_id, args.sheet))))
     if not rows:
         print("Lapas tuščias", file=sys.stderr)
         write_status(args.data_dir, args.league, SOURCE, False, f"lapas „{args.sheet}“ tuščias arba nerastas")
