@@ -1,21 +1,21 @@
 {
   "league": "ABA",
   "season": "2026-27",
-  "updated": "2026-11-08T06:19:07+00:00",
+  "updated": "2026-11-08T13:40:49+00:00",
   "clubs": [
     {
       "league": "ABA",
       "season": "2026-27",
       "club": "U-BT Cluj-Napoca",
-      "home_games_counted": 2,
-      "average": 4322,
-      "total": 8645,
+      "home_games_counted": 3,
+      "average": 3812,
+      "total": 11436,
       "max": 6228,
       "min": 2417,
       "arenas": [
         {
           "arena": "BT Arena",
-          "games": 1
+          "games": 2
         },
         {
           "arena": "Horia Demian Sports Hall",
