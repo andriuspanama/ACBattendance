@@ -1,6 +1,6 @@
 {
  "season": "2026-27",
- "updated": "2026-11-07T22:41:31+00:00",
+ "updated": "2026-11-08T07:15:52+00:00",
  "clubs": {
   "ADA Blois Basket 41": {
    "arena": "Le Jeu de Paume",
@@ -1054,8 +1054,8 @@
    "capacity": 6100,
    "league": "ACB",
    "source": "games",
-   "games": 2,
-   "of_games": 2,
+   "games": 3,
+   "of_games": 3,
    "league_name": "Ilerna Lleida"
   },
   "Fos Provence Basket": {
@@ -2743,8 +2743,8 @@
    "capacity": 18000,
    "league": "NBL",
    "source": "games",
-   "games": 5,
-   "of_games": 6,
+   "games": 6,
+   "of_games": 7,
    "league_name": "Sydney Kings"
   },
   "Syntainics MBC": {

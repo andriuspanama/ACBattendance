@@ -1,7 +1,7 @@
 {
  "league": "GBL",
  "season": "2026-27",
- "updated": "2026-11-07T22:41:31+00:00",
+ "updated": "2026-11-08T07:15:52+00:00",
  "clubs": [
   {
    "club": "Aris",
@@ -20,15 +20,15 @@
   },
   {
    "club": "Iraklis",
-   "home_games_counted": 1,
-   "games_with_capacity": 1,
+   "home_games_counted": 2,
+   "games_with_capacity": 2,
    "capacity": 2580,
-   "weighted_capacity": 3000,
-   "filling_rate": 1.0,
+   "weighted_capacity": 2790,
+   "filling_rate": 0.8602,
    "arenas": [
     {
      "arena": "ΙΒΑΝΩΦΕΙΟ",
-     "games": 1,
+     "games": 2,
      "capacity": 2580
     }
    ]
@@ -110,7 +110,7 @@
   }
  ],
  "unknown_arenas": [],
- "last_attendance_game": "2026-10-31",
+ "last_attendance_game": "2026-11-07",
  "games": {
   "0AA956E9": {
    "arena": "Κ. Γ. ΚΑΛΛΙΘΕΑΣ ΡΟΔΟΥ",

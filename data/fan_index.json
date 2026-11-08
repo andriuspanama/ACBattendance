@@ -1,6 +1,6 @@
 {
  "season": "2026-27",
- "updated": "2026-11-07T22:41:34+00:00",
+ "updated": "2026-11-08T07:15:54+00:00",
  "model": {
   "source": "Fan_attraction_index_combined.xlsx, Europe 25-26 (frozen for 2026-27)",
   "europe": {
@@ -46,7 +46,7 @@
    "eligible": 10,
    "coverage": 1.0,
    "method": "this season",
-   "typical_attendance": 5983,
+   "typical_attendance": 6000,
    "typical_population": 1256203
   },
   "Korisliiga": {
@@ -101,8 +101,8 @@
   },
   "GBL": {
    "clubs": 14,
-   "eligible": 2,
-   "coverage": 0.143,
+   "eligible": 3,
+   "coverage": 0.214,
    "method": "Europe index only (league not in the 2025/26 model, coverage below threshold)"
   },
   "Winner League": {
@@ -147,7 +147,7 @@
    "arena_full": false,
    "expected_europe": 5362,
    "index_europe": 0.786,
-   "expected_league": 7682,
+   "expected_league": 7683,
    "index_league": 0.548,
    "profile": "Below own league and Europe"
   },
@@ -193,16 +193,16 @@
    "club": "Forca Lleida CE",
    "population": 223245.0,
    "area": "Lleida",
-   "home_games": 2,
-   "reported_games": 2,
-   "average": 5632,
+   "home_games": 3,
+   "reported_games": 3,
+   "average": 5636,
    "eligible": true,
-   "filling_rate": 0.9233,
+   "filling_rate": 0.9239,
    "arena_full": true,
    "expected_europe": 2964,
-   "index_europe": 1.9,
+   "index_europe": 1.902,
    "expected_league": 5765,
-   "index_league": 0.977,
+   "index_league": 0.978,
    "profile": "In line with own league, above Europe"
   },
   {
@@ -291,7 +291,7 @@
    "arena_full": true,
    "expected_europe": 2933,
    "index_europe": 1.929,
-   "expected_league": 5743,
+   "expected_league": 5744,
    "index_league": 0.985,
    "profile": "In line with own league, above Europe"
   },
@@ -399,7 +399,7 @@
    "arena_full": false,
    "expected_europe": 4257,
    "index_europe": 1.516,
-   "expected_league": 6730,
+   "expected_league": 6731,
    "index_league": 0.959,
    "profile": "In line with own league, above Europe"
   },
@@ -895,7 +895,7 @@
    "club": "Telekom Baskets Bonn",
    "population": 668630.0,
    "area": "Bonn",
-   "home_games": 4,
+   "home_games": 5,
    "reported_games": 4,
    "average": 5409,
    "eligible": true,
@@ -975,8 +975,8 @@
    "arena_full": true,
    "expected_europe": 4373,
    "index_europe": 2.294,
-   "expected_league": 6075,
-   "index_league": 1.652,
+   "expected_league": 6092,
+   "index_league": 1.647,
    "profile": "Strong in own league and in Europe"
   },
   {
@@ -993,8 +993,8 @@
    "arena_full": false,
    "expected_europe": 4850,
    "index_europe": 0.838,
-   "expected_league": 6432,
-   "index_league": 0.632,
+   "expected_league": 6450,
+   "index_league": 0.63,
    "profile": "Below own league and Europe"
   },
   {
@@ -1011,8 +1011,8 @@
    "arena_full": false,
    "expected_europe": 2736,
    "index_europe": 1.587,
-   "expected_league": 4993,
-   "index_league": 0.87,
+   "expected_league": 5007,
+   "index_league": 0.867,
    "profile": "Below own league, above Europe"
   },
   {
@@ -1029,8 +1029,8 @@
    "arena_full": false,
    "expected_europe": 3237,
    "index_europe": 1.212,
-   "expected_league": 5302,
-   "index_league": 0.74,
+   "expected_league": 5317,
+   "index_league": 0.738,
    "profile": "Below own league, above Europe"
   },
   {
@@ -1047,8 +1047,8 @@
    "arena_full": false,
    "expected_europe": 5333,
    "index_europe": 1.387,
-   "expected_league": 6815,
-   "index_league": 1.086,
+   "expected_league": 6835,
+   "index_league": 1.083,
    "profile": "In line with own league, above Europe"
   },
   {
@@ -1065,8 +1065,8 @@
    "arena_full": false,
    "expected_europe": 4520,
    "index_europe": 0.989,
-   "expected_league": 6183,
-   "index_league": 0.723,
+   "expected_league": 6200,
+   "index_league": 0.721,
    "profile": "Below own league, in line with Europe"
   },
   {
@@ -1083,8 +1083,8 @@
    "arena_full": false,
    "expected_europe": 4743,
    "index_europe": 2.32,
-   "expected_league": 6350,
-   "index_league": 1.733,
+   "expected_league": 6368,
+   "index_league": 1.728,
    "profile": "Strong in own league and in Europe"
   },
   {
@@ -1101,8 +1101,8 @@
    "arena_full": false,
    "expected_europe": 5333,
    "index_europe": 1.455,
-   "expected_league": 6815,
-   "index_league": 1.139,
+   "expected_league": 6835,
+   "index_league": 1.136,
    "profile": "Strong in own league and in Europe"
   },
   {
@@ -1111,16 +1111,16 @@
    "club": "Sydney Kings",
    "population": 5638830.0,
    "area": "Greater Sydney",
-   "home_games": 6,
-   "reported_games": 6,
-   "average": 9428,
+   "home_games": 7,
+   "reported_games": 7,
+   "average": 9670,
    "eligible": true,
-   "filling_rate": 0.6005,
+   "filling_rate": 0.6033,
    "arena_full": false,
    "expected_europe": 5361,
-   "index_europe": 1.759,
-   "expected_league": 6838,
-   "index_league": 1.379,
+   "index_europe": 1.804,
+   "expected_league": 6857,
+   "index_league": 1.41,
    "profile": "Strong in own league and in Europe"
   },
   {
@@ -1137,8 +1137,8 @@
    "arena_full": true,
    "expected_europe": 3063,
    "index_europe": 1.315,
-   "expected_league": 5193,
-   "index_league": 0.776,
+   "expected_league": 5208,
+   "index_league": 0.774,
    "profile": "Below own league, above Europe"
   },
   {
@@ -2689,7 +2689,7 @@
    "club": "Cayirova Belediyespor",
    "population": 162262.0,
    "area": "Cayirova (district)",
-   "home_games": 3,
+   "home_games": 4,
    "reported_games": 3,
    "average": 2614,
    "eligible": true,
@@ -2841,13 +2841,15 @@
    "club": "Iraklis B.C.",
    "population": 1012810.0,
    "area": "Thessaloniki",
-   "home_games": 3,
-   "reported_games": 1,
-   "average": 3000,
-   "eligible": false,
-   "filling_rate": 1.0,
-   "arena_full": true,
-   "note": "attendance published for under 50% of home games"
+   "home_games": 4,
+   "reported_games": 2,
+   "average": 2400,
+   "eligible": true,
+   "filling_rate": 0.8602,
+   "arena_full": false,
+   "expected_europe": 4086,
+   "index_europe": 0.587,
+   "europe_reading": "Below Europe"
   },
   {
    "league": "GBL",
@@ -2869,7 +2871,7 @@
    "club": "Kolossos Rodou B.C.",
    "population": 125113.0,
    "area": "Rhodes (municipality)",
-   "home_games": 3,
+   "home_games": 4,
    "reported_games": 0,
    "average": null,
    "eligible": false,
@@ -2881,7 +2883,7 @@
    "club": "Doxa Lefkadas B.C.",
    "population": 21900.0,
    "area": "Lefkada (municipality)",
-   "home_games": 2,
+   "home_games": 3,
    "reported_games": 2,
    "average": 1500,
    "eligible": true,
@@ -2935,7 +2937,7 @@
    "club": "PAOK BC",
    "population": 1012810.0,
    "area": "Thessaloniki",
-   "home_games": 2,
+   "home_games": 3,
    "reported_games": 0,
    "average": null,
    "eligible": false,
@@ -2971,7 +2973,7 @@
    "club": "Promitheas Patras B.C.",
    "population": 229116.0,
    "area": "Patra",
-   "home_games": 3,
+   "home_games": 4,
    "reported_games": 1,
    "average": 2000,
    "eligible": false,
@@ -3181,7 +3183,7 @@
    "club": "Maccabi Ironi Ramat Gan",
    "population": 172242.0,
    "area": "Ramat Gan (municipality)",
-   "home_games": 1,
+   "home_games": 2,
    "reported_games": 0,
    "average": null,
    "eligible": false,

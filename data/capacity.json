@@ -1,7 +1,7 @@
 {
  "league": "ACB",
  "season": "2026-27",
- "updated": "2026-11-07T22:41:31+00:00",
+ "updated": "2026-11-08T07:15:52+00:00",
  "clubs": [
   {
    "club": "Asisa Joventut",
@@ -65,15 +65,15 @@
   },
   {
    "club": "Ilerna Lleida",
-   "home_games_counted": 2,
-   "games_with_capacity": 2,
+   "home_games_counted": 3,
+   "games_with_capacity": 3,
    "capacity": 6100,
    "weighted_capacity": 6100,
-   "filling_rate": 0.9233,
+   "filling_rate": 0.9239,
    "arenas": [
     {
      "arena": "Espai Fruita Barris Nord",
-     "games": 2,
+     "games": 3,
      "capacity": 6100
     }
    ]
@@ -275,7 +275,7 @@
   }
  ],
  "unknown_arenas": [],
- "last_attendance_game": "2026-11-07",
+ "last_attendance_game": "2026-11-08",
  "games": {
   "105375": {
    "arena": "Bilbao Arena",

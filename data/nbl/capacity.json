@@ -1,7 +1,7 @@
 {
  "league": "NBL",
  "season": "2026-27",
- "updated": "2026-11-07T13:56:17+00:00",
+ "updated": "2026-11-08T07:15:52+00:00",
  "clubs": [
   {
    "club": "Adelaide 36ers",
@@ -135,15 +135,15 @@
   },
   {
    "club": "Sydney Kings",
-   "home_games_counted": 6,
-   "games_with_capacity": 6,
+   "home_games_counted": 7,
+   "games_with_capacity": 7,
    "capacity": 18000,
-   "weighted_capacity": 15700,
-   "filling_rate": 0.6005,
+   "weighted_capacity": 16029,
+   "filling_rate": 0.6033,
    "arenas": [
     {
      "arena": "Afterpay Arena",
-     "games": 5,
+     "games": 6,
      "capacity": 18000
     },
     {
@@ -175,7 +175,7 @@
   }
  ],
  "unknown_arenas": [],
- "last_attendance_game": "2026-11-07",
+ "last_attendance_game": "2026-11-08",
  "games": {
   "36dbeb55-58ad-11f1-a69b-43a6b5595d3e": {
    "arena": "John Cain Arena",
@@ -404,6 +404,10 @@
   "37256511-58ad-11f1-b841-b5c487635207": {
    "arena": "Adelaide Entertainment Centre",
    "capacity": 10000
+  },
+  "37495c97-58ad-11f1-8f28-d7e4e018b88d": {
+   "arena": "Afterpay Arena",
+   "capacity": 18000
   }
  }
 }
