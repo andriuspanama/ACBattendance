@@ -1,7 +1,7 @@
 {
   "league": "Korisliiga",
   "season": "2026-27",
-  "updated": "2026-11-08T13:40:25+00:00",
+  "updated": "2026-11-08T22:15:56+00:00",
   "clubs": [
     {
       "league": "Korisliiga",
@@ -75,15 +75,15 @@
       "league": "Korisliiga",
       "season": "2026-27",
       "club": "KTP-Basket",
-      "home_games_counted": 3,
-      "average": 1103,
-      "total": 3309,
+      "home_games_counted": 4,
+      "average": 1086,
+      "total": 4344,
       "max": 1182,
-      "min": 1043,
+      "min": 1035,
       "arenas": [
         {
           "arena": "Steveco Areena",
-          "games": 3
+          "games": 4
         }
       ]
     },
@@ -155,15 +155,15 @@
       "league": "Korisliiga",
       "season": "2026-27",
       "club": "Tampereen Pyrintö",
-      "home_games_counted": 4,
-      "average": 750,
-      "total": 3000,
+      "home_games_counted": 5,
+      "average": 746,
+      "total": 3730,
       "max": 1030,
       "min": 575,
       "arenas": [
         {
           "arena": "Pyynikin palloiluhalli",
-          "games": 4
+          "games": 5
         }
       ]
     },
