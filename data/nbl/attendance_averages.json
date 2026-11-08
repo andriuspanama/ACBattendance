@@ -1,7 +1,7 @@
 {
   "league": "NBL",
   "season": "2026-27",
-  "updated": "2026-11-08T22:15:40+00:00",
+  "updated": "2026-11-08T22:36:17+00:00",
   "clubs": [
     {
       "league": "NBL",
@@ -91,15 +91,15 @@
       "league": "NBL",
       "season": "2026-27",
       "club": "NZ Breakers",
-      "home_games_counted": 2,
-      "average": 4468,
-      "total": 8935,
+      "home_games_counted": 3,
+      "average": 4476,
+      "total": 13427,
       "max": 5187,
       "min": 3748,
       "arenas": [
         {
           "arena": "Spark Arena",
-          "games": 2
+          "games": 3
         }
       ]
     },
