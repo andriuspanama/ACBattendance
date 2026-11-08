@@ -6,6 +6,8 @@ name: Atnaujinti lankomumą (oficialios lygų svetainės)
 on:
   schedule:
     - cron: "20 */6 * * *"
+    # kas mėnesį 1 d. – automatinis trūkstamo lankomumo patikrinimas visam sezonui (recheck_days 365)
+    - cron: "40 3 1 * *"
   workflow_dispatch:
     inputs:
       league:
@@ -67,7 +69,7 @@ jobs:
         if: steps.pick.outputs.skip != 'true'
         continue-on-error: true
         env:
-          RECHECK_DAYS_INPUT: ${{ inputs.recheck_days }}
+          RECHECK_DAYS_INPUT: ${{ inputs.recheck_days || (github.event.schedule == '40 3 1 * *' && '365' || '') }}
         run: |
           EXTRA=""
           if [ -n "$RECHECK_DAYS_INPUT" ]; then
