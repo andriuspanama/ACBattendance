@@ -1,7 +1,7 @@
 {
  "league": "LBA",
  "season": "2026-27",
- "updated": "2026-11-07T22:41:31+00:00",
+ "updated": "2026-11-08T18:19:51+00:00",
  "clubs": [
   {
    "club": "Acqua S.Bernardo Cantù",
@@ -140,15 +140,15 @@
   },
   {
    "club": "Pallacanestro Trieste",
-   "home_games_counted": 1,
-   "games_with_capacity": 1,
+   "home_games_counted": 2,
+   "games_with_capacity": 2,
    "capacity": 6736,
    "weighted_capacity": 6736,
-   "filling_rate": 0.6842,
+   "filling_rate": 0.7076,
    "arenas": [
     {
      "arena": "PalaTrieste",
-     "games": 1,
+     "games": 2,
      "capacity": 6736
     }
    ]
@@ -170,7 +170,7 @@
   }
  ],
  "unknown_arenas": [],
- "last_attendance_game": "2026-11-07",
+ "last_attendance_game": "2026-11-08",
  "games": {
   "25602": {
    "arena": "Palaverde",
@@ -367,6 +367,10 @@
   "25414": {
    "arena": "PalaBigi",
    "capacity": 4530
+  },
+  "25411": {
+   "arena": "PalaTrieste",
+   "capacity": 6736
   }
  }
 }

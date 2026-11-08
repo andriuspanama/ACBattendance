@@ -1,7 +1,7 @@
 {
  "league": "Winner League",
  "season": "2026-27",
- "updated": "2026-11-06T19:56:12+00:00",
+ "updated": "2026-11-08T18:19:51+00:00",
  "clubs": [
   {
    "club": "Bnei Penlink Herzliya",
@@ -399,16 +399,20 @@
    "capacity": 1300
   },
   "26696": {
-   "arena": "",
-   "capacity": null
+   "arena": "Zisman Hall",
+   "capacity": 1400
   },
   "26697": {
    "arena": "HaYovel Herzliya",
    "capacity": 1240
   },
   "26698": {
-   "arena": "",
-   "capacity": null
+   "arena": "Kfar Blum Hall",
+   "capacity": 1382
+  },
+  "26675": {
+   "arena": "Begin Arena",
+   "capacity": 1374
   },
   "26699": {
    "arena": "Remez Hall",
@@ -417,10 +421,6 @@
   "26701": {
    "arena": "HaKiriya Arena",
    "capacity": 2009
-  },
-  "26675": {
-   "arena": "Begin Arena",
-   "capacity": 1374
   },
   "26702": {
    "arena": "HaYovel Herzliya",
@@ -435,16 +435,16 @@
    "capacity": 1300
   },
   "26705": {
-   "arena": "",
-   "capacity": null
+   "arena": "Zisman Hall",
+   "capacity": 1400
   },
   "26706": {
    "arena": "Remez Hall",
    "capacity": 1000
   },
   "26707": {
-   "arena": "",
-   "capacity": null
+   "arena": "Kfar Blum Hall",
+   "capacity": 1382
   },
   "26708": {
    "arena": "HaKiriya Arena",

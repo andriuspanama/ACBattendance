@@ -1,7 +1,7 @@
 {
  "league": "NBL",
  "season": "2026-27",
- "updated": "2026-11-08T07:15:52+00:00",
+ "updated": "2026-11-08T18:19:51+00:00",
  "clubs": [
   {
    "club": "Adelaide 36ers",
@@ -105,15 +105,15 @@
   },
   {
    "club": "Perth Wildcats",
-   "home_games_counted": 8,
-   "games_with_capacity": 8,
+   "home_games_counted": 9,
+   "games_with_capacity": 9,
    "capacity": 14846,
    "weighted_capacity": 14846,
-   "filling_rate": 0.7411,
+   "filling_rate": 0.7529,
    "arenas": [
     {
      "arena": "RAC Arena",
-     "games": 8,
+     "games": 9,
      "capacity": 14846
     }
    ]
@@ -404,6 +404,10 @@
   "37256511-58ad-11f1-b841-b5c487635207": {
    "arena": "Adelaide Entertainment Centre",
    "capacity": 10000
+  },
+  "37289ea9-58ad-11f1-9790-bd240d5ec994": {
+   "arena": "RAC Arena",
+   "capacity": 14846
   },
   "37495c97-58ad-11f1-8f28-d7e4e018b88d": {
    "arena": "Afterpay Arena",

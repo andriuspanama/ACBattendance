@@ -1,6 +1,6 @@
 {
  "season": "2026-27",
- "updated": "2026-11-08T07:15:52+00:00",
+ "updated": "2026-11-08T18:19:51+00:00",
  "clubs": {
   "ADA Blois Basket 41": {
    "arena": "Le Jeu de Paume",
@@ -19,8 +19,8 @@
    "capacity": 9025,
    "league": "GBL",
    "source": "games",
-   "games": 2,
-   "of_games": 2,
+   "games": 3,
+   "of_games": 3,
    "league_name": "Aek"
   },
   "ALM Evreux Basket": {
@@ -601,8 +601,8 @@
    "capacity": 1240,
    "league": "Winner League",
    "source": "games",
-   "games": 3,
-   "of_games": 3,
+   "games": 5,
+   "of_games": 5,
    "league_name": "Bnei Penlink Herzliya"
   },
   "Boulazac Basket Dordogne": {
@@ -1201,8 +1201,8 @@
    "capacity": 1382,
    "league": "Winner League",
    "source": "games",
-   "games": 3,
-   "of_games": 3,
+   "games": 5,
+   "of_games": 5,
    "league_name": "Hapoel Alfi Benedek Galil Elion"
   },
   "Hapoel HaEmek": {
@@ -1213,8 +1213,8 @@
    "capacity": 2069,
    "league": "Winner League",
    "source": "games",
-   "games": 4,
-   "of_games": 4,
+   "games": 5,
+   "of_games": 5,
    "league_name": "Hapoel Gilat Telecom Haemek"
   },
   "Hapoel Holon": {
@@ -1336,8 +1336,8 @@
    "capacity": 1000,
    "league": "Winner League",
    "source": "games",
-   "games": 3,
-   "of_games": 3,
+   "games": 5,
+   "of_games": 5,
    "league_name": "Ironi Lati Kiryat Ata"
   },
   "Ironi Ness Ziona B.C.": {
@@ -1348,8 +1348,8 @@
    "capacity": 1300,
    "league": "Winner League",
    "source": "games",
-   "games": 2,
-   "of_games": 2,
+   "games": 4,
+   "of_games": 4,
    "league_name": "Ironi Hai Motors Ness Ziona"
   },
   "JA Vichy Basket": {
@@ -1969,8 +1969,8 @@
    "capacity": 2009,
    "league": "Winner League",
    "source": "games",
-   "games": 3,
-   "of_games": 3,
+   "games": 5,
+   "of_games": 5,
    "league_name": "Maccabi Rotshtein Ashdod"
   },
   "Maccabi Ironi Ramat Gan": {
@@ -1981,8 +1981,8 @@
    "capacity": 1400,
    "league": "Winner League",
    "source": "games",
-   "games": 3,
-   "of_games": 3,
+   "games": 5,
+   "of_games": 5,
    "league_name": "Maccabi Cnaan Group Ramat Gan"
   },
   "Maccabi Rishon Lezion": {
@@ -2017,8 +2017,8 @@
    "capacity": 1700,
    "league": "GBL",
    "source": "games",
-   "games": 2,
-   "of_games": 2,
+   "games": 3,
+   "of_games": 3,
    "league_name": "Maroussi"
   },
   "Maxima Roma": {
@@ -2284,8 +2284,8 @@
    "capacity": 6736,
    "league": "LBA",
    "source": "games",
-   "games": 3,
-   "of_games": 3,
+   "games": 4,
+   "of_games": 4,
    "league_name": "Pallacanestro Trieste"
   },
   "Pallacanestro Varese": {
@@ -2341,8 +2341,8 @@
    "capacity": 14846,
    "league": "NBL",
    "source": "games",
-   "games": 8,
-   "of_games": 8,
+   "games": 9,
+   "of_games": 9,
    "league_name": "Perth Wildcats"
   },
   "Petkim Spor Kulubu": {
@@ -2910,15 +2910,15 @@
    "league_name": "Arriva Lotto Twarde Pierniki Toruń"
   },
   "U-BT Cluj - Napoca": {
-   "arena": "Horia Demian Sports Hall",
+   "arena": "BT Arena",
    "city": "Cluj-Napoca",
-   "lat": 46.76574,
-   "lon": 23.56457,
-   "capacity": 2525,
+   "lat": 46.76697,
+   "lon": 23.57039,
+   "capacity": 10000,
    "league": "ABA",
    "source": "games",
-   "games": 1,
-   "of_games": 2,
+   "games": 2,
+   "of_games": 3,
    "league_name": "U-BT Cluj-Napoca"
   },
   "UCAM Murcia": {

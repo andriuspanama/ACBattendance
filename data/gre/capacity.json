@@ -1,7 +1,7 @@
 {
  "league": "GBL",
  "season": "2026-27",
- "updated": "2026-11-08T07:15:52+00:00",
+ "updated": "2026-11-08T18:19:51+00:00",
  "clubs": [
   {
    "club": "Aris",
@@ -271,6 +271,14 @@
   "FC90483F": {
    "arena": "Κ. Γ. ΚΑΛΛΙΘΕΑΣ ΡΟΔΟΥ",
    "capacity": 3400
+  },
+  "84DE99E9": {
+   "arena": "Κ.Γ. ΑΜΑΡΟΥΣΙΟΥ",
+   "capacity": 1700
+  },
+  "DF85EF86": {
+   "arena": "SUNEL ARENA",
+   "capacity": 9025
   }
  }
 }

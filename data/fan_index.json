@@ -1,6 +1,6 @@
 {
  "season": "2026-27",
- "updated": "2026-11-08T07:15:54+00:00",
+ "updated": "2026-11-08T18:19:53+00:00",
  "model": {
   "source": "Fan_attraction_index_combined.xlsx, Europe 25-26 (frozen for 2026-27)",
   "europe": {
@@ -46,7 +46,7 @@
    "eligible": 10,
    "coverage": 1.0,
    "method": "this season",
-   "typical_attendance": 6000,
+   "typical_attendance": 6011,
    "typical_population": 1256203
   },
   "Korisliiga": {
@@ -70,17 +70,17 @@
    "eligible": 20,
    "coverage": 1.0,
    "method": "this season",
-   "typical_attendance": 1300,
+   "typical_attendance": 1290,
    "typical_population": 364255
   },
   "LBA": {
    "clubs": 16,
-   "eligible": 8,
-   "coverage": 0.5,
+   "eligible": 9,
+   "coverage": 0.562,
    "method": "2025/26 baseline × change of clubs reporting in both seasons",
-   "change_factor": 0.9886,
-   "clubs_in_change": 7,
-   "typical_attendance": 3885,
+   "change_factor": 0.9722,
+   "clubs_in_change": 8,
+   "typical_attendance": 3820,
    "typical_population": 393899
   },
   "PLK": {
@@ -975,8 +975,8 @@
    "arena_full": true,
    "expected_europe": 4373,
    "index_europe": 2.294,
-   "expected_league": 6092,
-   "index_league": 1.647,
+   "expected_league": 6103,
+   "index_league": 1.644,
    "profile": "Strong in own league and in Europe"
   },
   {
@@ -993,8 +993,8 @@
    "arena_full": false,
    "expected_europe": 4850,
    "index_europe": 0.838,
-   "expected_league": 6450,
-   "index_league": 0.63,
+   "expected_league": 6461,
+   "index_league": 0.629,
    "profile": "Below own league and Europe"
   },
   {
@@ -1011,8 +1011,8 @@
    "arena_full": false,
    "expected_europe": 2736,
    "index_europe": 1.587,
-   "expected_league": 5007,
-   "index_league": 0.867,
+   "expected_league": 5016,
+   "index_league": 0.866,
    "profile": "Below own league, above Europe"
   },
   {
@@ -1029,8 +1029,8 @@
    "arena_full": false,
    "expected_europe": 3237,
    "index_europe": 1.212,
-   "expected_league": 5317,
-   "index_league": 0.738,
+   "expected_league": 5326,
+   "index_league": 0.736,
    "profile": "Below own league, above Europe"
   },
   {
@@ -1047,8 +1047,8 @@
    "arena_full": false,
    "expected_europe": 5333,
    "index_europe": 1.387,
-   "expected_league": 6835,
-   "index_league": 1.083,
+   "expected_league": 6847,
+   "index_league": 1.081,
    "profile": "In line with own league, above Europe"
   },
   {
@@ -1065,8 +1065,8 @@
    "arena_full": false,
    "expected_europe": 4520,
    "index_europe": 0.989,
-   "expected_league": 6200,
-   "index_league": 0.721,
+   "expected_league": 6211,
+   "index_league": 0.719,
    "profile": "Below own league, in line with Europe"
   },
   {
@@ -1075,16 +1075,16 @@
    "club": "Perth Wildcats",
    "population": 2452765.0,
    "area": "Greater Perth",
-   "home_games": 8,
-   "reported_games": 8,
-   "average": 11003,
+   "home_games": 9,
+   "reported_games": 9,
+   "average": 11178,
    "eligible": true,
-   "filling_rate": 0.7411,
+   "filling_rate": 0.7529,
    "arena_full": false,
    "expected_europe": 4743,
-   "index_europe": 2.32,
-   "expected_league": 6368,
-   "index_league": 1.728,
+   "index_europe": 2.357,
+   "expected_league": 6379,
+   "index_league": 1.752,
    "profile": "Strong in own league and in Europe"
   },
   {
@@ -1101,8 +1101,8 @@
    "arena_full": false,
    "expected_europe": 5333,
    "index_europe": 1.455,
-   "expected_league": 6835,
-   "index_league": 1.136,
+   "expected_league": 6847,
+   "index_league": 1.134,
    "profile": "Strong in own league and in Europe"
   },
   {
@@ -1119,8 +1119,8 @@
    "arena_full": false,
    "expected_europe": 5361,
    "index_europe": 1.804,
-   "expected_league": 6857,
-   "index_league": 1.41,
+   "expected_league": 6869,
+   "index_league": 1.408,
    "profile": "Strong in own league and in Europe"
   },
   {
@@ -1137,8 +1137,8 @@
    "arena_full": true,
    "expected_europe": 3063,
    "index_europe": 1.315,
-   "expected_league": 5208,
-   "index_league": 0.774,
+   "expected_league": 5217,
+   "index_league": 0.772,
    "profile": "Below own league, above Europe"
   },
   {
@@ -1641,8 +1641,8 @@
    "arena_full": false,
    "expected_europe": 4947,
    "index_europe": 0.205,
-   "expected_league": 1579,
-   "index_league": 0.641,
+   "expected_league": 1566,
+   "index_league": 0.646,
    "profile": "Below own league and Europe"
   },
   {
@@ -1659,8 +1659,8 @@
    "arena_full": false,
    "expected_europe": 2414,
    "index_europe": 0.359,
-   "expected_league": 1166,
-   "index_league": 0.744,
+   "expected_league": 1156,
+   "index_league": 0.75,
    "profile": "Below own league and Europe"
   },
   {
@@ -1677,8 +1677,8 @@
    "arena_full": false,
    "expected_europe": 3436,
    "index_europe": 0.728,
-   "expected_league": 1317,
-   "index_league": 1.898,
+   "expected_league": 1306,
+   "index_league": 1.914,
    "profile": "Strong in own league, below Europe"
   },
   {
@@ -1695,8 +1695,8 @@
    "arena_full": false,
    "expected_europe": 2802,
    "index_europe": 0.196,
-   "expected_league": 1221,
-   "index_league": 0.45,
+   "expected_league": 1211,
+   "index_league": 0.454,
    "profile": "Below own league and Europe"
   },
   {
@@ -1713,8 +1713,8 @@
    "arena_full": false,
    "expected_europe": 4015,
    "index_europe": 0.314,
-   "expected_league": 1412,
-   "index_league": 0.892,
+   "expected_league": 1400,
+   "index_league": 0.899,
    "profile": "Below own league and Europe"
   },
   {
@@ -1731,8 +1731,8 @@
    "arena_full": false,
    "expected_europe": 4228,
    "index_europe": 0.101,
-   "expected_league": 1449,
-   "index_league": 0.293,
+   "expected_league": 1436,
+   "index_league": 0.296,
    "profile": "Below own league and Europe"
   },
   {
@@ -1749,8 +1749,8 @@
    "arena_full": false,
    "expected_europe": 4464,
    "index_europe": 0.665,
-   "expected_league": 1490,
-   "index_league": 1.992,
+   "expected_league": 1478,
+   "index_league": 2.008,
    "profile": "Strong in own league, below Europe"
   },
   {
@@ -1767,8 +1767,8 @@
    "arena_full": false,
    "expected_europe": 5150,
    "index_europe": 0.66,
-   "expected_league": 1618,
-   "index_league": 2.102,
+   "expected_league": 1604,
+   "index_league": 2.119,
    "profile": "Strong in own league, below Europe"
   },
   {
@@ -1785,8 +1785,8 @@
    "arena_full": false,
    "expected_europe": 4464,
    "index_europe": 0.175,
-   "expected_league": 1490,
-   "index_league": 0.524,
+   "expected_league": 1478,
+   "index_league": 0.528,
    "profile": "Below own league and Europe"
   },
   {
@@ -1803,8 +1803,8 @@
    "arena_full": false,
    "expected_europe": 1449,
    "index_europe": 1.898,
-   "expected_league": 1038,
-   "index_league": 2.648,
+   "expected_league": 1030,
+   "index_league": 2.67,
    "profile": "Strong in own league and in Europe"
   },
   {
@@ -1821,8 +1821,8 @@
    "arena_full": false,
    "expected_europe": 2955,
    "index_europe": 0.33,
-   "expected_league": 1244,
-   "index_league": 0.784,
+   "expected_league": 1233,
+   "index_league": 0.791,
    "profile": "Below own league and Europe"
   },
   {
@@ -1839,8 +1839,8 @@
    "arena_full": false,
    "expected_europe": 1663,
    "index_europe": 0.526,
-   "expected_league": 1065,
-   "index_league": 0.821,
+   "expected_league": 1057,
+   "index_league": 0.828,
    "profile": "Below own league and Europe"
   },
   {
@@ -1857,8 +1857,8 @@
    "arena_full": false,
    "expected_europe": 4464,
    "index_europe": 0.151,
-   "expected_league": 1490,
-   "index_league": 0.453,
+   "expected_league": 1478,
+   "index_league": 0.457,
    "profile": "Below own league and Europe"
   },
   {
@@ -1875,8 +1875,8 @@
    "arena_full": false,
    "expected_europe": 4464,
    "index_europe": 0.272,
-   "expected_league": 1490,
-   "index_league": 0.815,
+   "expected_league": 1478,
+   "index_league": 0.822,
    "profile": "Below own league and Europe"
   },
   {
@@ -1893,8 +1893,8 @@
    "arena_full": false,
    "expected_europe": 4015,
    "index_europe": 0.083,
-   "expected_league": 1412,
-   "index_league": 0.236,
+   "expected_league": 1400,
+   "index_league": 0.238,
    "profile": "Below own league and Europe"
   },
   {
@@ -1911,8 +1911,8 @@
    "arena_full": false,
    "expected_europe": 2802,
    "index_europe": 0.166,
-   "expected_league": 1221,
-   "index_league": 0.38,
+   "expected_league": 1211,
+   "index_league": 0.383,
    "profile": "Below own league and Europe"
   },
   {
@@ -1929,8 +1929,8 @@
    "arena_full": false,
    "expected_europe": 3837,
    "index_europe": 0.332,
-   "expected_league": 1382,
-   "index_league": 0.922,
+   "expected_league": 1371,
+   "index_league": 0.929,
    "profile": "In line with own league, below Europe"
   },
   {
@@ -1947,8 +1947,8 @@
    "arena_full": false,
    "expected_europe": 2532,
    "index_europe": 0.808,
-   "expected_league": 1182,
-   "index_league": 1.73,
+   "expected_league": 1172,
+   "index_league": 1.744,
    "profile": "Strong in own league, below Europe"
   },
   {
@@ -1957,16 +1957,16 @@
    "club": "U-BT Cluj - Napoca",
    "population": 425130.0,
    "area": "Cluj metropolitan area (city + 18 communes)",
-   "home_games": 2,
-   "reported_games": 2,
-   "average": 4322,
+   "home_games": 3,
+   "reported_games": 3,
+   "average": 3812,
    "eligible": true,
-   "filling_rate": 0.6902,
+   "filling_rate": 0.5077,
    "arena_full": false,
    "expected_europe": 3442,
-   "index_europe": 1.256,
-   "expected_league": 1318,
-   "index_league": 3.278,
+   "index_europe": 1.108,
+   "expected_league": 1307,
+   "index_league": 2.916,
    "profile": "Strong in own league and in Europe"
   },
   {
@@ -1983,8 +1983,8 @@
    "arena_full": false,
    "expected_europe": 2576,
    "index_europe": 0.621,
-   "expected_league": 1189,
-   "index_league": 1.346,
+   "expected_league": 1179,
+   "index_league": 1.358,
    "profile": "Strong in own league, below Europe"
   },
   {
@@ -2027,8 +2027,8 @@
    "arena_full": false,
    "expected_europe": 5283,
    "index_europe": 1.268,
-   "expected_league": 4876,
-   "index_league": 1.374,
+   "expected_league": 4795,
+   "index_league": 1.397,
    "profile": "Strong in own league and in Europe"
   },
   {
@@ -2045,8 +2045,8 @@
    "arena_full": false,
    "expected_europe": 5173,
    "index_europe": 0.488,
-   "expected_league": 4812,
-   "index_league": 0.524,
+   "expected_league": 4732,
+   "index_league": 0.533,
    "profile": "Below own league and Europe"
   },
   {
@@ -2063,8 +2063,8 @@
    "arena_full": false,
    "expected_europe": 1953,
    "index_europe": 1.334,
-   "expected_league": 3272,
-   "index_league": 0.796,
+   "expected_league": 3218,
+   "index_league": 0.81,
    "profile": "Below own league, above Europe"
   },
   {
@@ -2081,8 +2081,8 @@
    "arena_full": false,
    "expected_europe": 3262,
    "index_europe": 1.149,
-   "expected_league": 3828,
-   "index_league": 0.979,
+   "expected_league": 3764,
+   "index_league": 0.996,
    "profile": "In line with own league, above Europe"
   },
   {
@@ -2125,8 +2125,8 @@
    "arena_full": false,
    "expected_europe": 4979,
    "index_europe": 0.613,
-   "expected_league": 4702,
-   "index_league": 0.649,
+   "expected_league": 4624,
+   "index_league": 0.66,
    "profile": "Below own league and Europe"
   },
   {
@@ -2143,8 +2143,8 @@
    "arena_full": false,
    "expected_europe": 2895,
    "index_europe": 1.439,
-   "expected_league": 3663,
-   "index_league": 1.137,
+   "expected_league": 3602,
+   "index_league": 1.156,
    "profile": "Strong in own league and in Europe"
   },
   {
@@ -2161,8 +2161,8 @@
    "arena_full": false,
    "expected_europe": 2837,
    "index_europe": 1.628,
-   "expected_league": 3638,
-   "index_league": 1.269,
+   "expected_league": 3577,
+   "index_league": 1.291,
    "profile": "Strong in own league and in Europe"
   },
   {
@@ -2171,13 +2171,17 @@
    "club": "Pallacanestro Trieste",
    "population": 227792.0,
    "area": "Trieste",
-   "home_games": 3,
-   "reported_games": 1,
-   "average": 4609,
-   "eligible": false,
-   "filling_rate": 0.6842,
+   "home_games": 4,
+   "reported_games": 2,
+   "average": 4766,
+   "eligible": true,
+   "filling_rate": 0.7076,
    "arena_full": false,
-   "note": "attendance published for under 50% of home games"
+   "expected_europe": 2979,
+   "index_europe": 1.6,
+   "expected_league": 3639,
+   "index_league": 1.31,
+   "profile": "Strong in own league and in Europe"
   },
   {
    "league": "LBA",
@@ -2205,8 +2209,8 @@
    "arena_full": false,
    "expected_europe": 3178,
    "index_europe": 1.105,
-   "expected_league": 3789,
-   "index_league": 0.927,
+   "expected_league": 3726,
+   "index_league": 0.942,
    "profile": "In line with own league, above Europe"
   },
   {
