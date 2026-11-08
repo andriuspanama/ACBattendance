@@ -1,7 +1,7 @@
 {
   "league": "Korisliiga",
   "season": "2026-27",
-  "updated": "2026-11-08T22:15:56+00:00",
+  "updated": "2026-11-08T22:36:32+00:00",
   "clubs": [
     {
       "league": "Korisliiga",
@@ -91,15 +91,15 @@
       "league": "Korisliiga",
       "season": "2026-27",
       "club": "Tapiolan Honka",
-      "home_games_counted": 3,
-      "average": 1011,
-      "total": 3034,
-      "max": 1136,
-      "min": 894,
+      "home_games_counted": 5,
+      "average": 1010,
+      "total": 5051,
+      "max": 1298,
+      "min": 719,
       "arenas": [
         {
           "arena": "Tapiolan Liikuntahalli",
-          "games": 3
+          "games": 5
         }
       ]
     },
@@ -107,15 +107,15 @@
       "league": "Korisliiga",
       "season": "2026-27",
       "club": "Kataja Basket",
-      "home_games_counted": 4,
-      "average": 882,
-      "total": 3527,
+      "home_games_counted": 5,
+      "average": 868,
+      "total": 4338,
       "max": 945,
-      "min": 812,
+      "min": 811,
       "arenas": [
         {
           "arena": "Motonet Areena",
-          "games": 4
+          "games": 5
         }
       ]
     },
@@ -171,15 +171,15 @@
       "league": "Korisliiga",
       "season": "2026-27",
       "club": "Korihait",
-      "home_games_counted": 4,
-      "average": 731,
-      "total": 2925,
+      "home_games_counted": 5,
+      "average": 728,
+      "total": 3640,
       "max": 785,
       "min": 642,
       "arenas": [
         {
           "arena": "Wintteri",
-          "games": 4
+          "games": 5
         }
       ]
     },
