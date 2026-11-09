@@ -1,7 +1,7 @@
 {
   "league": "ACB",
   "season": "2026-27",
-  "updated": "2026-11-09T00:42:02+00:00",
+  "updated": "2026-11-09T06:32:06+00:00",
   "clubs": [
     {
       "league": "ACB",
@@ -27,10 +27,10 @@
       "league": "ACB",
       "season": "2026-27",
       "club": "Recoletas Salud San Pablo Burgos",
-      "home_games_counted": 2,
-      "average": 8956,
-      "total": 17911,
-      "max": 8963,
+      "home_games_counted": 3,
+      "average": 8997,
+      "total": 26990,
+      "max": 9079,
       "min": 8948
     },
     {
@@ -66,22 +66,22 @@
     {
       "league": "ACB",
       "season": "2026-27",
-      "club": "Real Madrid",
-      "home_games_counted": 4,
-      "average": 7117,
-      "total": 28467,
-      "max": 8123,
-      "min": 6610
-    },
-    {
-      "league": "ACB",
-      "season": "2026-27",
       "club": "Casademont Zaragoza",
       "home_games_counted": 4,
       "average": 7089,
       "total": 28357,
       "max": 8406,
       "min": 6067
+    },
+    {
+      "league": "ACB",
+      "season": "2026-27",
+      "club": "Real Madrid",
+      "home_games_counted": 5,
+      "average": 6987,
+      "total": 34935,
+      "max": 8123,
+      "min": 6468
     },
     {
       "league": "ACB",
@@ -156,22 +156,22 @@
     {
       "league": "ACB",
       "season": "2026-27",
-      "club": "La Laguna Tenerife",
-      "home_games_counted": 3,
-      "average": 4361,
-      "total": 13083,
-      "max": 4542,
-      "min": 4103
+      "club": "Barca",
+      "home_games_counted": 4,
+      "average": 4129,
+      "total": 16515,
+      "max": 5342,
+      "min": 3388
     },
     {
       "league": "ACB",
       "season": "2026-27",
-      "club": "Barca",
-      "home_games_counted": 3,
-      "average": 4213,
-      "total": 12640,
-      "max": 5342,
-      "min": 3388
+      "club": "La Laguna Tenerife",
+      "home_games_counted": 4,
+      "average": 3833,
+      "total": 15333,
+      "max": 4542,
+      "min": 2250
     },
     {
       "league": "ACB",
