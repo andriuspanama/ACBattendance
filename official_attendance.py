@@ -841,6 +841,34 @@ def gr_same(a: str, b: str) -> bool:
     return any(x[:4] == y[:4] for x in A for y in B)
 
 
+FS_URL = re.compile(r"/match/basketball/([a-z0-9-]+?)-([A-Za-z0-9]{8})/([a-z0-9-]+?)-([A-Za-z0-9]{8})/")
+
+
+def _fs_words(s: str) -> list[str]:
+    s = unicodedata.normalize("NFKD", s or "")
+    s = "".join(c for c in s if not unicodedata.combining(c)).casefold()
+    return re.sub(r"[^a-z0-9]+", " ", s).split()
+
+
+def fs_full_name(name: str, url: str) -> str:
+    """Pilnas Flashscore klubo pavadinimas pagal rungtynių nuorodą.
+    Flashscore rinkėjas pavadinimus „išvalo“ ir nukerpa pirmą trumpą žodį didžiosiomis raidėmis
+    („AEK Athens“ -> „Athens“), o nuorodoje (…/aek-athens-ID/…) pavadinimas išlieka pilnas.
+    Jei išvalytas vardas yra tikrai vienos nuorodos pavadinimo galas – grąžinamas pilnas pavadinimas."""
+    m = FS_URL.search(url or "")
+    words = _fs_words(name)
+    if not m or not words:
+        return name
+    hits = []
+    for slug in (m.group(1), m.group(3)):
+        sw = slug.split("-")
+        if len(sw) >= len(words) and sw[-len(words):] == words:
+            hits.append(sw)
+    if len(hits) == 1 and len(hits[0]) > len(words):
+        return " ".join(w.capitalize() for w in hits[0])
+    return name
+
+
 def run_gre(args) -> int:
     data_dir = Path(args.data_dir or "data/gre")
     ctx = Ctx("GBL", str(data_dir), args.season)
@@ -904,7 +932,8 @@ def run_gre(args) -> int:
                 continue
             if dd > 1:
                 continue
-            sc = (2 if gr_same(g["home"], m.get("home", "")) else 0) + (1 if gr_same(g["away"], m.get("away", "")) else 0)
+            sc = (2 if gr_same(g["home"], fs_full_name(m.get("home", ""), m.get("source_url", ""))) else 0) \
+                + (1 if gr_same(g["away"], fs_full_name(m.get("away", ""), m.get("source_url", ""))) else 0)
             if sc > score:
                 best, score = m, sc
         return best if score >= 3 else None
@@ -912,10 +941,19 @@ def run_gre(args) -> int:
     # Graikiški pavadinimai -> Flashscore (lotyniški) – kad klubo vardas būtų vienodas visose rungtynėse
     names = {}
     pairs = [(g, fs_match(g)) for g in games]
+    # jau įrašytų rungtynių klubų pavadinimai nekeičiami (kad klubas nepakeistų vardo tarp paleidimų)
+    for g in games:
+        pv = ctx.matches.get(g["id"], {})
+        if pv.get("home") and pv.get("away"):
+            names.setdefault(g["home"], pv["home"])
+            names.setdefault(g["away"], pv["away"])
     for g, m in pairs:
         if m:
-            names.setdefault(g["home"], m["home"])
-            names.setdefault(g["away"], m["away"])
+            # nukirptų pavadinimų („Athens“ vietoj „AEK Athens“) rodymui nenaudojame – tada lieka vardas iš esake.gr
+            if fs_full_name(m["home"], m.get("source_url", "")) == m["home"]:
+                names.setdefault(g["home"], m["home"])
+            if fs_full_name(m["away"], m.get("source_url", "")) == m["away"]:
+                names.setdefault(g["away"], m["away"])
     nice = lambda n: names.get(n) or " ".join(w.capitalize() for w in greeklish(n).split())  # noqa: E731
     for g, m in pairs:
         att = None if g["closed"] else (m.get("attendance") if m else None)

@@ -6,6 +6,11 @@ on:
   schedule:
     - cron: "40 */6 * * *"
   workflow_dispatch:
+    inputs:
+      recheck_days:
+        description: "Vienkartinis patikrinimas: iki kiek dienų po rungtynių dar bandyti gauti trūkstamą lankomumą (pvz. 365). Tuščia = kaip įprasta"
+        type: string
+        default: ""
 
 permissions:
   contents: write
@@ -36,7 +41,17 @@ jobs:
       - name: Flashscore lankomumas
         id: fs
         continue-on-error: true
-        run: python flashscore_attendance.py --league gre --season "$SEASON" --max-fetch 80 --max-pages 15 --fail-if-empty
+        env:
+          RECHECK_DAYS_INPUT: ${{ inputs.recheck_days }}
+        run: |
+          EXTRA=""
+          if [ -n "$RECHECK_DAYS_INPUT" ]; then
+            case "$RECHECK_DAYS_INPUT" in
+              *[!0-9]*) echo "::error::recheck_days turi būti skaičius"; exit 1 ;;
+            esac
+            EXTRA="--recheck-days $RECHECK_DAYS_INPUT"
+          fi
+          python flashscore_attendance.py --league gre --season "$SEASON" --max-fetch 80 --max-pages 15 --fail-if-empty $EXTRA
 
       - name: esake.gr arenos + sujungimas
         id: official
@@ -44,7 +59,16 @@ jobs:
         env:
           UPSTREAM_OUTCOME: ${{ steps.fs.outcome }}
           UPSTREAM_NAME: "Flashscore lankomumo nuskaitymas"
-        run: python official_attendance.py --league gre --season "$SEASON" --data-dir data/gre
+          RECHECK_DAYS_INPUT: ${{ inputs.recheck_days }}
+        run: |
+          EXTRA=""
+          if [ -n "$RECHECK_DAYS_INPUT" ]; then
+            case "$RECHECK_DAYS_INPUT" in
+              *[!0-9]*) echo "::error::recheck_days turi būti skaičius"; exit 1 ;;
+            esac
+            EXTRA="--recheck-days $RECHECK_DAYS_INPUT"
+          fi
+          python official_attendance.py --league gre --season "$SEASON" --data-dir data/gre $EXTRA
 
       - name: Įrašyti pakeitimus
         run: |

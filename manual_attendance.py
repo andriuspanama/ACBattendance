@@ -66,6 +66,8 @@ def parse_args():
     ap.add_argument("--league", default="BSL")
     ap.add_argument("--season", default="2026-27")
     ap.add_argument("--data-dir", default="data/bsl")
+    ap.add_argument("--recheck-days", type=int, default=None,
+                    help="vienkartinis patikrinimas: iki kiek dienų po rungtynių dar bandyti gauti trūkstamą lankomumą (pvz. 365)")
     return ap.parse_args()
 
 
@@ -152,7 +154,7 @@ def run() -> int:
         if not att and prev.get("attendance"):
             att = to_int(prev["attendance"])
         elif not att and gid and d and d <= today() and prev.get("attempts") != "99" \
-                and needs_fetch(prev or None, 3) and fetched < 120:
+                and needs_fetch(prev or None, max(3, args.recheck_days or 0)) and fetched < 120:
             attempt, fetched = True, fetched + 1
             try:
                 j = fiba.get(f"https://fibalivestats.dcd.shared.geniussports.com/data/{gid}/data.json", timeout=20)

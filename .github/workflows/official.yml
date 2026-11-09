@@ -1,13 +1,12 @@
 name: Atnaujinti lankomumą (oficialios lygų svetainės)
 
 # Australija, Suomija, Latvijos–Estijos lyga, ABA, Italija ir Izraelis.
+# Jei oficiali svetainė rungtynių lankomumo nepublikuoja – trūkstamas rungtynes užpildo Flashscore (flashscore_fill.py).
 # Kiekviena lyga renkama atskirai, rezultatai – data/<aplankas>/ (tas pats formatas kaip LKL/BBL).
 
 on:
   schedule:
     - cron: "20 */6 * * *"
-    # kas mėnesį 1 d. – automatinis trūkstamo lankomumo patikrinimas visam sezonui (recheck_days 365)
-    - cron: "40 3 1 * *"
   workflow_dispatch:
     inputs:
       league:
@@ -69,7 +68,7 @@ jobs:
         if: steps.pick.outputs.skip != 'true'
         continue-on-error: true
         env:
-          RECHECK_DAYS_INPUT: ${{ inputs.recheck_days || (github.event.schedule == '40 3 1 * *' && '365' || '') }}
+          RECHECK_DAYS_INPUT: ${{ inputs.recheck_days }}
         run: |
           EXTRA=""
           if [ -n "$RECHECK_DAYS_INPUT" ]; then
@@ -79,6 +78,44 @@ jobs:
             EXTRA="--recheck-days $RECHECK_DAYS_INPUT"
           fi
           python official_attendance.py --league "${{ matrix.league }}" --season "$SEASON" --data-dir "${{ matrix.dir }}" $EXTRA
+
+      # Atsarginis šaltinis: jei oficiali svetainė kai kurių sužaistų rungtynių lankomumo nepublikuoja,
+      # bandome paimti iš Flashscore (tik trūkstamoms rungtynėms; oficialus skaičius niekada nekeičiamas)
+      - name: Ar reikia Flashscore atsarginio varianto
+        id: fsneed
+        if: steps.pick.outputs.skip != 'true'
+        run: |
+          if python flashscore_attendance.py --missing-check "${{ matrix.dir }}"; then
+            echo "need=true" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: Įdiegti Flashscore priklausomybes
+        if: steps.fsneed.outputs.need == 'true'
+        continue-on-error: true
+        run: |
+          pip install playwright
+          playwright install chromium --with-deps
+
+      - name: Flashscore lankomumas (atsarginis)
+        id: fs
+        if: steps.fsneed.outputs.need == 'true'
+        continue-on-error: true
+        env:
+          RECHECK_DAYS_INPUT: ${{ inputs.recheck_days }}
+        run: |
+          EXTRA=""
+          if [ -n "$RECHECK_DAYS_INPUT" ]; then
+            case "$RECHECK_DAYS_INPUT" in
+              *[!0-9]*) echo "::error::recheck_days turi būti skaičius"; exit 1 ;;
+            esac
+            EXTRA="--recheck-days $RECHECK_DAYS_INPUT"
+          fi
+          python flashscore_attendance.py --league "${{ matrix.league }}" --season "$SEASON" --max-fetch 80 --max-pages 15 --no-averages $EXTRA
+
+      - name: Užpildyti trūkstamas rungtynes iš Flashscore
+        if: steps.fsneed.outputs.need == 'true'
+        continue-on-error: true
+        run: python flashscore_fill.py --league "${{ matrix.league }}" --season "$SEASON" --data-dir "${{ matrix.dir }}"
 
       - name: Įrašyti pakeitimus
         if: steps.pick.outputs.skip != 'true'

@@ -46,6 +46,14 @@ LEAGUES = {
     "pol":  ("PLK",              "basketball/poland/basket-liga",             "data/pol/flashscore"),
     # Graikija: Flashscore duoda lankomumą (ne visoms rungtynėms), arenas ima official_attendance.py iš esake.gr
     "gre":  ("GBL",              "basketball/greece/basket-league",           "data/gre/flashscore"),
+    # Atsarginis lankomumo šaltinis lygoms, kurių oficialios svetainės kartais lankomumo nepublikuoja.
+    # Rezultatai – tik data/<lyga>/flashscore/matches.csv; trūkstamas rungtynes iš jo užpildo flashscore_fill.py
+    "aus":  ("NBL",              "basketball/australia/nbl",                  "data/nbl/flashscore"),
+    "fin":  ("Korisliiga",       "basketball/finland/korisliiga",             "data/fin/flashscore"),
+    "lvee": ("LEBL",             "basketball/europe/latvian-estonian-league", "data/lvee/flashscore"),
+    "aba":  ("ABA",              "basketball/europe/admiralbet-aba-league",   "data/aba/flashscore"),
+    "ita":  ("LBA",              "basketball/italy/lega-a",                   "data/ita/flashscore"),
+    "isr":  ("Winner League",    "basketball/israel/super-league",            "data/isr/flashscore"),
 }
 
 MATCH_FIELDS = [
@@ -57,6 +65,8 @@ MATCH_FIELDS = [
 # jį įrašo vėliau), o vėliau nebetikriname, kad nebūtų tikrinama be galo.
 MAX_ATTEMPTS = 4
 RECHECK_DAYS = 3
+# Vienkartinis / kasmėnesinis „atgalinis“ patikrinimas: --recheck-days N pailgina langą (niekada jo nesutrumpina)
+OVERRIDE = {"recheck_days": None}
 
 
 def season_start(season: str) -> str:
@@ -248,7 +258,7 @@ def needs_fetch(existing: dict | None) -> bool:
         age = datetime.now(timezone.utc).date() - datetime.strptime(d, "%Y-%m-%d").date()
     except ValueError:
         return False
-    return age <= timedelta(days=RECHECK_DAYS)
+    return age <= timedelta(days=max(RECHECK_DAYS, OVERRIDE["recheck_days"] or 0))
 
 
 def accept_cookies(page):
@@ -418,6 +428,14 @@ def run_league(key: str, args) -> int:
                     and not ((m.get("date") or "") and m["date"] < start)]
     stats = {"checked": len(season_games),
              "with_attendance": sum(1 for m in season_games if m.get("attendance"))}
+    if args.no_averages:      # atsarginiam šaltiniui vidurkių failų nereikia – lieka tik matches.csv
+        print(f"--- {league}: naujų su lankomumu {found}; sezono rungtynių {stats['checked']}, "
+              f"iš jų su lankomumu {stats['with_attendance']}")
+        if blocked:
+            print(f"!!! {league}: {blocked}", file=sys.stderr)
+            if args.fail_if_empty:
+                return 1
+        return 0
     rows, unresolved = compute_averages(matches, aliases, args.season, league)
     write_outputs(data_dir, rows, unresolved, args.season, league, stats)
 
@@ -445,7 +463,21 @@ def main():
     ap.add_argument("--delay", type=float, default=0.8)
     ap.add_argument("--fail-if-empty", action="store_true",
                     help="baigti klaida, jei Flashscore negrąžino rungtynių (kad GitHub pažymėtų nesėkmę)")
+    ap.add_argument("--recheck-days", type=int, default=None,
+                    help="vienkartinis patikrinimas: iki kiek dienų po rungtynių dar bandyti gauti trūkstamą lankomumą (pvz. 365)")
+    ap.add_argument("--no-averages", action="store_true",
+                    help="nerašyti vidurkių failų (atsarginiam šaltiniui pakanka matches.csv)")
+    ap.add_argument("--missing-check", metavar="DIR", default=None,
+                    help="išeiti su kodu 0, jei DIR/matches.csv yra sužaistų rungtynių be lankomumo, kitaip 3 (nieko nerenkama)")
     args = ap.parse_args()
+    OVERRIDE["recheck_days"] = args.recheck_days
+    if args.missing_check:
+        rows = load_matches(Path(args.missing_check) / "matches.csv")
+        today_s = datetime.now(timezone.utc).date().isoformat()
+        miss = [m for m in rows.values() if (m.get("date") or "") <= today_s and (m.get("date") or "")
+                and not str(m.get("attendance") or "").strip()]
+        print(f"Sužaistų rungtynių be lankomumo: {len(miss)}")
+        return 0 if miss else 3
 
     if args.list or not args.league:
         for k, (lg, path, dd) in LEAGUES.items():

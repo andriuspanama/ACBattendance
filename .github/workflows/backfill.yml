@@ -1,0 +1,59 @@
+name: Trūkstamo lankomumo patikrinimas visam sezonui (visos lygos)
+
+# Kartą per mėnesį (1 d.) arba paleidus ranka paleidžia visų lygų rinkėjus su recheck_days=365:
+# kiekviena rungtynė be lankomumo per visą sezoną bandoma gauti dar kartą (įprastai – tik pirmas kelias dienas).
+# Rinkėjai paleidžiami savo darbo eilėse (kad nesusidurtų su įprastais paleidimais); skaičiai, kurie jau yra, nekeičiami.
+# LKL čia nereikalinga – ji ir taip kas paleidimą bando visas rungtynes be lankomumo.
+
+on:
+  schedule:
+    - cron: "30 2 1 * *"
+  workflow_dispatch:
+    inputs:
+      recheck_days:
+        description: "Iki kiek dienų po rungtynių bandyti gauti trūkstamą lankomumą"
+        type: string
+        default: "365"
+      leagues:
+        description: "Kurias paleisti: all arba sąrašas per kablelį – official (NBL, Korisliiga, LEBL, ABA, LBA, Winner), bbl, pol, gre, acb, bsl"
+        type: string
+        default: "all"
+
+permissions:
+  actions: write
+  contents: read
+
+jobs:
+  dispatch:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    env:
+      GH_TOKEN: ${{ github.token }}
+      GH_REPO: ${{ github.repository }}
+      REF: ${{ github.ref_name }}
+      DAYS: ${{ inputs.recheck_days || '365' }}
+      WHICH: ${{ inputs.leagues || 'all' }}
+    steps:
+      - name: Paleisti lygų rinkėjus
+        run: |
+          case "$DAYS" in
+            ''|*[!0-9]*) echo "::error::recheck_days turi būti skaičius"; exit 1 ;;
+          esac
+          fail=0
+          run_wf() {   # $1 – pavadinimas, $2 – workflow failas
+            if [ "$WHICH" != "all" ] && ! echo ",$WHICH," | grep -q ",$1,"; then
+              return 0
+            fi
+            echo "Paleidžiama: $1 ($2), recheck_days=$DAYS, šaka $REF"
+            if ! gh workflow run "$2" --ref "$REF" -f recheck_days="$DAYS"; then
+              echo "::error::Nepavyko paleisti $2"
+              fail=1
+            fi
+          }
+          run_wf official official.yml
+          run_wf bbl bbl.yml
+          run_wf pol pol.yml
+          run_wf gre gre.yml
+          run_wf acb main.yml
+          run_wf bsl bsl.yml
+          exit $fail

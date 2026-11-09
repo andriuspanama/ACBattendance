@@ -345,6 +345,9 @@ def game_diagnostics(html: str, url: str):
     print("--- PABAIGA")
 
 
+OVERRIDE = {"recheck_days": None}   # --recheck-days: pailgina 21 d. langą (kasmėnesinis atgalinis patikrinimas)
+
+
 def needs_fetch(rec, now):
     if rec is None:
         return True
@@ -354,7 +357,7 @@ def needs_fetch(rec, now):
     date = rec.get("date")
     if date and attempts >= 4:  # seniai sužaistos rungtynės be skaičiaus – nebetikrinam
         try:
-            if now.date() - datetime.fromisoformat(date).date() > timedelta(days=21):
+            if now.date() - datetime.fromisoformat(date).date() > timedelta(days=max(21, OVERRIDE["recheck_days"] or 0)):
                 return False
         except ValueError:
             pass
@@ -428,7 +431,10 @@ def main():
     ap.add_argument("--delay", type=float, default=1.5, help="sekundės tarp užklausų")
     ap.add_argument("--save-html", action="store_true", help="išsaugoti gautą HTML į data/raw/ derinimui")
     ap.add_argument("--recompute-only", action="store_true")
+    ap.add_argument("--recheck-days", type=int, default=None,
+                    help="vienkartinis patikrinimas: iki kiek dienų po rungtynių dar bandyti gauti trūkstamą lankomumą (pvz. 365)")
     args = ap.parse_args()
+    OVERRIDE["recheck_days"] = args.recheck_days
 
     data_dir = Path(args.data_dir)
     matches_path = data_dir / "matches.csv"

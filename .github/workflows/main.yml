@@ -5,6 +5,10 @@ on:
     - cron: "15 */6 * * *"
   workflow_dispatch:
     inputs:
+      recheck_days:
+        description: "Vienkartinis patikrinimas: iki kiek dienų po rungtynių dar bandyti gauti trūkstamą lankomumą (pvz. 365). Tuščia = kaip įprasta"
+        type: string
+        default: ""
       debug:
         description: "Išsaugoti gautą HTML derinimui"
         type: boolean
@@ -36,11 +40,20 @@ jobs:
 
       - name: Surinkti ACB lankomumą
         continue-on-error: true
+        env:
+          RECHECK_DAYS_INPUT: ${{ inputs.recheck_days }}
         run: |
+          EXTRA=""
+          if [ -n "$RECHECK_DAYS_INPUT" ]; then
+            case "$RECHECK_DAYS_INPUT" in
+              *[!0-9]*) echo "::error::recheck_days turi būti skaičius"; exit 1 ;;
+            esac
+            EXTRA="--recheck-days $RECHECK_DAYS_INPUT"
+          fi
           python acb_attendance.py \
             --temporada "$ACB_TEMPORADA" \
             --season "$SEASON" \
-            ${{ inputs.debug && '--save-html' || '' }}
+            ${{ inputs.debug && '--save-html' || '' }} $EXTRA
 
       - name: Įkelti derinimo HTML
         if: ${{ inputs.debug }}

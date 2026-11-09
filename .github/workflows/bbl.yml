@@ -8,6 +8,10 @@ on:
     - cron: "30 */6 * * *"
   workflow_dispatch:
     inputs:
+      recheck_days:
+        description: "Vienkartinis patikrinimas: iki kiek dienų po rungtynių dar bandyti gauti trūkstamą lankomumą (pvz. 365). Tuščia = kaip įprasta"
+        type: string
+        default: ""
       debug:
         description: "Išsaugoti HTML derinimui (tik Flashscore atsarginiam variantui)"
         type: boolean
@@ -40,7 +44,17 @@ jobs:
       - name: Surinkti BBL lankomumą (oficiali svetainė)
         id: official
         continue-on-error: true
-        run: python official_attendance.py --league bbl --season "$SEASON" --data-dir data/bbl
+        env:
+          RECHECK_DAYS_INPUT: ${{ inputs.recheck_days }}
+        run: |
+          EXTRA=""
+          if [ -n "$RECHECK_DAYS_INPUT" ]; then
+            case "$RECHECK_DAYS_INPUT" in
+              *[!0-9]*) echo "::error::recheck_days turi būti skaičius"; exit 1 ;;
+            esac
+            EXTRA="--recheck-days $RECHECK_DAYS_INPUT"
+          fi
+          python official_attendance.py --league bbl --season "$SEASON" --data-dir data/bbl $EXTRA
 
       - name: Atsarginis variantas – Flashscore
         if: hashFiles('data/bbl/official_games.json') == ''
