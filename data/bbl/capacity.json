@@ -1,7 +1,7 @@
 {
  "league": "BBL",
  "season": "2026-27",
- "updated": "2026-11-08T22:50:37+00:00",
+ "updated": "2026-11-09T22:58:04+00:00",
  "clubs": [
   {
    "club": "ALBA BERLIN",
@@ -215,15 +215,15 @@
   },
   {
    "club": "Telekom Baskets Bonn",
-   "home_games_counted": 4,
-   "games_with_capacity": 4,
+   "home_games_counted": 5,
+   "games_with_capacity": 5,
    "capacity": 6000,
    "weighted_capacity": 6000,
-   "filling_rate": 0.9015,
+   "filling_rate": 0.8979,
    "arenas": [
     {
      "arena": "Telekom Dome Bonn",
-     "games": 4,
+     "games": 5,
      "capacity": 6000
     }
    ]
@@ -552,6 +552,10 @@
   "2006863": {
    "arena": "MHPArena Ludwigsburg",
    "capacity": 4000
+  },
+  "2006864": {
+   "arena": "Sparkassen-Arena Jena",
+   "capacity": 3125
   }
  }
 }

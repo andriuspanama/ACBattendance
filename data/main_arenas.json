@@ -1,6 +1,6 @@
 {
  "season": "2026-27",
- "updated": "2026-11-09T07:53:50+00:00",
+ "updated": "2026-11-09T22:58:04+00:00",
  "clubs": {
   "ADA Blois Basket 41": {
    "arena": "Le Jeu de Paume",
@@ -1165,8 +1165,8 @@
    "capacity": 4500,
    "league": "ABA",
    "source": "games",
-   "games": 2,
-   "of_games": 2,
+   "games": 3,
+   "of_games": 3,
    "league_name": "HKK Široki TT Kabeli"
   },
   "Hamburg Towers": {
@@ -1447,8 +1447,8 @@
    "capacity": 8000,
    "league": "ABA",
    "source": "games",
-   "games": 2,
-   "of_games": 2,
+   "games": 3,
+   "of_games": 3,
    "league_name": "Crvena zvezda Meridianbet"
   },
   "KK Domžale": {
@@ -1525,8 +1525,8 @@
    "capacity": 5000,
    "league": "ABA",
    "source": "games",
-   "games": 2,
-   "of_games": 2,
+   "games": 3,
+   "of_games": 3,
    "league_name": "Mega Superbet"
   },
   "KK Mornar Bar": {
@@ -2629,8 +2629,8 @@
    "capacity": 3125,
    "league": "BBL",
    "source": "games",
-   "games": 3,
-   "of_games": 3,
+   "games": 4,
+   "of_games": 4,
    "league_name": "Science City Jena"
   },
   "Sibiu": {
@@ -3025,8 +3025,8 @@
    "capacity": 5570,
    "league": "LBA",
    "source": "games",
-   "games": 3,
-   "of_games": 3,
+   "games": 4,
+   "of_games": 4,
    "league_name": "Virtus Costa Bologna"
   },
   "Wurzburg Baskets": {

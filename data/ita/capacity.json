@@ -1,7 +1,7 @@
 {
  "league": "LBA",
  "season": "2026-27",
- "updated": "2026-11-08T22:50:37+00:00",
+ "updated": "2026-11-09T22:58:04+00:00",
  "clubs": [
   {
    "club": "Acqua S.Bernardo Cantù",
@@ -396,6 +396,10 @@
   "25415": {
    "arena": "Itelyum Arena",
    "capacity": 5677
+  },
+  "25408": {
+   "arena": "PalaDozza",
+   "capacity": 5570
   }
  }
 }

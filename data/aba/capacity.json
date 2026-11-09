@@ -1,7 +1,7 @@
 {
  "league": "ABA",
  "season": "2026-27",
- "updated": "2026-11-08T22:50:37+00:00",
+ "updated": "2026-11-09T22:58:04+00:00",
  "clubs": [
   {
    "club": "BC Vienna",
@@ -100,15 +100,15 @@
   },
   {
    "club": "Crvena zvezda Meridianbet",
-   "home_games_counted": 2,
-   "games_with_capacity": 2,
+   "home_games_counted": 3,
+   "games_with_capacity": 3,
    "capacity": 8000,
    "weighted_capacity": 8000,
-   "filling_rate": 0.3711,
+   "filling_rate": 0.3254,
    "arenas": [
     {
      "arena": "Košarkaška dvorana Aleksandar Nikolić",
-     "games": 2,
+     "games": 3,
      "capacity": 8000
     }
    ]
@@ -145,15 +145,15 @@
   },
   {
    "club": "HKK Široki TT Kabeli",
-   "home_games_counted": 2,
-   "games_with_capacity": 2,
+   "home_games_counted": 3,
+   "games_with_capacity": 3,
    "capacity": 4500,
    "weighted_capacity": 4500,
-   "filling_rate": 0.6111,
+   "filling_rate": 0.6667,
    "arenas": [
     {
      "arena": "GSD Pecara",
-     "games": 2,
+     "games": 3,
      "capacity": 4500
     }
    ]
@@ -190,15 +190,15 @@
   },
   {
    "club": "Mega Superbet",
-   "home_games_counted": 2,
-   "games_with_capacity": 2,
+   "home_games_counted": 3,
+   "games_with_capacity": 3,
    "capacity": 5000,
    "weighted_capacity": 5000,
-   "filling_rate": 0.135,
+   "filling_rate": 0.17,
    "arenas": [
     {
      "arena": "Hala sportova Ranko Žeravica",
-     "games": 2,
+     "games": 3,
      "capacity": 5000
     }
    ]
@@ -320,7 +320,7 @@
   }
  ],
  "unknown_arenas": [],
- "last_attendance_game": "2026-11-08",
+ "last_attendance_game": "2026-11-09",
  "games": {
   "13": {
    "arena": "ŠD Leona Štuklja Novo Mesto",
@@ -549,6 +549,18 @@
   "67": {
    "arena": "BT Arena",
    "capacity": 10000
+  },
+  "61": {
+   "arena": "Košarkaška dvorana Aleksandar Nikolić",
+   "capacity": 8000
+  },
+  "64": {
+   "arena": "GSD Pecara",
+   "capacity": 4500
+  },
+  "68": {
+   "arena": "Hala sportova Ranko Žeravica",
+   "capacity": 5000
   }
  }
 }

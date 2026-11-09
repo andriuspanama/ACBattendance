@@ -1,7 +1,7 @@
 {
  "league": "BSL",
  "season": "2026-27",
- "updated": "2026-11-09T07:53:50+00:00",
+ "updated": "2026-11-09T22:58:04+00:00",
  "clubs": [
   {
    "club": "Aliağa Petkim Spor",
@@ -155,15 +155,15 @@
   },
   {
    "club": "Karşıyaka",
-   "home_games_counted": 1,
-   "games_with_capacity": 1,
+   "home_games_counted": 2,
+   "games_with_capacity": 2,
    "capacity": 6500,
    "weighted_capacity": 6500,
-   "filling_rate": 0.8462,
+   "filling_rate": 0.7692,
    "arenas": [
     {
      "arena": "Mustafa Kemal Atatürk Karşıyaka Spor Salonu",
-     "games": 1,
+     "games": 2,
      "capacity": 6500
     }
    ]
@@ -245,7 +245,7 @@
   }
  ],
  "unknown_arenas": [],
- "last_attendance_game": "2026-11-08",
+ "last_attendance_game": "2026-11-09",
  "games": {
   "2026-09-25-tofas-pizzabulls-bordo-bandirma": {
    "arena": "Tofaş Spor Salonu",
