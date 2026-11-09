@@ -1,24 +1,8 @@
 {
   "league": "BSL",
   "season": "2026-27",
-  "updated": "2026-11-09T06:19:20+00:00",
+  "updated": "2026-11-09T22:17:49+00:00",
   "clubs": [
-    {
-      "league": "BSL",
-      "season": "2026-27",
-      "club": "Karşıyaka",
-      "home_games_counted": 1,
-      "average": 5500,
-      "total": 5500,
-      "max": 5500,
-      "min": 5500,
-      "arenas": [
-        {
-          "arena": "Mustafa Kemal Atatürk Karşıyaka Spor Salonu",
-          "games": 1
-        }
-      ]
-    },
     {
       "league": "BSL",
       "season": "2026-27",
@@ -32,6 +16,22 @@
         {
           "arena": "Ankara Spor Salonu",
           "games": 4
+        }
+      ]
+    },
+    {
+      "league": "BSL",
+      "season": "2026-27",
+      "club": "Karşıyaka",
+      "home_games_counted": 2,
+      "average": 5000,
+      "total": 10000,
+      "max": 5500,
+      "min": 4500,
+      "arenas": [
+        {
+          "arena": "Mustafa Kemal Atatürk Karşıyaka Spor Salonu",
+          "games": 2
         }
       ]
     },
