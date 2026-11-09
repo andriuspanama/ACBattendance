@@ -1,7 +1,7 @@
 {
  "league": "BSL",
  "season": "2026-27",
- "updated": "2026-11-08T22:50:37+00:00",
+ "updated": "2026-11-09T07:53:50+00:00",
  "clubs": [
   {
    "club": "Aliağa Petkim Spor",
@@ -155,15 +155,15 @@
   },
   {
    "club": "Karşıyaka",
-   "home_games_counted": 2,
-   "games_with_capacity": 2,
+   "home_games_counted": 1,
+   "games_with_capacity": 1,
    "capacity": 6500,
    "weighted_capacity": 6500,
-   "filling_rate": 0.425,
+   "filling_rate": 0.8462,
    "arenas": [
     {
      "arena": "Mustafa Kemal Atatürk Karşıyaka Spor Salonu",
-     "games": 2,
+     "games": 1,
      "capacity": 6500
     }
    ]

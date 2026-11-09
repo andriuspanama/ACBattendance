@@ -1,7 +1,7 @@
 {
  "league": "ACB",
  "season": "2026-27",
- "updated": "2026-11-08T22:50:37+00:00",
+ "updated": "2026-11-09T07:53:50+00:00",
  "clubs": [
   {
    "club": "Asisa Joventut",
@@ -20,15 +20,15 @@
   },
   {
    "club": "Barca",
-   "home_games_counted": 3,
-   "games_with_capacity": 3,
+   "home_games_counted": 4,
+   "games_with_capacity": 4,
    "capacity": 7786,
    "weighted_capacity": 7786,
-   "filling_rate": 0.5411,
+   "filling_rate": 0.5303,
    "arenas": [
     {
      "arena": "Palau Blaugrana",
-     "games": 3,
+     "games": 4,
      "capacity": 7786
     }
    ]
@@ -110,15 +110,15 @@
   },
   {
    "club": "La Laguna Tenerife",
-   "home_games_counted": 3,
-   "games_with_capacity": 3,
+   "home_games_counted": 4,
+   "games_with_capacity": 4,
    "capacity": 5100,
    "weighted_capacity": 5100,
-   "filling_rate": 0.8551,
+   "filling_rate": 0.7516,
    "arenas": [
     {
      "arena": "Pab. Dep. Tenerife Santiago Martín",
-     "games": 3,
+     "games": 4,
      "capacity": 5100
     }
    ]
@@ -170,30 +170,30 @@
   },
   {
    "club": "Real Madrid",
-   "home_games_counted": 4,
-   "games_with_capacity": 4,
+   "home_games_counted": 5,
+   "games_with_capacity": 5,
    "capacity": 13109,
    "weighted_capacity": 13109,
-   "filling_rate": 0.5429,
+   "filling_rate": 0.533,
    "arenas": [
     {
      "arena": "Movistar Arena",
-     "games": 4,
+     "games": 5,
      "capacity": 13109
     }
    ]
   },
   {
    "club": "Recoletas Salud San Pablo Burgos",
-   "home_games_counted": 2,
-   "games_with_capacity": 2,
+   "home_games_counted": 3,
+   "games_with_capacity": 3,
    "capacity": 9604,
    "weighted_capacity": 9604,
-   "filling_rate": 0.9325,
+   "filling_rate": 0.9368,
    "arenas": [
     {
      "arena": "Coliseum Burgos",
-     "games": 2,
+     "games": 3,
      "capacity": 9604
     }
    ]
@@ -275,7 +275,7 @@
   }
  ],
  "unknown_arenas": [],
- "last_attendance_game": "2026-11-08",
+ "last_attendance_game": "2026-11-09",
  "games": {
   "105375": {
    "arena": "Bilbao Arena",

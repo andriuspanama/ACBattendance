@@ -1,6 +1,6 @@
 {
  "season": "2026-27",
- "updated": "2026-11-08T22:50:39+00:00",
+ "updated": "2026-11-09T07:53:53+00:00",
  "model": {
   "source": "Fan_attraction_index_combined.xlsx, Europe 25-26 (frozen for 2026-27)",
   "europe": {
@@ -22,7 +22,7 @@
    "eligible": 18,
    "coverage": 1.0,
    "method": "this season",
-   "typical_attendance": 6281,
+   "typical_attendance": 6224,
    "typical_population": 556408
   },
   "LKL": {
@@ -54,7 +54,7 @@
    "eligible": 12,
    "coverage": 1.0,
    "method": "this season",
-   "typical_attendance": 955,
+   "typical_attendance": 953,
    "typical_population": 99971
   },
   "LEBL": {
@@ -96,7 +96,7 @@
    "eligible": 16,
    "coverage": 1.0,
    "method": "this season",
-   "typical_attendance": 2178,
+   "typical_attendance": 2334,
    "typical_population": 845122
   },
   "GBL": {
@@ -129,8 +129,8 @@
    "arena_full": false,
    "expected_europe": 2974,
    "index_europe": 2.517,
-   "expected_league": 5798,
-   "index_league": 1.291,
+   "expected_league": 5746,
+   "index_league": 1.303,
    "profile": "Strong in own league and in Europe"
   },
   {
@@ -139,16 +139,16 @@
    "club": "FC Barcelona Basquet",
    "population": 5646374.0,
    "area": "Barcelona",
-   "home_games": 3,
-   "reported_games": 3,
-   "average": 4213,
+   "home_games": 4,
+   "reported_games": 4,
+   "average": 4129,
    "eligible": true,
-   "filling_rate": 0.5411,
+   "filling_rate": 0.5303,
    "arena_full": false,
    "expected_europe": 5362,
-   "index_europe": 0.786,
-   "expected_league": 7718,
-   "index_league": 0.546,
+   "index_europe": 0.77,
+   "expected_league": 7648,
+   "index_league": 0.54,
    "profile": "Below own league and Europe"
   },
   {
@@ -165,9 +165,9 @@
    "arena_full": false,
    "expected_europe": 3920,
    "index_europe": 1.808,
-   "expected_league": 6494,
-   "index_league": 1.092,
-   "profile": "In line with own league, above Europe"
+   "expected_league": 6436,
+   "index_league": 1.102,
+   "profile": "Strong in own league and in Europe"
   },
   {
    "league": "ACB",
@@ -183,8 +183,8 @@
    "arena_full": false,
    "expected_europe": 3142,
    "index_europe": 1.475,
-   "expected_league": 5916,
-   "index_league": 0.783,
+   "expected_league": 5863,
+   "index_league": 0.79,
    "profile": "Below own league, above Europe"
   },
   {
@@ -201,8 +201,8 @@
    "arena_full": true,
    "expected_europe": 2964,
    "index_europe": 1.902,
-   "expected_league": 5791,
-   "index_league": 0.973,
+   "expected_league": 5739,
+   "index_league": 0.982,
    "profile": "In line with own league, above Europe"
   },
   {
@@ -219,8 +219,8 @@
    "arena_full": true,
    "expected_europe": 2611,
    "index_europe": 1.761,
-   "expected_league": 5551,
-   "index_league": 0.828,
+   "expected_league": 5501,
+   "index_league": 0.836,
    "profile": "Below own league, above Europe"
   },
   {
@@ -237,8 +237,8 @@
    "arena_full": false,
    "expected_europe": 3188,
    "index_europe": 2.458,
-   "expected_league": 5949,
-   "index_league": 1.317,
+   "expected_league": 5895,
+   "index_league": 1.329,
    "profile": "Strong in own league and in Europe"
   },
   {
@@ -247,17 +247,17 @@
    "club": "CB Canarias Tenerife",
    "population": 783224.0,
    "area": "Santa Cruz de Tenerife",
-   "home_games": 3,
-   "reported_games": 3,
-   "average": 4361,
+   "home_games": 4,
+   "reported_games": 4,
+   "average": 3833,
    "eligible": true,
-   "filling_rate": 0.8551,
+   "filling_rate": 0.7516,
    "arena_full": false,
    "expected_europe": 3895,
-   "index_europe": 1.12,
-   "expected_league": 6475,
-   "index_league": 0.674,
-   "profile": "Below own league, above Europe"
+   "index_europe": 0.984,
+   "expected_league": 6416,
+   "index_league": 0.597,
+   "profile": "Below own league, in line with Europe"
   },
   {
    "league": "ACB",
@@ -273,8 +273,8 @@
    "arena_full": false,
    "expected_europe": 3601,
    "index_europe": 1.704,
-   "expected_league": 6250,
-   "index_league": 0.982,
+   "expected_league": 6194,
+   "index_league": 0.99,
    "profile": "In line with own league, above Europe"
   },
   {
@@ -291,8 +291,8 @@
    "arena_full": true,
    "expected_europe": 2933,
    "index_europe": 1.929,
-   "expected_league": 5770,
-   "index_league": 0.981,
+   "expected_league": 5718,
+   "index_league": 0.99,
    "profile": "In line with own league, above Europe"
   },
   {
@@ -309,8 +309,8 @@
    "arena_full": false,
    "expected_europe": 2236,
    "index_europe": 1.56,
-   "expected_league": 5308,
-   "index_league": 0.657,
+   "expected_league": 5260,
+   "index_league": 0.663,
    "profile": "Below own league, above Europe"
   },
   {
@@ -319,16 +319,16 @@
    "club": "Real Madrid Baloncesto",
    "population": 7407493.0,
    "area": "Madrid",
-   "home_games": 4,
-   "reported_games": 4,
-   "average": 7117,
+   "home_games": 5,
+   "reported_games": 5,
+   "average": 6987,
    "eligible": true,
-   "filling_rate": 0.5429,
+   "filling_rate": 0.533,
    "arena_full": false,
    "expected_europe": 5563,
-   "index_europe": 1.279,
-   "expected_league": 7906,
-   "index_league": 0.9,
+   "index_europe": 1.256,
+   "expected_league": 7835,
+   "index_league": 0.892,
    "profile": "Below own league, above Europe"
   },
   {
@@ -337,16 +337,16 @@
    "club": "CB San Pablo Burgos",
    "population": 215904.0,
    "area": "Burgos",
-   "home_games": 2,
-   "reported_games": 2,
-   "average": 8956,
+   "home_games": 3,
+   "reported_games": 3,
+   "average": 8997,
    "eligible": true,
-   "filling_rate": 0.9325,
+   "filling_rate": 0.9368,
    "arena_full": true,
    "expected_europe": 2939,
-   "index_europe": 3.047,
-   "expected_league": 5774,
-   "index_league": 1.551,
+   "index_europe": 3.061,
+   "expected_league": 5722,
+   "index_league": 1.572,
    "profile": "Strong in own league and in Europe"
   },
   {
@@ -363,8 +363,8 @@
    "arena_full": true,
    "expected_europe": 2716,
    "index_europe": 1.945,
-   "expected_league": 5622,
-   "index_league": 0.94,
+   "expected_league": 5571,
+   "index_league": 0.948,
    "profile": "In line with own league, above Europe"
   },
   {
@@ -381,8 +381,8 @@
    "arena_full": false,
    "expected_europe": 4187,
    "index_europe": 2.01,
-   "expected_league": 6704,
-   "index_league": 1.255,
+   "expected_league": 6644,
+   "index_league": 1.266,
    "profile": "Strong in own league and in Europe"
   },
   {
@@ -399,8 +399,8 @@
    "arena_full": false,
    "expected_europe": 4257,
    "index_europe": 1.516,
-   "expected_league": 6761,
-   "index_league": 0.954,
+   "expected_league": 6700,
+   "index_league": 0.963,
    "profile": "In line with own league, above Europe"
   },
   {
@@ -417,8 +417,8 @@
    "arena_full": true,
    "expected_europe": 4305,
    "index_europe": 2.315,
-   "expected_league": 6800,
-   "index_league": 1.465,
+   "expected_league": 6739,
+   "index_league": 1.479,
    "profile": "Strong in own league and in Europe"
   },
   {
@@ -435,8 +435,8 @@
    "arena_full": false,
    "expected_europe": 4757,
    "index_europe": 2.404,
-   "expected_league": 7179,
-   "index_league": 1.593,
+   "expected_league": 7114,
+   "index_league": 1.607,
    "profile": "Strong in own league and in Europe"
   },
   {
@@ -1137,8 +1137,8 @@
    "arena_full": false,
    "expected_europe": 1538,
    "index_europe": 0.409,
-   "expected_league": 865,
-   "index_league": 0.727,
+   "expected_league": 863,
+   "index_league": 0.729,
    "profile": "Below own league and Europe"
   },
   {
@@ -1155,8 +1155,8 @@
    "arena_full": false,
    "expected_europe": 4502,
    "index_europe": 0.183,
-   "expected_league": 1234,
-   "index_league": 0.666,
+   "expected_league": 1231,
+   "index_league": 0.668,
    "profile": "Below own league and Europe"
   },
   {
@@ -1166,15 +1166,15 @@
    "population": 79056.0,
    "area": "Kotka-Hamina sub-region (Kotka, Hamina, Pyhtää, Virolahti, Miehikkälä)",
    "home_games": 5,
-   "reported_games": 4,
-   "average": 1086,
+   "reported_games": 5,
+   "average": 1088,
    "eligible": true,
-   "filling_rate": 0.6787,
+   "filling_rate": 0.6803,
    "arena_full": false,
    "expected_europe": 2193,
-   "index_europe": 0.495,
-   "expected_league": 936,
-   "index_league": 1.161,
+   "index_europe": 0.496,
+   "expected_league": 934,
+   "index_league": 1.165,
    "profile": "Strong in own league, below Europe"
   },
   {
@@ -1191,8 +1191,8 @@
    "arena_full": false,
    "expected_europe": 2549,
    "index_europe": 0.341,
-   "expected_league": 976,
-   "index_league": 0.889,
+   "expected_league": 974,
+   "index_league": 0.891,
    "profile": "Below own league and Europe"
   },
   {
@@ -1202,15 +1202,15 @@
    "population": 20133.0,
    "area": "Suupohja sub-region (Kauhajoki, Teuva, Isojoki, Karijoki)",
    "home_games": 5,
-   "reported_games": 4,
-   "average": 1534,
+   "reported_games": 5,
+   "average": 1489,
    "eligible": true,
-   "filling_rate": 0.4384,
+   "filling_rate": 0.4254,
    "arena_full": false,
    "expected_europe": 1178,
-   "index_europe": 1.302,
-   "expected_league": 829,
-   "index_league": 1.851,
+   "index_europe": 1.264,
+   "expected_league": 827,
+   "index_league": 1.801,
    "profile": "Strong in own league and in Europe"
   },
   {
@@ -1227,8 +1227,8 @@
    "arena_full": false,
    "expected_europe": 1180,
    "index_europe": 0.941,
-   "expected_league": 829,
-   "index_league": 1.339,
+   "expected_league": 827,
+   "index_league": 1.343,
    "profile": "Strong in own league, in line with Europe"
   },
   {
@@ -1245,8 +1245,8 @@
    "arena_full": false,
    "expected_europe": 1477,
    "index_europe": 0.493,
-   "expected_league": 859,
-   "index_league": 0.848,
+   "expected_league": 857,
+   "index_league": 0.85,
    "profile": "Below own league and Europe"
   },
   {
@@ -1263,8 +1263,8 @@
    "arena_full": false,
    "expected_europe": 2187,
    "index_europe": 0.368,
-   "expected_league": 935,
-   "index_league": 0.861,
+   "expected_league": 933,
+   "index_league": 0.863,
    "profile": "Below own league and Europe"
   },
   {
@@ -1281,8 +1281,8 @@
    "arena_full": false,
    "expected_europe": 2843,
    "index_europe": 0.401,
-   "expected_league": 1011,
-   "index_league": 1.126,
+   "expected_league": 1009,
+   "index_league": 1.129,
    "profile": "Strong in own league, below Europe"
   },
   {
@@ -1299,8 +1299,8 @@
    "arena_full": false,
    "expected_europe": 1980,
    "index_europe": 0.7,
-   "expected_league": 912,
-   "index_league": 1.52,
+   "expected_league": 910,
+   "index_league": 1.523,
    "profile": "Strong in own league, below Europe"
   },
   {
@@ -1317,8 +1317,8 @@
    "arena_full": false,
    "expected_europe": 3528,
    "index_europe": 0.211,
-   "expected_league": 1098,
-   "index_league": 0.68,
+   "expected_league": 1095,
+   "index_league": 0.681,
    "profile": "Below own league and Europe"
   },
   {
@@ -1335,8 +1335,8 @@
    "arena_full": false,
    "expected_europe": 3257,
    "index_europe": 0.31,
-   "expected_league": 1063,
-   "index_league": 0.95,
+   "expected_league": 1060,
+   "index_league": 0.953,
    "profile": "In line with own league, below Europe"
   },
   {
@@ -2073,7 +2073,7 @@
    "club": "Scafati Basket",
    "population": 239139.0,
    "area": "Scafati labour system",
-   "home_games": 3,
+   "home_games": 4,
    "reported_games": 0,
    "average": null,
    "eligible": false,
@@ -2525,9 +2525,9 @@
    "arena_full": false,
    "expected_europe": 2445,
    "index_europe": 0.833,
-   "expected_league": 1819,
-   "index_league": 1.12,
-   "profile": "Strong in own league, below Europe"
+   "expected_league": 1948,
+   "index_league": 1.045,
+   "profile": "In line with own league, below Europe"
   },
   {
    "league": "BSL",
@@ -2543,8 +2543,8 @@
    "arena_full": false,
    "expected_europe": 6123,
    "index_europe": 0.214,
-   "expected_league": 2825,
-   "index_league": 0.464,
+   "expected_league": 3027,
+   "index_league": 0.433,
    "profile": "Below own league and Europe"
   },
   {
@@ -2561,8 +2561,8 @@
    "arena_full": false,
    "expected_europe": 6123,
    "index_europe": 0.505,
-   "expected_league": 2825,
-   "index_league": 1.094,
+   "expected_league": 3027,
+   "index_league": 1.022,
    "profile": "In line with own league, below Europe"
   },
   {
@@ -2579,9 +2579,9 @@
    "arena_full": false,
    "expected_europe": 6123,
    "index_europe": 0.538,
-   "expected_league": 2825,
-   "index_league": 1.165,
-   "profile": "Strong in own league, below Europe"
+   "expected_league": 3027,
+   "index_league": 1.088,
+   "profile": "In line with own league, below Europe"
   },
   {
    "league": "BSL",
@@ -2597,8 +2597,8 @@
    "arena_full": false,
    "expected_europe": 2817,
    "index_europe": 0.324,
-   "expected_league": 1901,
-   "index_league": 0.48,
+   "expected_league": 2037,
+   "index_league": 0.448,
    "profile": "Below own league and Europe"
   },
   {
@@ -2615,8 +2615,8 @@
    "arena_full": false,
    "expected_europe": 4768,
    "index_europe": 0.679,
-   "expected_league": 2402,
-   "index_league": 1.347,
+   "expected_league": 2573,
+   "index_league": 1.257,
    "profile": "Strong in own league, below Europe"
   },
   {
@@ -2633,8 +2633,8 @@
    "arena_full": false,
    "expected_europe": 6123,
    "index_europe": 0.048,
-   "expected_league": 2825,
-   "index_league": 0.104,
+   "expected_league": 3027,
+   "index_league": 0.097,
    "profile": "Below own league and Europe"
   },
   {
@@ -2651,8 +2651,8 @@
    "arena_full": false,
    "expected_europe": 6123,
    "index_europe": 0.414,
-   "expected_league": 2825,
-   "index_league": 0.897,
+   "expected_league": 3027,
+   "index_league": 0.837,
    "profile": "Below own league and Europe"
   },
   {
@@ -2669,8 +2669,8 @@
    "arena_full": false,
    "expected_europe": 6123,
    "index_europe": 0.298,
-   "expected_league": 2825,
-   "index_league": 0.646,
+   "expected_league": 3027,
+   "index_league": 0.603,
    "profile": "Below own league and Europe"
   },
   {
@@ -2687,8 +2687,8 @@
    "arena_full": false,
    "expected_europe": 2727,
    "index_europe": 0.911,
-   "expected_league": 1881,
-   "index_league": 1.321,
+   "expected_league": 2015,
+   "index_league": 1.233,
    "profile": "Strong in own league, in line with Europe"
   },
   {
@@ -2697,17 +2697,17 @@
    "club": "Karsiyaka Basket",
    "population": 3605019.0,
    "area": "Izmir",
-   "home_games": 3,
-   "reported_games": 2,
-   "average": 2762,
+   "home_games": 1,
+   "reported_games": 1,
+   "average": 5500,
    "eligible": true,
-   "filling_rate": 0.425,
+   "filling_rate": 0.8462,
    "arena_full": false,
    "expected_europe": 5029,
-   "index_europe": 0.549,
-   "expected_league": 2478,
-   "index_league": 1.115,
-   "profile": "Strong in own league, below Europe"
+   "index_europe": 1.094,
+   "expected_league": 2655,
+   "index_league": 2.072,
+   "profile": "Strong in own league, in line with Europe"
   },
   {
    "league": "BSL",
@@ -2723,8 +2723,8 @@
    "arena_full": false,
    "expected_europe": 2759,
    "index_europe": 0.817,
-   "expected_league": 1888,
-   "index_league": 1.194,
+   "expected_league": 2023,
+   "index_league": 1.114,
    "profile": "Strong in own league, below Europe"
   },
   {
@@ -2741,8 +2741,8 @@
    "arena_full": false,
    "expected_europe": 4768,
    "index_europe": 0.32,
-   "expected_league": 2402,
-   "index_league": 0.635,
+   "expected_league": 2573,
+   "index_league": 0.593,
    "profile": "Below own league and Europe"
   },
   {
@@ -2759,8 +2759,8 @@
    "arena_full": false,
    "expected_europe": 3665,
    "index_europe": 0.573,
-   "expected_league": 2105,
-   "index_league": 0.999,
+   "expected_league": 2255,
+   "index_league": 0.932,
    "profile": "In line with own league, below Europe"
   },
   {
@@ -2777,8 +2777,8 @@
    "arena_full": false,
    "expected_europe": 5314,
    "index_europe": 0.976,
-   "expected_league": 2564,
-   "index_league": 2.022,
+   "expected_league": 2747,
+   "index_league": 1.887,
    "profile": "Strong in own league, in line with Europe"
   },
   {
@@ -2795,8 +2795,8 @@
    "arena_full": false,
    "expected_europe": 3873,
    "index_europe": 0.551,
-   "expected_league": 2158,
-   "index_league": 0.988,
+   "expected_league": 2312,
+   "index_league": 0.923,
    "profile": "In line with own league, below Europe"
   },
   {
@@ -2805,7 +2805,7 @@
    "club": "AEK B.C.",
    "population": 3612459.0,
    "area": "Athina",
-   "home_games": 2,
+   "home_games": 3,
    "reported_games": 0,
    "average": null,
    "eligible": false,
@@ -2891,7 +2891,7 @@
    "club": "Maroussi B.C.",
    "population": 71830.0,
    "area": "Marousi (municipality)",
-   "home_games": 2,
+   "home_games": 3,
    "reported_games": 0,
    "average": null,
    "eligible": false,
@@ -3139,7 +3139,7 @@
    "club": "Ironi Ness Ziona B.C.",
    "population": 47268.0,
    "area": "Ness Ziona (municipality)",
-   "home_games": 1,
+   "home_games": 2,
    "reported_games": 1,
    "average": 750,
    "eligible": true,

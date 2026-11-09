@@ -1,7 +1,7 @@
 {
  "league": "Korisliiga",
  "season": "2026-27",
- "updated": "2026-11-08T22:50:37+00:00",
+ "updated": "2026-11-09T07:53:50+00:00",
  "clubs": [
   {
    "club": "Bisons Loimaa",
@@ -35,15 +35,15 @@
   },
   {
    "club": "KTP-Basket",
-   "home_games_counted": 4,
-   "games_with_capacity": 4,
+   "home_games_counted": 5,
+   "games_with_capacity": 5,
    "capacity": 1600,
    "weighted_capacity": 1600,
-   "filling_rate": 0.6787,
+   "filling_rate": 0.6803,
    "arenas": [
     {
      "arena": "Steveco Areena",
-     "games": 4,
+     "games": 5,
      "capacity": 1600
     }
    ]
@@ -65,15 +65,15 @@
   },
   {
    "club": "Kauhajoki",
-   "home_games_counted": 4,
-   "games_with_capacity": 4,
+   "home_games_counted": 5,
+   "games_with_capacity": 5,
    "capacity": 3500,
    "weighted_capacity": 3500,
-   "filling_rate": 0.4384,
+   "filling_rate": 0.4254,
    "arenas": [
     {
      "arena": "IKH Areena",
-     "games": 4,
+     "games": 5,
      "capacity": 3500
     }
    ]
