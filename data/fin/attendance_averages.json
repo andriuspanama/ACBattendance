@@ -1,21 +1,21 @@
 {
   "league": "Korisliiga",
   "season": "2026-27",
-  "updated": "2026-11-08T22:36:32+00:00",
+  "updated": "2026-11-09T00:45:10+00:00",
   "clubs": [
     {
       "league": "Korisliiga",
       "season": "2026-27",
       "club": "Kauhajoki",
-      "home_games_counted": 4,
-      "average": 1534,
-      "total": 6137,
+      "home_games_counted": 5,
+      "average": 1489,
+      "total": 7444,
       "max": 1711,
-      "min": 1408,
+      "min": 1307,
       "arenas": [
         {
           "arena": "IKH Areena",
-          "games": 4
+          "games": 5
         }
       ]
     },
@@ -75,15 +75,15 @@
       "league": "Korisliiga",
       "season": "2026-27",
       "club": "KTP-Basket",
-      "home_games_counted": 4,
-      "average": 1086,
-      "total": 4344,
+      "home_games_counted": 5,
+      "average": 1088,
+      "total": 5442,
       "max": 1182,
       "min": 1035,
       "arenas": [
         {
           "arena": "Steveco Areena",
-          "games": 4
+          "games": 5
         }
       ]
     },
