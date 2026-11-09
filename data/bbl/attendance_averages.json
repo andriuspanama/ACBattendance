@@ -1,7 +1,7 @@
 {
   "league": "BBL",
   "season": "2026-27",
-  "updated": "2026-11-09T06:56:53+00:00",
+  "updated": "2026-11-09T22:35:21+00:00",
   "clubs": [
     {
       "league": "BBL",
@@ -58,15 +58,15 @@
       "league": "BBL",
       "season": "2026-27",
       "club": "Telekom Baskets Bonn",
-      "home_games_counted": 4,
-      "average": 5409,
-      "total": 21635,
+      "home_games_counted": 5,
+      "average": 5387,
+      "total": 26936,
       "max": 6000,
       "min": 5082,
       "arenas": [
         {
           "arena": "Telekom Dome Bonn",
-          "games": 4,
+          "games": 5,
           "capacity": 6000
         }
       ]
