@@ -1,7 +1,7 @@
 {
   "league": "Winner League",
   "season": "2026-27",
-  "updated": "2026-11-09T06:57:04+00:00",
+  "updated": "2026-11-09T22:36:26+00:00",
   "clubs": [
     {
       "league": "Winner League",
@@ -70,22 +70,6 @@
     {
       "league": "Winner League",
       "season": "2026-27",
-      "club": "Bnei Penlink Herzliya",
-      "home_games_counted": 2,
-      "average": 1200,
-      "total": 2400,
-      "max": 1210,
-      "min": 1190,
-      "arenas": [
-        {
-          "arena": "Hayovel Herzliya",
-          "games": 2
-        }
-      ]
-    },
-    {
-      "league": "Winner League",
-      "season": "2026-27",
       "club": "Maccabi Tapuzina Rishon LeZion",
       "home_games_counted": 3,
       "average": 1200,
@@ -95,6 +79,22 @@
       "arenas": [
         {
           "arena": "Beit Maccabi Rishon LeZion",
+          "games": 3
+        }
+      ]
+    },
+    {
+      "league": "Winner League",
+      "season": "2026-27",
+      "club": "Bnei Penlink Herzliya",
+      "home_games_counted": 3,
+      "average": 1150,
+      "total": 3450,
+      "max": 1210,
+      "min": 1050,
+      "arenas": [
+        {
+          "arena": "Hayovel Herzliya",
           "games": 3
         }
       ]
@@ -134,6 +134,22 @@
     {
       "league": "Winner League",
       "season": "2026-27",
+      "club": "Ironi Hai Motors Ness Ziona",
+      "home_games_counted": 2,
+      "average": 950,
+      "total": 1900,
+      "max": 1150,
+      "min": 750,
+      "arenas": [
+        {
+          "arena": "Lev Hamoshava Ness Ziona",
+          "games": 2
+        }
+      ]
+    },
+    {
+      "league": "Winner League",
+      "season": "2026-27",
       "club": "Ironi Lati Kiryat Ata",
       "home_games_counted": 1,
       "average": 950,
@@ -160,22 +176,6 @@
         {
           "arena": "The Shell Be'er Sheva",
           "games": 2
-        }
-      ]
-    },
-    {
-      "league": "Winner League",
-      "season": "2026-27",
-      "club": "Ironi Hai Motors Ness Ziona",
-      "home_games_counted": 1,
-      "average": 750,
-      "total": 750,
-      "max": 750,
-      "min": 750,
-      "arenas": [
-        {
-          "arena": "Lev Hamoshava Ness Ziona",
-          "games": 1
         }
       ]
     },
