@@ -3,8 +3,10 @@
  "source": "Google Sheets + FIBA LiveStats",
  "ok": true,
  "error": "",
- "notes": [],
+ "notes": [
+  "1 rungtynės be lankomumo FIBA LiveStats – įrašykite ranka lape"
+ ],
  "last_ok": "2026-11-08T21:59:42+00:00",
  "last_new_attendance": "2026-11-08T21:59:42+00:00",
- "run_at": "2026-11-08T21:59:42+00:00"
+ "run_at": "2026-11-09T00:41:32+00:00"
 }
