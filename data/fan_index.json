@@ -1,6 +1,6 @@
 {
  "season": "2026-27",
- "updated": "2026-11-09T22:58:07+00:00",
+ "updated": "2026-11-10T08:22:09+00:00",
  "model": {
   "source": "Fan_attraction_index_combined.xlsx, Europe 25-26 (frozen for 2026-27)",
   "europe": {
@@ -859,7 +859,7 @@
    "club": "Science City Jena",
    "population": 182735.0,
    "area": "Jena",
-   "home_games": 3,
+   "home_games": 4,
    "reported_games": 3,
    "average": 2599,
    "eligible": true,
@@ -2217,7 +2217,7 @@
    "club": "Virtus Bologna",
    "population": 869669.0,
    "area": "Bologna",
-   "home_games": 3,
+   "home_games": 4,
    "reported_games": 0,
    "average": null,
    "eligible": false,
@@ -3085,7 +3085,7 @@
    "club": "Hapoel Ironi Eilat",
    "population": 56004.0,
    "area": "Eilat (city)",
-   "home_games": 1,
+   "home_games": 2,
    "reported_games": 1,
    "average": 700,
    "eligible": true,
