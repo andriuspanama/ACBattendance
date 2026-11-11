@@ -1,6 +1,6 @@
 {
  "season": "2026-27",
- "updated": "2026-11-09T22:58:04+00:00",
+ "updated": "2026-11-11T20:10:15+00:00",
  "clubs": {
   "ADA Blois Basket 41": {
    "arena": "Le Jeu de Paume",
@@ -2681,7 +2681,7 @@
    "league": "NBL",
    "source": "games",
    "games": 6,
-   "of_games": 6,
+   "of_games": 7,
    "league_name": "South East Melbourne Phoenix"
   },
   "Spojnia Stargard": {

@@ -1,7 +1,7 @@
 {
  "league": "Winner League",
  "season": "2026-27",
- "updated": "2026-11-09T22:58:04+00:00",
+ "updated": "2026-11-11T20:10:15+00:00",
  "clubs": [
   {
    "club": "Bnei Penlink Herzliya",
@@ -80,15 +80,15 @@
   },
   {
    "club": "Hapoel Irony Eilat",
-   "home_games_counted": 1,
-   "games_with_capacity": 1,
+   "home_games_counted": 2,
+   "games_with_capacity": 2,
    "capacity": 1374,
    "weighted_capacity": 1374,
-   "filling_rate": 0.5095,
+   "filling_rate": 0.6528,
    "arenas": [
     {
      "arena": "Begin Arena",
-     "games": 1,
+     "games": 2,
      "capacity": 1374
     }
    ]
