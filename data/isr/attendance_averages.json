@@ -1,7 +1,7 @@
 {
   "league": "Winner League",
   "season": "2026-27",
-  "updated": "2026-11-11T06:47:26+00:00",
+  "updated": "2026-11-11T19:46:58+00:00",
   "clubs": [
     {
       "league": "Winner League",
@@ -183,15 +183,15 @@
       "league": "Winner League",
       "season": "2026-27",
       "club": "Hapoel Irony Eilat",
-      "home_games_counted": 1,
-      "average": 700,
-      "total": 700,
-      "max": 700,
+      "home_games_counted": 2,
+      "average": 897,
+      "total": 1794,
+      "max": 1094,
       "min": 700,
       "arenas": [
         {
           "arena": "Begin Eilat",
-          "games": 1
+          "games": 2
         }
       ]
     },
