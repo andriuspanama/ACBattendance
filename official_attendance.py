@@ -119,7 +119,7 @@ def make_session(referer: str | None = None) -> requests.Session:
 
 STATUS = {"written": False}
 BLOCK = {"hits": 0, "last": ""}   # kiek kartų svetainė atsakė „uždrausta“ / patikra prieš robotus
-CHALLENGE = re.compile(r"cf-chl|challenge-platform|Just a moment\.\.\.|captcha|Access Denied", re.I)
+CHALLENGE = re.compile(r"cf-chl|challenge-platform|Just a moment\.\.\.|captcha|Access Denied|turnstile|Turvakontroll", re.I)
 
 
 def _note_block(r) -> None:
@@ -429,21 +429,29 @@ def run_fin(args) -> int:
 
 # --------------------------------------------------------------------------- Latvijos–Estijos lyga
 
-def run_lvee(args) -> int:
-    ctx = Ctx("LEBL", args.data_dir or "data/lvee", args.season)
-    site = "https://www.estlatbl.com"
-    sess = make_session(site + "/en/results")
-    html = get(sess, f"{site}/en/results").text
+LVEE_EE = "https://www.basket.ee/et/ajakava-ja-tulemused"
+# Estijos krepšinio federacijos svetainė: ta pati lyga (chid=g23 – Estonian-Latvian Basketball League); naudojama,
+# kai estlatbl.com uždeda patikrą prieš robotus (Cloudflare Turnstile) ir rungtynių sąrašo neatiduoda
+LVEE_EE_LIST = LVEE_EE + "?action=results&chid=g23&team=&place=&start_date=&end_date=&broadcast="
+
+
+def lvee_parse(html: str, comp: str = "") -> list[dict]:
+    """Sužaistos rungtynės iš rezultatų lentelės (estlatbl.com ir basket.ee – ta pati lentelė).
+    comp – jei nurodyta, imamos tik tos lygos eilutės (basket.ee rodo ir kitas lygas)."""
     soup = BeautifulSoup(html, "html.parser")
-    rows = [td.find_parent("tr") for td in soup.select("td.homeTeam")]
     played = []
-    for tr in rows:
+    for td in soup.select("td.homeTeam"):
+        tr = td.find_parent("tr")
         if tr is None:
             continue
         m = re.search(r"results/(\d+)", str(tr)) or re.search(r"gid=(\d+)", str(tr))
         res = tr.select_one("td.result")
         if not m or not res or not re.search(r"\d+\s*:\s*\d+", res.get_text()):
             continue
+        if comp:
+            cp = tr.select_one("td.competition")
+            if not cp or comp.lower() not in cp.get_text(" ", strip=True).lower():
+                continue
         dt = tr.select_one(".dateAndTime")
         ar = tr.select_one(".arena")
         h = tr.select_one(".homeTeamNameDesktop")
@@ -455,17 +463,46 @@ def run_lvee(args) -> int:
             "home": h.get_text(strip=True) if h else "",
             "away": a.get_text(strip=True) if a else "",
         })
+    return played
+
+
+def lvee_fiba_id(sess, site: str, gid: str, use_site: bool) -> str | None:
+    """FIBA LiveStats rungtynių numeris: pirmiausia iš estlatbl.com, jei nepavyksta – iš basket.ee rungtynių puslapio."""
+    rx = r"fibalivestats[^\"'\s]*?/u/[A-Za-z0-9]+/(\d{6,})"
+    if use_site:
+        try:
+            r = get(sess, f"{site}/en/results/{gid}/live-stats", allow_redirects=True)
+            fm = re.search(r"geniussports\.com/u/[^/]+/(\d+)", r.url) or re.search(rx, r.text)
+            if fm:
+                return fm.group(1)
+        except Exception as e:  # noqa: BLE001
+            print(f"  {gid}: estlatbl.com klaida {e}", file=sys.stderr)
+    try:
+        r = get(make_session(LVEE_EE_LIST), f"{LVEE_EE}?gid={gid}")
+        fm = re.search(rx, r.text)
+        return fm.group(1) if fm else None
+    except Exception as e:  # noqa: BLE001
+        print(f"  {gid}: basket.ee klaida {e}", file=sys.stderr)
+        return None
+
+
+def run_lvee(args) -> int:
+    ctx = Ctx("LEBL", args.data_dir or "data/lvee", args.season)
+    site = "https://www.estlatbl.com"
+    sess = make_session(site + "/en/results")
+    played = lvee_parse(get(sess, f"{site}/en/results").text)
+    use_site = bool(played)
+    if not played:
+        print("LEBL: estlatbl.com rungtynių sąrašo neatidavė (patikra prieš robotus?) – naudojama basket.ee")
+        played = lvee_parse(get(make_session(LVEE_EE_LIST), LVEE_EE_LIST).text, comp="Estonian-Latvian")
     print(f"LEBL: sužaistų rungtynių sąraše {len(played)}")
     ctx.listed = len(played)
     todo = [g for g in played if (not g["date"] or g["date"] >= ctx.start) and ctx.wants(g["gid"])]
     for g in todo[: args.max_fetch]:
         att, src = None, f"{site}/en/results/{g['gid']}/boxscore"
         try:
-            r = get(sess, f"{site}/en/results/{g['gid']}/live-stats", allow_redirects=True)
-            fm = re.search(r"geniussports\.com/u/[^/]+/(\d+)", r.url) or \
-                re.search(r"fibalivestats[^\"']*/(\d{6,})", r.text)
-            if fm:
-                fid = fm.group(1)
+            fid = lvee_fiba_id(sess, site, g["gid"], use_site)
+            if fid:
                 src = f"https://fibalivestats.dcd.shared.geniussports.com/u/EBF/{fid}/"
                 dj = get(make_session(src), f"https://fibalivestats.dcd.shared.geniussports.com/data/{fid}/data.json",
                          expect_json=True)
