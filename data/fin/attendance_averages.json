@@ -1,7 +1,7 @@
 {
   "league": "Korisliiga",
   "season": "2026-27",
-  "updated": "2026-11-13T06:56:33+00:00",
+  "updated": "2026-11-13T19:52:07+00:00",
   "clubs": [
     {
       "league": "Korisliiga",
@@ -91,15 +91,31 @@
       "league": "Korisliiga",
       "season": "2026-27",
       "club": "Tapiolan Honka",
-      "home_games_counted": 5,
-      "average": 1010,
-      "total": 5051,
+      "home_games_counted": 6,
+      "average": 966,
+      "total": 5794,
       "max": 1298,
       "min": 719,
       "arenas": [
         {
           "arena": "Tapiolan Liikuntahalli",
-          "games": 5
+          "games": 6
+        }
+      ]
+    },
+    {
+      "league": "Korisliiga",
+      "season": "2026-27",
+      "club": "Helsinki Seagulls",
+      "home_games_counted": 6,
+      "average": 891,
+      "total": 5345,
+      "max": 1235,
+      "min": 725,
+      "arenas": [
+        {
+          "arena": "Töölön Kisahalli",
+          "games": 6
         }
       ]
     },
@@ -115,22 +131,6 @@
       "arenas": [
         {
           "arena": "Motonet Areena",
-          "games": 5
-        }
-      ]
-    },
-    {
-      "league": "Korisliiga",
-      "season": "2026-27",
-      "club": "Helsinki Seagulls",
-      "home_games_counted": 5,
-      "average": 822,
-      "total": 4110,
-      "max": 925,
-      "min": 725,
-      "arenas": [
-        {
-          "arena": "Töölön Kisahalli",
           "games": 5
         }
       ]
