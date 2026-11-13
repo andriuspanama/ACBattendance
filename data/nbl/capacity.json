@@ -1,19 +1,19 @@
 {
  "league": "NBL",
  "season": "2026-27",
- "updated": "2026-11-11T20:10:15+00:00",
+ "updated": "2026-11-13T07:52:15+00:00",
  "clubs": [
   {
    "club": "Adelaide 36ers",
-   "home_games_counted": 5,
-   "games_with_capacity": 5,
+   "home_games_counted": 6,
+   "games_with_capacity": 6,
    "capacity": 10000,
-   "weighted_capacity": 10034,
+   "weighted_capacity": 10036,
    "filling_rate": 1.0,
    "arenas": [
     {
      "arena": "Adelaide Entertainment Centre",
-     "games": 5,
+     "games": 6,
      "capacity": 10000
     }
    ]
@@ -105,15 +105,15 @@
   },
   {
    "club": "Perth Wildcats",
-   "home_games_counted": 9,
-   "games_with_capacity": 9,
+   "home_games_counted": 10,
+   "games_with_capacity": 10,
    "capacity": 14846,
    "weighted_capacity": 14846,
-   "filling_rate": 0.7529,
+   "filling_rate": 0.7411,
    "arenas": [
     {
      "arena": "RAC Arena",
-     "games": 9,
+     "games": 10,
      "capacity": 14846
     }
    ]
@@ -180,7 +180,7 @@
   }
  ],
  "unknown_arenas": [],
- "last_attendance_game": "2026-11-11",
+ "last_attendance_game": "2026-11-12",
  "games": {
   "36dbeb55-58ad-11f1-a69b-43a6b5595d3e": {
    "arena": "John Cain Arena",
@@ -421,6 +421,14 @@
   "37541928-58ad-11f1-86bd-87c06d92085a": {
    "arena": "State Basketball Centre",
    "capacity": 3200
+  },
+  "373d1fa2-58ad-11f1-ac10-0b8a9f33c19f": {
+   "arena": "RAC Arena",
+   "capacity": 14846
+  },
+  "375813e7-58ad-11f1-8c9c-2572c13c410b": {
+   "arena": "Adelaide Entertainment Centre",
+   "capacity": 10000
   }
  }
 }

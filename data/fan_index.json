@@ -1,6 +1,6 @@
 {
  "season": "2026-27",
- "updated": "2026-11-11T20:10:17+00:00",
+ "updated": "2026-11-13T07:52:18+00:00",
  "model": {
   "source": "Fan_attraction_index_combined.xlsx, Europe 25-26 (frozen for 2026-27)",
   "europe": {
@@ -46,7 +46,7 @@
    "eligible": 10,
    "coverage": 1.0,
    "method": "this season",
-   "typical_attendance": 5973,
+   "typical_attendance": 5963,
    "typical_population": 1256203
   },
   "Korisliiga": {
@@ -949,16 +949,16 @@
    "club": "Adelaide 36ers",
    "population": 1491015.0,
    "area": "Greater Adelaide",
-   "home_games": 5,
-   "reported_games": 5,
-   "average": 10034,
+   "home_games": 6,
+   "reported_games": 6,
+   "average": 10036,
    "eligible": true,
    "filling_rate": 1.0,
    "arena_full": true,
    "expected_europe": 4373,
-   "index_europe": 2.294,
-   "expected_league": 6065,
-   "index_league": 1.654,
+   "index_europe": 2.295,
+   "expected_league": 6055,
+   "index_league": 1.658,
    "profile": "Strong in own league and in Europe"
   },
   {
@@ -975,8 +975,8 @@
    "arena_full": false,
    "expected_europe": 4850,
    "index_europe": 0.838,
-   "expected_league": 6421,
-   "index_league": 0.633,
+   "expected_league": 6410,
+   "index_league": 0.634,
    "profile": "Below own league and Europe"
   },
   {
@@ -993,8 +993,8 @@
    "arena_full": false,
    "expected_europe": 2736,
    "index_europe": 1.587,
-   "expected_league": 4985,
-   "index_league": 0.871,
+   "expected_league": 4976,
+   "index_league": 0.873,
    "profile": "Below own league, above Europe"
   },
   {
@@ -1011,8 +1011,8 @@
    "arena_full": false,
    "expected_europe": 3237,
    "index_europe": 1.212,
-   "expected_league": 5293,
-   "index_league": 0.741,
+   "expected_league": 5284,
+   "index_league": 0.742,
    "profile": "Below own league, above Europe"
   },
   {
@@ -1029,8 +1029,8 @@
    "arena_full": false,
    "expected_europe": 5333,
    "index_europe": 1.387,
-   "expected_league": 6804,
-   "index_league": 1.087,
+   "expected_league": 6792,
+   "index_league": 1.089,
    "profile": "In line with own league, above Europe"
   },
   {
@@ -1047,8 +1047,8 @@
    "arena_full": false,
    "expected_europe": 4520,
    "index_europe": 0.99,
-   "expected_league": 6172,
-   "index_league": 0.725,
+   "expected_league": 6162,
+   "index_league": 0.726,
    "profile": "Below own league, in line with Europe"
   },
   {
@@ -1057,16 +1057,16 @@
    "club": "Perth Wildcats",
    "population": 2452765.0,
    "area": "Greater Perth",
-   "home_games": 9,
-   "reported_games": 9,
-   "average": 11178,
+   "home_games": 10,
+   "reported_games": 10,
+   "average": 11003,
    "eligible": true,
-   "filling_rate": 0.7529,
+   "filling_rate": 0.7411,
    "arena_full": false,
    "expected_europe": 4743,
-   "index_europe": 2.357,
-   "expected_league": 6339,
-   "index_league": 1.763,
+   "index_europe": 2.32,
+   "expected_league": 6329,
+   "index_league": 1.739,
    "profile": "Strong in own league and in Europe"
   },
   {
@@ -1083,8 +1083,8 @@
    "arena_full": false,
    "expected_europe": 5333,
    "index_europe": 1.297,
-   "expected_league": 6804,
-   "index_league": 1.016,
+   "expected_league": 6792,
+   "index_league": 1.018,
    "profile": "In line with own league, above Europe"
   },
   {
@@ -1101,8 +1101,8 @@
    "arena_full": false,
    "expected_europe": 5361,
    "index_europe": 1.804,
-   "expected_league": 6826,
-   "index_league": 1.417,
+   "expected_league": 6815,
+   "index_league": 1.419,
    "profile": "Strong in own league and in Europe"
   },
   {
@@ -1119,8 +1119,8 @@
    "arena_full": true,
    "expected_europe": 3063,
    "index_europe": 1.315,
-   "expected_league": 5184,
-   "index_league": 0.777,
+   "expected_league": 5175,
+   "index_league": 0.778,
    "profile": "Below own league, above Europe"
   },
   {

@@ -1,6 +1,6 @@
 {
  "season": "2026-27",
- "updated": "2026-11-11T20:10:15+00:00",
+ "updated": "2026-11-13T07:52:15+00:00",
  "clubs": {
   "ADA Blois Basket 41": {
    "arena": "Le Jeu de Paume",
@@ -73,8 +73,8 @@
    "capacity": 10000,
    "league": "NBL",
    "source": "games",
-   "games": 5,
-   "of_games": 5,
+   "games": 6,
+   "of_games": 6,
    "league_name": "Adelaide 36ers"
   },
   "Aix Maurienne Savoie Basket AMSB": {
@@ -2341,8 +2341,8 @@
    "capacity": 14846,
    "league": "NBL",
    "source": "games",
-   "games": 9,
-   "of_games": 9,
+   "games": 10,
+   "of_games": 10,
    "league_name": "Perth Wildcats"
   },
   "Petkim Spor Kulubu": {
