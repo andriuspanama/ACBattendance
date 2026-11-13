@@ -1,7 +1,7 @@
 {
  "league": "Korisliiga",
  "season": "2026-27",
- "updated": "2026-11-09T07:53:50+00:00",
+ "updated": "2026-11-13T20:27:55+00:00",
  "clubs": [
   {
    "club": "Bisons Loimaa",
@@ -20,15 +20,15 @@
   },
   {
    "club": "Helsinki Seagulls",
-   "home_games_counted": 5,
-   "games_with_capacity": 5,
+   "home_games_counted": 6,
+   "games_with_capacity": 6,
    "capacity": 1600,
    "weighted_capacity": 1600,
-   "filling_rate": 0.5138,
+   "filling_rate": 0.5568,
    "arenas": [
     {
      "arena": "Töölön Kisahalli",
-     "games": 5,
+     "games": 6,
      "capacity": 1600
     }
    ]
@@ -175,22 +175,22 @@
   },
   {
    "club": "Tapiolan Honka",
-   "home_games_counted": 5,
-   "games_with_capacity": 5,
+   "home_games_counted": 6,
+   "games_with_capacity": 6,
    "capacity": 1570,
    "weighted_capacity": 1570,
-   "filling_rate": 0.6434,
+   "filling_rate": 0.6151,
    "arenas": [
     {
      "arena": "Tapiolan Liikuntahalli",
-     "games": 5,
+     "games": 6,
      "capacity": 1570
     }
    ]
   }
  ],
  "unknown_arenas": [],
- "last_attendance_game": "2026-11-08",
+ "last_attendance_game": "2026-11-13",
  "games": {
   "44cfe520-a1e7-11f1-8d0e-4fe1f25b2942": {
    "arena": "Motonet Areena",
@@ -426,6 +426,14 @@
   },
   "9f3edaf0-a1e7-11f1-95af-255bba719915": {
    "arena": "Steveco Areena",
+   "capacity": 1600
+  },
+  "a02b5619-a1e7-11f1-9624-09a10d13c168": {
+   "arena": "Tapiolan Liikuntahalli",
+   "capacity": 1570
+  },
+  "a2539e58-a1e7-11f1-acd7-c51501e81e9a": {
+   "arena": "Töölön Kisahalli",
    "capacity": 1600
   }
  }

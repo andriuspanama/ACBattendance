@@ -1,7 +1,7 @@
 {
  "league": "LEBL",
  "season": "2026-27",
- "updated": "2026-11-08T22:50:37+00:00",
+ "updated": "2026-11-13T20:27:55+00:00",
  "clubs": [
   {
    "club": "BC Pärnu",
@@ -35,15 +35,15 @@
   },
   {
    "club": "BK Ogre",
-   "home_games_counted": 5,
-   "games_with_capacity": 5,
+   "home_games_counted": 6,
+   "games_with_capacity": 6,
    "capacity": 1700,
    "weighted_capacity": 1700,
-   "filling_rate": 0.3975,
+   "filling_rate": 0.363,
    "arenas": [
     {
      "arena": "Sporta arena Ogre",
-     "games": 5,
+     "games": 6,
      "capacity": 1700
     }
    ]
@@ -255,7 +255,7 @@
   }
  ],
  "unknown_arenas": [],
- "last_attendance_game": "2026-11-08",
+ "last_attendance_game": "2026-11-13",
  "games": {
   "2027212141": {
    "arena": "Komandas Sporta Spelu Halle",
@@ -516,6 +516,10 @@
   "2027212061": {
    "arena": "Forus Spordikeskus Viimsi",
    "capacity": 800
+  },
+  "2027212090": {
+   "arena": "Sporta arena Ogre",
+   "capacity": 1700
   }
  }
 }

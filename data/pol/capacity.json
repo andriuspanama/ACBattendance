@@ -1,7 +1,7 @@
 {
  "league": "PLK",
  "season": "2026-27",
- "updated": "2026-11-08T22:50:37+00:00",
+ "updated": "2026-11-13T20:27:55+00:00",
  "clubs": [
   {
    "club": "AMW Arka Gdynia",
@@ -195,15 +195,15 @@
   },
   {
    "club": "PGE Start Lublin",
-   "home_games_counted": 2,
-   "games_with_capacity": 2,
+   "home_games_counted": 3,
+   "games_with_capacity": 3,
    "capacity": 4119,
    "weighted_capacity": 4119,
-   "filling_rate": 0.1871,
+   "filling_rate": 0.2066,
    "arenas": [
     {
      "arena": "MOSiR Globus",
-     "games": 2,
+     "games": 3,
      "capacity": 4119
     }
    ]
@@ -255,7 +255,7 @@
   }
  ],
  "unknown_arenas": [],
- "last_attendance_game": "2026-11-08",
+ "last_attendance_game": "2026-11-13",
  "games": {
   "223465": {
    "arena": "Hala Sportowa 100-lecia Sopotu",
@@ -416,6 +416,10 @@
   "223507": {
    "arena": "Prezero Arena Gliwice",
    "capacity": 3360
+  },
+  "223511": {
+   "arena": "MOSiR Globus",
+   "capacity": 4119
   }
  }
 }
