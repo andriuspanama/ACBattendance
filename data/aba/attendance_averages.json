@@ -1,7 +1,7 @@
 {
   "league": "ABA",
   "season": "2026-27",
-  "updated": "2026-11-13T06:56:57+00:00",
+  "updated": "2026-11-13T19:52:38+00:00",
   "clubs": [
     {
       "league": "ABA",
@@ -307,15 +307,15 @@
       "league": "ABA",
       "season": "2026-27",
       "club": "Cibona",
-      "home_games_counted": 4,
-      "average": 425,
-      "total": 1700,
+      "home_games_counted": 5,
+      "average": 420,
+      "total": 2100,
       "max": 500,
       "min": 300,
       "arenas": [
         {
           "arena": "Košarkaški centar Dražen Petrović",
-          "games": 4
+          "games": 5
         }
       ]
     },
