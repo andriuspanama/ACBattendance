@@ -1,7 +1,7 @@
 {
   "league": "LEBL",
   "season": "2026-27",
-  "updated": "2026-11-13T10:52:08+00:00",
+  "updated": "2026-11-13T19:52:23+00:00",
   "clubs": [
     {
       "league": "LEBL",
@@ -75,15 +75,15 @@
       "league": "LEBL",
       "season": "2026-27",
       "club": "BK Ogre",
-      "home_games_counted": 5,
-      "average": 676,
-      "total": 3379,
+      "home_games_counted": 6,
+      "average": 617,
+      "total": 3703,
       "max": 1008,
-      "min": 520,
+      "min": 324,
       "arenas": [
         {
           "arena": "Sporta arena Ogre",
-          "games": 5
+          "games": 6
         }
       ]
     },
