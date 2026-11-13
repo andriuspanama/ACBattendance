@@ -1,21 +1,21 @@
 {
   "league": "NBL",
   "season": "2026-27",
-  "updated": "2026-11-12T07:24:53+00:00",
+  "updated": "2026-11-13T06:56:19+00:00",
   "clubs": [
     {
       "league": "NBL",
       "season": "2026-27",
       "club": "Perth Wildcats",
-      "home_games_counted": 9,
-      "average": 11178,
-      "total": 100604,
+      "home_games_counted": 10,
+      "average": 11003,
+      "total": 110026,
       "max": 12808,
-      "min": 9646,
+      "min": 9422,
       "arenas": [
         {
           "arena": "RAC Arena",
-          "games": 9
+          "games": 10
         }
       ]
     },
@@ -23,15 +23,15 @@
       "league": "NBL",
       "season": "2026-27",
       "club": "Adelaide 36ers",
-      "home_games_counted": 5,
-      "average": 10034,
-      "total": 50171,
+      "home_games_counted": 6,
+      "average": 10036,
+      "total": 60217,
       "max": 10047,
       "min": 10016,
       "arenas": [
         {
           "arena": "Adelaide Entertainment Centre",
-          "games": 5
+          "games": 6
         }
       ]
     },
