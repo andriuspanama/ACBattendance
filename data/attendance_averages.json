@@ -1,7 +1,7 @@
 {
   "league": "ACB",
   "season": "2026-27",
-  "updated": "2026-11-14T18:03:03+00:00",
+  "updated": "2026-11-14T22:25:39+00:00",
   "clubs": [
     {
       "league": "ACB",
@@ -56,22 +56,22 @@
     {
       "league": "ACB",
       "season": "2026-27",
-      "club": "Asisa Joventut",
-      "home_games_counted": 3,
-      "average": 7484,
-      "total": 22452,
-      "max": 10248,
-      "min": 4636
-    },
-    {
-      "league": "ACB",
-      "season": "2026-27",
       "club": "Casademont Zaragoza",
       "home_games_counted": 4,
       "average": 7089,
       "total": 28357,
       "max": 8406,
       "min": 6067
+    },
+    {
+      "league": "ACB",
+      "season": "2026-27",
+      "club": "Asisa Joventut",
+      "home_games_counted": 4,
+      "average": 7031,
+      "total": 28124,
+      "max": 10248,
+      "min": 4636
     },
     {
       "league": "ACB",
@@ -127,9 +127,9 @@
       "league": "ACB",
       "season": "2026-27",
       "club": "Rio Breogan",
-      "home_games_counted": 3,
-      "average": 5283,
-      "total": 15850,
+      "home_games_counted": 4,
+      "average": 5288,
+      "total": 21153,
       "max": 5305,
       "min": 5265
     },
@@ -177,9 +177,9 @@
       "league": "ACB",
       "season": "2026-27",
       "club": "Morabanc Andorra",
-      "home_games_counted": 3,
-      "average": 3489,
-      "total": 10468,
+      "home_games_counted": 4,
+      "average": 3448,
+      "total": 13790,
       "max": 3848,
       "min": 2898
     }
