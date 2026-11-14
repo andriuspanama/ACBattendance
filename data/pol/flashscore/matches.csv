@@ -1,4 +1,5 @@
 league,season,match_id,date,home,away,attendance,source_url,checked_at,attempts
+PLK,2026-27,0dLJH77c,2026-11-14,Slask Wroclaw,Zielona Gora,2988,https://www.flashscore.com/match/basketball/slask-wroclaw-AJa8Xj5a/zielona-gora-r1BJiCyi/?mid=0dLJH77c,2026-11-14T22:47:05+00:00,1
 PLK,2026-27,2wg5nrO8,2026-10-16,Legia,Anwil Wloclawek,1991,https://www.flashscore.com/match/basketball/anwil-wloclawek-2k0rXWkg/sk-legia-warszawa-zkhjVsDQ/?mid=2wg5nrO8,2026-10-30T01:34:58+00:00,1
 PLK,2026-27,4CY4G3AU,2026-10-11,Anwil Wloclawek,Czarni Slupsk,3413,https://www.flashscore.com/match/basketball/anwil-wloclawek-2k0rXWkg/czarni-slupsk-ziCPVUZB/?mid=4CY4G3AU,2026-10-30T01:34:52+00:00,1
 PLK,2026-27,APsv5UNi,2026-11-08,Szczecin,Czarni Slupsk,1816,https://www.flashscore.com/match/basketball/czarni-slupsk-ziCPVUZB/king-wilki-morskie-szczecin-0z2ezyQN/?mid=APsv5UNi,2026-11-08T22:32:49+00:00,1
@@ -29,7 +30,7 @@ PLK,2026-27,YPc6jV8b,2026-10-30,Anwil Wloclawek,Ostrow Wielkopolski,3552,https:/
 PLK,2026-27,YkTXg4Fj,2026-11-07,Slask Wroclaw,Torun,2732,https://www.flashscore.com/match/basketball/slask-wroclaw-AJa8Xj5a/torun-v3KjOOa7/?mid=YkTXg4Fj,2026-11-07T22:22:56+00:00,1
 PLK,2026-27,YoFUWOfB,2026-10-11,Gdynia,Trefl Sopot,3811,https://www.flashscore.com/match/basketball/arka-gdynia-OUk4IU6S/trefl-sopot-rHiLc4WE/?mid=YoFUWOfB,2026-10-30T01:35:16+00:00,1
 PLK,2026-27,bZTBWF0S,2026-10-16,Torun,Bydgoszcz,1784,https://www.flashscore.com/match/basketball/astoria-bydgoszcz-YTyYqsSJ/torun-v3KjOOa7/?mid=bZTBWF0S,2026-10-30T01:35:26+00:00,1
-PLK,2026-27,dKIbUpi3,2026-11-14,Legia,Szczecin,,https://www.flashscore.com/match/basketball/king-wilki-morskie-szczecin-0z2ezyQN/sk-legia-warszawa-zkhjVsDQ/?mid=dKIbUpi3,2026-11-14T18:32:47+00:00,1
+PLK,2026-27,dKIbUpi3,2026-11-14,Legia,Szczecin,1991,https://www.flashscore.com/match/basketball/king-wilki-morskie-szczecin-0z2ezyQN/sk-legia-warszawa-zkhjVsDQ/?mid=dKIbUpi3,2026-11-14T22:47:01+00:00,2
 PLK,2026-27,dnVdIPuI,2026-10-09,Zielona Gora,Legia,4516,https://www.flashscore.com/match/basketball/sk-legia-warszawa-zkhjVsDQ/zielona-gora-r1BJiCyi/?mid=dnVdIPuI,2026-10-30T01:36:37+00:00,1
 PLK,2026-27,fuSXlIXg,2026-11-01,Lublin,Dabrowa Gornicza,713,https://www.flashscore.com/match/basketball/dabrowa-gornicza-Qy6k31iJ/start-lublin-G8PsLckJ/?mid=fuSXlIXg,2026-11-01T22:29:14+00:00,1
 PLK,2026-27,h4wRFoxA,2026-11-14,Torun,Trefl Sopot,1021,https://www.flashscore.com/match/basketball/torun-v3KjOOa7/trefl-sopot-rHiLc4WE/?mid=h4wRFoxA,2026-11-14T18:32:50+00:00,1

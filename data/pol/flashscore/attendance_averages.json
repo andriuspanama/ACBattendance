@@ -1,10 +1,10 @@
 {
   "league": "PLK",
   "season": "2026-27",
-  "updated": "2026-11-14T18:32:50+00:00",
+  "updated": "2026-11-14T22:47:05+00:00",
   "games": {
-    "checked": 52,
-    "with_attendance": 51
+    "checked": 53,
+    "with_attendance": 53
   },
   "clubs": [
     {
@@ -40,6 +40,16 @@
     {
       "league": "PLK",
       "season": "2026-27",
+      "club": "Slask Wroclaw",
+      "home_games_counted": 3,
+      "average": 2859,
+      "total": 8576,
+      "max": 2988,
+      "min": 2732
+    },
+    {
+      "league": "PLK",
+      "season": "2026-27",
       "club": "Ostrow Wielkopolski",
       "home_games_counted": 2,
       "average": 2800,
@@ -50,20 +60,10 @@
     {
       "league": "PLK",
       "season": "2026-27",
-      "club": "Slask Wroclaw",
-      "home_games_counted": 2,
-      "average": 2794,
-      "total": 5588,
-      "max": 2856,
-      "min": 2732
-    },
-    {
-      "league": "PLK",
-      "season": "2026-27",
       "club": "Legia",
-      "home_games_counted": 3,
-      "average": 2668,
-      "total": 8003,
+      "home_games_counted": 4,
+      "average": 2498,
+      "total": 9994,
       "max": 4112,
       "min": 1900
     },

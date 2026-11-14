@@ -1,7 +1,7 @@
 {
   "league": "PLK",
   "season": "2026-27",
-  "updated": "2026-11-14T18:33:05+00:00",
+  "updated": "2026-11-14T22:47:13+00:00",
   "clubs": [
     {
       "league": "PLK",
@@ -32,26 +32,6 @@
         {
           "arena": "Hala Mistrzów",
           "games": 4
-        }
-      ]
-    },
-    {
-      "league": "PLK",
-      "season": "2026-27",
-      "club": "Legia Warszawa",
-      "home_games_counted": 2,
-      "average": 3006,
-      "total": 6012,
-      "max": 4112,
-      "min": 1900,
-      "arenas": [
-        {
-          "arena": "OSiR Warszawa Bemowo",
-          "games": 1
-        },
-        {
-          "arena": "Torwar",
-          "games": 1
         }
       ]
     },
@@ -91,15 +71,35 @@
       "league": "PLK",
       "season": "2026-27",
       "club": "WKS Śląsk Wrocław",
-      "home_games_counted": 2,
-      "average": 2794,
-      "total": 5588,
-      "max": 2856,
+      "home_games_counted": 3,
+      "average": 2859,
+      "total": 8576,
+      "max": 2988,
       "min": 2732,
       "arenas": [
         {
           "arena": "Hala Orbita",
+          "games": 3
+        }
+      ]
+    },
+    {
+      "league": "PLK",
+      "season": "2026-27",
+      "club": "Legia Warszawa",
+      "home_games_counted": 3,
+      "average": 2668,
+      "total": 8003,
+      "max": 4112,
+      "min": 1900,
+      "arenas": [
+        {
+          "arena": "OSiR Warszawa Bemowo",
           "games": 2
+        },
+        {
+          "arena": "Torwar",
+          "games": 1
         }
       ]
     },
