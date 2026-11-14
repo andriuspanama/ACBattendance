@@ -1,7 +1,7 @@
 {
   "league": "LEBL",
   "season": "2026-27",
-  "updated": "2026-11-14T18:22:11+00:00",
+  "updated": "2026-11-14T22:37:43+00:00",
   "clubs": [
     {
       "league": "LEBL",
@@ -23,15 +23,15 @@
       "league": "LEBL",
       "season": "2026-27",
       "club": "Valmiera Glass VIA",
-      "home_games_counted": 4,
-      "average": 974,
-      "total": 3895,
+      "home_games_counted": 5,
+      "average": 960,
+      "total": 4799,
       "max": 1449,
       "min": 437,
       "arenas": [
         {
           "arena": "Valmieras Olimpiskais Centrs",
-          "games": 3
+          "games": 4
         },
         {
           "arena": "Ruijena SH",
@@ -43,15 +43,15 @@
       "league": "LEBL",
       "season": "2026-27",
       "club": "BK Ventspils",
-      "home_games_counted": 3,
-      "average": 770,
-      "total": 2310,
-      "max": 834,
+      "home_games_counted": 4,
+      "average": 946,
+      "total": 3786,
+      "max": 1476,
       "min": 684,
       "arenas": [
         {
           "arena": "Olimpiskais centrs Ventspils",
-          "games": 3
+          "games": 4
         }
       ]
     },
