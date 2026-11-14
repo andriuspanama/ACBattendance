@@ -1,10 +1,10 @@
 {
   "league": "PLK",
   "season": "2026-27",
-  "updated": "2026-11-14T07:06:25+00:00",
+  "updated": "2026-11-14T18:32:50+00:00",
   "games": {
-    "checked": 50,
-    "with_attendance": 50
+    "checked": 52,
+    "with_attendance": 51
   },
   "clubs": [
     {
@@ -141,9 +141,9 @@
       "league": "PLK",
       "season": "2026-27",
       "club": "Torun",
-      "home_games_counted": 3,
-      "average": 1449,
-      "total": 4347,
+      "home_games_counted": 4,
+      "average": 1342,
+      "total": 5368,
       "max": 1784,
       "min": 783
     },
