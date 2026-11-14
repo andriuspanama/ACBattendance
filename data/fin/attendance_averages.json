@@ -1,21 +1,21 @@
 {
   "league": "Korisliiga",
   "season": "2026-27",
-  "updated": "2026-11-14T06:42:51+00:00",
+  "updated": "2026-11-14T18:21:55+00:00",
   "clubs": [
     {
       "league": "Korisliiga",
       "season": "2026-27",
       "club": "Kauhajoki",
-      "home_games_counted": 5,
-      "average": 1489,
-      "total": 7444,
+      "home_games_counted": 6,
+      "average": 1494,
+      "total": 8967,
       "max": 1711,
       "min": 1307,
       "arenas": [
         {
           "arena": "IKH Areena",
-          "games": 5
+          "games": 6
         }
       ]
     },
@@ -39,15 +39,15 @@
       "league": "Korisliiga",
       "season": "2026-27",
       "club": "Lahti Basketball",
-      "home_games_counted": 5,
-      "average": 1139,
-      "total": 5693,
+      "home_games_counted": 6,
+      "average": 1121,
+      "total": 6728,
       "max": 1850,
       "min": 865,
       "arenas": [
         {
           "arena": "Luhta Areena",
-          "games": 5
+          "games": 6
         }
       ]
     },
@@ -123,15 +123,15 @@
       "league": "Korisliiga",
       "season": "2026-27",
       "club": "Kataja Basket",
-      "home_games_counted": 5,
-      "average": 868,
-      "total": 4338,
+      "home_games_counted": 6,
+      "average": 861,
+      "total": 5167,
       "max": 945,
       "min": 811,
       "arenas": [
         {
           "arena": "Motonet Areena",
-          "games": 5
+          "games": 6
         }
       ]
     },
@@ -139,15 +139,15 @@
       "league": "Korisliiga",
       "season": "2026-27",
       "club": "Kouvot",
-      "home_games_counted": 5,
-      "average": 805,
-      "total": 4023,
+      "home_games_counted": 6,
+      "average": 772,
+      "total": 4635,
       "max": 909,
-      "min": 699,
+      "min": 612,
       "arenas": [
         {
           "arena": "MLL Areena",
-          "games": 5
+          "games": 6
         }
       ]
     },
