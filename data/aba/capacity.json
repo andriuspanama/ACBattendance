@@ -1,7 +1,7 @@
 {
  "league": "ABA",
  "season": "2026-27",
- "updated": "2026-11-14T07:34:20+00:00",
+ "updated": "2026-11-14T18:43:22+00:00",
  "clubs": [
   {
    "club": "BC Vienna",
@@ -285,15 +285,15 @@
   },
   {
    "club": "U-BT Cluj-Napoca",
-   "home_games_counted": 3,
-   "games_with_capacity": 3,
+   "home_games_counted": 4,
+   "games_with_capacity": 4,
    "capacity": 10000,
-   "weighted_capacity": 7508,
-   "filling_rate": 0.5077,
+   "weighted_capacity": 8131,
+   "filling_rate": 0.4378,
    "arenas": [
     {
      "arena": "BT Arena",
-     "games": 2,
+     "games": 3,
      "capacity": 10000
     },
     {
@@ -320,7 +320,7 @@
   }
  ],
  "unknown_arenas": [],
- "last_attendance_game": "2026-11-13",
+ "last_attendance_game": "2026-11-14",
  "games": {
   "13": {
    "arena": "ŠD Leona Štuklja Novo Mesto",
@@ -569,6 +569,10 @@
   "74": {
    "arena": "ŠD Leona Štuklja Novo Mesto",
    "capacity": 2500
+  },
+  "79": {
+   "arena": "BT Arena",
+   "capacity": 10000
   }
  }
 }

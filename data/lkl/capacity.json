@@ -1,7 +1,7 @@
 {
  "league": "LKL",
  "season": "2026-27",
- "updated": "2026-11-08T22:50:37+00:00",
+ "updated": "2026-11-14T18:43:22+00:00",
  "clubs": [
   {
    "club": "Gargzdai",
@@ -110,30 +110,30 @@
   },
   {
    "club": "Siauliai",
-   "home_games_counted": 4,
-   "games_with_capacity": 4,
+   "home_games_counted": 5,
+   "games_with_capacity": 5,
    "capacity": 5500,
    "weighted_capacity": 5500,
-   "filling_rate": 0.3745,
+   "filling_rate": 0.3621,
    "arenas": [
     {
      "arena": "Šiaulių arena",
-     "games": 4,
+     "games": 5,
      "capacity": 5500
     }
    ]
   },
   {
    "club": "Taurage",
-   "home_games_counted": 4,
-   "games_with_capacity": 4,
+   "home_games_counted": 5,
+   "games_with_capacity": 5,
    "capacity": 1800,
-   "weighted_capacity": 1800,
-   "filling_rate": 0.9917,
+   "weighted_capacity": 1844,
+   "filling_rate": 0.9935,
    "arenas": [
     {
      "arena": "Tauragės Arena",
-     "games": 4,
+     "games": 5,
      "capacity": 1800
     }
    ]
@@ -155,7 +155,7 @@
   }
  ],
  "unknown_arenas": [],
- "last_attendance_game": "2026-11-08",
+ "last_attendance_game": "2026-11-14",
  "games": {
   "0YhgbKyo": {
    "arena": "Kalnapilio arena",
@@ -313,6 +313,10 @@
    "arena": "Gargždų SC arena",
    "capacity": 1500
   },
+  "pbtZAcLj": {
+   "arena": "Šiaulių arena",
+   "capacity": 5500
+  },
   "ppqRKJWO": {
    "arena": "Gargždų SC arena",
    "capacity": 1500
@@ -332,6 +336,10 @@
   "xfh9p4BG": {
    "arena": "Arena Vilnius",
    "capacity": 9000
+  },
+  "xhTKY0Dc": {
+   "arena": "Tauragės Arena",
+   "capacity": 1800
   }
  }
 }

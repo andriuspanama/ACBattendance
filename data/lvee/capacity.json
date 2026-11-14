@@ -1,7 +1,7 @@
 {
  "league": "LEBL",
  "season": "2026-27",
- "updated": "2026-11-13T20:27:55+00:00",
+ "updated": "2026-11-14T18:43:22+00:00",
  "clubs": [
   {
    "club": "BC Pärnu",
@@ -65,15 +65,15 @@
   },
   {
    "club": "Bigbank/Kalev",
-   "home_games_counted": 5,
-   "games_with_capacity": 5,
+   "home_games_counted": 6,
+   "games_with_capacity": 6,
    "capacity": 980,
    "weighted_capacity": 980,
-   "filling_rate": 0.5424,
+   "filling_rate": 0.5153,
    "arenas": [
     {
      "arena": "Nord Spordihoone",
-     "games": 5,
+     "games": 6,
      "capacity": 980
     }
    ]
@@ -150,11 +150,11 @@
   },
   {
    "club": "Rīgas Zeļļi",
-   "home_games_counted": 4,
-   "games_with_capacity": 4,
+   "home_games_counted": 5,
+   "games_with_capacity": 5,
    "capacity": 2400,
-   "weighted_capacity": 2050,
-   "filling_rate": 0.2128,
+   "weighted_capacity": 1802,
+   "filling_rate": 0.2628,
    "arenas": [
     {
      "arena": "Komandas Sporta Spelu Halle",
@@ -165,6 +165,11 @@
      "arena": "Daugavas sporta nams",
      "games": 1,
      "capacity": 1000
+    },
+    {
+     "arena": "Jurmalas valsts gimnazijas sporta zale",
+     "games": 1,
+     "capacity": 810
     }
    ]
   },
@@ -255,7 +260,7 @@
   }
  ],
  "unknown_arenas": [],
- "last_attendance_game": "2026-11-13",
+ "last_attendance_game": "2026-11-14",
  "games": {
   "2027212141": {
    "arena": "Komandas Sporta Spelu Halle",
@@ -520,6 +525,14 @@
   "2027212090": {
    "arena": "Sporta arena Ogre",
    "capacity": 1700
+  },
+  "2027212125": {
+   "arena": "Nord Spordihoone",
+   "capacity": 980
+  },
+  "2027212702": {
+   "arena": "Jurmalas valsts gimnazijas sporta zale",
+   "capacity": 810
   }
  }
 }

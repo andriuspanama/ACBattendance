@@ -1,7 +1,7 @@
 {
  "league": "NBL",
  "season": "2026-27",
- "updated": "2026-11-13T20:27:55+00:00",
+ "updated": "2026-11-14T18:43:22+00:00",
  "clubs": [
   {
    "club": "Adelaide 36ers",
@@ -75,15 +75,15 @@
   },
   {
    "club": "Melbourne United",
-   "home_games_counted": 6,
-   "games_with_capacity": 6,
+   "home_games_counted": 7,
+   "games_with_capacity": 7,
    "capacity": 10500,
    "weighted_capacity": 10500,
-   "filling_rate": 0.7047,
+   "filling_rate": 0.7425,
    "arenas": [
     {
      "arena": "John Cain Arena",
-     "games": 6,
+     "games": 7,
      "capacity": 10500
     }
    ]
@@ -180,7 +180,7 @@
   }
  ],
  "unknown_arenas": [],
- "last_attendance_game": "2026-11-13",
+ "last_attendance_game": "2026-11-14",
  "games": {
   "36dbeb55-58ad-11f1-a69b-43a6b5595d3e": {
    "arena": "John Cain Arena",
@@ -437,6 +437,14 @@
   "374d40eb-58ad-11f1-926c-d7c956f67204": {
    "arena": "Spark Arena",
    "capacity": 9740
+  },
+  "3743885e-58ad-11f1-b2f7-c9ba3efad88d": {
+   "arena": "RAC Arena",
+   "capacity": 14846
+  },
+  "377ccd38-58ad-11f1-9384-d30081aaf8c6": {
+   "arena": "John Cain Arena",
+   "capacity": 10500
   }
  }
 }

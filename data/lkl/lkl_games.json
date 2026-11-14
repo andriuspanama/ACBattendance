@@ -386,6 +386,24 @@
 "last_try": "2026-11-08T22:50:25+00:00",
 "tries": 1
 },
+"11622": {
+"arena": "Šiaulių arena",
+"att": 1719,
+"away": "Gargždai",
+"date": "2026-11-14",
+"home": "Šiauliai",
+"last_try": "2026-11-14T18:43:05+00:00",
+"tries": 1
+},
+"11623": {
+"arena": "Tauragės Arena",
+"att": 2020,
+"away": "Lietkabelis",
+"date": "2026-11-14",
+"home": "Tauragė",
+"last_try": "2026-11-14T18:43:05+00:00",
+"tries": 1
+},
 "11626": {
 "arena": "Jonavos sporto arena",
 "att": 941,

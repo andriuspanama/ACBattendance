@@ -1,7 +1,7 @@
 {
  "league": "Korisliiga",
  "season": "2026-27",
- "updated": "2026-11-13T20:27:55+00:00",
+ "updated": "2026-11-14T18:43:22+00:00",
  "clubs": [
   {
    "club": "Bisons Loimaa",
@@ -50,30 +50,30 @@
   },
   {
    "club": "Kataja Basket",
-   "home_games_counted": 5,
-   "games_with_capacity": 5,
+   "home_games_counted": 6,
+   "games_with_capacity": 6,
    "capacity": 2500,
    "weighted_capacity": 2500,
-   "filling_rate": 0.347,
+   "filling_rate": 0.3445,
    "arenas": [
     {
      "arena": "Motonet Areena",
-     "games": 5,
+     "games": 6,
      "capacity": 2500
     }
    ]
   },
   {
    "club": "Kauhajoki",
-   "home_games_counted": 5,
-   "games_with_capacity": 5,
+   "home_games_counted": 6,
+   "games_with_capacity": 6,
    "capacity": 3500,
    "weighted_capacity": 3500,
-   "filling_rate": 0.4254,
+   "filling_rate": 0.427,
    "arenas": [
     {
      "arena": "IKH Areena",
-     "games": 5,
+     "games": 6,
      "capacity": 3500
     }
    ]
@@ -115,30 +115,30 @@
   },
   {
    "club": "Kouvot",
-   "home_games_counted": 5,
-   "games_with_capacity": 5,
+   "home_games_counted": 6,
+   "games_with_capacity": 6,
    "capacity": 1076,
    "weighted_capacity": 1076,
-   "filling_rate": 0.7478,
+   "filling_rate": 0.7179,
    "arenas": [
     {
      "arena": "MLL Areena",
-     "games": 5,
+     "games": 6,
      "capacity": 1076
     }
    ]
   },
   {
    "club": "Lahti Basketball",
-   "home_games_counted": 5,
-   "games_with_capacity": 5,
+   "home_games_counted": 6,
+   "games_with_capacity": 6,
    "capacity": 1950,
    "weighted_capacity": 1950,
-   "filling_rate": 0.5839,
+   "filling_rate": 0.575,
    "arenas": [
     {
      "arena": "Luhta Areena",
-     "games": 5,
+     "games": 6,
      "capacity": 1950
     }
    ]
@@ -190,7 +190,7 @@
   }
  ],
  "unknown_arenas": [],
- "last_attendance_game": "2026-11-13",
+ "last_attendance_game": "2026-11-14",
  "games": {
   "44cfe520-a1e7-11f1-8d0e-4fe1f25b2942": {
    "arena": "Motonet Areena",
@@ -435,6 +435,22 @@
   "a2539e58-a1e7-11f1-acd7-c51501e81e9a": {
    "arena": "Töölön Kisahalli",
    "capacity": 1600
+  },
+  "a3795d22-a1e7-11f1-8992-6f863314a23a": {
+   "arena": "MLL Areena",
+   "capacity": 1076
+  },
+  "a5e4f87e-a1e7-11f1-9466-c914e69a6209": {
+   "arena": "Luhta Areena",
+   "capacity": 1950
+  },
+  "a844ad17-a1e7-11f1-bdd9-9dc6f7b0ac8c": {
+   "arena": "Motonet Areena",
+   "capacity": 2500
+  },
+  "a934418c-a1e7-11f1-a432-f997c5de23fe": {
+   "arena": "IKH Areena",
+   "capacity": 3500
   }
  }
 }

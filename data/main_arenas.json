@@ -1,6 +1,6 @@
 {
  "season": "2026-27",
- "updated": "2026-11-14T07:34:20+00:00",
+ "updated": "2026-11-14T18:43:22+00:00",
  "clubs": {
   "ADA Blois Basket 41": {
    "arena": "Le Jeu de Paume",
@@ -19,8 +19,8 @@
    "capacity": 9025,
    "league": "GBL",
    "source": "games",
-   "games": 3,
-   "of_games": 3,
+   "games": 4,
+   "of_games": 4,
    "league_name": "Aek"
   },
   "ALM Evreux Basket": {
@@ -52,8 +52,8 @@
    "capacity": 3500,
    "league": "GBL",
    "source": "games",
-   "games": 3,
-   "of_games": 3,
+   "games": 4,
+   "of_games": 4,
    "league_name": "Karditsas"
   },
   "ASVEL Basket": {
@@ -247,8 +247,8 @@
    "capacity": 980,
    "league": "LEBL",
    "source": "games",
-   "games": 5,
-   "of_games": 5,
+   "games": 6,
+   "of_games": 6,
    "league_name": "Bigbank/Kalev"
   },
   "BC Nokia": {
@@ -322,8 +322,8 @@
    "capacity": 1800,
    "league": "LKL",
    "source": "games",
-   "games": 4,
-   "of_games": 4,
+   "games": 5,
+   "of_games": 5,
    "league_name": "Taurage"
   },
   "BC Vienna": {
@@ -346,8 +346,8 @@
    "capacity": 5500,
    "league": "LKL",
    "source": "games",
-   "games": 4,
-   "of_games": 4,
+   "games": 5,
+   "of_games": 5,
    "league_name": "Siauliai"
   },
   "BCM Gravelines - Dunkerque": {
@@ -1702,8 +1702,8 @@
    "capacity": 2500,
    "league": "Korisliiga",
    "source": "games",
-   "games": 5,
-   "of_games": 5,
+   "games": 6,
+   "of_games": 6,
    "league_name": "Kataja Basket"
   },
   "Kauhajoki": {
@@ -1714,8 +1714,8 @@
    "capacity": 3500,
    "league": "Korisliiga",
    "source": "games",
-   "games": 5,
-   "of_games": 5,
+   "games": 6,
+   "of_games": 6,
    "league_name": "Kauhajoki"
   },
   "Keflavik IF": {
@@ -1828,8 +1828,8 @@
    "capacity": 1076,
    "league": "Korisliiga",
    "source": "games",
-   "games": 5,
-   "of_games": 5,
+   "games": 6,
+   "of_games": 6,
    "league_name": "Kouvot"
   },
   "LKS Lodz": {
@@ -1849,8 +1849,8 @@
    "capacity": 1950,
    "league": "Korisliiga",
    "source": "games",
-   "games": 5,
-   "of_games": 5,
+   "games": 6,
+   "of_games": 6,
    "league_name": "Lahti Basketball"
   },
   "Latvijas Universitates": {
@@ -1875,15 +1875,15 @@
    "source": "sheet"
   },
   "Legia Warszawa": {
-   "arena": "Torwar",
+   "arena": "OSiR Warszawa Bemowo",
    "city": "Warszawa",
-   "lat": 52.2224126443336,
-   "lon": 21.0421983402527,
-   "capacity": 6304,
+   "lat": 52.25775,
+   "lon": 20.93049,
+   "capacity": 1991,
    "league": "PLK",
    "source": "games",
-   "games": 1,
-   "of_games": 2,
+   "games": 2,
+   "of_games": 3,
    "league_name": "Legia Warszawa"
   },
   "Lietkabelis Panevėžys": {
@@ -2041,8 +2041,8 @@
    "capacity": 10500,
    "league": "NBL",
    "source": "games",
-   "games": 6,
-   "of_games": 6,
+   "games": 7,
+   "of_games": 7,
    "league_name": "Melbourne United"
   },
   "Mersin MSK": {
@@ -2341,8 +2341,8 @@
    "capacity": 14846,
    "league": "NBL",
    "source": "games",
-   "games": 10,
-   "of_games": 10,
+   "games": 11,
+   "of_games": 11,
    "league_name": "Perth Wildcats"
   },
   "Petkim Spor Kulubu": {
@@ -2395,8 +2395,8 @@
    "capacity": 4200,
    "league": "GBL",
    "source": "games",
-   "games": 4,
-   "of_games": 4,
+   "games": 5,
+   "of_games": 5,
    "league_name": "Promitheas"
   },
   "Rapla KK": {
@@ -2465,7 +2465,7 @@
    "league": "LEBL",
    "source": "games",
    "games": 3,
-   "of_games": 4,
+   "of_games": 5,
    "league_name": "Rīgas Zeļļi"
   },
   "Rostock Seawolves": {
@@ -2905,8 +2905,8 @@
    "capacity": 6248,
    "league": "PLK",
    "source": "games",
-   "games": 3,
-   "of_games": 3,
+   "games": 4,
+   "of_games": 4,
    "league_name": "Arriva Lotto Twarde Pierniki Toruń"
   },
   "U-BT Cluj - Napoca": {
@@ -2917,8 +2917,8 @@
    "capacity": 10000,
    "league": "ABA",
    "source": "games",
-   "games": 2,
-   "of_games": 3,
+   "games": 3,
+   "of_games": 4,
    "league_name": "U-BT Cluj-Napoca"
   },
   "UCAM Murcia": {

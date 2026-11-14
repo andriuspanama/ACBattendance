@@ -1,7 +1,7 @@
 {
  "league": "PLK",
  "season": "2026-27",
- "updated": "2026-11-14T07:34:20+00:00",
+ "updated": "2026-11-14T18:43:22+00:00",
  "clubs": [
   {
    "club": "AMW Arka Gdynia",
@@ -35,15 +35,15 @@
   },
   {
    "club": "Arriva Lotto Twarde Pierniki Toruń",
-   "home_games_counted": 3,
-   "games_with_capacity": 3,
+   "home_games_counted": 4,
+   "games_with_capacity": 4,
    "capacity": 6248,
    "weighted_capacity": 6248,
-   "filling_rate": 0.2319,
+   "filling_rate": 0.2148,
    "arenas": [
     {
      "arena": "Kujawsko-Pomorska Arena Toruń",
-     "games": 3,
+     "games": 4,
      "capacity": 6248
     }
    ]
@@ -255,7 +255,7 @@
   }
  ],
  "unknown_arenas": [],
- "last_attendance_game": "2026-11-13",
+ "last_attendance_game": "2026-11-14",
  "games": {
   "223465": {
    "arena": "Hala Sportowa 100-lecia Sopotu",
@@ -424,6 +424,14 @@
   "223515": {
    "arena": "Hala Mistrzów",
    "capacity": 3963
+  },
+  "223510": {
+   "arena": "Kujawsko-Pomorska Arena Toruń",
+   "capacity": 6248
+  },
+  "223514": {
+   "arena": "OSiR Warszawa Bemowo",
+   "capacity": 1991
   }
  }
 }

@@ -1,7 +1,7 @@
 {
  "league": "Winner League",
  "season": "2026-27",
- "updated": "2026-11-11T20:10:15+00:00",
+ "updated": "2026-11-14T18:43:22+00:00",
  "clubs": [
   {
    "club": "Bnei Penlink Herzliya",
@@ -65,15 +65,15 @@
   },
   {
    "club": "Hapoel IBI Tel Aviv",
-   "home_games_counted": 2,
-   "games_with_capacity": 2,
+   "home_games_counted": 3,
+   "games_with_capacity": 3,
    "capacity": 3536,
    "weighted_capacity": 3536,
-   "filling_rate": 0.6176,
+   "filling_rate": 0.5205,
    "arenas": [
     {
      "arena": "Shlomo Group Arena",
-     "games": 2,
+     "games": 3,
      "capacity": 3536
     }
    ]
@@ -200,7 +200,7 @@
   }
  ],
  "unknown_arenas": [],
- "last_attendance_game": "2026-11-09",
+ "last_attendance_game": "2026-11-14",
  "games": {
   "26646": {
    "arena": "Menora Mivtachim Arena",
