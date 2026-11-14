@@ -1,7 +1,7 @@
 {
   "league": "LKL",
   "season": "2026-27",
-  "updated": "2026-11-14T07:03:38+00:00",
+  "updated": "2026-11-14T18:30:35+00:00",
   "clubs": [
     {
       "league": "LKL",
@@ -37,9 +37,9 @@
       "league": "LKL",
       "season": "2026-27",
       "club": "Siauliai",
-      "home_games_counted": 4,
-      "average": 2060,
-      "total": 8240,
+      "home_games_counted": 5,
+      "average": 1992,
+      "total": 9959,
       "max": 2723,
       "min": 1574
     },
@@ -57,10 +57,10 @@
       "league": "LKL",
       "season": "2026-27",
       "club": "Taurage",
-      "home_games_counted": 4,
-      "average": 1785,
-      "total": 7140,
-      "max": 1800,
+      "home_games_counted": 5,
+      "average": 1832,
+      "total": 9160,
+      "max": 2020,
       "min": 1780
     },
     {
