@@ -1,7 +1,7 @@
 {
   "league": "BSL",
   "season": "2026-27",
-  "updated": "2026-11-14T17:58:08+00:00",
+  "updated": "2026-11-14T22:20:08+00:00",
   "clubs": [
     {
       "league": "BSL",
@@ -102,6 +102,22 @@
     {
       "league": "BSL",
       "season": "2026-27",
+      "club": "Pizzabulls Bordo Bandırma",
+      "home_games_counted": 4,
+      "average": 2518,
+      "total": 10073,
+      "max": 3310,
+      "min": 1900,
+      "arenas": [
+        {
+          "arena": "Bandırma 17 Eylül Üniversitesi Spor Salonu",
+          "games": 4
+        }
+      ]
+    },
+    {
+      "league": "BSL",
+      "season": "2026-27",
       "club": "Glint Çayırova Belediyesi",
       "home_games_counted": 4,
       "average": 2485,
@@ -112,22 +128,6 @@
         {
           "arena": "Çayırova Belediyesi Spor Kompleksi",
           "games": 4
-        }
-      ]
-    },
-    {
-      "league": "BSL",
-      "season": "2026-27",
-      "club": "Pizzabulls Bordo Bandırma",
-      "home_games_counted": 3,
-      "average": 2254,
-      "total": 6763,
-      "max": 2863,
-      "min": 1900,
-      "arenas": [
-        {
-          "arena": "Bandırma 17 Eylül Üniversitesi Spor Salonu",
-          "games": 3
         }
       ]
     },
