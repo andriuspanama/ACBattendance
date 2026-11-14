@@ -3,8 +3,11 @@
  "source": "Google Sheets + FIBA LiveStats",
  "ok": true,
  "error": "",
- "notes": [],
+ "notes": [
+  "4 rungtynės be lankomumo FIBA LiveStats – įrašykite ranka lape",
+  "Patikrinta 4 sužaistų rungtynių, bet nė vienose nerasta lankomumo"
+ ],
  "last_ok": "2026-11-13T19:37:55+00:00",
  "last_new_attendance": "2026-11-09T22:17:49+00:00",
- "run_at": "2026-11-13T19:37:55+00:00"
+ "run_at": "2026-11-14T06:15:48+00:00"
 }
