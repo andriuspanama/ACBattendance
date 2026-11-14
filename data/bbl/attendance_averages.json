@@ -1,7 +1,7 @@
 {
   "league": "BBL",
   "season": "2026-27",
-  "updated": "2026-11-13T19:54:55+00:00",
+  "updated": "2026-11-14T06:48:23+00:00",
   "clubs": [
     {
       "league": "BBL",
@@ -194,15 +194,15 @@
       "league": "BBL",
       "season": "2026-27",
       "club": "Phoenix Hagen",
-      "home_games_counted": 4,
-      "average": 3082,
-      "total": 12328,
+      "home_games_counted": 5,
+      "average": 3069,
+      "total": 15347,
       "max": 3145,
       "min": 3011,
       "arenas": [
         {
           "arena": "Ischelandhalle",
-          "games": 4,
+          "games": 5,
           "capacity": 3145
         }
       ]
