@@ -1,7 +1,7 @@
 {
   "league": "LEBL",
   "season": "2026-27",
-  "updated": "2026-11-14T06:43:07+00:00",
+  "updated": "2026-11-14T18:22:11+00:00",
   "clubs": [
     {
       "league": "LEBL",
@@ -107,15 +107,39 @@
       "league": "LEBL",
       "season": "2026-27",
       "club": "Bigbank/Kalev",
-      "home_games_counted": 5,
-      "average": 532,
-      "total": 2658,
+      "home_games_counted": 6,
+      "average": 505,
+      "total": 3030,
       "max": 659,
-      "min": 433,
+      "min": 372,
       "arenas": [
         {
           "arena": "Nord Spordihoone",
-          "games": 5
+          "games": 6
+        }
+      ]
+    },
+    {
+      "league": "LEBL",
+      "season": "2026-27",
+      "club": "Rīgas Zeļļi",
+      "home_games_counted": 5,
+      "average": 474,
+      "total": 2368,
+      "max": 623,
+      "min": 351,
+      "arenas": [
+        {
+          "arena": "Komandas Sporta Spelu Halle",
+          "games": 3
+        },
+        {
+          "arena": "Daugavas sporta nams",
+          "games": 1
+        },
+        {
+          "arena": "Jurmalas valsts gimnazijas sporta zale",
+          "games": 1
         }
       ]
     },
@@ -152,26 +176,6 @@
         {
           "arena": "Liepajas Olimpiskais centrs",
           "games": 5
-        }
-      ]
-    },
-    {
-      "league": "LEBL",
-      "season": "2026-27",
-      "club": "Rīgas Zeļļi",
-      "home_games_counted": 4,
-      "average": 436,
-      "total": 1745,
-      "max": 546,
-      "min": 351,
-      "arenas": [
-        {
-          "arena": "Komandas Sporta Spelu Halle",
-          "games": 3
-        },
-        {
-          "arena": "Daugavas sporta nams",
-          "games": 1
         }
       ]
     },
