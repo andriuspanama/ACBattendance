@@ -1,7 +1,7 @@
 {
  "league": "BBL",
  "season": "2026-27",
- "updated": "2026-11-09T22:58:04+00:00",
+ "updated": "2026-11-14T07:34:20+00:00",
  "clubs": [
   {
    "club": "ALBA BERLIN",
@@ -125,15 +125,15 @@
   },
   {
    "club": "Phoenix Hagen",
-   "home_games_counted": 4,
-   "games_with_capacity": 4,
+   "home_games_counted": 5,
+   "games_with_capacity": 5,
    "capacity": 3145,
    "weighted_capacity": 3145,
-   "filling_rate": 0.98,
+   "filling_rate": 0.976,
    "arenas": [
     {
      "arena": "Ischelandhalle",
-     "games": 4,
+     "games": 5,
      "capacity": 3145
     }
    ]
@@ -275,7 +275,7 @@
   }
  ],
  "unknown_arenas": [],
- "last_attendance_game": "2026-11-08",
+ "last_attendance_game": "2026-11-13",
  "games": {
   "2006920": {
    "arena": "Uber Arena",
@@ -556,6 +556,10 @@
   "2006864": {
    "arena": "Sparkassen-Arena Jena",
    "capacity": 3125
+  },
+  "2006847": {
+   "arena": "Ischelandhalle",
+   "capacity": 3145
   }
  }
 }

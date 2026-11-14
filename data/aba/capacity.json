@@ -1,7 +1,7 @@
 {
  "league": "ABA",
  "season": "2026-27",
- "updated": "2026-11-13T20:27:55+00:00",
+ "updated": "2026-11-14T07:34:20+00:00",
  "clubs": [
   {
    "club": "BC Vienna",
@@ -175,15 +175,15 @@
   },
   {
    "club": "Krka",
-   "home_games_counted": 4,
-   "games_with_capacity": 4,
+   "home_games_counted": 5,
+   "games_with_capacity": 5,
    "capacity": 2500,
    "weighted_capacity": 2500,
-   "filling_rate": 0.35,
+   "filling_rate": 0.312,
    "arenas": [
     {
      "arena": "ŠD Leona Štuklja Novo Mesto",
-     "games": 4,
+     "games": 5,
      "capacity": 2500
     }
    ]
@@ -565,6 +565,10 @@
   "73": {
    "arena": "Košarkaški centar Dražen Petrović",
    "capacity": 5400
+  },
+  "74": {
+   "arena": "ŠD Leona Štuklja Novo Mesto",
+   "capacity": 2500
   }
  }
 }

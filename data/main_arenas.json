@@ -1,6 +1,6 @@
 {
  "season": "2026-27",
- "updated": "2026-11-13T20:27:55+00:00",
+ "updated": "2026-11-14T07:34:20+00:00",
  "clubs": {
   "ADA Blois Basket 41": {
    "arena": "Le Jeu de Paume",
@@ -145,8 +145,8 @@
    "capacity": 3963,
    "league": "PLK",
    "source": "games",
-   "games": 3,
-   "of_games": 3,
+   "games": 4,
+   "of_games": 4,
    "league_name": "Anwil Włocławek"
   },
   "Aquila Trento": {
@@ -1504,8 +1504,8 @@
    "capacity": 2500,
    "league": "ABA",
    "source": "games",
-   "games": 4,
-   "of_games": 4,
+   "games": 5,
+   "of_games": 5,
    "league_name": "Krka"
   },
   "KK MZT Skopje Aerodrom": {
@@ -2374,8 +2374,8 @@
    "capacity": 3145,
    "league": "BBL",
    "source": "games",
-   "games": 4,
-   "of_games": 4,
+   "games": 5,
+   "of_games": 5,
    "league_name": "Phoenix Hagen"
   },
   "Poitiers Basket 86": {

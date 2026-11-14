@@ -1,6 +1,6 @@
 {
  "season": "2026-27",
- "updated": "2026-11-13T20:27:58+00:00",
+ "updated": "2026-11-14T07:34:21+00:00",
  "model": {
   "source": "Fan_attraction_index_combined.xlsx, Europe 25-26 (frozen for 2026-27)",
   "europe": {
@@ -38,7 +38,7 @@
    "eligible": 18,
    "coverage": 1.0,
    "method": "this season",
-   "typical_attendance": 3889,
+   "typical_attendance": 3888,
    "typical_population": 534760
   },
   "NBL": {
@@ -70,7 +70,7 @@
    "eligible": 20,
    "coverage": 1.0,
    "method": "this season",
-   "typical_attendance": 1298,
+   "typical_attendance": 1288,
    "typical_population": 364255
   },
   "LBA": {
@@ -88,7 +88,7 @@
    "eligible": 16,
    "coverage": 1.0,
    "method": "this season",
-   "typical_attendance": 2077,
+   "typical_attendance": 2074,
    "typical_population": 381660
   },
   "BSL": {
@@ -633,7 +633,7 @@
    "arena_full": false,
    "expected_europe": 5283,
    "index_europe": 1.583,
-   "expected_league": 4750,
+   "expected_league": 4749,
    "index_league": 1.761,
    "profile": "Strong in own league and in Europe"
   },
@@ -651,7 +651,7 @@
    "arena_full": false,
    "expected_europe": 3007,
    "index_europe": 1.412,
-   "expected_league": 3617,
+   "expected_league": 3616,
    "index_league": 1.174,
    "profile": "Strong in own league and in Europe"
   },
@@ -670,7 +670,7 @@
    "expected_europe": 3612,
    "index_europe": 0.9,
    "expected_league": 3888,
-   "index_league": 0.836,
+   "index_league": 0.837,
    "profile": "Below own league and Europe"
   },
   {
@@ -687,8 +687,8 @@
    "arena_full": true,
    "expected_europe": 3232,
    "index_europe": 2.011,
-   "expected_league": 3716,
-   "index_league": 1.749,
+   "expected_league": 3715,
+   "index_league": 1.75,
    "profile": "Strong in own league and in Europe"
   },
   {
@@ -705,8 +705,8 @@
    "arena_full": false,
    "expected_europe": 4893,
    "index_europe": 1.059,
-   "expected_league": 4533,
-   "index_league": 1.142,
+   "expected_league": 4532,
+   "index_league": 1.143,
    "profile": "Strong in own league, in line with Europe"
   },
   {
@@ -723,7 +723,7 @@
    "arena_full": true,
    "expected_europe": 3372,
    "index_europe": 0.846,
-   "expected_league": 3778,
+   "expected_league": 3777,
    "index_league": 0.755,
    "profile": "Below own league and Europe"
   },
@@ -741,7 +741,7 @@
    "arena_full": false,
    "expected_europe": 3613,
    "index_europe": 0.96,
-   "expected_league": 3889,
+   "expected_league": 3888,
    "index_league": 0.892,
    "profile": "Below own league, in line with Europe"
   },
@@ -759,7 +759,7 @@
    "arena_full": false,
    "expected_europe": 3465,
    "index_europe": 1.18,
-   "expected_league": 3821,
+   "expected_league": 3820,
    "index_league": 1.07,
    "profile": "In line with own league, above Europe"
   },
@@ -769,16 +769,16 @@
    "club": "Phoenix Hagen",
    "population": 199200.0,
    "area": "Hagen",
-   "home_games": 4,
-   "reported_games": 4,
-   "average": 3082,
+   "home_games": 5,
+   "reported_games": 5,
+   "average": 3069,
    "eligible": true,
-   "filling_rate": 0.98,
+   "filling_rate": 0.976,
    "arena_full": true,
    "expected_europe": 2879,
-   "index_europe": 1.07,
-   "expected_league": 3562,
-   "index_league": 0.865,
+   "index_europe": 1.066,
+   "expected_league": 3561,
+   "index_league": 0.862,
    "profile": "Below own league, in line with Europe"
   },
   {
@@ -795,8 +795,8 @@
    "arena_full": true,
    "expected_europe": 2651,
    "index_europe": 1.143,
-   "expected_league": 3466,
-   "index_league": 0.874,
+   "expected_league": 3465,
+   "index_league": 0.875,
    "profile": "Below own league, above Europe"
   },
   {
@@ -813,7 +813,7 @@
    "arena_full": false,
    "expected_europe": 3241,
    "index_europe": 1.246,
-   "expected_league": 3720,
+   "expected_league": 3719,
    "index_league": 1.086,
    "profile": "In line with own league, above Europe"
   },
@@ -831,7 +831,7 @@
    "arena_full": false,
    "expected_europe": 4805,
    "index_europe": 0.605,
-   "expected_league": 4486,
+   "expected_league": 4485,
    "index_league": 0.648,
    "profile": "Below own league and Europe"
   },
@@ -849,7 +849,7 @@
    "arena_full": false,
    "expected_europe": 2778,
    "index_europe": 0.894,
-   "expected_league": 3519,
+   "expected_league": 3518,
    "index_league": 0.706,
    "profile": "Below own league and Europe"
   },
@@ -867,7 +867,7 @@
    "arena_full": false,
    "expected_europe": 2815,
    "index_europe": 0.923,
-   "expected_league": 3535,
+   "expected_league": 3534,
    "index_league": 0.735,
    "profile": "Below own league, in line with Europe"
   },
@@ -885,7 +885,7 @@
    "arena_full": false,
    "expected_europe": 3778,
    "index_europe": 1.426,
-   "expected_league": 3967,
+   "expected_league": 3966,
    "index_league": 1.358,
    "profile": "Strong in own league and in Europe"
   },
@@ -903,7 +903,7 @@
    "arena_full": true,
    "expected_europe": 3101,
    "index_europe": 1.755,
-   "expected_league": 3658,
+   "expected_league": 3657,
    "index_league": 1.488,
    "profile": "Strong in own league and in Europe"
   },
@@ -921,7 +921,7 @@
    "arena_full": false,
    "expected_europe": 4960,
    "index_europe": 0.574,
-   "expected_league": 4570,
+   "expected_league": 4569,
    "index_league": 0.623,
    "profile": "Below own league and Europe"
   },
@@ -939,7 +939,7 @@
    "arena_full": false,
    "expected_europe": 3535,
    "index_europe": 1.26,
-   "expected_league": 3853,
+   "expected_league": 3852,
    "index_league": 1.156,
    "profile": "Strong in own league and in Europe"
   },
@@ -1623,8 +1623,8 @@
    "arena_full": false,
    "expected_europe": 4947,
    "index_europe": 0.205,
-   "expected_league": 1576,
-   "index_league": 0.642,
+   "expected_league": 1564,
+   "index_league": 0.647,
    "profile": "Below own league and Europe"
   },
   {
@@ -1641,8 +1641,8 @@
    "arena_full": false,
    "expected_europe": 2414,
    "index_europe": 0.359,
-   "expected_league": 1163,
-   "index_league": 0.745,
+   "expected_league": 1154,
+   "index_league": 0.751,
    "profile": "Below own league and Europe"
   },
   {
@@ -1659,8 +1659,8 @@
    "arena_full": false,
    "expected_europe": 3436,
    "index_europe": 0.728,
-   "expected_league": 1315,
-   "index_league": 1.902,
+   "expected_league": 1305,
+   "index_league": 1.916,
    "profile": "Strong in own league, below Europe"
   },
   {
@@ -1677,8 +1677,8 @@
    "arena_full": false,
    "expected_europe": 2802,
    "index_europe": 0.196,
-   "expected_league": 1219,
-   "index_league": 0.451,
+   "expected_league": 1209,
+   "index_league": 0.455,
    "profile": "Below own league and Europe"
   },
   {
@@ -1695,8 +1695,8 @@
    "arena_full": false,
    "expected_europe": 4015,
    "index_europe": 0.314,
-   "expected_league": 1409,
-   "index_league": 0.893,
+   "expected_league": 1398,
+   "index_league": 0.9,
    "profile": "Below own league and Europe"
   },
   {
@@ -1713,8 +1713,8 @@
    "arena_full": false,
    "expected_europe": 4228,
    "index_europe": 0.099,
-   "expected_league": 1446,
-   "index_league": 0.291,
+   "expected_league": 1434,
+   "index_league": 0.293,
    "profile": "Below own league and Europe"
   },
   {
@@ -1731,8 +1731,8 @@
    "arena_full": false,
    "expected_europe": 4464,
    "index_europe": 0.583,
-   "expected_league": 1487,
-   "index_league": 1.75,
+   "expected_league": 1476,
+   "index_league": 1.764,
    "profile": "Strong in own league, below Europe"
   },
   {
@@ -1749,8 +1749,8 @@
    "arena_full": false,
    "expected_europe": 5150,
    "index_europe": 0.66,
-   "expected_league": 1614,
-   "index_league": 2.106,
+   "expected_league": 1602,
+   "index_league": 2.122,
    "profile": "Strong in own league, below Europe"
   },
   {
@@ -1767,8 +1767,8 @@
    "arena_full": false,
    "expected_europe": 4464,
    "index_europe": 0.175,
-   "expected_league": 1487,
-   "index_league": 0.525,
+   "expected_league": 1476,
+   "index_league": 0.529,
    "profile": "Below own league and Europe"
   },
   {
@@ -1785,8 +1785,8 @@
    "arena_full": false,
    "expected_europe": 1449,
    "index_europe": 2.071,
-   "expected_league": 1036,
-   "index_league": 2.895,
+   "expected_league": 1028,
+   "index_league": 2.917,
    "profile": "Strong in own league and in Europe"
   },
   {
@@ -1803,8 +1803,8 @@
    "arena_full": false,
    "expected_europe": 2955,
    "index_europe": 0.33,
-   "expected_league": 1241,
-   "index_league": 0.786,
+   "expected_league": 1232,
+   "index_league": 0.792,
    "profile": "Below own league and Europe"
   },
   {
@@ -1813,16 +1813,16 @@
    "club": "KK Krka",
    "population": 38669.0,
    "area": "Novo mesto (municipality)",
-   "home_games": 4,
-   "reported_games": 4,
-   "average": 875,
+   "home_games": 5,
+   "reported_games": 5,
+   "average": 780,
    "eligible": true,
-   "filling_rate": 0.35,
+   "filling_rate": 0.312,
    "arena_full": false,
    "expected_europe": 1663,
-   "index_europe": 0.526,
-   "expected_league": 1063,
-   "index_league": 0.823,
+   "index_europe": 0.469,
+   "expected_league": 1055,
+   "index_league": 0.739,
    "profile": "Below own league and Europe"
   },
   {
@@ -1839,8 +1839,8 @@
    "arena_full": false,
    "expected_europe": 4464,
    "index_europe": 0.19,
-   "expected_league": 1487,
-   "index_league": 0.572,
+   "expected_league": 1476,
+   "index_league": 0.576,
    "profile": "Below own league and Europe"
   },
   {
@@ -1857,8 +1857,8 @@
    "arena_full": false,
    "expected_europe": 4464,
    "index_europe": 0.266,
-   "expected_league": 1487,
-   "index_league": 0.798,
+   "expected_league": 1476,
+   "index_league": 0.804,
    "profile": "Below own league and Europe"
   },
   {
@@ -1875,8 +1875,8 @@
    "arena_full": false,
    "expected_europe": 4015,
    "index_europe": 0.083,
-   "expected_league": 1409,
-   "index_league": 0.236,
+   "expected_league": 1398,
+   "index_league": 0.238,
    "profile": "Below own league and Europe"
   },
   {
@@ -1893,8 +1893,8 @@
    "arena_full": false,
    "expected_europe": 2802,
    "index_europe": 0.166,
-   "expected_league": 1219,
-   "index_league": 0.381,
+   "expected_league": 1209,
+   "index_league": 0.384,
    "profile": "Below own league and Europe"
   },
   {
@@ -1911,8 +1911,8 @@
    "arena_full": false,
    "expected_europe": 3837,
    "index_europe": 0.332,
-   "expected_league": 1379,
-   "index_league": 0.924,
+   "expected_league": 1369,
+   "index_league": 0.931,
    "profile": "In line with own league, below Europe"
   },
   {
@@ -1929,8 +1929,8 @@
    "arena_full": false,
    "expected_europe": 2532,
    "index_europe": 0.808,
-   "expected_league": 1180,
-   "index_league": 1.733,
+   "expected_league": 1171,
+   "index_league": 1.747,
    "profile": "Strong in own league, below Europe"
   },
   {
@@ -1947,8 +1947,8 @@
    "arena_full": false,
    "expected_europe": 3442,
    "index_europe": 1.108,
-   "expected_league": 1316,
-   "index_league": 2.897,
+   "expected_league": 1306,
+   "index_league": 2.92,
    "profile": "Strong in own league and in Europe"
   },
   {
@@ -1965,8 +1965,8 @@
    "arena_full": false,
    "expected_europe": 2576,
    "index_europe": 0.621,
-   "expected_league": 1186,
-   "index_league": 1.349,
+   "expected_league": 1177,
+   "index_league": 1.359,
    "profile": "Strong in own league, below Europe"
   },
   {
@@ -2237,8 +2237,8 @@
    "arena_full": false,
    "expected_europe": 3420,
    "index_europe": 0.86,
-   "expected_league": 2091,
-   "index_league": 1.406,
+   "expected_league": 2088,
+   "index_league": 1.408,
    "profile": "Strong in own league, below Europe"
   },
   {
@@ -2247,16 +2247,16 @@
    "club": "Anwil Wloclawek",
    "population": 187976.0,
    "area": "Wloclawek",
-   "home_games": 3,
-   "reported_games": 3,
-   "average": 3461,
+   "home_games": 4,
+   "reported_games": 4,
+   "average": 3396,
    "eligible": true,
-   "filling_rate": 0.8732,
+   "filling_rate": 0.8569,
    "arena_full": false,
    "expected_europe": 2836,
-   "index_europe": 1.22,
-   "expected_league": 1950,
-   "index_league": 1.775,
+   "index_europe": 1.197,
+   "expected_league": 1947,
+   "index_league": 1.744,
    "profile": "Strong in own league and in Europe"
   },
   {
@@ -2273,8 +2273,8 @@
    "arena_full": false,
    "expected_europe": 3239,
    "index_europe": 0.447,
-   "expected_league": 2046,
-   "index_league": 0.708,
+   "expected_league": 2044,
+   "index_league": 0.709,
    "profile": "Below own league and Europe"
   },
   {
@@ -2291,7 +2291,7 @@
    "arena_full": true,
    "expected_europe": 5012,
    "index_europe": 0.246,
-   "expected_league": 2530,
+   "expected_league": 2527,
    "index_league": 0.488,
    "profile": "Below own league and Europe"
   },
@@ -2309,8 +2309,8 @@
    "arena_full": true,
    "expected_europe": 3627,
    "index_europe": 0.408,
-   "expected_league": 2144,
-   "index_league": 0.69,
+   "expected_league": 2141,
+   "index_league": 0.691,
    "profile": "Below own league and Europe"
   },
   {
@@ -2327,8 +2327,8 @@
    "arena_full": false,
    "expected_europe": 2821,
    "index_europe": 0.692,
-   "expected_league": 1946,
-   "index_league": 1.003,
+   "expected_league": 1944,
+   "index_league": 1.005,
    "profile": "In line with own league, below Europe"
   },
   {
@@ -2345,8 +2345,8 @@
    "arena_full": false,
    "expected_europe": 3831,
    "index_europe": 0.425,
-   "expected_league": 2197,
-   "index_league": 0.741,
+   "expected_league": 2194,
+   "index_league": 0.742,
    "profile": "Below own league and Europe"
   },
   {
@@ -2363,8 +2363,8 @@
    "arena_full": false,
    "expected_europe": 3484,
    "index_europe": 0.46,
-   "expected_league": 2107,
-   "index_league": 0.761,
+   "expected_league": 2105,
+   "index_league": 0.762,
    "profile": "Below own league and Europe"
   },
   {
@@ -2381,8 +2381,8 @@
    "arena_full": false,
    "expected_europe": 2674,
    "index_europe": 0.813,
-   "expected_league": 1912,
-   "index_league": 1.137,
+   "expected_league": 1910,
+   "index_league": 1.139,
    "profile": "Strong in own league, below Europe"
   },
   {
@@ -2399,8 +2399,8 @@
    "arena_full": false,
    "expected_europe": 3585,
    "index_europe": 0.5,
-   "expected_league": 2133,
-   "index_league": 0.841,
+   "expected_league": 2130,
+   "index_league": 0.842,
    "profile": "Below own league and Europe"
   },
   {
@@ -2417,8 +2417,8 @@
    "arena_full": false,
    "expected_europe": 5012,
    "index_europe": 0.6,
-   "expected_league": 2530,
-   "index_league": 1.188,
+   "expected_league": 2527,
+   "index_league": 1.189,
    "profile": "Strong in own league, below Europe"
   },
   {
@@ -2435,8 +2435,8 @@
    "arena_full": false,
    "expected_europe": 2589,
    "index_europe": 0.815,
-   "expected_league": 1893,
-   "index_league": 1.115,
+   "expected_league": 1891,
+   "index_league": 1.116,
    "profile": "Strong in own league, below Europe"
   },
   {
@@ -2453,8 +2453,8 @@
    "arena_full": false,
    "expected_europe": 3788,
    "index_europe": 0.225,
-   "expected_league": 2185,
-   "index_league": 0.389,
+   "expected_league": 2183,
+   "index_league": 0.39,
    "profile": "Below own league and Europe"
   },
   {
@@ -2471,8 +2471,8 @@
    "arena_full": true,
    "expected_europe": 2594,
    "index_europe": 1.137,
-   "expected_league": 1894,
-   "index_league": 1.557,
+   "expected_league": 1892,
+   "index_league": 1.559,
    "profile": "Strong in own league and in Europe"
   },
   {
@@ -2489,8 +2489,8 @@
    "arena_full": true,
    "expected_europe": 4105,
    "index_europe": 0.681,
-   "expected_league": 2270,
-   "index_league": 1.231,
+   "expected_league": 2267,
+   "index_league": 1.232,
    "profile": "Strong in own league, below Europe"
   },
   {
@@ -2507,8 +2507,8 @@
    "arena_full": true,
    "expected_europe": 2825,
    "index_europe": 1.65,
-   "expected_league": 1947,
-   "index_league": 2.393,
+   "expected_league": 1945,
+   "index_league": 2.396,
    "profile": "Strong in own league and in Europe"
   },
   {

@@ -1,7 +1,7 @@
 {
  "league": "PLK",
  "season": "2026-27",
- "updated": "2026-11-13T20:27:55+00:00",
+ "updated": "2026-11-14T07:34:20+00:00",
  "clubs": [
   {
    "club": "AMW Arka Gdynia",
@@ -20,15 +20,15 @@
   },
   {
    "club": "Anwil Włocławek",
-   "home_games_counted": 3,
-   "games_with_capacity": 3,
+   "home_games_counted": 4,
+   "games_with_capacity": 4,
    "capacity": 3963,
    "weighted_capacity": 3963,
-   "filling_rate": 0.8732,
+   "filling_rate": 0.8569,
    "arenas": [
     {
      "arena": "Hala Mistrzów",
-     "games": 3,
+     "games": 4,
      "capacity": 3963
     }
    ]
@@ -420,6 +420,10 @@
   "223511": {
    "arena": "MOSiR Globus",
    "capacity": 4119
+  },
+  "223515": {
+   "arena": "Hala Mistrzów",
+   "capacity": 3963
   }
  }
 }
