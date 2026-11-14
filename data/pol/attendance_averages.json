@@ -1,7 +1,7 @@
 {
   "league": "PLK",
   "season": "2026-27",
-  "updated": "2026-11-13T20:07:02+00:00",
+  "updated": "2026-11-14T07:06:36+00:00",
   "clubs": [
     {
       "league": "PLK",
@@ -23,15 +23,15 @@
       "league": "PLK",
       "season": "2026-27",
       "club": "Anwil Włocławek",
-      "home_games_counted": 3,
-      "average": 3461,
-      "total": 10382,
+      "home_games_counted": 4,
+      "average": 3396,
+      "total": 13583,
       "max": 3552,
-      "min": 3413,
+      "min": 3201,
       "arenas": [
         {
           "arena": "Hala Mistrzów",
-          "games": 3
+          "games": 4
         }
       ]
     },
