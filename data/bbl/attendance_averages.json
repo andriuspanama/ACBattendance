@@ -1,7 +1,7 @@
 {
   "league": "BBL",
   "season": "2026-27",
-  "updated": "2026-11-14T18:21:37+00:00",
+  "updated": "2026-11-14T22:38:23+00:00",
   "clubs": [
     {
       "league": "BBL",
@@ -24,16 +24,16 @@
       "league": "BBL",
       "season": "2026-27",
       "club": "EWE Baskets Oldenburg",
-      "home_games_counted": 4,
+      "home_games_counted": 5,
       "average": 6500,
-      "total": 26000,
+      "total": 32500,
       "max": 6500,
       "min": 6500,
       "arenas": [
         {
           "arena": "Große EWE Arena Oldenburg",
-          "games": 4,
-          "capacity": 6335
+          "games": 5,
+          "capacity": 6500
         }
       ]
     },
@@ -92,15 +92,15 @@
       "league": "BBL",
       "season": "2026-27",
       "club": "ratiopharm ulm",
-      "home_games_counted": 3,
-      "average": 4454,
-      "total": 13363,
+      "home_games_counted": 4,
+      "average": 4493,
+      "total": 17973,
       "max": 4961,
       "min": 4163,
       "arenas": [
         {
           "arena": "ratiopharm arena Ulm",
-          "games": 3,
+          "games": 4,
           "capacity": 6000
         }
       ]
@@ -109,15 +109,15 @@
       "league": "BBL",
       "season": "2026-27",
       "club": "BMA365 Bamberg Baskets",
-      "home_games_counted": 3,
-      "average": 4245,
-      "total": 12734,
-      "max": 4501,
+      "home_games_counted": 4,
+      "average": 4440,
+      "total": 17761,
+      "max": 5027,
       "min": 4023,
       "arenas": [
         {
           "arena": "Brose Arena Bamberg",
-          "games": 3,
+          "games": 4,
           "capacity": 5700
         }
       ]
@@ -227,6 +227,23 @@
     {
       "league": "BBL",
       "season": "2026-27",
+      "club": "Veolia Towers Hamburg",
+      "home_games_counted": 4,
+      "average": 2910,
+      "total": 11639,
+      "max": 3190,
+      "min": 2392,
+      "arenas": [
+        {
+          "arena": "Inselpark Arena",
+          "games": 4,
+          "capacity": 3400
+        }
+      ]
+    },
+    {
+      "league": "BBL",
+      "season": "2026-27",
       "club": "SKYLINERS",
       "home_games_counted": 2,
       "average": 2905,
@@ -255,23 +272,6 @@
           "arena": "tectake ARENA Würzburg",
           "games": 4,
           "capacity": 3140
-        }
-      ]
-    },
-    {
-      "league": "BBL",
-      "season": "2026-27",
-      "club": "Veolia Towers Hamburg",
-      "home_games_counted": 3,
-      "average": 2848,
-      "total": 8544,
-      "max": 3190,
-      "min": 2392,
-      "arenas": [
-        {
-          "arena": "Inselpark Arena",
-          "games": 3,
-          "capacity": 3400
         }
       ]
     },
