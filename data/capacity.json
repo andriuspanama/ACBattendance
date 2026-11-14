@@ -1,19 +1,19 @@
 {
  "league": "ACB",
  "season": "2026-27",
- "updated": "2026-11-09T07:53:50+00:00",
+ "updated": "2026-11-14T22:56:39+00:00",
  "clubs": [
   {
    "club": "Asisa Joventut",
-   "home_games_counted": 3,
-   "games_with_capacity": 3,
+   "home_games_counted": 4,
+   "games_with_capacity": 4,
    "capacity": 12760,
    "weighted_capacity": 12760,
-   "filling_rate": 0.5865,
+   "filling_rate": 0.551,
    "arenas": [
     {
      "arena": "Palau Municipal D'Esports de Badalona",
-     "games": 3,
+     "games": 4,
      "capacity": 12760
     }
    ]
@@ -155,15 +155,15 @@
   },
   {
    "club": "Morabanc Andorra",
-   "home_games_counted": 3,
-   "games_with_capacity": 3,
+   "home_games_counted": 4,
+   "games_with_capacity": 4,
    "capacity": 5001,
    "weighted_capacity": 5001,
-   "filling_rate": 0.6977,
+   "filling_rate": 0.6894,
    "arenas": [
     {
      "arena": "Pavelló Toni Martí",
-     "games": 3,
+     "games": 4,
      "capacity": 5001
     }
    ]
@@ -200,15 +200,15 @@
   },
   {
    "club": "Rio Breogan",
-   "home_games_counted": 3,
-   "games_with_capacity": 3,
+   "home_games_counted": 4,
+   "games_with_capacity": 4,
    "capacity": 5310,
    "weighted_capacity": 5310,
-   "filling_rate": 0.995,
+   "filling_rate": 0.9959,
    "arenas": [
     {
      "arena": "Pazo Provincial dos Deportes de Lugo",
-     "games": 3,
+     "games": 4,
      "capacity": 5310
     }
    ]
@@ -275,7 +275,7 @@
   }
  ],
  "unknown_arenas": [],
- "last_attendance_game": "2026-11-09",
+ "last_attendance_game": "2026-11-14",
  "games": {
   "105375": {
    "arena": "Bilbao Arena",

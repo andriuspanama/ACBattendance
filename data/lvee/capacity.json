@@ -1,7 +1,7 @@
 {
  "league": "LEBL",
  "season": "2026-27",
- "updated": "2026-11-14T18:43:22+00:00",
+ "updated": "2026-11-14T22:56:39+00:00",
  "clubs": [
   {
    "club": "BC Pärnu",
@@ -50,15 +50,15 @@
   },
   {
    "club": "BK Ventspils",
-   "home_games_counted": 3,
-   "games_with_capacity": 3,
+   "home_games_counted": 4,
+   "games_with_capacity": 4,
    "capacity": 3000,
    "weighted_capacity": 3000,
-   "filling_rate": 0.2567,
+   "filling_rate": 0.3155,
    "arenas": [
     {
      "arena": "Olimpiskais centrs \"Ventspils\"",
-     "games": 3,
+     "games": 4,
      "capacity": 3000
     }
    ]
@@ -225,15 +225,15 @@
   },
   {
    "club": "Valmiera Glass VIA",
-   "home_games_counted": 4,
-   "games_with_capacity": 4,
+   "home_games_counted": 5,
+   "games_with_capacity": 5,
    "capacity": 1500,
-   "weighted_capacity": 1276,
-   "filling_rate": 0.763,
+   "weighted_capacity": 1321,
+   "filling_rate": 0.7266,
    "arenas": [
     {
      "arena": "Valmieras Olimpiskais Centrs",
-     "games": 3,
+     "games": 4,
      "capacity": 1500
     },
     {
@@ -526,9 +526,17 @@
    "arena": "Sporta arena Ogre",
    "capacity": 1700
   },
+  "2027212075": {
+   "arena": "Valmieras Olimpiskais Centrs",
+   "capacity": 1500
+  },
   "2027212125": {
    "arena": "Nord Spordihoone",
    "capacity": 980
+  },
+  "2027212130": {
+   "arena": "Olimpiskais centrs \"Ventspils\"",
+   "capacity": 3000
   },
   "2027212702": {
    "arena": "Jurmalas valsts gimnazijas sporta zale",

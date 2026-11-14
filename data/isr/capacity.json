@@ -1,7 +1,7 @@
 {
  "league": "Winner League",
  "season": "2026-27",
- "updated": "2026-11-14T18:43:22+00:00",
+ "updated": "2026-11-14T22:56:39+00:00",
  "clubs": [
   {
    "club": "Bnei Penlink Herzliya",
@@ -155,15 +155,15 @@
   },
   {
    "club": "Maccabi Rapyd Tel Aviv",
-   "home_games_counted": 3,
-   "games_with_capacity": 3,
+   "home_games_counted": 4,
+   "games_with_capacity": 4,
    "capacity": 10871,
    "weighted_capacity": 10871,
-   "filling_rate": 0.8054,
+   "filling_rate": 0.7877,
    "arenas": [
     {
      "arena": "Menora Mivtachim Arena",
-     "games": 3,
+     "games": 4,
      "capacity": 10871
     }
    ]

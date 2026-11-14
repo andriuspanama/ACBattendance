@@ -1,7 +1,7 @@
 {
  "league": "GBL",
  "season": "2026-27",
- "updated": "2026-11-14T18:43:22+00:00",
+ "updated": "2026-11-14T22:56:39+00:00",
  "clubs": [
   {
    "club": "Aris",
@@ -35,15 +35,15 @@
   },
   {
    "club": "Karditsas",
-   "home_games_counted": 1,
-   "games_with_capacity": 1,
+   "home_games_counted": 2,
+   "games_with_capacity": 2,
    "capacity": 3500,
    "weighted_capacity": 3500,
-   "filling_rate": 1.0,
+   "filling_rate": 0.8571,
    "arenas": [
     {
      "arena": "Ν.Κ.Γ. \"ΓΙΑΝΝΗΣ ΜΠΟΥΡΟΥΣΗΣ\"",
-     "games": 1,
+     "games": 2,
      "capacity": 3500
     }
    ]
@@ -110,7 +110,7 @@
   }
  ],
  "unknown_arenas": [],
- "last_attendance_game": "2026-11-07",
+ "last_attendance_game": "2026-11-14",
  "games": {
   "0AA956E9": {
    "arena": "Κ. Γ. ΚΑΛΛΙΘΕΑΣ ΡΟΔΟΥ",

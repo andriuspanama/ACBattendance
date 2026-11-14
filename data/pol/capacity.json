@@ -1,7 +1,7 @@
 {
  "league": "PLK",
  "season": "2026-27",
- "updated": "2026-11-14T18:43:22+00:00",
+ "updated": "2026-11-14T22:56:39+00:00",
  "clubs": [
   {
    "club": "AMW Arka Gdynia",
@@ -160,15 +160,15 @@
   },
   {
    "club": "Legia Warszawa",
-   "home_games_counted": 2,
-   "games_with_capacity": 2,
+   "home_games_counted": 3,
+   "games_with_capacity": 3,
    "capacity": 1991,
-   "weighted_capacity": 4148,
-   "filling_rate": 0.7248,
+   "weighted_capacity": 3429,
+   "filling_rate": 0.778,
    "arenas": [
     {
      "arena": "OSiR Warszawa Bemowo",
-     "games": 1,
+     "games": 2,
      "capacity": 1991
     },
     {
@@ -225,15 +225,15 @@
   },
   {
    "club": "WKS Śląsk Wrocław",
-   "home_games_counted": 2,
-   "games_with_capacity": 2,
+   "home_games_counted": 3,
+   "games_with_capacity": 3,
    "capacity": 3000,
    "weighted_capacity": 3000,
-   "filling_rate": 0.9313,
+   "filling_rate": 0.9529,
    "arenas": [
     {
      "arena": "Hala Orbita",
-     "games": 2,
+     "games": 3,
      "capacity": 3000
     }
    ]
@@ -424,6 +424,10 @@
   "223515": {
    "arena": "Hala Mistrzów",
    "capacity": 3963
+  },
+  "223509": {
+   "arena": "Hala Orbita",
+   "capacity": 3000
   },
   "223510": {
    "arena": "Kujawsko-Pomorska Arena Toruń",

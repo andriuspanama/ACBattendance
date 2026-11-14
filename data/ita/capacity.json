@@ -1,7 +1,7 @@
 {
  "league": "LBA",
  "season": "2026-27",
- "updated": "2026-11-09T22:58:04+00:00",
+ "updated": "2026-11-14T22:56:39+00:00",
  "clubs": [
   {
    "club": "Acqua S.Bernardo Cantù",
@@ -35,15 +35,15 @@
   },
   {
    "club": "BC Roma",
-   "home_games_counted": 2,
-   "games_with_capacity": 2,
+   "home_games_counted": 3,
+   "games_with_capacity": 3,
    "capacity": 3500,
    "weighted_capacity": 3500,
-   "filling_rate": 0.7211,
+   "filling_rate": 0.6903,
    "arenas": [
     {
      "arena": "Palazzetto dello Sport",
-     "games": 2,
+     "games": 3,
      "capacity": 3500
     }
    ]
@@ -160,22 +160,22 @@
   },
   {
    "club": "UNA Hotels Reggio Emilia",
-   "home_games_counted": 4,
-   "games_with_capacity": 4,
+   "home_games_counted": 5,
+   "games_with_capacity": 5,
    "capacity": 4530,
    "weighted_capacity": 4530,
-   "filling_rate": 0.7752,
+   "filling_rate": 0.7849,
    "arenas": [
     {
      "arena": "PalaBigi",
-     "games": 4,
+     "games": 5,
      "capacity": 4530
     }
    ]
   }
  ],
  "unknown_arenas": [],
- "last_attendance_game": "2026-11-08",
+ "last_attendance_game": "2026-11-14",
  "games": {
   "25602": {
    "arena": "Palaverde",
@@ -400,6 +400,14 @@
   "25408": {
    "arena": "PalaDozza",
    "capacity": 5570
+  },
+  "25416": {
+   "arena": "Palazzetto dello Sport",
+   "capacity": 3500
+  },
+  "25421": {
+   "arena": "PalaBigi",
+   "capacity": 4530
   }
  }
 }

@@ -1,7 +1,7 @@
 {
  "league": "BBL",
  "season": "2026-27",
- "updated": "2026-11-14T07:34:20+00:00",
+ "updated": "2026-11-14T22:56:39+00:00",
  "clubs": [
   {
    "club": "ALBA BERLIN",
@@ -20,15 +20,15 @@
   },
   {
    "club": "BMA365 Bamberg Baskets",
-   "home_games_counted": 3,
-   "games_with_capacity": 3,
+   "home_games_counted": 4,
+   "games_with_capacity": 4,
    "capacity": 5700,
    "weighted_capacity": 5700,
-   "filling_rate": 0.7447,
+   "filling_rate": 0.779,
    "arenas": [
     {
      "arena": "Brose Arena Bamberg",
-     "games": 3,
+     "games": 4,
      "capacity": 5700
     }
    ]
@@ -50,15 +50,15 @@
   },
   {
    "club": "EWE Baskets Oldenburg",
-   "home_games_counted": 4,
-   "games_with_capacity": 4,
+   "home_games_counted": 5,
+   "games_with_capacity": 5,
    "capacity": 6335,
    "weighted_capacity": 6500,
    "filling_rate": 1.0,
    "arenas": [
     {
      "arena": "Große EWE Arena Oldenburg",
-     "games": 4,
+     "games": 5,
      "capacity": 6335
     }
    ]
@@ -245,37 +245,37 @@
   },
   {
    "club": "Veolia Towers Hamburg",
-   "home_games_counted": 3,
-   "games_with_capacity": 3,
+   "home_games_counted": 4,
+   "games_with_capacity": 4,
    "capacity": 3400,
    "weighted_capacity": 3400,
-   "filling_rate": 0.8376,
+   "filling_rate": 0.8558,
    "arenas": [
     {
      "arena": "Inselpark Arena",
-     "games": 3,
+     "games": 4,
      "capacity": 3400
     }
    ]
   },
   {
    "club": "ratiopharm ulm",
-   "home_games_counted": 3,
-   "games_with_capacity": 3,
+   "home_games_counted": 4,
+   "games_with_capacity": 4,
    "capacity": 6000,
    "weighted_capacity": 6000,
-   "filling_rate": 0.7424,
+   "filling_rate": 0.7489,
    "arenas": [
     {
      "arena": "ratiopharm arena Ulm",
-     "games": 3,
+     "games": 4,
      "capacity": 6000
     }
    ]
   }
  ],
  "unknown_arenas": [],
- "last_attendance_game": "2026-11-13",
+ "last_attendance_game": "2026-11-14",
  "games": {
   "2006920": {
    "arena": "Uber Arena",
@@ -560,6 +560,22 @@
   "2006847": {
    "arena": "Ischelandhalle",
    "capacity": 3145
+  },
+  "2006848": {
+   "arena": "Große EWE Arena Oldenburg",
+   "capacity": 6335
+  },
+  "2006849": {
+   "arena": "Inselpark Arena",
+   "capacity": 3400
+  },
+  "2006850": {
+   "arena": "Brose Arena Bamberg",
+   "capacity": 5700
+  },
+  "2006851": {
+   "arena": "ratiopharm arena Ulm",
+   "capacity": 6000
   }
  }
 }

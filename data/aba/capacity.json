@@ -1,7 +1,7 @@
 {
  "league": "ABA",
  "season": "2026-27",
- "updated": "2026-11-14T18:43:22+00:00",
+ "updated": "2026-11-14T22:56:39+00:00",
  "clubs": [
   {
    "club": "BC Vienna",
@@ -160,15 +160,15 @@
   },
   {
    "club": "Igokea m:tel",
-   "home_games_counted": 4,
-   "games_with_capacity": 4,
+   "home_games_counted": 5,
+   "games_with_capacity": 5,
    "capacity": 3050,
    "weighted_capacity": 3050,
-   "filling_rate": 0.3197,
+   "filling_rate": 0.3016,
    "arenas": [
     {
      "arena": "J.U. Sportska dvorana Laktaši",
-     "games": 4,
+     "games": 5,
      "capacity": 3050
     }
    ]
@@ -305,15 +305,15 @@
   },
   {
    "club": "Zadar",
-   "home_games_counted": 2,
-   "games_with_capacity": 2,
+   "home_games_counted": 3,
+   "games_with_capacity": 3,
    "capacity": 8500,
    "weighted_capacity": 8500,
-   "filling_rate": 0.1882,
+   "filling_rate": 0.3412,
    "arenas": [
     {
      "arena": "Dvorana Krešimir Ćosić",
-     "games": 2,
+     "games": 3,
      "capacity": 8500
     }
    ]
@@ -569,6 +569,14 @@
   "74": {
    "arena": "ŠD Leona Štuklja Novo Mesto",
    "capacity": 2500
+  },
+  "72": {
+   "arena": "J.U. Sportska dvorana Laktaši",
+   "capacity": 3050
+  },
+  "76": {
+   "arena": "Dvorana Krešimir Ćosić",
+   "capacity": 8500
   },
   "79": {
    "arena": "BT Arena",
