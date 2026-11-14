@@ -1,7 +1,7 @@
 {
   "league": "BSL",
   "season": "2026-27",
-  "updated": "2026-11-14T06:15:48+00:00",
+  "updated": "2026-11-14T17:58:08+00:00",
   "clubs": [
     {
       "league": "BSL",
@@ -150,6 +150,22 @@
     {
       "league": "BSL",
       "season": "2026-27",
+      "club": "Aliağa Petkim Spor",
+      "home_games_counted": 4,
+      "average": 2127,
+      "total": 8508,
+      "max": 2400,
+      "min": 1700,
+      "arenas": [
+        {
+          "arena": "Enka Spor Salonu",
+          "games": 4
+        }
+      ]
+    },
+    {
+      "league": "BSL",
+      "season": "2026-27",
       "club": "Trabzonspor",
       "home_games_counted": 4,
       "average": 2102,
@@ -160,22 +176,6 @@
         {
           "arena": "Hayri Gür Spor Salonu",
           "games": 4
-        }
-      ]
-    },
-    {
-      "league": "BSL",
-      "season": "2026-27",
-      "club": "Aliağa Petkim Spor",
-      "home_games_counted": 3,
-      "average": 2036,
-      "total": 6108,
-      "max": 2250,
-      "min": 1700,
-      "arenas": [
-        {
-          "arena": "Enka Spor Salonu",
-          "games": 3
         }
       ]
     },
@@ -199,15 +199,15 @@
       "league": "BSL",
       "season": "2026-27",
       "club": "Tofaş",
-      "home_games_counted": 3,
-      "average": 1525,
-      "total": 4576,
-      "max": 1719,
+      "home_games_counted": 4,
+      "average": 1644,
+      "total": 6578,
+      "max": 2002,
       "min": 1374,
       "arenas": [
         {
           "arena": "Tofaş Spor Salonu",
-          "games": 3
+          "games": 4
         }
       ]
     },
