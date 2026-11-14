@@ -1,7 +1,7 @@
 {
   "league": "GBL",
   "season": "2026-27",
-  "updated": "2026-11-14T18:30:38+00:00",
+  "updated": "2026-11-14T22:46:19+00:00",
   "clubs": [
     {
       "league": "GBL",
@@ -23,15 +23,15 @@
       "league": "GBL",
       "season": "2026-27",
       "club": "Karditsas",
-      "home_games_counted": 1,
-      "average": 3500,
-      "total": 3500,
+      "home_games_counted": 2,
+      "average": 3000,
+      "total": 6000,
       "max": 3500,
-      "min": 3500,
+      "min": 2500,
       "arenas": [
         {
           "arena": "Ν.Κ.Γ. ΓΙΑΝΝΗΣ ΜΠΟΥΡΟΥΣΗΣ",
-          "games": 1
+          "games": 2
         }
       ]
     },
