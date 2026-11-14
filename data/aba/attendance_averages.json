@@ -1,7 +1,7 @@
 {
   "league": "ABA",
   "season": "2026-27",
-  "updated": "2026-11-14T18:22:29+00:00",
+  "updated": "2026-11-14T22:38:03+00:00",
   "clubs": [
     {
       "league": "ABA",
@@ -58,6 +58,22 @@
     {
       "league": "ABA",
       "season": "2026-27",
+      "club": "Zadar",
+      "home_games_counted": 3,
+      "average": 2900,
+      "total": 8700,
+      "max": 5500,
+      "min": 1200,
+      "arenas": [
+        {
+          "arena": "Dvorana Krešimir Ćosić",
+          "games": 3
+        }
+      ]
+    },
+    {
+      "league": "ABA",
+      "season": "2026-27",
       "club": "Crvena zvezda Meridianbet",
       "home_games_counted": 3,
       "average": 2603,
@@ -100,22 +116,6 @@
         {
           "arena": "Hala Sportova Dudova šuma",
           "games": 4
-        }
-      ]
-    },
-    {
-      "league": "ABA",
-      "season": "2026-27",
-      "club": "Zadar",
-      "home_games_counted": 2,
-      "average": 1600,
-      "total": 3200,
-      "max": 2000,
-      "min": 1200,
-      "arenas": [
-        {
-          "arena": "Dvorana Krešimir Ćosić",
-          "games": 2
         }
       ]
     },
@@ -195,15 +195,15 @@
       "league": "ABA",
       "season": "2026-27",
       "club": "Igokea m:tel",
-      "home_games_counted": 4,
-      "average": 975,
-      "total": 3900,
+      "home_games_counted": 5,
+      "average": 920,
+      "total": 4600,
       "max": 2200,
       "min": 500,
       "arenas": [
         {
           "arena": "J.U. Sportska dvorana Laktaši",
-          "games": 4
+          "games": 5
         }
       ]
     },
