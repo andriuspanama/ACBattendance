@@ -1,21 +1,21 @@
 {
   "league": "Winner League",
   "season": "2026-27",
-  "updated": "2026-11-14T18:24:05+00:00",
+  "updated": "2026-11-14T22:41:15+00:00",
   "clubs": [
     {
       "league": "Winner League",
       "season": "2026-27",
       "club": "Maccabi Rapyd Tel Aviv",
-      "home_games_counted": 3,
-      "average": 8755,
-      "total": 26265,
+      "home_games_counted": 4,
+      "average": 8563,
+      "total": 34252,
       "max": 10461,
       "min": 6554,
       "arenas": [
         {
           "arena": "Menorah Mivtachim Arena",
-          "games": 3
+          "games": 4
         }
       ]
     },
