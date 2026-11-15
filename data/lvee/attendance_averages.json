@@ -1,7 +1,7 @@
 {
   "league": "LEBL",
   "season": "2026-27",
-  "updated": "2026-11-15T06:49:16+00:00",
+  "updated": "2026-11-15T18:59:21+00:00",
   "clubs": [
     {
       "league": "LEBL",
@@ -74,6 +74,22 @@
     {
       "league": "LEBL",
       "season": "2026-27",
+      "club": "BC Pärnu",
+      "home_games_counted": 6,
+      "average": 662,
+      "total": 3974,
+      "max": 920,
+      "min": 512,
+      "arenas": [
+        {
+          "arena": "Pärnu Spordihall",
+          "games": 6
+        }
+      ]
+    },
+    {
+      "league": "LEBL",
+      "season": "2026-27",
       "club": "BK Ogre",
       "home_games_counted": 6,
       "average": 617,
@@ -84,22 +100,6 @@
         {
           "arena": "Sporta arena Ogre",
           "games": 6
-        }
-      ]
-    },
-    {
-      "league": "LEBL",
-      "season": "2026-27",
-      "club": "BC Pärnu",
-      "home_games_counted": 5,
-      "average": 611,
-      "total": 3054,
-      "max": 814,
-      "min": 512,
-      "arenas": [
-        {
-          "arena": "Pärnu Spordihall",
-          "games": 5
         }
       ]
     },
@@ -215,15 +215,15 @@
       "league": "LEBL",
       "season": "2026-27",
       "club": "Keila Basket",
-      "home_games_counted": 3,
-      "average": 166,
-      "total": 499,
+      "home_games_counted": 4,
+      "average": 176,
+      "total": 705,
       "max": 209,
       "min": 131,
       "arenas": [
         {
           "arena": "Keila Tervisekeskus",
-          "games": 3
+          "games": 4
         }
       ]
     },
