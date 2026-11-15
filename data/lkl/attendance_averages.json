@@ -1,7 +1,7 @@
 {
   "league": "LKL",
   "season": "2026-27",
-  "updated": "2026-11-15T07:13:49+00:00",
+  "updated": "2026-11-15T19:07:52+00:00",
   "clubs": [
     {
       "league": "LKL",
@@ -17,9 +17,9 @@
       "league": "LKL",
       "season": "2026-27",
       "club": "Zalgiris Kaunas",
-      "home_games_counted": 4,
-      "average": 4392,
-      "total": 17567,
+      "home_games_counted": 5,
+      "average": 4388,
+      "total": 21939,
       "max": 6746,
       "min": 2750
     },
