@@ -1,7 +1,7 @@
 {
   "league": "NBL",
   "season": "2026-27",
-  "updated": "2026-11-14T22:36:07+00:00",
+  "updated": "2026-11-15T06:47:52+00:00",
   "clubs": [
     {
       "league": "NBL",
@@ -39,15 +39,15 @@
       "league": "NBL",
       "season": "2026-27",
       "club": "Sydney Kings",
-      "home_games_counted": 7,
-      "average": 9670,
-      "total": 67688,
+      "home_games_counted": 8,
+      "average": 9734,
+      "total": 77871,
       "max": 13632,
       "min": 4103,
       "arenas": [
         {
           "arena": "Afterpay Arena",
-          "games": 6
+          "games": 7
         },
         {
           "arena": "AIS Arena",
