@@ -1,8 +1,24 @@
 {
   "league": "ABA",
   "season": "2026-27",
-  "updated": "2026-11-15T06:49:32+00:00",
+  "updated": "2026-11-15T18:59:36+00:00",
   "clubs": [
+    {
+      "league": "ABA",
+      "season": "2026-27",
+      "club": "Dubai Basketball",
+      "home_games_counted": 3,
+      "average": 3581,
+      "total": 10742,
+      "max": 3941,
+      "min": 3400,
+      "arenas": [
+        {
+          "arena": "Coca Cola Arena",
+          "games": 3
+        }
+      ]
+    },
     {
       "league": "ABA",
       "season": "2026-27",
@@ -26,16 +42,16 @@
     {
       "league": "ABA",
       "season": "2026-27",
-      "club": "Dubai Basketball",
-      "home_games_counted": 2,
-      "average": 3400,
-      "total": 6801,
-      "max": 3401,
-      "min": 3400,
+      "club": "Bosna BH Telecom",
+      "home_games_counted": 3,
+      "average": 3167,
+      "total": 9500,
+      "max": 4500,
+      "min": 2000,
       "arenas": [
         {
-          "arena": "Coca Cola Arena",
-          "games": 2
+          "arena": "Zetra Olympic Hall",
+          "games": 3
         }
       ]
     },
@@ -84,22 +100,6 @@
         {
           "arena": "Košarkaška dvorana Aleksandar Nikolić",
           "games": 3
-        }
-      ]
-    },
-    {
-      "league": "ABA",
-      "season": "2026-27",
-      "club": "Bosna BH Telecom",
-      "home_games_counted": 2,
-      "average": 2500,
-      "total": 5000,
-      "max": 3000,
-      "min": 2000,
-      "arenas": [
-        {
-          "arena": "Zetra Olympic Hall",
-          "games": 2
         }
       ]
     },
