@@ -1,7 +1,7 @@
 {
   "league": "BSL",
   "season": "2026-27",
-  "updated": "2026-11-14T22:20:08+00:00",
+  "updated": "2026-11-15T06:23:26+00:00",
   "clubs": [
     {
       "league": "BSL",
@@ -198,6 +198,22 @@
     {
       "league": "BSL",
       "season": "2026-27",
+      "club": "Biotekno Körfez Basket",
+      "home_games_counted": 4,
+      "average": 1664,
+      "total": 6657,
+      "max": 3920,
+      "min": 781,
+      "arenas": [
+        {
+          "arena": "Şehit Polis Recep Topaloğlu Spor Salonu",
+          "games": 4
+        }
+      ]
+    },
+    {
+      "league": "BSL",
+      "season": "2026-27",
       "club": "Tofaş",
       "home_games_counted": 4,
       "average": 1644,
@@ -224,22 +240,6 @@
         {
           "arena": "Turkcell Basketbol Gelişim Merkezi",
           "games": 4
-        }
-      ]
-    },
-    {
-      "league": "BSL",
-      "season": "2026-27",
-      "club": "Biotekno Körfez Basket",
-      "home_games_counted": 3,
-      "average": 912,
-      "total": 2737,
-      "max": 1035,
-      "min": 781,
-      "arenas": [
-        {
-          "arena": "Şehit Polis Recep Topaloğlu Spor Salonu",
-          "games": 3
         }
       ]
     },
