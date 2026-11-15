@@ -1,6 +1,6 @@
 {
  "season": "2026-27",
- "updated": "2026-11-14T22:56:39+00:00",
+ "updated": "2026-11-15T07:47:43+00:00",
  "clubs": {
   "ADA Blois Basket 41": {
    "arena": "Le Jeu de Paume",
@@ -2743,8 +2743,8 @@
    "capacity": 18000,
    "league": "NBL",
    "source": "games",
-   "games": 6,
-   "of_games": 7,
+   "games": 7,
+   "of_games": 8,
    "league_name": "Sydney Kings"
   },
   "Syntainics MBC": {
