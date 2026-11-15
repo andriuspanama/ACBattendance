@@ -1,10 +1,10 @@
 {
   "league": "PLK",
   "season": "2026-27",
-  "updated": "2026-11-15T07:16:50+00:00",
+  "updated": "2026-11-15T19:09:54+00:00",
   "games": {
-    "checked": 53,
-    "with_attendance": 53
+    "checked": 55,
+    "with_attendance": 55
   },
   "clubs": [
     {
@@ -51,11 +51,11 @@
       "league": "PLK",
       "season": "2026-27",
       "club": "Ostrow Wielkopolski",
-      "home_games_counted": 2,
-      "average": 2800,
-      "total": 5600,
+      "home_games_counted": 3,
+      "average": 2667,
+      "total": 8000,
       "max": 2950,
-      "min": 2650
+      "min": 2400
     },
     {
       "league": "PLK",
@@ -66,6 +66,16 @@
       "total": 9994,
       "max": 4112,
       "min": 1900
+    },
+    {
+      "league": "PLK",
+      "season": "2026-27",
+      "club": "Bydgoszcz",
+      "home_games_counted": 4,
+      "average": 2199,
+      "total": 8795,
+      "max": 4358,
+      "min": 1479
     },
     {
       "league": "PLK",
@@ -126,16 +136,6 @@
       "total": 8020,
       "max": 4050,
       "min": 823
-    },
-    {
-      "league": "PLK",
-      "season": "2026-27",
-      "club": "Bydgoszcz",
-      "home_games_counted": 3,
-      "average": 1479,
-      "total": 4437,
-      "max": 1479,
-      "min": 1479
     },
     {
       "league": "PLK",
