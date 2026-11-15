@@ -1,21 +1,21 @@
 {
   "league": "NBL",
   "season": "2026-27",
-  "updated": "2026-11-15T06:47:52+00:00",
+  "updated": "2026-11-15T18:58:55+00:00",
   "clubs": [
     {
       "league": "NBL",
       "season": "2026-27",
       "club": "Perth Wildcats",
-      "home_games_counted": 10,
-      "average": 11003,
-      "total": 110026,
+      "home_games_counted": 11,
+      "average": 11058,
+      "total": 121641,
       "max": 12808,
       "min": 9422,
       "arenas": [
         {
           "arena": "RAC Arena",
-          "games": 10
+          "games": 11
         }
       ]
     },
@@ -127,15 +127,15 @@
       "league": "NBL",
       "season": "2026-27",
       "club": "Brisbane Bullets",
-      "home_games_counted": 6,
-      "average": 4064,
-      "total": 24385,
+      "home_games_counted": 7,
+      "average": 4151,
+      "total": 29054,
       "max": 5556,
       "min": 2906,
       "arenas": [
         {
           "arena": "Brisbane Entertainment Centre",
-          "games": 4
+          "games": 5
         },
         {
           "arena": "Pat Rafter Arena",
