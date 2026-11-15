@@ -1,7 +1,7 @@
 {
   "league": "LBA",
   "season": "2026-27",
-  "updated": "2026-11-15T06:50:24+00:00",
+  "updated": "2026-11-15T19:00:51+00:00",
   "clubs": [
     {
       "league": "LBA",
@@ -75,15 +75,15 @@
       "league": "LBA",
       "season": "2026-27",
       "club": "Acqua S.Bernardo Cantù",
-      "home_games_counted": 1,
-      "average": 4410,
-      "total": 4410,
-      "max": 4410,
+      "home_games_counted": 2,
+      "average": 4512,
+      "total": 9025,
+      "max": 4615,
       "min": 4410,
       "arenas": [
         {
           "arena": "PalaDesio",
-          "games": 1
+          "games": 2
         }
       ]
     },
@@ -91,15 +91,15 @@
       "league": "LBA",
       "season": "2026-27",
       "club": "Nutribullet Treviso Basket",
-      "home_games_counted": 3,
-      "average": 4165,
-      "total": 12496,
-      "max": 4534,
+      "home_games_counted": 4,
+      "average": 4324,
+      "total": 17297,
+      "max": 4801,
       "min": 3840,
       "arenas": [
         {
           "arena": "Palaverde",
-          "games": 3
+          "games": 4
         }
       ]
     },
