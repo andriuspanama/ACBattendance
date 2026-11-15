@@ -1,7 +1,7 @@
 {
  "league": "NBL",
  "season": "2026-27",
- "updated": "2026-11-15T07:47:43+00:00",
+ "updated": "2026-11-15T19:21:27+00:00",
  "clubs": [
   {
    "club": "Adelaide 36ers",
@@ -20,15 +20,15 @@
   },
   {
    "club": "Brisbane Bullets",
-   "home_games_counted": 6,
-   "games_with_capacity": 6,
+   "home_games_counted": 7,
+   "games_with_capacity": 7,
    "capacity": 10500,
-   "weighted_capacity": 8750,
-   "filling_rate": 0.4645,
+   "weighted_capacity": 9000,
+   "filling_rate": 0.4612,
    "arenas": [
     {
      "arena": "Brisbane Entertainment Centre",
-     "games": 4,
+     "games": 5,
      "capacity": 10500
     },
     {
@@ -105,15 +105,15 @@
   },
   {
    "club": "Perth Wildcats",
-   "home_games_counted": 10,
-   "games_with_capacity": 10,
+   "home_games_counted": 11,
+   "games_with_capacity": 11,
    "capacity": 14846,
    "weighted_capacity": 14846,
-   "filling_rate": 0.7411,
+   "filling_rate": 0.7449,
    "arenas": [
     {
      "arena": "RAC Arena",
-     "games": 10,
+     "games": 11,
      "capacity": 14846
     }
    ]
@@ -449,6 +449,10 @@
   "3746a5e8-58ad-11f1-8707-7d800a023985": {
    "arena": "Afterpay Arena",
    "capacity": 18000
+  },
+  "37470d73-58ad-11f1-9bf1-130129845108": {
+   "arena": "Brisbane Entertainment Centre",
+   "capacity": 10500
   }
  }
 }

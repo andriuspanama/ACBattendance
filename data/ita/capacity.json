@@ -1,19 +1,19 @@
 {
  "league": "LBA",
  "season": "2026-27",
- "updated": "2026-11-14T22:56:39+00:00",
+ "updated": "2026-11-15T19:21:27+00:00",
  "clubs": [
   {
    "club": "Acqua S.Bernardo Cantù",
-   "home_games_counted": 1,
-   "games_with_capacity": 1,
+   "home_games_counted": 2,
+   "games_with_capacity": 2,
    "capacity": 6500,
    "weighted_capacity": 6500,
-   "filling_rate": 0.6785,
+   "filling_rate": 0.6942,
    "arenas": [
     {
      "arena": "PalaDesio",
-     "games": 1,
+     "games": 2,
      "capacity": 6500
     }
    ]
@@ -115,15 +115,15 @@
   },
   {
    "club": "Nutribullet Treviso Basket",
-   "home_games_counted": 3,
-   "games_with_capacity": 3,
+   "home_games_counted": 4,
+   "games_with_capacity": 4,
    "capacity": 5344,
    "weighted_capacity": 5344,
-   "filling_rate": 0.7794,
+   "filling_rate": 0.8092,
    "arenas": [
     {
      "arena": "Palaverde",
-     "games": 3,
+     "games": 4,
      "capacity": 5344
     }
    ]
@@ -175,7 +175,7 @@
   }
  ],
  "unknown_arenas": [],
- "last_attendance_game": "2026-11-14",
+ "last_attendance_game": "2026-11-15",
  "games": {
   "25602": {
    "arena": "Palaverde",
@@ -408,6 +408,22 @@
   "25421": {
    "arena": "PalaBigi",
    "capacity": 4530
+  },
+  "25418": {
+   "arena": "Palaverde",
+   "capacity": 5344
+  },
+  "25419": {
+   "arena": "Palasport Taliercio",
+   "capacity": 3509
+  },
+  "25420": {
+   "arena": "Alcott Arena",
+   "capacity": 3980
+  },
+  "25422": {
+   "arena": "PalaDesio",
+   "capacity": 6500
   }
  }
 }

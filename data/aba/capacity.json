@@ -1,7 +1,7 @@
 {
  "league": "ABA",
  "season": "2026-27",
- "updated": "2026-11-14T22:56:39+00:00",
+ "updated": "2026-11-15T19:21:27+00:00",
  "clubs": [
   {
    "club": "BC Vienna",
@@ -35,15 +35,15 @@
   },
   {
    "club": "Bosna BH Telecom",
-   "home_games_counted": 2,
-   "games_with_capacity": 2,
+   "home_games_counted": 3,
+   "games_with_capacity": 3,
    "capacity": 12000,
    "weighted_capacity": 12000,
-   "filling_rate": 0.2083,
+   "filling_rate": 0.2639,
    "arenas": [
     {
      "arena": "Zetra Olympic Hall",
-     "games": 2,
+     "games": 3,
      "capacity": 12000
     }
    ]
@@ -115,15 +115,15 @@
   },
   {
    "club": "Dubai Basketball",
-   "home_games_counted": 2,
-   "games_with_capacity": 2,
+   "home_games_counted": 3,
+   "games_with_capacity": 3,
    "capacity": 15000,
    "weighted_capacity": 15000,
-   "filling_rate": 0.2267,
+   "filling_rate": 0.2387,
    "arenas": [
     {
      "arena": "Coca Cola Arena",
-     "games": 2,
+     "games": 3,
      "capacity": 15000
     }
    ]
@@ -320,7 +320,7 @@
   }
  ],
  "unknown_arenas": [],
- "last_attendance_game": "2026-11-14",
+ "last_attendance_game": "2026-11-15",
  "games": {
   "13": {
    "arena": "ŠD Leona Štuklja Novo Mesto",
@@ -581,6 +581,14 @@
   "79": {
    "arena": "BT Arena",
    "capacity": 10000
+  },
+  "77": {
+   "arena": "Coca Cola Arena",
+   "capacity": 15000
+  },
+  "78": {
+   "arena": "Zetra Olympic Hall",
+   "capacity": 12000
   }
  }
 }

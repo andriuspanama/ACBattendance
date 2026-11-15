@@ -1,19 +1,19 @@
 {
  "league": "LEBL",
  "season": "2026-27",
- "updated": "2026-11-14T22:56:39+00:00",
+ "updated": "2026-11-15T19:21:27+00:00",
  "clubs": [
   {
    "club": "BC Pärnu",
-   "home_games_counted": 5,
-   "games_with_capacity": 5,
+   "home_games_counted": 6,
+   "games_with_capacity": 6,
    "capacity": 1820,
    "weighted_capacity": 1820,
-   "filling_rate": 0.3356,
+   "filling_rate": 0.3639,
    "arenas": [
     {
      "arena": "Pärnu Spordihall",
-     "games": 5,
+     "games": 6,
      "capacity": 1820
     }
    ]
@@ -80,15 +80,15 @@
   },
   {
    "club": "Keila Basket",
-   "home_games_counted": 3,
-   "games_with_capacity": 3,
+   "home_games_counted": 4,
+   "games_with_capacity": 4,
    "capacity": 800,
    "weighted_capacity": 800,
-   "filling_rate": 0.2079,
+   "filling_rate": 0.2203,
    "arenas": [
     {
      "arena": "Keila Tervisekeskus",
-     "games": 3,
+     "games": 4,
      "capacity": 800
     }
    ]
@@ -260,7 +260,7 @@
   }
  ],
  "unknown_arenas": [],
- "last_attendance_game": "2026-11-14",
+ "last_attendance_game": "2026-11-15",
  "games": {
   "2027212141": {
    "arena": "Komandas Sporta Spelu Halle",
@@ -541,6 +541,14 @@
   "2027212702": {
    "arena": "Jurmalas valsts gimnazijas sporta zale",
    "capacity": 810
+  },
+  "2027212033": {
+   "arena": "Keila Tervisekeskus",
+   "capacity": 800
+  },
+  "2027212048": {
+   "arena": "Pärnu Spordihall",
+   "capacity": 1820
   }
  }
 }

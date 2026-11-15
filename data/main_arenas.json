@@ -1,6 +1,6 @@
 {
  "season": "2026-27",
- "updated": "2026-11-15T07:47:43+00:00",
+ "updated": "2026-11-15T19:21:27+00:00",
  "clubs": {
   "ADA Blois Basket 41": {
    "arena": "Le Jeu de Paume",
@@ -169,8 +169,8 @@
    "capacity": 6200,
    "league": "GBL",
    "source": "games",
-   "games": 3,
-   "of_games": 3,
+   "games": 4,
+   "of_games": 4,
    "league_name": "Aris"
   },
   "Arka Gdynia": {
@@ -268,8 +268,8 @@
    "capacity": 1820,
    "league": "LEBL",
    "source": "games",
-   "games": 5,
-   "of_games": 5,
+   "games": 6,
+   "of_games": 6,
    "league_name": "BC Pärnu"
   },
   "BC Prievidza": {
@@ -544,8 +544,8 @@
    "capacity": 6731,
    "league": "BBL",
    "source": "games",
-   "games": 5,
-   "of_games": 5,
+   "games": 6,
+   "of_games": 6,
    "league_name": "FC Bayern München Basketball"
   },
   "Beliers de Quimper": {
@@ -622,8 +622,8 @@
    "capacity": 10500,
    "league": "NBL",
    "source": "games",
-   "games": 4,
-   "of_games": 6,
+   "games": 5,
+   "of_games": 7,
    "league_name": "Brisbane Bullets"
   },
   "Budapesti Honved": {
@@ -919,8 +919,8 @@
    "capacity": 15000,
    "league": "ABA",
    "source": "games",
-   "games": 2,
-   "of_games": 2,
+   "games": 3,
+   "of_games": 3,
    "league_name": "Dubai Basketball"
   },
   "Dziki Warszawa": {
@@ -1075,8 +1075,8 @@
    "capacity": 5002,
    "league": "BBL",
    "source": "games",
-   "games": 2,
-   "of_games": 2,
+   "games": 3,
+   "of_games": 3,
    "league_name": "SKYLINERS"
   },
   "Fribourg Olympic Basket": {
@@ -1399,8 +1399,8 @@
    "capacity": 12000,
    "league": "ABA",
    "source": "games",
-   "games": 2,
-   "of_games": 2,
+   "games": 3,
+   "of_games": 3,
    "league_name": "Bosna BH Telecom"
   },
   "KK Buducnost": {
@@ -1735,8 +1735,8 @@
    "capacity": 800,
    "league": "LEBL",
    "source": "games",
-   "games": 3,
-   "of_games": 3,
+   "games": 4,
+   "of_games": 4,
    "league_name": "Keila Basket"
   },
   "Keila KK": {
@@ -2110,8 +2110,8 @@
    "capacity": 3980,
    "league": "LBA",
    "source": "games",
-   "games": 3,
-   "of_games": 3,
+   "games": 4,
+   "of_games": 4,
    "league_name": "Napoli Basketball"
   },
   "Neptūnas Klaipėda": {
@@ -2260,8 +2260,8 @@
    "capacity": 6500,
    "league": "LBA",
    "source": "games",
-   "games": 3,
-   "of_games": 3,
+   "games": 4,
+   "of_games": 4,
    "league_name": "Acqua S.Bernardo Cantù"
   },
   "Pallacanestro Reggiana": {
@@ -2308,8 +2308,8 @@
    "capacity": 19000,
    "league": "GBL",
    "source": "games",
-   "games": 3,
-   "of_games": 3,
+   "games": 4,
+   "of_games": 4,
    "league_name": "Panathinaikos"
   },
   "Paris Basketball": {
@@ -2329,8 +2329,8 @@
    "capacity": 4000,
    "league": "GBL",
    "source": "games",
-   "games": 2,
-   "of_games": 2,
+   "games": 3,
+   "of_games": 3,
    "league_name": "Peristeri"
   },
   "Perth Wildcats": {
@@ -2476,8 +2476,8 @@
    "capacity": 5000,
    "league": "BBL",
    "source": "games",
-   "games": 4,
-   "of_games": 4,
+   "games": 5,
+   "of_games": 5,
    "league_name": "ROSTOCK SEAWOLVES"
   },
   "Rouen Metropole Basket": {
@@ -2497,8 +2497,8 @@
    "capacity": 9000,
    "league": "LKL",
    "source": "games",
-   "games": 3,
-   "of_games": 3,
+   "games": 4,
+   "of_games": 4,
    "league_name": "Rytas"
   },
   "SIG Strasbourg": {
@@ -2719,8 +2719,8 @@
    "capacity": 3086,
    "league": "PLK",
    "source": "games",
-   "games": 1,
-   "of_games": 1,
+   "games": 2,
+   "of_games": 2,
    "league_name": "Tasomix Rosiek Stal Ostrów Wielkopolski"
   },
   "Start Lublin": {
@@ -2941,8 +2941,8 @@
    "capacity": 3509,
    "league": "LBA",
    "source": "games",
-   "games": 3,
-   "of_games": 3,
+   "games": 4,
+   "of_games": 4,
    "league_name": "Umana Reyer Venezia"
   },
   "Unicaja Malaga": {
@@ -2965,8 +2965,8 @@
    "capacity": 5344,
    "league": "LBA",
    "source": "games",
-   "games": 3,
-   "of_games": 3,
+   "games": 4,
+   "of_games": 4,
    "league_name": "Nutribullet Treviso Basket"
   },
   "Utena Juventus": {
@@ -3013,8 +3013,8 @@
    "capacity": 1060,
    "league": "GBL",
    "source": "games",
-   "games": 2,
-   "of_games": 2,
+   "games": 3,
+   "of_games": 3,
    "league_name": "Vikos"
   },
   "Virtus Bologna": {
@@ -3079,8 +3079,8 @@
    "capacity": 15415,
    "league": "LKL",
    "source": "games",
-   "games": 4,
-   "of_games": 4,
+   "games": 5,
+   "of_games": 5,
    "league_name": "Zalgiris Kaunas"
   }
  },

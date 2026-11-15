@@ -1,7 +1,7 @@
 {
  "league": "LKL",
  "season": "2026-27",
- "updated": "2026-11-14T22:56:39+00:00",
+ "updated": "2026-11-15T19:21:27+00:00",
  "clubs": [
   {
    "club": "Gargzdai",
@@ -140,22 +140,22 @@
   },
   {
    "club": "Zalgiris Kaunas",
-   "home_games_counted": 4,
-   "games_with_capacity": 4,
+   "home_games_counted": 5,
+   "games_with_capacity": 5,
    "capacity": 15415,
    "weighted_capacity": 15415,
-   "filling_rate": 0.2849,
+   "filling_rate": 0.2846,
    "arenas": [
     {
      "arena": "Žalgirio arena",
-     "games": 4,
+     "games": 5,
      "capacity": 15415
     }
    ]
   }
  ],
  "unknown_arenas": [],
- "last_attendance_game": "2026-11-14",
+ "last_attendance_game": "2026-11-15",
  "games": {
   "0YhgbKyo": {
    "arena": "Kalnapilio arena",
@@ -268,6 +268,14 @@
   "UTl1nQt4": {
    "arena": "Utenos daugiafunkcis sporto centras",
    "capacity": 2500
+  },
+  "UoWLGSiC": {
+   "arena": "Arena Vilnius",
+   "capacity": 9000
+  },
+  "WYUzVICM": {
+   "arena": "Žalgirio arena",
+   "capacity": 15415
   },
   "YuOzuNHt": {
    "arena": "Jonavos sporto arena",

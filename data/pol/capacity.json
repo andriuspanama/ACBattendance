@@ -1,7 +1,7 @@
 {
  "league": "PLK",
  "season": "2026-27",
- "updated": "2026-11-14T22:56:39+00:00",
+ "updated": "2026-11-15T19:21:27+00:00",
  "clubs": [
   {
    "club": "AMW Arka Gdynia",
@@ -65,7 +65,7 @@
   },
   {
    "club": "Enea Łaciate Astoria Bydgoszcz",
-   "home_games_counted": 3,
+   "home_games_counted": 4,
    "games_with_capacity": 3,
    "capacity": 1475,
    "weighted_capacity": 1479,
@@ -75,6 +75,11 @@
      "arena": "Grupa Moderator Arena",
      "games": 3,
      "capacity": 1475
+    },
+    {
+     "arena": "Hala Sportowo - Widowiskowa Immobile Łuczniczka",
+     "games": 1,
+     "capacity": null
     }
    ]
   },
@@ -210,15 +215,15 @@
   },
   {
    "club": "Tasomix Rosiek Stal Ostrów Wielkopolski",
-   "home_games_counted": 1,
-   "games_with_capacity": 1,
+   "home_games_counted": 2,
+   "games_with_capacity": 2,
    "capacity": 3086,
    "weighted_capacity": 3086,
-   "filling_rate": 0.9559,
+   "filling_rate": 0.8668,
    "arenas": [
     {
      "arena": "3mk Arena Ostrów",
-     "games": 1,
+     "games": 2,
      "capacity": 3086
     }
    ]
@@ -254,8 +259,16 @@
    ]
   }
  ],
- "unknown_arenas": [],
- "last_attendance_game": "2026-11-14",
+ "unknown_arenas": [
+  {
+   "arena": "Hala Sportowo - Widowiskowa Immobile Łuczniczka",
+   "games": 1,
+   "clubs": [
+    "Enea Łaciate Astoria Bydgoszcz"
+   ]
+  }
+ ],
+ "last_attendance_game": "2026-11-15",
  "games": {
   "223465": {
    "arena": "Hala Sportowa 100-lecia Sopotu",
@@ -436,6 +449,14 @@
   "223514": {
    "arena": "OSiR Warszawa Bemowo",
    "capacity": 1991
+  },
+  "223512": {
+   "arena": "Hala Sportowo - Widowiskowa Immobile Łuczniczka",
+   "capacity": null
+  },
+  "223516": {
+   "arena": "3mk Arena Ostrów",
+   "capacity": 3086
   }
  }
 }

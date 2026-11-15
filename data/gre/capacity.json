@@ -1,19 +1,19 @@
 {
  "league": "GBL",
  "season": "2026-27",
- "updated": "2026-11-14T22:56:39+00:00",
+ "updated": "2026-11-15T19:21:27+00:00",
  "clubs": [
   {
    "club": "Aris",
-   "home_games_counted": 2,
-   "games_with_capacity": 2,
+   "home_games_counted": 3,
+   "games_with_capacity": 3,
    "capacity": 6200,
    "weighted_capacity": 6200,
-   "filling_rate": 0.9597,
+   "filling_rate": 0.9705,
    "arenas": [
     {
      "arena": "ΑΛΕΞΑΝΔΡΕΙΟ",
-     "games": 2,
+     "games": 3,
      "capacity": 6200
     }
    ]
@@ -95,22 +95,22 @@
   },
   {
    "club": "Vikos",
-   "home_games_counted": 1,
-   "games_with_capacity": 1,
+   "home_games_counted": 2,
+   "games_with_capacity": 2,
    "capacity": 1060,
-   "weighted_capacity": 1500,
-   "filling_rate": 1.0,
+   "weighted_capacity": 1280,
+   "filling_rate": 0.9766,
    "arenas": [
     {
      "arena": "Κ.Γ. ΙΩΑΝΝΙΝΩΝ «ΣΙΔΕΡΗΣ ΚΑΡΑΔΗΜΑΣ»",
-     "games": 1,
+     "games": 2,
      "capacity": 1060
     }
    ]
   }
  ],
  "unknown_arenas": [],
- "last_attendance_game": "2026-11-14",
+ "last_attendance_game": "2026-11-15",
  "games": {
   "0AA956E9": {
    "arena": "Κ. Γ. ΚΑΛΛΙΘΕΑΣ ΡΟΔΟΥ",
@@ -291,6 +291,22 @@
   "81DA1041": {
    "arena": "Ν.Κ.Γ. \"ΓΙΑΝΝΗΣ ΜΠΟΥΡΟΥΣΗΣ\"",
    "capacity": 3500
+  },
+  "179E7312": {
+   "arena": "TELEKOM CENTER ATHENS",
+   "capacity": 19000
+  },
+  "71EE959B": {
+   "arena": "Κ.Γ. ΠΕΡΙΣΤΕΡΙΟΥ \"ΑΝΔΡΕΑΣ ΠΑΠΑΝΔΡΕΟΥ\"",
+   "capacity": 4000
+  },
+  "8DB3ABC7": {
+   "arena": "Κ.Γ. ΙΩΑΝΝΙΝΩΝ «ΣΙΔΕΡΗΣ ΚΑΡΑΔΗΜΑΣ»",
+   "capacity": 1060
+  },
+  "F30A6CCD": {
+   "arena": "ΑΛΕΞΑΝΔΡΕΙΟ",
+   "capacity": 6200
   }
  }
 }

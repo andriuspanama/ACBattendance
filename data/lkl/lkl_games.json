@@ -341,6 +341,15 @@
 "last_try": "2026-11-02T22:18:16+00:00",
 "tries": 1
 },
+"11616": {
+"arena": "Arena Vilnius",
+"att": 2413,
+"away": "Hipocredit",
+"date": "2026-11-15",
+"home": "Rytas",
+"last_try": "2026-11-15T19:21:09+00:00",
+"tries": 1
+},
 "11617": {
 "arena": "Kalnapilio arena",
 "att": 2136,
@@ -411,6 +420,15 @@
 "date": "2026-11-14",
 "home": "Nevėžis-Paskolų klubas",
 "last_try": "2026-11-14T22:56:29+00:00",
+"tries": 1
+},
+"11625": {
+"arena": "Žalgirio arena",
+"att": 4372,
+"away": "Neptūnas",
+"date": "2026-11-15",
+"home": "Žalgiris",
+"last_try": "2026-11-15T19:21:09+00:00",
 "tries": 1
 },
 "11626": {

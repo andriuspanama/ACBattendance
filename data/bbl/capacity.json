@@ -1,7 +1,7 @@
 {
  "league": "BBL",
  "season": "2026-27",
- "updated": "2026-11-14T22:56:39+00:00",
+ "updated": "2026-11-15T19:21:27+00:00",
  "clubs": [
   {
    "club": "ALBA BERLIN",
@@ -65,15 +65,15 @@
   },
   {
    "club": "FC Bayern München Basketball",
-   "home_games_counted": 5,
-   "games_with_capacity": 5,
+   "home_games_counted": 6,
+   "games_with_capacity": 6,
    "capacity": 6731,
    "weighted_capacity": 6731,
-   "filling_rate": 0.7694,
+   "filling_rate": 0.7659,
    "arenas": [
     {
      "arena": "BMW Park München",
-     "games": 5,
+     "games": 6,
      "capacity": 6731
     }
    ]
@@ -155,30 +155,30 @@
   },
   {
    "club": "ROSTOCK SEAWOLVES",
-   "home_games_counted": 4,
-   "games_with_capacity": 4,
+   "home_games_counted": 5,
+   "games_with_capacity": 5,
    "capacity": 5000,
    "weighted_capacity": 5000,
-   "filling_rate": 0.8076,
+   "filling_rate": 0.8127,
    "arenas": [
     {
      "arena": "StadtHalle Rostock",
-     "games": 4,
+     "games": 5,
      "capacity": 5000
     }
    ]
   },
   {
    "club": "SKYLINERS",
-   "home_games_counted": 2,
-   "games_with_capacity": 2,
+   "home_games_counted": 3,
+   "games_with_capacity": 3,
    "capacity": 5002,
    "weighted_capacity": 5002,
-   "filling_rate": 0.5808,
+   "filling_rate": 0.7205,
    "arenas": [
     {
      "arena": "Süwag Energie ARENA",
-     "games": 2,
+     "games": 3,
      "capacity": 5002
     }
    ]
@@ -275,7 +275,7 @@
   }
  ],
  "unknown_arenas": [],
- "last_attendance_game": "2026-11-14",
+ "last_attendance_game": "2026-11-15",
  "games": {
   "2006920": {
    "arena": "Uber Arena",
@@ -576,6 +576,18 @@
   "2006851": {
    "arena": "ratiopharm arena Ulm",
    "capacity": 6000
+  },
+  "2006852": {
+   "arena": "Süwag Energie ARENA",
+   "capacity": 5002
+  },
+  "2006853": {
+   "arena": "StadtHalle Rostock",
+   "capacity": 5000
+  },
+  "2006854": {
+   "arena": "BMW Park München",
+   "capacity": 6731
   }
  }
 }
