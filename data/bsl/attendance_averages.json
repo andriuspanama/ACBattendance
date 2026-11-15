@@ -1,7 +1,7 @@
 {
   "league": "BSL",
   "season": "2026-27",
-  "updated": "2026-11-15T06:23:26+00:00",
+  "updated": "2026-11-15T18:48:08+00:00",
   "clubs": [
     {
       "league": "BSL",
@@ -39,15 +39,15 @@
       "league": "BSL",
       "season": "2026-27",
       "club": "Beşiktaş",
-      "home_games_counted": 3,
-      "average": 3293,
-      "total": 9879,
+      "home_games_counted": 4,
+      "average": 3510,
+      "total": 14041,
       "max": 4829,
       "min": 1550,
       "arenas": [
         {
           "arena": "Turkcell Basketbol Gelişim Merkezi",
-          "games": 3
+          "games": 4
         }
       ]
     },
@@ -134,22 +134,6 @@
     {
       "league": "BSL",
       "season": "2026-27",
-      "club": "Yukatel Denizli Basket",
-      "home_games_counted": 3,
-      "average": 2133,
-      "total": 6400,
-      "max": 3000,
-      "min": 1400,
-      "arenas": [
-        {
-          "arena": "Pamukkale Üniversitesi Spor Salonu",
-          "games": 3
-        }
-      ]
-    },
-    {
-      "league": "BSL",
-      "season": "2026-27",
       "club": "Aliağa Petkim Spor",
       "home_games_counted": 4,
       "average": 2127,
@@ -175,6 +159,22 @@
       "arenas": [
         {
           "arena": "Hayri Gür Spor Salonu",
+          "games": 4
+        }
+      ]
+    },
+    {
+      "league": "BSL",
+      "season": "2026-27",
+      "club": "Yukatel Denizli Basket",
+      "home_games_counted": 4,
+      "average": 2100,
+      "total": 8400,
+      "max": 3000,
+      "min": 1400,
+      "arenas": [
+        {
+          "arena": "Pamukkale Üniversitesi Spor Salonu",
           "games": 4
         }
       ]
@@ -247,15 +247,15 @@
       "league": "BSL",
       "season": "2026-27",
       "club": "Esenler Erokspor",
-      "home_games_counted": 3,
-      "average": 295,
-      "total": 885,
+      "home_games_counted": 4,
+      "average": 334,
+      "total": 1335,
       "max": 535,
       "min": 150,
       "arenas": [
         {
           "arena": "Beşiktaş Akatlar Spor Kompleksi",
-          "games": 3
+          "games": 4
         }
       ]
     }
