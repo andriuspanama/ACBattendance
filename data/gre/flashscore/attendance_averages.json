@@ -1,20 +1,20 @@
 {
   "league": "GBL",
   "season": "2026-27",
-  "updated": "2026-11-15T07:09:59+00:00",
+  "updated": "2026-11-15T19:06:20+00:00",
   "games": {
-    "checked": 45,
-    "with_attendance": 11
+    "checked": 49,
+    "with_attendance": 13
   },
   "clubs": [
     {
       "league": "GBL",
       "season": "2026-27",
       "club": "Aris",
-      "home_games_counted": 2,
-      "average": 5950,
-      "total": 11900,
-      "max": 6000,
+      "home_games_counted": 3,
+      "average": 6017,
+      "total": 18052,
+      "max": 6152,
       "min": 5900
     },
     {
@@ -61,11 +61,11 @@
       "league": "GBL",
       "season": "2026-27",
       "club": "Vikos",
-      "home_games_counted": 1,
-      "average": 1500,
-      "total": 1500,
+      "home_games_counted": 2,
+      "average": 1250,
+      "total": 2500,
       "max": 1500,
-      "min": 1500
+      "min": 1000
     },
     {
       "league": "GBL",

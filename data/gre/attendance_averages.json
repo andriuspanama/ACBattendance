@@ -1,21 +1,21 @@
 {
   "league": "GBL",
   "season": "2026-27",
-  "updated": "2026-11-15T07:11:19+00:00",
+  "updated": "2026-11-15T19:09:09+00:00",
   "clubs": [
     {
       "league": "GBL",
       "season": "2026-27",
       "club": "Aris",
-      "home_games_counted": 2,
-      "average": 5950,
-      "total": 11900,
-      "max": 6000,
+      "home_games_counted": 3,
+      "average": 6017,
+      "total": 18052,
+      "max": 6152,
       "min": 5900,
       "arenas": [
         {
           "arena": "ΑΛΕΞΑΝΔΡΕΙΟ",
-          "games": 2
+          "games": 3
         }
       ]
     },
@@ -87,14 +87,18 @@
       "league": "GBL",
       "season": "2026-27",
       "club": "Vikos",
-      "home_games_counted": 1,
-      "average": 1500,
-      "total": 1500,
+      "home_games_counted": 2,
+      "average": 1250,
+      "total": 2500,
       "max": 1500,
-      "min": 1500,
+      "min": 1000,
       "arenas": [
         {
           "arena": "Κ. Γ. ΙΩΑΝΝΙΝΩΝ «ΣΙΔΕΡΗΣ ΚΑΡΑΔΗΜΑΣ»",
+          "games": 1
+        },
+        {
+          "arena": "Κ.Γ. ΙΩΑΝΝΙΝΩΝ «ΣΙΔΕΡΗΣ ΚΑΡΑΔΗΜΑΣ»",
           "games": 1
         }
       ]
