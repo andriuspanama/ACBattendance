@@ -1,7 +1,7 @@
 {
   "league": "BBL",
   "season": "2026-27",
-  "updated": "2026-11-15T18:59:47+00:00",
+  "updated": "2026-11-16T06:55:02+00:00",
   "clubs": [
     {
       "league": "BBL",
@@ -125,23 +125,6 @@
     {
       "league": "BBL",
       "season": "2026-27",
-      "club": "NINERS Chemnitz",
-      "home_games_counted": 3,
-      "average": 4087,
-      "total": 12260,
-      "max": 4405,
-      "min": 3858,
-      "arenas": [
-        {
-          "arena": "Messe Chemnitz",
-          "games": 3,
-          "capacity": 5000
-        }
-      ]
-    },
-    {
-      "league": "BBL",
-      "season": "2026-27",
       "club": "ROSTOCK SEAWOLVES",
       "home_games_counted": 5,
       "average": 4064,
@@ -152,6 +135,23 @@
         {
           "arena": "StadtHalle Rostock",
           "games": 5,
+          "capacity": 5000
+        }
+      ]
+    },
+    {
+      "league": "BBL",
+      "season": "2026-27",
+      "club": "NINERS Chemnitz",
+      "home_games_counted": 4,
+      "average": 4043,
+      "total": 16171,
+      "max": 4405,
+      "min": 3858,
+      "arenas": [
+        {
+          "arena": "Messe Chemnitz",
+          "games": 4,
           "capacity": 5000
         }
       ]
