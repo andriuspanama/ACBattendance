@@ -1,7 +1,7 @@
 {
  "league": "ACB",
  "season": "2026-27",
- "updated": "2026-11-14T22:56:39+00:00",
+ "updated": "2026-11-16T07:55:20+00:00",
  "clubs": [
   {
    "club": "Asisa Joventut",
@@ -65,15 +65,15 @@
   },
   {
    "club": "Ilerna Lleida",
-   "home_games_counted": 3,
-   "games_with_capacity": 3,
+   "home_games_counted": 4,
+   "games_with_capacity": 4,
    "capacity": 6100,
    "weighted_capacity": 6100,
-   "filling_rate": 0.9239,
+   "filling_rate": 0.9295,
    "arenas": [
     {
      "arena": "Espai Fruita Barris Nord",
-     "games": 3,
+     "games": 4,
      "capacity": 6100
     }
    ]
@@ -245,37 +245,37 @@
   },
   {
    "club": "Unicaja",
-   "home_games_counted": 3,
-   "games_with_capacity": 3,
+   "home_games_counted": 4,
+   "games_with_capacity": 4,
    "capacity": 10699,
    "weighted_capacity": 10699,
-   "filling_rate": 0.9313,
+   "filling_rate": 0.9284,
    "arenas": [
     {
      "arena": "Palacio de Deportes José María Martín Carpena",
-     "games": 3,
+     "games": 4,
      "capacity": 10699
     }
    ]
   },
   {
    "club": "Valencia Basket",
-   "home_games_counted": 3,
-   "games_with_capacity": 3,
+   "home_games_counted": 4,
+   "games_with_capacity": 4,
    "capacity": 15600,
    "weighted_capacity": 15600,
-   "filling_rate": 0.733,
+   "filling_rate": 0.7324,
    "arenas": [
     {
      "arena": "Roig Arena",
-     "games": 3,
+     "games": 4,
      "capacity": 15600
     }
    ]
   }
  ],
  "unknown_arenas": [],
- "last_attendance_game": "2026-11-14",
+ "last_attendance_game": "2026-11-16",
  "games": {
   "105375": {
    "arena": "Bilbao Arena",

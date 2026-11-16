@@ -1,7 +1,7 @@
 {
  "league": "BBL",
  "season": "2026-27",
- "updated": "2026-11-15T19:21:27+00:00",
+ "updated": "2026-11-16T07:55:20+00:00",
  "clubs": [
   {
    "club": "ALBA BERLIN",
@@ -110,15 +110,15 @@
   },
   {
    "club": "NINERS Chemnitz",
-   "home_games_counted": 3,
-   "games_with_capacity": 3,
+   "home_games_counted": 4,
+   "games_with_capacity": 4,
    "capacity": 5000,
    "weighted_capacity": 5000,
-   "filling_rate": 0.8173,
+   "filling_rate": 0.8085,
    "arenas": [
     {
      "arena": "Messe Chemnitz",
-     "games": 3,
+     "games": 4,
      "capacity": 5000
     }
    ]
@@ -588,6 +588,10 @@
   "2006854": {
    "arena": "BMW Park München",
    "capacity": 6731
+  },
+  "2006855": {
+   "arena": "Messe Chemnitz",
+   "capacity": 5000
   }
  }
 }

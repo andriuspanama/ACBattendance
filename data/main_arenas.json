@@ -1,6 +1,6 @@
 {
  "season": "2026-27",
- "updated": "2026-11-15T19:21:27+00:00",
+ "updated": "2026-11-16T07:55:20+00:00",
  "clubs": {
   "ADA Blois Basket 41": {
    "arena": "Le Jeu de Paume",
@@ -1054,8 +1054,8 @@
    "capacity": 6100,
    "league": "ACB",
    "source": "games",
-   "games": 3,
-   "of_games": 3,
+   "games": 4,
+   "of_games": 4,
    "league_name": "Ilerna Lleida"
   },
   "Fos Provence Basket": {
@@ -1447,8 +1447,8 @@
    "capacity": 8000,
    "league": "ABA",
    "source": "games",
-   "games": 3,
-   "of_games": 3,
+   "games": 4,
+   "of_games": 4,
    "league_name": "Crvena zvezda Meridianbet"
   },
   "KK Domžale": {
@@ -2158,8 +2158,8 @@
    "capacity": 5000,
    "league": "BBL",
    "source": "games",
-   "games": 3,
-   "of_games": 3,
+   "games": 4,
+   "of_games": 4,
    "league_name": "NINERS Chemnitz"
   },
   "Nitra Blue Wings": {
@@ -2953,8 +2953,8 @@
    "capacity": 10699,
    "league": "ACB",
    "source": "games",
-   "games": 3,
-   "of_games": 3,
+   "games": 4,
+   "of_games": 4,
    "league_name": "Unicaja"
   },
   "Universo Treviso Basket": {
@@ -2989,8 +2989,8 @@
    "capacity": 15600,
    "league": "ACB",
    "source": "games",
-   "games": 3,
-   "of_games": 3,
+   "games": 4,
+   "of_games": 4,
    "league_name": "Valencia Basket"
   },
   "Valmiera Glass/ViA": {
