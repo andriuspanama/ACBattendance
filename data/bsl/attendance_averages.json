@@ -1,7 +1,7 @@
 {
   "league": "BSL",
   "season": "2026-27",
-  "updated": "2026-11-15T18:48:08+00:00",
+  "updated": "2026-11-16T06:22:02+00:00",
   "clubs": [
     {
       "league": "BSL",
@@ -32,6 +32,22 @@
         {
           "arena": "Mustafa Kemal Atatürk Karşıyaka Spor Salonu",
           "games": 2
+        }
+      ]
+    },
+    {
+      "league": "BSL",
+      "season": "2026-27",
+      "club": "Fenerbahçe Tarfin",
+      "home_games_counted": 4,
+      "average": 4046,
+      "total": 16184,
+      "max": 8583,
+      "min": 2438,
+      "arenas": [
+        {
+          "arena": "Ülker Spor ve Etkinlik Salonu",
+          "games": 4
         }
       ]
     },
@@ -80,22 +96,6 @@
         {
           "arena": "Sinan Erdem Spor Salonu",
           "games": 4
-        }
-      ]
-    },
-    {
-      "league": "BSL",
-      "season": "2026-27",
-      "club": "Fenerbahçe Tarfin",
-      "home_games_counted": 3,
-      "average": 2534,
-      "total": 7601,
-      "max": 2659,
-      "min": 2438,
-      "arenas": [
-        {
-          "arena": "Ülker Spor ve Etkinlik Salonu",
-          "games": 3
         }
       ]
     },
