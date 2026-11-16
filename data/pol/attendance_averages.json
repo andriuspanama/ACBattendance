@@ -1,7 +1,7 @@
 {
   "league": "PLK",
   "season": "2026-27",
-  "updated": "2026-11-16T07:23:35+00:00",
+  "updated": "2026-11-16T22:35:25+00:00",
   "clubs": [
     {
       "league": "PLK",
@@ -159,15 +159,15 @@
       "league": "PLK",
       "season": "2026-27",
       "club": "Energa Czarni Słupsk",
-      "home_games_counted": 3,
-      "average": 1953,
-      "total": 5860,
+      "home_games_counted": 4,
+      "average": 1918,
+      "total": 7671,
       "max": 1988,
-      "min": 1920,
+      "min": 1811,
       "arenas": [
         {
           "arena": "Hala Gryfia",
-          "games": 3
+          "games": 4
         }
       ]
     },
