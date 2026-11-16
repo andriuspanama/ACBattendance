@@ -1,7 +1,7 @@
 {
   "league": "ACB",
   "season": "2026-27",
-  "updated": "2026-11-16T06:31:38+00:00",
+  "updated": "2026-11-16T22:04:01+00:00",
   "clubs": [
     {
       "league": "ACB",
@@ -37,9 +37,9 @@
       "league": "ACB",
       "season": "2026-27",
       "club": "Surne Bilbao",
-      "home_games_counted": 3,
-      "average": 8414,
-      "total": 25241,
+      "home_games_counted": 4,
+      "average": 8349,
+      "total": 33397,
       "max": 9321,
       "min": 7823
     },
@@ -47,10 +47,10 @@
       "league": "ACB",
       "season": "2026-27",
       "club": "Kosner Baskonia",
-      "home_games_counted": 3,
-      "average": 7836,
-      "total": 23507,
-      "max": 8240,
+      "home_games_counted": 4,
+      "average": 8217,
+      "total": 32867,
+      "max": 9360,
       "min": 7194
     },
     {
@@ -157,9 +157,9 @@
       "league": "ACB",
       "season": "2026-27",
       "club": "Barca",
-      "home_games_counted": 4,
-      "average": 4129,
-      "total": 16515,
+      "home_games_counted": 5,
+      "average": 4085,
+      "total": 20425,
       "max": 5342,
       "min": 3388
     },
