@@ -1,15 +1,15 @@
 {
   "league": "ACB",
   "season": "2026-27",
-  "updated": "2026-11-15T18:52:42+00:00",
+  "updated": "2026-11-16T06:31:38+00:00",
   "clubs": [
     {
       "league": "ACB",
       "season": "2026-27",
       "club": "Valencia Basket",
-      "home_games_counted": 3,
-      "average": 11435,
-      "total": 34305,
+      "home_games_counted": 4,
+      "average": 11425,
+      "total": 45701,
       "max": 13111,
       "min": 9104
     },
@@ -17,9 +17,9 @@
       "league": "ACB",
       "season": "2026-27",
       "club": "Unicaja",
-      "home_games_counted": 3,
-      "average": 9964,
-      "total": 29892,
+      "home_games_counted": 4,
+      "average": 9933,
+      "total": 39731,
       "max": 10681,
       "min": 9275
     },
@@ -106,22 +106,22 @@
     {
       "league": "ACB",
       "season": "2026-27",
+      "club": "Ilerna Lleida",
+      "home_games_counted": 4,
+      "average": 5670,
+      "total": 22681,
+      "max": 5773,
+      "min": 5565
+    },
+    {
+      "league": "ACB",
+      "season": "2026-27",
       "club": "Monbus Obradoiro",
       "home_games_counted": 3,
       "average": 5658,
       "total": 16975,
       "max": 5976,
       "min": 5204
-    },
-    {
-      "league": "ACB",
-      "season": "2026-27",
-      "club": "Ilerna Lleida",
-      "home_games_counted": 3,
-      "average": 5636,
-      "total": 16908,
-      "max": 5699,
-      "min": 5565
     },
     {
       "league": "ACB",
