@@ -1,7 +1,7 @@
 {
   "league": "ABA",
   "season": "2026-27",
-  "updated": "2026-11-15T18:59:36+00:00",
+  "updated": "2026-11-16T06:47:47+00:00",
   "clubs": [
     {
       "league": "ABA",
@@ -74,6 +74,22 @@
     {
       "league": "ABA",
       "season": "2026-27",
+      "club": "Crvena zvezda Meridianbet",
+      "home_games_counted": 4,
+      "average": 2990,
+      "total": 11958,
+      "max": 4149,
+      "min": 1872,
+      "arenas": [
+        {
+          "arena": "Košarkaška dvorana Aleksandar Nikolić",
+          "games": 4
+        }
+      ]
+    },
+    {
+      "league": "ABA",
+      "season": "2026-27",
       "club": "Zadar",
       "home_games_counted": 3,
       "average": 2900,
@@ -83,22 +99,6 @@
       "arenas": [
         {
           "arena": "Dvorana Krešimir Ćosić",
-          "games": 3
-        }
-      ]
-    },
-    {
-      "league": "ABA",
-      "season": "2026-27",
-      "club": "Crvena zvezda Meridianbet",
-      "home_games_counted": 3,
-      "average": 2603,
-      "total": 7809,
-      "max": 3045,
-      "min": 1872,
-      "arenas": [
-        {
-          "arena": "Košarkaška dvorana Aleksandar Nikolić",
           "games": 3
         }
       ]
