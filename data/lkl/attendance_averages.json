@@ -1,18 +1,8 @@
 {
   "league": "LKL",
   "season": "2026-27",
-  "updated": "2026-11-15T19:07:52+00:00",
+  "updated": "2026-11-16T07:19:44+00:00",
   "clubs": [
-    {
-      "league": "LKL",
-      "season": "2026-27",
-      "club": "Rytas",
-      "home_games_counted": 3,
-      "average": 4897,
-      "total": 14690,
-      "max": 8223,
-      "min": 3012
-    },
     {
       "league": "LKL",
       "season": "2026-27",
@@ -22,6 +12,16 @@
       "total": 21939,
       "max": 6746,
       "min": 2750
+    },
+    {
+      "league": "LKL",
+      "season": "2026-27",
+      "club": "Rytas",
+      "home_games_counted": 4,
+      "average": 4276,
+      "total": 17103,
+      "max": 8223,
+      "min": 2413
     },
     {
       "league": "LKL",
