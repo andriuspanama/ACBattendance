@@ -1,7 +1,7 @@
 {
  "league": "ACB",
  "season": "2026-27",
- "updated": "2026-11-16T07:55:20+00:00",
+ "updated": "2026-11-16T22:51:53+00:00",
  "clubs": [
   {
    "club": "Asisa Joventut",
@@ -20,15 +20,15 @@
   },
   {
    "club": "Barca",
-   "home_games_counted": 4,
-   "games_with_capacity": 4,
+   "home_games_counted": 5,
+   "games_with_capacity": 5,
    "capacity": 7786,
    "weighted_capacity": 7786,
-   "filling_rate": 0.5303,
+   "filling_rate": 0.5247,
    "arenas": [
     {
      "arena": "Palau Blaugrana",
-     "games": 4,
+     "games": 5,
      "capacity": 7786
     }
    ]
@@ -95,15 +95,15 @@
   },
   {
    "club": "Kosner Baskonia",
-   "home_games_counted": 3,
-   "games_with_capacity": 3,
+   "home_games_counted": 4,
+   "games_with_capacity": 4,
    "capacity": 15504,
    "weighted_capacity": 15504,
-   "filling_rate": 0.5054,
+   "filling_rate": 0.53,
    "arenas": [
     {
      "arena": "Fernando Buesa Arena",
-     "games": 3,
+     "games": 4,
      "capacity": 15504
     }
    ]
@@ -215,15 +215,15 @@
   },
   {
    "club": "Surne Bilbao",
-   "home_games_counted": 3,
-   "games_with_capacity": 3,
+   "home_games_counted": 4,
+   "games_with_capacity": 4,
    "capacity": 10014,
    "weighted_capacity": 10014,
-   "filling_rate": 0.8402,
+   "filling_rate": 0.8338,
    "arenas": [
     {
      "arena": "Bilbao Arena",
-     "games": 3,
+     "games": 4,
      "capacity": 10014
     }
    ]

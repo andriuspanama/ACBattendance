@@ -1,7 +1,7 @@
 {
  "league": "LBA",
  "season": "2026-27",
- "updated": "2026-11-15T19:21:27+00:00",
+ "updated": "2026-11-16T22:51:53+00:00",
  "clubs": [
   {
    "club": "Acqua S.Bernardo Cantù",
@@ -65,15 +65,15 @@
   },
   {
    "club": "Dolomiti Energia Trentino",
-   "home_games_counted": 3,
-   "games_with_capacity": 3,
+   "home_games_counted": 4,
+   "games_with_capacity": 4,
    "capacity": 4360,
    "weighted_capacity": 4360,
-   "filling_rate": 0.8597,
+   "filling_rate": 0.8741,
    "arenas": [
     {
      "arena": "BTS Arena",
-     "games": 3,
+     "games": 4,
      "capacity": 4360
     }
    ]
@@ -409,6 +409,10 @@
    "arena": "PalaBigi",
    "capacity": 4530
   },
+  "25417": {
+   "arena": "BTS Arena",
+   "capacity": 4360
+  },
   "25418": {
    "arena": "Palaverde",
    "capacity": 5344
@@ -424,6 +428,10 @@
   "25422": {
    "arena": "PalaDesio",
    "capacity": 6500
+  },
+  "25423": {
+   "arena": "PalaCarnera Credifriuli",
+   "capacity": 3500
   }
  }
 }

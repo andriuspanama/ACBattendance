@@ -1,7 +1,7 @@
 {
  "league": "Winner League",
  "season": "2026-27",
- "updated": "2026-11-14T22:56:39+00:00",
+ "updated": "2026-11-16T22:51:53+00:00",
  "clubs": [
   {
    "club": "Bnei Penlink Herzliya",
@@ -20,15 +20,15 @@
   },
   {
    "club": "Hapoel Alfi Benedek Galil Elion",
-   "home_games_counted": 2,
-   "games_with_capacity": 2,
+   "home_games_counted": 3,
+   "games_with_capacity": 3,
    "capacity": 1382,
    "weighted_capacity": 1382,
-   "filling_rate": 0.8104,
+   "filling_rate": 0.7815,
    "arenas": [
     {
      "arena": "Kfar Blum Hall",
-     "games": 2,
+     "games": 3,
      "capacity": 1382
     }
    ]
@@ -200,7 +200,7 @@
   }
  ],
  "unknown_arenas": [],
- "last_attendance_game": "2026-11-14",
+ "last_attendance_game": "2026-11-16",
  "games": {
   "26646": {
    "arena": "Menora Mivtachim Arena",

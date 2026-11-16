@@ -1,6 +1,6 @@
 {
  "season": "2026-27",
- "updated": "2026-11-16T07:55:20+00:00",
+ "updated": "2026-11-16T22:51:53+00:00",
  "clubs": {
   "ADA Blois Basket 41": {
    "arena": "Le Jeu de Paume",
@@ -40,8 +40,8 @@
    "capacity": 3500,
    "league": "LBA",
    "source": "games",
-   "games": 3,
-   "of_games": 3,
+   "games": 4,
+   "of_games": 4,
    "league_name": "APU Old Wild West Udine"
   },
   "ASK Karditsas B.C.": {
@@ -157,8 +157,8 @@
    "capacity": 4360,
    "league": "LBA",
    "source": "games",
-   "games": 3,
-   "of_games": 3,
+   "games": 4,
+   "of_games": 4,
    "league_name": "Dolomiti Energia Trentino"
   },
   "Aris B.C.": {
@@ -577,8 +577,8 @@
    "capacity": 10014,
    "league": "ACB",
    "source": "games",
-   "games": 3,
-   "of_games": 3,
+   "games": 4,
+   "of_games": 4,
    "league_name": "Surne Bilbao"
   },
   "Bisons Loimaa": {
@@ -826,8 +826,8 @@
    "capacity": 2249,
    "league": "PLK",
    "source": "games",
-   "games": 3,
-   "of_games": 3,
+   "games": 4,
+   "of_games": 4,
    "league_name": "Energa Czarni Słupsk"
   },
   "DEAC (Kosarlabda Akademia)": {
@@ -1003,8 +1003,8 @@
    "capacity": 7786,
    "league": "ACB",
    "source": "games",
-   "games": 4,
-   "of_games": 4,
+   "games": 5,
+   "of_games": 5,
    "league_name": "Barca"
   },
   "FC Porto": {
@@ -1387,8 +1387,8 @@
    "capacity": 4260,
    "league": "ABA",
    "source": "games",
-   "games": 3,
-   "of_games": 3,
+   "games": 4,
+   "of_games": 4,
    "league_name": "Borac Mozzart"
   },
   "KK Bosna Royal": {
@@ -1597,8 +1597,8 @@
    "capacity": 6000,
    "league": "ABA",
    "source": "games",
-   "games": 2,
-   "of_games": 2,
+   "games": 3,
+   "of_games": 3,
    "league_name": "SC Derby"
   },
   "KK Viimsi": {
@@ -2593,8 +2593,8 @@
    "capacity": 15504,
    "league": "ACB",
    "source": "games",
-   "games": 3,
-   "of_games": 3,
+   "games": 4,
+   "of_games": 4,
    "league_name": "Kosner Baskonia"
   },
   "Scafati Basket": {

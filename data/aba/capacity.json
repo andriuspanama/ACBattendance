@@ -1,7 +1,7 @@
 {
  "league": "ABA",
  "season": "2026-27",
- "updated": "2026-11-16T07:55:20+00:00",
+ "updated": "2026-11-16T22:51:53+00:00",
  "clubs": [
   {
    "club": "BC Vienna",
@@ -20,15 +20,15 @@
   },
   {
    "club": "Borac Mozzart",
-   "home_games_counted": 3,
-   "games_with_capacity": 3,
+   "home_games_counted": 4,
+   "games_with_capacity": 4,
    "capacity": 4260,
    "weighted_capacity": 4260,
-   "filling_rate": 0.2034,
+   "filling_rate": 0.1966,
    "arenas": [
     {
      "arena": "Dvorana Borac",
-     "games": 3,
+     "games": 4,
      "capacity": 4260
     }
    ]
@@ -240,15 +240,15 @@
   },
   {
    "club": "SC Derby",
-   "home_games_counted": 2,
-   "games_with_capacity": 2,
+   "home_games_counted": 3,
+   "games_with_capacity": 3,
    "capacity": 6000,
    "weighted_capacity": 6000,
-   "filling_rate": 0.0773,
+   "filling_rate": 0.0617,
    "arenas": [
     {
      "arena": "Sportski centar Morača",
-     "games": 2,
+     "games": 3,
      "capacity": 6000
     }
    ]
@@ -320,7 +320,7 @@
   }
  ],
  "unknown_arenas": [],
- "last_attendance_game": "2026-11-15",
+ "last_attendance_game": "2026-11-16",
  "games": {
   "13": {
    "arena": "ŠD Leona Štuklja Novo Mesto",
@@ -593,6 +593,14 @@
   "78": {
    "arena": "Zetra Olympic Hall",
    "capacity": 12000
+  },
+  "75": {
+   "arena": "Dvorana Borac",
+   "capacity": 4260
+  },
+  "80": {
+   "arena": "Sportski centar Morača",
+   "capacity": 6000
   }
  }
 }

@@ -1,7 +1,7 @@
 {
  "league": "PLK",
  "season": "2026-27",
- "updated": "2026-11-15T19:21:27+00:00",
+ "updated": "2026-11-16T22:51:53+00:00",
  "clubs": [
   {
    "club": "AMW Arka Gdynia",
@@ -85,15 +85,15 @@
   },
   {
    "club": "Energa Czarni Słupsk",
-   "home_games_counted": 3,
-   "games_with_capacity": 3,
+   "home_games_counted": 4,
+   "games_with_capacity": 4,
    "capacity": 2249,
    "weighted_capacity": 2249,
-   "filling_rate": 0.8685,
+   "filling_rate": 0.8527,
    "arenas": [
     {
      "arena": "Hala Gryfia",
-     "games": 3,
+     "games": 4,
      "capacity": 2249
     }
    ]
@@ -268,7 +268,7 @@
    ]
   }
  ],
- "last_attendance_game": "2026-11-15",
+ "last_attendance_game": "2026-11-16",
  "games": {
   "223465": {
    "arena": "Hala Sportowa 100-lecia Sopotu",
@@ -457,6 +457,10 @@
   "223516": {
    "arena": "3mk Arena Ostrów",
    "capacity": 3086
+  },
+  "223513": {
+   "arena": "Hala Gryfia",
+   "capacity": 2249
   }
  }
 }
