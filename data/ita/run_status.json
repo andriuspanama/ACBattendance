@@ -1,10 +1,10 @@
 {
  "league": "LBA",
  "source": "legabasket.it",
- "ok": true,
- "error": "",
+ "ok": false,
+ "error": "klaida skaitant svetainę: 500 Server Error: Internal Server Error for url: https://www.legabasket.it/api/championships/get-championships-calendar-by-id?id=602&d=1",
  "notes": [],
  "last_ok": "2026-11-15T19:00:51+00:00",
  "last_new_attendance": "2026-11-15T19:00:51+00:00",
- "run_at": "2026-11-15T19:00:51+00:00"
+ "run_at": "2026-11-16T06:48:42+00:00"
 }
