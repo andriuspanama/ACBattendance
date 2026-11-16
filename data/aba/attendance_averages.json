@@ -1,7 +1,7 @@
 {
   "league": "ABA",
   "season": "2026-27",
-  "updated": "2026-11-16T06:47:47+00:00",
+  "updated": "2026-11-16T22:19:14+00:00",
   "clubs": [
     {
       "league": "ABA",
@@ -210,22 +210,6 @@
     {
       "league": "ABA",
       "season": "2026-27",
-      "club": "Borac Mozzart",
-      "home_games_counted": 3,
-      "average": 867,
-      "total": 2600,
-      "max": 1000,
-      "min": 700,
-      "arenas": [
-        {
-          "arena": "Dvorana Borac",
-          "games": 3
-        }
-      ]
-    },
-    {
-      "league": "ABA",
-      "season": "2026-27",
       "club": "Mega Superbet",
       "home_games_counted": 3,
       "average": 850,
@@ -236,6 +220,22 @@
         {
           "arena": "Hala sportova Ranko Žeravica",
           "games": 3
+        }
+      ]
+    },
+    {
+      "league": "ABA",
+      "season": "2026-27",
+      "club": "Borac Mozzart",
+      "home_games_counted": 4,
+      "average": 838,
+      "total": 3350,
+      "max": 1000,
+      "min": 700,
+      "arenas": [
+        {
+          "arena": "Dvorana Borac",
+          "games": 4
         }
       ]
     },
@@ -290,22 +290,6 @@
     {
       "league": "ABA",
       "season": "2026-27",
-      "club": "SC Derby",
-      "home_games_counted": 2,
-      "average": 464,
-      "total": 928,
-      "max": 550,
-      "min": 378,
-      "arenas": [
-        {
-          "arena": "Sportski centar Morača",
-          "games": 2
-        }
-      ]
-    },
-    {
-      "league": "ABA",
-      "season": "2026-27",
       "club": "Cibona",
       "home_games_counted": 5,
       "average": 420,
@@ -316,6 +300,22 @@
         {
           "arena": "Košarkaški centar Dražen Petrović",
           "games": 5
+        }
+      ]
+    },
+    {
+      "league": "ABA",
+      "season": "2026-27",
+      "club": "SC Derby",
+      "home_games_counted": 3,
+      "average": 370,
+      "total": 1111,
+      "max": 550,
+      "min": 183,
+      "arenas": [
+        {
+          "arena": "Sportski centar Morača",
+          "games": 3
         }
       ]
     },
