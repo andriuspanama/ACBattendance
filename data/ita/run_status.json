@@ -3,8 +3,10 @@
  "source": "legabasket.it",
  "ok": true,
  "error": "",
- "notes": [],
+ "notes": [
+  "Patikrinta 9 sužaistų rungtynių, bet nė vienose nerasta lankomumo"
+ ],
  "last_ok": "2026-11-16T22:20:10+00:00",
  "last_new_attendance": "2026-11-16T22:20:10+00:00",
- "run_at": "2026-11-16T22:20:10+00:00"
+ "run_at": "2026-11-17T08:08:23+00:00"
 }
