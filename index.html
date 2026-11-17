@@ -143,6 +143,10 @@
       background: linear-gradient(90deg, #f5a623, #3d8bfd);
     }
     .dim { color: var(--muted); font-weight: 500; }
+    details.gaps > summary { cursor: pointer; list-style: none; user-select: none; }
+    details.gaps > summary::-webkit-details-marker { display: none; }
+    details.gaps > summary::before { content: "▸"; display: inline-block; width: 1em; color: var(--muted); }
+    details.gaps[open] > summary::before { content: "▾"; }
     .section-title {
       font-size: .95rem; font-weight: 600; margin: 1.75rem 0 .65rem;
       display: flex; align-items: center; gap: .45rem;
@@ -712,8 +716,8 @@
         '</tr></thead><tbody id="tbody"></tbody></table></div></div>' +
         healthHtml() +
         missingCapHtml() +
-        gapsHtml(gaps.games) +
-        matchesHtml;
+        matchesHtml +
+        gapsHtml(gaps.games);
 
       const sa = document.getElementById("show-all");
       if (sa) sa.addEventListener("click", function() {
@@ -779,7 +783,7 @@
     // Sužaistos rungtynės, kurių lankomumo dar nėra (kad matytųsi, kurių klubų ir kokių rungtynių trūksta)
     function gapsHtml(games) {
       if (!games.length) return "";
-      return '<div class="section-title">Rungtynės be lankomumo <span class="badge">' + games.length + '</span></div>' +
+      return '<details class="gaps"><summary class="section-title">Rungtynės be lankomumo <span class="badge">' + games.length + '</span></summary>' +
         '<div class="panel"><div class="table-wrap"><table><thead><tr>' +
         '<th>Data</th><th>Šeimininkai</th><th>Svečiai</th><th class="hide-sm">Šaltinis</th>' +
         '</tr></thead><tbody>' +
@@ -790,7 +794,7 @@
             '<td class="hide-sm">' + (g.url ? '<a href="' + esc(g.url) + '" target="_blank" rel="noopener" style="color:var(--blue);font-size:.8rem">↗</a>' : '') + '</td>' +
             '</tr>';
         }).join("") +
-        '</tbody></table></div></div>';
+        '</tbody></table></div></div></details>';
     }
 
     // Įspėjimas: rungtynės su lankomumu, kurių arenos talpos nėra lape „Arenas“
