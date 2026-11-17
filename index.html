@@ -142,6 +142,7 @@
       height: 100%; border-radius: 3px;
       background: linear-gradient(90deg, #f5a623, #3d8bfd);
     }
+    .dim { color: var(--muted); font-weight: 500; }
     .section-title {
       font-size: .95rem; font-weight: 600; margin: 1.75rem 0 .65rem;
       display: flex; align-items: center; gap: .45rem;
@@ -520,6 +521,7 @@
     }
     const disp = function(n) { return NM[n] || n; };
     let runStatus = null;
+    let missInfo = null;   // missing_games.json – sužaistos rungtynės be lankomumo
     let lastAttGame = "";
     let clubs = [];
     let sortKey = "average";
@@ -590,6 +592,12 @@
           const sr = await fetch(paths.averages[0].replace("attendance_averages.json", "run_status.json"), { cache: "no-store" });
           if (sr.ok) runStatus = await sr.json();
         } catch (_) {}
+        // Rungtynės be lankomumo (missing_games.json – skaičiuoja missing_games.py)
+        missInfo = null;
+        try {
+          const mr = await fetch(paths.averages[0].replace("attendance_averages.json", "missing_games.json"), { cache: "no-store" });
+          if (mr.ok) missInfo = await mr.json();
+        } catch (_) {}
         if (capInfo && capInfo.clubs) {
           const byClub = {};
           capInfo.clubs.forEach(function(x) { byClub[x.club] = x; });
@@ -627,7 +635,19 @@
       return d.innerHTML;
     }
 
+    // Rungtynės be lankomumo: failas gali būti kelių valandų senumo, todėl tos, kurioms lankomumas jau atsirado
+    // šviežiame matches.csv, išmetamos (jos jau įskaičiuotos į klubų „Rungt.“)
+    function gapsFor(matches) {
+      const got = new Set(matches.filter(m => Number(m.attendance) > 0).map(m => String(m.match_id)));
+      const games = ((missInfo && missInfo.games) || []).filter(g => !got.has(String(g.id)));
+      const byClub = {};
+      games.forEach(function(g) { (byClub[g.home] = byClub[g.home] || []).push(g); });
+      return { games: games, byClub: byClub };
+    }
+
     function render(data, matches) {
+      const gaps = gapsFor(matches);
+      clubs.forEach(function(c) { c.gaps = gaps.byClub[c.league_name || c.club] || []; });
       const withAtt = clubs.filter(c => c.average != null && c.home_games_counted > 0);
       const totalGames = withAtt.reduce((s, c) => s + c.home_games_counted, 0);
       const totalFans = withAtt.reduce((s, c) => s + (c.total || 0), 0);
@@ -670,7 +690,9 @@
       document.getElementById("app").innerHTML =
         '<div class="cards">' +
         '<div class="card"><div class="label">Klubai</div><div class="value blue">' + clubs.length + '</div></div>' +
-        '<div class="card"><div class="label">Namų rungt.</div><div class="value">' + fmt(totalGames) + '</div></div>' +
+        '<div class="card"><div class="label">Rungtynės su lankomumu</div><div class="value">' + fmt(totalGames) +
+          (gaps.games.length ? ' <span class="dim" style="font-size:.6em" title="Sužaistos rungtynės be lankomumo: ' + gaps.games.length + '">/ ' + fmt(totalGames + gaps.games.length) + '</span>' : '') +
+          '</div></div>' +
         '<div class="card"><div class="label">Lyga vidurkis</div><div class="value accent">' + fmt(leagueAvg) + '</div></div>' +
         '<div class="card"><div class="label">Iš viso žiūr.</div><div class="value green">' + fmt(totalFans) + '</div></div>' +
         '</div>' +
@@ -690,6 +712,7 @@
         '</tr></thead><tbody id="tbody"></tbody></table></div></div>' +
         healthHtml() +
         missingCapHtml() +
+        gapsHtml(gaps.games) +
         matchesHtml;
 
       const sa = document.getElementById("show-all");
@@ -753,6 +776,23 @@
       }).join("");
     }
 
+    // Sužaistos rungtynės, kurių lankomumo dar nėra (kad matytųsi, kurių klubų ir kokių rungtynių trūksta)
+    function gapsHtml(games) {
+      if (!games.length) return "";
+      return '<div class="section-title">Rungtynės be lankomumo <span class="badge">' + games.length + '</span></div>' +
+        '<div class="panel"><div class="table-wrap"><table><thead><tr>' +
+        '<th>Data</th><th>Šeimininkai</th><th>Svečiai</th><th class="hide-sm">Šaltinis</th>' +
+        '</tr></thead><tbody>' +
+        games.map(function(g) {
+          return '<tr><td style="white-space:nowrap;color:var(--muted)">' + esc(g.date || "—") + '</td>' +
+            '<td><div class="club-cell">' + clubLogoHtml(g.home, "", disp(g.home)) + '<span class="club-name">' + esc(disp(g.home)) + '</span></div></td>' +
+            '<td><div class="club-cell">' + clubLogoHtml(g.away, "", disp(g.away)) + '<span>' + esc(disp(g.away)) + '</span></div></td>' +
+            '<td class="hide-sm">' + (g.url ? '<a href="' + esc(g.url) + '" target="_blank" rel="noopener" style="color:var(--blue);font-size:.8rem">↗</a>' : '') + '</td>' +
+            '</tr>';
+        }).join("") +
+        '</tbody></table></div></div>';
+    }
+
     // Įspėjimas: rungtynės su lankomumu, kurių arenos talpos nėra lape „Arenas“
     function missingCapHtml() {
       const u = (capInfo && capInfo.unknown_arenas) || [];
@@ -804,7 +844,10 @@
           '<td class="num" style="font-weight:700;color:' + (has ? "var(--accent)" : "var(--muted)") + '">' + fmt(c.average) + '</td>' +
           '<td class="num hide-sm">' + fmt(c.weighted_capacity) + '</td>' +
           '<td class="num hide-sm">' + (c.filling_rate != null ? fmtPct(c.filling_rate) : "—") + '</td>' +
-          '<td class="num hide-sm">' + fmt(c.home_games_counted) + '</td>' +
+          '<td class="num hide-sm"' + (c.gaps && c.gaps.length
+              ? ' title="Be lankomumo: ' + esc(c.gaps.map(g => disp(g.away) + (g.date ? " (" + g.date + ")" : "")).join(", ")) + '"' : '') + '>' +
+            fmt(c.home_games_counted) +
+            (c.gaps && c.gaps.length ? ' <span class="dim">/ ' + fmt(c.home_games_counted + c.gaps.length) + '</span>' : '') + '</td>' +
           '<td class="num hide-sm">' + fmt(c.max) + '</td>' +
           '<td class="num hide-sm">' + fmt(c.min) + '</td>' +
           '<td class="hide-sm"><div class="bar-track"><div class="bar-fill" style="width:' + pct + '%"></div></div></td>' +
