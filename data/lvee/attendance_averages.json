@@ -1,7 +1,7 @@
 {
   "league": "LEBL",
   "season": "2026-27",
-  "updated": "2026-11-17T08:07:20+00:00",
+  "updated": "2026-11-17T21:04:47+00:00",
   "clubs": [
     {
       "league": "LEBL",
@@ -251,9 +251,9 @@
       "league": "LEBL",
       "season": "2026-27",
       "club": "Rigas Ekselences Juniori",
-      "home_games_counted": 6,
-      "average": 136,
-      "total": 814,
+      "home_games_counted": 7,
+      "average": 133,
+      "total": 934,
       "max": 185,
       "min": 82,
       "arenas": [
@@ -263,7 +263,7 @@
         },
         {
           "arena": "Daugavas sporta nams",
-          "games": 2
+          "games": 3
         }
       ]
     }
