@@ -1,0 +1,75 @@
+{
+ "league": "PLK",
+ "season": "2026-27",
+ "played": 48,
+ "with_attendance": 48,
+ "missing": 0,
+ "clubs": {
+  "AMW Arka Gdynia": {
+   "played": 3,
+   "with_attendance": 3
+  },
+  "Anwil Włocławek": {
+   "played": 4,
+   "with_attendance": 4
+  },
+  "Arriva Lotto Twarde Pierniki Toruń": {
+   "played": 4,
+   "with_attendance": 4
+  },
+  "Dziki Warszawa": {
+   "played": 2,
+   "with_attendance": 2
+  },
+  "Enea Łaciate Astoria Bydgoszcz": {
+   "played": 4,
+   "with_attendance": 4
+  },
+  "Energa Czarni Słupsk": {
+   "played": 4,
+   "with_attendance": 4
+  },
+  "Energa Trefl Sopot": {
+   "played": 2,
+   "with_attendance": 2
+  },
+  "Euvic GTK Gliwice": {
+   "played": 5,
+   "with_attendance": 5
+  },
+  "Górnik Zamek Książ Wałbrzych": {
+   "played": 1,
+   "with_attendance": 1
+  },
+  "King Szczecin": {
+   "played": 2,
+   "with_attendance": 2
+  },
+  "Legia Warszawa": {
+   "played": 3,
+   "with_attendance": 3
+  },
+  "MKS Dąbrowa Górnicza": {
+   "played": 4,
+   "with_attendance": 4
+  },
+  "PGE Start Lublin": {
+   "played": 3,
+   "with_attendance": 3
+  },
+  "Tasomix Rosiek Stal Ostrów Wielkopolski": {
+   "played": 2,
+   "with_attendance": 2
+  },
+  "WKS Śląsk Wrocław": {
+   "played": 3,
+   "with_attendance": 3
+  },
+  "Zastal Zielona Góra": {
+   "played": 2,
+   "with_attendance": 2
+  }
+ },
+ "games": [],
+ "updated": "2026-11-17T07:52:02+00:00"
+}

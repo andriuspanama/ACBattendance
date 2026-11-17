@@ -1,0 +1,106 @@
+{
+ "league": "ABA",
+ "season": "2026-27",
+ "played": 70,
+ "with_attendance": 68,
+ "missing": 2,
+ "clubs": {
+  "BC Vienna": {
+   "played": 4,
+   "with_attendance": 4
+  },
+  "Borac Mozzart": {
+   "played": 4,
+   "with_attendance": 4
+  },
+  "Bosna BH Telecom": {
+   "played": 3,
+   "with_attendance": 3
+  },
+  "Budućnost VOLI": {
+   "played": 2,
+   "with_attendance": 2
+  },
+  "Cedevita Olimpija": {
+   "played": 3,
+   "with_attendance": 3
+  },
+  "Cibona": {
+   "played": 5,
+   "with_attendance": 5
+  },
+  "Crvena zvezda Meridianbet": {
+   "played": 4,
+   "with_attendance": 4
+  },
+  "Dubai Basketball": {
+   "played": 3,
+   "with_attendance": 3
+  },
+  "FMP": {
+   "played": 3,
+   "with_attendance": 3
+  },
+  "HKK Široki TT Kabeli": {
+   "played": 3,
+   "with_attendance": 3
+  },
+  "Igokea m:tel": {
+   "played": 5,
+   "with_attendance": 5
+  },
+  "Krka": {
+   "played": 5,
+   "with_attendance": 5
+  },
+  "Mega Superbet": {
+   "played": 3,
+   "with_attendance": 3
+  },
+  "Partizan Mozzart Bet": {
+   "played": 4,
+   "with_attendance": 3
+  },
+  "Perspektiva Ilirija": {
+   "played": 4,
+   "with_attendance": 3
+  },
+  "SC Derby": {
+   "played": 3,
+   "with_attendance": 3
+  },
+  "Slovan Bratislava": {
+   "played": 1,
+   "with_attendance": 1
+  },
+  "Spartak Office Shoes": {
+   "played": 4,
+   "with_attendance": 4
+  },
+  "U-BT Cluj-Napoca": {
+   "played": 4,
+   "with_attendance": 4
+  },
+  "Zadar": {
+   "played": 3,
+   "with_attendance": 3
+  }
+ },
+ "games": [
+  {
+   "id": "17",
+   "date": "2026-10-04",
+   "home": "Perspektiva Ilirija",
+   "away": "Dubai Basketball",
+   "url": "https://www.aba-liga.com/match/17/26/1/Overview/q1/1/home/perspektiva-ilirija-dubai-basketball/"
+  },
+  {
+   "id": "16",
+   "date": "2026-10-05",
+   "home": "Partizan Mozzart Bet",
+   "away": "Mega Superbet",
+   "url": "https://www.aba-liga.com/match/16/26/1/Overview/q1/1/home/partizan-mozzart-bet-mega-superbet/"
+  }
+ ],
+ "updated": "2026-11-17T07:52:02+00:00"
+}

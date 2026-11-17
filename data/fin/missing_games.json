@@ -1,0 +1,59 @@
+{
+ "league": "Korisliiga",
+ "season": "2026-27",
+ "played": 65,
+ "with_attendance": 65,
+ "missing": 0,
+ "clubs": {
+  "Bisons Loimaa": {
+   "played": 5,
+   "with_attendance": 5
+  },
+  "Helsinki Seagulls": {
+   "played": 6,
+   "with_attendance": 6
+  },
+  "KTP-Basket": {
+   "played": 5,
+   "with_attendance": 5
+  },
+  "Kataja Basket": {
+   "played": 6,
+   "with_attendance": 6
+  },
+  "Kauhajoki": {
+   "played": 6,
+   "with_attendance": 6
+  },
+  "Kipinä Basket": {
+   "played": 5,
+   "with_attendance": 5
+  },
+  "Korihait": {
+   "played": 5,
+   "with_attendance": 5
+  },
+  "Kouvot": {
+   "played": 6,
+   "with_attendance": 6
+  },
+  "Lahti Basketball": {
+   "played": 6,
+   "with_attendance": 6
+  },
+  "Salon Vilpas": {
+   "played": 4,
+   "with_attendance": 4
+  },
+  "Tampereen Pyrintö": {
+   "played": 5,
+   "with_attendance": 5
+  },
+  "Tapiolan Honka": {
+   "played": 6,
+   "with_attendance": 6
+  }
+ },
+ "games": [],
+ "updated": "2026-11-17T07:52:02+00:00"
+}

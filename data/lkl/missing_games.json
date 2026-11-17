@@ -1,0 +1,51 @@
+{
+ "league": "LKL",
+ "season": "2026-27",
+ "played": 49,
+ "with_attendance": 49,
+ "missing": 0,
+ "clubs": {
+  "Gargzdai": {
+   "played": 4,
+   "with_attendance": 4
+  },
+  "Jonava": {
+   "played": 6,
+   "with_attendance": 6
+  },
+  "Juventus": {
+   "played": 5,
+   "with_attendance": 5
+  },
+  "Lietkabelis": {
+   "played": 5,
+   "with_attendance": 5
+  },
+  "Neptunas": {
+   "played": 5,
+   "with_attendance": 5
+  },
+  "Nevezis": {
+   "played": 5,
+   "with_attendance": 5
+  },
+  "Rytas": {
+   "played": 4,
+   "with_attendance": 4
+  },
+  "Siauliai": {
+   "played": 5,
+   "with_attendance": 5
+  },
+  "Taurage": {
+   "played": 5,
+   "with_attendance": 5
+  },
+  "Zalgiris Kaunas": {
+   "played": 5,
+   "with_attendance": 5
+  }
+ },
+ "games": [],
+ "updated": "2026-11-17T07:52:02+00:00"
+}

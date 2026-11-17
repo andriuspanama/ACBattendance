@@ -1,0 +1,71 @@
+{
+ "league": "LEBL",
+ "season": "2026-27",
+ "played": 72,
+ "with_attendance": 72,
+ "missing": 0,
+ "clubs": {
+  "BC Pärnu": {
+   "played": 6,
+   "with_attendance": 6
+  },
+  "BK Liepaja": {
+   "played": 5,
+   "with_attendance": 5
+  },
+  "BK Ogre": {
+   "played": 6,
+   "with_attendance": 6
+  },
+  "BK Ventspils": {
+   "played": 4,
+   "with_attendance": 4
+  },
+  "Bigbank/Kalev": {
+   "played": 6,
+   "with_attendance": 6
+  },
+  "Keila Basket": {
+   "played": 4,
+   "with_attendance": 4
+  },
+  "Keila KK": {
+   "played": 5,
+   "with_attendance": 5
+  },
+  "Latvijas Universitāte": {
+   "played": 2,
+   "with_attendance": 2
+  },
+  "Rigas Ekselences Juniori": {
+   "played": 6,
+   "with_attendance": 6
+  },
+  "Rīgas Zeļļi": {
+   "played": 5,
+   "with_attendance": 5
+  },
+  "TalTech/ALEXELA": {
+   "played": 4,
+   "with_attendance": 4
+  },
+  "Tartu Ülikool Maks & Moorits": {
+   "played": 4,
+   "with_attendance": 4
+  },
+  "VEF Rīga": {
+   "played": 5,
+   "with_attendance": 5
+  },
+  "Valmiera Glass VIA": {
+   "played": 5,
+   "with_attendance": 5
+  },
+  "Viimsi": {
+   "played": 5,
+   "with_attendance": 5
+  }
+ },
+ "games": [],
+ "updated": "2026-11-17T07:52:02+00:00"
+}

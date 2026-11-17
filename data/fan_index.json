@@ -1,6 +1,6 @@
 {
  "season": "2026-27",
- "updated": "2026-11-16T22:51:56+00:00",
+ "updated": "2026-11-17T07:52:02+00:00",
  "model": {
   "source": "Fan_attraction_index_combined.xlsx, Europe 25-26 (frozen for 2026-27)",
   "europe": {
@@ -3109,7 +3109,7 @@
    "club": "Hapoel Holon",
    "population": 191829.0,
    "area": "Holon (municipality)",
-   "home_games": 3,
+   "home_games": 4,
    "reported_games": 3,
    "average": 1700,
    "eligible": true,
@@ -3225,7 +3225,7 @@
    "club": "Maccabi Rishon Lezion",
    "population": 259275.0,
    "area": "Rishon LeZion (municipality)",
-   "home_games": 3,
+   "home_games": 4,
    "reported_games": 3,
    "average": 1200,
    "eligible": true,

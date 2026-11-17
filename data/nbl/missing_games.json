@@ -1,0 +1,51 @@
+{
+ "league": "NBL",
+ "season": "2026-27",
+ "played": 68,
+ "with_attendance": 68,
+ "missing": 0,
+ "clubs": {
+  "Adelaide 36ers": {
+   "played": 6,
+   "with_attendance": 6
+  },
+  "Brisbane Bullets": {
+   "played": 7,
+   "with_attendance": 7
+  },
+  "Cairns Taipans": {
+   "played": 6,
+   "with_attendance": 6
+  },
+  "Illawarra Hawks": {
+   "played": 5,
+   "with_attendance": 5
+  },
+  "Melbourne United": {
+   "played": 7,
+   "with_attendance": 7
+  },
+  "NZ Breakers": {
+   "played": 4,
+   "with_attendance": 4
+  },
+  "Perth Wildcats": {
+   "played": 11,
+   "with_attendance": 11
+  },
+  "South East Melbourne Phoenix": {
+   "played": 7,
+   "with_attendance": 7
+  },
+  "Sydney Kings": {
+   "played": 8,
+   "with_attendance": 8
+  },
+  "Tasmania JackJumpers": {
+   "played": 7,
+   "with_attendance": 7
+  }
+ },
+ "games": [],
+ "updated": "2026-11-17T07:52:02+00:00"
+}

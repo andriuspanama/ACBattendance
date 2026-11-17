@@ -1,0 +1,75 @@
+{
+ "league": "BSL",
+ "season": "2026-27",
+ "played": 62,
+ "with_attendance": 62,
+ "missing": 0,
+ "clubs": {
+  "Aliağa Petkim Spor": {
+   "played": 4,
+   "with_attendance": 4
+  },
+  "Anadolu Efes": {
+   "played": 4,
+   "with_attendance": 4
+  },
+  "Bahçeşehir Koleji": {
+   "played": 4,
+   "with_attendance": 4
+  },
+  "Beşiktaş": {
+   "played": 4,
+   "with_attendance": 4
+  },
+  "Biotekno Körfez Basket": {
+   "played": 4,
+   "with_attendance": 4
+  },
+  "Bursaspor Basketbol": {
+   "played": 4,
+   "with_attendance": 4
+  },
+  "Esenler Erokspor": {
+   "played": 4,
+   "with_attendance": 4
+  },
+  "Fenerbahçe Tarfin": {
+   "played": 4,
+   "with_attendance": 4
+  },
+  "Galatasaray Mct Technıc": {
+   "played": 4,
+   "with_attendance": 4
+  },
+  "Glint Çayırova Belediyesi": {
+   "played": 4,
+   "with_attendance": 4
+  },
+  "Karşıyaka": {
+   "played": 2,
+   "with_attendance": 2
+  },
+  "Pizzabulls Bordo Bandırma": {
+   "played": 4,
+   "with_attendance": 4
+  },
+  "Tofaş": {
+   "played": 4,
+   "with_attendance": 4
+  },
+  "Trabzonspor": {
+   "played": 4,
+   "with_attendance": 4
+  },
+  "Türk Telekom": {
+   "played": 4,
+   "with_attendance": 4
+  },
+  "Yukatel Denizli Basket": {
+   "played": 4,
+   "with_attendance": 4
+  }
+ },
+ "games": [],
+ "updated": "2026-11-17T07:52:02+00:00"
+}

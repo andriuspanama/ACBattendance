@@ -1,0 +1,320 @@
+{
+ "league": "GBL",
+ "season": "2026-27",
+ "played": 49,
+ "with_attendance": 13,
+ "missing": 36,
+ "clubs": {
+  "Aek": {
+   "played": 4,
+   "with_attendance": 0
+  },
+  "Aris": {
+   "played": 4,
+   "with_attendance": 3
+  },
+  "Iraklis": {
+   "played": 4,
+   "with_attendance": 2
+  },
+  "Karditsas": {
+   "played": 4,
+   "with_attendance": 2
+  },
+  "Kolossos Rhodes": {
+   "played": 4,
+   "with_attendance": 0
+  },
+  "Lefkadas": {
+   "played": 3,
+   "with_attendance": 2
+  },
+  "Maroussi": {
+   "played": 3,
+   "with_attendance": 0
+  },
+  "Mykonos": {
+   "played": 3,
+   "with_attendance": 1
+  },
+  "Olympiacos": {
+   "played": 2,
+   "with_attendance": 0
+  },
+  "PAOK": {
+   "played": 3,
+   "with_attendance": 0
+  },
+  "Panathinaikos": {
+   "played": 4,
+   "with_attendance": 0
+  },
+  "Peristeri": {
+   "played": 3,
+   "with_attendance": 0
+  },
+  "Promitheas": {
+   "played": 5,
+   "with_attendance": 1
+  },
+  "Vikos": {
+   "played": 3,
+   "with_attendance": 2
+  }
+ },
+ "games": [
+  {
+   "id": "0AA956E9",
+   "date": "2026-10-03",
+   "home": "Kolossos Rhodes",
+   "away": "Lefkadas",
+   "url": "https://www.flashscore.com/match/basketball/kolossos-rhodes-GYAcmr6n/lefkadas-0SuFkHq2/?mid=vHXK0s6L"
+  },
+  {
+   "id": "1F83E401",
+   "date": "2026-10-03",
+   "home": "Aek",
+   "away": "Maroussi",
+   "url": "https://www.flashscore.com/match/basketball/aek-athens-rNP3sgeq/maroussi-K8AGZZPg/?mid=zmJjeLTr"
+  },
+  {
+   "id": "47FBE805",
+   "date": "2026-10-03",
+   "home": "Mykonos",
+   "away": "PAOK",
+   "url": "https://www.flashscore.com/match/basketball/mykonos-Iqi5attH/paok-4UTqgXPe/?mid=WjUC23y9"
+  },
+  {
+   "id": "A7698911",
+   "date": "2026-10-03",
+   "home": "Karditsas",
+   "away": "Aris",
+   "url": "https://www.flashscore.com/match/basketball/aris-fND8BWOm/as-karditsas-EHW5nnIO/?mid=UTK6iwT7"
+  },
+  {
+   "id": "DAA7CA1B",
+   "date": "2026-10-03",
+   "home": "Promitheas",
+   "away": "Peristeri",
+   "url": "https://www.flashscore.com/match/basketball/peristeri-Q96Izpwc/promitheas-S4Sz9Nr5/?mid=M3Hbgabe"
+  },
+  {
+   "id": "4A03748D",
+   "date": "2026-10-04",
+   "home": "Iraklis",
+   "away": "Olympiacos",
+   "url": "https://www.flashscore.com/match/basketball/iraklis-SGslKQ8c/olympiacos-piraeus-ptNXXDf6/?mid=UmB0DKkR"
+  },
+  {
+   "id": "FDBBC910",
+   "date": "2026-10-04",
+   "home": "Panathinaikos",
+   "away": "Vikos",
+   "url": "https://www.flashscore.com/match/basketball/panathinaikos-bqRyXX9C/vikos-WQFA2uo8/?mid=MN7hFtLE"
+  },
+  {
+   "id": "08A5D3D2",
+   "date": "2026-10-10",
+   "home": "Maroussi",
+   "away": "Mykonos",
+   "url": "https://www.flashscore.com/match/basketball/maroussi-K8AGZZPg/mykonos-Iqi5attH/?mid=OEKAazAN"
+  },
+  {
+   "id": "28F71477",
+   "date": "2026-10-10",
+   "home": "PAOK",
+   "away": "Lefkadas",
+   "url": "https://www.flashscore.com/match/basketball/lefkadas-0SuFkHq2/paok-4UTqgXPe/?mid=fcBtfEXp"
+  },
+  {
+   "id": "3BB0E9E4",
+   "date": "2026-10-10",
+   "home": "Promitheas",
+   "away": "Panathinaikos",
+   "url": "https://www.flashscore.com/match/basketball/panathinaikos-bqRyXX9C/promitheas-S4Sz9Nr5/?mid=hvACbwI0"
+  },
+  {
+   "id": "C519D6ED",
+   "date": "2026-10-10",
+   "home": "Peristeri",
+   "away": "Iraklis",
+   "url": "https://www.flashscore.com/match/basketball/iraklis-SGslKQ8c/peristeri-Q96Izpwc/?mid=j1M21duB"
+  },
+  {
+   "id": "4930A53C",
+   "date": "2026-10-11",
+   "home": "Olympiacos",
+   "away": "Kolossos Rhodes",
+   "url": "https://www.flashscore.com/match/basketball/kolossos-rhodes-GYAcmr6n/olympiacos-piraeus-ptNXXDf6/?mid=04DKdHnD"
+  },
+  {
+   "id": "06B91358",
+   "date": "2026-10-17",
+   "home": "Aek",
+   "away": "Mykonos",
+   "url": "https://www.flashscore.com/match/basketball/aek-athens-rNP3sgeq/mykonos-Iqi5attH/?mid=SrFsEZOG"
+  },
+  {
+   "id": "4A05E464",
+   "date": "2026-10-17",
+   "home": "Kolossos Rhodes",
+   "away": "PAOK",
+   "url": "https://www.flashscore.com/match/basketball/kolossos-rhodes-GYAcmr6n/paok-4UTqgXPe/?mid=YssFeR8k"
+  },
+  {
+   "id": "B6A4C33F",
+   "date": "2026-10-17",
+   "home": "Iraklis",
+   "away": "Karditsas",
+   "url": "https://www.flashscore.com/match/basketball/as-karditsas-EHW5nnIO/iraklis-SGslKQ8c/?mid=Y1X8H8V8"
+  },
+  {
+   "id": "9BA09DF1",
+   "date": "2026-10-18",
+   "home": "Panathinaikos",
+   "away": "Peristeri",
+   "url": "https://www.flashscore.com/match/basketball/panathinaikos-bqRyXX9C/peristeri-Q96Izpwc/?mid=OtixFb2s"
+  },
+  {
+   "id": "2A098C20",
+   "date": "2026-10-24",
+   "home": "Mykonos",
+   "away": "Aris",
+   "url": "https://www.flashscore.com/match/basketball/aris-fND8BWOm/mykonos-Iqi5attH/?mid=zVLnAQNr"
+  },
+  {
+   "id": "8645D767",
+   "date": "2026-10-24",
+   "home": "Peristeri",
+   "away": "Maroussi",
+   "url": "https://www.flashscore.com/match/basketball/maroussi-K8AGZZPg/peristeri-Q96Izpwc/?mid=rFFlUoFE"
+  },
+  {
+   "id": "A904D6E3",
+   "date": "2026-10-24",
+   "home": "Panathinaikos",
+   "away": "Karditsas",
+   "url": "https://www.flashscore.com/match/basketball/as-karditsas-EHW5nnIO/panathinaikos-bqRyXX9C/?mid=d84qDxXg"
+  },
+  {
+   "id": "BD2162B8",
+   "date": "2026-10-24",
+   "home": "PAOK",
+   "away": "Aek",
+   "url": "https://www.flashscore.com/match/basketball/aek-athens-rNP3sgeq/paok-4UTqgXPe/?mid=jLS26rN7"
+  },
+  {
+   "id": "8C9531D2",
+   "date": "2026-10-25",
+   "home": "Kolossos Rhodes",
+   "away": "Vikos",
+   "url": "https://www.flashscore.com/match/basketball/kolossos-rhodes-GYAcmr6n/vikos-WQFA2uo8/?mid=UVDdSPqR"
+  },
+  {
+   "id": "7E63AA3B",
+   "date": "2026-10-31",
+   "home": "Maroussi",
+   "away": "Promitheas",
+   "url": "https://www.flashscore.com/match/basketball/maroussi-K8AGZZPg/promitheas-S4Sz9Nr5/?mid=htDTtPbK"
+  },
+  {
+   "id": "EE1F3C5A",
+   "date": "2026-10-31",
+   "home": "Karditsas",
+   "away": "Kolossos Rhodes",
+   "url": "https://www.flashscore.com/match/basketball/as-karditsas-EHW5nnIO/kolossos-rhodes-GYAcmr6n/?mid=YR2zLsx1"
+  },
+  {
+   "id": "F744FDDE",
+   "date": "2026-10-31",
+   "home": "Vikos",
+   "away": "Aek",
+   "url": "https://www.flashscore.com/match/basketball/aek-athens-rNP3sgeq/vikos-WQFA2uo8/?mid=0E4SM37l"
+  },
+  {
+   "id": "290643D4",
+   "date": "2026-11-01",
+   "home": "Olympiacos",
+   "away": "Peristeri",
+   "url": "https://www.flashscore.com/match/basketball/olympiacos-piraeus-ptNXXDf6/peristeri-Q96Izpwc/?mid=xn6a9fWI"
+  },
+  {
+   "id": "81203867",
+   "date": "2026-11-01",
+   "home": "Aris",
+   "away": "Panathinaikos",
+   "url": "https://www.flashscore.com/match/basketball/aris-fND8BWOm/panathinaikos-bqRyXX9C/?mid=4hboXcOP"
+  },
+  {
+   "id": "35DA2FB8",
+   "date": "2026-11-07",
+   "home": "Promitheas",
+   "away": "Karditsas",
+   "url": "https://www.flashscore.com/match/basketball/as-karditsas-EHW5nnIO/promitheas-S4Sz9Nr5/?mid=rDj9g2rQ"
+  },
+  {
+   "id": "7E44FE22",
+   "date": "2026-11-07",
+   "home": "Lefkadas",
+   "away": "Aris",
+   "url": "https://www.flashscore.com/match/basketball/aris-fND8BWOm/lefkadas-0SuFkHq2/?mid=dx27Ztif"
+  },
+  {
+   "id": "9B455F5D",
+   "date": "2026-11-07",
+   "home": "PAOK",
+   "away": "Vikos",
+   "url": "https://www.flashscore.com/match/basketball/paok-4UTqgXPe/vikos-WQFA2uo8/?mid=Eesult6m"
+  },
+  {
+   "id": "FC90483F",
+   "date": "2026-11-07",
+   "home": "Kolossos Rhodes",
+   "away": "Peristeri",
+   "url": "https://www.flashscore.com/match/basketball/kolossos-rhodes-GYAcmr6n/peristeri-Q96Izpwc/?mid=425FXKL6"
+  },
+  {
+   "id": "84DE99E9",
+   "date": "2026-11-08",
+   "home": "Maroussi",
+   "away": "Olympiacos",
+   "url": "https://www.flashscore.com/match/basketball/maroussi-K8AGZZPg/olympiacos-piraeus-ptNXXDf6/?mid=Y7lHRynm"
+  },
+  {
+   "id": "DF85EF86",
+   "date": "2026-11-08",
+   "home": "Aek",
+   "away": "Panathinaikos",
+   "url": "https://www.flashscore.com/match/basketball/aek-athens-rNP3sgeq/panathinaikos-bqRyXX9C/?mid=n9umnKz0"
+  },
+  {
+   "id": "51FB1AFE",
+   "date": "2026-11-14",
+   "home": "Aek",
+   "away": "Lefkadas",
+   "url": "https://www.flashscore.com/match/basketball/aek-athens-rNP3sgeq/lefkadas-0SuFkHq2/?mid=fZrepb5C"
+  },
+  {
+   "id": "7F2985F0",
+   "date": "2026-11-14",
+   "home": "Promitheas",
+   "away": "Iraklis",
+   "url": "https://www.flashscore.com/match/basketball/iraklis-SGslKQ8c/promitheas-S4Sz9Nr5/?mid=jacEkgsh"
+  },
+  {
+   "id": "179E7312",
+   "date": "2026-11-15",
+   "home": "Panathinaikos",
+   "away": "Kolossos Rhodes",
+   "url": "https://www.flashscore.com/match/basketball/kolossos-rhodes-GYAcmr6n/panathinaikos-bqRyXX9C/?mid=6LnPPFGa"
+  },
+  {
+   "id": "71EE959B",
+   "date": "2026-11-15",
+   "home": "Peristeri",
+   "away": "Mykonos",
+   "url": "https://www.flashscore.com/match/basketball/mykonos-Iqi5attH/peristeri-Q96Izpwc/?mid=bP0MmXB4"
+  }
+ ],
+ "updated": "2026-11-17T07:52:02+00:00"
+}

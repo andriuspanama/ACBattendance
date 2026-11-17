@@ -1,0 +1,91 @@
+{
+ "league": "BBL",
+ "season": "2026-27",
+ "played": 79,
+ "with_attendance": 78,
+ "missing": 1,
+ "clubs": {
+  "ALBA BERLIN": {
+   "played": 5,
+   "with_attendance": 5
+  },
+  "BMA365 Bamberg Baskets": {
+   "played": 4,
+   "with_attendance": 4
+  },
+  "Basketball Löwen Braunschweig": {
+   "played": 4,
+   "with_attendance": 4
+  },
+  "EWE Baskets Oldenburg": {
+   "played": 5,
+   "with_attendance": 5
+  },
+  "FC Bayern München Basketball": {
+   "played": 6,
+   "with_attendance": 6
+  },
+  "Fitness First Würzburg Baskets": {
+   "played": 4,
+   "with_attendance": 4
+  },
+  "MHP RIESEN Ludwigsburg": {
+   "played": 4,
+   "with_attendance": 4
+  },
+  "NINERS Chemnitz": {
+   "played": 4,
+   "with_attendance": 4
+  },
+  "Phoenix Hagen": {
+   "played": 5,
+   "with_attendance": 5
+  },
+  "RASTA Vechta": {
+   "played": 5,
+   "with_attendance": 5
+  },
+  "ROSTOCK SEAWOLVES": {
+   "played": 5,
+   "with_attendance": 5
+  },
+  "SKYLINERS": {
+   "played": 3,
+   "with_attendance": 3
+  },
+  "SYNTAINICS MBC": {
+   "played": 4,
+   "with_attendance": 4
+  },
+  "Science City Jena": {
+   "played": 4,
+   "with_attendance": 3
+  },
+  "Telekom Baskets Bonn": {
+   "played": 5,
+   "with_attendance": 5
+  },
+  "VET-CONCEPT Gladiators Trier": {
+   "played": 4,
+   "with_attendance": 4
+  },
+  "Veolia Towers Hamburg": {
+   "played": 4,
+   "with_attendance": 4
+  },
+  "ratiopharm ulm": {
+   "played": 4,
+   "with_attendance": 4
+  }
+ },
+ "games": [
+  {
+   "id": "2006864",
+   "date": "2026-11-09",
+   "home": "Science City Jena",
+   "away": "Veolia Towers Hamburg",
+   "url": "https://www.easycredit-bbl.de/spiele/2006864"
+  }
+ ],
+ "updated": "2026-11-17T07:52:02+00:00"
+}

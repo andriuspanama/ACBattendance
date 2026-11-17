@@ -1,0 +1,279 @@
+{
+ "league": "LBA",
+ "season": "2026-27",
+ "played": 64,
+ "with_attendance": 35,
+ "missing": 29,
+ "clubs": {
+  "APU Old Wild West Udine": {
+   "played": 4,
+   "with_attendance": 0
+  },
+  "Acqua S.Bernardo Cantù": {
+   "played": 4,
+   "with_attendance": 2
+  },
+  "Armani Olimpia Milano": {
+   "played": 4,
+   "with_attendance": 4
+  },
+  "BC Roma": {
+   "played": 4,
+   "with_attendance": 3
+  },
+  "Bertram Derthona Tortona": {
+   "played": 4,
+   "with_attendance": 4
+  },
+  "Dolomiti Energia Trentino": {
+   "played": 4,
+   "with_attendance": 4
+  },
+  "Longobardi Scafati Basket": {
+   "played": 4,
+   "with_attendance": 0
+  },
+  "Maxima Roma": {
+   "played": 4,
+   "with_attendance": 2
+  },
+  "Napoli Basketball": {
+   "played": 4,
+   "with_attendance": 2
+  },
+  "Nutribullet Treviso Basket": {
+   "played": 4,
+   "with_attendance": 4
+  },
+  "Openjobmetis Varese": {
+   "played": 4,
+   "with_attendance": 3
+  },
+  "Pallacanestro Trieste": {
+   "played": 4,
+   "with_attendance": 2
+  },
+  "Tezenis Verona": {
+   "played": 3,
+   "with_attendance": 0
+  },
+  "UNA Hotels Reggio Emilia": {
+   "played": 5,
+   "with_attendance": 5
+  },
+  "Umana Reyer Venezia": {
+   "played": 4,
+   "with_attendance": 0
+  },
+  "Virtus Costa Bologna": {
+   "played": 4,
+   "with_attendance": 0
+  }
+ },
+ "games": [
+  {
+   "id": "25603",
+   "date": "2026-09-26",
+   "home": "Umana Reyer Venezia",
+   "away": "Acqua S.Bernardo Cantù",
+   "url": "https://www.legabasket.it/game/25603"
+  },
+  {
+   "id": "25604",
+   "date": "2026-09-27",
+   "home": "Maxima Roma",
+   "away": "Napoli Basketball",
+   "url": "https://www.legabasket.it/game/25604"
+  },
+  {
+   "id": "25606",
+   "date": "2026-09-27",
+   "home": "Openjobmetis Varese",
+   "away": "Virtus Costa Bologna",
+   "url": "https://www.legabasket.it/game/25606"
+  },
+  {
+   "id": "25607",
+   "date": "2026-09-27",
+   "home": "APU Old Wild West Udine",
+   "away": "Longobardi Scafati Basket",
+   "url": "https://www.legabasket.it/game/25607"
+  },
+  {
+   "id": "25368",
+   "date": "2026-10-04",
+   "home": "Virtus Costa Bologna",
+   "away": "Maxima Roma",
+   "url": "https://www.legabasket.it/game/25368"
+  },
+  {
+   "id": "25372",
+   "date": "2026-10-04",
+   "home": "Pallacanestro Trieste",
+   "away": "Umana Reyer Venezia",
+   "url": "https://www.legabasket.it/game/25372"
+  },
+  {
+   "id": "25374",
+   "date": "2026-10-04",
+   "home": "Longobardi Scafati Basket",
+   "away": "Openjobmetis Varese",
+   "url": "https://www.legabasket.it/game/25374"
+  },
+  {
+   "id": "25370",
+   "date": "2026-10-05",
+   "home": "Tezenis Verona",
+   "away": "Armani Olimpia Milano",
+   "url": "https://www.legabasket.it/game/25370"
+  },
+  {
+   "id": "25375",
+   "date": "2026-10-05",
+   "home": "Acqua S.Bernardo Cantù",
+   "away": "APU Old Wild West Udine",
+   "url": "https://www.legabasket.it/game/25375"
+  },
+  {
+   "id": "25383",
+   "date": "2026-10-10",
+   "home": "APU Old Wild West Udine",
+   "away": "Dolomiti Energia Trentino",
+   "url": "https://www.legabasket.it/game/25383"
+  },
+  {
+   "id": "25377",
+   "date": "2026-10-11",
+   "home": "Umana Reyer Venezia",
+   "away": "Virtus Costa Bologna",
+   "url": "https://www.legabasket.it/game/25377"
+  },
+  {
+   "id": "25379",
+   "date": "2026-10-11",
+   "home": "Longobardi Scafati Basket",
+   "away": "Tezenis Verona",
+   "url": "https://www.legabasket.it/game/25379"
+  },
+  {
+   "id": "25382",
+   "date": "2026-10-11",
+   "home": "Acqua S.Bernardo Cantù",
+   "away": "Napoli Basketball",
+   "url": "https://www.legabasket.it/game/25382"
+  },
+  {
+   "id": "25384",
+   "date": "2026-10-18",
+   "home": "Virtus Costa Bologna",
+   "away": "Longobardi Scafati Basket",
+   "url": "https://www.legabasket.it/game/25384"
+  },
+  {
+   "id": "25386",
+   "date": "2026-10-18",
+   "home": "Tezenis Verona",
+   "away": "UNA Hotels Reggio Emilia",
+   "url": "https://www.legabasket.it/game/25386"
+  },
+  {
+   "id": "25391",
+   "date": "2026-10-18",
+   "home": "Napoli Basketball",
+   "away": "Armani Olimpia Milano",
+   "url": "https://www.legabasket.it/game/25391"
+  },
+  {
+   "id": "25397",
+   "date": "2026-10-24",
+   "home": "Longobardi Scafati Basket",
+   "away": "Dolomiti Energia Trentino",
+   "url": "https://www.legabasket.it/game/25397"
+  },
+  {
+   "id": "25394",
+   "date": "2026-10-25",
+   "home": "Pallacanestro Trieste",
+   "away": "Tezenis Verona",
+   "url": "https://www.legabasket.it/game/25394"
+  },
+  {
+   "id": "25395",
+   "date": "2026-10-25",
+   "home": "Umana Reyer Venezia",
+   "away": "Nutribullet Treviso Basket",
+   "url": "https://www.legabasket.it/game/25395"
+  },
+  {
+   "id": "25396",
+   "date": "2026-10-25",
+   "home": "Maxima Roma",
+   "away": "APU Old Wild West Udine",
+   "url": "https://www.legabasket.it/game/25396"
+  },
+  {
+   "id": "25401",
+   "date": "2026-10-31",
+   "home": "BC Roma",
+   "away": "Longobardi Scafati Basket",
+   "url": "https://www.legabasket.it/game/25401"
+  },
+  {
+   "id": "25402",
+   "date": "2026-10-31",
+   "home": "Tezenis Verona",
+   "away": "Openjobmetis Varese",
+   "url": "https://www.legabasket.it/game/25402"
+  },
+  {
+   "id": "25407",
+   "date": "2026-11-01",
+   "home": "APU Old Wild West Udine",
+   "away": "Bertram Derthona Tortona",
+   "url": "https://www.legabasket.it/game/25407"
+  },
+  {
+   "id": "25400",
+   "date": "2026-11-02",
+   "home": "Virtus Costa Bologna",
+   "away": "Pallacanestro Trieste",
+   "url": "https://www.legabasket.it/game/25400"
+  },
+  {
+   "id": "25413",
+   "date": "2026-11-08",
+   "home": "Longobardi Scafati Basket",
+   "away": "Napoli Basketball",
+   "url": "https://www.legabasket.it/game/25413"
+  },
+  {
+   "id": "25408",
+   "date": "2026-11-09",
+   "home": "Virtus Costa Bologna",
+   "away": "Tezenis Verona",
+   "url": "https://www.legabasket.it/game/25408"
+  },
+  {
+   "id": "25419",
+   "date": "2026-11-15",
+   "home": "Umana Reyer Venezia",
+   "away": "Maxima Roma",
+   "url": "https://www.legabasket.it/game/25419"
+  },
+  {
+   "id": "25420",
+   "date": "2026-11-15",
+   "home": "Napoli Basketball",
+   "away": "Pallacanestro Trieste",
+   "url": "https://www.legabasket.it/game/25420"
+  },
+  {
+   "id": "25423",
+   "date": "2026-11-15",
+   "home": "APU Old Wild West Udine",
+   "away": "Armani Olimpia Milano",
+   "url": "https://www.legabasket.it/game/25423"
+  }
+ ],
+ "updated": "2026-11-17T07:52:02+00:00"
+}

@@ -1,0 +1,117 @@
+{
+ "league": "Winner League",
+ "season": "2026-27",
+ "played": 41,
+ "with_attendance": 34,
+ "missing": 7,
+ "clubs": {
+  "Bnei Penlink Herzliya": {
+   "played": 3,
+   "with_attendance": 3
+  },
+  "Hapoel Alfi Benedek Galil Elion": {
+   "played": 3,
+   "with_attendance": 3
+  },
+  "Hapoel Altshuler Shaham Beer Sheva/Dimona": {
+   "played": 2,
+   "with_attendance": 2
+  },
+  "Hapoel Gilat Telecom Haemek": {
+   "played": 2,
+   "with_attendance": 2
+  },
+  "Hapoel IBI Tel Aviv": {
+   "played": 3,
+   "with_attendance": 3
+  },
+  "Hapoel Irony Eilat": {
+   "played": 2,
+   "with_attendance": 2
+  },
+  "Hapoel Maoz Daniel Holon": {
+   "played": 4,
+   "with_attendance": 3
+  },
+  "Hapoel Midtown Jerusalem": {
+   "played": 3,
+   "with_attendance": 3
+  },
+  "Ironi Hai Motors Ness Ziona": {
+   "played": 2,
+   "with_attendance": 2
+  },
+  "Ironi Lati Kiryat Ata": {
+   "played": 3,
+   "with_attendance": 1
+  },
+  "Maccabi Cnaan Group Ramat Gan": {
+   "played": 3,
+   "with_attendance": 0
+  },
+  "Maccabi Rapyd Tel Aviv": {
+   "played": 4,
+   "with_attendance": 4
+  },
+  "Maccabi Rotshtein Ashdod": {
+   "played": 3,
+   "with_attendance": 3
+  },
+  "Maccabi Tapuzina Rishon LeZion": {
+   "played": 4,
+   "with_attendance": 3
+  }
+ },
+ "games": [
+  {
+   "id": "26649",
+   "date": "2026-10-11",
+   "home": "Ironi Lati Kiryat Ata",
+   "away": "Hapoel Gilat Telecom Haemek",
+   "url": "https://basket.co.il/game-zone.asp?GameId=26649&lang=en"
+  },
+  {
+   "id": "26665",
+   "date": "2026-10-26",
+   "home": "Maccabi Cnaan Group Ramat Gan",
+   "away": "Ironi Lati Kiryat Ata",
+   "url": "https://basket.co.il/game-zone.asp?GameId=26665&lang=en"
+  },
+  {
+   "id": "26677",
+   "date": "2026-11-07",
+   "home": "Maccabi Cnaan Group Ramat Gan",
+   "away": "Maccabi Tapuzina Rishon LeZion",
+   "url": "https://basket.co.il/game-zone.asp?GameId=26677&lang=en"
+  },
+  {
+   "id": "26681",
+   "date": "2026-11-15",
+   "home": "Maccabi Cnaan Group Ramat Gan",
+   "away": "Ironi Hai Motors Ness Ziona",
+   "url": "https://basket.co.il/game-zone.asp?GameId=26681&lang=en"
+  },
+  {
+   "id": "26686",
+   "date": "2026-11-15",
+   "home": "Ironi Lati Kiryat Ata",
+   "away": "Maccabi Rotshtein Ashdod",
+   "url": "https://basket.co.il/game-zone.asp?GameId=26686&lang=en"
+  },
+  {
+   "id": "26684",
+   "date": "2026-11-16",
+   "home": "Maccabi Tapuzina Rishon LeZion",
+   "away": "Hapoel Altshuler Shaham Beer Sheva/Dimona",
+   "url": "https://basket.co.il/game-zone.asp?GameId=26684&lang=en"
+  },
+  {
+   "id": "26685",
+   "date": "2026-11-16",
+   "home": "Hapoel Maoz Daniel Holon",
+   "away": "Hapoel Gilat Telecom Haemek",
+   "url": "https://basket.co.il/game-zone.asp?GameId=26685&lang=en"
+  }
+ ],
+ "updated": "2026-11-17T07:52:02+00:00"
+}
