@@ -1,7 +1,7 @@
 {
   "league": "LKL",
   "season": "2026-27",
-  "updated": "2026-11-18T07:58:20+00:00",
+  "updated": "2026-11-18T20:54:55+00:00",
   "clubs": [
     {
       "league": "LKL",
@@ -87,9 +87,9 @@
       "league": "LKL",
       "season": "2026-27",
       "club": "Nevezis",
-      "home_games_counted": 5,
-      "average": 988,
-      "total": 4942,
+      "home_games_counted": 6,
+      "average": 1007,
+      "total": 6042,
       "max": 1600,
       "min": 664
     },
