@@ -1,8 +1,8 @@
 {
  "league": "LEBL",
  "season": "2026-27",
- "played": 73,
- "with_attendance": 73,
+ "played": 74,
+ "with_attendance": 74,
  "missing": 0,
  "clubs": {
   "BC Pärnu": {
@@ -46,8 +46,8 @@
    "with_attendance": 5
   },
   "TalTech/ALEXELA": {
-   "played": 4,
-   "with_attendance": 4
+   "played": 5,
+   "with_attendance": 5
   },
   "Tartu Ülikool Maks & Moorits": {
    "played": 4,
@@ -67,5 +67,5 @@
   }
  },
  "games": [],
- "updated": "2026-11-17T21:44:12+00:00"
+ "updated": "2026-11-18T21:22:31+00:00"
 }

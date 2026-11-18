@@ -1,7 +1,7 @@
 {
  "league": "LEBL",
  "season": "2026-27",
- "updated": "2026-11-17T21:44:09+00:00",
+ "updated": "2026-11-18T21:22:29+00:00",
  "clubs": [
   {
    "club": "BC Pärnu",
@@ -175,15 +175,15 @@
   },
   {
    "club": "TalTech/ALEXELA",
-   "home_games_counted": 4,
-   "games_with_capacity": 4,
+   "home_games_counted": 5,
+   "games_with_capacity": 5,
    "capacity": 1000,
    "weighted_capacity": 1000,
-   "filling_rate": 0.7392,
+   "filling_rate": 0.7198,
    "arenas": [
     {
      "arena": "Tallinn, TalTech Spordihoone",
-     "games": 4,
+     "games": 5,
      "capacity": 1000
     }
    ]
@@ -260,7 +260,7 @@
   }
  ],
  "unknown_arenas": [],
- "last_attendance_game": "2026-11-17",
+ "last_attendance_game": "2026-11-18",
  "games": {
   "2027212141": {
    "arena": "Komandas Sporta Spelu Halle",
@@ -552,6 +552,10 @@
   },
   "2027212146": {
    "arena": "Daugavas sporta nams",
+   "capacity": 1000
+  },
+  "2027212005": {
+   "arena": "Tallinn, TalTech Spordihoone",
    "capacity": 1000
   }
  }

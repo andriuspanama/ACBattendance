@@ -1,6 +1,6 @@
 {
  "season": "2026-27",
- "updated": "2026-11-17T21:44:09+00:00",
+ "updated": "2026-11-18T21:22:29+00:00",
  "clubs": {
   "ADA Blois Basket 41": {
    "arena": "Le Jeu de Paume",
@@ -2134,8 +2134,8 @@
    "capacity": 2200,
    "league": "LKL",
    "source": "games",
-   "games": 5,
-   "of_games": 5,
+   "games": 6,
+   "of_games": 6,
    "league_name": "Nevezis"
   },
   "New Zealand Breakers": {
@@ -2146,8 +2146,8 @@
    "capacity": 9740,
    "league": "NBL",
    "source": "games",
-   "games": 4,
-   "of_games": 4,
+   "games": 5,
+   "of_games": 5,
    "league_name": "NZ Breakers"
   },
   "Niners Chemnitz": {
@@ -2776,8 +2776,8 @@
    "capacity": 1000,
    "league": "LEBL",
    "source": "games",
-   "games": 4,
-   "of_games": 4,
+   "games": 5,
+   "of_games": 5,
    "league_name": "TalTech/ALEXELA"
   },
   "Tampereen Pyrinto": {

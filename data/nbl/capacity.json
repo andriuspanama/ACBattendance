@@ -1,7 +1,7 @@
 {
  "league": "NBL",
  "season": "2026-27",
- "updated": "2026-11-15T19:21:27+00:00",
+ "updated": "2026-11-18T21:22:29+00:00",
  "clubs": [
   {
    "club": "Adelaide 36ers",
@@ -90,15 +90,15 @@
   },
   {
    "club": "NZ Breakers",
-   "home_games_counted": 4,
-   "games_with_capacity": 4,
+   "home_games_counted": 5,
+   "games_with_capacity": 5,
    "capacity": 9740,
    "weighted_capacity": 9740,
-   "filling_rate": 0.4402,
+   "filling_rate": 0.4326,
    "arenas": [
     {
      "arena": "Spark Arena",
-     "games": 4,
+     "games": 5,
      "capacity": 9740
     }
    ]
@@ -180,7 +180,7 @@
   }
  ],
  "unknown_arenas": [],
- "last_attendance_game": "2026-11-15",
+ "last_attendance_game": "2026-11-18",
  "games": {
   "36dbeb55-58ad-11f1-a69b-43a6b5595d3e": {
    "arena": "John Cain Arena",
@@ -453,6 +453,10 @@
   "37470d73-58ad-11f1-9bf1-130129845108": {
    "arena": "Brisbane Entertainment Centre",
    "capacity": 10500
+  },
+  "3748f8f0-58ad-11f1-bb02-b15d4ea6aed8": {
+   "arena": "Spark Arena",
+   "capacity": 9740
   }
  }
 }

@@ -1,7 +1,7 @@
 {
  "league": "LKL",
  "season": "2026-27",
- "updated": "2026-11-16T07:55:20+00:00",
+ "updated": "2026-11-18T21:22:29+00:00",
  "clubs": [
   {
    "club": "Gargzdai",
@@ -80,15 +80,15 @@
   },
   {
    "club": "Nevezis",
-   "home_games_counted": 5,
-   "games_with_capacity": 5,
+   "home_games_counted": 6,
+   "games_with_capacity": 6,
    "capacity": 2200,
    "weighted_capacity": 2200,
-   "filling_rate": 0.4493,
+   "filling_rate": 0.4577,
    "arenas": [
     {
      "arena": "Kėdainių arena",
-     "games": 5,
+     "games": 6,
      "capacity": 2200
     }
    ]
@@ -155,7 +155,7 @@
   }
  ],
  "unknown_arenas": [],
- "last_attendance_game": "2026-11-15",
+ "last_attendance_game": "2026-11-18",
  "games": {
   "0YhgbKyo": {
    "arena": "Kalnapilio arena",
@@ -352,6 +352,10 @@
   "xhTKY0Dc": {
    "arena": "Tauragės Arena",
    "capacity": 1800
+  },
+  "zVJENz5d": {
+   "arena": "Kėdainių arena",
+   "capacity": 2200
   }
  }
 }
