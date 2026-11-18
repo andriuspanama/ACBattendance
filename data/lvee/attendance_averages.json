@@ -1,7 +1,7 @@
 {
   "league": "LEBL",
   "season": "2026-27",
-  "updated": "2026-11-18T07:42:19+00:00",
+  "updated": "2026-11-18T20:42:14+00:00",
   "clubs": [
     {
       "league": "LEBL",
@@ -59,15 +59,15 @@
       "league": "LEBL",
       "season": "2026-27",
       "club": "TalTech/ALEXELA",
-      "home_games_counted": 4,
-      "average": 739,
-      "total": 2957,
+      "home_games_counted": 5,
+      "average": 720,
+      "total": 3599,
       "max": 794,
-      "min": 697,
+      "min": 642,
       "arenas": [
         {
           "arena": "Tallinn TalTech Spordihoone",
-          "games": 4
+          "games": 5
         }
       ]
     },
