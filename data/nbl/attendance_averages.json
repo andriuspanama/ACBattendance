@@ -1,7 +1,7 @@
 {
   "league": "NBL",
   "season": "2026-27",
-  "updated": "2026-11-19T07:37:57+00:00",
+  "updated": "2026-11-19T20:47:41+00:00",
   "clubs": [
     {
       "league": "NBL",
@@ -171,15 +171,15 @@
       "league": "NBL",
       "season": "2026-27",
       "club": "Illawarra Hawks",
-      "home_games_counted": 5,
-      "average": 3922,
-      "total": 19610,
+      "home_games_counted": 6,
+      "average": 3892,
+      "total": 23352,
       "max": 4025,
-      "min": 3814,
+      "min": 3742,
       "arenas": [
         {
           "arena": "WIN Entertainment Centre",
-          "games": 5
+          "games": 6
         }
       ]
     }
