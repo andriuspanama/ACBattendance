@@ -1,6 +1,6 @@
 {
  "season": "2026-27",
- "updated": "2026-11-18T21:22:32+00:00",
+ "updated": "2026-11-19T21:26:31+00:00",
  "model": {
   "source": "Fan_attraction_index_combined.xlsx, Europe 25-26 (frozen for 2026-27)",
   "europe": {
@@ -46,7 +46,7 @@
    "eligible": 10,
    "coverage": 1.0,
    "method": "this season",
-   "typical_attendance": 5954,
+   "typical_attendance": 5949,
    "typical_population": 1256203
   },
   "Korisliiga": {
@@ -957,8 +957,8 @@
    "arena_full": true,
    "expected_europe": 4373,
    "index_europe": 2.295,
-   "expected_league": 6045,
-   "index_league": 1.66,
+   "expected_league": 6040,
+   "index_league": 1.662,
    "profile": "Strong in own league and in Europe"
   },
   {
@@ -975,7 +975,7 @@
    "arena_full": false,
    "expected_europe": 4850,
    "index_europe": 0.856,
-   "expected_league": 6400,
+   "expected_league": 6395,
    "index_league": 0.649,
    "profile": "Below own league and Europe"
   },
@@ -993,8 +993,8 @@
    "arena_full": false,
    "expected_europe": 2736,
    "index_europe": 1.567,
-   "expected_league": 4968,
-   "index_league": 0.863,
+   "expected_league": 4964,
+   "index_league": 0.864,
    "profile": "Below own league, above Europe"
   },
   {
@@ -1003,16 +1003,16 @@
    "club": "Illawarra Hawks",
    "population": 322343.0,
    "area": "Wollongong",
-   "home_games": 5,
-   "reported_games": 5,
-   "average": 3922,
+   "home_games": 6,
+   "reported_games": 6,
+   "average": 3892,
    "eligible": true,
-   "filling_rate": 0.6537,
+   "filling_rate": 0.6487,
    "arena_full": false,
    "expected_europe": 3237,
-   "index_europe": 1.212,
-   "expected_league": 5276,
-   "index_league": 0.743,
+   "index_europe": 1.203,
+   "expected_league": 5271,
+   "index_league": 0.738,
    "profile": "Below own league, above Europe"
   },
   {
@@ -1029,8 +1029,8 @@
    "arena_full": false,
    "expected_europe": 5333,
    "index_europe": 1.462,
-   "expected_league": 6782,
-   "index_league": 1.15,
+   "expected_league": 6776,
+   "index_league": 1.151,
    "profile": "Strong in own league and in Europe"
   },
   {
@@ -1047,7 +1047,7 @@
    "arena_full": false,
    "expected_europe": 4520,
    "index_europe": 0.932,
-   "expected_league": 6152,
+   "expected_league": 6147,
    "index_league": 0.685,
    "profile": "Below own league, in line with Europe"
   },
@@ -1065,8 +1065,8 @@
    "arena_full": false,
    "expected_europe": 4743,
    "index_europe": 2.332,
-   "expected_league": 6319,
-   "index_league": 1.75,
+   "expected_league": 6313,
+   "index_league": 1.752,
    "profile": "Strong in own league and in Europe"
   },
   {
@@ -1083,8 +1083,8 @@
    "arena_full": false,
    "expected_europe": 5333,
    "index_europe": 1.297,
-   "expected_league": 6782,
-   "index_league": 1.02,
+   "expected_league": 6776,
+   "index_league": 1.021,
    "profile": "In line with own league, above Europe"
   },
   {
@@ -1101,8 +1101,8 @@
    "arena_full": false,
    "expected_europe": 5361,
    "index_europe": 1.816,
-   "expected_league": 6804,
-   "index_league": 1.431,
+   "expected_league": 6798,
+   "index_league": 1.432,
    "profile": "Strong in own league and in Europe"
   },
   {
@@ -1119,7 +1119,7 @@
    "arena_full": true,
    "expected_europe": 3063,
    "index_europe": 1.315,
-   "expected_league": 5167,
+   "expected_league": 5163,
    "index_league": 0.78,
    "profile": "Below own league, above Europe"
   },

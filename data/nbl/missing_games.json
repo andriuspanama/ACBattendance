@@ -1,8 +1,8 @@
 {
  "league": "NBL",
  "season": "2026-27",
- "played": 69,
- "with_attendance": 69,
+ "played": 70,
+ "with_attendance": 70,
  "missing": 0,
  "clubs": {
   "Adelaide 36ers": {
@@ -18,8 +18,8 @@
    "with_attendance": 6
   },
   "Illawarra Hawks": {
-   "played": 5,
-   "with_attendance": 5
+   "played": 6,
+   "with_attendance": 6
   },
   "Melbourne United": {
    "played": 7,
@@ -47,5 +47,5 @@
   }
  },
  "games": [],
- "updated": "2026-11-18T21:22:31+00:00"
+ "updated": "2026-11-19T21:26:31+00:00"
 }
