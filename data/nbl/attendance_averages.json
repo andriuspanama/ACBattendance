@@ -1,7 +1,7 @@
 {
   "league": "NBL",
   "season": "2026-27",
-  "updated": "2026-11-20T07:29:56+00:00",
+  "updated": "2026-11-20T20:31:45+00:00",
   "clubs": [
     {
       "league": "NBL",
@@ -95,15 +95,15 @@
       "league": "NBL",
       "season": "2026-27",
       "club": "Cairns Taipans",
-      "home_games_counted": 6,
-      "average": 4288,
-      "total": 25725,
+      "home_games_counted": 7,
+      "average": 4261,
+      "total": 29824,
       "max": 4636,
       "min": 4016,
       "arenas": [
         {
           "arena": "Cairns Convention Centre",
-          "games": 6
+          "games": 7
         }
       ]
     },
