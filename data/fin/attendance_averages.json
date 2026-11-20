@@ -1,7 +1,7 @@
 {
   "league": "Korisliiga",
   "season": "2026-27",
-  "updated": "2026-11-20T07:30:08+00:00",
+  "updated": "2026-11-20T20:33:49+00:00",
   "clubs": [
     {
       "league": "Korisliiga",
@@ -23,15 +23,15 @@
       "league": "Korisliiga",
       "season": "2026-27",
       "club": "Salon Vilpas",
-      "home_games_counted": 4,
-      "average": 1386,
-      "total": 5544,
-      "max": 1406,
+      "home_games_counted": 5,
+      "average": 1394,
+      "total": 6968,
+      "max": 1424,
       "min": 1356,
       "arenas": [
         {
           "arena": "Salohalli",
-          "games": 4
+          "games": 5
         }
       ]
     },
@@ -75,15 +75,15 @@
       "league": "Korisliiga",
       "season": "2026-27",
       "club": "KTP-Basket",
-      "home_games_counted": 5,
-      "average": 1088,
-      "total": 5442,
+      "home_games_counted": 6,
+      "average": 1085,
+      "total": 6511,
       "max": 1182,
       "min": 1035,
       "arenas": [
         {
           "arena": "Steveco Areena",
-          "games": 5
+          "games": 6
         }
       ]
     },
@@ -171,15 +171,15 @@
       "league": "Korisliiga",
       "season": "2026-27",
       "club": "Korihait",
-      "home_games_counted": 5,
-      "average": 728,
-      "total": 3640,
+      "home_games_counted": 6,
+      "average": 734,
+      "total": 4405,
       "max": 785,
       "min": 642,
       "arenas": [
         {
           "arena": "Wintteri",
-          "games": 5
+          "games": 6
         }
       ]
     },
