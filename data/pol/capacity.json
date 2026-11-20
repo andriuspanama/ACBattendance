@@ -1,7 +1,7 @@
 {
  "league": "PLK",
  "season": "2026-27",
- "updated": "2026-11-16T22:51:53+00:00",
+ "updated": "2026-11-20T21:02:04+00:00",
  "clubs": [
   {
    "club": "AMW Arka Gdynia",
@@ -130,15 +130,15 @@
   },
   {
    "club": "Górnik Zamek Książ Wałbrzych",
-   "home_games_counted": 1,
-   "games_with_capacity": 1,
+   "home_games_counted": 2,
+   "games_with_capacity": 2,
    "capacity": 3000,
    "weighted_capacity": 3000,
-   "filling_rate": 0.725,
+   "filling_rate": 0.7252,
    "arenas": [
     {
      "arena": "Hala Widowiskowo-Sportowa Aqua Zdrój",
-     "games": 1,
+     "games": 2,
      "capacity": 3000
     }
    ]
@@ -268,7 +268,7 @@
    ]
   }
  ],
- "last_attendance_game": "2026-11-16",
+ "last_attendance_game": "2026-11-20",
  "games": {
   "223465": {
    "arena": "Hala Sportowa 100-lecia Sopotu",
@@ -461,6 +461,10 @@
   "223513": {
    "arena": "Hala Gryfia",
    "capacity": 2249
+  },
+  "223522": {
+   "arena": "Hala Widowiskowo-Sportowa Aqua Zdrój",
+   "capacity": 3000
   }
  }
 }

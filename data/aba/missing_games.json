@@ -1,8 +1,8 @@
 {
  "league": "ABA",
  "season": "2026-27",
- "played": 70,
- "with_attendance": 68,
+ "played": 72,
+ "with_attendance": 70,
  "missing": 2,
  "clubs": {
   "BC Vienna": {
@@ -41,6 +41,10 @@
    "played": 3,
    "with_attendance": 3
   },
+  "FMP MrBit": {
+   "played": 1,
+   "with_attendance": 1
+  },
   "HKK Široki TT Kabeli": {
    "played": 3,
    "with_attendance": 3
@@ -50,8 +54,8 @@
    "with_attendance": 5
   },
   "Krka": {
-   "played": 5,
-   "with_attendance": 5
+   "played": 6,
+   "with_attendance": 6
   },
   "Mega Superbet": {
    "played": 3,
@@ -102,5 +106,5 @@
    "url": "https://www.aba-liga.com/match/16/26/1/Overview/q1/1/home/partizan-mozzart-bet-mega-superbet/"
   }
  ],
- "updated": "2026-11-17T07:52:02+00:00"
+ "updated": "2026-11-20T21:02:07+00:00"
 }

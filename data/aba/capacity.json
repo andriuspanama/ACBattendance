@@ -1,7 +1,7 @@
 {
  "league": "ABA",
  "season": "2026-27",
- "updated": "2026-11-16T22:51:53+00:00",
+ "updated": "2026-11-20T21:02:04+00:00",
  "clubs": [
   {
    "club": "BC Vienna",
@@ -144,6 +144,21 @@
    ]
   },
   {
+   "club": "FMP MrBit",
+   "home_games_counted": 1,
+   "games_with_capacity": 1,
+   "capacity": 3000,
+   "weighted_capacity": 3000,
+   "filling_rate": 0.2773,
+   "arenas": [
+    {
+     "arena": "Arena KK FMP",
+     "games": 1,
+     "capacity": 3000
+    }
+   ]
+  },
+  {
    "club": "HKK Široki TT Kabeli",
    "home_games_counted": 3,
    "games_with_capacity": 3,
@@ -175,15 +190,15 @@
   },
   {
    "club": "Krka",
-   "home_games_counted": 5,
-   "games_with_capacity": 5,
+   "home_games_counted": 6,
+   "games_with_capacity": 6,
    "capacity": 2500,
    "weighted_capacity": 2500,
-   "filling_rate": 0.312,
+   "filling_rate": 0.3,
    "arenas": [
     {
      "arena": "ŠD Leona Štuklja Novo Mesto",
-     "games": 5,
+     "games": 6,
      "capacity": 2500
     }
    ]
@@ -320,7 +335,7 @@
   }
  ],
  "unknown_arenas": [],
- "last_attendance_game": "2026-11-16",
+ "last_attendance_game": "2026-11-20",
  "games": {
   "13": {
    "arena": "ŠD Leona Štuklja Novo Mesto",
@@ -601,6 +616,14 @@
   "80": {
    "arena": "Sportski centar Morača",
    "capacity": 6000
+  },
+  "84": {
+   "arena": "ŠD Leona Štuklja Novo Mesto",
+   "capacity": 2500
+  },
+  "85": {
+   "arena": "Arena KK FMP",
+   "capacity": 3000
   }
  }
 }

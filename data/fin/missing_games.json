@@ -1,8 +1,8 @@
 {
  "league": "Korisliiga",
  "season": "2026-27",
- "played": 65,
- "with_attendance": 65,
+ "played": 68,
+ "with_attendance": 68,
  "missing": 0,
  "clubs": {
   "Bisons Loimaa": {
@@ -14,8 +14,8 @@
    "with_attendance": 6
   },
   "KTP-Basket": {
-   "played": 5,
-   "with_attendance": 5
+   "played": 6,
+   "with_attendance": 6
   },
   "Kataja Basket": {
    "played": 6,
@@ -30,8 +30,8 @@
    "with_attendance": 5
   },
   "Korihait": {
-   "played": 5,
-   "with_attendance": 5
+   "played": 6,
+   "with_attendance": 6
   },
   "Kouvot": {
    "played": 6,
@@ -42,8 +42,8 @@
    "with_attendance": 6
   },
   "Salon Vilpas": {
-   "played": 4,
-   "with_attendance": 4
+   "played": 5,
+   "with_attendance": 5
   },
   "Tampereen Pyrintö": {
    "played": 5,
@@ -55,5 +55,5 @@
   }
  },
  "games": [],
- "updated": "2026-11-17T07:52:02+00:00"
+ "updated": "2026-11-20T21:02:07+00:00"
 }

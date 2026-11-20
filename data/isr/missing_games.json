@@ -1,8 +1,8 @@
 {
  "league": "Winner League",
  "season": "2026-27",
- "played": 41,
- "with_attendance": 34,
+ "played": 42,
+ "with_attendance": 35,
  "missing": 7,
  "clubs": {
   "Bnei Penlink Herzliya": {
@@ -34,8 +34,8 @@
    "with_attendance": 3
   },
   "Hapoel Midtown Jerusalem": {
-   "played": 3,
-   "with_attendance": 3
+   "played": 4,
+   "with_attendance": 4
   },
   "Ironi Hai Motors Ness Ziona": {
    "played": 2,
@@ -113,5 +113,5 @@
    "url": "https://basket.co.il/game-zone.asp?GameId=26685&lang=en"
   }
  ],
- "updated": "2026-11-17T07:52:02+00:00"
+ "updated": "2026-11-20T21:02:07+00:00"
 }

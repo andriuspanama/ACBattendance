@@ -1,6 +1,6 @@
 {
  "season": "2026-27",
- "updated": "2026-11-20T08:28:47+00:00",
+ "updated": "2026-11-20T21:02:04+00:00",
  "clubs": {
   "ADA Blois Basket 41": {
    "arena": "Le Jeu de Paume",
@@ -805,8 +805,8 @@
    "capacity": 5300,
    "league": "NBL",
    "source": "games",
-   "games": 6,
-   "of_games": 6,
+   "games": 7,
+   "of_games": 7,
    "league_name": "Cairns Taipans"
   },
   "Caledonia Gladiators": {
@@ -1261,8 +1261,8 @@
    "capacity": 3000,
    "league": "PLK",
    "source": "games",
-   "games": 1,
-   "of_games": 1,
+   "games": 2,
+   "of_games": 2,
    "league_name": "Górnik Zamek Książ Wałbrzych"
   },
   "Granada": {
@@ -1612,9 +1612,9 @@
    "capacity": 3000,
    "league": "ABA",
    "source": "games",
-   "games": 3,
-   "of_games": 3,
-   "league_name": "FMP"
+   "games": 1,
+   "of_games": 1,
+   "league_name": "FMP MrBit"
   },
   "KK Igokea": {
    "arena": "J.U. Sportska dvorana Laktaši",
@@ -1648,8 +1648,8 @@
    "capacity": 2500,
    "league": "ABA",
    "source": "games",
-   "games": 5,
-   "of_games": 5,
+   "games": 6,
+   "of_games": 6,
    "league_name": "Krka"
   },
   "KK MZT Skopje Aerodrom": {
@@ -1813,8 +1813,8 @@
    "capacity": 1600,
    "league": "Korisliiga",
    "source": "games",
-   "games": 5,
-   "of_games": 5,
+   "games": 6,
+   "of_games": 6,
    "league_name": "KTP-Basket"
   },
   "Kaposvari": {
@@ -1969,8 +1969,8 @@
    "capacity": 1700,
    "league": "Korisliiga",
    "source": "games",
-   "games": 5,
-   "of_games": 5,
+   "games": 6,
+   "of_games": 6,
    "league_name": "Korihait"
   },
   "Kouvot": {
@@ -2815,8 +2815,8 @@
    "capacity": 2500,
    "league": "Korisliiga",
    "source": "games",
-   "games": 4,
-   "of_games": 4,
+   "games": 5,
+   "of_games": 5,
    "league_name": "Salon Vilpas"
   },
   "Saski Baskonia": {
@@ -3461,6 +3461,7 @@
    "Crvena zvezda Meridianbet": "KK Crvena zvezda",
    "Dubai Basketball": "Dubai Basketball",
    "FMP": "KK FMP Beograd",
+   "FMP MrBit": "KK FMP Beograd",
    "HKK Široki TT Kabeli": "HKK Široki",
    "Igokea m:tel": "KK Igokea",
    "Krka": "KK Krka",

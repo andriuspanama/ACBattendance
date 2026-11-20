@@ -1,8 +1,8 @@
 {
  "league": "PLK",
  "season": "2026-27",
- "played": 48,
- "with_attendance": 48,
+ "played": 49,
+ "with_attendance": 49,
  "missing": 0,
  "clubs": {
   "AMW Arka Gdynia": {
@@ -38,8 +38,8 @@
    "with_attendance": 5
   },
   "Górnik Zamek Książ Wałbrzych": {
-   "played": 1,
-   "with_attendance": 1
+   "played": 2,
+   "with_attendance": 2
   },
   "King Szczecin": {
    "played": 2,
@@ -71,5 +71,5 @@
   }
  },
  "games": [],
- "updated": "2026-11-17T07:52:02+00:00"
+ "updated": "2026-11-20T21:02:07+00:00"
 }

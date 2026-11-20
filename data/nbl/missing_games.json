@@ -1,8 +1,8 @@
 {
  "league": "NBL",
  "season": "2026-27",
- "played": 70,
- "with_attendance": 70,
+ "played": 71,
+ "with_attendance": 71,
  "missing": 0,
  "clubs": {
   "Adelaide 36ers": {
@@ -14,8 +14,8 @@
    "with_attendance": 7
   },
   "Cairns Taipans": {
-   "played": 6,
-   "with_attendance": 6
+   "played": 7,
+   "with_attendance": 7
   },
   "Illawarra Hawks": {
    "played": 6,
@@ -47,5 +47,5 @@
   }
  },
  "games": [],
- "updated": "2026-11-19T21:26:31+00:00"
+ "updated": "2026-11-20T21:02:07+00:00"
 }

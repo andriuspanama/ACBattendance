@@ -1,7 +1,7 @@
 {
  "league": "NBL",
  "season": "2026-27",
- "updated": "2026-11-19T21:26:29+00:00",
+ "updated": "2026-11-20T21:02:04+00:00",
  "clubs": [
   {
    "club": "Adelaide 36ers",
@@ -45,15 +45,15 @@
   },
   {
    "club": "Cairns Taipans",
-   "home_games_counted": 6,
-   "games_with_capacity": 6,
+   "home_games_counted": 7,
+   "games_with_capacity": 7,
    "capacity": 5300,
    "weighted_capacity": 5300,
-   "filling_rate": 0.809,
+   "filling_rate": 0.8039,
    "arenas": [
     {
      "arena": "Cairns Convention Centre",
-     "games": 6,
+     "games": 7,
      "capacity": 5300
     }
    ]
@@ -180,7 +180,7 @@
   }
  ],
  "unknown_arenas": [],
- "last_attendance_game": "2026-11-19",
+ "last_attendance_game": "2026-11-20",
  "games": {
   "36dbeb55-58ad-11f1-a69b-43a6b5595d3e": {
    "arena": "John Cain Arena",
@@ -461,6 +461,10 @@
   "3748b33b-58ad-11f1-9f9a-71e9315f7411": {
    "arena": "WIN Entertainment Centre",
    "capacity": 6000
+  },
+  "37779e30-58ad-11f1-a2d6-d729b42cc855": {
+   "arena": "Cairns Convention Centre",
+   "capacity": 5300
   }
  }
 }
