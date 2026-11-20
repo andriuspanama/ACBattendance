@@ -1,6 +1,6 @@
 {
  "season": "2026-27",
- "updated": "2026-11-19T21:26:29+00:00",
+ "updated": "2026-11-20T08:28:47+00:00",
  "clubs": {
   "ADA Blois Basket 41": {
    "arena": "Le Jeu de Paume",
@@ -22,6 +22,15 @@
    "games": 4,
    "of_games": 4,
    "league_name": "Aek"
+  },
+  "AEK Larnaca B.C.": {
+   "arena": "Kition Athletic Center",
+   "city": "Larnaca",
+   "lat": 34.923336,
+   "lon": 33.598943,
+   "capacity": 2000,
+   "league": "Europe",
+   "source": "sheet"
   },
   "ALM Evreux Basket": {
    "arena": "Salle omnisports Jean-Fourré",
@@ -218,6 +227,15 @@
    "of_games": 4,
    "league_name": "Morabanc Andorra"
   },
+  "BC Astana": {
+   "arena": "Saryarka Velodrome",
+   "city": "Astana",
+   "lat": 51.10472,
+   "lon": 71.405,
+   "capacity": 10000,
+   "league": "Europe",
+   "source": "sheet"
+  },
   "BC Balkan Botevgrad": {
    "arena": "Arena Botevgrad",
    "city": "Botevgrad",
@@ -225,6 +243,15 @@
    "lon": 23.7884146765533,
    "capacity": 3500,
    "league": "Other",
+   "source": "sheet"
+  },
+  "BC Batumi 2010": {
+   "arena": "Mukhran Vakhtangadze Batumi Sports Palace",
+   "city": "Batumi",
+   "lat": 41.6260263,
+   "lon": 41.6270836,
+   "capacity": 3500,
+   "league": "Europe",
    "source": "sheet"
   },
   "BC Jonava": {
@@ -250,6 +277,24 @@
    "games": 6,
    "of_games": 6,
    "league_name": "Bigbank/Kalev"
+  },
+  "BC Kutaisi 2010": {
+   "arena": "Kutaisi Sports Palace",
+   "city": "Kutaisi",
+   "lat": 42.2352765,
+   "lon": 42.7113933,
+   "capacity": 1550,
+   "league": "Europe",
+   "source": "sheet"
+  },
+  "BC Lokomotiv Plovdiv": {
+   "arena": "Sila Complex",
+   "city": "Plovdiv",
+   "lat": 42.137348018422,
+   "lon": 24.7387987795307,
+   "capacity": 1600,
+   "league": "Europe",
+   "source": "sheet"
   },
   "BC Nokia": {
    "arena": "AGCO Power Arena",
@@ -357,6 +402,15 @@
    "lon": 2.39177,
    "capacity": 2500,
    "league": "Betclic Elite",
+   "source": "sheet"
+  },
+  "BG Gottingen": {
+   "arena": "Sparkassen-Arena Göttingen",
+   "city": "Göttingen",
+   "lat": 51.542186,
+   "lon": 9.921973,
+   "capacity": 3447,
+   "league": "Europe",
    "source": "sheet"
   },
   "BK Liepaja": {
@@ -707,6 +761,15 @@
    "league": "Other",
    "source": "sheet"
   },
+  "CSM Constanta": {
+   "arena": "Sala Sporturilor Constanța",
+   "city": "Constanța",
+   "lat": 44.1825,
+   "lon": 28.648571,
+   "capacity": 1500,
+   "league": "Europe",
+   "source": "sheet"
+  },
   "CSM Oradea": {
    "arena": "Oradea Arena",
    "city": "Oradea",
@@ -745,6 +808,15 @@
    "games": 6,
    "of_games": 6,
    "league_name": "Cairns Taipans"
+  },
+  "Caledonia Gladiators": {
+   "arena": "Caledonia Gladiators Arena",
+   "city": "East Kilbride",
+   "lat": 55.7818810556407,
+   "lon": -4.17338382844367,
+   "capacity": 1800,
+   "league": "Europe",
+   "source": "sheet"
   },
   "Cayirova Belediyespor": {
    "arena": "Çayırova Belediyesi Spor Kompleksi",
@@ -935,6 +1007,15 @@
    "of_games": 2,
    "league_name": "Dziki Warszawa"
   },
+  "ESSM Le Portel": {
+   "arena": "Le Chaudron",
+   "city": "Le Portel",
+   "lat": 50.716801,
+   "lon": 1.584719,
+   "capacity": 3500,
+   "league": "Europe",
+   "source": "sheet"
+  },
   "EWE Baskets Oldenburg": {
    "arena": "Große EWE Arena Oldenburg",
    "city": "Oldenburg",
@@ -974,6 +1055,15 @@
    "league": "Betclic Elite",
    "source": "sheet"
   },
+  "Elitzur Maccabi Netanya": {
+   "arena": "Netanya Arena",
+   "city": "Netanya",
+   "lat": 32.2933502,
+   "lon": 34.8659086,
+   "capacity": 2500,
+   "league": "Other",
+   "source": "sheet"
+  },
   "Era Nymburk": {
    "arena": "Královka Arena",
    "city": "Praha",
@@ -994,6 +1084,15 @@
    "games": 15,
    "of_games": 15,
    "league_name": "Esenler Erokspor"
+  },
+  "FC Arges": {
+   "arena": "Pitești Arena",
+   "city": "Pitești",
+   "lat": 44.839525,
+   "lon": 24.893884,
+   "capacity": 4900,
+   "league": "Europe",
+   "source": "sheet"
   },
   "FC Barcelona Basquet": {
    "arena": "Palau Blaugrana",
@@ -1057,6 +1156,15 @@
    "games": 4,
    "of_games": 4,
    "league_name": "Ilerna Lleida"
+  },
+  "Fortitudo Bologna": {
+   "arena": "PalaDozza",
+   "city": "Bologna",
+   "lat": 44.49989,
+   "lon": 11.33223,
+   "capacity": 5570,
+   "league": "LBA",
+   "source": "override"
   },
   "Fos Provence Basket": {
    "arena": "Halle des Sports Parsemain",
@@ -1123,6 +1231,15 @@
    "games": 4,
    "of_games": 4,
    "league_name": "Gargzdai"
+  },
+  "Gence BC": {
+   "arena": "Ganja Sports Palace",
+   "city": "Ganja",
+   "lat": 40.6930525297379,
+   "lon": 46.3290448502609,
+   "capacity": 3050,
+   "league": "Europe",
+   "source": "sheet"
   },
   "Gladiators Trier": {
    "arena": "SWT-Arena",
@@ -1377,6 +1494,33 @@
    "lon": 5.24771,
    "capacity": 3548,
    "league": "Betclic Elite",
+   "source": "sheet"
+  },
+  "KB Bashkimi": {
+   "arena": "Sezai Surroi",
+   "city": "Prizren",
+   "lat": 42.21793,
+   "lon": 20.745529,
+   "capacity": 3000,
+   "league": "Europe",
+   "source": "sheet"
+  },
+  "KB Peja": {
+   "arena": "Palestra e Sporteve \"Karagac\"",
+   "city": "Peja",
+   "lat": 42.6521369758921,
+   "lon": 20.2920927438229,
+   "capacity": 2500,
+   "league": "Europe",
+   "source": "sheet"
+  },
+  "KB Trepca": {
+   "arena": "Minatori Sports Hall",
+   "city": "Mitrovica",
+   "lat": 42.890908,
+   "lon": 20.867235,
+   "capacity": 2300,
+   "league": "Europe",
    "source": "sheet"
   },
   "KK Borac Čačak": {
@@ -1751,6 +1895,15 @@
    "of_games": 5,
    "league_name": "Keila KK"
   },
+  "Keravnos BC": {
+   "arena": "Costas Papaellinas Arena",
+   "city": "Strovolos",
+   "lat": 35.151797,
+   "lon": 33.33986,
+   "capacity": 2000,
+   "league": "Europe",
+   "source": "sheet"
+  },
   "King Wilki Morskie Szczecin": {
    "arena": "Hala SDS 2.0",
    "city": "Szczecin",
@@ -1898,6 +2051,15 @@
    "of_games": 5,
    "league_name": "Lietkabelis"
   },
+  "Limburg United": {
+   "arena": "Sporthal Alverberg",
+   "city": "Hasselt",
+   "lat": 50.939088,
+   "lon": 5.321116,
+   "capacity": 2012,
+   "league": "Europe",
+   "source": "sheet"
+  },
   "Limoges CSP": {
    "arena": "Palais des Sports de Beaublanc",
    "city": "Limoges",
@@ -1961,6 +2123,15 @@
    "of_games": 4,
    "league_name": "MKS Dąbrowa Górnicza"
   },
+  "MLP Academics Heidelberg": {
+   "arena": "SNP Dome",
+   "city": "Heidelberg",
+   "lat": 49.394811,
+   "lon": 8.670262,
+   "capacity": 4521,
+   "league": "Europe",
+   "source": "sheet"
+  },
   "Maccabi Ashdod B.C.": {
    "arena": "HaKiriya Arena",
    "city": "Ashdod",
@@ -1985,6 +2156,15 @@
    "of_games": 5,
    "league_name": "Maccabi Cnaan Group Ramat Gan"
   },
+  "Maccabi Raanana": {
+   "arena": "Metro West",
+   "city": "Ra'anana",
+   "lat": 32.1894441,
+   "lon": 34.8766506,
+   "capacity": 1850,
+   "league": "Other",
+   "source": "sheet"
+  },
   "Maccabi Rishon Lezion": {
    "arena": "Beit Maccabi Rishon LeZion",
    "city": "Rishon LeZion",
@@ -2008,6 +2188,15 @@
    "games": 5,
    "of_games": 5,
    "league_name": "Maccabi Rapyd Tel Aviv"
+  },
+  "Manchester Basketball Club": {
+   "arena": "National Basketball Performance Centre",
+   "city": "Manchester",
+   "lat": 53.46,
+   "lon": -2.1913,
+   "capacity": 2000,
+   "league": "Europe",
+   "source": "sheet"
   },
   "Maroussi B.C.": {
    "arena": "Κ.Γ. ΑΜΑΡΟΥΣΙΟΥ",
@@ -2114,6 +2303,15 @@
    "of_games": 4,
    "league_name": "Napoli Basketball"
   },
+  "Neftchi Sports Club Public Union": {
+   "arena": "Baku Sports Palace",
+   "city": "Baku",
+   "lat": 40.3586,
+   "lon": 49.835,
+   "capacity": 2000,
+   "league": "Europe",
+   "source": "sheet"
+  },
   "Neptūnas Klaipėda": {
    "arena": "Švyturio arena",
    "city": "Klaipėda",
@@ -2137,6 +2335,15 @@
    "games": 6,
    "of_games": 6,
    "league_name": "Nevezis"
+  },
+  "New Basket Brindisi": {
+   "arena": "PalaPentassuglia",
+   "city": "Brindisi",
+   "lat": 40.6138,
+   "lon": 17.9469,
+   "capacity": 3534,
+   "league": "Europe",
+   "source": "sheet"
   },
   "New Zealand Breakers": {
    "arena": "Spark Arena",
@@ -2169,6 +2376,15 @@
    "lon": 18.0669949428421,
    "capacity": 2000,
    "league": "Other",
+   "source": "sheet"
+  },
+  "Norrkoping Dolphins": {
+   "arena": "Stadium Arena Norrköping",
+   "city": "Norrköping",
+   "lat": 58.586667,
+   "lon": 16.143889,
+   "capacity": 3500,
+   "league": "Europe",
    "source": "sheet"
   },
   "OSE Lions": {
@@ -2311,6 +2527,15 @@
    "games": 4,
    "of_games": 4,
    "league_name": "Panathinaikos"
+  },
+  "Panionios B.C.": {
+   "arena": "National Athletic Center Glyfada Makis Liougas",
+   "city": "Glyfada",
+   "lat": 37.859275,
+   "lon": 23.755333,
+   "capacity": 3500,
+   "league": "Europe",
+   "source": "sheet"
   },
   "Paris Basketball": {
    "arena": "Adidas Arena",
@@ -2501,6 +2726,24 @@
    "of_games": 4,
    "league_name": "Rytas"
   },
+  "SCABB": {
+   "arena": "Arena Saint-Étienne Métropole",
+   "city": "Saint-Chamond",
+   "lat": 45.45795,
+   "lon": 4.48731,
+   "capacity": 4200,
+   "league": "Other",
+   "source": "sheet"
+  },
+  "SCM Universitatea Craiova": {
+   "arena": "Sala Polivalentă Craiova",
+   "city": "Craiova",
+   "lat": 44.313255,
+   "lon": 23.786707,
+   "capacity": 4215,
+   "league": "Europe",
+   "source": "sheet"
+  },
   "SIG Strasbourg": {
    "arena": "Rhénus Sport",
    "city": "Strasbourg",
@@ -2552,15 +2795,6 @@
    "lat": 40.419242451278,
    "lon": 49.9165465596163,
    "capacity": 9000,
-   "league": "Other",
-   "source": "sheet"
-  },
-  "Saint - Chamond Basket": {
-   "arena": "Arena Saint-Étienne Métropole",
-   "city": "Saint-Chamond",
-   "lat": 45.45795,
-   "lon": 4.48731,
-   "capacity": 4200,
    "league": "Other",
    "source": "sheet"
   },
@@ -2683,6 +2917,15 @@
    "games": 6,
    "of_games": 7,
    "league_name": "South East Melbourne Phoenix"
+  },
+  "Spirou Basket Charleroi": {
+   "arena": "Spiroudome",
+   "city": "Charleroi",
+   "lat": 50.424022,
+   "lon": 4.446211,
+   "capacity": 6300,
+   "league": "Europe",
+   "source": "sheet"
   },
   "Spojnia Stargard": {
    "arena": "Hala Miejska Stargard",
@@ -3005,6 +3248,24 @@
    "of_games": 5,
    "league_name": "Valmiera Glass VIA"
   },
+  "Vendee Challans Basket": {
+   "arena": "Salle Michel Vrignaud",
+   "city": "Challans",
+   "lat": 46.8427741,
+   "lon": -1.87912,
+   "capacity": 2452,
+   "league": "Other",
+   "source": "sheet"
+  },
+  "Victoria Libertas Pesaro": {
+   "arena": "Vitrifrigo Arena",
+   "city": "Pesaro",
+   "lat": 43.9028766,
+   "lon": 12.8672258,
+   "capacity": 10323,
+   "league": "Other",
+   "source": "sheet"
+  },
   "Vikos Falcons Ioannina B.C.": {
    "arena": "Κ.Γ. ΙΩΑΝΝΙΝΩΝ «ΣΙΔΕΡΗΣ ΚΑΡΑΔΗΜΑΣ»",
    "city": "Ioannina",
@@ -3048,6 +3309,15 @@
    "lon": 29.26091583,
    "capacity": 2000,
    "league": "BSL",
+   "source": "sheet"
+  },
+  "ZZ Leiden Basketball": {
+   "arena": "Sportcomplex 1574",
+   "city": "Leiden",
+   "lat": 52.1501638,
+   "lon": 4.4752093,
+   "capacity": 2435,
+   "league": "Europe",
    "source": "sheet"
   },
   "Zalakeramia ZTE": {
