@@ -1,7 +1,7 @@
 {
   "league": "Korisliiga",
   "season": "2026-27",
-  "updated": "2026-11-21T07:25:04+00:00",
+  "updated": "2026-11-21T19:29:04+00:00",
   "clubs": [
     {
       "league": "Korisliiga",
@@ -154,22 +154,6 @@
     {
       "league": "Korisliiga",
       "season": "2026-27",
-      "club": "Tampereen Pyrintö",
-      "home_games_counted": 5,
-      "average": 746,
-      "total": 3730,
-      "max": 1030,
-      "min": 575,
-      "arenas": [
-        {
-          "arena": "Pyynikin palloiluhalli",
-          "games": 5
-        }
-      ]
-    },
-    {
-      "league": "Korisliiga",
-      "season": "2026-27",
       "club": "Korihait",
       "home_games_counted": 6,
       "average": 734,
@@ -186,16 +170,32 @@
     {
       "league": "Korisliiga",
       "season": "2026-27",
+      "club": "Tampereen Pyrintö",
+      "home_games_counted": 6,
+      "average": 705,
+      "total": 4232,
+      "max": 1030,
+      "min": 502,
+      "arenas": [
+        {
+          "arena": "Pyynikin palloiluhalli",
+          "games": 6
+        }
+      ]
+    },
+    {
+      "league": "Korisliiga",
+      "season": "2026-27",
       "club": "Bisons Loimaa",
-      "home_games_counted": 5,
-      "average": 629,
-      "total": 3143,
+      "home_games_counted": 6,
+      "average": 626,
+      "total": 3754,
       "max": 723,
       "min": 503,
       "arenas": [
         {
           "arena": "Loimaan Liikuntahalli",
-          "games": 5
+          "games": 6
         }
       ]
     }
