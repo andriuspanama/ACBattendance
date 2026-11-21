@@ -1,8 +1,8 @@
 {
  "league": "BBL",
  "season": "2026-27",
- "played": 80,
- "with_attendance": 79,
+ "played": 82,
+ "with_attendance": 81,
  "missing": 1,
  "clubs": {
   "ALBA BERLIN": {
@@ -14,8 +14,8 @@
    "with_attendance": 4
   },
   "Basketball Löwen Braunschweig": {
-   "played": 4,
-   "with_attendance": 4
+   "played": 5,
+   "with_attendance": 5
   },
   "EWE Baskets Oldenburg": {
    "played": 5,
@@ -58,8 +58,8 @@
    "with_attendance": 4
   },
   "Science City Jena": {
-   "played": 4,
-   "with_attendance": 3
+   "played": 5,
+   "with_attendance": 4
   },
   "Telekom Baskets Bonn": {
    "played": 5,
@@ -87,5 +87,5 @@
    "url": "https://www.easycredit-bbl.de/spiele/2006864"
   }
  ],
- "updated": "2026-11-21T08:14:31+00:00"
+ "updated": "2026-11-21T20:03:58+00:00"
 }

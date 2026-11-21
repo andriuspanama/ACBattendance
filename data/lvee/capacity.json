@@ -1,7 +1,7 @@
 {
  "league": "LEBL",
  "season": "2026-27",
- "updated": "2026-11-18T21:22:29+00:00",
+ "updated": "2026-11-21T20:03:56+00:00",
  "clubs": [
   {
    "club": "BC Pärnu",
@@ -95,15 +95,15 @@
   },
   {
    "club": "Keila KK",
-   "home_games_counted": 5,
-   "games_with_capacity": 5,
+   "home_games_counted": 6,
+   "games_with_capacity": 6,
    "capacity": 800,
    "weighted_capacity": 800,
-   "filling_rate": 0.5385,
+   "filling_rate": 0.5262,
    "arenas": [
     {
      "arena": "Keila Tervisekeskus",
-     "games": 5,
+     "games": 6,
      "capacity": 800
     }
    ]
@@ -150,11 +150,11 @@
   },
   {
    "club": "Rīgas Zeļļi",
-   "home_games_counted": 5,
-   "games_with_capacity": 5,
+   "home_games_counted": 6,
+   "games_with_capacity": 6,
    "capacity": 2400,
-   "weighted_capacity": 1802,
-   "filling_rate": 0.2628,
+   "weighted_capacity": 1682,
+   "filling_rate": 0.3163,
    "arenas": [
     {
      "arena": "Komandas Sporta Spelu Halle",
@@ -170,6 +170,11 @@
      "arena": "Jurmalas valsts gimnazijas sporta zale",
      "games": 1,
      "capacity": 810
+    },
+    {
+     "arena": "Cesis SK",
+     "games": 1,
+     "capacity": 1080
     }
    ]
   },
@@ -260,7 +265,7 @@
   }
  ],
  "unknown_arenas": [],
- "last_attendance_game": "2026-11-18",
+ "last_attendance_game": "2026-11-21",
  "games": {
   "2027212141": {
    "arena": "Komandas Sporta Spelu Halle",
@@ -557,6 +562,14 @@
   "2027212005": {
    "arena": "Tallinn, TalTech Spordihoone",
    "capacity": 1000
+  },
+  "2027212104": {
+   "arena": "Keila Tervisekeskus",
+   "capacity": 800
+  },
+  "2027212703": {
+   "arena": "Cesis SK",
+   "capacity": 1080
   }
  }
 }

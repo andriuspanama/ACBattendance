@@ -1,13 +1,13 @@
 {
  "league": "Korisliiga",
  "season": "2026-27",
- "played": 68,
- "with_attendance": 68,
+ "played": 70,
+ "with_attendance": 70,
  "missing": 0,
  "clubs": {
   "Bisons Loimaa": {
-   "played": 5,
-   "with_attendance": 5
+   "played": 6,
+   "with_attendance": 6
   },
   "Helsinki Seagulls": {
    "played": 6,
@@ -46,8 +46,8 @@
    "with_attendance": 5
   },
   "Tampereen Pyrintö": {
-   "played": 5,
-   "with_attendance": 5
+   "played": 6,
+   "with_attendance": 6
   },
   "Tapiolan Honka": {
    "played": 6,
@@ -55,5 +55,5 @@
   }
  },
  "games": [],
- "updated": "2026-11-20T21:02:07+00:00"
+ "updated": "2026-11-21T20:03:58+00:00"
 }

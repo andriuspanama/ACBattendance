@@ -1,8 +1,8 @@
 {
  "league": "Winner League",
  "season": "2026-27",
- "played": 43,
- "with_attendance": 35,
+ "played": 44,
+ "with_attendance": 36,
  "missing": 8,
  "clubs": {
   "Bnei Penlink Herzliya": {
@@ -22,8 +22,8 @@
    "with_attendance": 2
   },
   "Hapoel IBI Tel Aviv": {
-   "played": 3,
-   "with_attendance": 3
+   "played": 4,
+   "with_attendance": 4
   },
   "Hapoel Irony Eilat": {
    "played": 2,
@@ -120,5 +120,5 @@
    "url": "https://basket.co.il/game-zone.asp?GameId=26688&lang=en"
   }
  ],
- "updated": "2026-11-21T08:14:31+00:00"
+ "updated": "2026-11-21T20:03:58+00:00"
 }

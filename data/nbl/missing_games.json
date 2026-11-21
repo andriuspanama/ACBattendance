@@ -1,8 +1,8 @@
 {
  "league": "NBL",
  "season": "2026-27",
- "played": 71,
- "with_attendance": 71,
+ "played": 73,
+ "with_attendance": 73,
  "missing": 0,
  "clubs": {
   "Adelaide 36ers": {
@@ -22,8 +22,8 @@
    "with_attendance": 6
   },
   "Melbourne United": {
-   "played": 7,
-   "with_attendance": 7
+   "played": 8,
+   "with_attendance": 8
   },
   "NZ Breakers": {
    "played": 5,
@@ -42,10 +42,10 @@
    "with_attendance": 8
   },
   "Tasmania JackJumpers": {
-   "played": 7,
-   "with_attendance": 7
+   "played": 8,
+   "with_attendance": 8
   }
  },
  "games": [],
- "updated": "2026-11-20T21:02:07+00:00"
+ "updated": "2026-11-21T20:03:58+00:00"
 }

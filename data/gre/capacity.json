@@ -1,7 +1,7 @@
 {
  "league": "GBL",
  "season": "2026-27",
- "updated": "2026-11-15T19:21:27+00:00",
+ "updated": "2026-11-21T20:03:56+00:00",
  "clubs": [
   {
    "club": "Aris",
@@ -307,6 +307,26 @@
   "F30A6CCD": {
    "arena": "ΑΛΕΞΑΝΔΡΕΙΟ",
    "capacity": 6200
+  },
+  "1439C9D6": {
+   "arena": "Κ. Γ. ΚΑΛΛΙΘΕΑΣ ΡΟΔΟΥ",
+   "capacity": 3400
+  },
+  "3C7521D5": {
+   "arena": "ΙΒΑΝΩΦΕΙΟ",
+   "capacity": 2580
+  },
+  "779E922D": {
+   "arena": "TELEKOM CENTER ATHENS",
+   "capacity": 19000
+  },
+  "95F2FDAA": {
+   "arena": "PAOK SPORTS ARENA",
+   "capacity": 8142
+  },
+  "BE8E8A17": {
+   "arena": "ΔΗΜΟΤΙΚΟ ΚΛΕΙΣΤΟ ΓΥΜΝΑΣΤΗΡΙΟ ΛΕΥΚΑΔΑΣ",
+   "capacity": 1600
   }
  }
 }

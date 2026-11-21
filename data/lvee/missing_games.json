@@ -1,8 +1,8 @@
 {
  "league": "LEBL",
  "season": "2026-27",
- "played": 74,
- "with_attendance": 74,
+ "played": 76,
+ "with_attendance": 76,
  "missing": 0,
  "clubs": {
   "BC Pärnu": {
@@ -30,8 +30,8 @@
    "with_attendance": 4
   },
   "Keila KK": {
-   "played": 5,
-   "with_attendance": 5
+   "played": 6,
+   "with_attendance": 6
   },
   "Latvijas Universitāte": {
    "played": 2,
@@ -42,8 +42,8 @@
    "with_attendance": 7
   },
   "Rīgas Zeļļi": {
-   "played": 5,
-   "with_attendance": 5
+   "played": 6,
+   "with_attendance": 6
   },
   "TalTech/ALEXELA": {
    "played": 5,
@@ -67,5 +67,5 @@
   }
  },
  "games": [],
- "updated": "2026-11-18T21:22:31+00:00"
+ "updated": "2026-11-21T20:03:58+00:00"
 }

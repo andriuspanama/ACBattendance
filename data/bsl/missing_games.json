@@ -1,8 +1,8 @@
 {
  "league": "BSL",
  "season": "2026-27",
- "played": 62,
- "with_attendance": 62,
+ "played": 66,
+ "with_attendance": 66,
  "missing": 0,
  "clubs": {
   "Aliağa Petkim Spor": {
@@ -14,8 +14,8 @@
    "with_attendance": 4
   },
   "Bahçeşehir Koleji": {
-   "played": 4,
-   "with_attendance": 4
+   "played": 5,
+   "with_attendance": 5
   },
   "Beşiktaş": {
    "played": 4,
@@ -26,8 +26,8 @@
    "with_attendance": 4
   },
   "Bursaspor Basketbol": {
-   "played": 4,
-   "with_attendance": 4
+   "played": 5,
+   "with_attendance": 5
   },
   "Esenler Erokspor": {
    "played": 4,
@@ -46,8 +46,8 @@
    "with_attendance": 4
   },
   "Karşıyaka": {
-   "played": 2,
-   "with_attendance": 2
+   "played": 3,
+   "with_attendance": 3
   },
   "Pizzabulls Bordo Bandırma": {
    "played": 4,
@@ -62,8 +62,8 @@
    "with_attendance": 4
   },
   "Türk Telekom": {
-   "played": 4,
-   "with_attendance": 4
+   "played": 5,
+   "with_attendance": 5
   },
   "Yukatel Denizli Basket": {
    "played": 4,
@@ -71,5 +71,5 @@
   }
  },
  "games": [],
- "updated": "2026-11-17T07:52:02+00:00"
+ "updated": "2026-11-21T20:03:58+00:00"
 }

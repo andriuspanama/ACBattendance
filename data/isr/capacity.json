@@ -1,7 +1,7 @@
 {
  "league": "Winner League",
  "season": "2026-27",
- "updated": "2026-11-20T21:02:04+00:00",
+ "updated": "2026-11-21T20:03:56+00:00",
  "clubs": [
   {
    "club": "Bnei Penlink Herzliya",
@@ -65,15 +65,15 @@
   },
   {
    "club": "Hapoel IBI Tel Aviv",
-   "home_games_counted": 3,
-   "games_with_capacity": 3,
+   "home_games_counted": 4,
+   "games_with_capacity": 4,
    "capacity": 3536,
    "weighted_capacity": 3536,
-   "filling_rate": 0.5205,
+   "filling_rate": 0.5029,
    "arenas": [
     {
      "arena": "Shlomo Group Arena",
-     "games": 3,
+     "games": 4,
      "capacity": 3536
     }
    ]
@@ -200,7 +200,7 @@
   }
  ],
  "unknown_arenas": [],
- "last_attendance_game": "2026-11-20",
+ "last_attendance_game": "2026-11-21",
  "games": {
   "26646": {
    "arena": "Menora Mivtachim Arena",
@@ -467,8 +467,8 @@
    "capacity": 2069
   },
   "26713": {
-   "arena": "",
-   "capacity": null
+   "arena": "Conch Arena",
+   "capacity": 3009
   },
   "26714": {
    "arena": "Lev Hamoshava",
@@ -499,12 +499,12 @@
    "capacity": 1240
   },
   "26721": {
-   "arena": "",
-   "capacity": null
+   "arena": "Zisman Hall",
+   "capacity": 1400
   },
   "26722": {
-   "arena": "",
-   "capacity": null
+   "arena": "Begin Arena",
+   "capacity": 1374
   },
   "26679": {
    "arena": "Conch Arena",
@@ -519,8 +519,8 @@
    "capacity": 1300
   },
   "26725": {
-   "arena": "",
-   "capacity": null
+   "arena": "Kfar Blum Hall",
+   "capacity": 1382
   },
   "26726": {
    "arena": "Beit Maccabi Rishon LeZion",
@@ -531,12 +531,12 @@
    "capacity": 2069
   },
   "26728": {
-   "arena": "Remez Hall",
-   "capacity": 1000
+   "arena": "Conch Arena",
+   "capacity": 3009
   },
   "26729": {
-   "arena": "",
-   "capacity": null
+   "arena": "Begin Arena",
+   "capacity": 1374
   },
   "26730": {
    "arena": "Lev Hamoshava",
@@ -555,12 +555,12 @@
    "capacity": 11600
   },
   "26734": {
-   "arena": "",
-   "capacity": null
+   "arena": "Conch Arena",
+   "capacity": 3009
   },
   "26735": {
-   "arena": "",
-   "capacity": null
+   "arena": "Begin Arena",
+   "capacity": 1374
   },
   "26736": {
    "arena": "HaKiriya Arena",

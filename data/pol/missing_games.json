@@ -1,8 +1,8 @@
 {
  "league": "PLK",
  "season": "2026-27",
- "played": 50,
- "with_attendance": 50,
+ "played": 51,
+ "with_attendance": 51,
  "missing": 0,
  "clubs": {
   "AMW Arka Gdynia": {
@@ -54,8 +54,8 @@
    "with_attendance": 4
   },
   "PGE Start Lublin": {
-   "played": 3,
-   "with_attendance": 3
+   "played": 4,
+   "with_attendance": 4
   },
   "Tasomix Rosiek Stal Ostrów Wielkopolski": {
    "played": 2,
@@ -71,5 +71,5 @@
   }
  },
  "games": [],
- "updated": "2026-11-21T08:14:31+00:00"
+ "updated": "2026-11-21T20:03:58+00:00"
 }

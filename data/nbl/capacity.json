@@ -1,7 +1,7 @@
 {
  "league": "NBL",
  "season": "2026-27",
- "updated": "2026-11-20T21:02:04+00:00",
+ "updated": "2026-11-21T20:03:56+00:00",
  "clubs": [
   {
    "club": "Adelaide 36ers",
@@ -75,15 +75,15 @@
   },
   {
    "club": "Melbourne United",
-   "home_games_counted": 7,
-   "games_with_capacity": 7,
+   "home_games_counted": 8,
+   "games_with_capacity": 8,
    "capacity": 10500,
    "weighted_capacity": 10500,
-   "filling_rate": 0.7425,
+   "filling_rate": 0.74,
    "arenas": [
     {
      "arena": "John Cain Arena",
-     "games": 7,
+     "games": 8,
      "capacity": 10500
     }
    ]
@@ -160,15 +160,15 @@
   },
   {
    "club": "Tasmania JackJumpers",
-   "home_games_counted": 7,
-   "games_with_capacity": 7,
+   "home_games_counted": 8,
+   "games_with_capacity": 8,
    "capacity": 4340,
-   "weighted_capacity": 4031,
-   "filling_rate": 0.9993,
+   "weighted_capacity": 4070,
+   "filling_rate": 0.9994,
    "arenas": [
     {
      "arena": "MyState Bank Arena",
-     "games": 5,
+     "games": 6,
      "capacity": 4340
     },
     {
@@ -180,7 +180,7 @@
   }
  ],
  "unknown_arenas": [],
- "last_attendance_game": "2026-11-20",
+ "last_attendance_game": "2026-11-21",
  "games": {
   "36dbeb55-58ad-11f1-a69b-43a6b5595d3e": {
    "arena": "John Cain Arena",
@@ -465,6 +465,14 @@
   "37779e30-58ad-11f1-a2d6-d729b42cc855": {
    "arena": "Cairns Convention Centre",
    "capacity": 5300
+  },
+  "3750b552-58ad-11f1-a12d-7ddf75ccac0d": {
+   "arena": "John Cain Arena",
+   "capacity": 10500
+  },
+  "37726ee0-58ad-11f1-8d86-85bf0639ac6b": {
+   "arena": "MyState Bank Arena",
+   "capacity": 4340
   }
  }
 }

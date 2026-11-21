@@ -1,8 +1,8 @@
 {
  "league": "ABA",
  "season": "2026-27",
- "played": 73,
- "with_attendance": 71,
+ "played": 74,
+ "with_attendance": 72,
  "missing": 2,
  "clubs": {
   "BC Vienna": {
@@ -22,8 +22,8 @@
    "with_attendance": 2
   },
   "Cedevita Olimpija": {
-   "played": 3,
-   "with_attendance": 3
+   "played": 4,
+   "with_attendance": 4
   },
   "Cibona": {
    "played": 5,
@@ -106,5 +106,5 @@
    "url": "https://www.aba-liga.com/match/16/26/1/Overview/q1/1/home/partizan-mozzart-bet-mega-superbet/"
   }
  ],
- "updated": "2026-11-21T08:14:31+00:00"
+ "updated": "2026-11-21T20:03:58+00:00"
 }

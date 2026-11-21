@@ -1,19 +1,19 @@
 {
  "league": "Korisliiga",
  "season": "2026-27",
- "updated": "2026-11-20T21:02:04+00:00",
+ "updated": "2026-11-21T20:03:56+00:00",
  "clubs": [
   {
    "club": "Bisons Loimaa",
-   "home_games_counted": 5,
-   "games_with_capacity": 5,
+   "home_games_counted": 6,
+   "games_with_capacity": 6,
    "capacity": 1500,
    "weighted_capacity": 1500,
-   "filling_rate": 0.4191,
+   "filling_rate": 0.4171,
    "arenas": [
     {
      "arena": "Loimaan Liikuntahalli",
-     "games": 5,
+     "games": 6,
      "capacity": 1500
     }
    ]
@@ -160,15 +160,15 @@
   },
   {
    "club": "Tampereen Pyrintö",
-   "home_games_counted": 5,
-   "games_with_capacity": 5,
+   "home_games_counted": 6,
+   "games_with_capacity": 6,
    "capacity": 1400,
    "weighted_capacity": 1400,
-   "filling_rate": 0.5329,
+   "filling_rate": 0.5038,
    "arenas": [
     {
      "arena": "Pyynikin palloiluhalli",
-     "games": 5,
+     "games": 6,
      "capacity": 1400
     }
    ]
@@ -190,7 +190,7 @@
   }
  ],
  "unknown_arenas": [],
- "last_attendance_game": "2026-11-20",
+ "last_attendance_game": "2026-11-21",
  "games": {
   "44cfe520-a1e7-11f1-8d0e-4fe1f25b2942": {
    "arena": "Motonet Areena",
@@ -463,6 +463,18 @@
   "afdc2d80-a1e7-11f1-8fed-d9b6c2cd5aa8": {
    "arena": "Wintteri",
    "capacity": 1700
+  },
+  "ac6f5556-a1e7-11f1-bb90-f94974ab879e": {
+   "arena": "Äänekoski Areena Pankkari",
+   "capacity": 1300
+  },
+  "ada29563-a1e7-11f1-a3d9-1921e28555cc": {
+   "arena": "Loimaan Liikuntahalli",
+   "capacity": 1500
+  },
+  "aefbe5f9-a1e7-11f1-b2d7-c9126dbb1f13": {
+   "arena": "Pyynikin palloiluhalli",
+   "capacity": 1400
   }
  }
 }

@@ -1,7 +1,7 @@
 {
  "league": "BBL",
  "season": "2026-27",
- "updated": "2026-11-21T08:14:29+00:00",
+ "updated": "2026-11-21T20:03:56+00:00",
  "clubs": [
   {
    "club": "ALBA BERLIN",
@@ -35,15 +35,15 @@
   },
   {
    "club": "Basketball Löwen Braunschweig",
-   "home_games_counted": 4,
-   "games_with_capacity": 4,
+   "home_games_counted": 5,
+   "games_with_capacity": 5,
    "capacity": 6358,
    "weighted_capacity": 6358,
-   "filling_rate": 0.5114,
+   "filling_rate": 0.5205,
    "arenas": [
     {
      "arena": "Volkswagen Halle Braunschweig",
-     "games": 4,
+     "games": 5,
      "capacity": 6358
     }
    ]
@@ -200,15 +200,15 @@
   },
   {
    "club": "Science City Jena",
-   "home_games_counted": 3,
-   "games_with_capacity": 3,
+   "home_games_counted": 4,
+   "games_with_capacity": 4,
    "capacity": 3125,
    "weighted_capacity": 3125,
-   "filling_rate": 0.8316,
+   "filling_rate": 0.841,
    "arenas": [
     {
      "arena": "Sparkassen-Arena Jena",
-     "games": 3,
+     "games": 4,
      "capacity": 3125
     }
    ]
@@ -275,7 +275,7 @@
   }
  ],
  "unknown_arenas": [],
- "last_attendance_game": "2026-11-20",
+ "last_attendance_game": "2026-11-21",
  "games": {
   "2006920": {
    "arena": "Uber Arena",
@@ -596,6 +596,14 @@
   "2006838": {
    "arena": "tectake ARENA Würzburg",
    "capacity": 3140
+  },
+  "2006839": {
+   "arena": "Sparkassen-Arena Jena",
+   "capacity": 3125
+  },
+  "2006842": {
+   "arena": "Volkswagen Halle Braunschweig",
+   "capacity": 6358
   }
  }
 }

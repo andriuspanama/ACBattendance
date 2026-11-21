@@ -1,7 +1,7 @@
 {
  "league": "LKL",
  "season": "2026-27",
- "updated": "2026-11-18T21:22:29+00:00",
+ "updated": "2026-11-21T20:03:56+00:00",
  "clubs": [
   {
    "club": "Gargzdai",
@@ -217,6 +217,10 @@
    "arena": "Utenos daugiafunkcis sporto centras",
    "capacity": 2500
   },
+  "KWO7qIRF": {
+   "arena": "Švyturio arena",
+   "capacity": 6200
+  },
   "M35zlwI8": {
    "arena": "Kėdainių arena",
    "capacity": 2200
@@ -256,6 +260,10 @@
   "S4G6Pdzp": {
    "arena": "Jonavos sporto arena",
    "capacity": 2246
+  },
+  "SdSFsddS": {
+   "arena": "Šiaulių arena",
+   "capacity": 5500
   },
   "StC9tzgo": {
    "arena": "Jonavos sporto arena",
@@ -322,6 +330,10 @@
    "capacity": 9000
   },
   "n7hXVquQ": {
+   "arena": "Gargždų SC arena",
+   "capacity": 1500
+  },
+  "nJQaovc3": {
    "arena": "Gargždų SC arena",
    "capacity": 1500
   },
