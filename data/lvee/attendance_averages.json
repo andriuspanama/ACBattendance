@@ -1,7 +1,7 @@
 {
   "league": "LEBL",
   "season": "2026-27",
-  "updated": "2026-11-21T07:25:17+00:00",
+  "updated": "2026-11-21T19:30:05+00:00",
   "clubs": [
     {
       "league": "LEBL",
@@ -106,27 +106,11 @@
     {
       "league": "LEBL",
       "season": "2026-27",
-      "club": "Bigbank/Kalev",
-      "home_games_counted": 6,
-      "average": 505,
-      "total": 3030,
-      "max": 659,
-      "min": 372,
-      "arenas": [
-        {
-          "arena": "Nord Spordihoone",
-          "games": 6
-        }
-      ]
-    },
-    {
-      "league": "LEBL",
-      "season": "2026-27",
       "club": "Rīgas Zeļļi",
-      "home_games_counted": 5,
-      "average": 474,
-      "total": 2368,
-      "max": 623,
+      "home_games_counted": 6,
+      "average": 532,
+      "total": 3191,
+      "max": 823,
       "min": 351,
       "arenas": [
         {
@@ -140,6 +124,26 @@
         {
           "arena": "Jurmalas valsts gimnazijas sporta zale",
           "games": 1
+        },
+        {
+          "arena": "Cesis SK",
+          "games": 1
+        }
+      ]
+    },
+    {
+      "league": "LEBL",
+      "season": "2026-27",
+      "club": "Bigbank/Kalev",
+      "home_games_counted": 6,
+      "average": 505,
+      "total": 3030,
+      "max": 659,
+      "min": 372,
+      "arenas": [
+        {
+          "arena": "Nord Spordihoone",
+          "games": 6
         }
       ]
     },
@@ -182,22 +186,6 @@
     {
       "league": "LEBL",
       "season": "2026-27",
-      "club": "Keila KK",
-      "home_games_counted": 5,
-      "average": 431,
-      "total": 2154,
-      "max": 627,
-      "min": 304,
-      "arenas": [
-        {
-          "arena": "Keila Tervisekeskus",
-          "games": 5
-        }
-      ]
-    },
-    {
-      "league": "LEBL",
-      "season": "2026-27",
       "club": "Viimsi",
       "home_games_counted": 5,
       "average": 431,
@@ -208,6 +196,22 @@
         {
           "arena": "Forus Spordikeskus Viimsi",
           "games": 5
+        }
+      ]
+    },
+    {
+      "league": "LEBL",
+      "season": "2026-27",
+      "club": "Keila KK",
+      "home_games_counted": 6,
+      "average": 421,
+      "total": 2526,
+      "max": 627,
+      "min": 304,
+      "arenas": [
+        {
+          "arena": "Keila Tervisekeskus",
+          "games": 6
         }
       ]
     },
