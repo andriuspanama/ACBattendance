@@ -1,7 +1,7 @@
 {
   "league": "PLK",
   "season": "2026-27",
-  "updated": "2026-11-21T07:46:54+00:00",
+  "updated": "2026-11-21T19:51:20+00:00",
   "clubs": [
     {
       "league": "PLK",
@@ -259,15 +259,15 @@
       "league": "PLK",
       "season": "2026-27",
       "club": "PGE Start Lublin",
-      "home_games_counted": 3,
-      "average": 851,
-      "total": 2553,
-      "max": 1012,
+      "home_games_counted": 4,
+      "average": 896,
+      "total": 3584,
+      "max": 1031,
       "min": 713,
       "arenas": [
         {
           "arena": "MOSiR Globus",
-          "games": 3
+          "games": 4
         }
       ]
     }

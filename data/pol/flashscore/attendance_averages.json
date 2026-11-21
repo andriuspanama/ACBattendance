@@ -1,10 +1,10 @@
 {
   "league": "PLK",
   "season": "2026-27",
-  "updated": "2026-11-21T07:46:44+00:00",
+  "updated": "2026-11-21T19:51:12+00:00",
   "games": {
-    "checked": 58,
-    "with_attendance": 58
+    "checked": 60,
+    "with_attendance": 59
   },
   "clubs": [
     {
@@ -161,10 +161,10 @@
       "league": "PLK",
       "season": "2026-27",
       "club": "Lublin",
-      "home_games_counted": 4,
-      "average": 872,
-      "total": 3489,
-      "max": 1012,
+      "home_games_counted": 5,
+      "average": 904,
+      "total": 4520,
+      "max": 1031,
       "min": 713
     }
   ]
