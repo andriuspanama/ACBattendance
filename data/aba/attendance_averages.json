@@ -1,7 +1,7 @@
 {
   "league": "ABA",
   "season": "2026-27",
-  "updated": "2026-11-20T20:34:15+00:00",
+  "updated": "2026-11-21T07:25:30+00:00",
   "clubs": [
     {
       "league": "ABA",
@@ -36,22 +36,6 @@
         {
           "arena": "Horia Demian Sports Hall",
           "games": 1
-        }
-      ]
-    },
-    {
-      "league": "ABA",
-      "season": "2026-27",
-      "club": "Bosna BH Telecom",
-      "home_games_counted": 3,
-      "average": 3167,
-      "total": 9500,
-      "max": 4500,
-      "min": 2000,
-      "arenas": [
-        {
-          "arena": "Zetra Olympic Hall",
-          "games": 3
         }
       ]
     },
@@ -100,6 +84,26 @@
         {
           "arena": "Dvorana Krešimir Ćosić",
           "games": 3
+        }
+      ]
+    },
+    {
+      "league": "ABA",
+      "season": "2026-27",
+      "club": "Bosna BH Telecom",
+      "home_games_counted": 4,
+      "average": 2675,
+      "total": 10700,
+      "max": 4500,
+      "min": 1200,
+      "arenas": [
+        {
+          "arena": "Zetra Olympic Hall",
+          "games": 3
+        },
+        {
+          "arena": "SD Goran Čengić Novo Sarajevo",
+          "games": 1
         }
       ]
     },
