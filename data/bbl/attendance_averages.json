@@ -1,7 +1,7 @@
 {
   "league": "BBL",
   "season": "2026-27",
-  "updated": "2026-11-21T07:29:45+00:00",
+  "updated": "2026-11-21T19:35:24+00:00",
   "clubs": [
     {
       "league": "BBL",
@@ -194,15 +194,15 @@
       "league": "BBL",
       "season": "2026-27",
       "club": "Basketball Löwen Braunschweig",
-      "home_games_counted": 4,
-      "average": 3252,
-      "total": 13006,
+      "home_games_counted": 5,
+      "average": 3309,
+      "total": 16546,
       "max": 3590,
       "min": 3004,
       "arenas": [
         {
           "arena": "Volkswagen Halle Braunschweig",
-          "games": 4,
+          "games": 5,
           "capacity": 6358
         }
       ]
@@ -279,15 +279,15 @@
       "league": "BBL",
       "season": "2026-27",
       "club": "Science City Jena",
-      "home_games_counted": 3,
-      "average": 2599,
-      "total": 7796,
+      "home_games_counted": 4,
+      "average": 2628,
+      "total": 10512,
       "max": 3125,
       "min": 2181,
       "arenas": [
         {
           "arena": "Sparkassen-Arena Jena",
-          "games": 3,
+          "games": 4,
           "capacity": 3125
         }
       ]
