@@ -1,7 +1,7 @@
 {
   "league": "NBL",
   "season": "2026-27",
-  "updated": "2026-11-21T07:24:50+00:00",
+  "updated": "2026-11-21T19:28:53+00:00",
   "clubs": [
     {
       "league": "NBL",
@@ -59,15 +59,15 @@
       "league": "NBL",
       "season": "2026-27",
       "club": "Melbourne United",
-      "home_games_counted": 7,
-      "average": 7796,
-      "total": 54571,
+      "home_games_counted": 8,
+      "average": 7770,
+      "total": 62159,
       "max": 10175,
       "min": 1017,
       "arenas": [
         {
           "arena": "John Cain Arena",
-          "games": 7
+          "games": 8
         }
       ]
     },
@@ -151,15 +151,15 @@
       "league": "NBL",
       "season": "2026-27",
       "club": "Tasmania JackJumpers",
-      "home_games_counted": 7,
-      "average": 4029,
-      "total": 28200,
+      "home_games_counted": 8,
+      "average": 4068,
+      "total": 32540,
       "max": 4340,
       "min": 3260,
       "arenas": [
         {
           "arena": "MyState Bank Arena",
-          "games": 5
+          "games": 6
         },
         {
           "arena": "Silverdome",
