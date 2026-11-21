@@ -1,7 +1,7 @@
 {
   "league": "Winner League",
   "season": "2026-27",
-  "updated": "2026-11-21T07:27:42+00:00",
+  "updated": "2026-11-21T19:33:16+00:00",
   "clubs": [
     {
       "league": "Winner League",
@@ -39,15 +39,15 @@
       "league": "Winner League",
       "season": "2026-27",
       "club": "Hapoel IBI Tel Aviv",
-      "home_games_counted": 3,
-      "average": 1840,
-      "total": 5521,
+      "home_games_counted": 4,
+      "average": 1778,
+      "total": 7113,
       "max": 2908,
       "min": 1153,
       "arenas": [
         {
           "arena": "Shlomo Group Arena",
-          "games": 3
+          "games": 4
         }
       ]
     },
