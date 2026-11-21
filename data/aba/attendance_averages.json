@@ -1,7 +1,7 @@
 {
   "league": "ABA",
   "season": "2026-27",
-  "updated": "2026-11-21T07:25:30+00:00",
+  "updated": "2026-11-21T19:30:21+00:00",
   "clubs": [
     {
       "league": "ABA",
@@ -143,19 +143,19 @@
       "league": "ABA",
       "season": "2026-27",
       "club": "Cedevita Olimpija",
-      "home_games_counted": 3,
-      "average": 1259,
-      "total": 3778,
+      "home_games_counted": 4,
+      "average": 1246,
+      "total": 4985,
       "max": 1523,
       "min": 755,
       "arenas": [
         {
-          "arena": "Arena Stožice",
+          "arena": "Mala dvorana Tivoli",
           "games": 2
         },
         {
-          "arena": "Mala dvorana Tivoli",
-          "games": 1
+          "arena": "Arena Stožice",
+          "games": 2
         }
       ]
     },
