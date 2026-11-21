@@ -1,10 +1,10 @@
 {
   "league": "PLK",
   "season": "2026-27",
-  "updated": "2026-11-20T20:48:42+00:00",
+  "updated": "2026-11-21T07:46:44+00:00",
   "games": {
-    "checked": 57,
-    "with_attendance": 57
+    "checked": 58,
+    "with_attendance": 58
   },
   "clubs": [
     {
@@ -70,16 +70,6 @@
     {
       "league": "PLK",
       "season": "2026-27",
-      "club": "Bydgoszcz",
-      "home_games_counted": 4,
-      "average": 2199,
-      "total": 8795,
-      "max": 4358,
-      "min": 1479
-    },
-    {
-      "league": "PLK",
-      "season": "2026-27",
       "club": "Gornik Walbrzych",
       "home_games_counted": 3,
       "average": 2180,
@@ -96,6 +86,16 @@
       "total": 8439,
       "max": 2572,
       "min": 1895
+    },
+    {
+      "league": "PLK",
+      "season": "2026-27",
+      "club": "Bydgoszcz",
+      "home_games_counted": 5,
+      "average": 2055,
+      "total": 10274,
+      "max": 4358,
+      "min": 1479
     },
     {
       "league": "PLK",

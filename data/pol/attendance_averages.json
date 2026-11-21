@@ -1,7 +1,7 @@
 {
   "league": "PLK",
   "season": "2026-27",
-  "updated": "2026-11-20T20:48:51+00:00",
+  "updated": "2026-11-21T07:46:54+00:00",
   "clubs": [
     {
       "league": "PLK",
@@ -106,26 +106,6 @@
     {
       "league": "PLK",
       "season": "2026-27",
-      "club": "Enea Łaciate Astoria Bydgoszcz",
-      "home_games_counted": 4,
-      "average": 2199,
-      "total": 8795,
-      "max": 4358,
-      "min": 1479,
-      "arenas": [
-        {
-          "arena": "Grupa Moderator Arena",
-          "games": 3
-        },
-        {
-          "arena": "Hala Sportowo - Widowiskowa Immobile Łuczniczka",
-          "games": 1
-        }
-      ]
-    },
-    {
-      "league": "PLK",
-      "season": "2026-27",
       "club": "Górnik Zamek Książ Wałbrzych",
       "home_games_counted": 2,
       "average": 2176,
@@ -152,6 +132,26 @@
         {
           "arena": "HWS Centrum im.Z.Cybulskiego",
           "games": 4
+        }
+      ]
+    },
+    {
+      "league": "PLK",
+      "season": "2026-27",
+      "club": "Enea Łaciate Astoria Bydgoszcz",
+      "home_games_counted": 5,
+      "average": 2055,
+      "total": 10274,
+      "max": 4358,
+      "min": 1479,
+      "arenas": [
+        {
+          "arena": "Grupa Moderator Arena",
+          "games": 4
+        },
+        {
+          "arena": "Hala Sportowo - Widowiskowa Immobile Łuczniczka",
+          "games": 1
         }
       ]
     },
