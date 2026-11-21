@@ -1,7 +1,7 @@
 {
  "league": "BBL",
  "season": "2026-27",
- "updated": "2026-11-16T07:55:20+00:00",
+ "updated": "2026-11-21T08:14:29+00:00",
  "clubs": [
   {
    "club": "ALBA BERLIN",
@@ -80,15 +80,15 @@
   },
   {
    "club": "Fitness First Würzburg Baskets",
-   "home_games_counted": 4,
-   "games_with_capacity": 4,
+   "home_games_counted": 5,
+   "games_with_capacity": 5,
    "capacity": 3140,
    "weighted_capacity": 3140,
-   "filling_rate": 0.9081,
+   "filling_rate": 0.9145,
    "arenas": [
     {
      "arena": "tectake ARENA Würzburg",
-     "games": 4,
+     "games": 5,
      "capacity": 3140
     }
    ]
@@ -275,7 +275,7 @@
   }
  ],
  "unknown_arenas": [],
- "last_attendance_game": "2026-11-15",
+ "last_attendance_game": "2026-11-20",
  "games": {
   "2006920": {
    "arena": "Uber Arena",
@@ -592,6 +592,10 @@
   "2006855": {
    "arena": "Messe Chemnitz",
    "capacity": 5000
+  },
+  "2006838": {
+   "arena": "tectake ARENA Würzburg",
+   "capacity": 3140
   }
  }
 }

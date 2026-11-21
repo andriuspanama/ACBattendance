@@ -1,8 +1,8 @@
 {
  "league": "BBL",
  "season": "2026-27",
- "played": 79,
- "with_attendance": 78,
+ "played": 80,
+ "with_attendance": 79,
  "missing": 1,
  "clubs": {
   "ALBA BERLIN": {
@@ -26,8 +26,8 @@
    "with_attendance": 6
   },
   "Fitness First Würzburg Baskets": {
-   "played": 4,
-   "with_attendance": 4
+   "played": 5,
+   "with_attendance": 5
   },
   "MHP RIESEN Ludwigsburg": {
    "played": 4,
@@ -87,5 +87,5 @@
    "url": "https://www.easycredit-bbl.de/spiele/2006864"
   }
  ],
- "updated": "2026-11-17T07:52:02+00:00"
+ "updated": "2026-11-21T08:14:31+00:00"
 }

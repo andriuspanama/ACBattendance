@@ -1,8 +1,8 @@
 {
  "league": "ABA",
  "season": "2026-27",
- "played": 72,
- "with_attendance": 70,
+ "played": 73,
+ "with_attendance": 71,
  "missing": 2,
  "clubs": {
   "BC Vienna": {
@@ -14,8 +14,8 @@
    "with_attendance": 4
   },
   "Bosna BH Telecom": {
-   "played": 3,
-   "with_attendance": 3
+   "played": 4,
+   "with_attendance": 4
   },
   "Budućnost VOLI": {
    "played": 2,
@@ -106,5 +106,5 @@
    "url": "https://www.aba-liga.com/match/16/26/1/Overview/q1/1/home/partizan-mozzart-bet-mega-superbet/"
   }
  ],
- "updated": "2026-11-20T21:02:07+00:00"
+ "updated": "2026-11-21T08:14:31+00:00"
 }

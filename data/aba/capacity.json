@@ -1,7 +1,7 @@
 {
  "league": "ABA",
  "season": "2026-27",
- "updated": "2026-11-20T21:02:04+00:00",
+ "updated": "2026-11-21T08:14:29+00:00",
  "clubs": [
   {
    "club": "BC Vienna",
@@ -35,7 +35,7 @@
   },
   {
    "club": "Bosna BH Telecom",
-   "home_games_counted": 3,
+   "home_games_counted": 4,
    "games_with_capacity": 3,
    "capacity": 12000,
    "weighted_capacity": 12000,
@@ -45,6 +45,11 @@
      "arena": "Zetra Olympic Hall",
      "games": 3,
      "capacity": 12000
+    },
+    {
+     "arena": "SD Goran Čengić Novo Sarajevo",
+     "games": 1,
+     "capacity": null
     }
    ]
   },
@@ -334,7 +339,15 @@
    ]
   }
  ],
- "unknown_arenas": [],
+ "unknown_arenas": [
+  {
+   "arena": "SD Goran Čengić Novo Sarajevo",
+   "games": 1,
+   "clubs": [
+    "Bosna BH Telecom"
+   ]
+  }
+ ],
  "last_attendance_game": "2026-11-20",
  "games": {
   "13": {
@@ -624,6 +637,10 @@
   "85": {
    "arena": "Arena KK FMP",
    "capacity": 3000
+  },
+  "90": {
+   "arena": "SD Goran Čengić Novo Sarajevo",
+   "capacity": null
   }
  }
 }
