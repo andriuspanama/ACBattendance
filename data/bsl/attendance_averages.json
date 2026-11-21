@@ -1,21 +1,21 @@
 {
   "league": "BSL",
   "season": "2026-27",
-  "updated": "2026-11-21T07:00:19+00:00",
+  "updated": "2026-11-21T19:10:45+00:00",
   "clubs": [
     {
       "league": "BSL",
       "season": "2026-27",
       "club": "Türk Telekom",
-      "home_games_counted": 4,
-      "average": 5185,
-      "total": 20741,
+      "home_games_counted": 5,
+      "average": 5569,
+      "total": 27844,
       "max": 8768,
       "min": 3376,
       "arenas": [
         {
           "arena": "Ankara Spor Salonu",
-          "games": 4
+          "games": 5
         }
       ]
     },
@@ -23,15 +23,15 @@
       "league": "BSL",
       "season": "2026-27",
       "club": "Karşıyaka",
-      "home_games_counted": 2,
-      "average": 5000,
-      "total": 10000,
+      "home_games_counted": 3,
+      "average": 4167,
+      "total": 12500,
       "max": 5500,
-      "min": 4500,
+      "min": 2500,
       "arenas": [
         {
           "arena": "Mustafa Kemal Atatürk Karşıyaka Spor Salonu",
-          "games": 2
+          "games": 3
         }
       ]
     },
@@ -71,15 +71,15 @@
       "league": "BSL",
       "season": "2026-27",
       "club": "Bursaspor Basketbol",
-      "home_games_counted": 4,
-      "average": 3236,
-      "total": 12943,
+      "home_games_counted": 5,
+      "average": 3365,
+      "total": 16823,
       "max": 4680,
       "min": 1740,
       "arenas": [
         {
           "arena": "Tofaş Spor Salonu",
-          "games": 4
+          "games": 5
         }
       ]
     },
@@ -87,15 +87,15 @@
       "league": "BSL",
       "season": "2026-27",
       "club": "Bahçeşehir Koleji",
-      "home_games_counted": 4,
-      "average": 3092,
-      "total": 12366,
+      "home_games_counted": 5,
+      "average": 2615,
+      "total": 13077,
       "max": 6785,
       "min": 599,
       "arenas": [
         {
           "arena": "Sinan Erdem Spor Salonu",
-          "games": 4
+          "games": 5
         }
       ]
     },
