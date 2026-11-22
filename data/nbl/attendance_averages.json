@@ -1,7 +1,7 @@
 {
   "league": "NBL",
   "season": "2026-27",
-  "updated": "2026-11-21T19:28:53+00:00",
+  "updated": "2026-11-22T07:05:17+00:00",
   "clubs": [
     {
       "league": "NBL",
@@ -75,15 +75,15 @@
       "league": "NBL",
       "season": "2026-27",
       "club": "South East Melbourne Phoenix",
-      "home_games_counted": 7,
-      "average": 6915,
-      "total": 48407,
+      "home_games_counted": 8,
+      "average": 6905,
+      "total": 55243,
       "max": 10175,
       "min": 1838,
       "arenas": [
         {
           "arena": "John Cain Arena",
-          "games": 6
+          "games": 7
         },
         {
           "arena": "State Basketball Centre",
