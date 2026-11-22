@@ -1,7 +1,7 @@
 {
   "league": "LBA",
   "season": "2026-27",
-  "updated": "2026-11-21T19:31:13+00:00",
+  "updated": "2026-11-22T07:08:01+00:00",
   "clubs": [
     {
       "league": "LBA",
@@ -42,6 +42,26 @@
     {
       "league": "LBA",
       "season": "2026-27",
+      "club": "Pallacanestro Trieste",
+      "home_games_counted": 3,
+      "average": 4858,
+      "total": 14575,
+      "max": 5042,
+      "min": 4609,
+      "arenas": [
+        {
+          "arena": "PalaTrieste",
+          "games": 2
+        },
+        {
+          "arena": "Generali Arena",
+          "games": 1
+        }
+      ]
+    },
+    {
+      "league": "LBA",
+      "season": "2026-27",
       "club": "Openjobmetis Varese",
       "home_games_counted": 3,
       "average": 4768,
@@ -52,22 +72,6 @@
         {
           "arena": "Itelyum Arena",
           "games": 3
-        }
-      ]
-    },
-    {
-      "league": "LBA",
-      "season": "2026-27",
-      "club": "Pallacanestro Trieste",
-      "home_games_counted": 2,
-      "average": 4766,
-      "total": 9533,
-      "max": 4924,
-      "min": 4609,
-      "arenas": [
-        {
-          "arena": "PalaTrieste",
-          "games": 2
         }
       ]
     },
@@ -107,15 +111,15 @@
       "league": "LBA",
       "season": "2026-27",
       "club": "Dolomiti Energia Trentino",
-      "home_games_counted": 4,
-      "average": 3811,
-      "total": 15245,
+      "home_games_counted": 5,
+      "average": 3794,
+      "total": 18970,
       "max": 4000,
       "min": 3621,
       "arenas": [
         {
           "arena": "BTS Arena",
-          "games": 4
+          "games": 5
         }
       ]
     },
