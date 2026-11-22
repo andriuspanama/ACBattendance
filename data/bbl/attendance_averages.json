@@ -1,7 +1,7 @@
 {
   "league": "BBL",
   "season": "2026-27",
-  "updated": "2026-11-22T07:10:25+00:00",
+  "updated": "2026-11-22T19:53:20+00:00",
   "clubs": [
     {
       "league": "BBL",
@@ -177,15 +177,15 @@
       "league": "BBL",
       "season": "2026-27",
       "club": "MHP RIESEN Ludwigsburg",
-      "home_games_counted": 4,
-      "average": 3470,
-      "total": 13882,
-      "max": 3714,
+      "home_games_counted": 5,
+      "average": 3528,
+      "total": 17638,
+      "max": 3756,
       "min": 2972,
       "arenas": [
         {
           "arena": "MHPArena Ludwigsburg",
-          "games": 4,
+          "games": 5,
           "capacity": 4000
         }
       ]
@@ -245,15 +245,15 @@
       "league": "BBL",
       "season": "2026-27",
       "club": "Veolia Towers Hamburg",
-      "home_games_counted": 4,
-      "average": 2910,
-      "total": 11639,
-      "max": 3190,
+      "home_games_counted": 5,
+      "average": 2990,
+      "total": 14951,
+      "max": 3312,
       "min": 2392,
       "arenas": [
         {
           "arena": "Inselpark Arena",
-          "games": 4,
+          "games": 5,
           "capacity": 3400
         }
       ]
