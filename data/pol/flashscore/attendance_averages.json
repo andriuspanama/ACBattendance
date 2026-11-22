@@ -1,10 +1,10 @@
 {
   "league": "PLK",
   "season": "2026-27",
-  "updated": "2026-11-21T19:51:12+00:00",
+  "updated": "2026-11-22T07:33:41+00:00",
   "games": {
     "checked": 60,
-    "with_attendance": 59
+    "with_attendance": 60
   },
   "clubs": [
     {
@@ -111,9 +111,9 @@
       "league": "PLK",
       "season": "2026-27",
       "club": "Szczecin",
-      "home_games_counted": 3,
-      "average": 1801,
-      "total": 5403,
+      "home_games_counted": 4,
+      "average": 1748,
+      "total": 6991,
       "max": 1999,
       "min": 1588
     },

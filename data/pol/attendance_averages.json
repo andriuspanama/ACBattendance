@@ -1,7 +1,7 @@
 {
   "league": "PLK",
   "season": "2026-27",
-  "updated": "2026-11-21T19:51:20+00:00",
+  "updated": "2026-11-22T07:33:52+00:00",
   "clubs": [
     {
       "league": "PLK",
@@ -175,18 +175,18 @@
       "league": "PLK",
       "season": "2026-27",
       "club": "King Szczecin",
-      "home_games_counted": 2,
-      "average": 1794,
-      "total": 3587,
+      "home_games_counted": 3,
+      "average": 1725,
+      "total": 5175,
       "max": 1999,
       "min": 1588,
       "arenas": [
         {
-          "arena": "Hala Enea Arena",
-          "games": 1
+          "arena": "Hala SDS 2.0",
+          "games": 2
         },
         {
-          "arena": "Hala SDS 2.0",
+          "arena": "Hala Enea Arena",
           "games": 1
         }
       ]
