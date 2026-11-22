@@ -1,7 +1,7 @@
 {
   "league": "BBL",
   "season": "2026-27",
-  "updated": "2026-11-21T19:35:24+00:00",
+  "updated": "2026-11-22T07:10:25+00:00",
   "clubs": [
     {
       "league": "BBL",
@@ -24,15 +24,15 @@
       "league": "BBL",
       "season": "2026-27",
       "club": "EWE Baskets Oldenburg",
-      "home_games_counted": 5,
+      "home_games_counted": 6,
       "average": 6500,
-      "total": 32500,
+      "total": 39000,
       "max": 6500,
       "min": 6500,
       "arenas": [
         {
           "arena": "Große EWE Arena Oldenburg",
-          "games": 5,
+          "games": 6,
           "capacity": 6500
         }
       ]
@@ -41,15 +41,15 @@
       "league": "BBL",
       "season": "2026-27",
       "club": "VET-CONCEPT Gladiators Trier",
-      "home_games_counted": 4,
-      "average": 5442,
-      "total": 21770,
+      "home_games_counted": 5,
+      "average": 5468,
+      "total": 27340,
       "max": 5570,
       "min": 5400,
       "arenas": [
         {
           "arena": "SWT-Arena",
-          "games": 4,
+          "games": 5,
           "capacity": 5400
         }
       ]
