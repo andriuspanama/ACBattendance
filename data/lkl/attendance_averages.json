@@ -1,7 +1,7 @@
 {
   "league": "LKL",
   "season": "2026-27",
-  "updated": "2026-11-21T19:49:13+00:00",
+  "updated": "2026-11-22T07:29:29+00:00",
   "clubs": [
     {
       "league": "LKL",
@@ -27,9 +27,9 @@
       "league": "LKL",
       "season": "2026-27",
       "club": "Neptunas",
-      "home_games_counted": 5,
-      "average": 2328,
-      "total": 11642,
+      "home_games_counted": 6,
+      "average": 2230,
+      "total": 13383,
       "max": 4698,
       "min": 1552
     },
@@ -37,9 +37,9 @@
       "league": "LKL",
       "season": "2026-27",
       "club": "Siauliai",
-      "home_games_counted": 5,
-      "average": 1992,
-      "total": 9959,
+      "home_games_counted": 6,
+      "average": 1928,
+      "total": 11566,
       "max": 2723,
       "min": 1574
     },
@@ -67,9 +67,9 @@
       "league": "LKL",
       "season": "2026-27",
       "club": "Gargzdai",
-      "home_games_counted": 4,
-      "average": 1400,
-      "total": 5598,
+      "home_games_counted": 5,
+      "average": 1420,
+      "total": 7098,
       "max": 1500,
       "min": 1169
     },
