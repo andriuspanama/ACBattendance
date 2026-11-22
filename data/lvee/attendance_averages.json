@@ -1,21 +1,21 @@
 {
   "league": "LEBL",
   "season": "2026-27",
-  "updated": "2026-11-21T19:30:05+00:00",
+  "updated": "2026-11-22T07:06:39+00:00",
   "clubs": [
     {
       "league": "LEBL",
       "season": "2026-27",
       "club": "Tartu Ülikool Maks & Moorits",
-      "home_games_counted": 4,
-      "average": 1519,
-      "total": 6076,
+      "home_games_counted": 5,
+      "average": 1394,
+      "total": 6969,
       "max": 1915,
-      "min": 975,
+      "min": 893,
       "arenas": [
         {
           "arena": "Tartu TÜ sph (Kullami peaväljak)",
-          "games": 4
+          "games": 5
         }
       ]
     },
@@ -134,6 +134,26 @@
     {
       "league": "LEBL",
       "season": "2026-27",
+      "club": "VEF Rīga",
+      "home_games_counted": 6,
+      "average": 522,
+      "total": 3130,
+      "max": 869,
+      "min": 248,
+      "arenas": [
+        {
+          "arena": "Rimi Olimpiskais centrs",
+          "games": 4
+        },
+        {
+          "arena": "Komandas Sporta Spelu Halle",
+          "games": 2
+        }
+      ]
+    },
+    {
+      "league": "LEBL",
+      "season": "2026-27",
       "club": "Bigbank/Kalev",
       "home_games_counted": 6,
       "average": 505,
@@ -144,26 +164,6 @@
         {
           "arena": "Nord Spordihoone",
           "games": 6
-        }
-      ]
-    },
-    {
-      "league": "LEBL",
-      "season": "2026-27",
-      "club": "VEF Rīga",
-      "home_games_counted": 5,
-      "average": 452,
-      "total": 2261,
-      "max": 649,
-      "min": 248,
-      "arenas": [
-        {
-          "arena": "Rimi Olimpiskais centrs",
-          "games": 4
-        },
-        {
-          "arena": "Komandas Sporta Spelu Halle",
-          "games": 1
         }
       ]
     },
