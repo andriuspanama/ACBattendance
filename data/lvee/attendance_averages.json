@@ -1,7 +1,7 @@
 {
   "league": "LEBL",
   "season": "2026-27",
-  "updated": "2026-11-22T07:06:39+00:00",
+  "updated": "2026-11-22T19:50:27+00:00",
   "clubs": [
     {
       "league": "LEBL",
@@ -186,22 +186,6 @@
     {
       "league": "LEBL",
       "season": "2026-27",
-      "club": "Viimsi",
-      "home_games_counted": 5,
-      "average": 431,
-      "total": 2157,
-      "max": 814,
-      "min": 247,
-      "arenas": [
-        {
-          "arena": "Forus Spordikeskus Viimsi",
-          "games": 5
-        }
-      ]
-    },
-    {
-      "league": "LEBL",
-      "season": "2026-27",
       "club": "Keila KK",
       "home_games_counted": 6,
       "average": 421,
@@ -218,16 +202,32 @@
     {
       "league": "LEBL",
       "season": "2026-27",
+      "club": "Viimsi",
+      "home_games_counted": 6,
+      "average": 414,
+      "total": 2484,
+      "max": 814,
+      "min": 247,
+      "arenas": [
+        {
+          "arena": "Forus Spordikeskus Viimsi",
+          "games": 6
+        }
+      ]
+    },
+    {
+      "league": "LEBL",
+      "season": "2026-27",
       "club": "Keila Basket",
-      "home_games_counted": 4,
-      "average": 176,
-      "total": 705,
+      "home_games_counted": 5,
+      "average": 167,
+      "total": 833,
       "max": 209,
-      "min": 131,
+      "min": 128,
       "arenas": [
         {
           "arena": "Keila Tervisekeskus",
-          "games": 4
+          "games": 5
         }
       ]
     },
@@ -255,15 +255,15 @@
       "league": "LEBL",
       "season": "2026-27",
       "club": "Rigas Ekselences Juniori",
-      "home_games_counted": 7,
-      "average": 133,
-      "total": 934,
+      "home_games_counted": 8,
+      "average": 131,
+      "total": 1050,
       "max": 185,
       "min": 82,
       "arenas": [
         {
           "arena": "Komandas Sporta Spelu Halle",
-          "games": 4
+          "games": 5
         },
         {
           "arena": "Daugavas sporta nams",
