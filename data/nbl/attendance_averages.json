@@ -1,7 +1,7 @@
 {
   "league": "NBL",
   "season": "2026-27",
-  "updated": "2026-11-22T07:05:17+00:00",
+  "updated": "2026-11-22T19:49:55+00:00",
   "clubs": [
     {
       "league": "NBL",
@@ -94,6 +94,30 @@
     {
       "league": "NBL",
       "season": "2026-27",
+      "club": "Brisbane Bullets",
+      "home_games_counted": 8,
+      "average": 4304,
+      "total": 34435,
+      "max": 5556,
+      "min": 2906,
+      "arenas": [
+        {
+          "arena": "Brisbane Entertainment Centre",
+          "games": 6
+        },
+        {
+          "arena": "Pat Rafter Arena",
+          "games": 1
+        },
+        {
+          "arena": "Nissan Arena",
+          "games": 1
+        }
+      ]
+    },
+    {
+      "league": "NBL",
+      "season": "2026-27",
       "club": "Cairns Taipans",
       "home_games_counted": 7,
       "average": 4261,
@@ -120,30 +144,6 @@
         {
           "arena": "Spark Arena",
           "games": 5
-        }
-      ]
-    },
-    {
-      "league": "NBL",
-      "season": "2026-27",
-      "club": "Brisbane Bullets",
-      "home_games_counted": 7,
-      "average": 4151,
-      "total": 29054,
-      "max": 5556,
-      "min": 2906,
-      "arenas": [
-        {
-          "arena": "Brisbane Entertainment Centre",
-          "games": 5
-        },
-        {
-          "arena": "Pat Rafter Arena",
-          "games": 1
-        },
-        {
-          "arena": "Nissan Arena",
-          "games": 1
         }
       ]
     },
