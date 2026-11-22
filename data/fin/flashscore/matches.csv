@@ -1,5 +1,5 @@
 league,season,match_id,date,home,away,attendance,source_url,checked_at,attempts
-Korisliiga,2026-27,02A6lJjU,2026-11-21,Pyrinto Tampere,Lahti Basketball,,https://www.flashscore.com/match/basketball/lahti-basketball-W8HYpIee/pyrinto-tampere-IP2AMmcB/?mid=02A6lJjU,2026-11-21T19:29:41+00:00,1
+Korisliiga,2026-27,02A6lJjU,2026-11-21,Pyrinto Tampere,Lahti Basketball,502,https://www.flashscore.com/match/basketball/lahti-basketball-W8HYpIee/pyrinto-tampere-IP2AMmcB/?mid=02A6lJjU,2026-11-22T07:06:22+00:00,2
 Korisliiga,2026-27,06pf9vA6,2026-10-21,Kouvot Kouvola,Kotka Basket,902,https://www.flashscore.com/match/basketball/kouvot-kouvola-Kn6Y5USB/ktp-kotka-basket-pba258cO/?mid=06pf9vA6,2026-11-09T00:44:31+00:00,1
 Korisliiga,2026-27,2936bNel,2026-10-17,Bisons Loimaa,Salon Vilpas,713,https://www.flashscore.com/match/basketball/bisons-loimaa-6gG6hHRP/salon-vilpas-pGKYY0dJ/?mid=2936bNel,2026-11-09T00:42:27+00:00,1
 Korisliiga,2026-27,2B6nhtz8,2026-11-08,Kotka Basket,Lahti Basketball,1035,https://www.flashscore.com/match/basketball/ktp-kotka-basket-pba258cO/lahti-basketball-W8HYpIee/?mid=2B6nhtz8,2026-11-09T00:44:46+00:00,1
@@ -52,12 +52,12 @@ Korisliiga,2026-27,fLXCjTb3,2026-11-03,Pyrinto Tampere,Kouvot Kouvola,675,https:
 Korisliiga,2026-27,hE217IvJ,2026-10-21,Pyrinto Tampere,Kataja,575,https://www.flashscore.com/match/basketball/joensuun-kataja-xOGT6AD5/pyrinto-tampere-IP2AMmcB/?mid=hE217IvJ,2026-11-09T00:43:44+00:00,1
 Korisliiga,2026-27,hdLQopCr,2026-10-10,Salon Vilpas,UU-Korihait Uusikaupunki,1404,https://www.flashscore.com/match/basketball/salon-vilpas-pGKYY0dJ/uu-korihait-uusikaupunki-Olb64SCU/?mid=hdLQopCr,2026-11-09T00:45:10+00:00,1
 Korisliiga,2026-27,htsnB0uf,2026-10-21,Kipina,Honka,845,https://www.flashscore.com/match/basketball/honka-hUmLPBrt/kipina-jaGAHJjm/?mid=htsnB0uf,2026-11-09T00:43:15+00:00,1
-Korisliiga,2026-27,hx7bjuMH,2026-11-21,Kipina,Kataja,,https://www.flashscore.com/match/basketball/joensuun-kataja-xOGT6AD5/kipina-jaGAHJjm/?mid=hx7bjuMH,2026-11-21T19:29:37+00:00,1
+Korisliiga,2026-27,hx7bjuMH,2026-11-21,Kipina,Kataja,,https://www.flashscore.com/match/basketball/joensuun-kataja-xOGT6AD5/kipina-jaGAHJjm/?mid=hx7bjuMH,2026-11-22T07:06:19+00:00,2
 Korisliiga,2026-27,hxTrlLKE,2026-09-29,Kataja,Helsinki Seagulls,884,https://www.flashscore.com/match/basketball/helsinki-seagulls-Qo5RVkD5/joensuun-kataja-xOGT6AD5/?mid=hxTrlLKE,2026-11-09T00:42:40+00:00,1
 Korisliiga,2026-27,jXnnGnNj,2026-10-30,Kouvot Kouvola,UU-Korihait Uusikaupunki,779,https://www.flashscore.com/match/basketball/kouvot-kouvola-Kn6Y5USB/uu-korihait-uusikaupunki-Olb64SCU/?mid=jXnnGnNj,2026-11-09T00:44:44+00:00,1
 Korisliiga,2026-27,jg2UmXsT,2026-10-09,Helsinki Seagulls,Bisons Loimaa,725,https://www.flashscore.com/match/basketball/bisons-loimaa-6gG6hHRP/helsinki-seagulls-Qo5RVkD5/?mid=jg2UmXsT,2026-11-09T00:42:05+00:00,1
 Korisliiga,2026-27,l8Yerjlg,2026-10-02,Helsinki Seagulls,Lahti Basketball,925,https://www.flashscore.com/match/basketball/helsinki-seagulls-Qo5RVkD5/lahti-basketball-W8HYpIee/?mid=l8Yerjlg,2026-11-09T00:42:49+00:00,1
-Korisliiga,2026-27,lbkG8Myn,2026-11-21,Bisons Loimaa,Kouvot Kouvola,,https://www.flashscore.com/match/basketball/bisons-loimaa-6gG6hHRP/kouvot-kouvola-Kn6Y5USB/?mid=lbkG8Myn,2026-11-21T19:29:34+00:00,1
+Korisliiga,2026-27,lbkG8Myn,2026-11-21,Bisons Loimaa,Kouvot Kouvola,611,https://www.flashscore.com/match/basketball/bisons-loimaa-6gG6hHRP/kouvot-kouvola-Kn6Y5USB/?mid=lbkG8Myn,2026-11-22T07:06:16+00:00,2
 Korisliiga,2026-27,lph8IrmK,2026-10-27,Helsinki Seagulls,Salon Vilpas,837,https://www.flashscore.com/match/basketball/helsinki-seagulls-Qo5RVkD5/salon-vilpas-pGKYY0dJ/?mid=lph8IrmK,2026-11-09T00:42:58+00:00,1
 Korisliiga,2026-27,ncgg4hS9,2026-10-10,Kipina,Karhu Basket,1175,https://www.flashscore.com/match/basketball/karhu-basket-6PLUZtsD/kipina-jaGAHJjm/?mid=ncgg4hS9,2026-11-09T00:43:53+00:00,1
 Korisliiga,2026-27,p8kmVLWP,2026-10-21,Bisons Loimaa,UU-Korihait Uusikaupunki,601,https://www.flashscore.com/match/basketball/bisons-loimaa-6gG6hHRP/uu-korihait-uusikaupunki-Olb64SCU/?mid=p8kmVLWP,2026-11-09T00:42:33+00:00,1
