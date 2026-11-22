@@ -1,7 +1,7 @@
 {
  "league": "BBL",
  "season": "2026-27",
- "updated": "2026-11-22T07:57:17+00:00",
+ "updated": "2026-11-22T20:19:15+00:00",
  "clubs": [
   {
    "club": "ALBA BERLIN",
@@ -95,15 +95,15 @@
   },
   {
    "club": "MHP RIESEN Ludwigsburg",
-   "home_games_counted": 4,
-   "games_with_capacity": 4,
+   "home_games_counted": 5,
+   "games_with_capacity": 5,
    "capacity": 4000,
    "weighted_capacity": 4000,
-   "filling_rate": 0.8676,
+   "filling_rate": 0.8819,
    "arenas": [
     {
      "arena": "MHPArena Ludwigsburg",
-     "games": 4,
+     "games": 5,
      "capacity": 4000
     }
    ]
@@ -245,15 +245,15 @@
   },
   {
    "club": "Veolia Towers Hamburg",
-   "home_games_counted": 4,
-   "games_with_capacity": 4,
+   "home_games_counted": 5,
+   "games_with_capacity": 5,
    "capacity": 3400,
    "weighted_capacity": 3400,
-   "filling_rate": 0.8558,
+   "filling_rate": 0.8795,
    "arenas": [
     {
      "arena": "Inselpark Arena",
-     "games": 4,
+     "games": 5,
      "capacity": 3400
     }
    ]
@@ -275,7 +275,7 @@
   }
  ],
  "unknown_arenas": [],
- "last_attendance_game": "2026-11-21",
+ "last_attendance_game": "2026-11-22",
  "games": {
   "2006920": {
    "arena": "Uber Arena",
@@ -612,6 +612,22 @@
   "2006842": {
    "arena": "Volkswagen Halle Braunschweig",
    "capacity": 6358
+  },
+  "2006843": {
+   "arena": "Telekom Dome Bonn",
+   "capacity": 6000
+  },
+  "2006844": {
+   "arena": "MHPArena Ludwigsburg",
+   "capacity": 4000
+  },
+  "2006845": {
+   "arena": "Uber Arena",
+   "capacity": 13488
+  },
+  "2006846": {
+   "arena": "Inselpark Arena",
+   "capacity": 3400
   }
  }
 }

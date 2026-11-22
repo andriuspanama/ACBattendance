@@ -1,6 +1,6 @@
 {
  "season": "2026-27",
- "updated": "2026-11-22T07:57:17+00:00",
+ "updated": "2026-11-22T20:19:15+00:00",
  "clubs": {
   "ADA Blois Basket 41": {
    "arena": "Le Jeu de Paume",
@@ -61,8 +61,8 @@
    "capacity": 3500,
    "league": "GBL",
    "source": "games",
-   "games": 4,
-   "of_games": 4,
+   "games": 5,
+   "of_games": 5,
    "league_name": "Karditsas"
   },
   "ASVEL Basket": {
@@ -112,8 +112,8 @@
    "capacity": 13488,
    "league": "BBL",
    "source": "games",
-   "games": 5,
-   "of_games": 5,
+   "games": 6,
+   "of_games": 6,
    "league_name": "ALBA BERLIN"
   },
   "Alliance Sport Alsace ASA": {
@@ -562,8 +562,8 @@
    "capacity": 9300,
    "league": "ACB",
    "source": "games",
-   "games": 4,
-   "of_games": 4,
+   "games": 5,
+   "of_games": 5,
    "league_name": "Leyma Coruna"
   },
   "Basquet Girona": {
@@ -586,8 +586,8 @@
    "capacity": 5000,
    "league": "ACB",
    "source": "games",
-   "games": 4,
-   "of_games": 4,
+   "games": 5,
+   "of_games": 5,
    "league_name": "Kidsandus Manresa"
   },
   "Bayern Munich": {
@@ -631,8 +631,8 @@
    "capacity": 10014,
    "league": "ACB",
    "source": "games",
-   "games": 4,
-   "of_games": 4,
+   "games": 5,
+   "of_games": 5,
    "league_name": "Surne Bilbao"
   },
   "Bisons Loimaa": {
@@ -676,8 +676,8 @@
    "capacity": 10500,
    "league": "NBL",
    "source": "games",
-   "games": 5,
-   "of_games": 7,
+   "games": 6,
+   "of_games": 8,
    "league_name": "Brisbane Bullets"
   },
   "Budapesti Honved": {
@@ -718,8 +718,8 @@
    "capacity": 5100,
    "league": "ACB",
    "source": "games",
-   "games": 4,
-   "of_games": 4,
+   "games": 5,
+   "of_games": 5,
    "league_name": "La Laguna Tenerife"
   },
   "CB Gran Canaria": {
@@ -739,8 +739,8 @@
    "capacity": 9604,
    "league": "ACB",
    "source": "games",
-   "games": 3,
-   "of_games": 3,
+   "games": 4,
+   "of_games": 4,
    "league_name": "Recoletas Salud San Pablo Burgos"
   },
   "CS Dinamo Bucharest": {
@@ -949,8 +949,8 @@
    "capacity": 5000,
    "league": "LBA",
    "source": "games",
-   "games": 4,
-   "of_games": 4,
+   "games": 5,
+   "of_games": 5,
    "league_name": "Bertram Derthona Tortona"
   },
   "Dinamo Sassari": {
@@ -1294,8 +1294,8 @@
    "capacity": 3400,
    "league": "BBL",
    "source": "games",
-   "games": 4,
-   "of_games": 4,
+   "games": 5,
+   "of_games": 5,
    "league_name": "Veolia Towers Hamburg"
   },
   "Hapoel Beer Sheeva": {
@@ -1555,8 +1555,8 @@
    "capacity": 6000,
    "league": "ABA",
    "source": "games",
-   "games": 2,
-   "of_games": 2,
+   "games": 3,
+   "of_games": 3,
    "league_name": "Budućnost VOLI"
   },
   "KK Cedevita Olimpija": {
@@ -1591,8 +1591,8 @@
    "capacity": 8000,
    "league": "ABA",
    "source": "games",
-   "games": 4,
-   "of_games": 4,
+   "games": 5,
+   "of_games": 5,
    "league_name": "Crvena zvezda Meridianbet"
   },
   "KK Domžale": {
@@ -1669,8 +1669,8 @@
    "capacity": 5000,
    "league": "ABA",
    "source": "games",
-   "games": 3,
-   "of_games": 3,
+   "games": 4,
+   "of_games": 4,
    "league_name": "Mega Superbet"
   },
   "KK Mornar Bar": {
@@ -1753,8 +1753,8 @@
    "capacity": 800,
    "league": "LEBL",
    "source": "games",
-   "games": 5,
-   "of_games": 5,
+   "games": 6,
+   "of_games": 6,
    "league_name": "Viimsi"
   },
   "KK Zadar": {
@@ -1879,8 +1879,8 @@
    "capacity": 800,
    "league": "LEBL",
    "source": "games",
-   "games": 4,
-   "of_games": 4,
+   "games": 5,
+   "of_games": 5,
    "league_name": "Keila Basket"
   },
   "Keila KK": {
@@ -2047,8 +2047,8 @@
    "capacity": 5600,
    "league": "LKL",
    "source": "games",
-   "games": 5,
-   "of_games": 5,
+   "games": 6,
+   "of_games": 6,
    "league_name": "Lietkabelis"
   },
   "Limburg United": {
@@ -2107,8 +2107,8 @@
    "capacity": 4000,
    "league": "BBL",
    "source": "games",
-   "games": 4,
-   "of_games": 4,
+   "games": 5,
+   "of_games": 5,
    "league_name": "MHP RIESEN Ludwigsburg"
   },
   "MKS Dabrowa Gornicza": {
@@ -2211,15 +2211,15 @@
    "league_name": "Maroussi"
   },
   "Maxima Roma": {
-   "arena": "Palazzetto dello Sport",
+   "arena": "PalaEur",
    "city": "Roma",
-   "lat": 41.9296,
-   "lon": 12.47075,
-   "capacity": 3500,
+   "lat": 41.82526,
+   "lon": 12.46658,
+   "capacity": 11200,
    "league": "LBA",
    "source": "games",
-   "games": 2,
-   "of_games": 4,
+   "games": 3,
+   "of_games": 5,
    "league_name": "Maxima Roma"
   },
   "Melbourne United": {
@@ -2269,8 +2269,8 @@
    "capacity": 1014,
    "league": "GBL",
    "source": "games",
-   "games": 3,
-   "of_games": 3,
+   "games": 4,
+   "of_games": 4,
    "league_name": "Mykonos"
   },
   "NKA Universitas Pecs": {
@@ -2404,8 +2404,8 @@
    "capacity": 6000,
    "league": "ACB",
    "source": "games",
-   "games": 3,
-   "of_games": 3,
+   "games": 4,
+   "of_games": 4,
    "league_name": "Monbus Obradoiro"
   },
   "Olimpia Milano": {
@@ -2665,8 +2665,8 @@
    "capacity": 13109,
    "league": "ACB",
    "source": "games",
-   "games": 5,
-   "of_games": 5,
+   "games": 6,
+   "of_games": 6,
    "league_name": "Real Madrid"
   },
   "Rigas Ekselences Juniori": {
@@ -2677,8 +2677,8 @@
    "capacity": 2400,
    "league": "LEBL",
    "source": "games",
-   "games": 4,
-   "of_games": 7,
+   "games": 5,
+   "of_games": 8,
    "league_name": "Rigas Ekselences Juniori"
   },
   "Rigas Zelli": {
@@ -2722,8 +2722,8 @@
    "capacity": 9000,
    "league": "LKL",
    "source": "games",
-   "games": 4,
-   "of_games": 4,
+   "games": 5,
+   "of_games": 5,
    "league_name": "Rytas"
   },
   "SCABB": {
@@ -2839,8 +2839,8 @@
    "capacity": 3500,
    "league": "LBA",
    "source": "games",
-   "games": 4,
-   "of_games": 4,
+   "games": 5,
+   "of_games": 5,
    "league_name": "Longobardi Scafati Basket"
   },
   "Scaligera Basket Verona": {
@@ -2851,8 +2851,8 @@
    "capacity": 5350,
    "league": "LBA",
    "source": "games",
-   "games": 3,
-   "of_games": 3,
+   "games": 4,
+   "of_games": 4,
    "league_name": "Tezenis Verona"
   },
   "Science City Jena": {
@@ -2884,8 +2884,8 @@
    "capacity": 3000,
    "league": "PLK",
    "source": "games",
-   "games": 3,
-   "of_games": 3,
+   "games": 4,
+   "of_games": 4,
    "league_name": "WKS Śląsk Wrocław"
   },
   "Sokol Lancut": {
@@ -2962,8 +2962,8 @@
    "capacity": 3086,
    "league": "PLK",
    "source": "games",
-   "games": 2,
-   "of_games": 2,
+   "games": 3,
+   "of_games": 3,
    "league_name": "Tasomix Rosiek Stal Ostrów Wielkopolski"
   },
   "Start Lublin": {
@@ -3079,8 +3079,8 @@
    "capacity": 6000,
    "league": "BBL",
    "source": "games",
-   "games": 5,
-   "of_games": 5,
+   "games": 6,
+   "of_games": 6,
    "league_name": "Telekom Baskets Bonn"
   },
   "Tindastoll": {
@@ -3160,8 +3160,8 @@
    "capacity": 10000,
    "league": "ABA",
    "source": "games",
-   "games": 3,
-   "of_games": 4,
+   "games": 4,
+   "of_games": 5,
    "league_name": "U-BT Cluj-Napoca"
   },
   "UCAM Murcia": {
@@ -3172,8 +3172,8 @@
    "capacity": 7454,
    "league": "ACB",
    "source": "games",
-   "games": 4,
-   "of_games": 4,
+   "games": 5,
+   "of_games": 5,
    "league_name": "Ucam Murcia"
   },
   "Umana Reyer Venezia": {
@@ -3232,8 +3232,8 @@
    "capacity": 15600,
    "league": "ACB",
    "source": "games",
-   "games": 4,
-   "of_games": 4,
+   "games": 5,
+   "of_games": 5,
    "league_name": "Valencia Basket"
   },
   "Valmiera Glass/ViA": {
@@ -3286,8 +3286,8 @@
    "capacity": 5570,
    "league": "LBA",
    "source": "games",
-   "games": 4,
-   "of_games": 4,
+   "games": 5,
+   "of_games": 5,
    "league_name": "Virtus Costa Bologna"
   },
   "Wurzburg Baskets": {
@@ -3337,8 +3337,8 @@
    "capacity": 5080,
    "league": "PLK",
    "source": "games",
-   "games": 2,
-   "of_games": 2,
+   "games": 3,
+   "of_games": 3,
    "league_name": "Zastal Zielona Góra"
   },
   "Žalgiris Kaunas": {

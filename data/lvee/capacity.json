@@ -1,7 +1,7 @@
 {
  "league": "LEBL",
  "season": "2026-27",
- "updated": "2026-11-22T07:57:17+00:00",
+ "updated": "2026-11-22T20:19:15+00:00",
  "clubs": [
   {
    "club": "BC Pärnu",
@@ -80,15 +80,15 @@
   },
   {
    "club": "Keila Basket",
-   "home_games_counted": 4,
-   "games_with_capacity": 4,
+   "home_games_counted": 5,
+   "games_with_capacity": 5,
    "capacity": 800,
    "weighted_capacity": 800,
-   "filling_rate": 0.2203,
+   "filling_rate": 0.2082,
    "arenas": [
     {
      "arena": "Keila Tervisekeskus",
-     "games": 4,
+     "games": 5,
      "capacity": 800
     }
    ]
@@ -130,15 +130,15 @@
   },
   {
    "club": "Rigas Ekselences Juniori",
-   "home_games_counted": 7,
-   "games_with_capacity": 7,
+   "home_games_counted": 8,
+   "games_with_capacity": 8,
    "capacity": 2400,
-   "weighted_capacity": 1800,
-   "filling_rate": 0.0741,
+   "weighted_capacity": 1875,
+   "filling_rate": 0.07,
    "arenas": [
     {
      "arena": "Komandas Sporta Spelu Halle",
-     "games": 4,
+     "games": 5,
      "capacity": 2400
     },
     {
@@ -250,22 +250,22 @@
   },
   {
    "club": "Viimsi",
-   "home_games_counted": 5,
-   "games_with_capacity": 5,
+   "home_games_counted": 6,
+   "games_with_capacity": 6,
    "capacity": 800,
-   "weighted_capacity": 803,
-   "filling_rate": 0.5374,
+   "weighted_capacity": 802,
+   "filling_rate": 0.516,
    "arenas": [
     {
      "arena": "Forus Spordikeskus Viimsi",
-     "games": 5,
+     "games": 6,
      "capacity": 800
     }
    ]
   }
  ],
  "unknown_arenas": [],
- "last_attendance_game": "2026-11-21",
+ "last_attendance_game": "2026-11-22",
  "games": {
   "2027212141": {
    "arena": "Komandas Sporta Spelu Halle",
@@ -578,6 +578,18 @@
   "2027212703": {
    "arena": "Cesis SK",
    "capacity": 1080
+  },
+  "2027212034": {
+   "arena": "Keila Tervisekeskus",
+   "capacity": 800
+  },
+  "2027212062": {
+   "arena": "Forus Spordikeskus Viimsi",
+   "capacity": 800
+  },
+  "2027212147": {
+   "arena": "Komandas Sporta Spelu Halle",
+   "capacity": 2400
   }
  }
 }

@@ -1,8 +1,8 @@
 {
  "league": "ACB",
  "season": "2026-27",
- "played": 72,
- "with_attendance": 72,
+ "played": 81,
+ "with_attendance": 81,
  "missing": 0,
  "clubs": {
   "Asisa Joventut": {
@@ -26,58 +26,58 @@
    "with_attendance": 4
   },
   "Kidsandus Manresa": {
-   "played": 4,
-   "with_attendance": 4
+   "played": 5,
+   "with_attendance": 5
   },
   "Kosner Baskonia": {
    "played": 4,
    "with_attendance": 4
   },
   "La Laguna Tenerife": {
-   "played": 4,
-   "with_attendance": 4
+   "played": 5,
+   "with_attendance": 5
   },
   "Leyma Coruna": {
-   "played": 4,
-   "with_attendance": 4
+   "played": 5,
+   "with_attendance": 5
   },
   "Monbus Obradoiro": {
-   "played": 3,
-   "with_attendance": 3
+   "played": 4,
+   "with_attendance": 4
   },
   "Morabanc Andorra": {
    "played": 4,
    "with_attendance": 4
   },
   "Real Madrid": {
-   "played": 5,
-   "with_attendance": 5
+   "played": 6,
+   "with_attendance": 6
   },
   "Recoletas Salud San Pablo Burgos": {
-   "played": 3,
-   "with_attendance": 3
+   "played": 4,
+   "with_attendance": 4
   },
   "Rio Breogan": {
    "played": 4,
    "with_attendance": 4
   },
   "Surne Bilbao": {
-   "played": 4,
-   "with_attendance": 4
+   "played": 5,
+   "with_attendance": 5
   },
   "Ucam Murcia": {
-   "played": 4,
-   "with_attendance": 4
+   "played": 5,
+   "with_attendance": 5
   },
   "Unicaja": {
    "played": 4,
    "with_attendance": 4
   },
   "Valencia Basket": {
-   "played": 4,
-   "with_attendance": 4
+   "played": 5,
+   "with_attendance": 5
   }
  },
  "games": [],
- "updated": "2026-11-17T07:52:02+00:00"
+ "updated": "2026-11-22T20:19:18+00:00"
 }

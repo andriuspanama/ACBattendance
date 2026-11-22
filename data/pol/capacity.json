@@ -1,7 +1,7 @@
 {
  "league": "PLK",
  "season": "2026-27",
- "updated": "2026-11-22T07:57:17+00:00",
+ "updated": "2026-11-22T20:19:15+00:00",
  "clubs": [
   {
    "club": "AMW Arka Gdynia",
@@ -245,15 +245,15 @@
   },
   {
    "club": "Zastal Zielona Góra",
-   "home_games_counted": 2,
-   "games_with_capacity": 2,
+   "home_games_counted": 3,
+   "games_with_capacity": 3,
    "capacity": 5080,
    "weighted_capacity": 5080,
-   "filling_rate": 0.9174,
+   "filling_rate": 0.9358,
    "arenas": [
     {
      "arena": "Centrum Rekreacyjno-Sportowe",
-     "games": 2,
+     "games": 3,
      "capacity": 5080
     }
    ]
@@ -268,7 +268,7 @@
    ]
   }
  ],
- "last_attendance_game": "2026-11-21",
+ "last_attendance_game": "2026-11-22",
  "games": {
   "223465": {
    "arena": "Hala Sportowa 100-lecia Sopotu",
@@ -477,6 +477,18 @@
   "223523": {
    "arena": "MOSiR Globus",
    "capacity": 4119
+  },
+  "223517": {
+   "arena": "Centrum Rekreacyjno-Sportowe",
+   "capacity": 5080
+  },
+  "223518": {
+   "arena": "3mk Arena Ostrów",
+   "capacity": 3086
+  },
+  "223524": {
+   "arena": "Hala Orbita",
+   "capacity": 3000
   }
  }
 }

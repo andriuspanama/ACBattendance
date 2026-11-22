@@ -1,8 +1,8 @@
 {
  "league": "LEBL",
  "season": "2026-27",
- "played": 78,
- "with_attendance": 78,
+ "played": 81,
+ "with_attendance": 81,
  "missing": 0,
  "clubs": {
   "BC Pärnu": {
@@ -26,8 +26,8 @@
    "with_attendance": 6
   },
   "Keila Basket": {
-   "played": 4,
-   "with_attendance": 4
+   "played": 5,
+   "with_attendance": 5
   },
   "Keila KK": {
    "played": 6,
@@ -38,8 +38,8 @@
    "with_attendance": 2
   },
   "Rigas Ekselences Juniori": {
-   "played": 7,
-   "with_attendance": 7
+   "played": 8,
+   "with_attendance": 8
   },
   "Rīgas Zeļļi": {
    "played": 6,
@@ -62,10 +62,10 @@
    "with_attendance": 5
   },
   "Viimsi": {
-   "played": 5,
-   "with_attendance": 5
+   "played": 6,
+   "with_attendance": 6
   }
  },
  "games": [],
- "updated": "2026-11-22T07:57:19+00:00"
+ "updated": "2026-11-22T20:19:18+00:00"
 }

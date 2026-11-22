@@ -1,8 +1,8 @@
 {
  "league": "ABA",
  "season": "2026-27",
- "played": 75,
- "with_attendance": 73,
+ "played": 79,
+ "with_attendance": 77,
  "missing": 2,
  "clubs": {
   "BC Vienna": {
@@ -18,8 +18,8 @@
    "with_attendance": 4
   },
   "Budućnost VOLI": {
-   "played": 2,
-   "with_attendance": 2
+   "played": 3,
+   "with_attendance": 3
   },
   "Cedevita Olimpija": {
    "played": 4,
@@ -30,8 +30,8 @@
    "with_attendance": 5
   },
   "Crvena zvezda Meridianbet": {
-   "played": 4,
-   "with_attendance": 4
+   "played": 5,
+   "with_attendance": 5
   },
   "Dubai Basketball": {
    "played": 3,
@@ -58,8 +58,8 @@
    "with_attendance": 6
   },
   "Mega Superbet": {
-   "played": 3,
-   "with_attendance": 3
+   "played": 4,
+   "with_attendance": 4
   },
   "Partizan Mozzart Bet": {
    "played": 4,
@@ -82,8 +82,8 @@
    "with_attendance": 5
   },
   "U-BT Cluj-Napoca": {
-   "played": 4,
-   "with_attendance": 4
+   "played": 5,
+   "with_attendance": 5
   },
   "Zadar": {
    "played": 3,
@@ -106,5 +106,5 @@
    "url": "https://www.aba-liga.com/match/16/26/1/Overview/q1/1/home/partizan-mozzart-bet-mega-superbet/"
   }
  ],
- "updated": "2026-11-22T07:57:19+00:00"
+ "updated": "2026-11-22T20:19:18+00:00"
 }

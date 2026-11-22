@@ -1,8 +1,8 @@
 {
  "league": "GBL",
  "season": "2026-27",
- "played": 54,
- "with_attendance": 14,
+ "played": 55,
+ "with_attendance": 15,
  "missing": 40,
  "clubs": {
   "Aek": {
@@ -34,8 +34,8 @@
    "with_attendance": 0
   },
   "Mykonos": {
-   "played": 3,
-   "with_attendance": 1
+   "played": 4,
+   "with_attendance": 2
   },
   "Olympiacos": {
    "played": 2,
@@ -344,5 +344,5 @@
    "url": "https://www.flashscore.com/match/basketball/lefkadas-0SuFkHq2/peristeri-Q96Izpwc/?mid=4Msinuhc"
   }
  ],
- "updated": "2026-11-22T07:57:19+00:00"
+ "updated": "2026-11-22T20:19:18+00:00"
 }

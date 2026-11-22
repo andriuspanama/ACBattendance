@@ -1,8 +1,8 @@
 {
  "league": "PLK",
  "season": "2026-27",
- "played": 52,
- "with_attendance": 52,
+ "played": 53,
+ "with_attendance": 53,
  "missing": 0,
  "clubs": {
   "AMW Arka Gdynia": {
@@ -66,10 +66,10 @@
    "with_attendance": 3
   },
   "Zastal Zielona Góra": {
-   "played": 2,
-   "with_attendance": 2
+   "played": 3,
+   "with_attendance": 3
   }
  },
  "games": [],
- "updated": "2026-11-22T07:57:19+00:00"
+ "updated": "2026-11-22T20:19:18+00:00"
 }

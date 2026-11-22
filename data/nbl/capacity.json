@@ -1,7 +1,7 @@
 {
  "league": "NBL",
  "season": "2026-27",
- "updated": "2026-11-22T07:57:17+00:00",
+ "updated": "2026-11-22T20:19:15+00:00",
  "clubs": [
   {
    "club": "Adelaide 36ers",
@@ -20,15 +20,15 @@
   },
   {
    "club": "Brisbane Bullets",
-   "home_games_counted": 7,
-   "games_with_capacity": 7,
+   "home_games_counted": 8,
+   "games_with_capacity": 8,
    "capacity": 10500,
-   "weighted_capacity": 9000,
-   "filling_rate": 0.4612,
+   "weighted_capacity": 9188,
+   "filling_rate": 0.4685,
    "arenas": [
     {
      "arena": "Brisbane Entertainment Centre",
-     "games": 5,
+     "games": 6,
      "capacity": 10500
     },
     {
@@ -473,6 +473,10 @@
   "37726ee0-58ad-11f1-8d86-85bf0639ac6b": {
    "arena": "MyState Bank Arena",
    "capacity": 4340
+  },
+  "374c5a9d-58ad-11f1-8829-1daf76a0ede8": {
+   "arena": "Brisbane Entertainment Centre",
+   "capacity": 10500
   },
   "37514d45-58ad-11f1-917b-0f009f2e4d02": {
    "arena": "John Cain Arena",

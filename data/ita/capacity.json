@@ -1,7 +1,7 @@
 {
  "league": "LBA",
  "season": "2026-27",
- "updated": "2026-11-22T07:57:17+00:00",
+ "updated": "2026-11-22T20:19:15+00:00",
  "clubs": [
   {
    "club": "Acqua S.Bernardo Cantù",
@@ -50,15 +50,15 @@
   },
   {
    "club": "Bertram Derthona Tortona",
-   "home_games_counted": 4,
-   "games_with_capacity": 4,
+   "home_games_counted": 5,
+   "games_with_capacity": 5,
    "capacity": 5000,
    "weighted_capacity": 5000,
-   "filling_rate": 0.5182,
+   "filling_rate": 0.5755,
    "arenas": [
     {
      "arena": "Nova Arena",
-     "games": 4,
+     "games": 5,
      "capacity": 5000
     }
    ]
@@ -188,7 +188,7 @@
    ]
   }
  ],
- "last_attendance_game": "2026-11-21",
+ "last_attendance_game": "2026-11-22",
  "games": {
   "25602": {
    "arena": "Palaverde",
@@ -453,6 +453,26 @@
   "25428": {
    "arena": "Generali Arena",
    "capacity": null
+  },
+  "25424": {
+   "arena": "PalaDozza",
+   "capacity": 5570
+  },
+  "25425": {
+   "arena": "Pala MAGIS",
+   "capacity": 5350
+  },
+  "25427": {
+   "arena": "Nova Arena",
+   "capacity": 5000
+  },
+  "25429": {
+   "arena": "PalaEur",
+   "capacity": 11200
+  },
+  "25430": {
+   "arena": "Beta Ricambi Arena PalaMangano",
+   "capacity": 3500
   }
  }
 }

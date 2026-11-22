@@ -1,8 +1,8 @@
 {
  "league": "BBL",
  "season": "2026-27",
- "played": 84,
- "with_attendance": 83,
+ "played": 86,
+ "with_attendance": 85,
  "missing": 1,
  "clubs": {
   "ALBA BERLIN": {
@@ -30,8 +30,8 @@
    "with_attendance": 5
   },
   "MHP RIESEN Ludwigsburg": {
-   "played": 4,
-   "with_attendance": 4
+   "played": 5,
+   "with_attendance": 5
   },
   "NINERS Chemnitz": {
    "played": 4,
@@ -70,8 +70,8 @@
    "with_attendance": 5
   },
   "Veolia Towers Hamburg": {
-   "played": 4,
-   "with_attendance": 4
+   "played": 5,
+   "with_attendance": 5
   },
   "ratiopharm ulm": {
    "played": 4,
@@ -87,5 +87,5 @@
    "url": "https://www.easycredit-bbl.de/spiele/2006864"
   }
  ],
- "updated": "2026-11-22T07:57:19+00:00"
+ "updated": "2026-11-22T20:19:18+00:00"
 }

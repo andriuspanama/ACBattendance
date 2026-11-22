@@ -1,7 +1,7 @@
 {
  "league": "ACB",
  "season": "2026-27",
- "updated": "2026-11-16T22:51:53+00:00",
+ "updated": "2026-11-22T20:19:15+00:00",
  "clubs": [
   {
    "club": "Asisa Joventut",
@@ -80,15 +80,15 @@
   },
   {
    "club": "Kidsandus Manresa",
-   "home_games_counted": 4,
-   "games_with_capacity": 4,
+   "home_games_counted": 5,
+   "games_with_capacity": 5,
    "capacity": 5000,
    "weighted_capacity": 5000,
-   "filling_rate": 0.9194,
+   "filling_rate": 0.9309,
    "arenas": [
     {
      "arena": "Pavelló Nou Congost",
-     "games": 4,
+     "games": 5,
      "capacity": 5000
     }
    ]
@@ -110,45 +110,45 @@
   },
   {
    "club": "La Laguna Tenerife",
-   "home_games_counted": 4,
-   "games_with_capacity": 4,
+   "home_games_counted": 5,
+   "games_with_capacity": 5,
    "capacity": 5100,
    "weighted_capacity": 5100,
-   "filling_rate": 0.7516,
+   "filling_rate": 0.8013,
    "arenas": [
     {
      "arena": "Pab. Dep. Tenerife Santiago Martín",
-     "games": 4,
+     "games": 5,
      "capacity": 5100
     }
    ]
   },
   {
    "club": "Leyma Coruna",
-   "home_games_counted": 4,
-   "games_with_capacity": 4,
+   "home_games_counted": 5,
+   "games_with_capacity": 5,
    "capacity": 9300,
    "weighted_capacity": 9300,
-   "filling_rate": 0.6597,
+   "filling_rate": 0.6636,
    "arenas": [
     {
      "arena": "Coliseum",
-     "games": 4,
+     "games": 5,
      "capacity": 9300
     }
    ]
   },
   {
    "club": "Monbus Obradoiro",
-   "home_games_counted": 3,
-   "games_with_capacity": 3,
+   "home_games_counted": 4,
+   "games_with_capacity": 4,
    "capacity": 6000,
    "weighted_capacity": 6000,
-   "filling_rate": 0.9431,
+   "filling_rate": 0.9227,
    "arenas": [
     {
      "arena": "Multiusos Fontes do Sar",
-     "games": 3,
+     "games": 4,
      "capacity": 6000
     }
    ]
@@ -170,30 +170,30 @@
   },
   {
    "club": "Real Madrid",
-   "home_games_counted": 5,
-   "games_with_capacity": 5,
+   "home_games_counted": 6,
+   "games_with_capacity": 6,
    "capacity": 13109,
    "weighted_capacity": 13109,
-   "filling_rate": 0.533,
+   "filling_rate": 0.5633,
    "arenas": [
     {
      "arena": "Movistar Arena",
-     "games": 5,
+     "games": 6,
      "capacity": 13109
     }
    ]
   },
   {
    "club": "Recoletas Salud San Pablo Burgos",
-   "home_games_counted": 3,
-   "games_with_capacity": 3,
+   "home_games_counted": 4,
+   "games_with_capacity": 4,
    "capacity": 9604,
    "weighted_capacity": 9604,
-   "filling_rate": 0.9368,
+   "filling_rate": 0.936,
    "arenas": [
     {
      "arena": "Coliseum Burgos",
-     "games": 3,
+     "games": 4,
      "capacity": 9604
     }
    ]
@@ -215,30 +215,30 @@
   },
   {
    "club": "Surne Bilbao",
-   "home_games_counted": 4,
-   "games_with_capacity": 4,
+   "home_games_counted": 5,
+   "games_with_capacity": 5,
    "capacity": 10014,
    "weighted_capacity": 10014,
-   "filling_rate": 0.8338,
+   "filling_rate": 0.852,
    "arenas": [
     {
      "arena": "Bilbao Arena",
-     "games": 4,
+     "games": 5,
      "capacity": 10014
     }
    ]
   },
   {
    "club": "Ucam Murcia",
-   "home_games_counted": 4,
-   "games_with_capacity": 4,
+   "home_games_counted": 5,
+   "games_with_capacity": 5,
    "capacity": 7454,
    "weighted_capacity": 7454,
-   "filling_rate": 0.8657,
+   "filling_rate": 0.8588,
    "arenas": [
     {
      "arena": "Palacio de Deportes de Murcia",
-     "games": 4,
+     "games": 5,
      "capacity": 7454
     }
    ]
@@ -260,22 +260,22 @@
   },
   {
    "club": "Valencia Basket",
-   "home_games_counted": 4,
-   "games_with_capacity": 4,
+   "home_games_counted": 5,
+   "games_with_capacity": 5,
    "capacity": 15600,
    "weighted_capacity": 15600,
-   "filling_rate": 0.7324,
+   "filling_rate": 0.7409,
    "arenas": [
     {
      "arena": "Roig Arena",
-     "games": 4,
+     "games": 5,
      "capacity": 15600
     }
    ]
   }
  ],
  "unknown_arenas": [],
- "last_attendance_game": "2026-11-16",
+ "last_attendance_game": "2026-11-22",
  "games": {
   "105375": {
    "arena": "Bilbao Arena",

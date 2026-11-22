@@ -1,8 +1,8 @@
 {
  "league": "BSL",
  "season": "2026-27",
- "played": 66,
- "with_attendance": 66,
+ "played": 69,
+ "with_attendance": 69,
  "missing": 0,
  "clubs": {
   "Aliağa Petkim Spor": {
@@ -38,12 +38,12 @@
    "with_attendance": 4
   },
   "Galatasaray Mct Technıc": {
-   "played": 4,
-   "with_attendance": 4
+   "played": 5,
+   "with_attendance": 5
   },
   "Glint Çayırova Belediyesi": {
-   "played": 4,
-   "with_attendance": 4
+   "played": 5,
+   "with_attendance": 5
   },
   "Karşıyaka": {
    "played": 3,
@@ -58,8 +58,8 @@
    "with_attendance": 4
   },
   "Trabzonspor": {
-   "played": 4,
-   "with_attendance": 4
+   "played": 5,
+   "with_attendance": 5
   },
   "Türk Telekom": {
    "played": 5,
@@ -71,5 +71,5 @@
   }
  },
  "games": [],
- "updated": "2026-11-22T07:57:19+00:00"
+ "updated": "2026-11-22T20:19:18+00:00"
 }

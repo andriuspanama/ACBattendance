@@ -1,8 +1,8 @@
 {
  "league": "NBL",
  "season": "2026-27",
- "played": 74,
- "with_attendance": 74,
+ "played": 75,
+ "with_attendance": 75,
  "missing": 0,
  "clubs": {
   "Adelaide 36ers": {
@@ -10,8 +10,8 @@
    "with_attendance": 6
   },
   "Brisbane Bullets": {
-   "played": 7,
-   "with_attendance": 7
+   "played": 8,
+   "with_attendance": 8
   },
   "Cairns Taipans": {
    "played": 7,
@@ -47,5 +47,5 @@
   }
  },
  "games": [],
- "updated": "2026-11-22T07:57:19+00:00"
+ "updated": "2026-11-22T20:19:18+00:00"
 }

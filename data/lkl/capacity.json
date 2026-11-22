@@ -1,7 +1,7 @@
 {
  "league": "LKL",
  "season": "2026-27",
- "updated": "2026-11-22T07:57:17+00:00",
+ "updated": "2026-11-22T20:19:15+00:00",
  "clubs": [
   {
    "club": "Gargzdai",
@@ -285,6 +285,10 @@
    "arena": "Žalgirio arena",
    "capacity": 15415
   },
+  "WhHgzEl2": {
+   "arena": "Arena Vilnius",
+   "capacity": 9000
+  },
   "YuOzuNHt": {
    "arena": "Jonavos sporto arena",
    "capacity": 2246
@@ -296,6 +300,10 @@
   "bRLwndVN": {
    "arena": "Švyturio arena",
    "capacity": 6200
+  },
+  "buJoxzKk": {
+   "arena": "Kalnapilio arena",
+   "capacity": 5600
   },
   "dtv3QN2m": {
    "arena": "Kalnapilio arena",

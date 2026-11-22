@@ -1,7 +1,7 @@
 {
  "league": "ABA",
  "season": "2026-27",
- "updated": "2026-11-22T07:57:17+00:00",
+ "updated": "2026-11-22T20:19:15+00:00",
  "clubs": [
   {
    "club": "BC Vienna",
@@ -55,15 +55,15 @@
   },
   {
    "club": "Budućnost VOLI",
-   "home_games_counted": 2,
-   "games_with_capacity": 2,
+   "home_games_counted": 3,
+   "games_with_capacity": 3,
    "capacity": 6000,
    "weighted_capacity": 6000,
-   "filling_rate": 0.0917,
+   "filling_rate": 0.1306,
    "arenas": [
     {
      "arena": "Sportski centar Morača",
-     "games": 2,
+     "games": 3,
      "capacity": 6000
     }
    ]
@@ -105,15 +105,15 @@
   },
   {
    "club": "Crvena zvezda Meridianbet",
-   "home_games_counted": 4,
-   "games_with_capacity": 4,
+   "home_games_counted": 5,
+   "games_with_capacity": 5,
    "capacity": 8000,
    "weighted_capacity": 8000,
-   "filling_rate": 0.3737,
+   "filling_rate": 0.3332,
    "arenas": [
     {
      "arena": "Košarkaška dvorana Aleksandar Nikolić",
-     "games": 4,
+     "games": 5,
      "capacity": 8000
     }
    ]
@@ -210,15 +210,15 @@
   },
   {
    "club": "Mega Superbet",
-   "home_games_counted": 3,
-   "games_with_capacity": 3,
+   "home_games_counted": 4,
+   "games_with_capacity": 4,
    "capacity": 5000,
    "weighted_capacity": 5000,
-   "filling_rate": 0.17,
+   "filling_rate": 0.1451,
    "arenas": [
     {
      "arena": "Hala sportova Ranko Žeravica",
-     "games": 3,
+     "games": 4,
      "capacity": 5000
     }
    ]
@@ -305,15 +305,15 @@
   },
   {
    "club": "U-BT Cluj-Napoca",
-   "home_games_counted": 4,
-   "games_with_capacity": 4,
+   "home_games_counted": 5,
+   "games_with_capacity": 5,
    "capacity": 10000,
-   "weighted_capacity": 8131,
-   "filling_rate": 0.4378,
+   "weighted_capacity": 8505,
+   "filling_rate": 0.4433,
    "arenas": [
     {
      "arena": "BT Arena",
-     "games": 3,
+     "games": 4,
      "capacity": 10000
     },
     {
@@ -348,7 +348,7 @@
    ]
   }
  ],
- "last_attendance_game": "2026-11-21",
+ "last_attendance_game": "2026-11-22",
  "games": {
   "13": {
    "arena": "ŠD Leona Štuklja Novo Mesto",
@@ -649,6 +649,22 @@
   "89": {
    "arena": "Hala Sportova Dudova šuma",
    "capacity": 3500
+  },
+  "81": {
+   "arena": "Košarkaška dvorana Aleksandar Nikolić",
+   "capacity": 8000
+  },
+  "82": {
+   "arena": "Sportski centar Morača",
+   "capacity": 6000
+  },
+  "87": {
+   "arena": "Hala sportova Ranko Žeravica",
+   "capacity": 5000
+  },
+  "88": {
+   "arena": "BT Arena",
+   "capacity": 10000
   }
  }
 }
