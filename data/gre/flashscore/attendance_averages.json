@@ -1,12 +1,22 @@
 {
   "league": "GBL",
   "season": "2026-27",
-  "updated": "2026-11-21T19:46:41+00:00",
+  "updated": "2026-11-22T07:26:34+00:00",
   "games": {
     "checked": 54,
-    "with_attendance": 13
+    "with_attendance": 14
   },
   "clubs": [
+    {
+      "league": "GBL",
+      "season": "2026-27",
+      "club": "PAOK",
+      "home_games_counted": 1,
+      "average": 9000,
+      "total": 9000,
+      "max": 9000,
+      "min": 9000
+    },
     {
       "league": "GBL",
       "season": "2026-27",
@@ -111,16 +121,6 @@
       "league": "GBL",
       "season": "2026-27",
       "club": "Olympiacos",
-      "home_games_counted": 0,
-      "average": null,
-      "total": 0,
-      "max": null,
-      "min": null
-    },
-    {
-      "league": "GBL",
-      "season": "2026-27",
-      "club": "PAOK",
       "home_games_counted": 0,
       "average": null,
       "total": 0,
