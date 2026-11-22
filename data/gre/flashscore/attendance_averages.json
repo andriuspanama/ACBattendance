@@ -1,10 +1,10 @@
 {
   "league": "GBL",
   "season": "2026-27",
-  "updated": "2026-11-22T07:26:34+00:00",
+  "updated": "2026-11-22T19:58:09+00:00",
   "games": {
-    "checked": 54,
-    "with_attendance": 14
+    "checked": 56,
+    "with_attendance": 15
   },
   "clubs": [
     {
@@ -81,11 +81,11 @@
       "league": "GBL",
       "season": "2026-27",
       "club": "Mykonos",
-      "home_games_counted": 1,
-      "average": 700,
-      "total": 700,
+      "home_games_counted": 2,
+      "average": 650,
+      "total": 1300,
       "max": 700,
-      "min": 700
+      "min": 600
     },
     {
       "league": "GBL",

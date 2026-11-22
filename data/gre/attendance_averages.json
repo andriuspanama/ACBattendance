@@ -1,7 +1,7 @@
 {
   "league": "GBL",
   "season": "2026-27",
-  "updated": "2026-11-22T07:27:55+00:00",
+  "updated": "2026-11-22T20:01:10+00:00",
   "clubs": [
     {
       "league": "GBL",
@@ -123,15 +123,15 @@
       "league": "GBL",
       "season": "2026-27",
       "club": "Mykonos",
-      "home_games_counted": 1,
-      "average": 700,
-      "total": 700,
+      "home_games_counted": 2,
+      "average": 650,
+      "total": 1300,
       "max": 700,
-      "min": 700,
+      "min": 600,
       "arenas": [
         {
           "arena": "Κ.Γ. «ΠΑΝ. ΧΑΝΙΩΤΗΣ» ΑΝΩ ΜΕΡΑ ΜΥΚΟΝΟΥ",
-          "games": 1
+          "games": 2
         }
       ]
     },
