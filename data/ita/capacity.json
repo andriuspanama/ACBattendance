@@ -1,7 +1,7 @@
 {
  "league": "LBA",
  "season": "2026-27",
- "updated": "2026-11-16T22:51:53+00:00",
+ "updated": "2026-11-22T07:57:17+00:00",
  "clubs": [
   {
    "club": "Acqua S.Bernardo Cantù",
@@ -65,15 +65,15 @@
   },
   {
    "club": "Dolomiti Energia Trentino",
-   "home_games_counted": 4,
-   "games_with_capacity": 4,
+   "home_games_counted": 5,
+   "games_with_capacity": 5,
    "capacity": 4360,
    "weighted_capacity": 4360,
-   "filling_rate": 0.8741,
+   "filling_rate": 0.8702,
    "arenas": [
     {
      "arena": "BTS Arena",
-     "games": 4,
+     "games": 5,
      "capacity": 4360
     }
    ]
@@ -145,7 +145,7 @@
   },
   {
    "club": "Pallacanestro Trieste",
-   "home_games_counted": 2,
+   "home_games_counted": 3,
    "games_with_capacity": 2,
    "capacity": 6736,
    "weighted_capacity": 6736,
@@ -155,6 +155,11 @@
      "arena": "PalaTrieste",
      "games": 2,
      "capacity": 6736
+    },
+    {
+     "arena": "Generali Arena",
+     "games": 1,
+     "capacity": null
     }
    ]
   },
@@ -174,8 +179,16 @@
    ]
   }
  ],
- "unknown_arenas": [],
- "last_attendance_game": "2026-11-15",
+ "unknown_arenas": [
+  {
+   "arena": "Generali Arena",
+   "games": 1,
+   "clubs": [
+    "Pallacanestro Trieste"
+   ]
+  }
+ ],
+ "last_attendance_game": "2026-11-21",
  "games": {
   "25602": {
    "arena": "Palaverde",
@@ -432,6 +445,14 @@
   "25423": {
    "arena": "PalaCarnera Credifriuli",
    "capacity": 3500
+  },
+  "25426": {
+   "arena": "BTS Arena",
+   "capacity": 4360
+  },
+  "25428": {
+   "arena": "Generali Arena",
+   "capacity": null
   }
  }
 }

@@ -1,7 +1,7 @@
 {
  "league": "NBL",
  "season": "2026-27",
- "updated": "2026-11-21T20:03:56+00:00",
+ "updated": "2026-11-22T07:57:17+00:00",
  "clubs": [
   {
    "club": "Adelaide 36ers",
@@ -120,15 +120,15 @@
   },
   {
    "club": "South East Melbourne Phoenix",
-   "home_games_counted": 7,
-   "games_with_capacity": 7,
+   "home_games_counted": 8,
+   "games_with_capacity": 8,
    "capacity": 10500,
-   "weighted_capacity": 9457,
-   "filling_rate": 0.7312,
+   "weighted_capacity": 9588,
+   "filling_rate": 0.7202,
    "arenas": [
     {
      "arena": "John Cain Arena",
-     "games": 6,
+     "games": 7,
      "capacity": 10500
     },
     {
@@ -180,7 +180,7 @@
   }
  ],
  "unknown_arenas": [],
- "last_attendance_game": "2026-11-21",
+ "last_attendance_game": "2026-11-22",
  "games": {
   "36dbeb55-58ad-11f1-a69b-43a6b5595d3e": {
    "arena": "John Cain Arena",
@@ -473,6 +473,10 @@
   "37726ee0-58ad-11f1-8d86-85bf0639ac6b": {
    "arena": "MyState Bank Arena",
    "capacity": 4340
+  },
+  "37514d45-58ad-11f1-917b-0f009f2e4d02": {
+   "arena": "John Cain Arena",
+   "capacity": 10500
   }
  }
 }

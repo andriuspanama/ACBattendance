@@ -1,8 +1,8 @@
 {
  "league": "BBL",
  "season": "2026-27",
- "played": 82,
- "with_attendance": 81,
+ "played": 84,
+ "with_attendance": 83,
  "missing": 1,
  "clubs": {
   "ALBA BERLIN": {
@@ -18,8 +18,8 @@
    "with_attendance": 5
   },
   "EWE Baskets Oldenburg": {
-   "played": 5,
-   "with_attendance": 5
+   "played": 6,
+   "with_attendance": 6
   },
   "FC Bayern München Basketball": {
    "played": 6,
@@ -66,8 +66,8 @@
    "with_attendance": 5
   },
   "VET-CONCEPT Gladiators Trier": {
-   "played": 4,
-   "with_attendance": 4
+   "played": 5,
+   "with_attendance": 5
   },
   "Veolia Towers Hamburg": {
    "played": 4,
@@ -87,5 +87,5 @@
    "url": "https://www.easycredit-bbl.de/spiele/2006864"
   }
  ],
- "updated": "2026-11-21T20:03:58+00:00"
+ "updated": "2026-11-22T07:57:19+00:00"
 }

@@ -1,9 +1,9 @@
 {
  "league": "Korisliiga",
  "season": "2026-27",
- "played": 70,
+ "played": 71,
  "with_attendance": 70,
- "missing": 0,
+ "missing": 1,
  "clubs": {
   "Bisons Loimaa": {
    "played": 6,
@@ -26,7 +26,7 @@
    "with_attendance": 6
   },
   "Kipinä Basket": {
-   "played": 5,
+   "played": 6,
    "with_attendance": 5
   },
   "Korihait": {
@@ -54,6 +54,14 @@
    "with_attendance": 6
   }
  },
- "games": [],
- "updated": "2026-11-21T20:03:58+00:00"
+ "games": [
+  {
+   "id": "ac6f5556-a1e7-11f1-bb90-f94974ab879e",
+   "date": "2026-11-21",
+   "home": "Kipinä Basket",
+   "away": "Kataja Basket",
+   "url": "https://basket.fi/live/?~w=f~eJwlyzEKwzAMQNGrBM0VRKllWd279g5SsCAQsthTS-9eRMcP739gwGMB2qzcZVNU94pEQajRA1WsNmX2tgbcFjgT9wufr6zIsr0GM1c06vJf3XXF0KJSzJtoT_xOPKbNY8xjH_D9AUtJH68"
+  }
+ ],
+ "updated": "2026-11-22T07:57:19+00:00"
 }

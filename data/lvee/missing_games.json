@@ -1,8 +1,8 @@
 {
  "league": "LEBL",
  "season": "2026-27",
- "played": 76,
- "with_attendance": 76,
+ "played": 78,
+ "with_attendance": 78,
  "missing": 0,
  "clubs": {
   "BC Pärnu": {
@@ -50,12 +50,12 @@
    "with_attendance": 5
   },
   "Tartu Ülikool Maks & Moorits": {
-   "played": 4,
-   "with_attendance": 4
-  },
-  "VEF Rīga": {
    "played": 5,
    "with_attendance": 5
+  },
+  "VEF Rīga": {
+   "played": 6,
+   "with_attendance": 6
   },
   "Valmiera Glass VIA": {
    "played": 5,
@@ -67,5 +67,5 @@
   }
  },
  "games": [],
- "updated": "2026-11-21T20:03:58+00:00"
+ "updated": "2026-11-22T07:57:19+00:00"
 }

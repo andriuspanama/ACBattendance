@@ -1,19 +1,19 @@
 {
  "league": "LKL",
  "season": "2026-27",
- "updated": "2026-11-21T20:03:56+00:00",
+ "updated": "2026-11-22T07:57:17+00:00",
  "clubs": [
   {
    "club": "Gargzdai",
-   "home_games_counted": 4,
-   "games_with_capacity": 4,
+   "home_games_counted": 5,
+   "games_with_capacity": 5,
    "capacity": 1500,
    "weighted_capacity": 1500,
-   "filling_rate": 0.933,
+   "filling_rate": 0.9464,
    "arenas": [
     {
      "arena": "Gargždų SC arena",
-     "games": 4,
+     "games": 5,
      "capacity": 1500
     }
    ]
@@ -65,15 +65,15 @@
   },
   {
    "club": "Neptunas",
-   "home_games_counted": 5,
-   "games_with_capacity": 5,
+   "home_games_counted": 6,
+   "games_with_capacity": 6,
    "capacity": 6200,
    "weighted_capacity": 6200,
-   "filling_rate": 0.3755,
+   "filling_rate": 0.3598,
    "arenas": [
     {
      "arena": "Švyturio arena",
-     "games": 5,
+     "games": 6,
      "capacity": 6200
     }
    ]
@@ -110,15 +110,15 @@
   },
   {
    "club": "Siauliai",
-   "home_games_counted": 5,
-   "games_with_capacity": 5,
+   "home_games_counted": 6,
+   "games_with_capacity": 6,
    "capacity": 5500,
    "weighted_capacity": 5500,
-   "filling_rate": 0.3621,
+   "filling_rate": 0.3505,
    "arenas": [
     {
      "arena": "Šiaulių arena",
-     "games": 5,
+     "games": 6,
      "capacity": 5500
     }
    ]
@@ -155,7 +155,7 @@
   }
  ],
  "unknown_arenas": [],
- "last_attendance_game": "2026-11-18",
+ "last_attendance_game": "2026-11-21",
  "games": {
   "0YhgbKyo": {
    "arena": "Kalnapilio arena",

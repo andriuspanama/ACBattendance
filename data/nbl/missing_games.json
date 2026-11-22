@@ -1,8 +1,8 @@
 {
  "league": "NBL",
  "season": "2026-27",
- "played": 73,
- "with_attendance": 73,
+ "played": 74,
+ "with_attendance": 74,
  "missing": 0,
  "clubs": {
   "Adelaide 36ers": {
@@ -34,8 +34,8 @@
    "with_attendance": 11
   },
   "South East Melbourne Phoenix": {
-   "played": 7,
-   "with_attendance": 7
+   "played": 8,
+   "with_attendance": 8
   },
   "Sydney Kings": {
    "played": 8,
@@ -47,5 +47,5 @@
   }
  },
  "games": [],
- "updated": "2026-11-21T20:03:58+00:00"
+ "updated": "2026-11-22T07:57:19+00:00"
 }

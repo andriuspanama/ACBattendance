@@ -1,9 +1,9 @@
 {
  "league": "GBL",
  "season": "2026-27",
- "played": 49,
- "with_attendance": 13,
- "missing": 36,
+ "played": 54,
+ "with_attendance": 14,
+ "missing": 40,
  "clubs": {
   "Aek": {
    "played": 4,
@@ -14,7 +14,7 @@
    "with_attendance": 3
   },
   "Iraklis": {
-   "played": 4,
+   "played": 5,
    "with_attendance": 2
   },
   "Karditsas": {
@@ -22,11 +22,11 @@
    "with_attendance": 2
   },
   "Kolossos Rhodes": {
-   "played": 4,
+   "played": 5,
    "with_attendance": 0
   },
   "Lefkadas": {
-   "played": 3,
+   "played": 4,
    "with_attendance": 2
   },
   "Maroussi": {
@@ -42,11 +42,11 @@
    "with_attendance": 0
   },
   "PAOK": {
-   "played": 3,
-   "with_attendance": 0
+   "played": 4,
+   "with_attendance": 1
   },
   "Panathinaikos": {
-   "played": 4,
+   "played": 5,
    "with_attendance": 0
   },
   "Peristeri": {
@@ -314,7 +314,35 @@
    "home": "Peristeri",
    "away": "Mykonos",
    "url": "https://www.flashscore.com/match/basketball/mykonos-Iqi5attH/peristeri-Q96Izpwc/?mid=bP0MmXB4"
+  },
+  {
+   "id": "1439C9D6",
+   "date": "2026-11-21",
+   "home": "Kolossos Rhodes",
+   "away": "Promitheas",
+   "url": "https://www.flashscore.com/match/basketball/kolossos-rhodes-GYAcmr6n/promitheas-S4Sz9Nr5/?mid=zm37vTYj"
+  },
+  {
+   "id": "3C7521D5",
+   "date": "2026-11-21",
+   "home": "Iraklis",
+   "away": "Aek",
+   "url": "https://www.flashscore.com/match/basketball/aek-athens-rNP3sgeq/iraklis-SGslKQ8c/?mid=v32xpkBT"
+  },
+  {
+   "id": "779E922D",
+   "date": "2026-11-21",
+   "home": "Panathinaikos",
+   "away": "Maroussi",
+   "url": "https://www.flashscore.com/match/basketball/maroussi-K8AGZZPg/panathinaikos-bqRyXX9C/?mid=MBguMXFO"
+  },
+  {
+   "id": "BE8E8A17",
+   "date": "2026-11-21",
+   "home": "Lefkadas",
+   "away": "Peristeri",
+   "url": "https://www.flashscore.com/match/basketball/lefkadas-0SuFkHq2/peristeri-Q96Izpwc/?mid=4Msinuhc"
   }
  ],
- "updated": "2026-11-17T07:52:02+00:00"
+ "updated": "2026-11-22T07:57:19+00:00"
 }

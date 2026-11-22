@@ -1,7 +1,7 @@
 {
  "league": "BBL",
  "season": "2026-27",
- "updated": "2026-11-21T20:03:56+00:00",
+ "updated": "2026-11-22T07:57:17+00:00",
  "clubs": [
   {
    "club": "ALBA BERLIN",
@@ -50,15 +50,15 @@
   },
   {
    "club": "EWE Baskets Oldenburg",
-   "home_games_counted": 5,
-   "games_with_capacity": 5,
+   "home_games_counted": 6,
+   "games_with_capacity": 6,
    "capacity": 6335,
    "weighted_capacity": 6500,
    "filling_rate": 1.0,
    "arenas": [
     {
      "arena": "Große EWE Arena Oldenburg",
-     "games": 5,
+     "games": 6,
      "capacity": 6335
     }
    ]
@@ -230,15 +230,15 @@
   },
   {
    "club": "VET-CONCEPT Gladiators Trier",
-   "home_games_counted": 4,
-   "games_with_capacity": 4,
+   "home_games_counted": 5,
+   "games_with_capacity": 5,
    "capacity": 5400,
-   "weighted_capacity": 5442,
+   "weighted_capacity": 5468,
    "filling_rate": 1.0,
    "arenas": [
     {
      "arena": "SWT-Arena",
-     "games": 4,
+     "games": 5,
      "capacity": 5400
     }
    ]
@@ -600,6 +600,14 @@
   "2006839": {
    "arena": "Sparkassen-Arena Jena",
    "capacity": 3125
+  },
+  "2006840": {
+   "arena": "SWT-Arena",
+   "capacity": 5400
+  },
+  "2006841": {
+   "arena": "Große EWE Arena Oldenburg",
+   "capacity": 6335
   },
   "2006842": {
    "arena": "Volkswagen Halle Braunschweig",

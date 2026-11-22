@@ -1,6 +1,6 @@
 {
  "season": "2026-27",
- "updated": "2026-11-21T20:03:56+00:00",
+ "updated": "2026-11-22T07:57:17+00:00",
  "clubs": {
   "ADA Blois Basket 41": {
    "arena": "Le Jeu de Paume",
@@ -166,8 +166,8 @@
    "capacity": 4360,
    "league": "LBA",
    "source": "games",
-   "games": 4,
-   "of_games": 4,
+   "games": 5,
+   "of_games": 5,
    "league_name": "Dolomiti Energia Trentino"
   },
   "Aris B.C.": {
@@ -473,7 +473,7 @@
    "league": "LEBL",
    "source": "games",
    "games": 4,
-   "of_games": 5,
+   "of_games": 6,
    "league_name": "VEF Rīga"
   },
   "BK Ventspils": {
@@ -621,7 +621,7 @@
    "source": "games",
    "games": 14,
    "of_games": 15,
-   "league_name": "Beşiktaş"
+   "league_name": "Beşiktaş Fuzul"
   },
   "Bilbao Surne Basket": {
    "arena": "Bilbao Arena",
@@ -826,8 +826,8 @@
    "capacity": 3500,
    "league": "BSL",
    "source": "games",
-   "games": 5,
-   "of_games": 5,
+   "games": 15,
+   "of_games": 15,
    "league_name": "Glint Çayırova Belediyesi"
   },
   "Champagne Basket": {
@@ -1024,8 +1024,8 @@
    "capacity": 6335,
    "league": "BBL",
    "source": "games",
-   "games": 5,
-   "of_games": 5,
+   "games": 6,
+   "of_games": 6,
    "league_name": "EWE Baskets Oldenburg"
   },
   "Egis Kormend": {
@@ -1249,8 +1249,8 @@
    "capacity": 5400,
    "league": "BBL",
    "source": "games",
-   "games": 4,
-   "of_games": 4,
+   "games": 5,
+   "of_games": 5,
    "league_name": "VET-CONCEPT Gladiators Trier"
   },
   "Gornik Walbrzych": {
@@ -1720,8 +1720,8 @@
    "capacity": 3500,
    "league": "ABA",
    "source": "games",
-   "games": 4,
-   "of_games": 4,
+   "games": 5,
+   "of_games": 5,
    "league_name": "Spartak Office Shoes"
   },
   "KK Split": {
@@ -2914,8 +2914,8 @@
    "capacity": 10500,
    "league": "NBL",
    "source": "games",
-   "games": 6,
-   "of_games": 7,
+   "games": 7,
+   "of_games": 8,
    "league_name": "South East Melbourne Phoenix"
   },
   "Spirou Basket Charleroi": {
@@ -3055,8 +3055,8 @@
    "capacity": 2600,
    "league": "LEBL",
    "source": "games",
-   "games": 4,
-   "of_games": 4,
+   "games": 5,
+   "of_games": 5,
    "league_name": "Tartu Ülikool Maks & Moorits"
   },
   "Tasmania JackJumpers": {
@@ -3514,7 +3514,7 @@
    "Aliağa Petkim Spor": "Petkim Spor Kulubu",
    "Anadolu Efes": "Anadolu Efes S.K.",
    "Bahçeşehir Koleji": "Bahcesehir Koleji",
-   "Beşiktaş": "Besiktas J.K.",
+   "Beşiktaş Fuzul": "Besiktas J.K.",
    "Biotekno Körfez Basket": "Korfez Basket (Manisa)",
    "Bursaspor Basketbol": "Bursaspor Basketbol",
    "Esenler Erokspor": "Esenler Erokspor",

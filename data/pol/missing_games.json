@@ -1,8 +1,8 @@
 {
  "league": "PLK",
  "season": "2026-27",
- "played": 51,
- "with_attendance": 51,
+ "played": 52,
+ "with_attendance": 52,
  "missing": 0,
  "clubs": {
   "AMW Arka Gdynia": {
@@ -42,8 +42,8 @@
    "with_attendance": 2
   },
   "King Szczecin": {
-   "played": 2,
-   "with_attendance": 2
+   "played": 3,
+   "with_attendance": 3
   },
   "Legia Warszawa": {
    "played": 3,
@@ -71,5 +71,5 @@
   }
  },
  "games": [],
- "updated": "2026-11-21T20:03:58+00:00"
+ "updated": "2026-11-22T07:57:19+00:00"
 }

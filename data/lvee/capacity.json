@@ -1,7 +1,7 @@
 {
  "league": "LEBL",
  "season": "2026-27",
- "updated": "2026-11-21T20:03:56+00:00",
+ "updated": "2026-11-22T07:57:17+00:00",
  "clubs": [
   {
    "club": "BC Pärnu",
@@ -195,26 +195,26 @@
   },
   {
    "club": "Tartu Ülikool Maks & Moorits",
-   "home_games_counted": 4,
-   "games_with_capacity": 4,
+   "home_games_counted": 5,
+   "games_with_capacity": 5,
    "capacity": 2600,
    "weighted_capacity": 2600,
-   "filling_rate": 0.5842,
+   "filling_rate": 0.5361,
    "arenas": [
     {
      "arena": "Tartu, TÜ sph (Kullami peaväljak)",
-     "games": 4,
+     "games": 5,
      "capacity": 2600
     }
    ]
   },
   {
    "club": "VEF Rīga",
-   "home_games_counted": 5,
-   "games_with_capacity": 5,
+   "home_games_counted": 6,
+   "games_with_capacity": 6,
    "capacity": 830,
-   "weighted_capacity": 1144,
-   "filling_rate": 0.3953,
+   "weighted_capacity": 1353,
+   "filling_rate": 0.3855,
    "arenas": [
     {
      "arena": "Rimi Olimpiskais centrs",
@@ -223,7 +223,7 @@
     },
     {
      "arena": "Komandas Sporta Spelu Halle",
-     "games": 1,
+     "games": 2,
      "capacity": 2400
     }
    ]
@@ -563,9 +563,17 @@
    "arena": "Tallinn, TalTech Spordihoone",
    "capacity": 1000
   },
+  "2027212019": {
+   "arena": "Tartu, TÜ sph (Kullami peaväljak)",
+   "capacity": 2600
+  },
   "2027212104": {
    "arena": "Keila Tervisekeskus",
    "capacity": 800
+  },
+  "2027212160": {
+   "arena": "Komandas Sporta Spelu Halle",
+   "capacity": 2400
   },
   "2027212703": {
    "arena": "Cesis SK",

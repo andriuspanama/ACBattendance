@@ -1,8 +1,8 @@
 {
  "league": "LBA",
  "season": "2026-27",
- "played": 64,
- "with_attendance": 35,
+ "played": 66,
+ "with_attendance": 37,
  "missing": 29,
  "clubs": {
   "APU Old Wild West Udine": {
@@ -26,8 +26,8 @@
    "with_attendance": 4
   },
   "Dolomiti Energia Trentino": {
-   "played": 4,
-   "with_attendance": 4
+   "played": 5,
+   "with_attendance": 5
   },
   "Longobardi Scafati Basket": {
    "played": 4,
@@ -50,8 +50,8 @@
    "with_attendance": 3
   },
   "Pallacanestro Trieste": {
-   "played": 4,
-   "with_attendance": 2
+   "played": 5,
+   "with_attendance": 3
   },
   "Tezenis Verona": {
    "played": 3,
@@ -275,5 +275,5 @@
    "url": "https://www.legabasket.it/game/25423"
   }
  ],
- "updated": "2026-11-17T07:52:02+00:00"
+ "updated": "2026-11-22T07:57:19+00:00"
 }

@@ -1,7 +1,7 @@
 {
  "league": "PLK",
  "season": "2026-27",
- "updated": "2026-11-21T20:03:56+00:00",
+ "updated": "2026-11-22T07:57:17+00:00",
  "clubs": [
   {
    "club": "AMW Arka Gdynia",
@@ -145,21 +145,21 @@
   },
   {
    "club": "King Szczecin",
-   "home_games_counted": 2,
-   "games_with_capacity": 2,
-   "capacity": 5055,
-   "weighted_capacity": 3322,
-   "filling_rate": 0.54,
+   "home_games_counted": 3,
+   "games_with_capacity": 3,
+   "capacity": 1215,
+   "weighted_capacity": 2744,
+   "filling_rate": 0.6287,
    "arenas": [
+    {
+     "arena": "Hala SDS 2.0",
+     "games": 2,
+     "capacity": 1215
+    },
     {
      "arena": "Hala Enea Arena",
      "games": 1,
      "capacity": 5055
-    },
-    {
-     "arena": "Hala SDS 2.0",
-     "games": 1,
-     "capacity": 1215
     }
    ]
   },

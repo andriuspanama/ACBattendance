@@ -1,8 +1,8 @@
 {
  "league": "ABA",
  "season": "2026-27",
- "played": 74,
- "with_attendance": 72,
+ "played": 75,
+ "with_attendance": 73,
  "missing": 2,
  "clubs": {
   "BC Vienna": {
@@ -78,8 +78,8 @@
    "with_attendance": 1
   },
   "Spartak Office Shoes": {
-   "played": 4,
-   "with_attendance": 4
+   "played": 5,
+   "with_attendance": 5
   },
   "U-BT Cluj-Napoca": {
    "played": 4,
@@ -106,5 +106,5 @@
    "url": "https://www.aba-liga.com/match/16/26/1/Overview/q1/1/home/partizan-mozzart-bet-mega-superbet/"
   }
  ],
- "updated": "2026-11-21T20:03:58+00:00"
+ "updated": "2026-11-22T07:57:19+00:00"
 }

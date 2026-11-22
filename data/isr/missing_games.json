@@ -1,8 +1,8 @@
 {
  "league": "Winner League",
  "season": "2026-27",
- "played": 44,
- "with_attendance": 36,
+ "played": 45,
+ "with_attendance": 37,
  "missing": 8,
  "clubs": {
   "Bnei Penlink Herzliya": {
@@ -50,8 +50,8 @@
    "with_attendance": 0
   },
   "Maccabi Rapyd Tel Aviv": {
-   "played": 4,
-   "with_attendance": 4
+   "played": 5,
+   "with_attendance": 5
   },
   "Maccabi Rotshtein Ashdod": {
    "played": 3,
@@ -120,5 +120,5 @@
    "url": "https://basket.co.il/game-zone.asp?GameId=26688&lang=en"
   }
  ],
- "updated": "2026-11-21T20:03:58+00:00"
+ "updated": "2026-11-22T07:57:19+00:00"
 }
