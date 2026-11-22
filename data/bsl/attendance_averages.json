@@ -1,7 +1,7 @@
 {
   "league": "BSL",
   "season": "2026-27",
-  "updated": "2026-11-22T06:41:22+00:00",
+  "updated": "2026-11-22T19:33:04+00:00",
   "clubs": [
     {
       "league": "BSL",
@@ -86,6 +86,22 @@
     {
       "league": "BSL",
       "season": "2026-27",
+      "club": "Glint Çayırova Belediyesi",
+      "home_games_counted": 5,
+      "average": 2628,
+      "total": 13139,
+      "max": 3500,
+      "min": 1221,
+      "arenas": [
+        {
+          "arena": "Çayırova Belediyesi Spor Kompleksi",
+          "games": 5
+        }
+      ]
+    },
+    {
+      "league": "BSL",
+      "season": "2026-27",
       "club": "Bahçeşehir Koleji",
       "home_games_counted": 5,
       "average": 2615,
@@ -118,16 +134,16 @@
     {
       "league": "BSL",
       "season": "2026-27",
-      "club": "Glint Çayırova Belediyesi",
-      "home_games_counted": 4,
-      "average": 2485,
-      "total": 9939,
-      "max": 3500,
-      "min": 1221,
+      "club": "Trabzonspor",
+      "home_games_counted": 5,
+      "average": 2419,
+      "total": 12097,
+      "max": 3689,
+      "min": 1335,
       "arenas": [
         {
-          "arena": "Çayırova Belediyesi Spor Kompleksi",
-          "games": 4
+          "arena": "Hayri Gür Spor Salonu",
+          "games": 5
         }
       ]
     },
@@ -143,22 +159,6 @@
       "arenas": [
         {
           "arena": "Enka Spor Salonu",
-          "games": 4
-        }
-      ]
-    },
-    {
-      "league": "BSL",
-      "season": "2026-27",
-      "club": "Trabzonspor",
-      "home_games_counted": 4,
-      "average": 2102,
-      "total": 8408,
-      "max": 3194,
-      "min": 1335,
-      "arenas": [
-        {
-          "arena": "Hayri Gür Spor Salonu",
           "games": 4
         }
       ]
@@ -183,15 +183,15 @@
       "league": "BSL",
       "season": "2026-27",
       "club": "Galatasaray Mct Technıc",
-      "home_games_counted": 4,
-      "average": 1826,
-      "total": 7305,
+      "home_games_counted": 5,
+      "average": 1813,
+      "total": 9064,
       "max": 2452,
       "min": 1224,
       "arenas": [
         {
           "arena": "Sinan Erdem Spor Salonu",
-          "games": 4
+          "games": 5
         }
       ]
     },
