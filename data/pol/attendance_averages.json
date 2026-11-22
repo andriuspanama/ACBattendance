@@ -1,21 +1,21 @@
 {
   "league": "PLK",
   "season": "2026-27",
-  "updated": "2026-11-22T07:33:52+00:00",
+  "updated": "2026-11-22T20:00:42+00:00",
   "clubs": [
     {
       "league": "PLK",
       "season": "2026-27",
       "club": "Zastal Zielona Góra",
-      "home_games_counted": 2,
-      "average": 4660,
-      "total": 9321,
-      "max": 4805,
+      "home_games_counted": 3,
+      "average": 4754,
+      "total": 14261,
+      "max": 4940,
       "min": 4516,
       "arenas": [
         {
           "arena": "Centrum Rekreacyjno-Sportowe",
-          "games": 2
+          "games": 3
         }
       ]
     },

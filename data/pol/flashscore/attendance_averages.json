@@ -1,20 +1,20 @@
 {
   "league": "PLK",
   "season": "2026-27",
-  "updated": "2026-11-22T07:33:41+00:00",
+  "updated": "2026-11-22T20:00:30+00:00",
   "games": {
-    "checked": 60,
-    "with_attendance": 60
+    "checked": 63,
+    "with_attendance": 61
   },
   "clubs": [
     {
       "league": "PLK",
       "season": "2026-27",
       "club": "Zielona Gora",
-      "home_games_counted": 2,
-      "average": 4660,
-      "total": 9321,
-      "max": 4805,
+      "home_games_counted": 3,
+      "average": 4754,
+      "total": 14261,
+      "max": 4940,
       "min": 4516
     },
     {
