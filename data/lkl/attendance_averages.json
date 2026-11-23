@@ -1,7 +1,7 @@
 {
   "league": "LKL",
   "season": "2026-27",
-  "updated": "2026-11-22T19:59:13+00:00",
+  "updated": "2026-11-23T08:17:00+00:00",
   "clubs": [
     {
       "league": "LKL",
@@ -17,9 +17,9 @@
       "league": "LKL",
       "season": "2026-27",
       "club": "Rytas",
-      "home_games_counted": 4,
-      "average": 4276,
-      "total": 17103,
+      "home_games_counted": 5,
+      "average": 4026,
+      "total": 20130,
       "max": 8223,
       "min": 2413
     },
@@ -56,6 +56,16 @@
     {
       "league": "LKL",
       "season": "2026-27",
+      "club": "Lietkabelis",
+      "home_games_counted": 6,
+      "average": 1869,
+      "total": 11214,
+      "max": 4357,
+      "min": 1009
+    },
+    {
+      "league": "LKL",
+      "season": "2026-27",
       "club": "Taurage",
       "home_games_counted": 5,
       "average": 1832,
@@ -72,16 +82,6 @@
       "total": 7098,
       "max": 1500,
       "min": 1169
-    },
-    {
-      "league": "LKL",
-      "season": "2026-27",
-      "club": "Lietkabelis",
-      "home_games_counted": 5,
-      "average": 1371,
-      "total": 6857,
-      "max": 2136,
-      "min": 1009
     },
     {
       "league": "LKL",
