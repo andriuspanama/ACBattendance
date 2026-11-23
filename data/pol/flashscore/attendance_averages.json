@@ -1,10 +1,10 @@
 {
   "league": "PLK",
   "season": "2026-27",
-  "updated": "2026-11-22T20:00:30+00:00",
+  "updated": "2026-11-23T08:21:29+00:00",
   "games": {
-    "checked": 63,
-    "with_attendance": 61
+    "checked": 64,
+    "with_attendance": 64
   },
   "clubs": [
     {
@@ -41,9 +41,9 @@
       "league": "PLK",
       "season": "2026-27",
       "club": "Slask Wroclaw",
-      "home_games_counted": 3,
-      "average": 2859,
-      "total": 8576,
+      "home_games_counted": 4,
+      "average": 2846,
+      "total": 11383,
       "max": 2988,
       "min": 2732
     },
@@ -51,9 +51,9 @@
       "league": "PLK",
       "season": "2026-27",
       "club": "Ostrow Wielkopolski",
-      "home_games_counted": 3,
-      "average": 2667,
-      "total": 8000,
+      "home_games_counted": 4,
+      "average": 2662,
+      "total": 10650,
       "max": 2950,
       "min": 2400
     },
@@ -70,22 +70,22 @@
     {
       "league": "PLK",
       "season": "2026-27",
+      "club": "Dabrowa Gornicza",
+      "home_games_counted": 5,
+      "average": 2218,
+      "total": 11092,
+      "max": 2653,
+      "min": 1895
+    },
+    {
+      "league": "PLK",
+      "season": "2026-27",
       "club": "Gornik Walbrzych",
       "home_games_counted": 3,
       "average": 2180,
       "total": 6541,
       "max": 2190,
       "min": 2175
-    },
-    {
-      "league": "PLK",
-      "season": "2026-27",
-      "club": "Dabrowa Gornicza",
-      "home_games_counted": 4,
-      "average": 2110,
-      "total": 8439,
-      "max": 2572,
-      "min": 1895
     },
     {
       "league": "PLK",

@@ -1,7 +1,7 @@
 {
   "league": "PLK",
   "season": "2026-27",
-  "updated": "2026-11-22T20:00:42+00:00",
+  "updated": "2026-11-23T08:21:38+00:00",
   "clubs": [
     {
       "league": "PLK",
@@ -55,31 +55,15 @@
       "league": "PLK",
       "season": "2026-27",
       "club": "WKS Śląsk Wrocław",
-      "home_games_counted": 3,
-      "average": 2859,
-      "total": 8576,
+      "home_games_counted": 4,
+      "average": 2846,
+      "total": 11383,
       "max": 2988,
       "min": 2732,
       "arenas": [
         {
           "arena": "Hala Orbita",
-          "games": 3
-        }
-      ]
-    },
-    {
-      "league": "PLK",
-      "season": "2026-27",
-      "club": "Tasomix Rosiek Stal Ostrów Wielkopolski",
-      "home_games_counted": 2,
-      "average": 2675,
-      "total": 5350,
-      "max": 2950,
-      "min": 2400,
-      "arenas": [
-        {
-          "arena": "3mk Arena Ostrów",
-          "games": 2
+          "games": 4
         }
       ]
     },
@@ -106,6 +90,38 @@
     {
       "league": "PLK",
       "season": "2026-27",
+      "club": "Tasomix Rosiek Stal Ostrów Wielkopolski",
+      "home_games_counted": 3,
+      "average": 2667,
+      "total": 8000,
+      "max": 2950,
+      "min": 2400,
+      "arenas": [
+        {
+          "arena": "3mk Arena Ostrów",
+          "games": 3
+        }
+      ]
+    },
+    {
+      "league": "PLK",
+      "season": "2026-27",
+      "club": "MKS Dąbrowa Górnicza",
+      "home_games_counted": 5,
+      "average": 2218,
+      "total": 11092,
+      "max": 2653,
+      "min": 1895,
+      "arenas": [
+        {
+          "arena": "HWS Centrum im.Z.Cybulskiego",
+          "games": 5
+        }
+      ]
+    },
+    {
+      "league": "PLK",
+      "season": "2026-27",
       "club": "Górnik Zamek Książ Wałbrzych",
       "home_games_counted": 2,
       "average": 2176,
@@ -116,22 +132,6 @@
         {
           "arena": "Hala Widowiskowo-Sportowa Aqua Zdrój",
           "games": 2
-        }
-      ]
-    },
-    {
-      "league": "PLK",
-      "season": "2026-27",
-      "club": "MKS Dąbrowa Górnicza",
-      "home_games_counted": 4,
-      "average": 2110,
-      "total": 8439,
-      "max": 2572,
-      "min": 1895,
-      "arenas": [
-        {
-          "arena": "HWS Centrum im.Z.Cybulskiego",
-          "games": 4
         }
       ]
     },
