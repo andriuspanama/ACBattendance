@@ -1,7 +1,7 @@
 {
   "league": "ABA",
   "season": "2026-27",
-  "updated": "2026-11-22T19:50:44+00:00",
+  "updated": "2026-11-23T07:53:14+00:00",
   "clubs": [
     {
       "league": "ABA",
@@ -110,6 +110,30 @@
     {
       "league": "ABA",
       "season": "2026-27",
+      "club": "Partizan Mozzart Bet",
+      "home_games_counted": 4,
+      "average": 1945,
+      "total": 7781,
+      "max": 4224,
+      "min": 1017,
+      "arenas": [
+        {
+          "arena": "Hala sportova Ranko Žeravica",
+          "games": 2
+        },
+        {
+          "arena": "Košarkaška dvorana Aleksandar Nikolić",
+          "games": 1
+        },
+        {
+          "arena": "Beogradska Arena",
+          "games": 1
+        }
+      ]
+    },
+    {
+      "league": "ABA",
+      "season": "2026-27",
       "club": "Spartak Office Shoes",
       "home_games_counted": 5,
       "average": 1896,
@@ -156,26 +180,6 @@
         {
           "arena": "Arena Stožice",
           "games": 2
-        }
-      ]
-    },
-    {
-      "league": "ABA",
-      "season": "2026-27",
-      "club": "Partizan Mozzart Bet",
-      "home_games_counted": 3,
-      "average": 1186,
-      "total": 3557,
-      "max": 1413,
-      "min": 1017,
-      "arenas": [
-        {
-          "arena": "Hala sportova Ranko Žeravica",
-          "games": 2
-        },
-        {
-          "arena": "Košarkaška dvorana Aleksandar Nikolić",
-          "games": 1
         }
       ]
     },
