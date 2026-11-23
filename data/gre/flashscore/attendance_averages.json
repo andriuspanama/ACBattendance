@@ -1,10 +1,10 @@
 {
   "league": "GBL",
   "season": "2026-27",
-  "updated": "2026-11-22T19:58:09+00:00",
+  "updated": "2026-11-23T08:11:49+00:00",
   "games": {
     "checked": 56,
-    "with_attendance": 15
+    "with_attendance": 16
   },
   "clubs": [
     {
@@ -31,9 +31,9 @@
       "league": "GBL",
       "season": "2026-27",
       "club": "Karditsas",
-      "home_games_counted": 2,
-      "average": 3000,
-      "total": 6000,
+      "home_games_counted": 3,
+      "average": 3167,
+      "total": 9500,
       "max": 3500,
       "min": 2500
     },
