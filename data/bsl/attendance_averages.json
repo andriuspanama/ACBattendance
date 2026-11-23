@@ -1,7 +1,7 @@
 {
   "league": "BSL",
   "season": "2026-27",
-  "updated": "2026-11-22T19:33:04+00:00",
+  "updated": "2026-11-23T07:30:36+00:00",
   "clubs": [
     {
       "league": "BSL",
@@ -38,6 +38,22 @@
     {
       "league": "BSL",
       "season": "2026-27",
+      "club": "Beşiktaş Fuzul",
+      "home_games_counted": 5,
+      "average": 4084,
+      "total": 20420,
+      "max": 6379,
+      "min": 1550,
+      "arenas": [
+        {
+          "arena": "Turkcell Basketbol Gelişim Merkezi",
+          "games": 5
+        }
+      ]
+    },
+    {
+      "league": "BSL",
+      "season": "2026-27",
       "club": "Fenerbahçe Tarfin",
       "home_games_counted": 4,
       "average": 4046,
@@ -47,22 +63,6 @@
       "arenas": [
         {
           "arena": "Ülker Spor ve Etkinlik Salonu",
-          "games": 4
-        }
-      ]
-    },
-    {
-      "league": "BSL",
-      "season": "2026-27",
-      "club": "Beşiktaş Fuzul",
-      "home_games_counted": 4,
-      "average": 3510,
-      "total": 14041,
-      "max": 4829,
-      "min": 1550,
-      "arenas": [
-        {
-          "arena": "Turkcell Basketbol Gelişim Merkezi",
           "games": 4
         }
       ]
