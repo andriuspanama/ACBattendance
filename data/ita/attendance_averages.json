@@ -1,7 +1,7 @@
 {
   "league": "LBA",
   "season": "2026-27",
-  "updated": "2026-11-23T07:54:21+00:00",
+  "updated": "2026-11-23T12:31:48+00:00",
   "clubs": [
     {
       "league": "LBA",
@@ -23,19 +23,19 @@
       "league": "LBA",
       "season": "2026-27",
       "club": "Maxima Roma",
-      "home_games_counted": 2,
-      "average": 5798,
-      "total": 11595,
+      "home_games_counted": 5,
+      "average": 4915,
+      "total": 24574,
       "max": 9312,
-      "min": 2283,
+      "min": 1960,
       "arenas": [
         {
           "arena": "PalaEur",
-          "games": 1
+          "games": 3
         },
         {
           "arena": "Palazzetto dello Sport",
-          "games": 1
+          "games": 2
         }
       ]
     },
