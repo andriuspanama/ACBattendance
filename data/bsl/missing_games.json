@@ -1,8 +1,8 @@
 {
  "league": "BSL",
  "season": "2026-27",
- "played": 69,
- "with_attendance": 69,
+ "played": 70,
+ "with_attendance": 70,
  "missing": 0,
  "clubs": {
   "Aliağa Petkim Spor": {
@@ -18,8 +18,8 @@
    "with_attendance": 5
   },
   "Beşiktaş Fuzul": {
-   "played": 4,
-   "with_attendance": 4
+   "played": 5,
+   "with_attendance": 5
   },
   "Biotekno Körfez Basket": {
    "played": 4,
@@ -71,5 +71,5 @@
   }
  },
  "games": [],
- "updated": "2026-11-22T20:19:18+00:00"
+ "updated": "2026-11-23T08:57:19+00:00"
 }

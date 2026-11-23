@@ -1,19 +1,19 @@
 {
  "league": "BBL",
  "season": "2026-27",
- "updated": "2026-11-22T20:19:15+00:00",
+ "updated": "2026-11-23T08:57:16+00:00",
  "clubs": [
   {
    "club": "ALBA BERLIN",
-   "home_games_counted": 5,
-   "games_with_capacity": 5,
+   "home_games_counted": 6,
+   "games_with_capacity": 6,
    "capacity": 13488,
    "weighted_capacity": 13488,
-   "filling_rate": 0.6201,
+   "filling_rate": 0.6834,
    "arenas": [
     {
      "arena": "Uber Arena",
-     "games": 5,
+     "games": 6,
      "capacity": 13488
     }
    ]
@@ -215,15 +215,15 @@
   },
   {
    "club": "Telekom Baskets Bonn",
-   "home_games_counted": 5,
-   "games_with_capacity": 5,
+   "home_games_counted": 6,
+   "games_with_capacity": 6,
    "capacity": 6000,
    "weighted_capacity": 6000,
-   "filling_rate": 0.8979,
+   "filling_rate": 0.9058,
    "arenas": [
     {
      "arena": "Telekom Dome Bonn",
-     "games": 5,
+     "games": 6,
      "capacity": 6000
     }
    ]

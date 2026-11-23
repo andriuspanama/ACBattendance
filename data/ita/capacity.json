@@ -1,7 +1,7 @@
 {
  "league": "LBA",
  "season": "2026-27",
- "updated": "2026-11-22T20:19:15+00:00",
+ "updated": "2026-11-23T08:57:16+00:00",
  "clubs": [
   {
    "club": "Acqua S.Bernardo Cantù",
@@ -130,15 +130,15 @@
   },
   {
    "club": "Openjobmetis Varese",
-   "home_games_counted": 3,
-   "games_with_capacity": 3,
+   "home_games_counted": 4,
+   "games_with_capacity": 4,
    "capacity": 5677,
    "weighted_capacity": 5677,
-   "filling_rate": 0.8399,
+   "filling_rate": 0.8518,
    "arenas": [
     {
      "arena": "Itelyum Arena",
-     "games": 3,
+     "games": 4,
      "capacity": 5677
     }
    ]
@@ -473,6 +473,10 @@
   "25430": {
    "arena": "Beta Ricambi Arena PalaMangano",
    "capacity": 3500
+  },
+  "25431": {
+   "arena": "Itelyum Arena",
+   "capacity": 5677
   }
  }
 }

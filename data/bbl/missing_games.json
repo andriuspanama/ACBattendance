@@ -1,13 +1,13 @@
 {
  "league": "BBL",
  "season": "2026-27",
- "played": 86,
- "with_attendance": 85,
+ "played": 88,
+ "with_attendance": 87,
  "missing": 1,
  "clubs": {
   "ALBA BERLIN": {
-   "played": 5,
-   "with_attendance": 5
+   "played": 6,
+   "with_attendance": 6
   },
   "BMA365 Bamberg Baskets": {
    "played": 4,
@@ -62,8 +62,8 @@
    "with_attendance": 4
   },
   "Telekom Baskets Bonn": {
-   "played": 5,
-   "with_attendance": 5
+   "played": 6,
+   "with_attendance": 6
   },
   "VET-CONCEPT Gladiators Trier": {
    "played": 5,
@@ -87,5 +87,5 @@
    "url": "https://www.easycredit-bbl.de/spiele/2006864"
   }
  ],
- "updated": "2026-11-22T20:19:18+00:00"
+ "updated": "2026-11-23T08:57:19+00:00"
 }

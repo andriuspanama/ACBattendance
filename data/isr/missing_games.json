@@ -1,9 +1,9 @@
 {
  "league": "Winner League",
  "season": "2026-27",
- "played": 45,
+ "played": 48,
  "with_attendance": 37,
- "missing": 8,
+ "missing": 11,
  "clubs": {
   "Bnei Penlink Herzliya": {
    "played": 3,
@@ -18,7 +18,7 @@
    "with_attendance": 2
   },
   "Hapoel Gilat Telecom Haemek": {
-   "played": 2,
+   "played": 3,
    "with_attendance": 2
   },
   "Hapoel IBI Tel Aviv": {
@@ -26,7 +26,7 @@
    "with_attendance": 4
   },
   "Hapoel Irony Eilat": {
-   "played": 2,
+   "played": 3,
    "with_attendance": 2
   },
   "Hapoel Maoz Daniel Holon": {
@@ -58,7 +58,7 @@
    "with_attendance": 3
   },
   "Maccabi Tapuzina Rishon LeZion": {
-   "played": 4,
+   "played": 5,
    "with_attendance": 3
   }
  },
@@ -118,7 +118,28 @@
    "home": "Hapoel Altshuler Shaham Beer Sheva/Dimona",
    "away": "Ironi Hai Motors Ness Ziona",
    "url": "https://basket.co.il/game-zone.asp?GameId=26688&lang=en"
+  },
+  {
+   "id": "26689",
+   "date": "2026-11-22",
+   "home": "Hapoel Irony Eilat",
+   "away": "Maccabi Cnaan Group Ramat Gan",
+   "url": "https://basket.co.il/game-zone.asp?GameId=26689&lang=en"
+  },
+  {
+   "id": "26693",
+   "date": "2026-11-22",
+   "home": "Maccabi Tapuzina Rishon LeZion",
+   "away": "Hapoel Alfi Benedek Galil Elion",
+   "url": "https://basket.co.il/game-zone.asp?GameId=26693&lang=en"
+  },
+  {
+   "id": "26694",
+   "date": "2026-11-22",
+   "home": "Hapoel Gilat Telecom Haemek",
+   "away": "Bnei Penlink Herzliya",
+   "url": "https://basket.co.il/game-zone.asp?GameId=26694&lang=en"
   }
  ],
- "updated": "2026-11-22T07:57:19+00:00"
+ "updated": "2026-11-23T08:57:19+00:00"
 }

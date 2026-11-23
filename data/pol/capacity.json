@@ -1,7 +1,7 @@
 {
  "league": "PLK",
  "season": "2026-27",
- "updated": "2026-11-22T20:19:15+00:00",
+ "updated": "2026-11-23T08:57:16+00:00",
  "clubs": [
   {
    "club": "AMW Arka Gdynia",
@@ -185,15 +185,15 @@
   },
   {
    "club": "MKS Dąbrowa Górnicza",
-   "home_games_counted": 4,
-   "games_with_capacity": 4,
+   "home_games_counted": 5,
+   "games_with_capacity": 5,
    "capacity": 2944,
    "weighted_capacity": 2944,
-   "filling_rate": 0.7166,
+   "filling_rate": 0.7535,
    "arenas": [
     {
      "arena": "HWS Centrum im.Z.Cybulskiego",
-     "games": 4,
+     "games": 5,
      "capacity": 2944
     }
    ]
@@ -215,30 +215,30 @@
   },
   {
    "club": "Tasomix Rosiek Stal Ostrów Wielkopolski",
-   "home_games_counted": 2,
-   "games_with_capacity": 2,
+   "home_games_counted": 3,
+   "games_with_capacity": 3,
    "capacity": 3086,
    "weighted_capacity": 3086,
-   "filling_rate": 0.8668,
+   "filling_rate": 0.8641,
    "arenas": [
     {
      "arena": "3mk Arena Ostrów",
-     "games": 2,
+     "games": 3,
      "capacity": 3086
     }
    ]
   },
   {
    "club": "WKS Śląsk Wrocław",
-   "home_games_counted": 3,
-   "games_with_capacity": 3,
+   "home_games_counted": 4,
+   "games_with_capacity": 4,
    "capacity": 3000,
    "weighted_capacity": 3000,
-   "filling_rate": 0.9529,
+   "filling_rate": 0.9486,
    "arenas": [
     {
      "arena": "Hala Orbita",
-     "games": 3,
+     "games": 4,
      "capacity": 3000
     }
    ]
@@ -485,6 +485,10 @@
   "223518": {
    "arena": "3mk Arena Ostrów",
    "capacity": 3086
+  },
+  "223520": {
+   "arena": "HWS Centrum im.Z.Cybulskiego",
+   "capacity": 2944
   },
   "223524": {
    "arena": "Hala Orbita",

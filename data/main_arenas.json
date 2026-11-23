@@ -1,6 +1,6 @@
 {
  "season": "2026-27",
- "updated": "2026-11-22T20:19:15+00:00",
+ "updated": "2026-11-23T08:57:16+00:00",
  "clubs": {
   "ADA Blois Basket 41": {
    "arena": "Le Jeu de Paume",
@@ -1691,7 +1691,7 @@
    "league": "ABA",
    "source": "games",
    "games": 2,
-   "of_games": 4,
+   "of_games": 5,
    "league_name": "Partizan Mozzart Bet"
   },
   "KK Pelister": {
@@ -2119,8 +2119,8 @@
    "capacity": 2944,
    "league": "PLK",
    "source": "games",
-   "games": 4,
-   "of_games": 4,
+   "games": 5,
+   "of_games": 5,
    "league_name": "MKS Dąbrowa Górnicza"
   },
   "MLP Academics Heidelberg": {
@@ -2512,8 +2512,8 @@
    "capacity": 5677,
    "league": "LBA",
    "source": "games",
-   "games": 4,
-   "of_games": 4,
+   "games": 5,
+   "of_games": 5,
    "league_name": "Openjobmetis Varese"
   },
   "Panathinaikos B.C.": {

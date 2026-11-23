@@ -1,7 +1,7 @@
 {
  "league": "LKL",
  "season": "2026-27",
- "updated": "2026-11-22T20:19:15+00:00",
+ "updated": "2026-11-23T08:57:16+00:00",
  "clubs": [
   {
    "club": "Gargzdai",
@@ -50,15 +50,15 @@
   },
   {
    "club": "Lietkabelis",
-   "home_games_counted": 5,
-   "games_with_capacity": 5,
+   "home_games_counted": 6,
+   "games_with_capacity": 6,
    "capacity": 5600,
    "weighted_capacity": 5600,
-   "filling_rate": 0.2449,
+   "filling_rate": 0.3337,
    "arenas": [
     {
      "arena": "Kalnapilio arena",
-     "games": 5,
+     "games": 6,
      "capacity": 5600
     }
    ]
@@ -95,15 +95,15 @@
   },
   {
    "club": "Rytas",
-   "home_games_counted": 4,
-   "games_with_capacity": 4,
+   "home_games_counted": 5,
+   "games_with_capacity": 5,
    "capacity": 9000,
    "weighted_capacity": 9000,
-   "filling_rate": 0.4751,
+   "filling_rate": 0.4473,
    "arenas": [
     {
      "arena": "Arena Vilnius",
-     "games": 4,
+     "games": 5,
      "capacity": 9000
     }
    ]
@@ -155,7 +155,7 @@
   }
  ],
  "unknown_arenas": [],
- "last_attendance_game": "2026-11-21",
+ "last_attendance_game": "2026-11-22",
  "games": {
   "0YhgbKyo": {
    "arena": "Kalnapilio arena",

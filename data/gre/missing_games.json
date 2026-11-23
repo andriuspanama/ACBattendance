@@ -1,8 +1,8 @@
 {
  "league": "GBL",
  "season": "2026-27",
- "played": 55,
- "with_attendance": 15,
+ "played": 56,
+ "with_attendance": 16,
  "missing": 40,
  "clubs": {
   "Aek": {
@@ -18,8 +18,8 @@
    "with_attendance": 2
   },
   "Karditsas": {
-   "played": 4,
-   "with_attendance": 2
+   "played": 5,
+   "with_attendance": 3
   },
   "Kolossos Rhodes": {
    "played": 5,
@@ -344,5 +344,5 @@
    "url": "https://www.flashscore.com/match/basketball/lefkadas-0SuFkHq2/peristeri-Q96Izpwc/?mid=4Msinuhc"
   }
  ],
- "updated": "2026-11-22T20:19:18+00:00"
+ "updated": "2026-11-23T08:57:19+00:00"
 }

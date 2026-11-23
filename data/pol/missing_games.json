@@ -1,8 +1,8 @@
 {
  "league": "PLK",
  "season": "2026-27",
- "played": 53,
- "with_attendance": 53,
+ "played": 56,
+ "with_attendance": 56,
  "missing": 0,
  "clubs": {
   "AMW Arka Gdynia": {
@@ -50,20 +50,20 @@
    "with_attendance": 3
   },
   "MKS Dąbrowa Górnicza": {
-   "played": 4,
-   "with_attendance": 4
+   "played": 5,
+   "with_attendance": 5
   },
   "PGE Start Lublin": {
    "played": 4,
    "with_attendance": 4
   },
   "Tasomix Rosiek Stal Ostrów Wielkopolski": {
-   "played": 2,
-   "with_attendance": 2
-  },
-  "WKS Śląsk Wrocław": {
    "played": 3,
    "with_attendance": 3
+  },
+  "WKS Śląsk Wrocław": {
+   "played": 4,
+   "with_attendance": 4
   },
   "Zastal Zielona Góra": {
    "played": 3,
@@ -71,5 +71,5 @@
   }
  },
  "games": [],
- "updated": "2026-11-22T20:19:18+00:00"
+ "updated": "2026-11-23T08:57:19+00:00"
 }

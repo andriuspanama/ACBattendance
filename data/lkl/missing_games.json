@@ -1,8 +1,8 @@
 {
  "league": "LKL",
  "season": "2026-27",
- "played": 53,
- "with_attendance": 53,
+ "played": 55,
+ "with_attendance": 55,
  "missing": 0,
  "clubs": {
   "Gargzdai": {
@@ -18,8 +18,8 @@
    "with_attendance": 5
   },
   "Lietkabelis": {
-   "played": 5,
-   "with_attendance": 5
+   "played": 6,
+   "with_attendance": 6
   },
   "Neptunas": {
    "played": 6,
@@ -30,8 +30,8 @@
    "with_attendance": 6
   },
   "Rytas": {
-   "played": 4,
-   "with_attendance": 4
+   "played": 5,
+   "with_attendance": 5
   },
   "Siauliai": {
    "played": 6,
@@ -47,5 +47,5 @@
   }
  },
  "games": [],
- "updated": "2026-11-22T07:57:19+00:00"
+ "updated": "2026-11-23T08:57:19+00:00"
 }

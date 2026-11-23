@@ -1,9 +1,9 @@
 {
  "league": "LBA",
  "season": "2026-27",
- "played": 67,
- "with_attendance": 38,
- "missing": 29,
+ "played": 72,
+ "with_attendance": 39,
+ "missing": 33,
  "clubs": {
   "APU Old Wild West Udine": {
    "played": 4,
@@ -30,11 +30,11 @@
    "with_attendance": 5
   },
   "Longobardi Scafati Basket": {
-   "played": 4,
+   "played": 5,
    "with_attendance": 0
   },
   "Maxima Roma": {
-   "played": 4,
+   "played": 5,
    "with_attendance": 2
   },
   "Napoli Basketball": {
@@ -46,15 +46,15 @@
    "with_attendance": 4
   },
   "Openjobmetis Varese": {
-   "played": 4,
-   "with_attendance": 3
+   "played": 5,
+   "with_attendance": 4
   },
   "Pallacanestro Trieste": {
    "played": 5,
    "with_attendance": 3
   },
   "Tezenis Verona": {
-   "played": 3,
+   "played": 4,
    "with_attendance": 0
   },
   "UNA Hotels Reggio Emilia": {
@@ -66,7 +66,7 @@
    "with_attendance": 0
   },
   "Virtus Costa Bologna": {
-   "played": 4,
+   "played": 5,
    "with_attendance": 0
   }
  },
@@ -273,7 +273,35 @@
    "home": "APU Old Wild West Udine",
    "away": "Armani Olimpia Milano",
    "url": "https://www.legabasket.it/game/25423"
+  },
+  {
+   "id": "25424",
+   "date": "2026-11-22",
+   "home": "Virtus Costa Bologna",
+   "away": "BC Roma",
+   "url": "https://www.legabasket.it/game/25424"
+  },
+  {
+   "id": "25425",
+   "date": "2026-11-22",
+   "home": "Tezenis Verona",
+   "away": "APU Old Wild West Udine",
+   "url": "https://www.legabasket.it/game/25425"
+  },
+  {
+   "id": "25429",
+   "date": "2026-11-22",
+   "home": "Maxima Roma",
+   "away": "Nutribullet Treviso Basket",
+   "url": "https://www.legabasket.it/game/25429"
+  },
+  {
+   "id": "25430",
+   "date": "2026-11-22",
+   "home": "Longobardi Scafati Basket",
+   "away": "Acqua S.Bernardo Cantù",
+   "url": "https://www.legabasket.it/game/25430"
   }
  ],
- "updated": "2026-11-22T20:19:18+00:00"
+ "updated": "2026-11-23T08:57:19+00:00"
 }

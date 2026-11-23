@@ -1,7 +1,7 @@
 {
  "league": "BSL",
  "season": "2026-27",
- "updated": "2026-11-22T20:19:15+00:00",
+ "updated": "2026-11-23T08:57:16+00:00",
  "clubs": [
   {
    "club": "Aliağa Petkim Spor",
@@ -50,15 +50,15 @@
   },
   {
    "club": "Beşiktaş Fuzul",
-   "home_games_counted": 4,
-   "games_with_capacity": 4,
+   "home_games_counted": 5,
+   "games_with_capacity": 5,
    "capacity": 10000,
    "weighted_capacity": 10000,
-   "filling_rate": 0.351,
+   "filling_rate": 0.4084,
    "arenas": [
     {
      "arena": "Turkcell Basketbol Gelişim Merkezi",
-     "games": 4,
+     "games": 5,
      "capacity": 10000
     }
    ]
