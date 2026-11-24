@@ -3,10 +3,8 @@
  "source": "basket.co.il",
  "ok": true,
  "error": "",
- "notes": [
-  "Patikrinta 4 sužaistų rungtynių, bet nė vienose nerasta lankomumo"
- ],
- "last_ok": "2026-11-23T07:56:03+00:00",
+ "notes": [],
+ "last_ok": "2026-11-24T00:05:14+00:00",
  "last_new_attendance": "2026-11-22T07:08:56+00:00",
- "run_at": "2026-11-23T07:56:03+00:00"
+ "run_at": "2026-11-24T00:05:14+00:00"
 }
