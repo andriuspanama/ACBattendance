@@ -1,7 +1,7 @@
 {
   "league": "GBL",
   "season": "2026-27",
-  "updated": "2026-11-23T08:11:49+00:00",
+  "updated": "2026-11-24T00:21:12+00:00",
   "games": {
     "checked": 56,
     "with_attendance": 16
@@ -91,6 +91,16 @@
       "league": "GBL",
       "season": "2026-27",
       "club": "Athens",
+      "home_games_counted": 0,
+      "average": null,
+      "total": 0,
+      "max": null,
+      "min": null
+    },
+    {
+      "league": "GBL",
+      "season": "2026-27",
+      "club": "Doxa Lefkadas",
       "home_games_counted": 0,
       "average": null,
       "total": 0,
