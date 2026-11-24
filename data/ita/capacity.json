@@ -1,7 +1,7 @@
 {
  "league": "LBA",
  "season": "2026-27",
- "updated": "2026-11-23T08:57:16+00:00",
+ "updated": "2026-11-24T00:46:58+00:00",
  "clubs": [
   {
    "club": "Acqua S.Bernardo Cantù",
@@ -80,20 +80,20 @@
   },
   {
    "club": "Maxima Roma",
-   "home_games_counted": 2,
-   "games_with_capacity": 2,
+   "home_games_counted": 5,
+   "games_with_capacity": 5,
    "capacity": 11200,
-   "weighted_capacity": 7350,
-   "filling_rate": 0.7888,
+   "weighted_capacity": 8120,
+   "filling_rate": 0.6053,
    "arenas": [
     {
      "arena": "PalaEur",
-     "games": 1,
+     "games": 3,
      "capacity": 11200
     },
     {
      "arena": "Palazzetto dello Sport",
-     "games": 1,
+     "games": 2,
      "capacity": 3500
     }
    ]

@@ -1,6 +1,6 @@
 {
  "season": "2026-27",
- "updated": "2026-11-23T08:57:19+00:00",
+ "updated": "2026-11-24T00:47:01+00:00",
  "model": {
   "source": "Fan_attraction_index_combined.xlsx, Europe 25-26 (frozen for 2026-27)",
   "europe": {
@@ -75,8 +75,8 @@
   },
   "LBA": {
    "clubs": 16,
-   "eligible": 10,
-   "coverage": 0.625,
+   "eligible": 11,
+   "coverage": 0.688,
    "method": "2025/26 baseline × change of clubs reporting in both seasons",
    "change_factor": 0.9937,
    "clubs_in_change": 9,
@@ -2108,12 +2108,16 @@
    "population": 4380590.0,
    "area": "Roma",
    "home_games": 5,
-   "reported_games": 2,
-   "average": 5798,
-   "eligible": false,
-   "filling_rate": 0.7888,
+   "reported_games": 5,
+   "average": 4915,
+   "eligible": true,
+   "filling_rate": 0.6053,
    "arena_full": false,
-   "note": "attendance published for under 50% of home games"
+   "expected_europe": 5173,
+   "index_europe": 0.95,
+   "expected_league": 4838,
+   "index_league": 1.016,
+   "profile": "In line with own league and Europe"
   },
   {
    "league": "LBA",
